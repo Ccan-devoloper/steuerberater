@@ -1013,100 +1013,121 @@
   {
    "klausur": 0,
    "fach": null,
-   "fachLabel": "Mündliche Prüfung",
+   "fachLabel": "Mündliche · Zivilrecht",
    "klausurLabel": "Gratis-PDF",
    "slot": "m1",
    "format": "reel",
    "reelTyp": "klausurfalle",
-   "themaId": "lead-reel-r8",
-   "themaTitel": "Nicht zuhören, wenn andere dran sind",
+   "themaId": "lead-zr-z5",
+   "themaTitel": "Wahr oder falsch: Bürgschaft braucht Schriftform",
+   "zielS": 29.0,
+   "layout": "B",
    "figuren": {
-    "I": {
-     "name": "Nora",
-     "kopf": "Bangs",
-     "haut": "#F3D0B5",
-     "haar": "#C9A15B",
-     "oberteil": "#F9D56E"
+    "M": {
+     "name": "Hanna",
+     "kopf": "Twists",
+     "haut": "#8D5524",
+     "haar": "#1E1410",
+     "oberteil": "#9AD48F"
     }
    },
    "hook": {
     "zeilen": [
-     "„Sehen Sie das",
-     "genauso?“"
+     "Bürgschaft",
+     "braucht immer",
+     "Schriftform."
     ],
-    "icons": [
-     [
-      "tabler:ear",
-      "GELB",
-      "zugehört"
-     ]
+    "pille": "Wahr oder falsch?",
+    "figur": "M/skeptisch",
+    "stil": "split",
+    "split": [
+     {
+      "label": "Wahr",
+      "wert": "stimmt",
+      "farbe": "GRUEN",
+      "wort": "Wahr"
+     },
+     {
+      "label": "Falsch",
+      "wert": "stimmt nicht",
+      "farbe": "ROT",
+      "wort": "falsch"
+     }
     ],
-    "stil": "kippen",
-    "richtig": {
-     "label": "Lösung",
-     "text": "immer mitdenken",
-     "wort": "mitdenken",
-     "farbe": "GRUEN"
-    },
     "stempel": {
-     "text": "erwischt!",
-     "wort": "erwischt"
+     "text": "Achtung!",
+     "wort": "immer"
     },
-    "pille": "Fehler Nr. 6 von 10",
-    "figur": "I/eilt",
-    "name": "Nora"
+    "name": "Hanna"
    },
    "szenen": [
     {
      "seg": "s1",
-     "titel": "Platz 6",
+     "titel": "Grundsatz",
      "elemente": [
       {
-       "typ": "pille",
-       "text": "ohne Vorwarnung weitergegeben",
-       "farbe": "WEISS",
-       "wort": "Vorwarnung"
+       "typ": "block",
+       "label": "Bürge erklärt",
+       "wert": "schriftlich",
+       "farbe": "GELB",
+       "wort": "schriftlich",
+       "zs": 110
       },
       {
-       "typ": "block",
-       "label": "Fehler",
-       "wert": "Nicht zuhören",
-       "farbe": "ROT",
-       "wort": "sechs",
-       "zs": 100
+       "typ": "norm",
+       "text": "§ 766 S. 1 BGB",
+       "wort": "Erklärung"
       }
+     ],
+     "sfx": [
+      [
+       "stempel",
+       "Falsch",
+       0.5
+      ]
      ]
     },
     {
      "seg": "s2",
-     "titel": "Die Frage",
+     "titel": "Ausnahme",
      "elemente": [
       {
        "typ": "block",
-       "label": "nach Bestandskraft",
-       "wert": "neue Belege",
-       "farbe": "GELB",
-       "wort": "Belege",
-       "zs": 100
+       "label": "Kaufmann",
+       "wert": "formfrei",
+       "farbe": "GRUEN",
+       "wort": "formfrei",
+       "zs": 120
       },
       {
        "typ": "norm",
-       "text": "§ 173 Abs. 1 Nr. 2 AO",
-       "wort": "Paragraf"
+       "text": "§ 350 HGB",
+       "wort": "Handelsgeschäft"
       }
      ]
     },
     {
      "seg": "s3",
-     "titel": "Die Ergänzung",
+     "titel": "Bonus",
      "elemente": [
       {
+       "typ": "pille",
+       "text": "per E-Mail?",
+       "farbe": "WEISS",
+       "wort": "E-Mail"
+      },
+      {
        "typ": "block",
-       "label": "zugunsten",
-       "wert": "kein grobes Verschulden",
-       "farbe": "GRUEN",
-       "wort": "grobes",
-       "zs": 76
+       "label": "elektronisch",
+       "wert": "ausgeschlossen",
+       "farbe": "ROT",
+       "wort": "ausgeschlossen",
+       "zs": 100
+      },
+      {
+       "typ": "norm",
+       "text": "§ 766 S. 2 BGB",
+       "wort": "Privatbürgen"
       }
      ]
     }
@@ -1114,55 +1135,58 @@
    "sprecher": [
     {
      "id": "hook",
-     "text": "Sehen Sie das genauso? Wer nicht zugehört hat, ist jetzt erwischt. Also: immer mitdenken."
+     "text": "Wahr oder falsch: Eine Bürgschaft braucht immer Schriftform."
     },
     {
      "id": "s1",
-     "text": "Fragen werden oft ohne Vorwarnung weitergegeben. Platz sechs der häufigsten Fehler."
+     "text": "Falsch. Grundsätzlich muss die Erklärung des Bürgen schriftlich sein."
     },
     {
      "id": "s2",
-     "text": "Beispiel: Nach Bestandskraft tauchen neue Belege auf. Änderung nach Paragraf hundertdreiundsiebzig?"
+     "text": "Aber für einen Kaufmann ist die Bürgschaft formfrei, wenn sie ein Handelsgeschäft ist."
     },
     {
      "id": "s3",
-     "text": "Stark ergänzt: Zugunsten des Steuerpflichtigen nur ohne grobes Verschulden."
+     "text": "Und eine Bürgschaft per E-Mail? Beim Privatbürgen ausdrücklich ausgeschlossen."
     },
     {
      "id": "cta",
-     "text": "Wie du ihn sicher vermeidest, mit Prüfungsszene, Merksatz und Checkliste, gibt es kostenlos. Link in der Bio."
+     "text": "Schick das deinem Lernpartner. Und hol dir die zehn häufigsten Fehler, kostenlos, Link in der Bio."
     }
    ],
    "merke": {
     "seg": "cta",
     "zeilen": [
-     "So vermeidest du ihn:",
-     "Szene, Merksatz,",
-     "Checkliste",
-     "im Gratis-PDF"
+     "Schick das deinem",
+     "Lernpartner!",
+     "Die 10 häufigsten Fehler:",
+     "Gratis-PDF"
     ],
     "woerter": [
-     null,
-     "Prüfungsszene",
-     "Checkliste",
+     "Schick",
+     "Lernpartner",
+     "Fehler",
      "kostenlos"
     ],
     "cta": "Link in der Bio",
     "cta_wort": "Link",
     "hinweis": "Aus über 400 Prüfungsprotokollen"
    },
-   "caption": "Fehler Nr. 6 der Mündlichen: nicht zuhören, wenn andere dran sind. 👂\n\n„Sehen Sie das genauso?“ – Beispiel: Neue Tatsachen nach Bestandskraft, die zu einer niedrigeren Steuer führen: Änderung nach § 173 Abs. 1 Nr. 2 AO nur, wenn den Steuerpflichtigen kein grobes Verschulden daran trifft, dass sie erst nachträglich bekannt werden.\n\nWie du ihn in der Prüfung sicher vermeidest – mit Prüfungsszene, Merksatz und Checkliste – steht im Gratis-PDF „Die 10 größten Fehler in der Mündlichen“, ausgewertet aus über 400 Prüfungsprotokollen. 👉 Link in der Bio",
+   "caption": "Wahr oder falsch: Eine Bürgschaft braucht immer Schriftform? ✍️\n\nFalsch. Grundsatz: schriftliche Erteilung der Bürgschaftserklärung (§ 766 S. 1 BGB), elektronische Form ausgeschlossen (§ 766 S. 2 BGB). Aber: Ist die Bürgschaft auf Seiten des Bürgen ein Handelsgeschäft, gilt die Form nicht (§ 350 HGB).\n\nSchreib deine Antwort in die Kommentare 👇 und schick das Reel deinem Lernpartner.\n\nDie 10 häufigsten Fehler der Mündlichen – mit Prüfungsszenen und Lösungen – als Gratis-PDF, ausgewertet aus über 400 Prüfungsprotokollen. 👉 Link in der Bio",
    "hashtags": [
     "#steuerberaterprüfung",
     "#steuerberaterexamen",
     "#mündlicheprüfung",
-    "#examensvorbereitung"
+    "#examensvorbereitung",
+    "#zivilrecht",
+    "#steuerberater"
    ],
    "quellen": [
-    "§ 173 Abs. 1 Nr. 2 AO"
+    "§ 766 BGB",
+    "§ 350 HGB"
    ],
    "zeit": "19:00",
-   "leadmagnetQuelle": "r8"
+   "leadmagnetQuelle": "z5"
   }
  ],
  "stories": [

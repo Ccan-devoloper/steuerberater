@@ -18,16 +18,18 @@ TAGE = os.path.join(HIER, "..", "..", "..", "social", "op", "tage")
 SLOT = "m1"
 ZEIT = {"reel": "19:00", "karussell": "16:00"}
 B3_BEI_ZUSATZREEL = "17:30"   # Prime Time 19:00 gehört dem Zusatz-Reel; b3 rückt vor
-REIHENFOLGE = ["r1", "k1", "r3", "k2", "r2", "r4", "r5", "r6", "r7", "r8", "r9", "r10", "r11", "r12"]
+REIHEN = {"fehler": ["r1", "k1", "r3", "k2", "r2", "r4", "r5", "r6", "r7", "r8", "r9", "r10", "r11", "r12"],
+          "zivilrecht": ["z1", "z2", "z3", "z4", "z5", "z6", "z7", "z8", "z9", "z10"]}   # ab 31.10.: Prüfungsfragen Zivilrecht
 
 ap = argparse.ArgumentParser()
 ap.add_argument("--start", default="2026-10-27")
+ap.add_argument("--reihe", default="fehler", choices=sorted(REIHEN))
 ap.add_argument("--entfernen", action="store_true", help="m1 aus allen Tagen wieder herausnehmen")
 a = ap.parse_args()
 
 alle = {b()["slot"]: b for b in spec.KARUSSELLS + spec.REELS}
 start = dt.date.fromisoformat(a.start)
-for i, quelle in enumerate(REIHENFOLGE):
+for i, quelle in enumerate(REIHEN[a.reihe]):
     datum = (start + dt.timedelta(days=i)).isoformat()
     pfad = os.path.join(TAGE, datum + ".json")
     if not os.path.exists(pfad):
@@ -36,6 +38,7 @@ for i, quelle in enumerate(REIHENFOLGE):
     tag["beitraege"] = [b for b in tag["beitraege"] if b["slot"] != SLOT]
     if not a.entfernen:
         b = alle[quelle]()
+        b.pop("zielS", None) if not b.get("zielS") else None
         b["slot"] = SLOT
         b["zeit"] = ZEIT["reel" if b["format"] == "reel" else "karussell"]
         if b["format"] != "reel":

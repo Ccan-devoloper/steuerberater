@@ -878,108 +878,146 @@
   {
    "klausur": 0,
    "fach": null,
-   "fachLabel": "Mündliche Prüfung",
+   "fachLabel": "Mündliche · Zivilrecht",
    "klausurLabel": "Gratis-PDF",
    "slot": "m1",
    "format": "reel",
    "reelTyp": "klausurfalle",
-   "themaId": "lead-reel-r11",
-   "themaTitel": "Eine schlechte Runde mitnehmen",
+   "themaId": "lead-zr-z8",
+   "themaTitel": "Teste dich: Testament am PC geschrieben",
+   "zielS": 29.0,
+   "layout": "A",
    "figuren": {
-    "L": {
-     "name": "Emre",
-     "kopf": "Flat Top",
+    "A": {
+     "name": "Mara",
+     "kopf": "Medium Straight",
      "haut": "#C99470",
      "haar": "#2A1B14",
-     "oberteil": "#F4A3B5"
+     "oberteil": "#F4A3B5",
+     "brille": "Glasses",
+     "bueste": "Blazer Black Tee"
     }
    },
    "hook": {
     "zeilen": [
-     "Runde verhauen.",
-     "Alles vorbei?"
+     "Testament am PC,",
+     "eigenhändig",
+     "unterschrieben?"
     ],
-    "icons": [
-     [
-      "tabler:mood-sad",
-      "GELB",
-      "verhauen"
-     ]
-    ],
+    "pille": "Teste dich · 3 Sekunden",
+    "figur": "A/sorge",
     "stil": "split",
     "split": [
      {
-      "label": "Gefühl",
-      "wert": "verloren",
-      "farbe": "ROT",
-      "wort": "verhauen"
+      "label": "Zeit",
+      "wert": "3 Sek.",
+      "farbe": "GELB",
+      "wort": "Sekunden"
      },
      {
-      "label": "Tatsache",
-      "wert": "neue Chance",
-      "farbe": "GRUEN",
-      "wort": "vorbei"
+      "label": "Wirksam?",
+      "wert": "A · B · C",
+      "farbe": "WEISS",
+      "wort": "Wirksam"
      }
     ],
     "stempel": {
-     "text": "nein!",
-     "wort": "Nein"
+     "text": "Erbrecht!",
+     "wort": "unterschrieben"
     },
-    "pille": "Fehler Nr. 9 von 10",
-    "figur": "L/sorge",
-    "name": "Emre"
+    "name": "Mara"
    },
    "szenen": [
     {
      "seg": "s1",
-     "titel": "Gesondert bewertet",
+     "titel": "A, B oder C?",
      "elemente": [
       {
-       "typ": "block",
-       "label": "gesondert bewertet",
-       "wert": "Vortrag + 6 Runden",
-       "farbe": "GELB",
-       "wort": "gesondert",
-       "zs": 90
+       "typ": "pille",
+       "text": "A  ja",
+       "farbe": "WEISS",
+       "wort": "ja"
       },
       {
-       "typ": "norm",
-       "text": "§ 27 Abs. 1 DVStB",
-       "wort": "bewertet"
+       "typ": "pille",
+       "text": "B  nur mit Datum",
+       "farbe": "WEISS",
+       "wort": "B"
+      },
+      {
+       "typ": "pille",
+       "text": "C  nein",
+       "farbe": "WEISS",
+       "wort": "C"
+      },
+      {
+       "typ": "zahl",
+       "text": "3 … 2 … 1",
+       "size": 110,
+       "wort": "Drei"
       }
+     ],
+     "icon": [
+      "tabler:clock",
+      "GELB",
+      "Drei"
+     ],
+     "sfx": [
+      [
+       "rechner",
+       "Drei",
+       0.6
+      ]
      ]
     },
     {
      "seg": "s2",
-     "titel": "Am Ende",
+     "titel": "Auflösung",
      "elemente": [
       {
        "typ": "block",
-       "label": "zählt",
-       "wert": "der Durchschnitt",
-       "farbe": "WEISS",
-       "wort": "Durchschnitt",
-       "zs": 100
+       "label": "Testament",
+       "wert": "unwirksam",
+       "farbe": "ROT",
+       "wort": "Richtig",
+       "zs": 120
       },
       {
-       "typ": "pille",
-       "text": "neue Runde, neue Chance",
-       "farbe": "WEISS",
-       "wort": "Chance"
+       "typ": "norm",
+       "text": "§ 2247 Abs. 1 BGB",
+       "wort": "handgeschrieben"
       }
+     ],
+     "sfx": [
+      [
+       "stempel",
+       "Richtig",
+       0.6
+      ]
      ]
     },
     {
      "seg": "s3",
-     "titel": "Platz 9",
+     "titel": "Die Nachfrage",
      "elemente": [
       {
+       "typ": "pille",
+       "text": "Ehegattentestament",
+       "farbe": "WEISS",
+       "wort": "Ehegattentestament"
+      },
+      {
        "typ": "block",
-       "label": "Fehler",
-       "wert": "Runde mitnehmen",
-       "farbe": "ROT",
-       "wort": "neun",
-       "zs": 100
+       "label": "einer schreibt",
+       "wert": "beide unterschreiben",
+       "farbe": "GELB",
+       "wort": "beide",
+       "zs": 90
+      },
+      {
+       "typ": "norm",
+       "text": "§ 2267 BGB",
+       "wort": "unterschreiben"
       }
      ]
     }
@@ -987,56 +1025,58 @@
    "sprecher": [
     {
      "id": "hook",
-     "text": "Eine Runde verhauen. Ist jetzt alles vorbei? Nein."
+     "text": "Drei Sekunden: Testament am Computer, eigenhändig unterschrieben. Wirksam?"
     },
     {
      "id": "s1",
-     "text": "Der Vortrag und jede Runde werden gesondert bewertet."
+     "text": "A, ja. B, nur mit Datum. C, nein. Drei, zwei, eins."
     },
     {
      "id": "s2",
-     "text": "Am Ende zählt der Durchschnitt. Jede neue Runde ist eine neue Chance."
+     "text": "Richtig ist C. Es muss komplett handgeschrieben sein."
     },
     {
      "id": "s3",
-     "text": "Eine schlechte Runde mitnehmen ist Platz neun der häufigsten Fehler."
+     "text": "Und beim Ehegattentestament? Einer schreibt, beide unterschreiben."
     },
     {
      "id": "cta",
-     "text": "Wie du ihn sicher vermeidest, mit Prüfungsszene, Merksatz und Checkliste, gibt es kostenlos. Link in der Bio."
+     "text": "Schick das deinem Lernpartner. Und hol dir die zehn häufigsten Fehler, kostenlos, Link in der Bio."
     }
    ],
    "merke": {
     "seg": "cta",
     "zeilen": [
-     "So vermeidest du ihn:",
-     "Szene, Merksatz,",
-     "Checkliste",
-     "im Gratis-PDF"
+     "Schick das deinem",
+     "Lernpartner!",
+     "Die 10 häufigsten Fehler:",
+     "Gratis-PDF"
     ],
     "woerter": [
-     null,
-     "Prüfungsszene",
-     "Checkliste",
+     "Schick",
+     "Lernpartner",
+     "Fehler",
      "kostenlos"
     ],
     "cta": "Link in der Bio",
     "cta_wort": "Link",
     "hinweis": "Aus über 400 Prüfungsprotokollen"
    },
-   "caption": "Fehler Nr. 9 der Mündlichen: eine schlechte Runde mitnehmen. 😮‍💨\n\nVortrag und jeder Prüfungsabschnitt werden gesondert bewertet (§ 27 Abs. 1 DVStB); am Ende zählt der Durchschnitt aus schriftlicher und mündlicher Gesamtnote (§ 28 Abs. 1 S. 2 DVStB). Jede Runde ist eine neue Chance.\n\nWie du ihn in der Prüfung sicher vermeidest – mit Prüfungsszene, Merksatz und Checkliste – steht im Gratis-PDF „Die 10 größten Fehler in der Mündlichen“, ausgewertet aus über 400 Prüfungsprotokollen. 👉 Link in der Bio",
+   "caption": "Teste dich: Testament am PC getippt, aber eigenhändig unterschrieben – wirksam? 📝\n\nA) ja  B) nur mit Datum  C) nein\n\nAuflösung: C. Das eigenhändige Testament muss vollständig eigenhändig geschrieben und unterschrieben sein (§ 2247 Abs. 1 BGB). Gemeinschaftliches Ehegattentestament: Es genügt, wenn ein Ehegatte es eigenhändig schreibt und beide unterschreiben (§ 2267 BGB).\n\nSchreib deine Antwort in die Kommentare 👇 und schick das Reel deinem Lernpartner.\n\nDie 10 häufigsten Fehler der Mündlichen – mit Prüfungsszenen und Lösungen – als Gratis-PDF, ausgewertet aus über 400 Prüfungsprotokollen. 👉 Link in der Bio",
    "hashtags": [
     "#steuerberaterprüfung",
     "#steuerberaterexamen",
     "#mündlicheprüfung",
-    "#examensvorbereitung"
+    "#examensvorbereitung",
+    "#zivilrecht",
+    "#steuerberater"
    ],
    "quellen": [
-    "§ 27 Abs. 1 DVStB",
-    "§ 28 Abs. 1 S. 2 DVStB"
+    "§ 2247 Abs. 1 BGB",
+    "§ 2267 BGB"
    ],
    "zeit": "19:00",
-   "leadmagnetQuelle": "r11"
+   "leadmagnetQuelle": "z8"
   }
  ],
  "stories": [

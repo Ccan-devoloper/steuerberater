@@ -981,129 +981,124 @@
   {
    "klausur": 0,
    "fach": null,
-   "fachLabel": "Mündliche Prüfung",
+   "fachLabel": "Mündliche · Zivilrecht",
    "klausurLabel": "Gratis-PDF",
    "slot": "m1",
    "format": "reel",
    "reelTyp": "klausurfalle",
-   "themaId": "lead-reel-r7",
-   "themaTitel": "Randgebiete vernachlässigen",
+   "themaId": "lead-zr-z4",
+   "themaTitel": "Darf der Prokurist das Grundstück verkaufen?",
+   "zielS": 29.0,
+   "layout": "C",
    "figuren": {
-    "H": {
-     "name": "Paul",
-     "kopf": "Medium 1",
-     "haut": "#E8B48F",
-     "haar": "#6B3E26",
-     "oberteil": "#8DB3F2",
-     "bart": "Full 2"
+    "L": {
+     "name": "Emre",
+     "kopf": "Flat Top",
+     "haut": "#C99470",
+     "haar": "#2A1B14",
+     "oberteil": "#F4A3B5"
     }
    },
    "hook": {
     "zeilen": [
-     "Welche EU-Organe",
-     "kennst du?"
+     "Prokurist verkauft",
+     "Firmengrundstück."
     ],
-    "icons": [
-     [
-      "tabler:building-bank",
-      "GELB",
-      "Randgebiet"
-     ]
-    ],
+    "pille": "Prüferfrage",
+    "figur": "L/sorge",
     "stil": "split",
     "split": [
      {
-      "label": "Viele nennen",
-      "wert": "2",
-      "farbe": "ROT",
-      "wort": "zwei"
+      "label": "Prokura",
+      "wert": "umfassend",
+      "farbe": "GELB",
+      "wort": "Prokurist"
      },
      {
-      "label": "Richtig",
-      "wert": "7",
-      "farbe": "GRUEN",
-      "wort": "sieben"
+      "label": "Grundstück?",
+      "wert": "Vorsicht",
+      "farbe": "ROT",
+      "wort": "Darf"
      }
     ],
     "stempel": {
-     "text": "Randgebiet!",
-     "wort": "Randgebiet"
+     "text": "Falle!",
+     "wort": "Darf"
     },
-    "pille": "Fehler Nr. 5 von 10",
-    "figur": "H/ruhig",
-    "name": "Paul"
+    "name": "Emre"
    },
    "szenen": [
     {
      "seg": "s1",
-     "titel": "Platz 5",
+     "titel": "Grundsatz",
      "elemente": [
       {
        "typ": "block",
-       "label": "Fehler",
-       "wert": "Randgebiete",
-       "farbe": "ROT",
-       "wort": "Randgebiete",
-       "zs": 110
+       "label": "Prokura",
+       "wert": "fast alles",
+       "farbe": "GELB",
+       "wort": "weit",
+       "zs": 120
+      },
+      {
+       "typ": "norm",
+       "text": "§ 49 Abs. 1 HGB",
+       "wort": "Handelsgewerbes"
       }
-     ]
+     ],
+     "blase": "Fast alles!",
+     "blase_wort": "weit"
     },
     {
      "seg": "s2",
-     "titel": "Die Organe",
+     "titel": "Ausnahme",
      "elemente": [
       {
-       "typ": "pille",
-       "text": "Europäisches Parlament",
-       "farbe": "WEISS",
-       "wort": "Parlament"
+       "typ": "block",
+       "label": "Grundstück",
+       "wert": "nur mit Extra-Befugnis",
+       "farbe": "ROT",
+       "wort": "Grundstücke",
+       "zs": 80
       },
       {
-       "typ": "pille",
-       "text": "Europäischer Rat",
-       "farbe": "WEISS",
-       "wort": "Europäischer"
-      },
-      {
-       "typ": "pille",
-       "text": "Rat",
-       "farbe": "WEISS",
-       "wort": "der"
-      },
-      {
-       "typ": "pille",
-       "text": "Kommission",
-       "farbe": "WEISS",
-       "wort": "Kommission"
+       "typ": "norm",
+       "text": "§ 49 Abs. 2 HGB",
+       "wort": "besonderer"
       }
+     ],
+     "blase": "Außer …",
+     "blase_wort": "Aber",
+     "sfx": [
+      [
+       "riss",
+       "Aber",
+       0.5
+      ]
      ]
     },
     {
      "seg": "s3",
-     "titel": "… und weiter",
+     "titel": "Nachfrage",
      "elemente": [
       {
        "typ": "pille",
-       "text": "Gerichtshof der EU",
+       "text": "interne Grenzen?",
        "farbe": "WEISS",
-       "wort": "Gerichtshof"
+       "wort": "Beschränkungen"
       },
       {
-       "typ": "pille",
-       "text": "Europäische Zentralbank",
-       "farbe": "WEISS",
-       "wort": "Zentralbank"
-      },
-      {
-       "typ": "pille",
-       "text": "Rechnungshof",
-       "farbe": "WEISS",
-       "wort": "Rechnungshof"
+       "typ": "block",
+       "label": "gegenüber Dritten",
+       "wert": "unwirksam",
+       "farbe": "GRUEN",
+       "wort": "Dritten",
+       "zs": 100
       },
       {
        "typ": "norm",
-       "text": "Art. 13 Abs. 1 EUV",
-       "wort": "Artikel"
+       "text": "§ 50 Abs. 1 HGB",
+       "wort": "nicht"
       }
      ]
     }
@@ -1111,55 +1106,59 @@
    "sprecher": [
     {
      "id": "hook",
-     "text": "Welche Organe der EU kennst du? Viele nennen zwei. Richtig sind sieben. Ein typisches Randgebiet."
+     "text": "Prokurist verkauft das Firmengrundstück. Darf er das?"
     },
     {
      "id": "s1",
-     "text": "Randgebiete wie Europarecht sind Platz fünf der häufigsten Fehler."
+     "text": "Die Prokura ist weit. Sie deckt fast alle Geschäfte eines Handelsgewerbes."
     },
     {
      "id": "s2",
-     "text": "Parlament, Europäischer Rat, der Rat, Kommission,"
+     "text": "Aber: Grundstücke veräußern oder belasten darf er nur mit besonderer Befugnis."
     },
     {
      "id": "s3",
-     "text": "Gerichtshof, Zentralbank und Rechnungshof. Artikel dreizehn des EU-Vertrags."
+     "text": "Und Beschränkungen im Innenverhältnis? Gelten gegenüber Dritten nicht."
     },
     {
      "id": "cta",
-     "text": "Wie du ihn sicher vermeidest, mit Prüfungsszene, Merksatz und Checkliste, gibt es kostenlos. Link in der Bio."
+     "text": "Die zehn häufigsten Fehler der Mündlichen: kostenlos, Link in der Bio."
     }
    ],
    "merke": {
     "seg": "cta",
     "zeilen": [
-     "So vermeidest du ihn:",
-     "Szene, Merksatz,",
-     "Checkliste",
-     "im Gratis-PDF"
+     "Hättest du es gewusst?",
+     "Die 10 häufigsten",
+     "Fehler als",
+     "Gratis-PDF"
     ],
     "woerter": [
      null,
-     "Prüfungsszene",
-     "Checkliste",
+     "zehn",
+     "Fehler",
      "kostenlos"
     ],
     "cta": "Link in der Bio",
     "cta_wort": "Link",
     "hinweis": "Aus über 400 Prüfungsprotokollen"
    },
-   "caption": "Fehler Nr. 5 der Mündlichen: Randgebiete vernachlässigen. 🇪🇺\n\nDie Organe der EU nach Art. 13 Abs. 1 EUV: Europäisches Parlament, Europäischer Rat, Rat, Europäische Kommission, Gerichtshof der EU, Europäische Zentralbank und Rechnungshof.\n\nWie du ihn in der Prüfung sicher vermeidest – mit Prüfungsszene, Merksatz und Checkliste – steht im Gratis-PDF „Die 10 größten Fehler in der Mündlichen“, ausgewertet aus über 400 Prüfungsprotokollen. 👉 Link in der Bio",
+   "caption": "Prokurist verkauft das Firmengrundstück – geht das? 🏢\n\nDie Prokura ermächtigt zu allen Geschäften, die der Betrieb eines Handelsgewerbes mit sich bringt (§ 49 Abs. 1 HGB). Grundstücke veräußern und belasten nur mit besonderer Befugnis (§ 49 Abs. 2 HGB). Beschränkungen im Innenverhältnis sind Dritten gegenüber unwirksam (§ 50 Abs. 1 HGB).\n\nSchreib deine Antwort in die Kommentare 👇 und schick das Reel deinem Lernpartner.\n\nDie 10 häufigsten Fehler der Mündlichen – mit Prüfungsszenen und Lösungen – als Gratis-PDF, ausgewertet aus über 400 Prüfungsprotokollen. 👉 Link in der Bio",
    "hashtags": [
     "#steuerberaterprüfung",
     "#steuerberaterexamen",
     "#mündlicheprüfung",
-    "#examensvorbereitung"
+    "#examensvorbereitung",
+    "#zivilrecht",
+    "#steuerberater"
    ],
    "quellen": [
-    "Art. 13 Abs. 1 EUV"
+    "§ 49 Abs. 1 HGB",
+    "§ 49 Abs. 2 HGB",
+    "§ 50 Abs. 1 HGB"
    ],
    "zeit": "19:00",
-   "leadmagnetQuelle": "r7"
+   "leadmagnetQuelle": "z4"
   }
  ],
  "stories": [

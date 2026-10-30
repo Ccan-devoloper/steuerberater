@@ -417,7 +417,12 @@ class Reel:
         for sid, txt in segs:
             fehl = stimme.aussprache_pruefen(txt)
             assert not fehl, f"Reel {self.datum} {sid}: im Sprechertext ausschreiben: {fehl}"
-        Z = stimme.vertonen(segs, wav, pausen={"hook": 0.3, "cta": 0.5})
+        ziel_alt = stimme.ZIEL_S
+        stimme.ZIEL_S = self.s.get("zielS") or ziel_alt          # z. B. Leadmagnet-Reels: höchstens 30 s
+        try:
+            Z = stimme.vertonen(segs, wav, pausen={"hook": 0.3, "cta": 0.5})
+        finally:
+            stimme.ZIEL_S = ziel_alt
         assert Z["dauer"] <= k.MARKE["reelMaxS"], f"Reel {self.datum}: {Z['dauer']} s – Sprechertext kürzen"
         self.Z, self.SEG = Z, {s["name"]: s for s in Z["segmente"]}
         starts = [self.SEG[x["id"]]["start"] for x in self.s["sprecher"]]

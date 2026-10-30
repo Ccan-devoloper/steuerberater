@@ -762,106 +762,135 @@
   {
    "klausur": 0,
    "fach": null,
-   "fachLabel": "Mündliche Prüfung",
+   "fachLabel": "Mündliche · Zivilrecht",
    "klausurLabel": "Gratis-PDF",
    "slot": "m1",
    "format": "reel",
    "reelTyp": "klausurfalle",
-   "themaId": "lead-reel-r5",
-   "themaTitel": "Aktuelles nicht auf dem Schirm",
+   "themaId": "lead-zr-z2",
+   "themaTitel": "Teste dich: Handy auf Raten mit 17",
+   "zielS": 29.0,
+   "layout": "B",
    "figuren": {
-    "F": {
-     "name": "Ben",
-     "kopf": "Short 1",
-     "haut": "#F0C8A8",
-     "haar": "#8B5A2B",
-     "oberteil": "#F9D56E",
-     "brille": "Glasses 3"
+    "J": {
+     "name": "Yusuf",
+     "kopf": "Short 5",
+     "haut": "#B07552",
+     "haar": "#1E1410",
+     "oberteil": "#9AD48F",
+     "bart": "Goatee 1"
     }
    },
    "hook": {
     "zeilen": [
-     "„Was ist neu?“",
-     "Und du schweigst?"
+     "17 Jahre,",
+     "Handy auf Raten.",
+     "Wirksam?"
     ],
-    "icons": [
-     [
-      "tabler:news",
-      "GELB",
-      "Klassiker"
-     ]
-    ],
+    "pille": "Teste dich · 3 Sekunden",
+    "figur": "J/sorge",
     "stil": "split",
     "split": [
      {
-      "label": "Gefragt",
-      "wert": "Neuerungen",
+      "label": "Zeit",
+      "wert": "3 Sek.",
       "farbe": "GELB",
-      "wort": "neu"
+      "wort": "Sekunden"
      },
      {
-      "label": "Fehler",
-      "wert": "Platz 3",
-      "farbe": "ROT",
-      "wort": "Platz"
+      "label": "Antwort",
+      "wert": "A · B · C",
+      "farbe": "WEISS",
+      "wort": "Wirksam"
      }
     ],
     "stempel": {
      "text": "Klassiker!",
-     "wort": "Klassiker"
+     "wort": "Raten"
     },
-    "pille": "Fehler Nr. 3 von 10",
-    "figur": "F/sorge",
-    "name": "Ben"
+    "name": "Yusuf"
    },
    "szenen": [
     {
      "seg": "s1",
-     "titel": "Der Einstieg",
+     "titel": "A, B oder C?",
      "elemente": [
       {
        "typ": "pille",
-       "text": "Jeder nennt eine Neuerung",
+       "text": "A  wirksam (Taschengeld)",
        "farbe": "WEISS",
-       "wort": "Neuerung"
+       "wort": "ja"
+      },
+      {
+       "typ": "pille",
+       "text": "B  schwebend unwirksam",
+       "farbe": "WEISS",
+       "wort": "B"
+      },
+      {
+       "typ": "pille",
+       "text": "C  nichtig",
+       "farbe": "WEISS",
+       "wort": "C"
+      },
+      {
+       "typ": "zahl",
+       "text": "3 … 2 … 1",
+       "size": 110,
+       "wort": "Drei"
       }
      ],
-     "icon": [
-      "tabler:news",
-      "GELB",
-      "Prüfer"
+     "sfx": [
+      [
+       "rechner",
+       "Drei",
+       0.6
+      ]
      ]
     },
     {
      "seg": "s2",
-     "titel": "Zum Beispiel",
+     "titel": "Auflösung",
      "elemente": [
       {
        "typ": "block",
-       "label": "seit 2025",
-       "wert": "E-Rechnung empfangen",
-       "farbe": "GELB",
-       "wort": "empfangen",
-       "zs": 80
+       "label": "Richtig",
+       "wert": "B",
+       "farbe": "GRUEN",
+       "wort": "Richtig",
+       "zs": 150
+      },
+      {
+       "typ": "norm",
+       "text": "§ 110 BGB",
+       "wort": "Taschengeldparagraf"
       }
+     ],
+     "sfx": [
+      [
+       "stempel",
+       "Richtig",
+       0.6
+      ]
      ]
     },
     {
      "seg": "s3",
-     "titel": "Ausstellen",
+     "titel": "Der Haken",
      "elemente": [
       {
-       "typ": "block",
-       "label": "Übergang",
-       "wert": "bis Ende 2026 / 2027",
+       "typ": "pille",
+       "text": "erst mit letzter Rate",
        "farbe": "WEISS",
-       "wort": "Übergangsfristen",
-       "zs": 90
+       "wort": "letzten"
       },
       {
-       "typ": "norm",
-       "text": "§ 27 Abs. 38 UStG",
-       "wort": "Ausstellen"
+       "typ": "block",
+       "label": "bis dahin",
+       "wert": "Eltern entscheiden",
+       "farbe": "ROT",
+       "wort": "Eltern",
+       "zs": 90
       }
      ]
     }
@@ -869,55 +898,58 @@
    "sprecher": [
     {
      "id": "hook",
-     "text": "Was ist neu? Diese Frage ist ein Klassiker in der Mündlichen. Und Platz drei der häufigsten Fehler."
+     "text": "Drei Sekunden: Siebzehn, Handy auf Raten, mit Taschengeld. Wirksam?"
     },
     {
      "id": "s1",
-     "text": "Viele Prüfer starten so: Jeder nennt eine aktuelle Neuerung."
+     "text": "A, ja. B, schwebend unwirksam. C, nichtig. Drei, zwei, eins."
     },
     {
      "id": "s2",
-     "text": "Zum Beispiel die E-Rechnung. Seit zweitausendfünfundzwanzig müssen Unternehmer sie empfangen können."
+     "text": "Richtig ist B. Der Taschengeldparagraf greift erst, wenn alles bezahlt ist."
     },
     {
      "id": "s3",
-     "text": "Für das Ausstellen gibt es Übergangsfristen bis Ende zweitausendsiebenundzwanzig."
+     "text": "Bis zur letzten Rate entscheiden die Eltern."
     },
     {
      "id": "cta",
-     "text": "Wie du ihn sicher vermeidest, mit Prüfungsszene, Merksatz und Checkliste, gibt es kostenlos. Link in der Bio."
+     "text": "Schick das deinem Lernpartner. Und hol dir die zehn häufigsten Fehler, kostenlos, Link in der Bio."
     }
    ],
    "merke": {
     "seg": "cta",
     "zeilen": [
-     "So vermeidest du ihn:",
-     "Szene, Merksatz,",
-     "Checkliste",
-     "im Gratis-PDF"
+     "Schick das deinem",
+     "Lernpartner!",
+     "Die 10 häufigsten Fehler:",
+     "Gratis-PDF"
     ],
     "woerter": [
-     null,
-     "Prüfungsszene",
-     "Checkliste",
+     "Schick",
+     "Lernpartner",
+     "Fehler",
      "kostenlos"
     ],
     "cta": "Link in der Bio",
     "cta_wort": "Link",
     "hinweis": "Aus über 400 Prüfungsprotokollen"
    },
-   "caption": "Fehler Nr. 3 der Mündlichen: Aktuelles nicht auf dem Schirm. 📰\n\n„Was ist neu?“ ist ein Klassiker. Beispiel E-Rechnung: Seit 2025 müssen inländische Unternehmer E-Rechnungen empfangen können; für die Ausstellung gelten Übergangsregeln bis Ende 2026 bzw. – bei höchstens 800.000 € Vorjahresumsatz – bis Ende 2027 (§ 27 Abs. 38 UStG).\n\nWie du ihn in der Prüfung sicher vermeidest – mit Prüfungsszene, Merksatz und Checkliste – steht im Gratis-PDF „Die 10 größten Fehler in der Mündlichen“, ausgewertet aus über 400 Prüfungsprotokollen. 👉 Link in der Bio",
+   "caption": "Teste dich: 17-Jähriger kauft mit Taschengeld ein Handy auf Raten – wirksam? 📱\n\nA) ja  B) schwebend unwirksam  C) nichtig\n\nAuflösung: B. § 110 BGB greift erst, wenn die Leistung vollständig mit überlassenen Mitteln bewirkt ist – bei Ratenkauf also erst mit der letzten Rate. Bis dahin hängt die Wirksamkeit von der Genehmigung der Eltern ab (§ 108 BGB).\n\nSchreib deine Antwort in die Kommentare 👇 und schick das Reel deinem Lernpartner.\n\nDie 10 häufigsten Fehler der Mündlichen – mit Prüfungsszenen und Lösungen – als Gratis-PDF, ausgewertet aus über 400 Prüfungsprotokollen. 👉 Link in der Bio",
    "hashtags": [
     "#steuerberaterprüfung",
     "#steuerberaterexamen",
     "#mündlicheprüfung",
-    "#examensvorbereitung"
+    "#examensvorbereitung",
+    "#zivilrecht",
+    "#steuerberater"
    ],
    "quellen": [
-    "§ 27 Abs. 38 UStG"
+    "§ 110 BGB",
+    "§ 108 BGB"
    ],
    "zeit": "19:00",
-   "leadmagnetQuelle": "r5"
+   "leadmagnetQuelle": "z2"
   }
  ],
  "stories": [

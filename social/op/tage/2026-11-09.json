@@ -871,7 +871,7 @@
   },
   {
    "slot": "b3",
-   "zeit": "19:00",
+   "zeit": "17:30",
    "format": "reel",
    "reelTyp": "rechnung",
    "klausur": 1,
@@ -1092,6 +1092,184 @@
     "§ 13 Abs. 1 Nr. 4c S. 1, 5 ErbStG",
     "§ 16 Abs. 1 Nr. 2 ErbStG"
    ]
+  },
+  {
+   "klausur": 0,
+   "fach": null,
+   "fachLabel": "Mündliche · Zivilrecht",
+   "klausurLabel": "Gratis-PDF",
+   "slot": "m1",
+   "format": "reel",
+   "reelTyp": "klausurfalle",
+   "themaId": "lead-zr-z10",
+   "themaTitel": "Teste dich: Wann ist die Forderung verjährt?",
+   "zielS": 29.0,
+   "layout": "C",
+   "figuren": {
+    "B": {
+     "name": "Tarek",
+     "kopf": "Short 4",
+     "haut": "#B07552",
+     "haar": "#1E1410",
+     "oberteil": "#9AD48F",
+     "bueste": "Button Shirt 1"
+    }
+   },
+   "hook": {
+    "zeilen": [
+     "Forderung vom",
+     "März 2023.",
+     "Wann verjährt?"
+    ],
+    "pille": "Rechne mit",
+    "figur": "B/skeptisch",
+    "stil": "split",
+    "split": [
+     {
+      "label": "entstanden",
+      "wert": "März 2023",
+      "farbe": "WEISS",
+      "wort": "März"
+     },
+     {
+      "label": "verjährt",
+      "wert": "?",
+      "farbe": "GELB",
+      "wort": "Wann"
+     }
+    ],
+    "stempel": {
+     "text": "Rechne!",
+     "wort": "Wann"
+    },
+    "name": "Tarek"
+   },
+   "szenen": [
+    {
+     "seg": "s1",
+     "titel": "Die Frist",
+     "elemente": [
+      {
+       "typ": "zahl",
+       "text": "3 Jahre",
+       "size": 160,
+       "wort": "drei"
+      },
+      {
+       "typ": "norm",
+       "text": "§ 195 BGB",
+       "wort": "Regelverjährung"
+      }
+     ],
+     "blase": "Drei Jahre!",
+     "blase_wort": "drei"
+    },
+    {
+     "seg": "s2",
+     "titel": "Der Beginn",
+     "elemente": [
+      {
+       "typ": "block",
+       "label": "Beginn",
+       "wert": "31.12.2023",
+       "farbe": "GELB",
+       "wort": "Schluss",
+       "zs": 110
+      },
+      {
+       "typ": "norm",
+       "text": "§ 199 Abs. 1 BGB",
+       "wort": "Jahres"
+      }
+     ],
+     "blase": "Jahresende!",
+     "blase_wort": "Schluss"
+    },
+    {
+     "seg": "s3",
+     "titel": "Ergebnis",
+     "elemente": [
+      {
+       "typ": "block",
+       "label": "verjährt mit Ablauf",
+       "wert": "31.12.2026",
+       "farbe": "GRUEN",
+       "wort": "Verjährt",
+       "zs": 110
+      },
+      {
+       "typ": "pille",
+       "text": "nicht im März 2026!",
+       "farbe": "ROT",
+       "wort": "März"
+      }
+     ],
+     "blase": "Nicht März!",
+     "blase_wort": "März",
+     "sfx": [
+      [
+       "rechner",
+       "Verjährt",
+       0.6
+      ]
+     ]
+    }
+   ],
+   "sprecher": [
+    {
+     "id": "hook",
+     "text": "Forderung vom März zweitausenddreiundzwanzig. Wann verjährt sie?"
+    },
+    {
+     "id": "s1",
+     "text": "Die Regelverjährung beträgt drei Jahre."
+    },
+    {
+     "id": "s2",
+     "text": "Aber sie beginnt erst mit dem Schluss des Jahres. Also am einunddreißigsten Dezember zweitausenddreiundzwanzig."
+    },
+    {
+     "id": "s3",
+     "text": "Verjährt mit Ablauf des einunddreißigsten Dezember zweitausendsechsundzwanzig. Wer März sagt, verliert Punkte."
+    },
+    {
+     "id": "cta",
+     "text": "Die zehn häufigsten Fehler der Mündlichen: kostenlos, Link in der Bio."
+    }
+   ],
+   "merke": {
+    "seg": "cta",
+    "zeilen": [
+     "Hättest du es gewusst?",
+     "Die 10 häufigsten",
+     "Fehler als",
+     "Gratis-PDF"
+    ],
+    "woerter": [
+     null,
+     "zehn",
+     "Fehler",
+     "kostenlos"
+    ],
+    "cta": "Link in der Bio",
+    "cta_wort": "Link",
+    "hinweis": "Aus über 400 Prüfungsprotokollen"
+   },
+   "caption": "Teste dich: Forderung entstanden im März 2023 – wann ist sie verjährt? 📅\n\nRegelverjährung drei Jahre (§ 195 BGB), Beginn mit dem Schluss des Jahres, in dem der Anspruch entstanden ist und der Gläubiger Kenntnis erlangt hat (§ 199 Abs. 1 BGB). Verjährt also mit Ablauf des 31.12.2026.\n\nSchreib deine Antwort in die Kommentare 👇 und schick das Reel deinem Lernpartner.\n\nDie 10 häufigsten Fehler der Mündlichen – mit Prüfungsszenen und Lösungen – als Gratis-PDF, ausgewertet aus über 400 Prüfungsprotokollen. 👉 Link in der Bio",
+   "hashtags": [
+    "#steuerberaterprüfung",
+    "#steuerberaterexamen",
+    "#mündlicheprüfung",
+    "#examensvorbereitung",
+    "#zivilrecht",
+    "#steuerberater"
+   ],
+   "quellen": [
+    "§ 195 BGB",
+    "§ 199 Abs. 1 BGB"
+   ],
+   "zeit": "19:00",
+   "leadmagnetQuelle": "z10"
   }
  ],
  "stories": [

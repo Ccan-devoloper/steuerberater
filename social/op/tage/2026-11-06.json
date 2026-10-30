@@ -976,163 +976,178 @@
   {
    "klausur": 0,
    "fach": null,
-   "fachLabel": "Mündliche Prüfung",
+   "fachLabel": "Mündliche · Zivilrecht",
    "klausurLabel": "Gratis-PDF",
    "slot": "m1",
    "format": "reel",
    "reelTyp": "klausurfalle",
-   "themaId": "lead-reel-r10",
-   "themaTitel": "Keine Rückfragen zum Sachverhalt",
+   "themaId": "lead-zr-z7",
+   "themaTitel": "Schenkung ohne Notar unwirksam?",
+   "zielS": 29.0,
+   "layout": "A",
    "figuren": {
-    "K": {
-     "name": "Clara",
-     "kopf": "Gray Medium",
-     "haut": "#F0C8A8",
-     "haar": "#BFBFBF",
-     "oberteil": "#8DB3F2",
-     "brille": "Glasses"
+    "C": {
+     "name": "Lena",
+     "kopf": "Bun 2",
+     "haut": "#F3D0B5",
+     "haar": "#6B3E26",
+     "oberteil": "#F9D56E",
+     "bueste": "Sweater"
     }
    },
    "hook": {
     "zeilen": [
-     "Familienheim an die",
-     "Tochter: steuerfrei?"
+     "Schenkung ohne",
+     "Notar? Unwirksam."
     ],
+    "pille": "Fast richtig ist falsch",
+    "figur": "C/skeptisch",
+    "stil": "kippen",
     "icons": [
      [
-      "tabler:home",
+      "tabler:gift",
       "GELB",
-      "schnell"
+      "Heilung"
      ]
     ],
-    "stil": "kippen",
     "richtig": {
      "label": "Richtig",
-     "text": "erst nachfragen",
-     "wort": "nachfragen",
+     "text": "Heilung durch Vollzug",
+     "wort": "Heilung",
      "farbe": "GRUEN"
     },
     "stempel": {
-     "text": "zu schnell!",
-     "wort": "schnell"
+     "text": "nur halb!",
+     "wort": "halb"
     },
-    "pille": "Fehler Nr. 8 von 10",
-    "figur": "K/erklaert",
-    "name": "Clara"
+    "name": "Lena"
    },
    "szenen": [
     {
      "seg": "s1",
-     "titel": "Schenkung",
+     "titel": "Grundsatz",
      "elemente": [
       {
        "typ": "block",
-       "label": "Schenkung an Kind",
-       "wert": "nicht befreit",
-       "farbe": "ROT",
-       "wort": "Schenkung",
-       "zs": 100
+       "label": "Versprechen",
+       "wert": "notariell",
+       "farbe": "GELB",
+       "wort": "notariell",
+       "zs": 120
       },
       {
        "typ": "norm",
-       "text": "§ 13 Abs. 1 Nr. 4a ErbStG",
-       "wort": "Befreiung"
+       "text": "§ 518 Abs. 1 BGB",
+       "wort": "Schenkungsversprechen"
       }
      ]
     },
     {
      "seg": "s2",
-     "titel": "Erbfall",
+     "titel": "Heilung",
      "elemente": [
       {
        "typ": "block",
-       "label": "Erbfall",
-       "wert": "befreit",
+       "label": "vollzogen",
+       "wert": "Formmangel geheilt",
        "farbe": "GRUEN",
-       "wort": "Erbfall",
-       "zs": 110
-      },
-      {
-       "typ": "pille",
-       "text": "bis 200 m² Wohnfläche",
-       "farbe": "WEISS",
-       "wort": "zweihundert"
+       "wort": "geheilt",
+       "zs": 90
       },
       {
        "typ": "norm",
-       "text": "§ 13 Abs. 1 Nr. 4c ErbStG",
-       "wort": "einzieht"
+       "text": "§ 518 Abs. 2 BGB",
+       "wort": "vollzogen"
       }
+     ],
+     "sfx": [
+      [
+       "stempel",
+       "geheilt",
+       0.6
+      ]
      ]
     },
     {
      "seg": "s3",
-     "titel": "Platz 8",
+     "titel": "Beispiel",
      "elemente": [
       {
+       "typ": "pille",
+       "text": "Oma übergibt das Geld",
+       "farbe": "WEISS",
+       "wort": "Oma"
+      },
+      {
        "typ": "block",
-       "label": "Fehler",
-       "wert": "Keine Rückfragen",
-       "farbe": "ROT",
-       "wort": "Rückfragen",
-       "zs": 100
+       "label": "ohne Notar",
+       "wert": "wirksam",
+       "farbe": "GRUEN",
+       "wort": "Wirksam",
+       "zs": 120
       }
+     ],
+     "icon": [
+      "tabler:gift",
+      "GELB",
+      "Enkel"
      ]
     }
    ],
    "sprecher": [
     {
      "id": "hook",
-     "text": "Familienheim an die Tochter, steuerfrei? Wer zu schnell antwortet, verliert. Erst nachfragen."
+     "text": "Schenkung ohne Notar ist unwirksam? Nur halb richtig. Das Zauberwort heißt Heilung."
     },
     {
      "id": "s1",
-     "text": "Schenkung zu Lebzeiten an ein Kind: keine Befreiung."
+     "text": "Das Schenkungsversprechen muss notariell beurkundet werden. Sonst ist es formnichtig."
     },
     {
      "id": "s2",
-     "text": "Im Erbfall schon, wenn die Tochter selbst einzieht. Bis zweihundert Quadratmeter."
+     "text": "Aber: Wird die Schenkung trotzdem vollzogen, ist der Formmangel geheilt."
     },
     {
      "id": "s3",
-     "text": "Keine Rückfragen zum Sachverhalt ist Platz acht der häufigsten Fehler."
+     "text": "Die Oma gibt dem Enkel also einfach das Geld. Wirksam, ganz ohne Notar."
     },
     {
      "id": "cta",
-     "text": "Wie du ihn sicher vermeidest, mit Prüfungsszene, Merksatz und Checkliste, gibt es kostenlos. Link in der Bio."
+     "text": "Die zehn häufigsten Fehler der Mündlichen: kostenlos, Link in der Bio."
     }
    ],
    "merke": {
     "seg": "cta",
     "zeilen": [
-     "So vermeidest du ihn:",
-     "Szene, Merksatz,",
-     "Checkliste",
-     "im Gratis-PDF"
+     "Hättest du es gewusst?",
+     "Die 10 häufigsten",
+     "Fehler als",
+     "Gratis-PDF"
     ],
     "woerter": [
      null,
-     "Prüfungsszene",
-     "Checkliste",
+     "zehn",
+     "Fehler",
      "kostenlos"
     ],
     "cta": "Link in der Bio",
     "cta_wort": "Link",
     "hinweis": "Aus über 400 Prüfungsprotokollen"
    },
-   "caption": "Fehler Nr. 8 der Mündlichen: keine Rückfragen zum Sachverhalt. 🏠\n\nFamilienheim an die Tochter: Zu Lebzeiten keine Befreiung (§ 13 Abs. 1 Nr. 4a ErbStG gilt nur für Ehegatten und Lebenspartner). Im Erbfall Befreiung nach § 13 Abs. 1 Nr. 4c ErbStG möglich, wenn das Kind selbst einzieht – bis 200 m² Wohnfläche.\n\nWie du ihn in der Prüfung sicher vermeidest – mit Prüfungsszene, Merksatz und Checkliste – steht im Gratis-PDF „Die 10 größten Fehler in der Mündlichen“, ausgewertet aus über 400 Prüfungsprotokollen. 👉 Link in der Bio",
+   "caption": "Schenkung ohne Notar unwirksam? Nur halb richtig. 🎁\n\nDas Schenkungsversprechen bedarf der notariellen Beurkundung (§ 518 Abs. 1 BGB). Der Formmangel wird aber durch die Bewirkung der versprochenen Leistung geheilt (§ 518 Abs. 2 BGB).\n\nSchreib deine Antwort in die Kommentare 👇 und schick das Reel deinem Lernpartner.\n\nDie 10 häufigsten Fehler der Mündlichen – mit Prüfungsszenen und Lösungen – als Gratis-PDF, ausgewertet aus über 400 Prüfungsprotokollen. 👉 Link in der Bio",
    "hashtags": [
     "#steuerberaterprüfung",
     "#steuerberaterexamen",
     "#mündlicheprüfung",
-    "#examensvorbereitung"
+    "#examensvorbereitung",
+    "#zivilrecht",
+    "#steuerberater"
    ],
    "quellen": [
-    "§ 13 Abs. 1 Nr. 4a ErbStG",
-    "§ 13 Abs. 1 Nr. 4c ErbStG"
+    "§ 518 BGB"
    ],
    "zeit": "19:00",
-   "leadmagnetQuelle": "r10"
+   "leadmagnetQuelle": "z7"
   }
  ],
  "stories": [

@@ -1049,152 +1049,178 @@
   {
    "klausur": 0,
    "fach": null,
-   "fachLabel": "Mündliche Prüfung",
+   "fachLabel": "Mündliche · Zivilrecht",
    "klausurLabel": "Gratis-PDF",
    "slot": "m1",
    "format": "reel",
    "reelTyp": "klausurfalle",
-   "themaId": "lead-reel-r9",
-   "themaTitel": "Schweigen oder „keine Ahnung“ sagen",
+   "themaId": "lead-zr-z6",
+   "themaTitel": "Gutgläubig gekauft – trotzdem weg?",
+   "zielS": 29.0,
+   "layout": "A",
    "figuren": {
-    "J": {
-     "name": "Yusuf",
-     "kopf": "Short 5",
-     "haut": "#B07552",
-     "haar": "#1E1410",
-     "oberteil": "#9AD48F",
-     "bart": "Goatee 1"
+    "D": {
+     "name": "Jonas",
+     "kopf": "Short 2",
+     "haut": "#E8B48F",
+     "haar": "#3B2A1E",
+     "oberteil": "#8DB3F2",
+     "brille": "Glasses 2",
+     "bueste": "Button Shirt 2"
     }
    },
    "hook": {
     "zeilen": [
-     "„Keine",
-     "Ahnung.“"
+     "Gutgläubig",
+     "gekauft.",
+     "Trotzdem weg?"
     ],
-    "icons": [
-     [
-      "tabler:message-off",
-      "GELB",
-      "nie"
-     ]
-    ],
+    "pille": "Prüferfalle Sachenrecht",
+    "figur": "D/sorge",
     "stil": "knall",
     "stempel": {
-     "text": "nie sagen!",
-     "wort": "nie"
+     "text": "Ja!",
+     "wort": "trotzdem"
     },
-    "pille": "Fehler Nr. 7 von 10",
-    "figur": "J/sorge",
-    "name": "Yusuf"
+    "name": "Jonas"
    },
    "szenen": [
     {
      "seg": "s1",
-     "titel": "Platz 7",
+     "titel": "Der Fall",
      "elemente": [
       {
+       "typ": "pille",
+       "text": "Fahrrad gekauft",
+       "farbe": "WEISS",
+       "wort": "Fahrrad"
+      },
+      {
+       "typ": "pille",
+       "text": "Verkäufer = Eigentümer?",
+       "farbe": "WEISS",
+       "wort": "Eigentümer"
+      },
+      {
        "typ": "block",
-       "label": "Fehler",
-       "wert": "Schweigen",
+       "label": "in Wahrheit",
+       "wert": "gestohlen",
        "farbe": "ROT",
-       "wort": "Schweigen",
-       "zs": 110
+       "wort": "gestohlen",
+       "zs": 120
       }
+     ],
+     "icon": [
+      "tabler:bike",
+      "GELB",
+      "Fahrrad"
+     ],
+     "sfx": [
+      [
+       "riss",
+       "gestohlen",
+       0.6
+      ]
      ]
     },
     {
      "seg": "s2",
-     "titel": "Grundtatbestand",
+     "titel": "Die Regel",
      "elemente": [
       {
        "typ": "block",
-       "label": "Haftungsbescheid",
-       "wert": "Verwaltungsakt",
-       "farbe": "GELB",
-       "wort": "Verwaltungsakt",
-       "zs": 90
+       "label": "gutgläubiger Erwerb",
+       "wert": "ausgeschlossen",
+       "farbe": "ROT",
+       "wort": "ausgeschlossen",
+       "zs": 100
       },
       {
        "typ": "norm",
-       "text": "§ 191 Abs. 1 AO",
-       "wort": "Haftungsbescheid"
+       "text": "§ 935 Abs. 1 BGB",
+       "wort": "gestohlenen"
       }
      ]
     },
     {
      "seg": "s3",
-     "titel": "Also",
+     "titel": "Ausnahme",
      "elemente": [
       {
-       "typ": "block",
-       "label": "Einspruch",
-       "wert": "1 Monat",
-       "farbe": "GRUEN",
-       "wort": "Einspruch",
-       "zs": 110
+       "typ": "zahl",
+       "text": "Geld",
+       "size": 170,
+       "wort": "Geld"
       },
       {
        "typ": "norm",
-       "text": "§ 355 Abs. 1 AO",
-       "wort": "Paragraf"
+       "text": "§ 935 Abs. 2 BGB",
+       "wort": "gutgläubig"
       }
+     ],
+     "sfx": [
+      [
+       "muenzen",
+       "Geld",
+       0.5
+      ]
      ]
     }
    ],
    "sprecher": [
     {
      "id": "hook",
-     "text": "Keine Ahnung. Diesen Satz solltest du in der Mündlichen nie sagen."
+     "text": "Gutgläubig gekauft, trotzdem nicht Eigentümer? Ja!"
     },
     {
      "id": "s1",
-     "text": "Schweigen und Aufgeben ist Platz sieben der häufigsten Fehler."
+     "text": "Du kaufst ein Fahrrad, hältst den Verkäufer für den Eigentümer. Es war gestohlen."
     },
     {
      "id": "s2",
-     "text": "Fang beim Grundtatbestand an. Ein Haftungsbescheid ist ein Verwaltungsakt."
+     "text": "Bei gestohlenen Sachen ist gutgläubiger Erwerb ausgeschlossen."
     },
     {
      "id": "s3",
-     "text": "Also Einspruch, innerhalb eines Monats. Paragraf dreihundertfünfundfünfzig."
+     "text": "Die Ausnahme fragt jeder Prüfer: Geld. Das geht auch gestohlen gutgläubig."
     },
     {
      "id": "cta",
-     "text": "Wie du ihn sicher vermeidest, mit Prüfungsszene, Merksatz und Checkliste, gibt es kostenlos. Link in der Bio."
+     "text": "Wer das nicht weiß, verliert Punkte. Die zehn häufigsten Fehler: kostenlos, Link in der Bio."
     }
    ],
    "merke": {
     "seg": "cta",
     "zeilen": [
-     "So vermeidest du ihn:",
-     "Szene, Merksatz,",
-     "Checkliste",
-     "im Gratis-PDF"
+     "Nicht gewusst?",
+     "Kostet Punkte.",
+     "Die 10 häufigsten Fehler:",
+     "Gratis-PDF"
     ],
     "woerter": [
      null,
-     "Prüfungsszene",
-     "Checkliste",
+     "verliert",
+     "Fehler",
      "kostenlos"
     ],
     "cta": "Link in der Bio",
     "cta_wort": "Link",
     "hinweis": "Aus über 400 Prüfungsprotokollen"
    },
-   "caption": "Fehler Nr. 7 der Mündlichen: schweigen oder „keine Ahnung“ sagen. 🙊\n\nBesser beim Grundtatbestand einsteigen: Der Haftungsbescheid (§ 191 Abs. 1 AO) ist ein Verwaltungsakt – dagegen Einspruch (§ 347 AO) innerhalb eines Monats nach Bekanntgabe (§ 355 Abs. 1 AO).\n\nWie du ihn in der Prüfung sicher vermeidest – mit Prüfungsszene, Merksatz und Checkliste – steht im Gratis-PDF „Die 10 größten Fehler in der Mündlichen“, ausgewertet aus über 400 Prüfungsprotokollen. 👉 Link in der Bio",
+   "caption": "Gutgläubig gekauft – und trotzdem nicht Eigentümer? 🚲\n\nAn gestohlenen, verlorenen oder sonst abhanden gekommenen Sachen ist gutgläubiger Erwerb ausgeschlossen (§ 935 Abs. 1 BGB). Ausnahme u. a.: Geld und Inhaberpapiere sowie Sachen aus öffentlicher Versteigerung (§ 935 Abs. 2 BGB).\n\nSchreib deine Antwort in die Kommentare 👇 und schick das Reel deinem Lernpartner.\n\nDie 10 häufigsten Fehler der Mündlichen – mit Prüfungsszenen und Lösungen – als Gratis-PDF, ausgewertet aus über 400 Prüfungsprotokollen. 👉 Link in der Bio",
    "hashtags": [
     "#steuerberaterprüfung",
     "#steuerberaterexamen",
     "#mündlicheprüfung",
-    "#examensvorbereitung"
+    "#examensvorbereitung",
+    "#zivilrecht",
+    "#steuerberater"
    ],
    "quellen": [
-    "§ 191 Abs. 1 AO",
-    "§ 347 AO",
-    "§ 355 Abs. 1 AO"
+    "§ 935 BGB"
    ],
    "zeit": "19:00",
-   "leadmagnetQuelle": "r9"
+   "leadmagnetQuelle": "z6"
   }
  ],
  "stories": [

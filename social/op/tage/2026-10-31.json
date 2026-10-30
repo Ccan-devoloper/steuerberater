@@ -873,102 +873,126 @@
   {
    "klausur": 0,
    "fach": null,
-   "fachLabel": "Mündliche Prüfung",
+   "fachLabel": "Mündliche · Zivilrecht",
    "klausurLabel": "Gratis-PDF",
    "slot": "m1",
    "format": "reel",
    "reelTyp": "klausurfalle",
-   "themaId": "lead-reel-r4",
-   "themaTitel": "Aus dem Kopf statt aus dem Gesetz",
+   "themaId": "lead-zr-z1",
+   "themaTitel": "Schweigen ist keine Zustimmung? Nicht immer.",
+   "zielS": 29.0,
+   "layout": "A",
    "figuren": {
-    "E": {
-     "name": "Selin",
-     "kopf": "Long",
-     "haut": "#D8A47F",
-     "haar": "#2A1B14",
-     "oberteil": "#9AD48F"
+    "I": {
+     "name": "Nora",
+     "kopf": "Bangs",
+     "haut": "#F3D0B5",
+     "haar": "#C9A15B",
+     "oberteil": "#F9D56E"
     }
    },
    "hook": {
     "zeilen": [
-     "„Ich glaube,",
-     "vier Jahre.“"
+     "Schweigen ist nie",
+     "eine Zustimmung."
     ],
+    "pille": "Mythos der Mündlichen",
+    "figur": "I/skeptisch",
+    "stil": "kippen",
     "icons": [
      [
-      "tabler:book",
+      "tabler:mail",
       "GELB",
-      "Satz"
+      "Kaufleuten"
      ]
     ],
-    "stil": "kippen",
     "richtig": {
-     "label": "Folge",
-     "text": "Punkte verschenkt",
-     "wort": "verschenkst",
+     "label": "Richtig",
+     "text": "unter Kaufleuten oft doch",
+     "wort": "Kaufleuten",
      "farbe": "ROT"
     },
     "stempel": {
-     "text": "Punktabzug!",
-     "wort": "Punkte"
+     "text": "falsch!",
+     "wort": "Falsch"
     },
-    "pille": "Fehler Nr. 2 von 10",
-    "figur": "E/skeptisch",
-    "name": "Selin"
+    "name": "Nora"
    },
    "szenen": [
     {
      "seg": "s1",
-     "titel": "Die Frage",
+     "titel": "Der Fall",
      "elemente": [
       {
        "typ": "pille",
-       "text": "Wie lange änderbar?",
+       "text": "Telefonat",
        "farbe": "WEISS",
-       "wort": "lange"
+       "wort": "Telefonat"
+      },
+      {
+       "typ": "pille",
+       "text": "Bestätigung mit anderem Preis",
+       "farbe": "GELB",
+       "wort": "anderem"
+      },
+      {
+       "typ": "block",
+       "label": "Käufer",
+       "wert": "schweigt",
+       "farbe": "WEISS",
+       "wort": "schweigt",
+       "zs": 110
       }
      ],
      "icon": [
-      "tabler:help",
+      "tabler:mail",
       "GELB",
-      "Frage"
+      "Bestätigungsschreiben"
      ]
     },
     {
      "seg": "s2",
-     "titel": "Erst die Norm",
+     "titel": "Die Regel",
      "elemente": [
       {
        "typ": "block",
-       "label": "Festsetzungsfrist",
-       "wert": "4 Jahre",
-       "farbe": "GELB",
-       "wort": "Festsetzungsfrist",
+       "label": "kein Widerspruch",
+       "wert": "gebunden",
+       "farbe": "ROT",
+       "wort": "gebunden",
        "zs": 120
       },
       {
        "typ": "norm",
-       "text": "§ 169 Abs. 2 S. 1 Nr. 2 AO",
-       "wort": "Paragraf"
+       "text": "§ 346 HGB (Handelsbrauch)",
+       "wort": "widerspricht"
       }
+     ],
+     "sfx": [
+      [
+       "stempel",
+       "gebunden",
+       0.6
+      ]
      ]
     },
     {
      "seg": "s3",
-     "titel": "Dann der Beginn",
+     "titel": "Die Grenze",
      "elemente": [
       {
-       "typ": "block",
-       "label": "Beginn",
-       "wert": "Ende des Abgabejahres",
+       "typ": "pille",
+       "text": "krasse Abweichung",
        "farbe": "WEISS",
-       "wort": "beginnt",
-       "zs": 80
+       "wort": "stark"
       },
       {
-       "typ": "norm",
-       "text": "§ 170 Abs. 2 S. 1 Nr. 1 AO",
-       "wort": "hundertsiebzig"
+       "typ": "block",
+       "label": "dann",
+       "wert": "nicht bindend",
+       "farbe": "GRUEN",
+       "wort": "gilt",
+       "zs": 110
       }
      ]
     }
@@ -976,56 +1000,57 @@
    "sprecher": [
     {
      "id": "hook",
-     "text": "Ich glaube, vier Jahre. Mit diesem Satz verschenkst du Punkte. Und merkst es nicht mal."
+     "text": "Schweigen ist nie eine Zustimmung? Falsch. Unter Kaufleuten oft doch."
     },
     {
      "id": "s1",
-     "text": "Die Frage lautet: Wie lange kann ein Bescheid noch geändert werden?"
+     "text": "Nach dem Telefonat kommt ein Bestätigungsschreiben mit anderem Preis. Der Käufer schweigt."
     },
     {
      "id": "s2",
-     "text": "Die Festsetzungsfrist beträgt vier Jahre, nach Paragraf hundertneunundsechzig Abgabenordnung."
+     "text": "Wer nicht sofort widerspricht, ist gebunden."
     },
     {
      "id": "s3",
-     "text": "Sie beginnt mit Ablauf des Jahres, in dem die Erklärung eingereicht wurde. Paragraf hundertsiebzig."
+     "text": "Außer es weicht so stark ab, dass keiner Zustimmung erwarten durfte. Dann gilt es nicht."
     },
     {
      "id": "cta",
-     "text": "Wie du ihn sicher vermeidest, mit Prüfungsszene, Merksatz und Checkliste, gibt es kostenlos. Link in der Bio."
+     "text": "Wer das nicht weiß, verliert Punkte. Die zehn häufigsten Fehler: kostenlos, Link in der Bio."
     }
    ],
    "merke": {
     "seg": "cta",
     "zeilen": [
-     "So vermeidest du ihn:",
-     "Szene, Merksatz,",
-     "Checkliste",
-     "im Gratis-PDF"
+     "Nicht gewusst?",
+     "Kostet Punkte.",
+     "Die 10 häufigsten Fehler:",
+     "Gratis-PDF"
     ],
     "woerter": [
      null,
-     "Prüfungsszene",
-     "Checkliste",
+     "verliert",
+     "Fehler",
      "kostenlos"
     ],
     "cta": "Link in der Bio",
     "cta_wort": "Link",
     "hinweis": "Aus über 400 Prüfungsprotokollen"
    },
-   "caption": "Fehler Nr. 2 der Mündlichen: aus dem Kopf statt aus dem Gesetz antworten. 📖\n\n„Ich glaube, vier Jahre“ kostet Punkte. Die Rechtslage: Festsetzungsfrist vier Jahre (§ 169 Abs. 2 S. 1 Nr. 2 AO), Beginn mit Ablauf des Jahres der Abgabe der Erklärung (§ 170 Abs. 2 S. 1 Nr. 1 AO).\n\nWie du ihn in der Prüfung sicher vermeidest – mit Prüfungsszene, Merksatz und Checkliste – steht im Gratis-PDF „Die 10 größten Fehler in der Mündlichen“, ausgewertet aus über 400 Prüfungsprotokollen. 👉 Link in der Bio",
+   "caption": "Schweigen ist nie Zustimmung? In der Mündlichen eine teure Antwort. 📩\n\nKaufmännisches Bestätigungsschreiben: Wer als Kaufmann nicht unverzüglich widerspricht, muss den Inhalt gegen sich gelten lassen (Handelsbrauch, § 346 HGB). Grenze: Das Schreiben weicht so stark vom Besprochenen ab, dass der Absender nicht mit Zustimmung rechnen durfte.\n\nSchreib deine Antwort in die Kommentare 👇 und schick das Reel deinem Lernpartner.\n\nDie 10 häufigsten Fehler der Mündlichen – mit Prüfungsszenen und Lösungen – als Gratis-PDF, ausgewertet aus über 400 Prüfungsprotokollen. 👉 Link in der Bio",
    "hashtags": [
     "#steuerberaterprüfung",
     "#steuerberaterexamen",
     "#mündlicheprüfung",
-    "#examensvorbereitung"
+    "#examensvorbereitung",
+    "#zivilrecht",
+    "#steuerberater"
    ],
    "quellen": [
-    "§ 169 Abs. 2 S. 1 Nr. 2 AO",
-    "§ 170 Abs. 2 S. 1 Nr. 1 AO"
+    "§ 346 HGB"
    ],
    "zeit": "19:00",
-   "leadmagnetQuelle": "r4"
+   "leadmagnetQuelle": "z1"
   }
  ],
  "stories": [

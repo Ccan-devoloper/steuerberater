@@ -857,101 +857,102 @@
   {
    "klausur": 0,
    "fach": null,
-   "fachLabel": "Mündliche Prüfung",
+   "fachLabel": "Mündliche · Zivilrecht",
    "klausurLabel": "Gratis-PDF",
    "slot": "m1",
    "format": "reel",
    "reelTyp": "klausurfalle",
-   "themaId": "lead-reel-r12",
-   "themaTitel": "Den Kurzvortrag verschenken",
+   "themaId": "lead-zr-z9",
+   "themaTitel": "Kommanditist haftet unbeschränkt?",
+   "zielS": 29.0,
+   "layout": "B",
    "figuren": {
-    "M": {
-     "name": "Hanna",
-     "kopf": "Twists",
-     "haut": "#8D5524",
-     "haar": "#1E1410",
-     "oberteil": "#9AD48F"
+    "F": {
+     "name": "Ben",
+     "kopf": "Short 1",
+     "haut": "#F0C8A8",
+     "haar": "#8B5A2B",
+     "oberteil": "#F9D56E",
+     "brille": "Glasses 3"
     }
    },
    "hook": {
     "zeilen": [
-     "Drei Themen,",
-     "eine halbe Stunde."
+     "Kommanditist",
+     "haftet",
+     "unbeschränkt?"
     ],
-    "icons": [
-     [
-      "tabler:presentation",
-      "GELB",
-      "Zeitdruck"
-     ]
-    ],
-    "stil": "split",
-    "split": [
-     {
-      "label": "Themen",
-      "wert": "3",
-      "farbe": "GELB",
-      "wort": "Drei"
-     },
-     {
-      "label": "Vorbereitung",
-      "wert": "30 Min.",
-      "farbe": "WEISS",
-      "wort": "halbe"
-     }
-    ],
+    "pille": "Gesellschaftsrecht-Falle",
+    "figur": "F/sorge",
+    "stil": "knall",
     "stempel": {
-     "text": "Zeitdruck!",
-     "wort": "Zeitdruck"
+     "text": "Möglich!",
+     "wort": "möglich"
     },
-    "pille": "Fehler Nr. 10 von 10",
-    "figur": "M/erklaert",
-    "name": "Hanna"
+    "name": "Ben"
    },
    "szenen": [
     {
      "seg": "s1",
-     "titel": "Die Regel",
+     "titel": "Normal",
      "elemente": [
       {
        "typ": "block",
-       "label": "3 Themen",
-       "wert": "30 Min. vorher",
-       "farbe": "GELB",
-       "wort": "bekommst",
-       "zs": 100
+       "label": "Haftung bis",
+       "wert": "Einlage",
+       "farbe": "GRUEN",
+       "wort": "Einlage",
+       "zs": 120
       },
       {
        "typ": "norm",
-       "text": "§ 26 Abs. 6 DVStB",
-       "wort": "Prüfungsbeginn"
+       "text": "§ 171 Abs. 1 HGB",
+       "wort": "Höhe"
       }
      ]
     },
     {
      "seg": "s2",
-     "titel": "Die Wahl",
+     "titel": "Vor Eintragung",
      "elemente": [
       {
+       "typ": "pille",
+       "text": "Geschäfte vor Eintragung",
+       "farbe": "WEISS",
+       "wort": "Eintragung"
+      },
+      {
        "typ": "block",
-       "label": "Themenwahl",
-       "wert": "hinterher bereut",
+       "label": "mit Zustimmung",
+       "wert": "unbeschränkt",
        "farbe": "ROT",
-       "wort": "Themenwahl",
-       "zs": 90
+       "wort": "unbeschränkt",
+       "zs": 110
+      },
+      {
+       "typ": "norm",
+       "text": "§ 176 Abs. 1 HGB",
+       "wort": "Schulden"
       }
+     ],
+     "sfx": [
+      [
+       "stempel",
+       "unbeschränkt",
+       0.6
+      ]
      ]
     },
     {
      "seg": "s3",
-     "titel": "Platz 10",
+     "titel": "Ausnahme",
      "elemente": [
       {
        "typ": "block",
-       "label": "Fehler",
-       "wert": "Vortrag verschenken",
-       "farbe": "ROT",
-       "wort": "zehn",
+       "label": "Gläubiger wusste",
+       "wert": "nur Kommanditist",
+       "farbe": "GELB",
+       "wort": "wusste",
        "zs": 90
       }
      ]
@@ -960,55 +961,58 @@
    "sprecher": [
     {
      "id": "hook",
-     "text": "Drei Themen, eine halbe Stunde Vorbereitung. Der Kurzvortrag ist purer Zeitdruck."
+     "text": "Ein Kommanditist haftet unbeschränkt? Ja, das ist möglich."
     },
     {
      "id": "s1",
-     "text": "Die drei Themen bekommst du eine halbe Stunde vor Prüfungsbeginn."
+     "text": "Normal haftet er nur bis zur Höhe seiner Einlage."
     },
     {
      "id": "s2",
-     "text": "Und viele bereuen hinterher ihre Themenwahl."
+     "text": "Aber: Beginnt die KG ihre Geschäfte vor der Eintragung, und er stimmt zu, haftet er für diese Schulden unbeschränkt."
     },
     {
      "id": "s3",
-     "text": "Den Vortrag verschenken ist Platz zehn der häufigsten Fehler."
+     "text": "Außer der Gläubiger wusste, dass er nur Kommanditist ist."
     },
     {
      "id": "cta",
-     "text": "Wie du ihn sicher vermeidest, mit Prüfungsszene, Merksatz und Checkliste, gibt es kostenlos. Link in der Bio."
+     "text": "Wer das nicht weiß, verliert Punkte. Die zehn häufigsten Fehler: kostenlos, Link in der Bio."
     }
    ],
    "merke": {
     "seg": "cta",
     "zeilen": [
-     "So vermeidest du ihn:",
-     "Szene, Merksatz,",
-     "Checkliste",
-     "im Gratis-PDF"
+     "Nicht gewusst?",
+     "Kostet Punkte.",
+     "Die 10 häufigsten Fehler:",
+     "Gratis-PDF"
     ],
     "woerter": [
      null,
-     "Prüfungsszene",
-     "Checkliste",
+     "verliert",
+     "Fehler",
      "kostenlos"
     ],
     "cta": "Link in der Bio",
     "cta_wort": "Link",
     "hinweis": "Aus über 400 Prüfungsprotokollen"
    },
-   "caption": "Fehler Nr. 10 der Mündlichen: den Kurzvortrag verschenken. 🎤\n\nDrei Themen zur Wahl, eine halbe Stunde vor Prüfungsbeginn (§ 26 Abs. 6 DVStB). Viele bereuen hinterher ihre Themenwahl – welches Thema du nehmen solltest und wie du es vorträgst, steht im PDF.\n\nWie du ihn in der Prüfung sicher vermeidest – mit Prüfungsszene, Merksatz und Checkliste – steht im Gratis-PDF „Die 10 größten Fehler in der Mündlichen“, ausgewertet aus über 400 Prüfungsprotokollen. 👉 Link in der Bio",
+   "caption": "Ein Kommanditist haftet unbeschränkt? Kann passieren. ⚠️\n\nGrundsatz: Haftung nur bis zur Höhe der Einlage (§ 171 Abs. 1 HGB). Beginnt die KG ihre Geschäfte vor der Eintragung mit Zustimmung des Kommanditisten, haftet er für die bis zur Eintragung begründeten Verbindlichkeiten wie ein Komplementär – es sei denn, der Gläubiger kannte seine Beteiligung als Kommanditist (§ 176 Abs. 1 HGB).\n\nSchreib deine Antwort in die Kommentare 👇 und schick das Reel deinem Lernpartner.\n\nDie 10 häufigsten Fehler der Mündlichen – mit Prüfungsszenen und Lösungen – als Gratis-PDF, ausgewertet aus über 400 Prüfungsprotokollen. 👉 Link in der Bio",
    "hashtags": [
     "#steuerberaterprüfung",
     "#steuerberaterexamen",
     "#mündlicheprüfung",
-    "#examensvorbereitung"
+    "#examensvorbereitung",
+    "#zivilrecht",
+    "#steuerberater"
    ],
    "quellen": [
-    "§ 26 Abs. 6 DVStB"
+    "§ 171 Abs. 1 HGB",
+    "§ 176 Abs. 1 HGB"
    ],
    "zeit": "19:00",
-   "leadmagnetQuelle": "r12"
+   "leadmagnetQuelle": "z9"
   }
  ],
  "stories": [

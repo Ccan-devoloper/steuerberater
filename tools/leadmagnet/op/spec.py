@@ -620,3 +620,266 @@ def test_gbr_vermoegen():
 
 
 REELS += [test_gbr_vermoegen]
+
+
+# ======================================================================== M-Serie Zivilrecht ab 31.10.: 10 Reels im Stil des GbR-Reels, aber mit wechselnden Hooks,
+# Layouts und Effekten (Hook-Stile split/kippen/knall, Layout A/B/C, Countdown, Mythos, Fall, Wahr-oder-falsch, Sende-Aufforderung).
+# Leitlinie aus der Recherche (10/2026): Hook in 1–2 s, alle ~7 s ein neuer Reiz, kurz und wiederholbar, „Senden“ anregen.
+ZR_HASH = CTA_HASH + ["#zivilrecht", "#steuerberater"]
+ZR_CTA = {
+    "pdf": "Die zehn häufigsten Fehler der Mündlichen: kostenlos, Link in der Bio.",
+    "senden": "Schick das deinem Lernpartner. Und hol dir die zehn häufigsten Fehler, kostenlos, Link in der Bio.",
+    "angst": "Wer das nicht weiß, verliert Punkte. Die zehn häufigsten Fehler: kostenlos, Link in der Bio.",
+}
+ZR_MERKE = {
+    "pdf": (["Hättest du es gewusst?", "Die 10 häufigsten", "Fehler als", "Gratis-PDF"], [None, "zehn", "Fehler", "kostenlos"]),
+    "senden": (["Schick das deinem", "Lernpartner!", "Die 10 häufigsten Fehler:", "Gratis-PDF"], ["Schick", "Lernpartner", "Fehler", "kostenlos"]),
+    "angst": (["Nicht gewusst?", "Kostet Punkte.", "Die 10 häufigsten Fehler:", "Gratis-PDF"], [None, "verliert", "Fehler", "kostenlos"]),
+}
+ZR_CAPTION_ENDE = "\n\nSchreib deine Antwort in die Kommentare 👇 und schick das Reel deinem Lernpartner.\n\nDie 10 häufigsten Fehler der Mündlichen – mit Prüfungsszenen und Lösungen – als Gratis-PDF, ausgewertet aus über 400 Prüfungsprotokollen. 👉 Link in der Bio"
+
+
+def zr(slot, rolle, titel, hook, sprecher, szenen, caption, quellen, cta="pdf", layout="A", label="Mündliche · Zivilrecht"):
+    zeilen, woerter = ZR_MERKE[cta]
+    return dict(GEMEINSAM, fachLabel=label, slot=slot, format="reel", reelTyp="klausurfalle", themaId=f"lead-zr-{slot}", themaTitel=titel,
+                zielS=29.0, layout=layout, figuren={rolle: FIG[rolle]}, hook=dict(hook, name=FIG[rolle]["name"]), szenen=szenen,
+                sprecher=[{"id": i, "text": t} for i, t in zip(("hook", "s1", "s2", "s3"), sprecher)] + [{"id": "cta", "text": ZR_CTA[cta]}],
+                merke={"seg": "cta", "zeilen": zeilen, "woerter": woerter, "cta": "Link in der Bio", "cta_wort": "Link", "hinweis": "Aus über 400 Prüfungsprotokollen"},
+                caption=caption + ZR_CAPTION_ENDE, hashtags=ZR_HASH, quellen=quellen)
+
+
+def zr1_bestaetigungsschreiben():   # Mythos-Hook (kippen): „Schweigen ist keine Zustimmung“
+    return zr("z1", "I", "Schweigen ist keine Zustimmung? Nicht immer.",
+        {"zeilen": ["Schweigen ist nie", "eine Zustimmung."], "pille": "Mythos der Mündlichen", "figur": "I/skeptisch", "stil": "kippen",
+         "icons": [["tabler:mail", "GELB", "Kaufleuten"]],
+         "richtig": {"label": "Richtig", "text": "unter Kaufleuten oft doch", "wort": "Kaufleuten", "farbe": "ROT"}, "stempel": {"text": "falsch!", "wort": "Falsch"}},
+        ["Schweigen ist nie eine Zustimmung? Falsch. Unter Kaufleuten oft doch.",
+         "Nach dem Telefonat kommt ein Bestätigungsschreiben mit anderem Preis. Der Käufer schweigt.",
+         "Wer nicht sofort widerspricht, ist gebunden.",
+         "Außer es weicht so stark ab, dass keiner Zustimmung erwarten durfte. Dann gilt es nicht."],
+        [{"seg": "s1", "titel": "Der Fall", "elemente": [
+            {"typ": "pille", "text": "Telefonat", "farbe": "WEISS", "wort": "Telefonat"},
+            {"typ": "pille", "text": "Bestätigung mit anderem Preis", "farbe": "GELB", "wort": "anderem"},
+            {"typ": "block", "label": "Käufer", "wert": "schweigt", "farbe": "WEISS", "wort": "schweigt", "zs": 110}],
+          "icon": ["tabler:mail", "GELB", "Bestätigungsschreiben"]},
+         {"seg": "s2", "titel": "Die Regel", "elemente": [
+            {"typ": "block", "label": "kein Widerspruch", "wert": "gebunden", "farbe": "ROT", "wort": "gebunden", "zs": 120},
+            {"typ": "norm", "text": "§ 346 HGB (Handelsbrauch)", "wort": "widerspricht"}],
+          "sfx": [["stempel", "gebunden", 0.6]]},
+         {"seg": "s3", "titel": "Die Grenze", "elemente": [
+            {"typ": "pille", "text": "krasse Abweichung", "farbe": "WEISS", "wort": "stark"},
+            {"typ": "block", "label": "dann", "wert": "nicht bindend", "farbe": "GRUEN", "wort": "gilt", "zs": 110}]}],
+        "Schweigen ist nie Zustimmung? In der Mündlichen eine teure Antwort. 📩\n\nKaufmännisches Bestätigungsschreiben: Wer als Kaufmann nicht unverzüglich widerspricht, muss den Inhalt gegen sich gelten lassen (Handelsbrauch, § 346 HGB). Grenze: Das Schreiben weicht so stark vom Besprochenen ab, dass der Absender nicht mit Zustimmung rechnen durfte.",
+        ["§ 346 HGB"], cta="angst")
+
+
+def zr2_taschengeld():   # Quiz A/B/C mit Countdown, Layout B (groß)
+    return zr("z2", "J", "Teste dich: Handy auf Raten mit 17",
+        {"zeilen": ["17 Jahre,", "Handy auf Raten.", "Wirksam?"], "pille": "Teste dich · 3 Sekunden", "figur": "J/sorge", "stil": "split",
+         "split": [{"label": "Zeit", "wert": "3 Sek.", "farbe": "GELB", "wort": "Sekunden"}, {"label": "Antwort", "wert": "A · B · C", "farbe": "WEISS", "wort": "Wirksam"}],
+         "stempel": {"text": "Klassiker!", "wort": "Raten"}},
+        ["Drei Sekunden: Siebzehn, Handy auf Raten, mit Taschengeld. Wirksam?",
+         "A, ja. B, schwebend unwirksam. C, nichtig. Drei, zwei, eins.",
+         "Richtig ist B. Der Taschengeldparagraf greift erst, wenn alles bezahlt ist.",
+         "Bis zur letzten Rate entscheiden die Eltern."],
+        [{"seg": "s1", "titel": "A, B oder C?", "elemente": [
+            {"typ": "pille", "text": "A  wirksam (Taschengeld)", "farbe": "WEISS", "wort": "ja"},
+            {"typ": "pille", "text": "B  schwebend unwirksam", "farbe": "WEISS", "wort": "B"},
+            {"typ": "pille", "text": "C  nichtig", "farbe": "WEISS", "wort": "C"},
+            {"typ": "zahl", "text": "3 … 2 … 1", "size": 110, "wort": "Drei"}], "sfx": [["rechner", "Drei", 0.6]]},
+         {"seg": "s2", "titel": "Auflösung", "elemente": [
+            {"typ": "block", "label": "Richtig", "wert": "B", "farbe": "GRUEN", "wort": "Richtig", "zs": 150},
+            {"typ": "norm", "text": "§ 110 BGB", "wort": "Taschengeldparagraf"}], "sfx": [["stempel", "Richtig", 0.6]]},
+         {"seg": "s3", "titel": "Der Haken", "elemente": [
+            {"typ": "pille", "text": "erst mit letzter Rate", "farbe": "WEISS", "wort": "letzten"},
+            {"typ": "block", "label": "bis dahin", "wert": "Eltern entscheiden", "farbe": "ROT", "wort": "Eltern", "zs": 90}]}],
+        "Teste dich: 17-Jähriger kauft mit Taschengeld ein Handy auf Raten – wirksam? 📱\n\nA) ja  B) schwebend unwirksam  C) nichtig\n\nAuflösung: B. § 110 BGB greift erst, wenn die Leistung vollständig mit überlassenen Mitteln bewirkt ist – bei Ratenkauf also erst mit der letzten Rate. Bis dahin hängt die Wirksamkeit von der Genehmigung der Eltern ab (§ 108 BGB).",
+        ["§ 110 BGB", "§ 108 BGB"], cta="senden", layout="B")
+
+
+def zr3_beweislast():   # Zahl-Knall: „Seit 2022 nicht mehr 6 Monate“
+    return zr("z3", "K", "Beweislastumkehr: 6 Monate? Veraltet.",
+        {"zeilen": ["6 Monate", "Beweislastumkehr?"], "pille": "Veraltet seit 2022", "figur": "K/skeptisch", "stil": "knall",
+         "stempel": {"text": "veraltet!", "wort": "veraltet"}},
+        ["Sechs Monate Beweislastumkehr? Wer das sagt, ist veraltet.",
+         "Seit zweitausendzweiundzwanzig gilt beim Verbrauchsgüterkauf ein ganzes Jahr.",
+         "Zeigt sich der Mangel im ersten Jahr, wird vermutet, dass er schon bei Übergabe da war.",
+         "Und das gilt nur, wenn ein Verbraucher von einem Unternehmer kauft. Nicht unter Privatleuten."],
+        [{"seg": "s1", "titel": "Neu", "elemente": [
+            {"typ": "zahl", "text": "1 Jahr", "size": 170, "wort": "ganzes"},
+            {"typ": "norm", "text": "§ 477 Abs. 1 BGB", "wort": "Verbrauchsgüterkauf"}], "sfx": [["muenzen", "Jahr", 0.4]]},
+         {"seg": "s2", "titel": "Die Vermutung", "elemente": [
+            {"typ": "pille", "text": "Mangel im 1. Jahr", "farbe": "WEISS", "wort": "Mangel"},
+            {"typ": "block", "label": "vermutet", "wert": "schon bei Übergabe", "farbe": "GELB", "wort": "vermutet", "zs": 90}]},
+         {"seg": "s3", "titel": "Nur B2C", "elemente": [
+            {"typ": "block", "label": "Verbraucher kauft von", "wert": "Unternehmer", "farbe": "GRUEN", "wort": "Verbraucher", "zs": 100},
+            {"typ": "pille", "text": "nicht privat an privat", "farbe": "ROT", "wort": "Privatleuten"}]}],
+        "6 Monate Beweislastumkehr? Seit 2022 veraltet. ⏳\n\nBeim Verbrauchsgüterkauf wird vermutet, dass ein Mangel, der sich innerhalb eines Jahres seit Gefahrübergang zeigt, schon bei Gefahrübergang vorlag (§ 477 Abs. 1 BGB). Gilt nur, wenn ein Verbraucher von einem Unternehmer kauft (§ 474 BGB).",
+        ["§ 477 Abs. 1 BGB", "§ 474 BGB"], cta="angst")
+
+
+def zr4_prokura():   # POV-Prüfungsszene, Layout C (Figur mit Sprechblase)
+    return zr("z4", "L", "Darf der Prokurist das Grundstück verkaufen?",
+        {"zeilen": ["Prokurist verkauft", "Firmengrundstück."], "pille": "Prüferfrage", "figur": "L/sorge", "stil": "split",
+         "split": [{"label": "Prokura", "wert": "umfassend", "farbe": "GELB", "wort": "Prokurist"}, {"label": "Grundstück?", "wert": "Vorsicht", "farbe": "ROT", "wort": "Darf"}],
+         "stempel": {"text": "Falle!", "wort": "Darf"}},
+        ["Prokurist verkauft das Firmengrundstück. Darf er das?",
+         "Die Prokura ist weit. Sie deckt fast alle Geschäfte eines Handelsgewerbes.",
+         "Aber: Grundstücke veräußern oder belasten darf er nur mit besonderer Befugnis.",
+         "Und Beschränkungen im Innenverhältnis? Gelten gegenüber Dritten nicht."],
+        [{"seg": "s1", "titel": "Grundsatz", "elemente": [
+            {"typ": "block", "label": "Prokura", "wert": "fast alles", "farbe": "GELB", "wort": "weit", "zs": 120},
+            {"typ": "norm", "text": "§ 49 Abs. 1 HGB", "wort": "Handelsgewerbes"}], "blase": "Fast alles!", "blase_wort": "weit"},
+         {"seg": "s2", "titel": "Ausnahme", "elemente": [
+            {"typ": "block", "label": "Grundstück", "wert": "nur mit Extra-Befugnis", "farbe": "ROT", "wort": "Grundstücke", "zs": 80},
+            {"typ": "norm", "text": "§ 49 Abs. 2 HGB", "wort": "besonderer"}], "blase": "Außer …", "blase_wort": "Aber", "sfx": [["riss", "Aber", 0.5]]},
+         {"seg": "s3", "titel": "Nachfrage", "elemente": [
+            {"typ": "pille", "text": "interne Grenzen?", "farbe": "WEISS", "wort": "Beschränkungen"},
+            {"typ": "block", "label": "gegenüber Dritten", "wert": "unwirksam", "farbe": "GRUEN", "wort": "Dritten", "zs": 100},
+            {"typ": "norm", "text": "§ 50 Abs. 1 HGB", "wort": "nicht"}]}],
+        "Prokurist verkauft das Firmengrundstück – geht das? 🏢\n\nDie Prokura ermächtigt zu allen Geschäften, die der Betrieb eines Handelsgewerbes mit sich bringt (§ 49 Abs. 1 HGB). Grundstücke veräußern und belasten nur mit besonderer Befugnis (§ 49 Abs. 2 HGB). Beschränkungen im Innenverhältnis sind Dritten gegenüber unwirksam (§ 50 Abs. 1 HGB).",
+        ["§ 49 Abs. 1 HGB", "§ 49 Abs. 2 HGB", "§ 50 Abs. 1 HGB"], cta="pdf", layout="C")
+
+
+def zr5_buergschaft():   # Wahr oder falsch
+    return zr("z5", "M", "Wahr oder falsch: Bürgschaft braucht Schriftform",
+        {"zeilen": ["Bürgschaft", "braucht immer", "Schriftform."], "pille": "Wahr oder falsch?", "figur": "M/skeptisch", "stil": "split",
+         "split": [{"label": "Wahr", "wert": "stimmt", "farbe": "GRUEN", "wort": "Wahr"}, {"label": "Falsch", "wert": "stimmt nicht", "farbe": "ROT", "wort": "falsch"}],
+         "stempel": {"text": "Achtung!", "wort": "immer"}},
+        ["Wahr oder falsch: Eine Bürgschaft braucht immer Schriftform.",
+         "Falsch. Grundsätzlich muss die Erklärung des Bürgen schriftlich sein.",
+         "Aber für einen Kaufmann ist die Bürgschaft formfrei, wenn sie ein Handelsgeschäft ist.",
+         "Und eine Bürgschaft per E-Mail? Beim Privatbürgen ausdrücklich ausgeschlossen."],
+        [{"seg": "s1", "titel": "Grundsatz", "elemente": [
+            {"typ": "block", "label": "Bürge erklärt", "wert": "schriftlich", "farbe": "GELB", "wort": "schriftlich", "zs": 110},
+            {"typ": "norm", "text": "§ 766 S. 1 BGB", "wort": "Erklärung"}], "sfx": [["stempel", "Falsch", 0.5]]},
+         {"seg": "s2", "titel": "Ausnahme", "elemente": [
+            {"typ": "block", "label": "Kaufmann", "wert": "formfrei", "farbe": "GRUEN", "wort": "formfrei", "zs": 120},
+            {"typ": "norm", "text": "§ 350 HGB", "wort": "Handelsgeschäft"}]},
+         {"seg": "s3", "titel": "Bonus", "elemente": [
+            {"typ": "pille", "text": "per E-Mail?", "farbe": "WEISS", "wort": "E-Mail"},
+            {"typ": "block", "label": "elektronisch", "wert": "ausgeschlossen", "farbe": "ROT", "wort": "ausgeschlossen", "zs": 100},
+            {"typ": "norm", "text": "§ 766 S. 2 BGB", "wort": "Privatbürgen"}]}],
+        "Wahr oder falsch: Eine Bürgschaft braucht immer Schriftform? ✍️\n\nFalsch. Grundsatz: schriftliche Erteilung der Bürgschaftserklärung (§ 766 S. 1 BGB), elektronische Form ausgeschlossen (§ 766 S. 2 BGB). Aber: Ist die Bürgschaft auf Seiten des Bürgen ein Handelsgeschäft, gilt die Form nicht (§ 350 HGB).",
+        ["§ 766 BGB", "§ 350 HGB"], cta="senden", layout="B")
+
+
+def zr6_gestohlen():   # Fall + Schock-Twist (knall), Layout A
+    return zr("z6", "D", "Gutgläubig gekauft – trotzdem weg?",
+        {"zeilen": ["Gutgläubig", "gekauft.", "Trotzdem weg?"], "pille": "Prüferfalle Sachenrecht", "figur": "D/sorge", "stil": "knall",
+         "stempel": {"text": "Ja!", "wort": "trotzdem"}},
+        ["Gutgläubig gekauft, trotzdem nicht Eigentümer? Ja!",
+         "Du kaufst ein Fahrrad, hältst den Verkäufer für den Eigentümer. Es war gestohlen.",
+         "Bei gestohlenen Sachen ist gutgläubiger Erwerb ausgeschlossen.",
+         "Die Ausnahme fragt jeder Prüfer: Geld. Das geht auch gestohlen gutgläubig."],
+        [{"seg": "s1", "titel": "Der Fall", "elemente": [
+            {"typ": "pille", "text": "Fahrrad gekauft", "farbe": "WEISS", "wort": "Fahrrad"},
+            {"typ": "pille", "text": "Verkäufer = Eigentümer?", "farbe": "WEISS", "wort": "Eigentümer"},
+            {"typ": "block", "label": "in Wahrheit", "wert": "gestohlen", "farbe": "ROT", "wort": "gestohlen", "zs": 120}],
+          "icon": ["tabler:bike", "GELB", "Fahrrad"], "sfx": [["riss", "gestohlen", 0.6]]},
+         {"seg": "s2", "titel": "Die Regel", "elemente": [
+            {"typ": "block", "label": "gutgläubiger Erwerb", "wert": "ausgeschlossen", "farbe": "ROT", "wort": "ausgeschlossen", "zs": 100},
+            {"typ": "norm", "text": "§ 935 Abs. 1 BGB", "wort": "gestohlenen"}]},
+         {"seg": "s3", "titel": "Ausnahme", "elemente": [
+            {"typ": "zahl", "text": "Geld", "size": 170, "wort": "Geld"},
+            {"typ": "norm", "text": "§ 935 Abs. 2 BGB", "wort": "gutgläubig"}], "sfx": [["muenzen", "Geld", 0.5]]}],
+        "Gutgläubig gekauft – und trotzdem nicht Eigentümer? 🚲\n\nAn gestohlenen, verlorenen oder sonst abhanden gekommenen Sachen ist gutgläubiger Erwerb ausgeschlossen (§ 935 Abs. 1 BGB). Ausnahme u. a.: Geld und Inhaberpapiere sowie Sachen aus öffentlicher Versteigerung (§ 935 Abs. 2 BGB).",
+        ["§ 935 BGB"], cta="angst")
+
+
+def zr7_schenkung():   # Mythos (kippen): „Schenkung per Handschlag ist unwirksam“
+    return zr("z7", "C", "Schenkung ohne Notar unwirksam?",
+        {"zeilen": ["Schenkung ohne", "Notar? Unwirksam."], "pille": "Fast richtig ist falsch", "figur": "C/skeptisch", "stil": "kippen",
+         "icons": [["tabler:gift", "GELB", "Heilung"]],
+         "richtig": {"label": "Richtig", "text": "Heilung durch Vollzug", "wort": "Heilung", "farbe": "GRUEN"}, "stempel": {"text": "nur halb!", "wort": "halb"}},
+        ["Schenkung ohne Notar ist unwirksam? Nur halb richtig. Das Zauberwort heißt Heilung.",
+         "Das Schenkungsversprechen muss notariell beurkundet werden. Sonst ist es formnichtig.",
+         "Aber: Wird die Schenkung trotzdem vollzogen, ist der Formmangel geheilt.",
+         "Die Oma gibt dem Enkel also einfach das Geld. Wirksam, ganz ohne Notar."],
+        [{"seg": "s1", "titel": "Grundsatz", "elemente": [
+            {"typ": "block", "label": "Versprechen", "wert": "notariell", "farbe": "GELB", "wort": "notariell", "zs": 120},
+            {"typ": "norm", "text": "§ 518 Abs. 1 BGB", "wort": "Schenkungsversprechen"}]},
+         {"seg": "s2", "titel": "Heilung", "elemente": [
+            {"typ": "block", "label": "vollzogen", "wert": "Formmangel geheilt", "farbe": "GRUEN", "wort": "geheilt", "zs": 90},
+            {"typ": "norm", "text": "§ 518 Abs. 2 BGB", "wort": "vollzogen"}], "sfx": [["stempel", "geheilt", 0.6]]},
+         {"seg": "s3", "titel": "Beispiel", "elemente": [
+            {"typ": "pille", "text": "Oma übergibt das Geld", "farbe": "WEISS", "wort": "Oma"},
+            {"typ": "block", "label": "ohne Notar", "wert": "wirksam", "farbe": "GRUEN", "wort": "Wirksam", "zs": 120}],
+          "icon": ["tabler:gift", "GELB", "Enkel"]}],
+        "Schenkung ohne Notar unwirksam? Nur halb richtig. 🎁\n\nDas Schenkungsversprechen bedarf der notariellen Beurkundung (§ 518 Abs. 1 BGB). Der Formmangel wird aber durch die Bewirkung der versprochenen Leistung geheilt (§ 518 Abs. 2 BGB).",
+        ["§ 518 BGB"], cta="pdf")
+
+
+def zr8_testament():   # Quiz A/B/C, Layout A, Erbrecht-Schreck
+    return zr("z8", "A", "Teste dich: Testament am PC geschrieben",
+        {"zeilen": ["Testament am PC,", "eigenhändig", "unterschrieben?"], "pille": "Teste dich · 3 Sekunden", "figur": "A/sorge", "stil": "split",
+         "split": [{"label": "Zeit", "wert": "3 Sek.", "farbe": "GELB", "wort": "Sekunden"}, {"label": "Wirksam?", "wert": "A · B · C", "farbe": "WEISS", "wort": "Wirksam"}],
+         "stempel": {"text": "Erbrecht!", "wort": "unterschrieben"}},
+        ["Drei Sekunden: Testament am Computer, eigenhändig unterschrieben. Wirksam?",
+         "A, ja. B, nur mit Datum. C, nein. Drei, zwei, eins.",
+         "Richtig ist C. Es muss komplett handgeschrieben sein.",
+         "Und beim Ehegattentestament? Einer schreibt, beide unterschreiben."],
+        [{"seg": "s1", "titel": "A, B oder C?", "elemente": [
+            {"typ": "pille", "text": "A  ja", "farbe": "WEISS", "wort": "ja"},
+            {"typ": "pille", "text": "B  nur mit Datum", "farbe": "WEISS", "wort": "B"},
+            {"typ": "pille", "text": "C  nein", "farbe": "WEISS", "wort": "C"},
+            {"typ": "zahl", "text": "3 … 2 … 1", "size": 110, "wort": "Drei"}],
+          "icon": ["tabler:clock", "GELB", "Drei"], "sfx": [["rechner", "Drei", 0.6]]},
+         {"seg": "s2", "titel": "Auflösung", "elemente": [
+            {"typ": "block", "label": "Testament", "wert": "unwirksam", "farbe": "ROT", "wort": "Richtig", "zs": 120},
+            {"typ": "norm", "text": "§ 2247 Abs. 1 BGB", "wort": "handgeschrieben"}], "sfx": [["stempel", "Richtig", 0.6]]},
+         {"seg": "s3", "titel": "Die Nachfrage", "elemente": [
+            {"typ": "pille", "text": "Ehegattentestament", "farbe": "WEISS", "wort": "Ehegattentestament"},
+            {"typ": "block", "label": "einer schreibt", "wert": "beide unterschreiben", "farbe": "GELB", "wort": "beide", "zs": 90},
+            {"typ": "norm", "text": "§ 2267 BGB", "wort": "unterschreiben"}]}],
+        "Teste dich: Testament am PC getippt, aber eigenhändig unterschrieben – wirksam? 📝\n\nA) ja  B) nur mit Datum  C) nein\n\nAuflösung: C. Das eigenhändige Testament muss vollständig eigenhändig geschrieben und unterschrieben sein (§ 2247 Abs. 1 BGB). Gemeinschaftliches Ehegattentestament: Es genügt, wenn ein Ehegatte es eigenhändig schreibt und beide unterschreiben (§ 2267 BGB).",
+        ["§ 2247 Abs. 1 BGB", "§ 2267 BGB"], cta="senden")
+
+
+def zr9_kommanditist():   # Knall-Hook mit Haftungsschock, Layout B
+    return zr("z9", "F", "Kommanditist haftet unbeschränkt?",
+        {"zeilen": ["Kommanditist", "haftet", "unbeschränkt?"], "pille": "Gesellschaftsrecht-Falle", "figur": "F/sorge", "stil": "knall",
+         "stempel": {"text": "Möglich!", "wort": "möglich"}},
+        ["Ein Kommanditist haftet unbeschränkt? Ja, das ist möglich.",
+         "Normal haftet er nur bis zur Höhe seiner Einlage.",
+         "Aber: Beginnt die KG ihre Geschäfte vor der Eintragung, und er stimmt zu, haftet er für diese Schulden unbeschränkt.",
+         "Außer der Gläubiger wusste, dass er nur Kommanditist ist."],
+        [{"seg": "s1", "titel": "Normal", "elemente": [
+            {"typ": "block", "label": "Haftung bis", "wert": "Einlage", "farbe": "GRUEN", "wort": "Einlage", "zs": 120},
+            {"typ": "norm", "text": "§ 171 Abs. 1 HGB", "wort": "Höhe"}]},
+         {"seg": "s2", "titel": "Vor Eintragung", "elemente": [
+            {"typ": "pille", "text": "Geschäfte vor Eintragung", "farbe": "WEISS", "wort": "Eintragung"},
+            {"typ": "block", "label": "mit Zustimmung", "wert": "unbeschränkt", "farbe": "ROT", "wort": "unbeschränkt", "zs": 110},
+            {"typ": "norm", "text": "§ 176 Abs. 1 HGB", "wort": "Schulden"}], "sfx": [["stempel", "unbeschränkt", 0.6]]},
+         {"seg": "s3", "titel": "Ausnahme", "elemente": [
+            {"typ": "block", "label": "Gläubiger wusste", "wert": "nur Kommanditist", "farbe": "GELB", "wort": "wusste", "zs": 90}]}],
+        "Ein Kommanditist haftet unbeschränkt? Kann passieren. ⚠️\n\nGrundsatz: Haftung nur bis zur Höhe der Einlage (§ 171 Abs. 1 HGB). Beginnt die KG ihre Geschäfte vor der Eintragung mit Zustimmung des Kommanditisten, haftet er für die bis zur Eintragung begründeten Verbindlichkeiten wie ein Komplementär – es sei denn, der Gläubiger kannte seine Beteiligung als Kommanditist (§ 176 Abs. 1 HGB).",
+        ["§ 171 Abs. 1 HGB", "§ 176 Abs. 1 HGB"], cta="angst", layout="B")
+
+
+def zr10_verjaehrung():   # Rechen-Hook (split mit Zahlen), Layout C
+    return zr("z10", "B", "Teste dich: Wann ist die Forderung verjährt?",
+        {"zeilen": ["Forderung vom", "März 2023.", "Wann verjährt?"], "pille": "Rechne mit", "figur": "B/skeptisch", "stil": "split",
+         "split": [{"label": "entstanden", "wert": "März 2023", "farbe": "WEISS", "wort": "März"}, {"label": "verjährt", "wert": "?", "farbe": "GELB", "wort": "Wann"}],
+         "stempel": {"text": "Rechne!", "wort": "Wann"}},
+        ["Forderung vom März zweitausenddreiundzwanzig. Wann verjährt sie?",
+         "Die Regelverjährung beträgt drei Jahre.",
+         "Aber sie beginnt erst mit dem Schluss des Jahres. Also am einunddreißigsten Dezember zweitausenddreiundzwanzig.",
+         "Verjährt mit Ablauf des einunddreißigsten Dezember zweitausendsechsundzwanzig. Wer März sagt, verliert Punkte."],
+        [{"seg": "s1", "titel": "Die Frist", "elemente": [
+            {"typ": "zahl", "text": "3 Jahre", "size": 160, "wort": "drei"},
+            {"typ": "norm", "text": "§ 195 BGB", "wort": "Regelverjährung"}], "blase": "Drei Jahre!", "blase_wort": "drei"},
+         {"seg": "s2", "titel": "Der Beginn", "elemente": [
+            {"typ": "block", "label": "Beginn", "wert": "31.12.2023", "farbe": "GELB", "wort": "Schluss", "zs": 110},
+            {"typ": "norm", "text": "§ 199 Abs. 1 BGB", "wort": "Jahres"}], "blase": "Jahresende!", "blase_wort": "Schluss"},
+         {"seg": "s3", "titel": "Ergebnis", "elemente": [
+            {"typ": "block", "label": "verjährt mit Ablauf", "wert": "31.12.2026", "farbe": "GRUEN", "wort": "Verjährt", "zs": 110},
+            {"typ": "pille", "text": "nicht im März 2026!", "farbe": "ROT", "wort": "März"}],
+          "blase": "Nicht März!", "blase_wort": "März", "sfx": [["rechner", "Verjährt", 0.6]]}],
+        "Teste dich: Forderung entstanden im März 2023 – wann ist sie verjährt? 📅\n\nRegelverjährung drei Jahre (§ 195 BGB), Beginn mit dem Schluss des Jahres, in dem der Anspruch entstanden ist und der Gläubiger Kenntnis erlangt hat (§ 199 Abs. 1 BGB). Verjährt also mit Ablauf des 31.12.2026.",
+        ["§ 195 BGB", "§ 199 Abs. 1 BGB"], cta="pdf", layout="C")
+
+
+ZR_SERIE = [zr1_bestaetigungsschreiben, zr2_taschengeld, zr3_beweislast, zr4_prokura, zr5_buergschaft,
+            zr6_gestohlen, zr7_schenkung, zr8_testament, zr9_kommanditist, zr10_verjaehrung]
+REELS += ZR_SERIE
