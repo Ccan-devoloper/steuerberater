@@ -137,8 +137,9 @@
       "zeit": "19:00",
       "art": "teaser",
       "beitragSlot": "m1",
-      "status": "sendet",
-      "sendeversuch": "2026-10-30T18:00:33.336Z"
+      "status": "veroeffentlicht",
+      "medienId": "18140081926625515",
+      "veroeffentlicht": "2026-10-30T18:00:36.603Z"
     }
   ]
 }
