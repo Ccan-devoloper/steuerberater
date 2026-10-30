@@ -17009,22 +17009,22 @@
         "Was ist die Basis?"
       ],
       "insights": {
-        "reach": 68,
-        "views": 90,
+        "reach": 71,
+        "views": 93,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 75,
-        "navigation_swipe_forward": 5,
-        "navigation_tap_forward": 55,
+        "navigation": 77,
+        "navigation_swipe_forward": 6,
+        "navigation_tap_forward": 56,
         "navigation_tap_exit": 8,
         "navigation_tap_back": 7
       },
-      "insightsStand": "2026-10-30T12:30:17.487Z",
-      "insightsAlterStunden": 20.4
+      "insightsStand": "2026-10-30T14:46:26.943Z",
+      "insightsAlterStunden": 22.7
     },
     {
       "datum": "2026-10-29",
