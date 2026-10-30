@@ -50,8 +50,8 @@
         "slot": "m1",
         "zeit": "19:00",
         "format": "reel",
-        "themaId": "lead-reel-r5",
-        "themaTitel": "Aktuelles nicht auf dem Schirm",
+        "themaId": "lead-zr-z2",
+        "themaTitel": "Teste dich: Handy auf Raten mit 17",
         "fach": null,
         "klausur": 0
       }
@@ -325,27 +325,30 @@
         "Denn eingelegt wird mit dem Teilwert der Forderung, nicht mit dem Nennwert. So hat es der Große Senat entschieden.",
         "Merke: Werthaltiger Teil ist Einlage, der Rest ist Gewinn."
       ],
-      "dauerS": 33.987,
+      "dauerS": 33.735,
       "tempo": 1.0
     },
     "m1": {
       "format": "reel",
       "fach": null,
       "klausur": 0,
-      "fachLabel": "Mündliche Prüfung",
-      "themaId": "lead-reel-r5",
-      "caption": "Fehler Nr. 3 der Mündlichen: Aktuelles nicht auf dem Schirm. 📰\n\n„Was ist neu?“ ist ein Klassiker. Beispiel E-Rechnung: Seit 2025 müssen inländische Unternehmer E-Rechnungen empfangen können; für die Ausstellung gelten Übergangsregeln bis Ende 2026 bzw. – bei höchstens 800.000 € Vorjahresumsatz – bis Ende 2027 (§ 27 Abs. 38 UStG).\n\nWie du ihn in der Prüfung sicher vermeidest – mit Prüfungsszene, Merksatz und Checkliste – steht im Gratis-PDF „Die 10 größten Fehler in der Mündlichen“, ausgewertet aus über 400 Prüfungsprotokollen. 👉 Link in der Bio",
+      "fachLabel": "Mündliche · Zivilrecht",
+      "themaId": "lead-zr-z2",
+      "caption": "Teste dich: 17-Jähriger kauft mit Taschengeld ein Handy auf Raten – wirksam? 📱\n\nA) ja  B) schwebend unwirksam  C) nichtig\n\nAuflösung: B. § 110 BGB greift erst, wenn die Leistung vollständig mit überlassenen Mitteln bewirkt ist – bei Ratenkauf also erst mit der letzten Rate. Bis dahin hängt die Wirksamkeit von der Genehmigung der Eltern ab (§ 108 BGB).\n\nSchreib deine Antwort in die Kommentare 👇 und schick das Reel deinem Lernpartner.\n\nDie 10 häufigsten Fehler der Mündlichen – mit Prüfungsszenen und Lösungen – als Gratis-PDF, ausgewertet aus über 400 Prüfungsprotokollen. 👉 Link in der Bio",
       "hashtags": [
         "#steuerberaterprüfung",
         "#steuerberaterexamen",
         "#mündlicheprüfung",
-        "#examensvorbereitung"
+        "#examensvorbereitung",
+        "#zivilrecht",
+        "#steuerberater"
       ],
       "quellen": [
-        "§ 27 Abs. 38 UStG"
+        "§ 110 BGB",
+        "§ 108 BGB"
       ],
       "slug": "2026-11-01-m1",
-      "kurztitel": "Aktuelles nicht auf dem Schirm",
+      "kurztitel": "Teste dich: Handy auf Raten mit 17",
       "regelGeprueft": true,
       "manuellGeprueft": false,
       "freigabeBetreiber": true,
@@ -362,30 +365,30 @@
       "szenen": [
         {
           "art": "hook",
-          "titel": "„Was ist neu?“ Und du schweigst?"
+          "titel": "17 Jahre, Handy auf Raten. Wirksam?"
         },
         {
           "art": "schritt",
-          "titel": "Der Einstieg"
+          "titel": "A, B oder C?"
         },
         {
           "art": "schritt",
-          "titel": "Zum Beispiel"
+          "titel": "Auflösung"
         },
         {
           "art": "schritt",
-          "titel": "Ausstellen"
+          "titel": "Der Haken"
         }
       ],
       "sprecher": [
-        "Was ist neu? Diese Frage ist ein Klassiker in der Mündlichen. Und Platz drei der häufigsten Fehler.",
-        "Viele Prüfer starten so: Jeder nennt eine aktuelle Neuerung.",
-        "Zum Beispiel die E-Rechnung. Seit zweitausendfünfundzwanzig müssen Unternehmer sie empfangen können.",
-        "Für das Ausstellen gibt es Übergangsfristen bis Ende zweitausendsiebenundzwanzig.",
-        "Wie du ihn sicher vermeidest, mit Prüfungsszene, Merksatz und Checkliste, gibt es kostenlos. Link in der Bio."
+        "Drei Sekunden: Siebzehn, Handy auf Raten, mit Taschengeld. Wirksam?",
+        "A, ja. B, schwebend unwirksam. C, nichtig. Drei, zwei, eins.",
+        "Richtig ist B. Der Taschengeldparagraf greift erst, wenn alles bezahlt ist.",
+        "Bis zur letzten Rate entscheiden die Eltern.",
+        "Schick das deinem Lernpartner. Und hol dir die zehn häufigsten Fehler, kostenlos, Link in der Bio."
       ],
-      "dauerS": 31.866,
-      "tempo": 1.0
+      "dauerS": 27.69,
+      "tempo": 1.12
     },
     "s4": {
       "slot": "s4",
@@ -746,7 +749,7 @@
       "art": "teaser",
       "fach": null,
       "klausur": 0,
-      "fachLabel": "Mündliche Prüfung",
+      "fachLabel": "Mündliche · Zivilrecht",
       "themaId": null,
       "beitragSlot": "m1",
       "quellen": null,
@@ -757,7 +760,7 @@
       ],
       "unter": "Gratis-PDF mit allen 10 Fehlern: Link in Bio",
       "sichtbareTexte": [
-        "Mündliche Prüfung",
+        "Mündliche · Zivilrecht",
         "Neues Reel",
         "Neue Urteile?",
         "Der Prüfer fragt danach",
@@ -773,7 +776,7 @@
   },
   "renderVorschau": {
     "status": "fertig",
-    "erzeugtAm": "2026-10-27T11:54:15Z",
+    "erzeugtAm": "2026-10-30T21:40:52Z",
     "pfad": "vorproduktion/2026-11-01/fertig",
     "providerKostenUsd": 0,
     "coverbilder": false,
