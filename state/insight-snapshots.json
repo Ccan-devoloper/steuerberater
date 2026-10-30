@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "stand": "2026-10-30T11:37:03.900Z",
+  "stand": "2026-10-30T12:30:23.015Z",
   "medien": {
     "18093399314208242": {
       "art": "beitrag",
@@ -51700,6 +51700,23 @@
           "navigation_tap_exit": 8,
           "navigation_swipe_forward": 7,
           "navigation_tap_back": 8
+        },
+        {
+          "stand": "2026-10-30T12:30:17.487Z",
+          "alterStunden": 22.8,
+          "reach": 83,
+          "views": 96,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 86,
+          "navigation_tap_back": 8,
+          "navigation_swipe_forward": 11,
+          "navigation_tap_exit": 9,
+          "navigation_tap_forward": 58
         }
       ]
     },
@@ -51853,6 +51870,23 @@
           "navigation_tap_back": 3,
           "navigation_tap_exit": 8,
           "navigation_tap_forward": 59
+        },
+        {
+          "stand": "2026-10-30T12:30:17.487Z",
+          "alterStunden": 21.5,
+          "reach": 75,
+          "views": 85,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 81,
+          "navigation_tap_forward": 64,
+          "navigation_tap_exit": 8,
+          "navigation_tap_back": 4,
+          "navigation_swipe_forward": 5
         }
       ]
     },
@@ -51936,6 +51970,23 @@
           "navigation_tap_exit": 6,
           "navigation_tap_forward": 50,
           "navigation_swipe_forward": 5
+        },
+        {
+          "stand": "2026-10-30T12:30:17.487Z",
+          "alterStunden": 20.4,
+          "reach": 68,
+          "views": 90,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 75,
+          "navigation_swipe_forward": 5,
+          "navigation_tap_forward": 55,
+          "navigation_tap_exit": 8,
+          "navigation_tap_back": 7
         }
       ]
     },
@@ -52279,6 +52330,49 @@
           "total_interactions": 1,
           "follows": 0,
           "profile_visits": 0
+        },
+        {
+          "stand": "2026-10-30T12:30:22.446Z",
+          "alterStunden": 5,
+          "reach": 81,
+          "saved": 1,
+          "shares": 0,
+          "likes": 0,
+          "comments": 0,
+          "total_interactions": 1,
+          "follows": 0,
+          "profile_visits": 0
+        }
+      ]
+    },
+    "18195681895400265": {
+      "art": "story",
+      "datum": "2026-10-30",
+      "titel": [
+        "Wohnrecht",
+        "bewerten"
+      ],
+      "format": null,
+      "fach": "erbst",
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-10-30T11:14:03.898Z",
+      "snapshots": [
+        {
+          "stand": "2026-10-30T12:30:17.487Z",
+          "alterStunden": 1.3,
+          "reach": 14,
+          "views": 18,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 13,
+          "navigation_swipe_forward": 1,
+          "navigation_tap_exit": 3,
+          "navigation_tap_forward": 9
         }
       ]
     }
@@ -55158,6 +55252,11 @@
       "stand": "2026-10-30T11:37:03.900Z",
       "follower": 288,
       "medien": 167
+    },
+    {
+      "stand": "2026-10-30T12:30:23.015Z",
+      "follower": 288,
+      "medien": 168
     }
   ]
 }

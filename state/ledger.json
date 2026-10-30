@@ -16911,22 +16911,22 @@
         "Begründung danach"
       ],
       "insights": {
-        "reach": 73,
-        "views": 86,
+        "reach": 83,
+        "views": 96,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 75,
-        "navigation_tap_forward": 52,
-        "navigation_tap_exit": 8,
-        "navigation_swipe_forward": 7,
-        "navigation_tap_back": 8
+        "navigation": 86,
+        "navigation_tap_back": 8,
+        "navigation_swipe_forward": 11,
+        "navigation_tap_exit": 9,
+        "navigation_tap_forward": 58
       },
-      "insightsStand": "2026-10-30T09:47:34.846Z",
-      "insightsAlterStunden": 20.1
+      "insightsStand": "2026-10-30T12:30:17.487Z",
+      "insightsAlterStunden": 22.8
     },
     {
       "datum": "2026-10-29",
@@ -16977,22 +16977,22 @@
         "Und dann durchgefallen."
       ],
       "insights": {
-        "reach": 69,
-        "views": 80,
+        "reach": 75,
+        "views": 85,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 75,
-        "navigation_swipe_forward": 5,
-        "navigation_tap_back": 3,
+        "navigation": 81,
+        "navigation_tap_forward": 64,
         "navigation_tap_exit": 8,
-        "navigation_tap_forward": 59
+        "navigation_tap_back": 4,
+        "navigation_swipe_forward": 5
       },
-      "insightsStand": "2026-10-30T09:47:34.846Z",
-      "insightsAlterStunden": 18.8
+      "insightsStand": "2026-10-30T12:30:17.487Z",
+      "insightsAlterStunden": 21.5
     },
     {
       "datum": "2026-10-29",
@@ -17009,22 +17009,22 @@
         "Was ist die Basis?"
       ],
       "insights": {
-        "reach": 62,
-        "views": 84,
+        "reach": 68,
+        "views": 90,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 68,
-        "navigation_tap_back": 7,
-        "navigation_tap_exit": 6,
-        "navigation_tap_forward": 50,
-        "navigation_swipe_forward": 5
+        "navigation": 75,
+        "navigation_swipe_forward": 5,
+        "navigation_tap_forward": 55,
+        "navigation_tap_exit": 8,
+        "navigation_tap_back": 7
       },
-      "insightsStand": "2026-10-30T09:47:34.846Z",
-      "insightsAlterStunden": 17.7
+      "insightsStand": "2026-10-30T12:30:17.487Z",
+      "insightsAlterStunden": 20.4
     },
     {
       "datum": "2026-10-29",
@@ -17206,7 +17206,7 @@
         "#abgabenordnung"
       ],
       "insights": {
-        "reach": 71,
+        "reach": 81,
         "saved": 1,
         "shares": 0,
         "likes": 0,
@@ -17215,8 +17215,8 @@
         "follows": 0,
         "profile_visits": 0
       },
-      "insightsStand": "2026-10-30T10:45:40.637Z",
-      "insightsAlterStunden": 3.3
+      "insightsStand": "2026-10-30T12:30:22.446Z",
+      "insightsAlterStunden": 5
     },
     {
       "datum": "2026-10-30",
@@ -17262,7 +17262,23 @@
       "titel": [
         "Wohnrecht",
         "bewerten"
-      ]
+      ],
+      "insights": {
+        "reach": 14,
+        "views": 18,
+        "shares": 0,
+        "total_interactions": 0,
+        "replies": 0,
+        "follows": 0,
+        "profile_visits": 0,
+        "profile_activity": 0,
+        "navigation": 13,
+        "navigation_swipe_forward": 1,
+        "navigation_tap_exit": 3,
+        "navigation_tap_forward": 9
+      },
+      "insightsStand": "2026-10-30T12:30:17.487Z",
+      "insightsAlterStunden": 1.3
     },
     {
       "datum": "2026-10-30",
