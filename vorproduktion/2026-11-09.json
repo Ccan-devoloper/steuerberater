@@ -45,6 +45,15 @@
         "themaTitel": "Familienheim: § 13 Abs. 1 Nr. 4a, 4b und 4c ErbStG",
         "fach": "erbst",
         "klausur": 1
+      },
+      {
+        "slot": "m1",
+        "zeit": "19:00",
+        "format": "reel",
+        "themaId": "lead-zr-z10",
+        "themaTitel": "Teste dich: Wann ist die Forderung verjährt?",
+        "fach": null,
+        "klausur": 0
       }
     ],
     "stories": [
@@ -336,7 +345,7 @@
         "Dann zehn Jahre selbst wohnen. Auszug ohne zwingenden Grund kostet die Befreiung rückwirkend.",
         "Merke: Kinder zweihundert Quadratmeter, Rest anteilig, zehn Jahre wohnen."
       ],
-      "dauerS": 39.767,
+      "dauerS": 40.641,
       "tempo": 1.0
     },
     "s4": {
@@ -694,11 +703,73 @@
       "vorproduktionStatus": "live-freigegeben",
       "liveVorrangAktiv": true,
       "regelGeprueft": true
+    },
+    "m1": {
+      "format": "reel",
+      "fach": null,
+      "klausur": 0,
+      "fachLabel": "Mündliche · Zivilrecht",
+      "themaId": "lead-zr-z10",
+      "caption": "Teste dich: Forderung entstanden im März 2023 – wann ist sie verjährt? 📅\n\nRegelverjährung drei Jahre (§ 195 BGB), Beginn mit dem Schluss des Jahres, in dem der Anspruch entstanden ist und der Gläubiger Kenntnis erlangt hat (§ 199 Abs. 1 BGB). Verjährt also mit Ablauf des 31.12.2026.\n\nSchreib deine Antwort in die Kommentare 👇 und schick das Reel deinem Lernpartner.\n\nDie 10 häufigsten Fehler der Mündlichen – mit Prüfungsszenen und Lösungen – als Gratis-PDF, ausgewertet aus über 400 Prüfungsprotokollen. 👉 Link in der Bio",
+      "hashtags": [
+        "#steuerberaterprüfung",
+        "#steuerberaterexamen",
+        "#mündlicheprüfung",
+        "#examensvorbereitung",
+        "#zivilrecht",
+        "#steuerberater"
+      ],
+      "quellen": [
+        "§ 195 BGB",
+        "§ 199 Abs. 1 BGB"
+      ],
+      "slug": "2026-11-09-m1",
+      "kurztitel": "Teste dich: Wann ist die Forderung verjährt?",
+      "regelGeprueft": true,
+      "manuellGeprueft": false,
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "open-peeps-render",
+      "renderer": "open-peeps-v4",
+      "liveVorrangAktiv": true,
+      "bild": "op-cover",
+      "reelTyp": "klausurfalle",
+      "hookStil": "split",
+      "coverBadge": "Reel",
+      "szenen": [
+        {
+          "art": "hook",
+          "titel": "Forderung vom März 2023. Wann verjährt?"
+        },
+        {
+          "art": "schritt",
+          "titel": "Die Frist"
+        },
+        {
+          "art": "schritt",
+          "titel": "Der Beginn"
+        },
+        {
+          "art": "schritt",
+          "titel": "Ergebnis"
+        }
+      ],
+      "sprecher": [
+        "Forderung vom März zweitausenddreiundzwanzig. Wann verjährt sie?",
+        "Die Regelverjährung beträgt drei Jahre.",
+        "Aber sie beginnt erst mit dem Schluss des Jahres. Also am einunddreißigsten Dezember zweitausenddreiundzwanzig.",
+        "Verjährt mit Ablauf des einunddreißigsten Dezember zweitausendsechsundzwanzig. Wer März sagt, verliert Punkte.",
+        "Die zehn häufigsten Fehler der Mündlichen: kostenlos, Link in der Bio."
+      ],
+      "dauerS": 26.75,
+      "tempo": 1.04
     }
   },
   "renderVorschau": {
     "status": "fertig",
-    "erzeugtAm": "2026-10-27T08:14:08Z",
+    "erzeugtAm": "2026-10-30T21:54:30Z",
     "pfad": "vorproduktion/2026-11-09/fertig",
     "providerKostenUsd": 0,
     "coverbilder": false,
