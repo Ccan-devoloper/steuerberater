@@ -108,7 +108,8 @@
       "zeit": "17:04",
       "art": "tipp",
       "themaId": "kst-aufb-kst-ks-2-06",
-      "status": "geplant"
+      "status": "sendet",
+      "sendeversuch": "2026-10-30T16:04:00.101Z"
     },
     {
       "slot": "s3",
