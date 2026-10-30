@@ -130,7 +130,8 @@
       "zeit": "19:12",
       "art": "merksatz",
       "themaId": "umwst-aufb-umw-ks-3-02",
-      "status": "geplant"
+      "status": "sendet",
+      "sendeversuch": "2026-10-30T18:12:00.076Z"
     },
     {
       "slot": "s10",
