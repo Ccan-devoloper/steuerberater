@@ -17591,20 +17591,21 @@
       "fach": "ust",
       "titel": "",
       "insights": {
-        "reach": 13,
-        "views": 20,
+        "reach": 41,
+        "views": 49,
         "shares": 0,
-        "total_interactions": 0,
+        "total_interactions": 1,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 16,
-        "navigation_tap_forward": 14,
-        "navigation_tap_exit": 2
+        "navigation": 47,
+        "navigation_tap_back": 1,
+        "navigation_tap_forward": 40,
+        "navigation_tap_exit": 6
       },
-      "insightsStand": "2026-10-31T07:30:19.101Z",
-      "insightsAlterStunden": 1.4
+      "insightsStand": "2026-10-31T11:45:27.820Z",
+      "insightsAlterStunden": 5.6
     },
     {
       "datum": "2026-10-31",
@@ -17621,21 +17622,22 @@
         "geschuldet"
       ],
       "insights": {
-        "reach": 10,
-        "views": 18,
+        "reach": 39,
+        "views": 50,
         "shares": 0,
-        "total_interactions": 0,
+        "total_interactions": 1,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 18,
-        "navigation_tap_back": 1,
-        "navigation_tap_forward": 14,
-        "navigation_tap_exit": 3
+        "navigation": 46,
+        "navigation_swipe_forward": 1,
+        "navigation_tap_exit": 5,
+        "navigation_tap_forward": 37,
+        "navigation_tap_back": 3
       },
-      "insightsStand": "2026-10-31T07:30:19.101Z",
-      "insightsAlterStunden": 1.4
+      "insightsStand": "2026-10-31T11:45:27.820Z",
+      "insightsAlterStunden": 5.6
     },
     {
       "datum": "2026-10-31",
