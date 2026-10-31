@@ -17953,6 +17953,21 @@
         "Aus dem Kopf?",
         "Prüfer merken das sofort"
       ]
+    },
+    {
+      "datum": "2026-10-31",
+      "slot": "s9",
+      "medienId": "18111915677241320",
+      "veroeffentlicht": "2026-10-31T18:12:03.437Z",
+      "quelle": "vorproduktion",
+      "art": "story",
+      "storyArt": "merksatz",
+      "thema": "ao-modul-ao-323",
+      "fach": "ao",
+      "titel": [
+        "Wer darf",
+        "Einspruch einlegen?"
+      ]
     }
   ],
   "fachZaehler": {
