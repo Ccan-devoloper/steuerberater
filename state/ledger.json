@@ -17892,6 +17892,20 @@
         "#zivilrecht",
         "#steuerberater"
       ]
+    },
+    {
+      "datum": "2026-10-31",
+      "slot": "s3",
+      "medienId": "17933066070165307",
+      "veroeffentlicht": "2026-10-31T18:00:23.440Z",
+      "quelle": "vorproduktion",
+      "art": "story",
+      "storyArt": "teaser",
+      "thema": null,
+      "fach": "erbst",
+      "titel": [
+        "Grabpflege: 18,6-fach?"
+      ]
     }
   ],
   "fachZaehler": {
