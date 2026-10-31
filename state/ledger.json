@@ -17720,22 +17720,22 @@
         "GmbH-Anteil"
       ],
       "insights": {
-        "reach": 40,
-        "views": 48,
+        "reach": 55,
+        "views": 74,
         "shares": 0,
-        "total_interactions": 0,
+        "total_interactions": 1,
         "replies": 0,
         "follows": 0,
         "profile_visits": 1,
         "profile_activity": 1,
-        "navigation": 45,
-        "navigation_tap_back": 1,
-        "navigation_swipe_forward": 2,
-        "navigation_tap_exit": 7,
-        "navigation_tap_forward": 35
+        "navigation": 64,
+        "navigation_tap_back": 4,
+        "navigation_swipe_forward": 5,
+        "navigation_tap_exit": 10,
+        "navigation_tap_forward": 45
       },
-      "insightsStand": "2026-10-31T16:45:21.459Z",
-      "insightsAlterStunden": 5.5
+      "insightsStand": "2026-10-31T20:45:36.317Z",
+      "insightsAlterStunden": 9.5
     },
     {
       "datum": "2026-10-31",
