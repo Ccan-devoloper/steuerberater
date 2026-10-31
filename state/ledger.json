@@ -17740,6 +17740,20 @@
         "#examensvorbereitung",
         "#personengesellschaften"
       ]
+    },
+    {
+      "datum": "2026-10-31",
+      "slot": "s2",
+      "medienId": "18121695671467831",
+      "veroeffentlicht": "2026-10-31T12:30:17.202Z",
+      "quelle": "vorproduktion",
+      "art": "story",
+      "storyArt": "teaser",
+      "thema": null,
+      "fach": "persg",
+      "titel": [
+        "KG-Anteil verkauft"
+      ]
     }
   ],
   "fachZaehler": {
