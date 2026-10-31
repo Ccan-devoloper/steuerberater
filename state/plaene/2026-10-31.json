@@ -48,7 +48,8 @@
       "themaTitel": "Schweigen ist keine Zustimmung? Nicht immer.",
       "fach": null,
       "klausur": 0,
-      "status": "geplant"
+      "status": "sendet",
+      "sendeversuch": "2026-10-31T18:00:00.100Z"
     }
   ],
   "stories": [
