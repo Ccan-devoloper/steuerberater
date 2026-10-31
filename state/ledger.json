@@ -17830,6 +17830,21 @@
       },
       "insightsStand": "2026-10-31T14:44:55.713Z",
       "insightsAlterStunden": 1.1
+    },
+    {
+      "datum": "2026-10-31",
+      "slot": "s8",
+      "medienId": "18120361577086258",
+      "veroeffentlicht": "2026-10-31T16:04:03.719Z",
+      "quelle": "vorproduktion",
+      "art": "story",
+      "storyArt": "tipp",
+      "thema": "bilanz-karte-k3-21",
+      "fach": "bilanz",
+      "titel": [
+        "vGA technisch",
+        "umsetzen"
+      ]
     }
   ],
   "fachZaehler": {
