@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "stand": "2026-10-31T16:45:26.506Z",
+  "stand": "2026-10-31T18:00:44.410Z",
   "medien": {
     "18093399314208242": {
       "art": "beitrag",
@@ -46885,6 +46885,20 @@
           "ig_reels_avg_watch_time": 9040,
           "ig_reels_video_view_total_time": 15477510,
           "reels_skip_rate": 56.7
+        },
+        {
+          "stand": "2026-10-31T18:00:40.913Z",
+          "alterStunden": 144,
+          "reach": 1732,
+          "saved": 22,
+          "shares": 6,
+          "likes": 19,
+          "comments": 0,
+          "total_interactions": 47,
+          "views": 2047,
+          "ig_reels_avg_watch_time": 9090,
+          "ig_reels_video_view_total_time": 15798965,
+          "reels_skip_rate": 56.6
         }
       ]
     },
@@ -53500,6 +53514,18 @@
           "total_interactions": 5,
           "follows": 0,
           "profile_visits": 1
+        },
+        {
+          "stand": "2026-10-31T18:00:40.913Z",
+          "alterStunden": 29.5,
+          "reach": 114,
+          "saved": 2,
+          "shares": 0,
+          "likes": 4,
+          "comments": 0,
+          "total_interactions": 6,
+          "follows": 0,
+          "profile_visits": 1
         }
       ]
     },
@@ -54392,6 +54418,23 @@
           "navigation_swipe_forward": 1,
           "navigation_tap_exit": 10,
           "navigation_tap_forward": 30
+        },
+        {
+          "stand": "2026-10-31T18:00:37.159Z",
+          "alterStunden": 10.5,
+          "reach": 51,
+          "views": 62,
+          "shares": 0,
+          "total_interactions": 1,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 1,
+          "profile_activity": 0,
+          "navigation": 58,
+          "navigation_tap_forward": 41,
+          "navigation_tap_exit": 13,
+          "navigation_swipe_forward": 1,
+          "navigation_tap_back": 3
         }
       ]
     },
@@ -54531,6 +54574,23 @@
           "navigation_tap_forward": 10,
           "navigation_tap_exit": 2,
           "navigation_tap_back": 2
+        },
+        {
+          "stand": "2026-10-31T18:00:37.159Z",
+          "alterStunden": 5.5,
+          "reach": 37,
+          "views": 41,
+          "shares": 0,
+          "total_interactions": 1,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 38,
+          "navigation_tap_back": 2,
+          "navigation_tap_exit": 7,
+          "navigation_tap_forward": 27,
+          "navigation_swipe_forward": 2
         }
       ]
     },
@@ -54560,6 +54620,18 @@
           "stand": "2026-10-31T15:45:04.985Z",
           "alterStunden": 3.2,
           "reach": 65,
+          "saved": 3,
+          "shares": 0,
+          "likes": 1,
+          "comments": 0,
+          "total_interactions": 4,
+          "follows": 0,
+          "profile_visits": 0
+        },
+        {
+          "stand": "2026-10-31T18:00:40.913Z",
+          "alterStunden": 5.5,
+          "reach": 78,
           "saved": 3,
           "shares": 0,
           "likes": 1,
@@ -54598,6 +54670,64 @@
           "navigation_swipe_forward": 1,
           "navigation_tap_forward": 11,
           "navigation_tap_exit": 1
+        }
+      ]
+    },
+    "18120361577086258": {
+      "art": "story",
+      "datum": "2026-10-31",
+      "titel": [
+        "vGA technisch",
+        "umsetzen"
+      ],
+      "format": null,
+      "fach": "bilanz",
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-10-31T16:04:03.719Z",
+      "snapshots": [
+        {
+          "stand": "2026-10-31T18:00:37.159Z",
+          "alterStunden": 1.9,
+          "reach": 20,
+          "views": 29,
+          "shares": 0,
+          "total_interactions": 1,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 25,
+          "navigation_tap_back": 1,
+          "navigation_tap_exit": 4,
+          "navigation_tap_forward": 15,
+          "navigation_swipe_forward": 5
+        }
+      ]
+    },
+    "18146592064599831": {
+      "art": "beitrag",
+      "datum": "2026-10-31",
+      "titel": "§ 13 Abs. 2 BewG: immerwährende und unbestimmte Dauer; Grabpflege",
+      "format": "reel",
+      "fach": "erbst",
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-10-31T16:30:09.379Z",
+      "snapshots": [
+        {
+          "stand": "2026-10-31T18:00:40.913Z",
+          "alterStunden": 1.5,
+          "reach": 334,
+          "saved": 4,
+          "shares": 0,
+          "likes": 2,
+          "comments": 0,
+          "total_interactions": 6,
+          "views": 459,
+          "ig_reels_avg_watch_time": 11273,
+          "ig_reels_video_view_total_time": 3663778,
+          "reels_skip_rate": 43.8
         }
       ]
     }
@@ -57582,6 +57712,11 @@
       "stand": "2026-10-31T16:45:26.506Z",
       "follower": 413,
       "medien": 173
+    },
+    {
+      "stand": "2026-10-31T18:00:44.410Z",
+      "follower": 416,
+      "medien": 174
     }
   ]
 }
