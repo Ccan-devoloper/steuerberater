@@ -17590,6 +17590,21 @@
       "thema": "ust-quiz-ust-5",
       "fach": "ust",
       "titel": ""
+    },
+    {
+      "datum": "2026-10-31",
+      "slot": "s5",
+      "medienId": "18121029434052249",
+      "veroeffentlicht": "2026-10-31T06:09:07.967Z",
+      "quelle": "vorproduktion",
+      "art": "story",
+      "storyArt": "antwort",
+      "thema": "ust-quiz-ust-5",
+      "fach": "ust",
+      "titel": [
+        "B: Mehrbetrag",
+        "geschuldet"
+      ]
     }
   ],
   "fachZaehler": {
