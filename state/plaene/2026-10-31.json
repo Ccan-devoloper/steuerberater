@@ -130,7 +130,8 @@
       "zeit": "19:12",
       "art": "merksatz",
       "themaId": "ao-modul-ao-323",
-      "status": "geplant"
+      "status": "sendet",
+      "sendeversuch": "2026-10-31T18:12:00.101Z"
     },
     {
       "slot": "s10",
