@@ -17771,6 +17771,21 @@
       "titel": [
         "KG-Anteil verkauft"
       ]
+    },
+    {
+      "datum": "2026-10-31",
+      "slot": "s7",
+      "medienId": "18098726336119057",
+      "veroeffentlicht": "2026-10-31T13:40:03.490Z",
+      "quelle": "vorproduktion",
+      "art": "story",
+      "storyArt": "tipp",
+      "thema": null,
+      "fach": null,
+      "titel": [
+        "Hängen geblieben?",
+        "Annahme treffen"
+      ]
     }
   ],
   "fachZaehler": {
