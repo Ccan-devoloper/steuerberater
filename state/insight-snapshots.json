@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "stand": "2026-10-31T18:45:35.314Z",
+  "stand": "2026-10-31T19:45:13.113Z",
   "medien": {
     "18093399314208242": {
       "art": "beitrag",
@@ -54756,6 +54756,20 @@
           "ig_reels_avg_watch_time": 11273,
           "ig_reels_video_view_total_time": 3663778,
           "reels_skip_rate": 43.8
+        },
+        {
+          "stand": "2026-10-31T19:45:11.627Z",
+          "alterStunden": 3.3,
+          "reach": 640,
+          "saved": 5,
+          "shares": 0,
+          "likes": 3,
+          "comments": 0,
+          "total_interactions": 8,
+          "views": 925,
+          "ig_reels_avg_watch_time": 10902,
+          "ig_reels_video_view_total_time": 6868727,
+          "reels_skip_rate": 44.3
         }
       ]
     },
@@ -54782,6 +54796,100 @@
           "ig_reels_avg_watch_time": 7444,
           "ig_reels_video_view_total_time": 766801,
           "reels_skip_rate": 20.3
+        }
+      ]
+    },
+    "17933066070165307": {
+      "art": "story",
+      "datum": "2026-10-31",
+      "titel": [
+        "Grabpflege: 18,6-fach?"
+      ],
+      "format": null,
+      "fach": "erbst",
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-10-31T18:00:23.440Z",
+      "snapshots": [
+        {
+          "stand": "2026-10-31T19:45:06.821Z",
+          "alterStunden": 1.7,
+          "reach": 21,
+          "views": 27,
+          "shares": 0,
+          "total_interactions": 1,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 23,
+          "navigation_tap_exit": 4,
+          "navigation_tap_back": 1,
+          "navigation_tap_forward": 15,
+          "navigation_swipe_forward": 3
+        }
+      ]
+    },
+    "18188355937372763": {
+      "art": "story",
+      "datum": "2026-10-31",
+      "titel": [
+        "Aus dem Kopf?",
+        "Prüfer merken das sofort"
+      ],
+      "format": null,
+      "fach": null,
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-10-31T18:00:35.941Z",
+      "snapshots": [
+        {
+          "stand": "2026-10-31T19:45:06.821Z",
+          "alterStunden": 1.7,
+          "reach": 19,
+          "views": 27,
+          "shares": 0,
+          "total_interactions": 1,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 21,
+          "navigation_swipe_forward": 3,
+          "navigation_tap_back": 2,
+          "navigation_tap_exit": 4,
+          "navigation_tap_forward": 12
+        }
+      ]
+    },
+    "18111915677241320": {
+      "art": "story",
+      "datum": "2026-10-31",
+      "titel": [
+        "Wer darf",
+        "Einspruch einlegen?"
+      ],
+      "format": null,
+      "fach": "ao",
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-10-31T18:12:03.437Z",
+      "snapshots": [
+        {
+          "stand": "2026-10-31T19:45:06.821Z",
+          "alterStunden": 1.6,
+          "reach": 16,
+          "views": 21,
+          "shares": 0,
+          "total_interactions": 1,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 18,
+          "navigation_tap_exit": 6,
+          "navigation_tap_back": 2,
+          "navigation_tap_forward": 10
         }
       ]
     }
@@ -57770,6 +57878,11 @@
     {
       "stand": "2026-10-31T18:00:44.410Z",
       "follower": 416,
+      "medien": 174
+    },
+    {
+      "stand": "2026-10-31T19:45:13.113Z",
+      "follower": 427,
       "medien": 174
     }
   ]
