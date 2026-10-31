@@ -17846,6 +17846,28 @@
         "vGA technisch",
         "umsetzen"
       ]
+    },
+    {
+      "datum": "2026-10-31",
+      "slot": "b3",
+      "medienId": "18146592064599831",
+      "veroeffentlicht": "2026-10-31T16:30:09.379Z",
+      "quelle": "vorproduktion",
+      "art": "beitrag",
+      "zeit": "17:30",
+      "stunde": 17,
+      "format": "reel",
+      "thema": "erbst-modul-erbst-539",
+      "fach": "erbst",
+      "klausur": 1,
+      "titel": "§ 13 Abs. 2 BewG: immerwährende und unbestimmte Dauer; Grabpflege",
+      "hookTyp": null,
+      "hashtags": [
+        "#steuerberaterexamen",
+        "#steuerberaterprüfung",
+        "#examensvorbereitung",
+        "#erbschaftsteuer"
+      ]
     }
   ],
   "fachZaehler": {
@@ -17855,7 +17877,7 @@
     "ao": 27,
     "bilanz": 26,
     "istr": 20,
-    "erbst": 11,
+    "erbst": 12,
     "mindset": 2,
     "est": 8,
     "umwst": 9,
