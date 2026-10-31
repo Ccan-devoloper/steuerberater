@@ -17605,6 +17605,28 @@
         "B: Mehrbetrag",
         "geschuldet"
       ]
+    },
+    {
+      "datum": "2026-10-31",
+      "slot": "b1",
+      "medienId": "18096837056666107",
+      "veroeffentlicht": "2026-10-31T07:30:05.781Z",
+      "quelle": "vorproduktion",
+      "art": "beitrag",
+      "zeit": "08:30",
+      "stunde": 8,
+      "format": "klausurtechnik",
+      "thema": "gewst-klausurtechnik-2026-10-31",
+      "fach": "gewst",
+      "klausur": 2,
+      "titel": "Klausurtechnik",
+      "hookTyp": null,
+      "hashtags": [
+        "#steuerberaterexamen",
+        "#steuerberaterprüfung",
+        "#examensvorbereitung",
+        "#gewerbesteuer"
+      ]
     }
   ],
   "fachZaehler": {
@@ -17618,7 +17640,7 @@
     "mindset": 2,
     "est": 8,
     "umwst": 9,
-    "gewst": 4,
+    "gewst": 5,
     "null": 9
   },
   "nachrichten": [],
