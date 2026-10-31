@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "stand": "2026-10-31T06:46:50.659Z",
+  "stand": "2026-10-31T07:30:19.101Z",
   "medien": {
     "18093399314208242": {
       "art": "beitrag",
@@ -53599,6 +53599,64 @@
           "navigation_tap_back": 4,
           "navigation_tap_forward": 49,
           "navigation_tap_exit": 12
+        }
+      ]
+    },
+    "17887100025505080": {
+      "art": "story",
+      "datum": "2026-10-31",
+      "titel": null,
+      "format": null,
+      "fach": "ust",
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-10-31T06:07:03.307Z",
+      "snapshots": [
+        {
+          "stand": "2026-10-31T07:30:19.101Z",
+          "alterStunden": 1.4,
+          "reach": 13,
+          "views": 20,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 16,
+          "navigation_tap_forward": 14,
+          "navigation_tap_exit": 2
+        }
+      ]
+    },
+    "18121029434052249": {
+      "art": "story",
+      "datum": "2026-10-31",
+      "titel": [
+        "B: Mehrbetrag",
+        "geschuldet"
+      ],
+      "format": null,
+      "fach": "ust",
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-10-31T06:09:07.967Z",
+      "snapshots": [
+        {
+          "stand": "2026-10-31T07:30:19.101Z",
+          "alterStunden": 1.4,
+          "reach": 10,
+          "views": 18,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 18,
+          "navigation_tap_back": 1,
+          "navigation_tap_forward": 14,
+          "navigation_tap_exit": 3
         }
       ]
     }

@@ -17589,7 +17589,22 @@
       "storyArt": "frage",
       "thema": "ust-quiz-ust-5",
       "fach": "ust",
-      "titel": ""
+      "titel": "",
+      "insights": {
+        "reach": 13,
+        "views": 20,
+        "shares": 0,
+        "total_interactions": 0,
+        "replies": 0,
+        "follows": 0,
+        "profile_visits": 0,
+        "profile_activity": 0,
+        "navigation": 16,
+        "navigation_tap_forward": 14,
+        "navigation_tap_exit": 2
+      },
+      "insightsStand": "2026-10-31T07:30:19.101Z",
+      "insightsAlterStunden": 1.4
     },
     {
       "datum": "2026-10-31",
@@ -17604,7 +17619,23 @@
       "titel": [
         "B: Mehrbetrag",
         "geschuldet"
-      ]
+      ],
+      "insights": {
+        "reach": 10,
+        "views": 18,
+        "shares": 0,
+        "total_interactions": 0,
+        "replies": 0,
+        "follows": 0,
+        "profile_visits": 0,
+        "profile_activity": 0,
+        "navigation": 18,
+        "navigation_tap_back": 1,
+        "navigation_tap_forward": 14,
+        "navigation_tap_exit": 3
+      },
+      "insightsStand": "2026-10-31T07:30:19.101Z",
+      "insightsAlterStunden": 1.4
     },
     {
       "datum": "2026-10-31",
