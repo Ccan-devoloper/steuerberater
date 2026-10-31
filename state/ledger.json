@@ -17591,22 +17591,22 @@
       "fach": "ust",
       "titel": "",
       "insights": {
-        "reach": 55,
-        "views": 66,
+        "reach": 74,
+        "views": 90,
         "shares": 0,
         "total_interactions": 1,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 65,
-        "navigation_tap_back": 5,
-        "navigation_tap_forward": 52,
-        "navigation_tap_exit": 7,
-        "navigation_swipe_forward": 1
+        "navigation": 82,
+        "navigation_swipe_forward": 5,
+        "navigation_tap_exit": 8,
+        "navigation_tap_forward": 62,
+        "navigation_tap_back": 7
       },
-      "insightsStand": "2026-10-31T16:04:04.839Z",
-      "insightsAlterStunden": 10
+      "insightsStand": "2026-10-31T20:17:57.184Z",
+      "insightsAlterStunden": 14.2
     },
     {
       "datum": "2026-10-31",
@@ -17623,22 +17623,22 @@
         "geschuldet"
       ],
       "insights": {
-        "reach": 52,
-        "views": 62,
+        "reach": 68,
+        "views": 81,
         "shares": 0,
         "total_interactions": 1,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 59,
+        "navigation": 74,
         "navigation_swipe_forward": 1,
-        "navigation_tap_exit": 6,
-        "navigation_tap_forward": 48,
-        "navigation_tap_back": 4
+        "navigation_tap_exit": 8,
+        "navigation_tap_forward": 58,
+        "navigation_tap_back": 7
       },
-      "insightsStand": "2026-10-31T16:04:04.839Z",
-      "insightsAlterStunden": 9.9
+      "insightsStand": "2026-10-31T20:17:57.184Z",
+      "insightsAlterStunden": 14.1
     },
     {
       "datum": "2026-10-31",
@@ -17925,19 +17925,19 @@
         "#steuerberater"
       ],
       "insights": {
-        "reach": 107,
-        "saved": 0,
+        "reach": 272,
+        "saved": 2,
         "shares": 0,
-        "likes": 1,
+        "likes": 5,
         "comments": 0,
-        "total_interactions": 1,
-        "views": 143,
-        "ig_reels_avg_watch_time": 7444,
-        "ig_reels_video_view_total_time": 766801,
-        "reels_skip_rate": 20.3
+        "total_interactions": 7,
+        "views": 393,
+        "ig_reels_avg_watch_time": 7274,
+        "ig_reels_video_view_total_time": 1956778,
+        "reels_skip_rate": 51.6
       },
-      "insightsStand": "2026-10-31T18:45:35.314Z",
-      "insightsAlterStunden": 0.8
+      "insightsStand": "2026-10-31T20:18:00.265Z",
+      "insightsAlterStunden": 2.3
     },
     {
       "datum": "2026-10-31",
