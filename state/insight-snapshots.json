@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "stand": "2026-10-31T12:30:22.797Z",
+  "stand": "2026-10-31T12:46:56.493Z",
   "medien": {
     "18093399314208242": {
       "art": "beitrag",
@@ -53622,6 +53622,20 @@
           "ig_reels_avg_watch_time": 10867,
           "ig_reels_video_view_total_time": 9324026,
           "reels_skip_rate": 49.7
+        },
+        {
+          "stand": "2026-10-31T12:46:53.519Z",
+          "alterStunden": 20.3,
+          "reach": 1122,
+          "saved": 7,
+          "shares": 0,
+          "likes": 15,
+          "comments": 0,
+          "total_interactions": 22,
+          "views": 1400,
+          "ig_reels_avg_watch_time": 10553,
+          "ig_reels_video_view_total_time": 12020157,
+          "reels_skip_rate": 52.6
         }
       ]
     },
@@ -53690,6 +53704,20 @@
           "ig_reels_avg_watch_time": 10512,
           "ig_reels_video_view_total_time": 14234315,
           "reels_skip_rate": 59.5
+        },
+        {
+          "stand": "2026-10-31T12:46:53.519Z",
+          "alterStunden": 18.8,
+          "reach": 1424,
+          "saved": 12,
+          "shares": 3,
+          "likes": 11,
+          "comments": 0,
+          "total_interactions": 27,
+          "views": 1688,
+          "ig_reels_avg_watch_time": 10686,
+          "ig_reels_video_view_total_time": 15324485,
+          "reels_skip_rate": 59.1
         }
       ]
     },
@@ -54008,6 +54036,23 @@
           "navigation_tap_exit": 5,
           "navigation_swipe_forward": 1,
           "navigation_tap_back": 1
+        },
+        {
+          "stand": "2026-10-31T12:46:51.751Z",
+          "alterStunden": 5.3,
+          "reach": 37,
+          "views": 49,
+          "shares": 0,
+          "total_interactions": 1,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 1,
+          "profile_activity": 0,
+          "navigation": 44,
+          "navigation_tap_back": 3,
+          "navigation_swipe_forward": 1,
+          "navigation_tap_exit": 10,
+          "navigation_tap_forward": 30
         }
       ]
     },
@@ -57047,6 +57092,11 @@
       "stand": "2026-10-31T11:45:30.706Z",
       "follower": 401,
       "medien": 171
+    },
+    {
+      "stand": "2026-10-31T12:46:56.493Z",
+      "follower": 403,
+      "medien": 172
     }
   ]
 }
