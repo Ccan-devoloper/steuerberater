@@ -17701,6 +17701,21 @@
       },
       "insightsStand": "2026-10-31T08:46:01.803Z",
       "insightsAlterStunden": 1.3
+    },
+    {
+      "datum": "2026-10-31",
+      "slot": "s6",
+      "medienId": "18099226220430344",
+      "veroeffentlicht": "2026-10-31T11:14:03.590Z",
+      "quelle": "vorproduktion",
+      "art": "story",
+      "storyArt": "norm",
+      "thema": "istr-aufb-istr-gh-5-05",
+      "fach": "istr",
+      "titel": [
+        "Wegzug mit",
+        "GmbH-Anteil"
+      ]
     }
   ],
   "fachZaehler": {
