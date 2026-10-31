@@ -17868,6 +17868,30 @@
         "#examensvorbereitung",
         "#erbschaftsteuer"
       ]
+    },
+    {
+      "datum": "2026-10-31",
+      "slot": "m1",
+      "medienId": "18100838681432334",
+      "veroeffentlicht": "2026-10-31T18:00:10.307Z",
+      "quelle": "vorproduktion",
+      "art": "beitrag",
+      "zeit": "19:00",
+      "stunde": 19,
+      "format": "reel",
+      "thema": "lead-zr-z1",
+      "fach": null,
+      "klausur": 0,
+      "titel": "Schweigen ist keine Zustimmung? Nicht immer.",
+      "hookTyp": null,
+      "hashtags": [
+        "#steuerberaterprüfung",
+        "#steuerberaterexamen",
+        "#mündlicheprüfung",
+        "#examensvorbereitung",
+        "#zivilrecht",
+        "#steuerberater"
+      ]
     }
   ],
   "fachZaehler": {
@@ -17882,7 +17906,7 @@
     "est": 8,
     "umwst": 9,
     "gewst": 5,
-    "null": 9
+    "null": 10
   },
   "nachrichten": [],
   "postfach": [],
