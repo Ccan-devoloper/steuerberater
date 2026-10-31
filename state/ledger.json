@@ -17627,6 +17627,20 @@
         "#examensvorbereitung",
         "#gewerbesteuer"
       ]
+    },
+    {
+      "datum": "2026-10-31",
+      "slot": "s1",
+      "medienId": "18104754560640547",
+      "veroeffentlicht": "2026-10-31T07:30:17.808Z",
+      "quelle": "vorproduktion",
+      "art": "story",
+      "storyArt": "teaser",
+      "thema": null,
+      "fach": "gewst",
+      "titel": [
+        "GewSt-Teil: Punkte sichern"
+      ]
     }
   ],
   "fachZaehler": {
