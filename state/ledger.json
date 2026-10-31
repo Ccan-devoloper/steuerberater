@@ -17756,7 +17756,19 @@
         "#steuerberaterprüfung",
         "#examensvorbereitung",
         "#personengesellschaften"
-      ]
+      ],
+      "insights": {
+        "reach": 42,
+        "saved": 2,
+        "shares": 0,
+        "likes": 1,
+        "comments": 0,
+        "total_interactions": 3,
+        "follows": 0,
+        "profile_visits": 0
+      },
+      "insightsStand": "2026-10-31T13:40:05.732Z",
+      "insightsAlterStunden": 1.2
     },
     {
       "datum": "2026-10-31",
@@ -17770,7 +17782,23 @@
       "fach": "persg",
       "titel": [
         "KG-Anteil verkauft"
-      ]
+      ],
+      "insights": {
+        "reach": 12,
+        "views": 19,
+        "shares": 0,
+        "total_interactions": 1,
+        "replies": 0,
+        "follows": 0,
+        "profile_visits": 0,
+        "profile_activity": 0,
+        "navigation": 14,
+        "navigation_tap_forward": 10,
+        "navigation_tap_exit": 2,
+        "navigation_tap_back": 2
+      },
+      "insightsStand": "2026-10-31T13:40:04.558Z",
+      "insightsAlterStunden": 1.2
     },
     {
       "datum": "2026-10-31",

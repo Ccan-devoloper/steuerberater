@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "stand": "2026-10-31T12:46:56.493Z",
+  "stand": "2026-10-31T13:40:06.553Z",
   "medien": {
     "18093399314208242": {
       "art": "beitrag",
@@ -54135,6 +54135,60 @@
           "navigation_tap_back": 1
         }
       ]
+    },
+    "18121695671467831": {
+      "art": "story",
+      "datum": "2026-10-31",
+      "titel": [
+        "KG-Anteil verkauft"
+      ],
+      "format": null,
+      "fach": "persg",
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-10-31T12:30:17.202Z",
+      "snapshots": [
+        {
+          "stand": "2026-10-31T13:40:04.558Z",
+          "alterStunden": 1.2,
+          "reach": 12,
+          "views": 19,
+          "shares": 0,
+          "total_interactions": 1,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 14,
+          "navigation_tap_forward": 10,
+          "navigation_tap_exit": 2,
+          "navigation_tap_back": 2
+        }
+      ]
+    },
+    "17960810985266585": {
+      "art": "beitrag",
+      "datum": "2026-10-31",
+      "titel": "Rechenweg",
+      "format": "rechenweg",
+      "fach": "persg",
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-10-31T12:30:05.263Z",
+      "snapshots": [
+        {
+          "stand": "2026-10-31T13:40:05.732Z",
+          "alterStunden": 1.2,
+          "reach": 42,
+          "saved": 2,
+          "shares": 0,
+          "likes": 1,
+          "comments": 0,
+          "total_interactions": 3,
+          "follows": 0,
+          "profile_visits": 0
+        }
+      ]
     }
   },
   "konto": [
@@ -57096,6 +57150,11 @@
     {
       "stand": "2026-10-31T12:46:56.493Z",
       "follower": 403,
+      "medien": 172
+    },
+    {
+      "stand": "2026-10-31T13:40:06.553Z",
+      "follower": 405,
       "medien": 172
     }
   ]
