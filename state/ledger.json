@@ -17265,22 +17265,22 @@
         "bewerten"
       ],
       "insights": {
-        "reach": 86,
-        "views": 104,
+        "reach": 93,
+        "views": 116,
         "shares": 0,
         "total_interactions": 1,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 88,
-        "navigation_tap_back": 4,
-        "navigation_tap_forward": 62,
-        "navigation_tap_exit": 16,
-        "navigation_swipe_forward": 6
+        "navigation": 102,
+        "navigation_swipe_forward": 7,
+        "navigation_tap_exit": 17,
+        "navigation_tap_forward": 71,
+        "navigation_tap_back": 7
       },
-      "insightsStand": "2026-10-31T05:45:03.484Z",
-      "insightsAlterStunden": 18.5
+      "insightsStand": "2026-10-31T07:45:32.354Z",
+      "insightsAlterStunden": 20.5
     },
     {
       "datum": "2026-10-30",
