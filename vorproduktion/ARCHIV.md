@@ -16,3 +16,4 @@ bleiben. Die Medien sind in der Git-Historie vollständig erhalten:
 | 2026-10-24–2026-10-24 | `83692aff34c25202f050f72358da19ed1ff67f81` | `git checkout 83692aff34c25202f050f72358da19ed1ff67f81 -- vorproduktion/<datum>` |
 | 2026-10-25–2026-10-25 | `30e5e6390007801ab28bbdb9ece54c50f8ccef19` | `git checkout 30e5e6390007801ab28bbdb9ece54c50f8ccef19 -- vorproduktion/<datum>` |
 | 2026-10-26–2026-10-26 | `4dfbe89db4205a866b0795345b0e6269fb7d5aee` | `git checkout 4dfbe89db4205a866b0795345b0e6269fb7d5aee -- vorproduktion/<datum>` |
+| 2026-10-27–2026-10-27 | `522a1ea6b188d5a9d7e7d431df85402ca5295720` | `git checkout 522a1ea6b188d5a9d7e7d431df85402ca5295720 -- vorproduktion/<datum>` |
