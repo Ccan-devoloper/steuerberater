@@ -1,0 +1,29 @@
+{
+  "slot": "s10",
+  "art": "teaser",
+  "fach": null,
+  "klausur": 0,
+  "fachLabel": "Mündliche · Zivilrecht",
+  "themaId": null,
+  "beitragSlot": "m1",
+  "quellen": null,
+  "ueberzeile": "Neues Reel",
+  "titel": [
+    "Aus dem Kopf?",
+    "Prüfer merken das sofort"
+  ],
+  "unter": "Gratis-PDF mit allen 10 Fehlern: Link in Bio",
+  "sichtbareTexte": [
+    "Mündliche · Zivilrecht",
+    "Neues Reel",
+    "Aus dem Kopf?",
+    "Prüfer merken das sofort",
+    "Gratis-PDF mit allen 10 Fehlern: Link in Bio"
+  ],
+  "renderer": "open-peeps-v4",
+  "bildStatus": "open-peeps-render",
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "liveVorrangAktiv": true,
+  "regelGeprueft": true
+}

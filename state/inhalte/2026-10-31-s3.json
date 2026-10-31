@@ -1,0 +1,26 @@
+{
+  "slot": "s3",
+  "art": "teaser",
+  "fach": "erbst",
+  "klausur": 1,
+  "fachLabel": "Erbschaftsteuer",
+  "themaId": null,
+  "beitragSlot": "b3",
+  "quellen": null,
+  "titel": [
+    "Grabpflege: 18,6-fach?"
+  ],
+  "unter": "Neues Reel · im Profil",
+  "sichtbareTexte": [
+    "Erbschaftsteuer",
+    "Neu im Feed",
+    "Grabpflege: 18,6-fach?",
+    "Neues Reel · im Profil"
+  ],
+  "renderer": "open-peeps-v4",
+  "bildStatus": "open-peeps-render",
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "liveVorrangAktiv": true,
+  "regelGeprueft": true
+}

@@ -1,0 +1,80 @@
+{
+  "format": "rechenweg",
+  "fach": "persg",
+  "klausur": 3,
+  "fachLabel": "Personengesellschaften",
+  "themaId": "persg-aufb-persg-melzer-3-1",
+  "caption": "Rechenweg Personengesellschaften: Verkauf eines KG-Anteils – was passiert auf beiden Seiten?\n\nVeräußerer (58): Veräußerungsgewinn = Preis nach Abzug der Veräußerungskosten minus Kapitalkonto (§ 16 Abs. 1 S. 1 Nr. 2, Abs. 2 S. 1 EStG): 500.000 € − 5.000 € − 300.000 € = 195.000 €.\nFreibetrag 45.000 € ab 55, nur einmal, abgeschmolzen um den Betrag über 136.000 € (§ 16 Abs. 4 S. 1–3 EStG): 195.000 € − 136.000 € = 59.000 €, Freibetrag 0 €.\nErmäßigter Steuersatz auf Antrag möglich (§ 34 Abs. 3 S. 1 EStG). Gewerbesteuer fällt nicht an, soweit der Gewinn auf eine natürliche Person als unmittelbar beteiligten Mitunternehmer entfällt (§ 7 S. 2 Nr. 2 GewStG).\n\nErwerberin: Der Mehrpreis von 200.000 € wird in einer Ergänzungsbilanz aktiviert (Halle 150.000 €, Firmenwert 50.000 €) und fortgeschrieben; Firmenwert über 15 Jahre (§ 7 Abs. 1 S. 3 EStG): 3.333 € im Jahr.\n\nZum Schluss: § 16 Abs. 2, 4 EStG zum Markieren. Speichern für Klausur 3 📌",
+  "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#personengesellschaften"
+  ],
+  "quellen": [
+    "§ 16 Abs. 1 S. 1 Nr. 2, Abs. 2 S. 1, Abs. 4 EStG",
+    "§ 34 Abs. 3 S. 1 EStG",
+    "§ 7 S. 2 Nr. 2 GewStG",
+    "§ 7 Abs. 1 S. 3 EStG"
+  ],
+  "slug": "2026-10-31-b2",
+  "kurztitel": "Was ändert der Verkauf eines Anteils steuerlich für beide Seiten?",
+  "regelGeprueft": true,
+  "manuellGeprueft": false,
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "textProviderKostenUsd": 0,
+  "faktencheckProviderKostenUsd": 0,
+  "bildStatus": "open-peeps-render",
+  "renderer": "open-peeps-v4",
+  "liveVorrangAktiv": true,
+  "coverBadge": "Rechenweg",
+  "folien": [
+    {
+      "art": "titel",
+      "titel": "Rechenweg",
+      "text": "Rechenweg · KG-Anteil · verkauft · § 16 Abs. 1 S. 1 Nr. 2 EStG · beide Seiten · + Markier-Guide § 16 EStG · Kaufpreis · 500.000 € · Kapital 300.000 €",
+      "bild": "op-cover"
+    },
+    {
+      "art": "text",
+      "titel": "Personengesellschaften",
+      "text": "Der Fall · Jasper, 58, verkauft seinen Anteil an der Möwe KG an Smilla. · Preis: 500.000 €. Kapitalkonto: 300.000 €. Notar und Beratung: 5.000 €. · Vom Mehrpreis entfallen 150.000 € auf eine Halle, der Rest auf den Firmenwert. · Ich bin Jasper"
+    },
+    {
+      "art": "text",
+      "titel": "Personengesellschaften",
+      "text": "Jetzt du · Wie hoch ist Jaspers Veräußerungsgewinn, und bekommt er den Freibetrag? · Was bucht Smilla in ihrer Ergänzungsbilanz? · Lösung: weiterwischen · Ich bin Smilla"
+    },
+    {
+      "art": "text",
+      "titel": "Personengesellschaften",
+      "text": "Jasper: der Gewinn · § 16 Abs. 1 S. 1 Nr. 2, Abs. 2 S. 1 EStG · Kaufpreis · 500.000 € · Kapitalkonto · − 300.000 € · Veräußerungskosten · − 5.000 € · Veräußerungsgewinn · 195.000 € · Gewerbesteuer: keine bei natürlichen Personen"
+    },
+    {
+      "art": "text",
+      "titel": "Personengesellschaften",
+      "text": "Jasper: Freibetrag? · Ab 55 einmal im Leben 45.000 €. · § 16 Abs. 4 S. 1, 2 EStG · Er schmilzt ab, soweit der Gewinn 136.000 € übersteigt: hier um 59.000 €. · § 16 Abs. 4 S. 3 EStG · Ergebnis: Freibetrag 0 €. · Alles weg?"
+    },
+    {
+      "art": "text",
+      "titel": "Personengesellschaften",
+      "text": "Jasper: was noch hilft · Ermäßigter Steuersatz auf Antrag, weil er älter als 55 ist. · § 34 Abs. 3 S. 1 EStG · Kein Gewerbeertrag, soweit der Gewinn auf eine natürliche Person entfällt. · § 7 S. 2 Nr. 2 GewStG · Den Freibetrag hat schon die Höhe des Gewinns aufgezehrt. · Kein Freibetrag?"
+    },
+    {
+      "art": "text",
+      "titel": "Personengesellschaften",
+      "text": "Smilla: Ergänzungsbilanz · Mehrpreis 200.000 €: Halle 150.000 €, Firmenwert 50.000 €. · Firmenwert über 15 Jahre: 3.333 € AfA im Jahr. · § 7 Abs. 1 S. 3 EStG · Alle Mehrwerte Jahr für Jahr fortschreiben. · Ich schreibe ab"
+    },
+    {
+      "art": "text",
+      "titel": "Personengesellschaften",
+      "text": "Jasper: 195.000 € Gewinn, kein Freibetrag · Smilla: 200.000 € Mehrwerte in der Ergänzungsbilanz · Preis minus Kapitalkonto · minus Kosten · Rest: Ergänzungsbilanz · Speichern für Klausur 3 · Rechnest du beide Seiten? · Weiterwischen: § 16 EStG markiert"
+    },
+    {
+      "art": "text",
+      "titel": "Personengesellschaften",
+      "text": "§ 16 EStG (Auszug) · Preis netto · Jasper ist 58 · Freibetrag · 195.000 €: weg · 195.000 € − 136.000 € = 59.000 € · Freibetrag 45.000 € ganz aufgezehrt"
+    }
+  ]
+}

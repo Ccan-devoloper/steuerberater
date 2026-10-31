@@ -1,0 +1,61 @@
+{
+  "format": "reel",
+  "fach": "erbst",
+  "klausur": 1,
+  "fachLabel": "Erbschaftsteuer",
+  "themaId": "erbst-modul-erbst-539",
+  "caption": "Grabpflege in der Erbschaftsteuer: 18,6-fach oder 9,3-fach? ⚖️\n\n▸ Immerwährende Nutzungen oder Leistungen: 18,6-faches des Jahreswerts; Nutzungen oder Leistungen von unbestimmter Dauer: vorbehaltlich § 14 BewG das 9,3-fache (§ 13 Abs. 2 BewG).\n▸ Die Kosten der üblichen Grabpflege sind Nachlassverbindlichkeiten und werden mit ihrem Kapitalwert für eine unbestimmte Dauer angesetzt (§ 10 Abs. 5 Nr. 3 S. 1 ErbStG). Beispiel: 600 € im Jahr × 9,3 = 5.580 €.\n▸ Ohne Nachweis gibt es für Bestattung, Grabdenkmal, Grabpflege und Abwicklungskosten insgesamt pauschal 15.000 € (§ 10 Abs. 5 Nr. 3 S. 2 ErbStG). Höhere Kosten nur mit Nachweis.\n\nSpeichern für Klausur 1 📌",
+  "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#erbschaftsteuer"
+  ],
+  "quellen": [
+    "§ 13 Abs. 2 BewG",
+    "§ 14 BewG",
+    "§ 10 Abs. 5 Nr. 3 ErbStG"
+  ],
+  "slug": "2026-10-31-b3",
+  "kurztitel": "§ 13 Abs. 2 BewG: immerwährende und unbestimmte Dauer; Grabpflege",
+  "regelGeprueft": true,
+  "manuellGeprueft": false,
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "textProviderKostenUsd": 0,
+  "faktencheckProviderKostenUsd": 0,
+  "bildStatus": "open-peeps-render",
+  "renderer": "open-peeps-v4",
+  "liveVorrangAktiv": true,
+  "bild": "op-cover",
+  "reelTyp": "gegensatz",
+  "hookStil": "knall",
+  "coverBadge": "Reel",
+  "szenen": [
+    {
+      "art": "hook",
+      "titel": "Grabpflege: 18,6-fach?"
+    },
+    {
+      "art": "schritt",
+      "titel": "Immerwährend"
+    },
+    {
+      "art": "schritt",
+      "titel": "Unbestimmte Dauer"
+    },
+    {
+      "art": "schritt",
+      "titel": "Grabpflege rechnen"
+    }
+  ],
+  "sprecher": [
+    "Grabpflege für alle Zeit. Also achtzehn Komma sechs mal der Jahreswert? Falsch!",
+    "Immerwährend heißt: kein Ende absehbar, etwa eine ewige Rente. Dann gilt das Achtzehn-Komma-sechs-fache.",
+    "Unbestimmte Dauer heißt: Das Ende kommt sicher, nur wann, ist offen. Dann gilt das Neun-Komma-drei-fache.",
+    "Übliche Grabpflege bewertet das Gesetz für unbestimmte Dauer. Sechshundert Euro im Jahr ergeben fünftausendfünfhundertachtzig Euro.",
+    "Merke: Grabpflege mal neun Komma drei. Oder die Pauschale."
+  ],
+  "dauerS": 38.261,
+  "tempo": 1
+}

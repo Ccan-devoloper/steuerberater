@@ -1,0 +1,44 @@
+{
+  "slot": "s8",
+  "art": "tipp",
+  "fach": "bilanz",
+  "klausur": 3,
+  "fachLabel": "Bilanzsteuerrecht",
+  "themaId": "bilanz-karte-k3-21",
+  "beitragSlot": null,
+  "quellen": null,
+  "titel": [
+    "vGA technisch",
+    "umsetzen"
+  ],
+  "punkte": [
+    [
+      "Außerbilanziell hinzurechnen",
+      "ok",
+      "§ 8 Abs. 3 S. 2 KStG"
+    ],
+    [
+      "USt darauf nicht doppelt",
+      "warn",
+      "R 8.6 KStR"
+    ]
+  ],
+  "icon": "tabler:arrows-split",
+  "iconFarbe": "GELB",
+  "sichtbareTexte": [
+    "Bilanzsteuerrecht",
+    "Klausurtipp",
+    "vGA technisch",
+    "umsetzen",
+    "Außerbilanziell hinzurechnen",
+    "§ 8 Abs. 3 S. 2 KStG",
+    "USt darauf nicht doppelt",
+    "R 8.6 KStR"
+  ],
+  "renderer": "open-peeps-v4",
+  "bildStatus": "open-peeps-render",
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "liveVorrangAktiv": true,
+  "regelGeprueft": true
+}

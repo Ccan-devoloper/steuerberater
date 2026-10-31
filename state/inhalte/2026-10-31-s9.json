@@ -1,0 +1,56 @@
+{
+  "slot": "s9",
+  "art": "merksatz",
+  "fach": "ao",
+  "klausur": 1,
+  "fachLabel": "Abgabenordnung",
+  "themaId": "ao-modul-ao-323",
+  "beitragSlot": null,
+  "quellen": null,
+  "titel": [
+    "Wer darf",
+    "Einspruch einlegen?"
+  ],
+  "zeilen": [
+    [
+      [
+        "Nur wer ",
+        null
+      ],
+      [
+        "geltend macht,",
+        "a"
+      ]
+    ],
+    [
+      [
+        "selbst ",
+        null
+      ],
+      [
+        "beschwert",
+        "b"
+      ],
+      [
+        " zu sein",
+        null
+      ]
+    ]
+  ],
+  "norm": "§ 350 AO",
+  "sichtbareTexte": [
+    "Abgabenordnung",
+    "Merksatz",
+    "Wer darf",
+    "Einspruch einlegen?",
+    "Nur wer geltend macht,",
+    "selbst beschwert zu sein",
+    "§ 350 AO"
+  ],
+  "renderer": "open-peeps-v4",
+  "bildStatus": "open-peeps-render",
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "liveVorrangAktiv": true,
+  "regelGeprueft": true
+}

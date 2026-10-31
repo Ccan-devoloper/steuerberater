@@ -1,0 +1,75 @@
+{
+  "format": "klausurtechnik",
+  "fach": "gewst",
+  "klausur": 2,
+  "fachLabel": "Gewerbesteuer",
+  "themaId": "gewst-klausurtechnik-2026-10-31",
+  "caption": "Klausurtechnik für den Gewerbesteuer-Teil der Ertragsteuerklausur: Punkte sichern in 4 Zügen.\n\n1. Tabelle vor dem Rechnen anlegen: Gewinn, Hinzurechnungen, Kürzungen, Gewerbeverlust, Messbetrag (§§ 7 bis 11 GewStG).\n2. In jede Zeile die genaue Norm, bei Mieten und Pachten mit dem Anteil: ein Fünftel bei beweglichen, die Hälfte bei unbeweglichen Wirtschaftsgütern (§ 8 Nr. 1 Buchst. d, e GewStG).\n3. Folgefehler: Mit dem eigenen Zwischenergebnis sauber weiterrechnen, statt die Tabelle abzubrechen.\n4. Abschluss: auf volle 100 € abrunden, Freibetrag 24.500 € nur für natürliche Personen und Personengesellschaften (§ 11 Abs. 1 S. 3 GewStG), Messzahl 3,5 % (§ 11 Abs. 2 GewStG), Hebesatz (§ 16 Abs. 1 GewStG).\n\nMarkieren in § 8 Nr. 1 GewStG: die Anteile je Buchstabe, die 200.000 € und das Viertel – Markierungen sind in der Textausgabe erlaubt, Anmerkungen nicht.\n\nSpeichern für Klausur 2 📌",
+  "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#gewerbesteuer"
+  ],
+  "quellen": [
+    "§§ 7 bis 11 GewStG",
+    "§ 8 Nr. 1 GewStG",
+    "§ 11 Abs. 1 S. 3, Abs. 2 GewStG",
+    "§ 16 Abs. 1 GewStG"
+  ],
+  "slug": "2026-10-31-b1",
+  "kurztitel": "Gewerbesteuer-Teil: Punkte holen mit Tabelle, Normen und Folgerechnung",
+  "regelGeprueft": true,
+  "manuellGeprueft": false,
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "textProviderKostenUsd": 0,
+  "faktencheckProviderKostenUsd": 0,
+  "bildStatus": "open-peeps-render",
+  "renderer": "open-peeps-v4",
+  "liveVorrangAktiv": true,
+  "coverBadge": "Klausurtechnik",
+  "folien": [
+    {
+      "art": "titel",
+      "titel": "Klausurtechnik",
+      "text": "Klausurtechnik · GewSt-Teil: · Punkte sichern · §§ 7 bis 11 GewStG · in 4 Zügen · + Markier-Guide § 8 GewStG",
+      "bild": "op-cover"
+    },
+    {
+      "art": "text",
+      "titel": "Gewerbesteuer",
+      "text": "Der Plan · Tabelle vorbereiten · noch vor dem Lesen der Details · Jede Zeile mit Norm · die Norm bringt den Punkt · Zwischenergebnis stehen lassen · Folgefehler kosten meist nur einmal · Abschluss rechnen · Abrundung, Freibetrag, Messzahl · Am Ende: § 8 GewStG markiert"
+    },
+    {
+      "art": "text",
+      "titel": "Gewerbesteuer",
+      "text": "1 · Die Tabelle · Zeilen vorab anlegen: Gewinn, Hinzurechnungen, Kürzungen, Verlust, Messbetrag. · §§ 7 bis 11 GewStG · Dann nur noch Beträge eintragen. · Spart Zeit und zeigt dem Korrektor sofort den Aufbau. · Zora, Korrektorin"
+    },
+    {
+      "art": "text",
+      "titel": "Gewerbesteuer",
+      "text": "2 · Norm in jede Zeile · Nicht nur „Zinsen 50.000 €“, sondern der genaue Buchstabe. · § 8 Nr. 1 Buchst. a GewStG · Bei Mieten den Anteil nennen: ein Fünftel beweglich, die Hälfte unbeweglich. · § 8 Nr. 1 Buchst. d, e GewStG · Wer nur rechnet, verschenkt Punkte. · Ich suche Normen"
+    },
+    {
+      "art": "text",
+      "titel": "Gewerbesteuer",
+      "text": "3 · Folgefehler nutzen · Ist ein Betrag oben falsch, rechne trotzdem sauber weiter. · Folgerichtige Schritte bringen in aller Regel weiter Punkte. · Nie mitten in der Tabelle aufhören, um oben zu suchen. · Okke: Echt jetzt?"
+    },
+    {
+      "art": "text",
+      "titel": "Gewerbesteuer",
+      "text": "4 · Der Abschluss · Auf volle 100 € abrunden. · § 11 Abs. 1 S. 3 GewStG · Freibetrag 24.500 € nur für natürliche Personen und Personengesellschaften. · § 11 Abs. 1 S. 3 Nr. 1 GewStG · Mal 3,5 %, dann der Hebesatz. · § 11 Abs. 2, § 16 Abs. 1 GewStG · Das sind Punkte!"
+    },
+    {
+      "art": "text",
+      "titel": "Gewerbesteuer",
+      "text": "Tabelle vorbereitet: Aufbau steht in Minuten · Norm je Zeile, Folgefehler sauber weiterrechnen · Tabelle zuerst · Norm in jede Zeile · Folgefehler weiterrechnen · Speichern für Klausur 2 · Wie viel Zeit planst du dafür? · Weiterwischen: § 8 GewStG markiert"
+    },
+    {
+      "art": "text",
+      "titel": "Gewerbesteuer",
+      "text": "§ 8 GewStG Hinzurechnungen (Auszug) · am Ende ein Viertel · erst die Anteile · Freibetrag · Reihenfolge: Anteile, Summe, · minus 200.000 €, dann ein Viertel"
+    }
+  ]
+}

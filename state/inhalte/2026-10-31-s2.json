@@ -1,0 +1,26 @@
+{
+  "slot": "s2",
+  "art": "teaser",
+  "fach": "persg",
+  "klausur": 3,
+  "fachLabel": "Personengesellschaften",
+  "themaId": null,
+  "beitragSlot": "b2",
+  "quellen": null,
+  "titel": [
+    "KG-Anteil verkauft"
+  ],
+  "unter": "Rechenweg + Markier-Guide · im Profil",
+  "sichtbareTexte": [
+    "Personengesellschaften",
+    "Neu im Feed",
+    "KG-Anteil verkauft",
+    "Rechenweg + Markier-Guide · im Profil"
+  ],
+  "renderer": "open-peeps-v4",
+  "bildStatus": "open-peeps-render",
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "liveVorrangAktiv": true,
+  "regelGeprueft": true
+}

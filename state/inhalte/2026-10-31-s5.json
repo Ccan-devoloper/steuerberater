@@ -1,0 +1,40 @@
+{
+  "slot": "s5",
+  "art": "antwort",
+  "fach": "ust",
+  "klausur": 1,
+  "fachLabel": "Umsatzsteuer",
+  "themaId": "ust-quiz-ust-5",
+  "beitragSlot": null,
+  "quellen": null,
+  "titel": [
+    "B: Mehrbetrag",
+    "geschuldet"
+  ],
+  "optionen": [
+    "Nur 7 % geschuldet",
+    "Mehrbetrag geschuldet",
+    "Rechnung unwirksam"
+  ],
+  "richtig": 1,
+  "text": "Bis zur Berichtigung. Der Kunde zieht nur die gesetzlich geschuldeten 7 % als Vorsteuer ab.",
+  "norm": "§ 14c Abs. 1 S. 1 UStG",
+  "pairId": "ust-quiz-ust-5",
+  "sichtbareTexte": [
+    "Umsatzsteuer",
+    "Auflösung",
+    "B: Mehrbetrag",
+    "geschuldet",
+    "Nur 7 % geschuldet",
+    "Mehrbetrag geschuldet",
+    "Rechnung unwirksam",
+    "Bis zur Berichtigung. Der Kunde zieht nur die gesetzlich geschuldeten 7 % als Vorsteuer ab.",
+    "§ 14c Abs. 1 S. 1 UStG"
+  ],
+  "renderer": "open-peeps-v4",
+  "bildStatus": "open-peeps-render",
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "liveVorrangAktiv": true,
+  "regelGeprueft": true
+}

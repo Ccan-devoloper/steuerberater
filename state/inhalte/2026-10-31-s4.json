@@ -1,0 +1,36 @@
+{
+  "slot": "s4",
+  "art": "frage",
+  "fach": "ust",
+  "klausur": 1,
+  "fachLabel": "Umsatzsteuer",
+  "themaId": "ust-quiz-ust-5",
+  "beitragSlot": null,
+  "quellen": null,
+  "frage": [
+    "B2B-Rechnung: 19 %",
+    "statt 7 %. Was folgt?"
+  ],
+  "optionen": [
+    "Nur 7 % geschuldet",
+    "Mehrbetrag geschuldet",
+    "Rechnung unwirksam"
+  ],
+  "pairId": "ust-quiz-ust-5",
+  "sichtbareTexte": [
+    "Umsatzsteuer",
+    "Prüfungsfrage",
+    "B2B-Rechnung: 19 %",
+    "statt 7 %. Was folgt?",
+    "Nur 7 % geschuldet",
+    "Mehrbetrag geschuldet",
+    "Rechnung unwirksam",
+    "Auflösung in der nächsten Story"
+  ],
+  "renderer": "open-peeps-v4",
+  "bildStatus": "open-peeps-render",
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "liveVorrangAktiv": true,
+  "regelGeprueft": true
+}

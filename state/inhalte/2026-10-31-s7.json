@@ -1,0 +1,42 @@
+{
+  "slot": "s7",
+  "art": "tipp",
+  "fach": null,
+  "klausur": 0,
+  "fachLabel": "Klausurtechnik",
+  "themaId": null,
+  "beitragSlot": null,
+  "quellen": null,
+  "titel": [
+    "Hängen geblieben?",
+    "Annahme treffen"
+  ],
+  "punkte": [
+    [
+      "Kurz schreiben, wovon du ausgehst",
+      "ok",
+      null
+    ],
+    [
+      "Dann konsequent weiterlösen",
+      "ok",
+      null
+    ]
+  ],
+  "icon": "tabler:route",
+  "iconFarbe": "GELB",
+  "sichtbareTexte": [
+    "Klausurtechnik",
+    "Klausurtipp",
+    "Hängen geblieben?",
+    "Annahme treffen",
+    "Kurz schreiben, wovon du ausgehst",
+    "Dann konsequent weiterlösen"
+  ],
+  "renderer": "open-peeps-v4",
+  "bildStatus": "open-peeps-render",
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "liveVorrangAktiv": true,
+  "regelGeprueft": true
+}

@@ -1,0 +1,61 @@
+{
+  "format": "reel",
+  "fach": null,
+  "klausur": 0,
+  "fachLabel": "Mündliche · Zivilrecht",
+  "themaId": "lead-zr-z1",
+  "caption": "Schweigen ist nie Zustimmung? In der Mündlichen eine teure Antwort. 📩\n\nKaufmännisches Bestätigungsschreiben: Wer als Kaufmann nicht unverzüglich widerspricht, muss den Inhalt gegen sich gelten lassen (Handelsbrauch, § 346 HGB). Grenze: Das Schreiben weicht so stark vom Besprochenen ab, dass der Absender nicht mit Zustimmung rechnen durfte.\n\nSchreib deine Antwort in die Kommentare 👇 und schick das Reel deinem Lernpartner.\n\nDie 10 häufigsten Fehler der Mündlichen – mit Prüfungsszenen und Lösungen – als Gratis-PDF, ausgewertet aus über 400 Prüfungsprotokollen. 👉 Link in der Bio",
+  "hashtags": [
+    "#steuerberaterprüfung",
+    "#steuerberaterexamen",
+    "#mündlicheprüfung",
+    "#examensvorbereitung",
+    "#zivilrecht",
+    "#steuerberater"
+  ],
+  "quellen": [
+    "§ 346 HGB"
+  ],
+  "slug": "2026-10-31-m1",
+  "kurztitel": "Schweigen ist keine Zustimmung? Nicht immer.",
+  "regelGeprueft": true,
+  "manuellGeprueft": false,
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "textProviderKostenUsd": 0,
+  "faktencheckProviderKostenUsd": 0,
+  "bildStatus": "open-peeps-render",
+  "renderer": "open-peeps-v4",
+  "liveVorrangAktiv": true,
+  "bild": "op-cover",
+  "reelTyp": "klausurfalle",
+  "hookStil": "kippen",
+  "coverBadge": "Reel",
+  "szenen": [
+    {
+      "art": "hook",
+      "titel": "Schweigen ist nie eine Zustimmung."
+    },
+    {
+      "art": "schritt",
+      "titel": "Der Fall"
+    },
+    {
+      "art": "schritt",
+      "titel": "Die Regel"
+    },
+    {
+      "art": "schritt",
+      "titel": "Die Grenze"
+    }
+  ],
+  "sprecher": [
+    "Schweigen ist nie eine Zustimmung? Falsch. Unter Kaufleuten oft doch.",
+    "Nach dem Telefonat kommt ein Bestätigungsschreiben mit anderem Preis. Der Käufer schweigt.",
+    "Wer nicht sofort widerspricht, ist gebunden.",
+    "Außer es weicht so stark ab, dass keiner Zustimmung erwarten durfte. Dann gilt es nicht.",
+    "Wer das nicht weiß, verliert Punkte. Die zehn häufigsten Fehler: kostenlos, Link in der Bio."
+  ],
+  "dauerS": 27.142,
+  "tempo": 1.05
+}
