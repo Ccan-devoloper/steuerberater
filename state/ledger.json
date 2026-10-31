@@ -17718,10 +17718,32 @@
         "Wegzug mit",
         "GmbH-Anteil"
       ]
+    },
+    {
+      "datum": "2026-10-31",
+      "slot": "b2",
+      "medienId": "17960810985266585",
+      "veroeffentlicht": "2026-10-31T12:30:05.263Z",
+      "quelle": "vorproduktion",
+      "art": "beitrag",
+      "zeit": "13:30",
+      "stunde": 13,
+      "format": "rechenweg",
+      "thema": "persg-aufb-persg-melzer-3-1",
+      "fach": "persg",
+      "klausur": 3,
+      "titel": "Rechenweg",
+      "hookTyp": null,
+      "hashtags": [
+        "#steuerberaterexamen",
+        "#steuerberaterprüfung",
+        "#examensvorbereitung",
+        "#personengesellschaften"
+      ]
     }
   ],
   "fachZaehler": {
-    "persg": 18,
+    "persg": 19,
     "ust": 15,
     "kst": 14,
     "ao": 27,
