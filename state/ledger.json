@@ -18174,7 +18174,23 @@
       "titel": [
         "Ergänzungsbilanz:",
         "wie abschreiben?"
-      ]
+      ],
+      "insights": {
+        "reach": 28,
+        "views": 39,
+        "shares": 0,
+        "total_interactions": 0,
+        "replies": 0,
+        "follows": 0,
+        "profile_visits": 0,
+        "profile_activity": 0,
+        "navigation": 31,
+        "navigation_tap_exit": 6,
+        "navigation_swipe_forward": 3,
+        "navigation_tap_forward": 22
+      },
+      "insightsStand": "2026-11-01T13:40:04.773Z",
+      "insightsAlterStunden": 1.6
     },
     {
       "datum": "2026-11-01",
@@ -18196,7 +18212,19 @@
         "#steuerberaterprüfung",
         "#examensvorbereitung",
         "#umsatzsteuer"
-      ]
+      ],
+      "insights": {
+        "reach": 45,
+        "saved": 1,
+        "shares": 0,
+        "likes": 1,
+        "comments": 0,
+        "total_interactions": 2,
+        "follows": 0,
+        "profile_visits": 0
+      },
+      "insightsStand": "2026-11-01T13:40:10.757Z",
+      "insightsAlterStunden": 1.2
     },
     {
       "datum": "2026-11-01",
@@ -18210,7 +18238,23 @@
       "fach": "ust",
       "titel": [
         "Halle in Tirol: Ort?"
-      ]
+      ],
+      "insights": {
+        "reach": 21,
+        "views": 31,
+        "shares": 0,
+        "total_interactions": 0,
+        "replies": 0,
+        "follows": 0,
+        "profile_visits": 0,
+        "profile_activity": 0,
+        "navigation": 25,
+        "navigation_tap_forward": 18,
+        "navigation_tap_exit": 5,
+        "navigation_tap_back": 2
+      },
+      "insightsStand": "2026-11-01T13:40:04.773Z",
+      "insightsAlterStunden": 1.2
     },
     {
       "datum": "2026-11-01",

@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "stand": "2026-11-01T12:45:28.102Z",
+  "stand": "2026-11-01T13:40:11.575Z",
   "medien": {
     "18093399314208242": {
       "art": "beitrag",
@@ -55730,6 +55730,91 @@
           "profile_visits": 0
         }
       ]
+    },
+    "18399580108204070": {
+      "art": "story",
+      "datum": "2026-11-01",
+      "titel": [
+        "Ergänzungsbilanz:",
+        "wie abschreiben?"
+      ],
+      "format": null,
+      "fach": "persg",
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-11-01T12:02:36.786Z",
+      "snapshots": [
+        {
+          "stand": "2026-11-01T13:40:04.773Z",
+          "alterStunden": 1.6,
+          "reach": 28,
+          "views": 39,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 31,
+          "navigation_tap_exit": 6,
+          "navigation_swipe_forward": 3,
+          "navigation_tap_forward": 22
+        }
+      ]
+    },
+    "18643941517019853": {
+      "art": "story",
+      "datum": "2026-11-01",
+      "titel": [
+        "Halle in Tirol: Ort?"
+      ],
+      "format": null,
+      "fach": "ust",
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-11-01T12:30:18.295Z",
+      "snapshots": [
+        {
+          "stand": "2026-11-01T13:40:04.773Z",
+          "alterStunden": 1.2,
+          "reach": 21,
+          "views": 31,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 25,
+          "navigation_tap_forward": 18,
+          "navigation_tap_exit": 5,
+          "navigation_tap_back": 2
+        }
+      ]
+    },
+    "17955117765294105": {
+      "art": "beitrag",
+      "datum": "2026-11-01",
+      "titel": "Prüfungsfrage",
+      "format": "pruefungsfrage",
+      "fach": "ust",
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-11-01T12:30:05.686Z",
+      "snapshots": [
+        {
+          "stand": "2026-11-01T13:40:10.757Z",
+          "alterStunden": 1.2,
+          "reach": 45,
+          "saved": 1,
+          "shares": 0,
+          "likes": 1,
+          "comments": 0,
+          "total_interactions": 2,
+          "follows": 0,
+          "profile_visits": 0
+        }
+      ]
     }
   },
   "konto": [
@@ -58752,6 +58837,11 @@
       "stand": "2026-11-01T12:02:56.587Z",
       "follower": 447,
       "medien": 175
+    },
+    {
+      "stand": "2026-11-01T13:40:11.575Z",
+      "follower": 448,
+      "medien": 176
     }
   ]
 }
