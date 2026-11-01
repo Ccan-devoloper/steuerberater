@@ -18361,6 +18361,21 @@
       "titel": [
         "Darlehen erlassen"
       ]
+    },
+    {
+      "datum": "2026-11-01",
+      "slot": "s10",
+      "medienId": "18017239934750409",
+      "veroeffentlicht": "2026-11-01T18:00:42.431Z",
+      "quelle": "vorproduktion",
+      "art": "story",
+      "storyArt": "teaser",
+      "thema": null,
+      "fach": null,
+      "titel": [
+        "Neue Urteile?",
+        "Der Prüfer fragt danach"
+      ]
     }
   ],
   "fachZaehler": {
