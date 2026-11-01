@@ -1,0 +1,702 @@
+{
+  "datum": "2026-11-15",
+  "status": "vorproduziert",
+  "freigabeBetreiber": true,
+  "liveVerknuepft": false,
+  "vorproduktionStatus": "live-freigegeben",
+  "layoutQuelle": "open-peeps-variante-c",
+  "semantikQuelle": "examenscampus",
+  "liveVorrangAktiv": true,
+  "normalbetriebGesperrt": true,
+  "bildStatus": "open-peeps-render",
+  "kostenPolicy": {
+    "textUndFaktencheckUsd": 0,
+    "bildgenerierungUsd": 0,
+    "providerKostenUsd": 0,
+    "coverbilder": false,
+    "bildgenerierungErlaubt": false,
+    "reelStimme": "elevenlabs-abo"
+  },
+  "plan": {
+    "beitraege": [
+      {
+        "slot": "b1",
+        "zeit": "08:30",
+        "format": "wochenrueckblick",
+        "themaId": "wochenrueckblick-alle-2026-46",
+        "themaTitel": "Alle Klausuren: sechs Themen der Woche 46",
+        "fach": null,
+        "klausur": 0
+      },
+      {
+        "slot": "b2",
+        "zeit": "13:30",
+        "format": "pruefungsfrage",
+        "themaId": "bilanz-aufb-bil-melzer-12-05",
+        "themaTitel": "Garantierückstellungen: einzeln, pauschal und richtig bewertet",
+        "fach": "bilanz",
+        "klausur": 3
+      },
+      {
+        "slot": "b3",
+        "zeit": "19:00",
+        "format": "reel",
+        "themaId": "ust-aufb-ust-m-b12-7",
+        "themaTitel": "Berichtigungszeitraum nach § 15a UStG richtig bestimmen",
+        "fach": "ust",
+        "klausur": 1
+      }
+    ],
+    "stories": [
+      {
+        "slot": "s4",
+        "zeit": "07:07",
+        "art": "frage"
+      },
+      {
+        "slot": "s5",
+        "zeit": "07:09",
+        "art": "antwort"
+      },
+      {
+        "slot": "s1",
+        "zeit": "08:30",
+        "art": "teaser",
+        "beitragSlot": "b1"
+      },
+      {
+        "slot": "s6",
+        "zeit": "12:14",
+        "art": "norm",
+        "themaId": "istr-modul-istr-istr3-13"
+      },
+      {
+        "slot": "s2",
+        "zeit": "13:30",
+        "art": "teaser",
+        "beitragSlot": "b2"
+      },
+      {
+        "slot": "s7",
+        "zeit": "14:40",
+        "art": "tipp"
+      },
+      {
+        "slot": "s8",
+        "zeit": "17:04",
+        "art": "tipp",
+        "themaId": "persg-aufb-persg-melzer-2-4-b"
+      },
+      {
+        "slot": "s3",
+        "zeit": "19:00",
+        "art": "teaser",
+        "beitragSlot": "b3"
+      },
+      {
+        "slot": "s9",
+        "zeit": "19:12",
+        "art": "merksatz",
+        "themaId": "ao-modul-ao-369"
+      }
+    ]
+  },
+  "inhalte": {
+    "b1": {
+      "format": "wochenrueckblick",
+      "fach": null,
+      "klausur": 0,
+      "fachLabel": "Alle Klausuren",
+      "themaId": "wochenrueckblick-alle-2026-46",
+      "caption": "Wochenrückblick KW 46: je Klausur die Themen der Woche.\n\nKlausur 1 (AO, USt, ErbSt)\n1. Neue Tatsachen, die zu einer höheren Steuer führen, erlauben die Änderung stets; zugunsten nur, wenn den Steuerpflichtigen kein grobes Verschulden am nachträglichen Bekanntwerden trifft, es sei denn, sie hängen mit einer steuererhöhenden Tatsache zusammen (§ 173 Abs. 1 Nr. 1, 2 AO).\n2. Erbt ein Kind das Familienheim und nutzt es unverzüglich selbst, ist es steuerfrei, soweit die Wohnfläche 200 qm nicht übersteigt (§ 13 Abs. 1 Nr. 4c S. 1 ErbStG); zehn Jahre Selbstnutzung, sonst entfällt die Befreiung rückwirkend (§ 13 Abs. 1 Nr. 4c S. 5 ErbStG).\n\nKlausur 2 (Ertragsteuern)\n3. Gewinnminderungen aus einem Gesellschafterdarlehen sind nicht abziehbar, wenn der Darlehensgeber zu mehr als einem Viertel beteiligt ist oder war (§ 8b Abs. 3 S. 3, 4 KStG); Ausweg ist der Fremdvergleich (§ 8b Abs. 3 S. 7 KStG).\n4. Freigrenze der Hinzurechnungsbesteuerung: Zwischeneinkünfte bleiben außer Ansatz, wenn sie höchstens ein Drittel der Einkünfte betragen und 100.000 € nicht übersteigen (§ 9 AStG; für Wirtschaftsjahre, die nach dem 31.12.2025 beginnen, § 21 Abs. 9 S. 1 AStG).\n\nKlausur 3 (Buchführung und Bilanzwesen)\n5. Buchwert bei der Abspaltung nur, wenn ein Teilbetrieb übertragen wird und einer zurückbleibt (§ 15 Abs. 1 S. 2 UmwStG).\n6. Überträgt ein Mitunternehmer ein Wirtschaftsgut gegen Gewährung von Gesellschaftsrechten in das Gesamthandsvermögen, sind die Buchwerte fortzuführen (§ 6 Abs. 5 S. 3 Nr. 1 EStG).\n\nZum Schluss: § 173 Abs. 1 AO zum Markieren. Speichern für alle drei Klausuren 📌",
+      "hashtags": [
+        "#steuerberaterexamen",
+        "#steuerberaterprüfung",
+        "#examensvorbereitung",
+        "#steuerrecht"
+      ],
+      "quellen": [
+        "§ 173 Abs. 1 Nr. 1, 2 AO",
+        "§ 13 Abs. 1 Nr. 4c S. 1, 5 ErbStG",
+        "§ 8b Abs. 3 S. 3, 4, 7 KStG",
+        "§ 9 AStG",
+        "§ 21 Abs. 9 S. 1 AStG",
+        "§ 15 Abs. 1 S. 2 UmwStG",
+        "§ 6 Abs. 5 S. 3 Nr. 1 EStG"
+      ],
+      "slug": "2026-11-15-b1",
+      "kurztitel": "Alle Klausuren: sechs Themen der Woche 46",
+      "regelGeprueft": true,
+      "manuellGeprueft": false,
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "open-peeps-render",
+      "renderer": "open-peeps-v4",
+      "liveVorrangAktiv": true,
+      "coverBadge": "Wochenrückblick",
+      "folien": [
+        {
+          "art": "titel",
+          "titel": "Wochenrückblick",
+          "text": "Wochenrückblick · Woche · kompakt · 6 Themen · + Markier-Guide § 173 AO · NOVEMBER · 15 · So · Rückblick",
+          "bild": "op-cover"
+        },
+        {
+          "art": "text",
+          "titel": "Alle Klausuren",
+          "text": "Die Woche in 3 Klausuren · Klausur 1 · AO und ErbSt · § 173 AO · § 13 Abs. 1 Nr. 4c ErbStG · Neue Tatsachen, Familienheim · Klausur 2 · KSt und IStR · § 8b Abs. 3 KStG · § 9 AStG · Darlehen und Freigrenze · Klausur 3 · UmwSt und PersG · § 15 UmwStG · § 6 Abs. 5 EStG · Spaltung und Übertragung · Am Ende: § 173 AO markiert"
+        },
+        {
+          "art": "text",
+          "titel": "Alle Klausuren",
+          "text": "Klausur 1 · AO und ErbSt · Neue Tatsache zugunsten: nur ohne grobes Verschulden, außer bei Zusammenhang mit Nr. 1. · § 173 Abs. 1 Nr. 2 AO · Kind erbt das Familienheim: frei bis 200 qm, wenn es selbst einzieht. · § 13 Abs. 1 Nr. 4c S. 1 ErbStG · Beleg vergessen?"
+        },
+        {
+          "art": "text",
+          "titel": "Alle Klausuren",
+          "text": "Klausur 2 · KSt und IStR · Darlehen an die Tochter fällt aus: Abschreibung bei mehr als 25 % Beteiligung außerbilanziell hinzurechnen. · § 8b Abs. 3 S. 3, 4 KStG · Rettung nur mit Fremdvergleich. · § 8b Abs. 3 S. 7 KStG · Zwischeneinkünfte bis ein Drittel und 100.000 €: keine Hinzurechnung. · § 9 AStG · Über ein Viertel?"
+        },
+        {
+          "art": "text",
+          "titel": "Alle Klausuren",
+          "text": "Klausur 3 · UmwSt und PersG · Abspaltung zum Buchwert: Teilbetrieb geht über und Teilbetrieb bleibt zurück. · § 15 Abs. 1 S. 2 UmwStG · Wirtschaftsgut gegen Gesellschaftsrechte in die KG: Buchwert. · § 6 Abs. 5 S. 3 Nr. 1 EStG · Was bleibt zurück?"
+        },
+        {
+          "art": "text",
+          "titel": "Alle Klausuren",
+          "text": "Die Woche in allen 3 Klausuren · Verfahren · Ertragsteuern · Bilanz · Grob schuldhaft? Pech, · 200 qm für Kinder, · ein Viertel sperrt Verluste, · zwei Teilbetriebe. · Speichern für alle 3 Klausuren · Welche Klausur wackelt noch? · Weiterwischen: § 173 AO markiert"
+        },
+        {
+          "art": "text",
+          "titel": "Alle Klausuren",
+          "text": "§ 173 AO (Auszug) · neu bekannt · immer ändern · zugunsten · Hürde · Ausnahme · Zusammenhang · Vergessener Beleg: meist nicht grob · Übergangene Formularfrage: meist grob"
+        }
+      ]
+    },
+    "b2": {
+      "format": "pruefungsfrage",
+      "fach": "bilanz",
+      "klausur": 3,
+      "fachLabel": "Bilanzsteuerrecht",
+      "themaId": "bilanz-aufb-bil-melzer-12-05",
+      "caption": "Garantierückstellung: einzeln oder pauschal – und wie bewertet? Die Prüfungsfrage für die Bilanzklausur.\n\n1. Ansatz: Gewährleistungen aus erbrachten Leistungen sind ungewisse Verbindlichkeiten (§ 249 Abs. 1 S. 1 HGB), über die Maßgeblichkeit auch steuerlich (§ 5 Abs. 1 S. 1 EStG). Kulanzleistungen ohne Rechtspflicht: § 249 Abs. 1 S. 2 Nr. 2 HGB.\n2. Einzel- und Pauschalrückstellung: bis zur Bilanzaufstellung bekannte Fälle einzeln, für den übrigen Bestand pauschal nach betrieblichen oder branchentypischen Erfahrungen (H 5.7 (5) EStH).\n3. Bewertung als Sachleistung mit Einzel- und angemessenen Gemeinkosten, ohne künftige Preissteigerungen (§ 6 Abs. 1 Nr. 3a Buchst. b, f EStG); höchstens der Handelsbilanzwert (R 6.11 Abs. 3 EStR).\n4. Abzinsung: nicht bei Laufzeit unter zwölf Monaten (§ 6 Abs. 1 Nr. 3a Buchst. e S. 1 EStG); bei Pauschalrückstellungen verzichtet die Verwaltung darauf (BMF vom 26.05.2005, BStBl I 2005, 699, Rn. 27).\n\nBeispiel: 25.000 € einzeln + 1 % von 1,9 Mio. € = 19.000 € pauschal → 44.000 €.\n\nZum Schluss: § 249 HGB, § 6 Abs. 1 Nr. 3a EStG, H 5.7 (5) EStH und BMF vom 26.05.2005, Rn. 27 zum Markieren. Speichern für Klausur 3 📌",
+      "hashtags": [
+        "#steuerberaterexamen",
+        "#steuerberaterprüfung",
+        "#examensvorbereitung",
+        "#bilanzsteuerrecht"
+      ],
+      "quellen": [
+        "§ 249 Abs. 1 S. 1, S. 2 Nr. 2, Abs. 2 HGB",
+        "§ 5 Abs. 1 S. 1 EStG",
+        "§ 6 Abs. 1 Nr. 3a Buchst. b, e, f EStG",
+        "H 5.7 (5) EStH",
+        "R 6.11 Abs. 3 EStR",
+        "BMF vom 26.05.2005, Rn. 27"
+      ],
+      "slug": "2026-11-15-b2",
+      "kurztitel": "Garantierückstellungen: einzeln, pauschal und richtig bewertet",
+      "regelGeprueft": true,
+      "manuellGeprueft": false,
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "open-peeps-render",
+      "renderer": "open-peeps-v4",
+      "liveVorrangAktiv": true,
+      "coverBadge": "Prüfungsfrage",
+      "folien": [
+        {
+          "art": "titel",
+          "titel": "Prüfungsfrage",
+          "text": "Prüfungsfrage · Garantie: · einzeln, pauschal? · § 249 Abs. 1 S. 1 HGB · Klausurfrage · + Markier-Guide §§ 249, 6 + H 5.7 · Umsatz 2026 · 2 Mio. € · Rückstellung?",
+          "bild": "op-cover"
+        },
+        {
+          "art": "text",
+          "titel": "Bilanzsteuerrecht",
+          "text": "Die Frage · Paulinas Fensterbau GmbH gibt zwei Jahre Gewährleistung. Umsatz 2026: 2 Mio. €. · Großauftrag (100.000 €) mit bekanntem Mangel: Reparatur im März 2027, 25.000 €. Sonst erfahrungsgemäß 1 % vom Umsatz. · Ansatz zum 31.12.2026? · Wie viel?"
+        },
+        {
+          "art": "text",
+          "titel": "Bilanzsteuerrecht",
+          "text": "Lösung in 4 Schritten · Ansatz · § 249 Abs. 1 S. 1 HGB, § 5 Abs. 1 S. 1 EStG · ungewisse Verbindlichkeit · Einzeln oder pauschal · H 5.7 (5) EStH · Bekanntes einzeln, Rest pauschal · Bewerten · § 6 Abs. 1 Nr. 3a Buchst. b, f EStG · Sachleistung zu Stichtagskosten · Abzinsen? · § 6 Abs. 1 Nr. 3a Buchst. e EStG · Laufzeit prüfen · Am Ende: § 249 HGB, § 6 EStG + H 5.7 markiert"
+        },
+        {
+          "art": "text",
+          "titel": "Bilanzsteuerrecht",
+          "text": "1 · Ansatz · Gewährleistung für erbrachte Leistungen: ungewisse Verbindlichkeit, Pflicht in der Handelsbilanz. · § 249 Abs. 1 S. 1 HGB · Gilt über die Maßgeblichkeit auch steuerlich. · § 5 Abs. 1 S. 1 EStG · Kulanz ohne Rechtspflicht: in der Handelsbilanz ebenfalls. · § 249 Abs. 1 S. 2 Nr. 2 HGB · Pflicht, kein Wahlrecht."
+        },
+        {
+          "art": "text",
+          "titel": "Bilanzsteuerrecht",
+          "text": "2 · Einzeln und pauschal · Bis zur Bilanzaufstellung bekannte Fälle: Einzelrückstellung. · H 5.7 (5) EStH · Für den Rest: Pauschale nach eigenen oder branchentypischen Erfahrungen. · H 5.7 (5) EStH · Die bloße Möglichkeit von Mängeln reicht nicht. · Beides nebeneinander?"
+        },
+        {
+          "art": "text",
+          "titel": "Bilanzsteuerrecht",
+          "text": "3 · Richtig bewerten · Nachbesserung ist eine Sachleistung: Einzel- und angemessene Gemeinkosten. · § 6 Abs. 1 Nr. 3a Buchst. b EStG · Keine künftigen Preissteigerungen in der Steuerbilanz. · § 6 Abs. 1 Nr. 3a Buchst. f EStG · Nie mehr als der Handelsbilanzwert. · R 6.11 Abs. 3 EStR · Heutige Kosten!"
+        },
+        {
+          "art": "text",
+          "titel": "Bilanzsteuerrecht",
+          "text": "4 · Abzinsen? · Einzelfall: Reparatur im März 2027, Laufzeit unter zwölf Monaten, keine Abzinsung. · § 6 Abs. 1 Nr. 3a Buchst. e S. 1 EStG · Pauschalrückstellung: Die Verwaltung verzichtet auf die Abzinsung. · BMF vom 26.05.2005, Rn. 27 · Das spart Rechnerei."
+        },
+        {
+          "art": "text",
+          "titel": "Bilanzsteuerrecht",
+          "text": "Ergebnis 31.12.2026 · H 5.7 (5) EStH · § 6 Abs. 1 Nr. 3a EStG · Einzelrückstellung · 25.000 € · Pauschale 1 % von 1,9 Mio. € · 19.000 € · Abzinsung · 0 € · Rückstellung gesamt · 44.000 € · Großauftrag nicht doppelt erfassen"
+        },
+        {
+          "art": "text",
+          "titel": "Bilanzsteuerrecht",
+          "text": "Paulinas GmbH: 25.000 € + 19.000 € = 44.000 € · Einzelfall raus aus der Pauschalbasis · Bekanntes einzeln, · Rest pauschal, · Stichtagskosten ansetzen, · Laufzeit prüfen. · Speichern für Klausur 3 · Hättest du doppelt gezählt? · Weiterwischen: §§ 249, 6 + H 5.7 markiert"
+        },
+        {
+          "art": "text",
+          "titel": "Bilanzsteuerrecht",
+          "text": "§ 249 HGB, § 6 EStG (Auszug) · Garantie: Pflicht · Kulanz · März 2027: nicht abzinsen · H 5.7 (5) EStH, BMF vom 26.05.2005 (Auszug) · 25.000 € · 1 % vom Rest · nicht abzinsen · Paulina: 25.000 € + 19.000 € · keine Abzinsung: 44.000 €"
+        }
+      ]
+    },
+    "b3": {
+      "format": "reel",
+      "fach": "ust",
+      "klausur": 1,
+      "fachLabel": "Umsatzsteuer",
+      "themaId": "ust-aufb-ust-m-b12-7",
+      "caption": "Vorsteuerberichtigung: Ab wann läuft der Berichtigungszeitraum? 🏗️\n\n▸ Dauer: fünf Jahre, bei Grundstücken einschließlich wesentlicher Bestandteile und Gebäuden auf fremdem Grund zehn Jahre (§ 15a Abs. 1 S. 1, 2 UStG).\n▸ Beginn: ab dem Zeitpunkt der erstmaligen Verwendung (§ 15a Abs. 1 S. 1 UStG) – nicht ab Fertigstellung, Anschaffung oder Rechnung.\n▸ Je Kalenderjahr der Änderung wird von einem Fünftel bzw. einem Zehntel der Vorsteuer ausgegangen; eine kürzere Verwendungsdauer ist zu berücksichtigen (§ 15a Abs. 5 S. 1, 2 UStG).\n▸ Ende vor dem 16. eines Monats: Monat bleibt unberücksichtigt; danach zählt er voll (§ 45 UStDV).\n\nSpeichern für Klausur 1 📌",
+      "hashtags": [
+        "#steuerberaterexamen",
+        "#steuerberaterprüfung",
+        "#examensvorbereitung",
+        "#umsatzsteuer"
+      ],
+      "quellen": [
+        "§ 15a Abs. 1 S. 1, 2 UStG",
+        "§ 15a Abs. 5 S. 1, 2 UStG",
+        "§ 45 UStDV"
+      ],
+      "slug": "2026-11-15-b3",
+      "kurztitel": "Berichtigungszeitraum nach § 15a UStG richtig bestimmen",
+      "regelGeprueft": true,
+      "manuellGeprueft": false,
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "open-peeps-render",
+      "renderer": "open-peeps-v4",
+      "liveVorrangAktiv": true,
+      "bild": "op-cover",
+      "reelTyp": "merksatz",
+      "hookStil": "knall",
+      "coverBadge": "Reel",
+      "szenen": [
+        {
+          "art": "hook",
+          "titel": "Gebäude fertig: Frist läuft?"
+        },
+        {
+          "art": "schritt",
+          "titel": "Wie lange?"
+        },
+        {
+          "art": "schritt",
+          "titel": "Ab wann?"
+        },
+        {
+          "art": "schritt",
+          "titel": "Kürzer und genau"
+        }
+      ],
+      "sprecher": [
+        "Gebäude fertig, also läuft die Frist? Nein! Der Berichtigungszeitraum startet erst mit der ersten Verwendung.",
+        "Fünf Jahre für bewegliche Wirtschaftsgüter, zehn Jahre für Grundstücke und Gebäude.",
+        "Beginn ist die erstmalige tatsächliche Verwendung. Steht das Gebäude nach Fertigstellung leer, wartet die Frist.",
+        "Endet die Nutzung früher, etwa durch Zerstörung, gilt die kürzere Dauer. Gerechnet wird in vollen Monaten.",
+        "Merke: fünf oder zehn Jahre, ab der ersten Verwendung."
+      ],
+      "dauerS": 34.306,
+      "tempo": 1.0
+    },
+    "s4": {
+      "slot": "s4",
+      "art": "frage",
+      "fach": "erbst",
+      "klausur": 1,
+      "fachLabel": "Erbschaftsteuer",
+      "themaId": null,
+      "beitragSlot": null,
+      "quellen": null,
+      "frage": [
+        "Enkelin erbt,",
+        "Mutter lebt: Freibetrag?"
+      ],
+      "optionen": [
+        "400.000 €",
+        "200.000 €",
+        "100.000 €"
+      ],
+      "sichtbareTexte": [
+        "Erbschaftsteuer",
+        "Prüfungsfrage",
+        "Enkelin erbt,",
+        "Mutter lebt: Freibetrag?",
+        "400.000 €",
+        "200.000 €",
+        "100.000 €",
+        "Auflösung in der nächsten Story"
+      ],
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
+      "liveVorrangAktiv": true,
+      "regelGeprueft": true
+    },
+    "s5": {
+      "slot": "s5",
+      "art": "antwort",
+      "fach": "erbst",
+      "klausur": 1,
+      "fachLabel": "Erbschaftsteuer",
+      "themaId": null,
+      "beitragSlot": null,
+      "quellen": null,
+      "titel": [
+        "B: 200.000 €"
+      ],
+      "optionen": [
+        "400.000 €",
+        "200.000 €",
+        "100.000 €"
+      ],
+      "richtig": 1,
+      "text": "400.000 € gibt es für Enkel nur, wenn ihr Elternteil schon verstorben ist.",
+      "norm": "§ 16 Abs. 1 Nr. 2, 3 ErbStG",
+      "sichtbareTexte": [
+        "Erbschaftsteuer",
+        "Auflösung",
+        "B: 200.000 €",
+        "400.000 €",
+        "200.000 €",
+        "100.000 €",
+        "400.000 € gibt es für Enkel nur, wenn ihr Elternteil schon verstorben ist.",
+        "§ 16 Abs. 1 Nr. 2, 3 ErbStG"
+      ],
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
+      "liveVorrangAktiv": true,
+      "regelGeprueft": true
+    },
+    "s1": {
+      "slot": "s1",
+      "art": "teaser",
+      "fach": null,
+      "klausur": 0,
+      "fachLabel": "Alle Klausuren",
+      "themaId": null,
+      "beitragSlot": "b1",
+      "quellen": null,
+      "titel": [
+        "Woche kompakt: alle 3 Klausuren"
+      ],
+      "unter": "Wochenrückblick + Markier-Guide · im Profil",
+      "sichtbareTexte": [
+        "Alle Klausuren",
+        "Neu im Feed",
+        "Woche kompakt: alle 3 Klausuren",
+        "Wochenrückblick + Markier-Guide · im Profil"
+      ],
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
+      "liveVorrangAktiv": true,
+      "regelGeprueft": true
+    },
+    "s6": {
+      "slot": "s6",
+      "art": "norm",
+      "fach": "istr",
+      "klausur": 2,
+      "fachLabel": "Internationales Steuerrecht",
+      "themaId": "istr-modul-istr-istr3-13",
+      "beitragSlot": null,
+      "quellen": null,
+      "titel": [
+        "Maschine ins",
+        "Ausland verlegt?"
+      ],
+      "norm": "§ 4 Abs. 1 S. 3 EStG",
+      "punkte": [
+        [
+          "Deutsches Besteuerungsrecht fällt weg: wie Entnahme zum gemeinen Wert.",
+          "warn",
+          "§ 6 Abs. 1 Nr. 4 S. 1 EStG"
+        ],
+        [
+          "In die EU: Ausgleichsposten, über fünf Jahre aufgelöst.",
+          "ok",
+          "§ 4g EStG"
+        ]
+      ],
+      "sichtbareTexte": [
+        "Internationales Steuerrecht",
+        "Norm des Tages",
+        "Maschine ins",
+        "Ausland verlegt?",
+        "§ 4 Abs. 1 S. 3 EStG",
+        "Deutsches Besteuerungsrecht fällt weg: wie Entnahme zum gemeinen Wert.",
+        "§ 6 Abs. 1 Nr. 4 S. 1 EStG",
+        "In die EU: Ausgleichsposten, über fünf Jahre aufgelöst.",
+        "§ 4g EStG"
+      ],
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
+      "liveVorrangAktiv": true,
+      "regelGeprueft": true
+    },
+    "s2": {
+      "slot": "s2",
+      "art": "teaser",
+      "fach": "bilanz",
+      "klausur": 3,
+      "fachLabel": "Bilanzsteuerrecht",
+      "themaId": null,
+      "beitragSlot": "b2",
+      "quellen": null,
+      "titel": [
+        "Garantie: einzeln, pauschal?"
+      ],
+      "unter": "Prüfungsfrage + Markier-Guide · im Profil",
+      "sichtbareTexte": [
+        "Bilanzsteuerrecht",
+        "Neu im Feed",
+        "Garantie: einzeln, pauschal?",
+        "Prüfungsfrage + Markier-Guide · im Profil"
+      ],
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
+      "liveVorrangAktiv": true,
+      "regelGeprueft": true
+    },
+    "s7": {
+      "slot": "s7",
+      "art": "tipp",
+      "fach": null,
+      "klausur": 0,
+      "fachLabel": "Klausurtechnik",
+      "themaId": null,
+      "beitragSlot": null,
+      "quellen": null,
+      "titel": [
+        "Sonntag:",
+        "Woche auswerten"
+      ],
+      "punkte": [
+        [
+          "Drei Themen der Woche frei erklären",
+          "ok",
+          null
+        ],
+        [
+          "Lücken auf eine Karte schreiben",
+          "ok",
+          null
+        ],
+        [
+          "Montag mit der größten Lücke starten",
+          "ok",
+          null
+        ]
+      ],
+      "icon": "tabler:checklist",
+      "iconFarbe": "GELB",
+      "sichtbareTexte": [
+        "Klausurtechnik",
+        "Klausurtipp",
+        "Sonntag:",
+        "Woche auswerten",
+        "Drei Themen der Woche frei erklären",
+        "Lücken auf eine Karte schreiben",
+        "Montag mit der größten Lücke starten"
+      ],
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
+      "liveVorrangAktiv": true,
+      "regelGeprueft": true
+    },
+    "s8": {
+      "slot": "s8",
+      "art": "tipp",
+      "fach": "persg",
+      "klausur": 3,
+      "fachLabel": "Personengesellschaften",
+      "themaId": "persg-aufb-persg-melzer-2-4-b",
+      "beitragSlot": null,
+      "quellen": null,
+      "titel": [
+        "§ 6 Abs. 5 EStG:",
+        "GmbH beteiligt?"
+      ],
+      "normImTitel": true,
+      "punkte": [
+        [
+          "Teilwert, soweit eine Körperschaft am Wirtschaftsgut beteiligt wird",
+          "warn",
+          "§ 6 Abs. 5 S. 5 EStG"
+        ],
+        [
+          "GmbH ohne Vermögensanteil: unschädlich",
+          "ok",
+          null
+        ],
+        [
+          "Sieben Jahre nachwirkend",
+          "warn",
+          "§ 6 Abs. 5 S. 6 EStG"
+        ]
+      ],
+      "icon": "tabler:building-community",
+      "iconFarbe": "GELB",
+      "sichtbareTexte": [
+        "Personengesellschaften",
+        "Klausurtipp",
+        "§ 6 Abs. 5 EStG:",
+        "GmbH beteiligt?",
+        "Teilwert, soweit eine Körperschaft am Wirtschaftsgut beteiligt wird",
+        "§ 6 Abs. 5 S. 5 EStG",
+        "GmbH ohne Vermögensanteil: unschädlich",
+        "Sieben Jahre nachwirkend",
+        "§ 6 Abs. 5 S. 6 EStG"
+      ],
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
+      "liveVorrangAktiv": true,
+      "regelGeprueft": true
+    },
+    "s3": {
+      "slot": "s3",
+      "art": "teaser",
+      "fach": "ust",
+      "klausur": 1,
+      "fachLabel": "Umsatzsteuer",
+      "themaId": null,
+      "beitragSlot": "b3",
+      "quellen": null,
+      "titel": [
+        "Gebäude fertig: Frist läuft?"
+      ],
+      "unter": "Neues Reel · im Profil",
+      "sichtbareTexte": [
+        "Umsatzsteuer",
+        "Neu im Feed",
+        "Gebäude fertig: Frist läuft?",
+        "Neues Reel · im Profil"
+      ],
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
+      "liveVorrangAktiv": true,
+      "regelGeprueft": true
+    },
+    "s9": {
+      "slot": "s9",
+      "art": "merksatz",
+      "fach": "ao",
+      "klausur": 1,
+      "fachLabel": "Abgabenordnung",
+      "themaId": "ao-modul-ao-369",
+      "beitragSlot": null,
+      "quellen": null,
+      "titel": [
+        "Änderungsbescheid",
+        "angefochten?"
+      ],
+      "zeilen": [
+        [
+          [
+            "Nur so weit, wie die",
+            null
+          ]
+        ],
+        [
+          [
+            "Änderung reicht",
+            "a"
+          ],
+          [
+            ",",
+            null
+          ]
+        ],
+        [
+          [
+            "außer eine",
+            null
+          ]
+        ],
+        [
+          [
+            "Korrekturnorm",
+            "b"
+          ],
+          [
+            " hilft.",
+            null
+          ]
+        ]
+      ],
+      "norm": "§ 351 Abs. 1 AO",
+      "sichtbareTexte": [
+        "Abgabenordnung",
+        "Merksatz",
+        "Änderungsbescheid",
+        "angefochten?",
+        "Nur so weit, wie die",
+        "Änderung reicht,",
+        "außer eine",
+        "Korrekturnorm hilft.",
+        "§ 351 Abs. 1 AO"
+      ],
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
+      "liveVorrangAktiv": true,
+      "regelGeprueft": true
+    }
+  },
+  "renderVorschau": {
+    "status": "fertig",
+    "erzeugtAm": "2026-11-01T07:38:30Z",
+    "pfad": "vorproduktion/2026-11-15/fertig",
+    "providerKostenUsd": 0,
+    "coverbilder": false,
+    "coverIcons": false,
+    "renderer": "open-peeps-v4",
+    "layoutQuelle": "open-peeps-variante-c",
+    "reelStimme": "elevenlabs-laura",
+    "sfx": "freesound-cc0",
+    "freigabeBetreiber": true,
+    "liveVorrangAktiv": true,
+    "normalbetriebGesperrt": true,
+    "wartetLive": []
+  }
+}
