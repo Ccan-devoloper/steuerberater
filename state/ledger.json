@@ -18301,12 +18301,34 @@
         "Leistung an",
         "Gesellschafter"
       ]
+    },
+    {
+      "datum": "2026-11-01",
+      "slot": "b3",
+      "medienId": "18109477385166129",
+      "veroeffentlicht": "2026-11-01T16:30:09.687Z",
+      "quelle": "vorproduktion",
+      "art": "beitrag",
+      "zeit": "17:30",
+      "stunde": 17,
+      "format": "reel",
+      "thema": "kst-aufb-kst-ks-3-03",
+      "fach": "kst",
+      "klausur": 2,
+      "titel": "Gesellschafter verzichtet auf Darlehen: Was ist Einlage, was Ertrag?",
+      "hookTyp": null,
+      "hashtags": [
+        "#steuerberaterexamen",
+        "#steuerberaterprüfung",
+        "#examensvorbereitung",
+        "#körperschaftsteuer"
+      ]
     }
   ],
   "fachZaehler": {
     "persg": 19,
     "ust": 16,
-    "kst": 14,
+    "kst": 15,
     "ao": 27,
     "bilanz": 26,
     "istr": 20,
