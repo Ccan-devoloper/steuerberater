@@ -18347,6 +18347,20 @@
         "#zivilrecht",
         "#steuerberater"
       ]
+    },
+    {
+      "datum": "2026-11-01",
+      "slot": "s3",
+      "medienId": "17997487398112216",
+      "veroeffentlicht": "2026-11-01T18:00:27.955Z",
+      "quelle": "vorproduktion",
+      "art": "story",
+      "storyArt": "teaser",
+      "thema": null,
+      "fach": "kst",
+      "titel": [
+        "Darlehen erlassen"
+      ]
     }
   ],
   "fachZaehler": {
