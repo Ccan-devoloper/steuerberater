@@ -24,7 +24,8 @@
       "themaTitel": "Grundstücksbezogene Leistungen: Das Grundstück bestimmt den Ort",
       "fach": "ust",
       "klausur": 1,
-      "status": "geplant"
+      "status": "sendet",
+      "sendeversuch": "2026-11-01T12:30:00.100Z"
     },
     {
       "slot": "b3",
