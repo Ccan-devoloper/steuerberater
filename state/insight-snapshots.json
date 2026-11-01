@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "stand": "2026-11-01T16:45:52.801Z",
+  "stand": "2026-11-01T18:00:52.119Z",
   "medien": {
     "18093399314208242": {
       "art": "beitrag",
@@ -46911,6 +46911,20 @@
           "ig_reels_avg_watch_time": 9090,
           "ig_reels_video_view_total_time": 15798965,
           "reels_skip_rate": 56.6
+        },
+        {
+          "stand": "2026-11-01T18:00:49.534Z",
+          "alterStunden": 168,
+          "reach": 1769,
+          "saved": 22,
+          "shares": 6,
+          "likes": 22,
+          "comments": 0,
+          "total_interactions": 50,
+          "views": 2095,
+          "ig_reels_avg_watch_time": 9255,
+          "ig_reels_video_view_total_time": 16419145,
+          "reels_skip_rate": 56.5
         }
       ]
     },
@@ -56129,6 +56143,23 @@
           "navigation_tap_exit": 6,
           "navigation_swipe_forward": 3,
           "navigation_tap_forward": 22
+        },
+        {
+          "stand": "2026-11-01T18:00:43.713Z",
+          "alterStunden": 6,
+          "reach": 46,
+          "views": 60,
+          "shares": 0,
+          "total_interactions": 1,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 54,
+          "navigation_tap_back": 2,
+          "navigation_tap_forward": 37,
+          "navigation_swipe_forward": 4,
+          "navigation_tap_exit": 11
         }
       ]
     },
@@ -56159,6 +56190,23 @@
           "navigation_tap_forward": 18,
           "navigation_tap_exit": 5,
           "navigation_tap_back": 2
+        },
+        {
+          "stand": "2026-11-01T18:00:43.713Z",
+          "alterStunden": 5.5,
+          "reach": 40,
+          "views": 57,
+          "shares": 0,
+          "total_interactions": 1,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 47,
+          "navigation_swipe_forward": 1,
+          "navigation_tap_forward": 31,
+          "navigation_tap_exit": 9,
+          "navigation_tap_back": 6
         }
       ]
     },
@@ -56195,6 +56243,18 @@
           "total_interactions": 3,
           "follows": 0,
           "profile_visits": 2
+        },
+        {
+          "stand": "2026-11-01T18:00:49.534Z",
+          "alterStunden": 5.5,
+          "reach": 83,
+          "saved": 2,
+          "shares": 0,
+          "likes": 3,
+          "comments": 0,
+          "total_interactions": 5,
+          "follows": 0,
+          "profile_visits": 2
         }
       ]
     },
@@ -56226,6 +56286,64 @@
           "navigation_swipe_forward": 2,
           "navigation_tap_forward": 11,
           "navigation_tap_exit": 9
+        }
+      ]
+    },
+    "17977170309150925": {
+      "art": "story",
+      "datum": "2026-11-01",
+      "titel": [
+        "Leistung an",
+        "Gesellschafter"
+      ],
+      "format": null,
+      "fach": "ust",
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-11-01T16:04:06.787Z",
+      "snapshots": [
+        {
+          "stand": "2026-11-01T18:00:43.713Z",
+          "alterStunden": 1.9,
+          "reach": 24,
+          "views": 29,
+          "shares": 0,
+          "total_interactions": 1,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 27,
+          "navigation_swipe_forward": 1,
+          "navigation_tap_forward": 19,
+          "navigation_tap_exit": 5,
+          "navigation_tap_back": 2
+        }
+      ]
+    },
+    "18109477385166129": {
+      "art": "beitrag",
+      "datum": "2026-11-01",
+      "titel": "Gesellschafter verzichtet auf Darlehen: Was ist Einlage, was Ertrag?",
+      "format": "reel",
+      "fach": "kst",
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-11-01T16:30:09.687Z",
+      "snapshots": [
+        {
+          "stand": "2026-11-01T18:00:49.534Z",
+          "alterStunden": 1.5,
+          "reach": 175,
+          "saved": 1,
+          "shares": 1,
+          "likes": 1,
+          "comments": 0,
+          "total_interactions": 3,
+          "views": 255,
+          "ig_reels_avg_watch_time": 7013,
+          "ig_reels_video_view_total_time": 1220303,
+          "reels_skip_rate": 62.1
         }
       ]
     }
@@ -59270,6 +59388,11 @@
       "stand": "2026-11-01T16:45:52.801Z",
       "follower": 450,
       "medien": 177
+    },
+    {
+      "stand": "2026-11-01T18:00:52.119Z",
+      "follower": 450,
+      "medien": 178
     }
   ]
 }
