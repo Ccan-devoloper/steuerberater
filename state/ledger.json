@@ -18196,6 +18196,20 @@
         "#examensvorbereitung",
         "#umsatzsteuer"
       ]
+    },
+    {
+      "datum": "2026-11-01",
+      "slot": "s2",
+      "medienId": "18643941517019853",
+      "veroeffentlicht": "2026-11-01T12:30:18.295Z",
+      "quelle": "vorproduktion",
+      "art": "story",
+      "storyArt": "teaser",
+      "thema": null,
+      "fach": "ust",
+      "titel": [
+        "Halle in Tirol: Ort?"
+      ]
     }
   ],
   "fachZaehler": {
