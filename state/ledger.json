@@ -18118,17 +18118,17 @@
         "#steuerrecht"
       ],
       "insights": {
-        "reach": 114,
+        "reach": 121,
         "saved": 1,
         "shares": 0,
-        "likes": 2,
+        "likes": 3,
         "comments": 0,
-        "total_interactions": 3,
+        "total_interactions": 4,
         "follows": 0,
-        "profile_visits": 0
+        "profile_visits": 1
       },
-      "insightsStand": "2026-11-01T18:45:50.319Z",
-      "insightsAlterStunden": 11.3
+      "insightsStand": "2026-11-01T22:23:11.083Z",
+      "insightsAlterStunden": 14.9
     },
     {
       "datum": "2026-11-01",
@@ -18144,22 +18144,22 @@
         "Woche kompakt: alle 3 Klausuren"
       ],
       "insights": {
-        "reach": 55,
-        "views": 74,
+        "reach": 72,
+        "views": 97,
         "shares": 0,
         "total_interactions": 1,
         "replies": 0,
         "follows": 0,
         "profile_visits": 1,
         "profile_activity": 1,
-        "navigation": 66,
-        "navigation_tap_forward": 51,
-        "navigation_tap_back": 4,
-        "navigation_tap_exit": 9,
-        "navigation_swipe_forward": 2
+        "navigation": 87,
+        "navigation_swipe_forward": 4,
+        "navigation_tap_exit": 11,
+        "navigation_tap_back": 8,
+        "navigation_tap_forward": 64
       },
-      "insightsStand": "2026-11-01T16:45:45.753Z",
-      "insightsAlterStunden": 9.3
+      "insightsStand": "2026-11-01T22:23:06.593Z",
+      "insightsAlterStunden": 14.9
     },
     {
       "datum": "2026-11-01",
@@ -18176,22 +18176,22 @@
         "wie abschreiben?"
       ],
       "insights": {
-        "reach": 46,
-        "views": 60,
+        "reach": 64,
+        "views": 80,
         "shares": 0,
         "total_interactions": 1,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 54,
-        "navigation_tap_back": 2,
-        "navigation_tap_forward": 37,
-        "navigation_swipe_forward": 4,
-        "navigation_tap_exit": 11
+        "navigation": 71,
+        "navigation_tap_exit": 11,
+        "navigation_swipe_forward": 6,
+        "navigation_tap_forward": 51,
+        "navigation_tap_back": 3
       },
-      "insightsStand": "2026-11-01T18:00:43.713Z",
-      "insightsAlterStunden": 6
+      "insightsStand": "2026-11-01T22:23:06.593Z",
+      "insightsAlterStunden": 10.3
     },
     {
       "datum": "2026-11-01",
@@ -18215,17 +18215,17 @@
         "#umsatzsteuer"
       ],
       "insights": {
-        "reach": 83,
+        "reach": 105,
         "saved": 2,
         "shares": 0,
-        "likes": 3,
+        "likes": 5,
         "comments": 0,
-        "total_interactions": 5,
+        "total_interactions": 7,
         "follows": 0,
         "profile_visits": 2
       },
-      "insightsStand": "2026-11-01T18:00:49.534Z",
-      "insightsAlterStunden": 5.5
+      "insightsStand": "2026-11-01T22:23:11.083Z",
+      "insightsAlterStunden": 9.9
     },
     {
       "datum": "2026-11-01",
@@ -18241,22 +18241,22 @@
         "Halle in Tirol: Ort?"
       ],
       "insights": {
-        "reach": 40,
-        "views": 57,
+        "reach": 59,
+        "views": 79,
         "shares": 0,
         "total_interactions": 1,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 47,
-        "navigation_swipe_forward": 1,
-        "navigation_tap_forward": 31,
-        "navigation_tap_exit": 9,
-        "navigation_tap_back": 6
+        "navigation": 71,
+        "navigation_swipe_forward": 3,
+        "navigation_tap_forward": 48,
+        "navigation_tap_exit": 11,
+        "navigation_tap_back": 9
       },
-      "insightsStand": "2026-11-01T18:00:43.713Z",
-      "insightsAlterStunden": 5.5
+      "insightsStand": "2026-11-01T22:23:06.593Z",
+      "insightsAlterStunden": 9.9
     },
     {
       "datum": "2026-11-01",
@@ -18305,22 +18305,22 @@
         "Gesellschafter"
       ],
       "insights": {
-        "reach": 24,
-        "views": 29,
+        "reach": 55,
+        "views": 63,
         "shares": 0,
         "total_interactions": 1,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 27,
-        "navigation_swipe_forward": 1,
-        "navigation_tap_forward": 19,
-        "navigation_tap_exit": 5,
-        "navigation_tap_back": 2
+        "navigation": 60,
+        "navigation_tap_back": 3,
+        "navigation_tap_exit": 14,
+        "navigation_tap_forward": 38,
+        "navigation_swipe_forward": 5
       },
-      "insightsStand": "2026-11-01T18:00:43.713Z",
-      "insightsAlterStunden": 1.9
+      "insightsStand": "2026-11-01T22:23:06.593Z",
+      "insightsAlterStunden": 6.3
     },
     {
       "datum": "2026-11-01",
@@ -18344,19 +18344,19 @@
         "#körperschaftsteuer"
       ],
       "insights": {
-        "reach": 271,
-        "saved": 1,
+        "reach": 397,
+        "saved": 2,
         "shares": 1,
-        "likes": 1,
+        "likes": 2,
         "comments": 0,
-        "total_interactions": 3,
-        "views": 361,
-        "ig_reels_avg_watch_time": 7123,
-        "ig_reels_video_view_total_time": 1923292,
-        "reels_skip_rate": 63.5
+        "total_interactions": 5,
+        "views": 516,
+        "ig_reels_avg_watch_time": 7565,
+        "ig_reels_video_view_total_time": 3018565,
+        "reels_skip_rate": 62.1
       },
-      "insightsStand": "2026-11-01T19:47:25.327Z",
-      "insightsAlterStunden": 3.3
+      "insightsStand": "2026-11-01T22:23:11.083Z",
+      "insightsAlterStunden": 5.9
     },
     {
       "datum": "2026-11-01",
@@ -18382,19 +18382,19 @@
         "#steuerberater"
       ],
       "insights": {
-        "reach": 187,
+        "reach": 220,
         "saved": 1,
         "shares": 0,
-        "likes": 4,
+        "likes": 6,
         "comments": 0,
-        "total_interactions": 5,
-        "views": 259,
-        "ig_reels_avg_watch_time": 8169,
-        "ig_reels_video_view_total_time": 1527699,
-        "reels_skip_rate": 54.3
+        "total_interactions": 7,
+        "views": 298,
+        "ig_reels_avg_watch_time": 8783,
+        "ig_reels_video_view_total_time": 1985121,
+        "reels_skip_rate": 57.8
       },
-      "insightsStand": "2026-11-01T20:45:07.603Z",
-      "insightsAlterStunden": 2.7
+      "insightsStand": "2026-11-01T22:23:11.083Z",
+      "insightsAlterStunden": 4.4
     },
     {
       "datum": "2026-11-01",
