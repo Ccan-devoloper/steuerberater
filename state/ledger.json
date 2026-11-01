@@ -18046,6 +18046,21 @@
       "thema": "gewst-quiz-2026-11-01",
       "fach": "gewst",
       "titel": ""
+    },
+    {
+      "datum": "2026-11-01",
+      "slot": "s5",
+      "medienId": "18113735036581868",
+      "veroeffentlicht": "2026-11-01T06:09:03.316Z",
+      "quelle": "vorproduktion",
+      "art": "story",
+      "storyArt": "antwort",
+      "thema": "gewst-quiz-2026-11-01",
+      "fach": "gewst",
+      "titel": [
+        "B: die gebuchte",
+        "Grundsteuer"
+      ]
     }
   ],
   "fachZaehler": {
