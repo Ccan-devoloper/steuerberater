@@ -51,8 +51,9 @@
       "zeit": "07:07",
       "art": "frage",
       "themaId": "gewst-quiz-2026-11-01",
-      "status": "sendet",
-      "sendeversuch": "2026-11-01T06:07:00.091Z"
+      "status": "veroeffentlicht",
+      "medienId": "17915904006549122",
+      "veroeffentlicht": "2026-11-01T06:07:03.782Z"
     },
     {
       "slot": "s5",

@@ -18034,6 +18034,18 @@
       },
       "insightsStand": "2026-11-01T05:44:32.566Z",
       "insightsAlterStunden": 11.5
+    },
+    {
+      "datum": "2026-11-01",
+      "slot": "s4",
+      "medienId": "17915904006549122",
+      "veroeffentlicht": "2026-11-01T06:07:03.782Z",
+      "quelle": "vorproduktion",
+      "art": "story",
+      "storyArt": "frage",
+      "thema": "gewst-quiz-2026-11-01",
+      "fach": "gewst",
+      "titel": ""
     }
   ],
   "fachZaehler": {
