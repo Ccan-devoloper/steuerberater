@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "stand": "2026-11-01T06:45:44.064Z",
+  "stand": "2026-11-01T07:30:20.299Z",
   "medien": {
     "18093399314208242": {
       "art": "beitrag",
@@ -55327,6 +55327,66 @@
           "navigation_tap_forward": 31,
           "navigation_tap_back": 5,
           "navigation_tap_exit": 11
+        }
+      ]
+    },
+    "17915904006549122": {
+      "art": "story",
+      "datum": "2026-11-01",
+      "titel": null,
+      "format": null,
+      "fach": "gewst",
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-11-01T06:07:03.782Z",
+      "snapshots": [
+        {
+          "stand": "2026-11-01T07:30:20.299Z",
+          "alterStunden": 1.4,
+          "reach": 12,
+          "views": 17,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 14,
+          "navigation_tap_forward": 10,
+          "navigation_swipe_forward": 1,
+          "navigation_tap_exit": 2,
+          "navigation_tap_back": 1
+        }
+      ]
+    },
+    "18113735036581868": {
+      "art": "story",
+      "datum": "2026-11-01",
+      "titel": [
+        "B: die gebuchte",
+        "Grundsteuer"
+      ],
+      "format": null,
+      "fach": "gewst",
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-11-01T06:09:03.316Z",
+      "snapshots": [
+        {
+          "stand": "2026-11-01T07:30:20.299Z",
+          "alterStunden": 1.4,
+          "reach": 10,
+          "views": 15,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 10,
+          "navigation_tap_back": 2,
+          "navigation_tap_forward": 7,
+          "navigation_tap_exit": 1
         }
       ]
     }
