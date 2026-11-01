@@ -18083,6 +18083,20 @@
         "#examensvorbereitung",
         "#steuerrecht"
       ]
+    },
+    {
+      "datum": "2026-11-01",
+      "slot": "s1",
+      "medienId": "17939800314122509",
+      "veroeffentlicht": "2026-11-01T07:30:19.070Z",
+      "quelle": "vorproduktion",
+      "art": "story",
+      "storyArt": "teaser",
+      "thema": null,
+      "fach": null,
+      "titel": [
+        "Woche kompakt: alle 3 Klausuren"
+      ]
     }
   ],
   "fachZaehler": {
