@@ -18061,6 +18061,28 @@
         "B: die gebuchte",
         "Grundsteuer"
       ]
+    },
+    {
+      "datum": "2026-11-01",
+      "slot": "b1",
+      "medienId": "17978651810931710",
+      "veroeffentlicht": "2026-11-01T07:30:07.779Z",
+      "quelle": "vorproduktion",
+      "art": "beitrag",
+      "zeit": "08:30",
+      "stunde": 8,
+      "format": "wochenrueckblick",
+      "thema": "wochenrueckblick-alle-2026-44",
+      "fach": null,
+      "klausur": 0,
+      "titel": "Wochenrückblick",
+      "hookTyp": null,
+      "hashtags": [
+        "#steuerberaterexamen",
+        "#steuerberaterprüfung",
+        "#examensvorbereitung",
+        "#steuerrecht"
+      ]
     }
   ],
   "fachZaehler": {
@@ -18075,7 +18097,7 @@
     "est": 8,
     "umwst": 9,
     "gewst": 5,
-    "null": 10
+    "null": 11
   },
   "nachrichten": [],
   "postfach": [],
