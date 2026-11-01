@@ -1,0 +1,75 @@
+{
+  "format": "pruefungsfrage",
+  "fach": "ust",
+  "klausur": 1,
+  "fachLabel": "Umsatzsteuer",
+  "themaId": "ust-aufb-ust-m-b05-8",
+  "caption": "Prüfungsfrage Umsatzsteuer: Ein Architekt aus Rosenheim plant für eine Münchner GmbH eine Halle in Kufstein. Wo ist der Ort?\n\n▸ Die B2B-Grundregel (Sitz des Empfängers) gilt nur vorbehaltlich der Absätze 3 bis 8 (§ 3a Abs. 2 S. 1 UStG).\n▸ Sonstige Leistungen im Zusammenhang mit einem Grundstück werden dort ausgeführt, wo das Grundstück liegt (§ 3a Abs. 3 Nr. 1 S. 1 UStG). Dazu gehören Leistungen zur Vorbereitung, Koordinierung oder Ausführung von Bauleistungen, also auch Architektenleistungen (§ 3a Abs. 3 Nr. 1 S. 2 Buchst. c UStG).\n▸ Halle in Kufstein: Ort Österreich, in Deutschland nicht steuerbar (§ 1 Abs. 1 Nr. 1 UStG).\n▸ Läge die Halle im Inland, wäre die Leistung dort steuerbar und steuerpflichtig: 19 % von 40.000 € = 7.600 € (§ 12 Abs. 1 UStG).\n\nZum Schluss: § 3a Abs. 3 UStG zum Markieren. Speichern für Klausur 1 📌",
+  "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#umsatzsteuer"
+  ],
+  "quellen": [
+    "§ 3a Abs. 2 S. 1 UStG",
+    "§ 3a Abs. 3 Nr. 1 UStG",
+    "§ 1 Abs. 1 Nr. 1 UStG",
+    "§ 12 Abs. 1 UStG"
+  ],
+  "slug": "2026-11-01-b2",
+  "kurztitel": "Grundstücksbezogene Leistungen: Das Grundstück bestimmt den Ort",
+  "regelGeprueft": true,
+  "manuellGeprueft": false,
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "textProviderKostenUsd": 0,
+  "faktencheckProviderKostenUsd": 0,
+  "bildStatus": "open-peeps-render",
+  "renderer": "open-peeps-v4",
+  "liveVorrangAktiv": true,
+  "coverBadge": "Prüfungsfrage",
+  "folien": [
+    {
+      "art": "titel",
+      "titel": "Prüfungsfrage",
+      "text": "Prüfungsfrage · Halle in Tirol: · welcher Ort? · § 3a Abs. 3 Nr. 1 UStG · Lage zählt · + Markier-Guide § 3a UStG · Architektenhonorar · 40.000 € · netto",
+      "bild": "op-cover"
+    },
+    {
+      "art": "text",
+      "titel": "Umsatzsteuer",
+      "text": "Der Sachverhalt · Luca ist Architekt in Rosenheim. · Für die Feldmann GmbH aus München plant er eine Lagerhalle in Kufstein, Österreich. · Honorar: 40.000 € netto. · Ich bin Luca"
+    },
+    {
+      "art": "text",
+      "titel": "Umsatzsteuer",
+      "text": "Jetzt du · Wo ist Lucas Leistung ausgeführt? · Muss er deutsche Umsatzsteuer ausweisen? · Lösung: weiterwischen · Leni, Prüferin"
+    },
+    {
+      "art": "text",
+      "titel": "Umsatzsteuer",
+      "text": "Der schnelle Fehler · „Kunde Unternehmer in München, also Ort Inland.“ · § 3a Abs. 2 S. 1 UStG · Die B2B-Regel gilt nur vorbehaltlich der Absätze 3 bis 8. · Oh, Absatz 3!"
+    },
+    {
+      "art": "text",
+      "titel": "Umsatzsteuer",
+      "text": "Lösung: der Ort · Planung einer Halle dient der Vorbereitung von Bauleistungen. · § 3a Abs. 3 Nr. 1 S. 2 Buchst. c UStG · Ort ist, wo das Grundstück liegt: Kufstein. · § 3a Abs. 3 Nr. 1 S. 1 UStG · In Deutschland nicht steuerbar. · § 1 Abs. 1 Nr. 1 UStG · Das Grundstück zählt"
+    },
+    {
+      "art": "text",
+      "titel": "Umsatzsteuer",
+      "text": "Und wenn die Halle in Bayern läge? · Halle Kufstein · Ort Österreich · § 3a Abs. 3 Nr. 1 UStG · keine deutsche USt · Halle Landshut · Ort Inland, steuerpflichtig · § 3a Abs. 3 Nr. 1 UStG · Luca weist 7.600 € USt aus · § 12 Abs. 1 UStG · Lage entscheidet"
+    },
+    {
+      "art": "text",
+      "titel": "Umsatzsteuer",
+      "text": "Kufstein: nicht steuerbar · Landshut: 19 % = 7.600 € · Absatz 3 vor Absatz 2 · Erst die Sonderregeln · Grundstück schlägt Kunde · Lage = Ort · Speichern für Klausur 1 · Hättest du München gesagt? · Weiterwischen: § 3a UStG markiert"
+    },
+    {
+      "art": "text",
+      "titel": "Umsatzsteuer",
+      "text": "§ 3a UStG (Auszug) · Vorrang · Lageort · Architekten · Prüfreihenfolge: · Absatz 3 bis 8 vor Absatz 2"
+    }
+  ]
+}

@@ -1,0 +1,119 @@
+{
+  "datum": "2026-11-01",
+  "erzeugt": "2026-11-01T05:44:30.638Z",
+  "quelle": "vorproduktion",
+  "providerKostenUsd": 0,
+  "beitraege": [
+    {
+      "slot": "b1",
+      "zeit": "08:30",
+      "format": "wochenrueckblick",
+      "themaId": "wochenrueckblick-alle-2026-44",
+      "themaTitel": "Alle Klausuren: sechs Themen der Woche 44",
+      "fach": null,
+      "klausur": 0,
+      "status": "geplant"
+    },
+    {
+      "slot": "b2",
+      "zeit": "13:30",
+      "format": "pruefungsfrage",
+      "themaId": "ust-aufb-ust-m-b05-8",
+      "themaTitel": "Grundstücksbezogene Leistungen: Das Grundstück bestimmt den Ort",
+      "fach": "ust",
+      "klausur": 1,
+      "status": "geplant"
+    },
+    {
+      "slot": "b3",
+      "zeit": "17:30",
+      "format": "reel",
+      "themaId": "kst-aufb-kst-ks-3-03",
+      "themaTitel": "Gesellschafter verzichtet auf Darlehen: Was ist Einlage, was Ertrag?",
+      "fach": "kst",
+      "klausur": 2,
+      "status": "geplant"
+    },
+    {
+      "slot": "m1",
+      "zeit": "19:00",
+      "format": "reel",
+      "themaId": "lead-zr-z2",
+      "themaTitel": "Teste dich: Handy auf Raten mit 17",
+      "fach": null,
+      "klausur": 0,
+      "status": "geplant"
+    }
+  ],
+  "stories": [
+    {
+      "slot": "s4",
+      "zeit": "07:07",
+      "art": "frage",
+      "themaId": "gewst-quiz-2026-11-01",
+      "status": "geplant"
+    },
+    {
+      "slot": "s5",
+      "zeit": "07:09",
+      "art": "antwort",
+      "themaId": "gewst-quiz-2026-11-01",
+      "status": "geplant"
+    },
+    {
+      "slot": "s1",
+      "zeit": "08:30",
+      "art": "teaser",
+      "beitragSlot": "b1",
+      "status": "geplant"
+    },
+    {
+      "slot": "s6",
+      "zeit": "12:14",
+      "art": "norm",
+      "themaId": "persg-aufb-persg-melzer-3-2",
+      "status": "geplant"
+    },
+    {
+      "slot": "s2",
+      "zeit": "13:30",
+      "art": "teaser",
+      "beitragSlot": "b2",
+      "status": "geplant"
+    },
+    {
+      "slot": "s7",
+      "zeit": "14:40",
+      "art": "tipp",
+      "status": "geplant"
+    },
+    {
+      "slot": "s8",
+      "zeit": "17:04",
+      "art": "tipp",
+      "themaId": "ust-karte-ust-6",
+      "status": "geplant"
+    },
+    {
+      "slot": "s3",
+      "zeit": "19:00",
+      "art": "teaser",
+      "beitragSlot": "b3",
+      "status": "geplant"
+    },
+    {
+      "slot": "s9",
+      "zeit": "19:12",
+      "art": "merksatz",
+      "themaId": "est-aufb-est-ks1-vv-05",
+      "status": "geplant"
+    },
+    {
+      "slot": "s10",
+      "zeit": "19:00",
+      "art": "teaser",
+      "beitragSlot": "m1",
+      "status": "geplant"
+    }
+  ]
+}

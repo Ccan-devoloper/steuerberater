@@ -1,0 +1,74 @@
+{
+  "format": "wochenrueckblick",
+  "fach": null,
+  "klausur": 0,
+  "fachLabel": "Alle Klausuren",
+  "themaId": "wochenrueckblick-alle-2026-44",
+  "caption": "Wochenrückblick KW 44: je Klausur die Themen der Woche.\n\nKlausur 1 (AO, USt, ErbSt)\n1. Beratung eines Unternehmers aus dem EU-Ausland an ein Unternehmen im Inland: Ort am Sitz des Empfängers (§ 3a Abs. 2 S. 1 UStG); die Steuer schuldet der Leistungsempfänger (§ 13b Abs. 1, 5 S. 1 UStG), Vorsteuerabzug in gleicher Höhe (§ 15 Abs. 1 S. 1 Nr. 4 UStG).\n2. Härteausgleich: Liegt der Erwerb knapp über einer Wertgrenze, wird der Steuermehrbetrag bei Sätzen bis 30 % nur aus der Hälfte, darüber aus drei Vierteln des übersteigenden Betrags erhoben (§ 19 Abs. 3 ErbStG).\n\nKlausur 2 (Ertragsteuern)\n3. Grundstück gegen Ausgleichszahlung an Geschwister übertragen: teilentgeltlicher Erwerb, aufgeteilt im Verhältnis Entgelt zu Verkehrswert (BFH vom 05.07.1990, GrS 4-6/89, BStBl II 1990, 847).\n4. Ganzer Betrieb gegen Abfindung, die das Kapitalkonto nicht übersteigt: unentgeltlich, Buchwertfortführung (§ 6 Abs. 3 S. 1 EStG); darüber Veräußerungsgewinn (§ 16 Abs. 1, 2 EStG).\n\nKlausur 3 (Buchführung und Bilanzwesen)\n5. Wer einen Mitunternehmeranteil verschenkt und funktional wesentliches Sonderbetriebsvermögen zurückbehält, erhält keinen Buchwert; der Anteil gilt als aufgegeben (§ 6 Abs. 3 S. 1, § 16 Abs. 3 S. 1 EStG).\n6. Überentnahmen: 6 % sind als Schuldzinsen nicht abziehbar, höchstens die Schuldzinsen des Jahres abzüglich 2.050 €; Zinsen für Anlagevermögen bleiben abziehbar (§ 4 Abs. 4a S. 2–5 EStG).\n\nZum Schluss: § 6 Abs. 3 S. 1 EStG zum Markieren. Speichern für alle drei Klausuren 📌",
+  "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#steuerrecht"
+  ],
+  "quellen": [
+    "§ 3a Abs. 2 S. 1 UStG",
+    "§ 13b Abs. 1, 5 S. 1 UStG",
+    "§ 15 Abs. 1 S. 1 Nr. 4 UStG",
+    "§ 19 Abs. 3 ErbStG",
+    "BFH vom 05.07.1990, GrS 4-6/89, BStBl II 1990, 847",
+    "§ 6 Abs. 3 S. 1 EStG",
+    "§ 16 Abs. 1, 2, 3 S. 1 EStG",
+    "§ 4 Abs. 4a S. 2–5 EStG"
+  ],
+  "slug": "2026-11-01-b1",
+  "kurztitel": "Alle Klausuren: sechs Themen der Woche 44",
+  "regelGeprueft": true,
+  "manuellGeprueft": false,
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "textProviderKostenUsd": 0,
+  "faktencheckProviderKostenUsd": 0,
+  "bildStatus": "open-peeps-render",
+  "renderer": "open-peeps-v4",
+  "liveVorrangAktiv": true,
+  "coverBadge": "Wochenrückblick",
+  "folien": [
+    {
+      "art": "titel",
+      "titel": "Wochenrückblick",
+      "text": "Wochenrückblick · Alle 3 · Klausuren · 6 Themen · + Markier-Guide § 6 EStG",
+      "bild": "op-cover"
+    },
+    {
+      "art": "text",
+      "titel": "Alle Klausuren",
+      "text": "Die Woche in 3 Klausuren · Klausur 1 · USt und ErbSt · §§ 3a, 13b UStG · § 19 ErbStG · B2B-Ort und Härteausgleich · Klausur 2 · Einkommensteuer · § 6 Abs. 3 EStG · GrS 4-6/89 · Teilentgelt: privat und betrieblich · Klausur 3 · Bilanz und PersG · § 6 Abs. 3, § 4 Abs. 4a EStG · Sonderbetriebsvermögen und Überentnahme · Am Ende: § 6 Abs. 3 EStG markiert"
+    },
+    {
+      "art": "text",
+      "titel": "Alle Klausuren",
+      "text": "Klausur 1 · USt und ErbSt · B2B-Beratung aus dem EU-Ausland: Ort beim Empfänger, er schuldet die Steuer. · § 3a Abs. 2 S. 1, § 13b Abs. 1, 5 S. 1 UStG · Härteausgleich: Die Mehrsteuer darf bei Sätzen bis 30 % die Hälfte des Betrags über der Grenze nicht übersteigen. · § 19 Abs. 3 ErbStG · Grenze prüfen!"
+    },
+    {
+      "art": "text",
+      "titel": "Alle Klausuren",
+      "text": "Klausur 2 · Einkommensteuer · Haus gegen Ausgleich an Geschwister: teils entgeltlich, aufteilen nach Verkehrswert. · BFH vom 05.07.1990, GrS 4-6/89, BStBl II 1990, 847 · Betrieb gegen Abfindung bis zum Kapitalkonto: unentgeltlich, Buchwerte fortführen. · § 6 Abs. 3 S. 1 EStG · Privat oder Betrieb?"
+    },
+    {
+      "art": "text",
+      "titel": "Alle Klausuren",
+      "text": "Klausur 3 · Bilanz und PersG · Anteil verschenkt, wesentliches Sonderbetriebsvermögen behalten: kein Buchwert, der ganze Anteil gilt als aufgegeben. · § 6 Abs. 3 S. 1, § 16 Abs. 3 S. 1 EStG · Überentnahme: 6 % nicht abziehbar, höchstens Schuldzinsen minus 2.050 €. · § 4 Abs. 4a S. 3, 4 EStG · Das kostet!"
+    },
+    {
+      "art": "text",
+      "titel": "Alle Klausuren",
+      "text": "Die Woche in allen 3 Klausuren · Verfahren · Ertragsteuern · Bilanz · Ort beim Empfänger, · Härte halbiert den Sprung, · privat wird aufgeteilt, · Sonder-BV muss mit. · Speichern für alle 3 Klausuren · Welche Klausur wackelt noch? · Weiterwischen: § 6 Abs. 3 EStG markiert"
+    },
+    {
+      "art": "text",
+      "titel": "Alle Klausuren",
+      "text": "§ 6 EStG (Auszug) · ganzer Anteil · Buchwert · Bedingung · Sonderbetriebsvermögen · gehört zum Anteil"
+    }
+  ]
+}

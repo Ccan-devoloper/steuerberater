@@ -1,0 +1,44 @@
+{
+  "slot": "s8",
+  "art": "tipp",
+  "fach": "ust",
+  "klausur": 1,
+  "fachLabel": "Umsatzsteuer",
+  "themaId": "ust-karte-ust-6",
+  "beitragSlot": null,
+  "quellen": null,
+  "titel": [
+    "Leistung an",
+    "Gesellschafter"
+  ],
+  "punkte": [
+    [
+      "Mindestens Einkaufspreis oder Ausgaben",
+      "warn",
+      "§ 10 Abs. 5 Nr. 1 UStG"
+    ],
+    [
+      "Höchstens marktübliches Entgelt",
+      "ok",
+      "§ 10 Abs. 5 UStG"
+    ]
+  ],
+  "icon": "tabler:scale",
+  "iconFarbe": "GELB",
+  "sichtbareTexte": [
+    "Umsatzsteuer",
+    "Klausurtipp",
+    "Leistung an",
+    "Gesellschafter",
+    "Mindestens Einkaufspreis oder Ausgaben",
+    "§ 10 Abs. 5 Nr. 1 UStG",
+    "Höchstens marktübliches Entgelt",
+    "§ 10 Abs. 5 UStG"
+  ],
+  "renderer": "open-peeps-v4",
+  "bildStatus": "open-peeps-render",
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "liveVorrangAktiv": true,
+  "regelGeprueft": true
+}

@@ -1,0 +1,36 @@
+{
+  "slot": "s4",
+  "art": "frage",
+  "fach": "gewst",
+  "klausur": 2,
+  "fachLabel": "Gewerbesteuer",
+  "themaId": "gewst-quiz-2026-11-01",
+  "beitragSlot": null,
+  "quellen": null,
+  "frage": [
+    "Eigenes Betriebsgrundstück:",
+    "Kürzung seit 2025?"
+  ],
+  "optionen": [
+    "1,2 % des Einheitswerts",
+    "Die gebuchte Grundsteuer",
+    "0,11 % des Grundsteuerwerts"
+  ],
+  "pairId": "gewst-quiz-2026-11-01",
+  "sichtbareTexte": [
+    "Gewerbesteuer",
+    "Prüfungsfrage",
+    "Eigenes Betriebsgrundstück:",
+    "Kürzung seit 2025?",
+    "1,2 % des Einheitswerts",
+    "Die gebuchte Grundsteuer",
+    "0,11 % des Grundsteuerwerts",
+    "Auflösung in der nächsten Story"
+  ],
+  "renderer": "open-peeps-v4",
+  "bildStatus": "open-peeps-render",
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "liveVorrangAktiv": true,
+  "regelGeprueft": true
+}

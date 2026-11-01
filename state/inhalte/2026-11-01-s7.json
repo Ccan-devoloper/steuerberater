@@ -1,0 +1,42 @@
+{
+  "slot": "s7",
+  "art": "tipp",
+  "fach": null,
+  "klausur": 0,
+  "fachLabel": "Klausurtechnik",
+  "themaId": null,
+  "beitragSlot": null,
+  "quellen": null,
+  "titel": [
+    "Sonntag:",
+    "Woche abhaken"
+  ],
+  "punkte": [
+    [
+      "Drei Themen der Woche aus dem Kopf aufschreiben",
+      "ok",
+      null
+    ],
+    [
+      "Lücken für Montag notieren",
+      "ok",
+      null
+    ]
+  ],
+  "icon": "tabler:list-check",
+  "iconFarbe": "GELB",
+  "sichtbareTexte": [
+    "Klausurtechnik",
+    "Klausurtipp",
+    "Sonntag:",
+    "Woche abhaken",
+    "Drei Themen der Woche aus dem Kopf aufschreiben",
+    "Lücken für Montag notieren"
+  ],
+  "renderer": "open-peeps-v4",
+  "bildStatus": "open-peeps-render",
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "liveVorrangAktiv": true,
+  "regelGeprueft": true
+}

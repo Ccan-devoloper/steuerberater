@@ -1,0 +1,44 @@
+{
+  "slot": "s6",
+  "art": "norm",
+  "fach": "persg",
+  "klausur": 3,
+  "fachLabel": "Personengesellschaften",
+  "themaId": "persg-aufb-persg-melzer-3-2",
+  "beitragSlot": null,
+  "quellen": null,
+  "titel": [
+    "Ergänzungsbilanz:",
+    "wie abschreiben?"
+  ],
+  "norm": "§ 7 EStG",
+  "punkte": [
+    [
+      "Mehrwerte über die Restnutzungsdauer ab dem Erwerb.",
+      "ok",
+      "BFH vom 20.11.2014, IV R 1/11"
+    ],
+    [
+      "Methode wählt der Erwerber wie ein Käufer.",
+      "ok",
+      "BMF vom 19.12.2016"
+    ]
+  ],
+  "sichtbareTexte": [
+    "Personengesellschaften",
+    "Norm des Tages",
+    "Ergänzungsbilanz:",
+    "wie abschreiben?",
+    "§ 7 EStG",
+    "Mehrwerte über die Restnutzungsdauer ab dem Erwerb.",
+    "BFH vom 20.11.2014, IV R 1/11",
+    "Methode wählt der Erwerber wie ein Käufer.",
+    "BMF vom 19.12.2016"
+  ],
+  "renderer": "open-peeps-v4",
+  "bildStatus": "open-peeps-render",
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "liveVorrangAktiv": true,
+  "regelGeprueft": true
+}

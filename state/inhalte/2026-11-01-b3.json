@@ -1,0 +1,60 @@
+{
+  "format": "reel",
+  "fach": "kst",
+  "klausur": 2,
+  "fachLabel": "Körperschaftsteuer",
+  "themaId": "kst-aufb-kst-ks-3-03",
+  "caption": "Gesellschafter verzichtet auf sein Darlehen: Was ist Einlage, was Ertrag? 💶\n\n▸ Verzichtet ein Gesellschafter aus gesellschaftsrechtlichen Gründen auf eine Forderung gegen seine GmbH, liegt eine verdeckte Einlage nur in Höhe des werthaltigen Teils, also des Teilwerts der Forderung, vor (BFH vom 09.06.1997, GrS 1/94, BStBl II 1998, 307).\n▸ Verdeckte Einlagen erhöhen das Einkommen nicht (§ 8 Abs. 3 S. 3 KStG). Beispiel: Teilwert 30.000 € = Einlage.\n▸ Der nicht werthaltige Teil (70.000 €) führt bei der GmbH durch den Wegfall der Verbindlichkeit zu einem steuerpflichtigen Ertrag.\n\nSpeichern für Klausur 2 📌",
+  "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#körperschaftsteuer"
+  ],
+  "quellen": [
+    "§ 8 Abs. 3 S. 3 KStG",
+    "BFH vom 09.06.1997, GrS 1/94, BStBl II 1998, 307"
+  ],
+  "slug": "2026-11-01-b3",
+  "kurztitel": "Gesellschafter verzichtet auf Darlehen: Was ist Einlage, was Ertrag?",
+  "regelGeprueft": true,
+  "manuellGeprueft": false,
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "textProviderKostenUsd": 0,
+  "faktencheckProviderKostenUsd": 0,
+  "bildStatus": "open-peeps-render",
+  "renderer": "open-peeps-v4",
+  "liveVorrangAktiv": true,
+  "bild": "op-cover",
+  "reelTyp": "merksatz",
+  "hookStil": "split",
+  "coverBadge": "Reel",
+  "szenen": [
+    {
+      "art": "hook",
+      "titel": "Darlehen erlassen: alles Einlage?"
+    },
+    {
+      "art": "schritt",
+      "titel": "Der werthaltige Teil"
+    },
+    {
+      "art": "schritt",
+      "titel": "Der Rest"
+    },
+    {
+      "art": "schritt",
+      "titel": "Warum?"
+    }
+  ],
+  "sprecher": [
+    "Gesellschafter verzichtet auf hunderttausend Euro Darlehen. Alles Einlage? Nur der Teil, der noch etwas wert ist.",
+    "Ist die Forderung nur noch dreißigtausend Euro wert, ist genau das eine verdeckte Einlage. Sie erhöht das Einkommen nicht.",
+    "Die übrigen siebzigtausend Euro sind bei der GmbH steuerpflichtiger Ertrag.",
+    "Denn eingelegt wird mit dem Teilwert der Forderung, nicht mit dem Nennwert. So hat es der Große Senat entschieden.",
+    "Merke: Werthaltiger Teil ist Einlage, der Rest ist Gewinn."
+  ],
+  "dauerS": 33.735,
+  "tempo": 1
+}
