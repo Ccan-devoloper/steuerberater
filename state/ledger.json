@@ -17785,22 +17785,22 @@
         "KG-Anteil verkauft"
       ],
       "insights": {
-        "reach": 63,
-        "views": 71,
+        "reach": 70,
+        "views": 80,
         "shares": 0,
         "total_interactions": 1,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 64,
-        "navigation_swipe_forward": 4,
-        "navigation_tap_forward": 46,
-        "navigation_tap_exit": 9,
+        "navigation": 71,
+        "navigation_swipe_forward": 5,
+        "navigation_tap_forward": 51,
+        "navigation_tap_exit": 10,
         "navigation_tap_back": 5
       },
-      "insightsStand": "2026-11-01T05:44:32.566Z",
-      "insightsAlterStunden": 17.2
+      "insightsStand": "2026-11-01T08:44:49.207Z",
+      "insightsAlterStunden": 20.2
     },
     {
       "datum": "2026-10-31",
@@ -18115,7 +18115,19 @@
         "#steuerberaterprüfung",
         "#examensvorbereitung",
         "#steuerrecht"
-      ]
+      ],
+      "insights": {
+        "reach": 46,
+        "saved": 0,
+        "shares": 0,
+        "likes": 1,
+        "comments": 0,
+        "total_interactions": 1,
+        "follows": 0,
+        "profile_visits": 0
+      },
+      "insightsStand": "2026-11-01T08:44:52.010Z",
+      "insightsAlterStunden": 1.2
     },
     {
       "datum": "2026-11-01",
@@ -18129,7 +18141,23 @@
       "fach": null,
       "titel": [
         "Woche kompakt: alle 3 Klausuren"
-      ]
+      ],
+      "insights": {
+        "reach": 20,
+        "views": 34,
+        "shares": 0,
+        "total_interactions": 0,
+        "replies": 0,
+        "follows": 0,
+        "profile_visits": 0,
+        "profile_activity": 0,
+        "navigation": 22,
+        "navigation_tap_forward": 16,
+        "navigation_tap_back": 3,
+        "navigation_tap_exit": 3
+      },
+      "insightsStand": "2026-11-01T08:44:49.207Z",
+      "insightsAlterStunden": 1.2
     }
   ],
   "fachZaehler": {
