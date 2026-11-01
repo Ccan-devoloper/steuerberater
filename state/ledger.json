@@ -17759,17 +17759,17 @@
         "#personengesellschaften"
       ],
       "insights": {
-        "reach": 119,
+        "reach": 136,
         "saved": 3,
         "shares": 0,
         "likes": 2,
         "comments": 0,
         "total_interactions": 5,
         "follows": 0,
-        "profile_visits": 0
+        "profile_visits": 1
       },
-      "insightsStand": "2026-11-01T12:02:51.887Z",
-      "insightsAlterStunden": 23.5
+      "insightsStand": "2026-11-01T20:45:07.603Z",
+      "insightsAlterStunden": 32.3
     },
     {
       "datum": "2026-10-31",
@@ -18047,22 +18047,22 @@
       "fach": "gewst",
       "titel": "",
       "insights": {
-        "reach": 63,
-        "views": 80,
+        "reach": 86,
+        "views": 110,
         "shares": 0,
         "total_interactions": 1,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 71,
-        "navigation_tap_back": 3,
-        "navigation_tap_exit": 8,
-        "navigation_swipe_forward": 3,
-        "navigation_tap_forward": 57
+        "navigation": 94,
+        "navigation_tap_forward": 71,
+        "navigation_swipe_forward": 7,
+        "navigation_tap_exit": 13,
+        "navigation_tap_back": 3
       },
-      "insightsStand": "2026-11-01T16:04:07.889Z",
-      "insightsAlterStunden": 10
+      "insightsStand": "2026-11-01T20:45:05.025Z",
+      "insightsAlterStunden": 14.6
     },
     {
       "datum": "2026-11-01",
@@ -18079,22 +18079,22 @@
         "Grundsteuer"
       ],
       "insights": {
-        "reach": 59,
-        "views": 75,
+        "reach": 78,
+        "views": 100,
         "shares": 0,
         "total_interactions": 1,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 67,
-        "navigation_tap_exit": 6,
-        "navigation_tap_forward": 49,
-        "navigation_tap_back": 9,
-        "navigation_swipe_forward": 3
+        "navigation": 87,
+        "navigation_tap_exit": 7,
+        "navigation_tap_forward": 63,
+        "navigation_tap_back": 12,
+        "navigation_swipe_forward": 5
       },
-      "insightsStand": "2026-11-01T16:04:07.889Z",
-      "insightsAlterStunden": 9.9
+      "insightsStand": "2026-11-01T20:45:05.025Z",
+      "insightsAlterStunden": 14.6
     },
     {
       "datum": "2026-11-01",
@@ -18382,19 +18382,19 @@
         "#steuerberater"
       ],
       "insights": {
-        "reach": 108,
+        "reach": 187,
         "saved": 1,
         "shares": 0,
-        "likes": 0,
+        "likes": 4,
         "comments": 0,
-        "total_interactions": 1,
-        "views": 181,
-        "ig_reels_avg_watch_time": 7930,
-        "ig_reels_video_view_total_time": 864402,
-        "reels_skip_rate": 40.1
+        "total_interactions": 5,
+        "views": 259,
+        "ig_reels_avg_watch_time": 8169,
+        "ig_reels_video_view_total_time": 1527699,
+        "reels_skip_rate": 54.3
       },
-      "insightsStand": "2026-11-01T18:45:50.319Z",
-      "insightsAlterStunden": 0.8
+      "insightsStand": "2026-11-01T20:45:07.603Z",
+      "insightsAlterStunden": 2.7
     },
     {
       "datum": "2026-11-01",
