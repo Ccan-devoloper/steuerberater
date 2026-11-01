@@ -18118,7 +18118,7 @@
         "#steuerrecht"
       ],
       "insights": {
-        "reach": 102,
+        "reach": 114,
         "saved": 1,
         "shares": 0,
         "likes": 2,
@@ -18127,8 +18127,8 @@
         "follows": 0,
         "profile_visits": 0
       },
-      "insightsStand": "2026-11-01T15:45:44.605Z",
-      "insightsAlterStunden": 8.3
+      "insightsStand": "2026-11-01T18:45:50.319Z",
+      "insightsAlterStunden": 11.3
     },
     {
       "datum": "2026-11-01",
@@ -18273,21 +18273,22 @@
         "Woche abhaken"
       ],
       "insights": {
-        "reach": 20,
-        "views": 24,
+        "reach": 44,
+        "views": 55,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 22,
-        "navigation_swipe_forward": 2,
-        "navigation_tap_forward": 11,
-        "navigation_tap_exit": 9
+        "navigation": 49,
+        "navigation_tap_back": 3,
+        "navigation_tap_exit": 15,
+        "navigation_tap_forward": 24,
+        "navigation_swipe_forward": 7
       },
-      "insightsStand": "2026-11-01T14:45:23.942Z",
-      "insightsAlterStunden": 1.1
+      "insightsStand": "2026-11-01T18:45:48.369Z",
+      "insightsAlterStunden": 5.1
     },
     {
       "datum": "2026-11-01",
@@ -18379,7 +18380,21 @@
         "#examensvorbereitung",
         "#zivilrecht",
         "#steuerberater"
-      ]
+      ],
+      "insights": {
+        "reach": 108,
+        "saved": 1,
+        "shares": 0,
+        "likes": 0,
+        "comments": 0,
+        "total_interactions": 1,
+        "views": 181,
+        "ig_reels_avg_watch_time": 7930,
+        "ig_reels_video_view_total_time": 864402,
+        "reels_skip_rate": 40.1
+      },
+      "insightsStand": "2026-11-01T18:45:50.319Z",
+      "insightsAlterStunden": 0.8
     },
     {
       "datum": "2026-11-01",

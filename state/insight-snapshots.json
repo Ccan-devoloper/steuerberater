@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "stand": "2026-11-01T18:00:52.119Z",
+  "stand": "2026-11-01T18:45:50.319Z",
   "medien": {
     "18093399314208242": {
       "art": "beitrag",
@@ -56112,6 +56112,18 @@
           "total_interactions": 3,
           "follows": 0,
           "profile_visits": 0
+        },
+        {
+          "stand": "2026-11-01T18:45:50.319Z",
+          "alterStunden": 11.3,
+          "reach": 114,
+          "saved": 1,
+          "shares": 0,
+          "likes": 2,
+          "comments": 0,
+          "total_interactions": 3,
+          "follows": 0,
+          "profile_visits": 0
         }
       ]
     },
@@ -56286,6 +56298,23 @@
           "navigation_swipe_forward": 2,
           "navigation_tap_forward": 11,
           "navigation_tap_exit": 9
+        },
+        {
+          "stand": "2026-11-01T18:45:48.369Z",
+          "alterStunden": 5.1,
+          "reach": 44,
+          "views": 55,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 49,
+          "navigation_tap_back": 3,
+          "navigation_tap_exit": 15,
+          "navigation_tap_forward": 24,
+          "navigation_swipe_forward": 7
         }
       ]
     },
@@ -56344,6 +56373,32 @@
           "ig_reels_avg_watch_time": 7013,
           "ig_reels_video_view_total_time": 1220303,
           "reels_skip_rate": 62.1
+        }
+      ]
+    },
+    "18018860459954282": {
+      "art": "beitrag",
+      "datum": "2026-11-01",
+      "titel": "Teste dich: Handy auf Raten mit 17",
+      "format": "reel",
+      "fach": null,
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-11-01T18:00:13.298Z",
+      "snapshots": [
+        {
+          "stand": "2026-11-01T18:45:50.319Z",
+          "alterStunden": 0.8,
+          "reach": 108,
+          "saved": 1,
+          "shares": 0,
+          "likes": 0,
+          "comments": 0,
+          "total_interactions": 1,
+          "views": 181,
+          "ig_reels_avg_watch_time": 7930,
+          "ig_reels_video_view_total_time": 864402,
+          "reels_skip_rate": 40.1
         }
       ]
     }
