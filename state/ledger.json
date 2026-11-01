@@ -18409,6 +18409,21 @@
         "Neue Urteile?",
         "Der Prüfer fragt danach"
       ]
+    },
+    {
+      "datum": "2026-11-01",
+      "slot": "s9",
+      "medienId": "18051910214625880",
+      "veroeffentlicht": "2026-11-01T18:12:04.214Z",
+      "quelle": "vorproduktion",
+      "art": "story",
+      "storyArt": "merksatz",
+      "thema": "est-aufb-est-ks1-vv-05",
+      "fach": "est",
+      "titel": [
+        "Renovierung",
+        "nach dem Kauf"
+      ]
     }
   ],
   "fachZaehler": {
