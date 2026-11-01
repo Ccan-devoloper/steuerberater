@@ -18323,6 +18323,30 @@
         "#examensvorbereitung",
         "#körperschaftsteuer"
       ]
+    },
+    {
+      "datum": "2026-11-01",
+      "slot": "m1",
+      "medienId": "18018860459954282",
+      "veroeffentlicht": "2026-11-01T18:00:13.298Z",
+      "quelle": "vorproduktion",
+      "art": "beitrag",
+      "zeit": "19:00",
+      "stunde": 19,
+      "format": "reel",
+      "thema": "lead-zr-z2",
+      "fach": null,
+      "klausur": 0,
+      "titel": "Teste dich: Handy auf Raten mit 17",
+      "hookTyp": null,
+      "hashtags": [
+        "#steuerberaterprüfung",
+        "#steuerberaterexamen",
+        "#mündlicheprüfung",
+        "#examensvorbereitung",
+        "#zivilrecht",
+        "#steuerberater"
+      ]
     }
   ],
   "fachZaehler": {
@@ -18337,7 +18361,7 @@
     "est": 8,
     "umwst": 9,
     "gewst": 5,
-    "null": 11
+    "null": 12
   },
   "nachrichten": [],
   "postfach": [],
