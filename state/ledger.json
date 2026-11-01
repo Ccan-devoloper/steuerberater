@@ -18158,6 +18158,21 @@
       },
       "insightsStand": "2026-11-01T08:44:49.207Z",
       "insightsAlterStunden": 1.2
+    },
+    {
+      "datum": "2026-11-01",
+      "slot": "s6",
+      "medienId": "18399580108204070",
+      "veroeffentlicht": "2026-11-01T12:02:36.786Z",
+      "quelle": "vorproduktion",
+      "art": "story",
+      "storyArt": "norm",
+      "thema": "persg-aufb-persg-melzer-3-2",
+      "fach": "persg",
+      "titel": [
+        "Ergänzungsbilanz:",
+        "wie abschreiben?"
+      ]
     }
   ],
   "fachZaehler": {
