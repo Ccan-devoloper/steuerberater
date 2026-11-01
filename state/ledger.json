@@ -15656,19 +15656,19 @@
         "#internationalessteuerrecht"
       ],
       "insights": {
-        "reach": 516,
+        "reach": 530,
         "saved": 1,
         "shares": 1,
-        "likes": 6,
+        "likes": 7,
         "comments": 0,
-        "total_interactions": 8,
-        "views": 627,
-        "ig_reels_avg_watch_time": 8018,
-        "ig_reels_video_view_total_time": 4177801,
-        "reels_skip_rate": 60.9
+        "total_interactions": 9,
+        "views": 644,
+        "ig_reels_avg_watch_time": 8164,
+        "ig_reels_video_view_total_time": 4351848,
+        "reels_skip_rate": 60.2
       },
-      "insightsStand": "2026-10-31T16:04:07.882Z",
-      "insightsAlterStunden": 119.6
+      "insightsStand": "2026-11-01T16:04:10.934Z",
+      "insightsAlterStunden": 143.6
     },
     {
       "datum": "2026-10-26",
@@ -15692,19 +15692,19 @@
         "#examensvorbereitung"
       ],
       "insights": {
-        "reach": 449,
+        "reach": 470,
         "saved": 1,
         "shares": 0,
-        "likes": 2,
+        "likes": 3,
         "comments": 0,
-        "total_interactions": 3,
-        "views": 640,
-        "ig_reels_avg_watch_time": 10037,
-        "ig_reels_video_view_total_time": 4908536,
-        "reels_skip_rate": 59.7
+        "total_interactions": 4,
+        "views": 670,
+        "ig_reels_avg_watch_time": 10080,
+        "ig_reels_video_view_total_time": 5171546,
+        "reels_skip_rate": 59.6
       },
-      "insightsStand": "2026-10-31T16:04:07.882Z",
-      "insightsAlterStunden": 118.1
+      "insightsStand": "2026-11-01T16:04:10.934Z",
+      "insightsAlterStunden": 142.1
     },
     {
       "datum": "2026-10-26",
@@ -16144,19 +16144,19 @@
         "#bilanzsteuerrecht"
       ],
       "insights": {
-        "reach": 450,
+        "reach": 465,
         "saved": 3,
         "shares": 3,
-        "likes": 6,
+        "likes": 7,
         "comments": 0,
-        "total_interactions": 12,
-        "views": 576,
-        "ig_reels_avg_watch_time": 7011,
-        "ig_reels_video_view_total_time": 3407618,
-        "reels_skip_rate": 71.2
+        "total_interactions": 13,
+        "views": 598,
+        "ig_reels_avg_watch_time": 7219,
+        "ig_reels_video_view_total_time": 3617004,
+        "reels_skip_rate": 70.3
       },
-      "insightsStand": "2026-10-31T16:04:07.882Z",
-      "insightsAlterStunden": 94.1
+      "insightsStand": "2026-11-01T16:04:10.934Z",
+      "insightsAlterStunden": 118.1
     },
     {
       "datum": "2026-10-27",
@@ -18047,22 +18047,22 @@
       "fach": "gewst",
       "titel": "",
       "insights": {
-        "reach": 46,
-        "views": 60,
+        "reach": 63,
+        "views": 80,
         "shares": 0,
         "total_interactions": 1,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 53,
-        "navigation_tap_forward": 44,
-        "navigation_swipe_forward": 2,
-        "navigation_tap_exit": 5,
-        "navigation_tap_back": 2
+        "navigation": 71,
+        "navigation_tap_back": 3,
+        "navigation_tap_exit": 8,
+        "navigation_swipe_forward": 3,
+        "navigation_tap_forward": 57
       },
-      "insightsStand": "2026-11-01T12:02:37.965Z",
-      "insightsAlterStunden": 5.9
+      "insightsStand": "2026-11-01T16:04:07.889Z",
+      "insightsAlterStunden": 10
     },
     {
       "datum": "2026-11-01",
@@ -18079,22 +18079,22 @@
         "Grundsteuer"
       ],
       "insights": {
-        "reach": 44,
-        "views": 59,
+        "reach": 59,
+        "views": 75,
         "shares": 0,
         "total_interactions": 1,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 52,
-        "navigation_tap_exit": 4,
-        "navigation_tap_forward": 39,
-        "navigation_tap_back": 6,
+        "navigation": 67,
+        "navigation_tap_exit": 6,
+        "navigation_tap_forward": 49,
+        "navigation_tap_back": 9,
         "navigation_swipe_forward": 3
       },
-      "insightsStand": "2026-11-01T12:02:37.965Z",
-      "insightsAlterStunden": 5.9
+      "insightsStand": "2026-11-01T16:04:07.889Z",
+      "insightsAlterStunden": 9.9
     },
     {
       "datum": "2026-11-01",
