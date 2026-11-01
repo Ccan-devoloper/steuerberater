@@ -18174,11 +18174,33 @@
         "Ergänzungsbilanz:",
         "wie abschreiben?"
       ]
+    },
+    {
+      "datum": "2026-11-01",
+      "slot": "b2",
+      "medienId": "17955117765294105",
+      "veroeffentlicht": "2026-11-01T12:30:05.686Z",
+      "quelle": "vorproduktion",
+      "art": "beitrag",
+      "zeit": "13:30",
+      "stunde": 13,
+      "format": "pruefungsfrage",
+      "thema": "ust-aufb-ust-m-b05-8",
+      "fach": "ust",
+      "klausur": 1,
+      "titel": "Prüfungsfrage",
+      "hookTyp": null,
+      "hashtags": [
+        "#steuerberaterexamen",
+        "#steuerberaterprüfung",
+        "#examensvorbereitung",
+        "#umsatzsteuer"
+      ]
     }
   ],
   "fachZaehler": {
     "persg": 19,
-    "ust": 15,
+    "ust": 16,
     "kst": 14,
     "ao": 27,
     "bilanz": 26,
