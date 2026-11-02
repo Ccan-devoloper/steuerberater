@@ -18176,22 +18176,22 @@
         "wie abschreiben?"
       ],
       "insights": {
-        "reach": 73,
-        "views": 95,
+        "reach": 79,
+        "views": 102,
         "shares": 0,
         "total_interactions": 1,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 80,
-        "navigation_tap_exit": 12,
+        "navigation": 86,
+        "navigation_tap_back": 3,
+        "navigation_tap_forward": 64,
         "navigation_swipe_forward": 6,
-        "navigation_tap_forward": 59,
-        "navigation_tap_back": 3
+        "navigation_tap_exit": 13
       },
-      "insightsStand": "2026-11-02T08:45:16.219Z",
-      "insightsAlterStunden": 20.7
+      "insightsStand": "2026-11-02T10:45:57.921Z",
+      "insightsAlterStunden": 22.7
     },
     {
       "datum": "2026-11-01",
@@ -18241,22 +18241,22 @@
         "Halle in Tirol: Ort?"
       ],
       "insights": {
-        "reach": 68,
-        "views": 93,
+        "reach": 73,
+        "views": 101,
         "shares": 0,
         "total_interactions": 1,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 84,
-        "navigation_swipe_forward": 3,
-        "navigation_tap_forward": 56,
-        "navigation_tap_exit": 13,
-        "navigation_tap_back": 12
+        "navigation": 91,
+        "navigation_tap_back": 13,
+        "navigation_tap_exit": 14,
+        "navigation_tap_forward": 60,
+        "navigation_swipe_forward": 4
       },
-      "insightsStand": "2026-11-02T08:45:16.219Z",
-      "insightsAlterStunden": 20.2
+      "insightsStand": "2026-11-02T10:45:57.921Z",
+      "insightsAlterStunden": 22.3
     },
     {
       "datum": "2026-11-01",
@@ -18305,22 +18305,22 @@
         "Gesellschafter"
       ],
       "insights": {
-        "reach": 58,
-        "views": 68,
+        "reach": 71,
+        "views": 84,
         "shares": 0,
         "total_interactions": 1,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 63,
-        "navigation_swipe_forward": 5,
-        "navigation_tap_forward": 41,
-        "navigation_tap_exit": 14,
-        "navigation_tap_back": 3
+        "navigation": 79,
+        "navigation_tap_back": 4,
+        "navigation_tap_exit": 17,
+        "navigation_tap_forward": 51,
+        "navigation_swipe_forward": 7
       },
-      "insightsStand": "2026-11-02T05:45:20.704Z",
-      "insightsAlterStunden": 13.7
+      "insightsStand": "2026-11-02T10:45:57.921Z",
+      "insightsAlterStunden": 18.7
     },
     {
       "datum": "2026-11-01",
@@ -18410,22 +18410,22 @@
         "Darlehen erlassen"
       ],
       "insights": {
-        "reach": 50,
-        "views": 58,
+        "reach": 62,
+        "views": 72,
         "shares": 0,
         "total_interactions": 1,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 50,
-        "navigation_tap_back": 1,
-        "navigation_tap_exit": 9,
-        "navigation_swipe_forward": 4,
-        "navigation_tap_forward": 36
+        "navigation": 64,
+        "navigation_tap_back": 2,
+        "navigation_tap_exit": 10,
+        "navigation_swipe_forward": 5,
+        "navigation_tap_forward": 47
       },
-      "insightsStand": "2026-11-02T05:45:20.704Z",
-      "insightsAlterStunden": 11.7
+      "insightsStand": "2026-11-02T10:45:57.921Z",
+      "insightsAlterStunden": 16.8
     },
     {
       "datum": "2026-11-01",
@@ -18442,22 +18442,22 @@
         "Der Prüfer fragt danach"
       ],
       "insights": {
-        "reach": 47,
-        "views": 58,
+        "reach": 58,
+        "views": 71,
         "shares": 0,
         "total_interactions": 1,
         "replies": 0,
         "follows": 0,
         "profile_visits": 1,
         "profile_activity": 0,
-        "navigation": 52,
-        "navigation_tap_back": 3,
-        "navigation_tap_exit": 4,
-        "navigation_tap_forward": 43,
-        "navigation_swipe_forward": 2
+        "navigation": 64,
+        "navigation_swipe_forward": 2,
+        "navigation_tap_forward": 53,
+        "navigation_tap_exit": 5,
+        "navigation_tap_back": 4
       },
-      "insightsStand": "2026-11-02T05:45:20.704Z",
-      "insightsAlterStunden": 11.7
+      "insightsStand": "2026-11-02T10:45:57.921Z",
+      "insightsAlterStunden": 16.8
     },
     {
       "datum": "2026-11-01",
@@ -18474,22 +18474,22 @@
         "nach dem Kauf"
       ],
       "insights": {
-        "reach": 43,
-        "views": 52,
+        "reach": 54,
+        "views": 64,
         "shares": 0,
         "total_interactions": 1,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 47,
-        "navigation_tap_forward": 35,
-        "navigation_tap_back": 3,
+        "navigation": 57,
+        "navigation_swipe_forward": 2,
         "navigation_tap_exit": 7,
-        "navigation_swipe_forward": 2
+        "navigation_tap_back": 3,
+        "navigation_tap_forward": 45
       },
-      "insightsStand": "2026-11-02T05:45:20.704Z",
-      "insightsAlterStunden": 11.6
+      "insightsStand": "2026-11-02T10:45:57.921Z",
+      "insightsAlterStunden": 16.6
     },
     {
       "datum": "2026-11-02",
@@ -18573,17 +18573,17 @@
         "#erbschaftsteuer"
       ],
       "insights": {
-        "reach": 44,
-        "saved": 1,
-        "shares": 0,
-        "likes": 1,
+        "reach": 78,
+        "saved": 2,
+        "shares": 1,
+        "likes": 3,
         "comments": 0,
-        "total_interactions": 2,
+        "total_interactions": 6,
         "follows": 0,
         "profile_visits": 0
       },
-      "insightsStand": "2026-11-02T08:45:20.533Z",
-      "insightsAlterStunden": 1.3
+      "insightsStand": "2026-11-02T10:46:06.522Z",
+      "insightsAlterStunden": 3.3
     },
     {
       "datum": "2026-11-02",
