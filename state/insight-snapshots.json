@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "stand": "2026-11-02T18:45:17.435Z",
+  "stand": "2026-11-02T19:45:18.959Z",
   "medien": {
     "18093399314208242": {
       "art": "beitrag",
@@ -58148,6 +58148,23 @@
           "navigation_swipe_forward": 1,
           "navigation_tap_forward": 18,
           "navigation_tap_exit": 5
+        },
+        {
+          "stand": "2026-11-02T19:45:11.531Z",
+          "alterStunden": 6.1,
+          "reach": 38,
+          "views": 59,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 53,
+          "navigation_tap_back": 3,
+          "navigation_swipe_forward": 3,
+          "navigation_tap_forward": 37,
+          "navigation_tap_exit": 10
         }
       ]
     },
@@ -58206,6 +58223,20 @@
           "ig_reels_avg_watch_time": 8170,
           "ig_reels_video_view_total_time": 1029426,
           "reels_skip_rate": 54.5
+        },
+        {
+          "stand": "2026-11-02T19:45:17.368Z",
+          "alterStunden": 3.3,
+          "reach": 233,
+          "saved": 1,
+          "shares": 1,
+          "likes": 7,
+          "comments": 0,
+          "total_interactions": 9,
+          "views": 321,
+          "ig_reels_avg_watch_time": 9638,
+          "ig_reels_video_view_total_time": 2265013,
+          "reels_skip_rate": 52.9
         }
       ]
     },
@@ -58232,6 +58263,98 @@
           "ig_reels_avg_watch_time": 5109,
           "ig_reels_video_view_total_time": 444504,
           "reels_skip_rate": 45.2
+        }
+      ]
+    },
+    "18113560949163212": {
+      "art": "story",
+      "datum": "2026-11-02",
+      "titel": [
+        "Übernahmegewinn voll versteuern?"
+      ],
+      "format": null,
+      "fach": "umwst",
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-11-02T18:00:26.819Z",
+      "snapshots": [
+        {
+          "stand": "2026-11-02T19:45:11.531Z",
+          "alterStunden": 1.7,
+          "reach": 21,
+          "views": 29,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 1,
+          "profile_activity": 0,
+          "navigation": 23,
+          "navigation_tap_exit": 5,
+          "navigation_tap_forward": 18
+        }
+      ]
+    },
+    "17993226813097841": {
+      "art": "story",
+      "datum": "2026-11-02",
+      "titel": [
+        "Ein falsches Wort –",
+        "und der Prüfer hakt nach"
+      ],
+      "format": null,
+      "fach": null,
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-11-02T18:00:41.918Z",
+      "snapshots": [
+        {
+          "stand": "2026-11-02T19:45:11.531Z",
+          "alterStunden": 1.7,
+          "reach": 20,
+          "views": 32,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 25,
+          "navigation_tap_back": 2,
+          "navigation_tap_exit": 4,
+          "navigation_tap_forward": 19
+        }
+      ]
+    },
+    "17939598627399763": {
+      "art": "story",
+      "datum": "2026-11-02",
+      "titel": [
+        "Verschmelzung:",
+        "welcher Stichtag?"
+      ],
+      "format": null,
+      "fach": "umwst",
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-11-02T18:12:04.494Z",
+      "snapshots": [
+        {
+          "stand": "2026-11-02T19:45:11.531Z",
+          "alterStunden": 1.6,
+          "reach": 18,
+          "views": 30,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 23,
+          "navigation_tap_exit": 6,
+          "navigation_tap_back": 3,
+          "navigation_tap_forward": 12,
+          "navigation_swipe_forward": 2
         }
       ]
     }
@@ -61360,6 +61483,11 @@
     {
       "stand": "2026-11-02T18:00:53.252Z",
       "follower": 452,
+      "medien": 182
+    },
+    {
+      "stand": "2026-11-02T19:45:18.959Z",
+      "follower": 451,
       "medien": 182
     }
   ]
