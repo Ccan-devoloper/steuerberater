@@ -15656,19 +15656,19 @@
         "#internationalessteuerrecht"
       ],
       "insights": {
-        "reach": 530,
+        "reach": 534,
         "saved": 1,
         "shares": 1,
         "likes": 7,
         "comments": 0,
         "total_interactions": 9,
-        "views": 644,
-        "ig_reels_avg_watch_time": 8164,
-        "ig_reels_video_view_total_time": 4351848,
+        "views": 648,
+        "ig_reels_avg_watch_time": 8133,
+        "ig_reels_video_view_total_time": 4367811,
         "reels_skip_rate": 60.2
       },
-      "insightsStand": "2026-11-01T16:04:10.934Z",
-      "insightsAlterStunden": 143.6
+      "insightsStand": "2026-11-02T16:04:11.340Z",
+      "insightsAlterStunden": 167.6
     },
     {
       "datum": "2026-10-26",
@@ -15692,19 +15692,19 @@
         "#examensvorbereitung"
       ],
       "insights": {
-        "reach": 470,
+        "reach": 475,
         "saved": 1,
         "shares": 0,
         "likes": 3,
         "comments": 0,
         "total_interactions": 4,
-        "views": 670,
-        "ig_reels_avg_watch_time": 10080,
-        "ig_reels_video_view_total_time": 5171546,
+        "views": 683,
+        "ig_reels_avg_watch_time": 10069,
+        "ig_reels_video_view_total_time": 5246326,
         "reels_skip_rate": 59.6
       },
-      "insightsStand": "2026-11-01T16:04:10.934Z",
-      "insightsAlterStunden": 142.1
+      "insightsStand": "2026-11-02T16:04:11.340Z",
+      "insightsAlterStunden": 166.1
     },
     {
       "datum": "2026-10-26",
@@ -16144,19 +16144,19 @@
         "#bilanzsteuerrecht"
       ],
       "insights": {
-        "reach": 465,
+        "reach": 468,
         "saved": 3,
         "shares": 3,
         "likes": 7,
         "comments": 0,
         "total_interactions": 13,
-        "views": 598,
-        "ig_reels_avg_watch_time": 7219,
-        "ig_reels_video_view_total_time": 3617004,
+        "views": 602,
+        "ig_reels_avg_watch_time": 7242,
+        "ig_reels_video_view_total_time": 3664586,
         "reels_skip_rate": 70.3
       },
-      "insightsStand": "2026-11-01T16:04:10.934Z",
-      "insightsAlterStunden": 118.1
+      "insightsStand": "2026-11-02T16:04:11.340Z",
+      "insightsAlterStunden": 142.1
     },
     {
       "datum": "2026-10-27",
@@ -18503,21 +18503,22 @@
       "fach": "bilanz",
       "titel": "",
       "insights": {
-        "reach": 37,
-        "views": 52,
+        "reach": 47,
+        "views": 68,
         "shares": 0,
         "total_interactions": 1,
         "replies": 0,
         "follows": 0,
-        "profile_visits": 0,
+        "profile_visits": 1,
         "profile_activity": 0,
-        "navigation": 49,
-        "navigation_swipe_forward": 3,
-        "navigation_tap_forward": 40,
-        "navigation_tap_exit": 6
+        "navigation": 64,
+        "navigation_swipe_forward": 5,
+        "navigation_tap_forward": 50,
+        "navigation_tap_exit": 8,
+        "navigation_tap_back": 1
       },
-      "insightsStand": "2026-11-02T11:45:32.573Z",
-      "insightsAlterStunden": 5.6
+      "insightsStand": "2026-11-02T16:04:08.842Z",
+      "insightsAlterStunden": 10
     },
     {
       "datum": "2026-11-02",
@@ -18534,22 +18535,22 @@
         "S. 2 EStG"
       ],
       "insights": {
-        "reach": 36,
-        "views": 50,
+        "reach": 46,
+        "views": 65,
         "shares": 0,
         "total_interactions": 1,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 50,
-        "navigation_tap_forward": 32,
-        "navigation_tap_exit": 7,
-        "navigation_tap_back": 10,
-        "navigation_swipe_forward": 1
+        "navigation": 63,
+        "navigation_swipe_forward": 2,
+        "navigation_tap_back": 14,
+        "navigation_tap_exit": 8,
+        "navigation_tap_forward": 39
       },
-      "insightsStand": "2026-11-02T11:45:32.573Z",
-      "insightsAlterStunden": 5.6
+      "insightsStand": "2026-11-02T16:04:08.842Z",
+      "insightsAlterStunden": 9.9
     },
     {
       "datum": "2026-11-02",
