@@ -18651,6 +18651,20 @@
         "#examensvorbereitung",
         "#internationalessteuerrecht"
       ]
+    },
+    {
+      "datum": "2026-11-02",
+      "slot": "s2",
+      "medienId": "17970648507196851",
+      "veroeffentlicht": "2026-11-02T12:30:18.559Z",
+      "quelle": "vorproduktion",
+      "art": "story",
+      "storyArt": "teaser",
+      "thema": null,
+      "fach": "istr",
+      "titel": [
+        "Dividende ins Ausland"
+      ]
     }
   ],
   "fachZaehler": {
