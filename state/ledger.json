@@ -18517,6 +18517,28 @@
         "A: § 43 Abs. 5",
         "S. 2 EStG"
       ]
+    },
+    {
+      "datum": "2026-11-02",
+      "slot": "b1",
+      "medienId": "18057775325577432",
+      "veroeffentlicht": "2026-11-02T07:30:08.255Z",
+      "quelle": "vorproduktion",
+      "art": "beitrag",
+      "zeit": "08:30",
+      "stunde": 8,
+      "format": "pruefungsfrage",
+      "thema": "erbst-aufb-erbst-bew1-9",
+      "fach": "erbst",
+      "klausur": 1,
+      "titel": "Prüfungsfrage",
+      "hookTyp": null,
+      "hashtags": [
+        "#steuerberaterexamen",
+        "#steuerberaterprüfung",
+        "#examensvorbereitung",
+        "#erbschaftsteuer"
+      ]
     }
   ],
   "fachZaehler": {
@@ -18526,7 +18548,7 @@
     "ao": 27,
     "bilanz": 26,
     "istr": 20,
-    "erbst": 12,
+    "erbst": 13,
     "mindset": 2,
     "est": 8,
     "umwst": 9,
