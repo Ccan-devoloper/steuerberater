@@ -18629,6 +18629,28 @@
         "Vergleich, Ertrag",
         "oder Sachwert?"
       ]
+    },
+    {
+      "datum": "2026-11-02",
+      "slot": "b2",
+      "medienId": "18199217671387864",
+      "veroeffentlicht": "2026-11-02T12:30:05.947Z",
+      "quelle": "vorproduktion",
+      "art": "beitrag",
+      "zeit": "13:30",
+      "stunde": 13,
+      "format": "schema",
+      "thema": "istr-modul-istr-istr2-03",
+      "fach": "istr",
+      "klausur": 2,
+      "titel": "Prüfschema",
+      "hookTyp": null,
+      "hashtags": [
+        "#steuerberaterexamen",
+        "#steuerberaterprüfung",
+        "#examensvorbereitung",
+        "#internationalessteuerrecht"
+      ]
     }
   ],
   "fachZaehler": {
@@ -18637,7 +18659,7 @@
     "kst": 15,
     "ao": 27,
     "bilanz": 26,
-    "istr": 20,
+    "istr": 21,
     "erbst": 13,
     "mindset": 2,
     "est": 8,
