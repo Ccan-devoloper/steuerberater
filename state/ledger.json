@@ -18782,6 +18782,30 @@
         "#examensvorbereitung",
         "#umwandlungssteuerrecht"
       ]
+    },
+    {
+      "datum": "2026-11-02",
+      "slot": "m1",
+      "medienId": "18134425697506332",
+      "veroeffentlicht": "2026-11-02T18:00:11.567Z",
+      "quelle": "vorproduktion",
+      "art": "beitrag",
+      "zeit": "19:00",
+      "stunde": 19,
+      "format": "reel",
+      "thema": "lead-zr-z3",
+      "fach": null,
+      "klausur": 0,
+      "titel": "Beweislastumkehr: 6 Monate? Veraltet.",
+      "hookTyp": null,
+      "hashtags": [
+        "#steuerberaterprüfung",
+        "#steuerberaterexamen",
+        "#mündlicheprüfung",
+        "#examensvorbereitung",
+        "#zivilrecht",
+        "#steuerberater"
+      ]
     }
   ],
   "fachZaehler": {
@@ -18796,7 +18820,7 @@
     "est": 8,
     "umwst": 10,
     "gewst": 5,
-    "null": 12
+    "null": 13
   },
   "nachrichten": [],
   "postfach": [],
