@@ -18502,6 +18502,21 @@
       "thema": "bilanz-quiz-k3-12",
       "fach": "bilanz",
       "titel": ""
+    },
+    {
+      "datum": "2026-11-02",
+      "slot": "s5",
+      "medienId": "18111225392618786",
+      "veroeffentlicht": "2026-11-02T06:09:02.801Z",
+      "quelle": "vorproduktion",
+      "art": "story",
+      "storyArt": "antwort",
+      "thema": "bilanz-quiz-k3-12",
+      "fach": "bilanz",
+      "titel": [
+        "A: § 43 Abs. 5",
+        "S. 2 EStG"
+      ]
     }
   ],
   "fachZaehler": {
