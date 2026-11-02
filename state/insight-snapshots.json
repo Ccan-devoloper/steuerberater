@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "stand": "2026-11-02T19:45:18.959Z",
+  "stand": "2026-11-02T20:45:18.207Z",
   "medien": {
     "18093399314208242": {
       "art": "beitrag",
@@ -57770,6 +57770,23 @@
           "navigation_tap_forward": 50,
           "navigation_tap_exit": 8,
           "navigation_tap_back": 1
+        },
+        {
+          "stand": "2026-11-02T20:45:14.155Z",
+          "alterStunden": 14.6,
+          "reach": 67,
+          "views": 104,
+          "shares": 0,
+          "total_interactions": 1,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 1,
+          "profile_activity": 0,
+          "navigation": 91,
+          "navigation_tap_back": 1,
+          "navigation_tap_exit": 16,
+          "navigation_tap_forward": 63,
+          "navigation_swipe_forward": 11
         }
       ]
     },
@@ -57836,6 +57853,23 @@
           "navigation_tap_back": 14,
           "navigation_tap_exit": 8,
           "navigation_tap_forward": 39
+        },
+        {
+          "stand": "2026-11-02T20:45:14.155Z",
+          "alterStunden": 14.6,
+          "reach": 57,
+          "views": 83,
+          "shares": 0,
+          "total_interactions": 1,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 78,
+          "navigation_tap_forward": 50,
+          "navigation_tap_exit": 10,
+          "navigation_tap_back": 16,
+          "navigation_swipe_forward": 2
         }
       ]
     },
@@ -58263,6 +58297,20 @@
           "ig_reels_avg_watch_time": 5109,
           "ig_reels_video_view_total_time": 444504,
           "reels_skip_rate": 45.2
+        },
+        {
+          "stand": "2026-11-02T20:45:17.052Z",
+          "alterStunden": 2.8,
+          "reach": 231,
+          "saved": 2,
+          "shares": 0,
+          "likes": 3,
+          "comments": 0,
+          "total_interactions": 5,
+          "views": 299,
+          "ig_reels_avg_watch_time": 6054,
+          "ig_reels_video_view_total_time": 1386547,
+          "reels_skip_rate": 57.1
         }
       ]
     },
@@ -61488,6 +61536,11 @@
     {
       "stand": "2026-11-02T19:45:18.959Z",
       "follower": 451,
+      "medien": 182
+    },
+    {
+      "stand": "2026-11-02T20:45:18.207Z",
+      "follower": 452,
       "medien": 182
     }
   ]
