@@ -51,7 +51,8 @@
       "zeit": "07:07",
       "art": "frage",
       "themaId": "bilanz-quiz-k3-12",
-      "status": "geplant"
+      "status": "sendet",
+      "sendeversuch": "2026-11-02T06:07:00.086Z"
     },
     {
       "slot": "s5",
