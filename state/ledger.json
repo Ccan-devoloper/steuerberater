@@ -18574,7 +18574,7 @@
         "#erbschaftsteuer"
       ],
       "insights": {
-        "reach": 98,
+        "reach": 104,
         "saved": 3,
         "shares": 1,
         "likes": 3,
@@ -18583,8 +18583,8 @@
         "follows": 0,
         "profile_visits": 0
       },
-      "insightsStand": "2026-11-02T15:45:06.857Z",
-      "insightsAlterStunden": 8.2
+      "insightsStand": "2026-11-02T18:45:17.435Z",
+      "insightsAlterStunden": 11.3
     },
     {
       "datum": "2026-11-02",
@@ -18836,7 +18836,21 @@
         "#examensvorbereitung",
         "#zivilrecht",
         "#steuerberater"
-      ]
+      ],
+      "insights": {
+        "reach": 88,
+        "saved": 1,
+        "shares": 0,
+        "likes": 0,
+        "comments": 0,
+        "total_interactions": 1,
+        "views": 143,
+        "ig_reels_avg_watch_time": 5109,
+        "ig_reels_video_view_total_time": 444504,
+        "reels_skip_rate": 45.2
+      },
+      "insightsStand": "2026-11-02T18:45:17.435Z",
+      "insightsAlterStunden": 0.8
     },
     {
       "datum": "2026-11-02",

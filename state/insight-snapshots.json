@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "stand": "2026-11-02T18:00:53.252Z",
+  "stand": "2026-11-02T18:45:17.435Z",
   "medien": {
     "18093399314208242": {
       "art": "beitrag",
@@ -57960,6 +57960,18 @@
           "total_interactions": 7,
           "follows": 0,
           "profile_visits": 0
+        },
+        {
+          "stand": "2026-11-02T18:45:17.435Z",
+          "alterStunden": 11.3,
+          "reach": 104,
+          "saved": 3,
+          "shares": 1,
+          "likes": 3,
+          "comments": 0,
+          "total_interactions": 7,
+          "follows": 0,
+          "profile_visits": 0
         }
       ]
     },
@@ -58194,6 +58206,32 @@
           "ig_reels_avg_watch_time": 8170,
           "ig_reels_video_view_total_time": 1029426,
           "reels_skip_rate": 54.5
+        }
+      ]
+    },
+    "18134425697506332": {
+      "art": "beitrag",
+      "datum": "2026-11-02",
+      "titel": "Beweislastumkehr: 6 Monate? Veraltet.",
+      "format": "reel",
+      "fach": null,
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-11-02T18:00:11.567Z",
+      "snapshots": [
+        {
+          "stand": "2026-11-02T18:45:17.435Z",
+          "alterStunden": 0.8,
+          "reach": 88,
+          "saved": 1,
+          "shares": 0,
+          "likes": 0,
+          "comments": 0,
+          "total_interactions": 1,
+          "views": 143,
+          "ig_reels_avg_watch_time": 5109,
+          "ig_reels_video_view_total_time": 444504,
+          "reels_skip_rate": 45.2
         }
       ]
     }
