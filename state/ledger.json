@@ -18866,6 +18866,21 @@
         "Ein falsches Wort –",
         "und der Prüfer hakt nach"
       ]
+    },
+    {
+      "datum": "2026-11-02",
+      "slot": "s9",
+      "medienId": "17939598627399763",
+      "veroeffentlicht": "2026-11-02T18:12:04.494Z",
+      "quelle": "vorproduktion",
+      "art": "story",
+      "storyArt": "merksatz",
+      "thema": "umwst-aufb-umw-ks-3-04",
+      "fach": "umwst",
+      "titel": [
+        "Verschmelzung:",
+        "welcher Stichtag?"
+      ]
     }
   ],
   "fachZaehler": {
