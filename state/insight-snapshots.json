@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "stand": "2026-11-02T16:46:01.613Z",
+  "stand": "2026-11-02T18:00:53.252Z",
   "medien": {
     "18093399314208242": {
       "art": "beitrag",
@@ -56977,6 +56977,18 @@
           "total_interactions": 7,
           "follows": 0,
           "profile_visits": 2
+        },
+        {
+          "stand": "2026-11-02T18:00:50.270Z",
+          "alterStunden": 29.5,
+          "reach": 126,
+          "saved": 2,
+          "shares": 0,
+          "likes": 6,
+          "comments": 0,
+          "total_interactions": 8,
+          "follows": 0,
+          "profile_visits": 2
         }
       ]
     },
@@ -57871,6 +57883,23 @@
           "navigation_swipe_forward": 4,
           "navigation_tap_forward": 27,
           "navigation_tap_exit": 10
+        },
+        {
+          "stand": "2026-11-02T18:00:43.814Z",
+          "alterStunden": 10.5,
+          "reach": 43,
+          "views": 58,
+          "shares": 0,
+          "total_interactions": 1,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 2,
+          "profile_activity": 0,
+          "navigation": 53,
+          "navigation_tap_exit": 10,
+          "navigation_tap_forward": 36,
+          "navigation_swipe_forward": 4,
+          "navigation_tap_back": 3
         }
       ]
     },
@@ -58010,6 +58039,23 @@
           "navigation_tap_forward": 11,
           "navigation_tap_exit": 8,
           "navigation_tap_back": 1
+        },
+        {
+          "stand": "2026-11-02T18:00:43.814Z",
+          "alterStunden": 5.5,
+          "reach": 37,
+          "views": 51,
+          "shares": 0,
+          "total_interactions": 1,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 1,
+          "profile_activity": 0,
+          "navigation": 49,
+          "navigation_tap_back": 6,
+          "navigation_tap_exit": 10,
+          "navigation_tap_forward": 32,
+          "navigation_swipe_forward": 1
         }
       ]
     },
@@ -58046,6 +58092,18 @@
           "total_interactions": 5,
           "follows": 0,
           "profile_visits": 1
+        },
+        {
+          "stand": "2026-11-02T18:00:50.270Z",
+          "alterStunden": 5.5,
+          "reach": 77,
+          "saved": 2,
+          "shares": 0,
+          "likes": 5,
+          "comments": 0,
+          "total_interactions": 7,
+          "follows": 0,
+          "profile_visits": 1
         }
       ]
     },
@@ -58078,6 +58136,64 @@
           "navigation_swipe_forward": 1,
           "navigation_tap_forward": 18,
           "navigation_tap_exit": 5
+        }
+      ]
+    },
+    "18333626716263700": {
+      "art": "story",
+      "datum": "2026-11-02",
+      "titel": [
+        "Zinsloses Darlehen",
+        "an die GmbH"
+      ],
+      "format": null,
+      "fach": "kst",
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-11-02T16:04:06.639Z",
+      "snapshots": [
+        {
+          "stand": "2026-11-02T18:00:43.814Z",
+          "alterStunden": 1.9,
+          "reach": 17,
+          "views": 26,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 1,
+          "profile_activity": 0,
+          "navigation": 24,
+          "navigation_swipe_forward": 2,
+          "navigation_tap_back": 1,
+          "navigation_tap_forward": 16,
+          "navigation_tap_exit": 5
+        }
+      ]
+    },
+    "18080505641539063": {
+      "art": "beitrag",
+      "datum": "2026-11-02",
+      "titel": "Wie wird das Übernahmeergebnis bei der Personengesellschaft besteuert?",
+      "format": "reel",
+      "fach": "umwst",
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-11-02T16:30:09.940Z",
+      "snapshots": [
+        {
+          "stand": "2026-11-02T18:00:50.270Z",
+          "alterStunden": 1.5,
+          "reach": 126,
+          "saved": 0,
+          "shares": 0,
+          "likes": 3,
+          "comments": 0,
+          "total_interactions": 3,
+          "views": 195,
+          "ig_reels_avg_watch_time": 8170,
+          "ig_reels_video_view_total_time": 1029426,
+          "reels_skip_rate": 54.5
         }
       ]
     }
@@ -61202,6 +61318,11 @@
       "stand": "2026-11-02T16:46:01.613Z",
       "follower": 452,
       "medien": 181
+    },
+    {
+      "stand": "2026-11-02T18:00:53.252Z",
+      "follower": 452,
+      "medien": 182
     }
   ]
 }
