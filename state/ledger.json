@@ -18539,6 +18539,20 @@
         "#examensvorbereitung",
         "#erbschaftsteuer"
       ]
+    },
+    {
+      "datum": "2026-11-02",
+      "slot": "s1",
+      "medienId": "18111400867909647",
+      "veroeffentlicht": "2026-11-02T07:30:21.286Z",
+      "quelle": "vorproduktion",
+      "art": "story",
+      "storyArt": "teaser",
+      "thema": null,
+      "fach": "erbst",
+      "titel": [
+        "Rente geerbt: welcher Faktor?"
+      ]
     }
   ],
   "fachZaehler": {
