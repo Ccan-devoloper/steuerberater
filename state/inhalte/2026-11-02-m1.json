@@ -1,0 +1,62 @@
+{
+  "format": "reel",
+  "fach": null,
+  "klausur": 0,
+  "fachLabel": "Mündliche · Zivilrecht",
+  "themaId": "lead-zr-z3",
+  "caption": "6 Monate Beweislastumkehr? Seit 2022 veraltet. ⏳\n\nBeim Verbrauchsgüterkauf wird vermutet, dass ein Mangel, der sich innerhalb eines Jahres seit Gefahrübergang zeigt, schon bei Gefahrübergang vorlag (§ 477 Abs. 1 BGB). Gilt nur, wenn ein Verbraucher von einem Unternehmer kauft (§ 474 BGB).\n\nSchreib deine Antwort in die Kommentare 👇 und schick das Reel deinem Lernpartner.\n\nDie 10 häufigsten Fehler der Mündlichen – mit Prüfungsszenen und Lösungen – als Gratis-PDF, ausgewertet aus über 400 Prüfungsprotokollen. 👉 Link in der Bio",
+  "hashtags": [
+    "#steuerberaterprüfung",
+    "#steuerberaterexamen",
+    "#mündlicheprüfung",
+    "#examensvorbereitung",
+    "#zivilrecht",
+    "#steuerberater"
+  ],
+  "quellen": [
+    "§ 477 Abs. 1 BGB",
+    "§ 474 BGB"
+  ],
+  "slug": "2026-11-02-m1",
+  "kurztitel": "Beweislastumkehr: 6 Monate? Veraltet.",
+  "regelGeprueft": true,
+  "manuellGeprueft": false,
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "textProviderKostenUsd": 0,
+  "faktencheckProviderKostenUsd": 0,
+  "bildStatus": "open-peeps-render",
+  "renderer": "open-peeps-v4",
+  "liveVorrangAktiv": true,
+  "bild": "op-cover",
+  "reelTyp": "klausurfalle",
+  "hookStil": "knall",
+  "coverBadge": "Reel",
+  "szenen": [
+    {
+      "art": "hook",
+      "titel": "6 Monate Beweislastumkehr?"
+    },
+    {
+      "art": "schritt",
+      "titel": "Neu"
+    },
+    {
+      "art": "schritt",
+      "titel": "Die Vermutung"
+    },
+    {
+      "art": "schritt",
+      "titel": "Nur B2C"
+    }
+  ],
+  "sprecher": [
+    "Sechs Monate Beweislastumkehr? Wer das sagt, ist veraltet.",
+    "Seit zweitausendzweiundzwanzig gilt beim Verbrauchsgüterkauf ein ganzes Jahr.",
+    "Zeigt sich der Mangel im ersten Jahr, wird vermutet, dass er schon bei Übergabe da war.",
+    "Und das gilt nur, wenn ein Verbraucher von einem Unternehmer kauft. Nicht unter Privatleuten.",
+    "Wer das nicht weiß, verliert Punkte. Die zehn häufigsten Fehler: kostenlos, Link in der Bio."
+  ],
+  "dauerS": 27.806,
+  "tempo": 1.07
+}

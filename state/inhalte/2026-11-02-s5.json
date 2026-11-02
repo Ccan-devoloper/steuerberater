@@ -1,0 +1,40 @@
+{
+  "slot": "s5",
+  "art": "antwort",
+  "fach": "bilanz",
+  "klausur": 3,
+  "fachLabel": "Bilanzsteuerrecht",
+  "themaId": "bilanz-quiz-k3-12",
+  "beitragSlot": null,
+  "quellen": null,
+  "titel": [
+    "A: § 43 Abs. 5",
+    "S. 2 EStG"
+  ],
+  "optionen": [
+    "§ 43 Abs. 5 EStG",
+    "§ 3 Nr. 40 EStG",
+    "§ 12 Nr. 3 EStG"
+  ],
+  "richtig": 0,
+  "text": "Gehört die Dividende zum Gewerbebetrieb, wird die Kapitalertragsteuer nur angerechnet.",
+  "norm": "§ 36 Abs. 2 Nr. 2 EStG",
+  "pairId": "bilanz-quiz-k3-12",
+  "sichtbareTexte": [
+    "Bilanzsteuerrecht",
+    "Auflösung",
+    "A: § 43 Abs. 5",
+    "S. 2 EStG",
+    "§ 43 Abs. 5 EStG",
+    "§ 3 Nr. 40 EStG",
+    "§ 12 Nr. 3 EStG",
+    "Gehört die Dividende zum Gewerbebetrieb, wird die Kapitalertragsteuer nur angerechnet.",
+    "§ 36 Abs. 2 Nr. 2 EStG"
+  ],
+  "renderer": "open-peeps-v4",
+  "bildStatus": "open-peeps-render",
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "liveVorrangAktiv": true,
+  "regelGeprueft": true
+}

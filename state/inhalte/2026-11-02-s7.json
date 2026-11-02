@@ -1,0 +1,49 @@
+{
+  "slot": "s7",
+  "art": "tipp",
+  "fach": null,
+  "klausur": 0,
+  "fachLabel": "Zweiter Anlauf",
+  "themaId": null,
+  "beitragSlot": null,
+  "quellen": null,
+  "ueberzeile": "Lernstrategie",
+  "titel": [
+    "Zweiter Anlauf:",
+    "erst Bilanz ziehen"
+  ],
+  "punkte": [
+    [
+      "Bewertete Klausuren einsehen, Punkte je Teil notieren.",
+      "ok",
+      null
+    ],
+    [
+      "Fehlte Wissen, Zeit oder Technik?",
+      "warn",
+      null
+    ],
+    [
+      "Den Lernplan genau nach diesen Lücken bauen.",
+      "ok",
+      null
+    ]
+  ],
+  "icon": "tabler:chart-bar",
+  "iconFarbe": "GELB",
+  "sichtbareTexte": [
+    "Zweiter Anlauf",
+    "Lernstrategie",
+    "Zweiter Anlauf:",
+    "erst Bilanz ziehen",
+    "Bewertete Klausuren einsehen, Punkte je Teil notieren.",
+    "Fehlte Wissen, Zeit oder Technik?",
+    "Den Lernplan genau nach diesen Lücken bauen."
+  ],
+  "renderer": "open-peeps-v4",
+  "bildStatus": "open-peeps-render",
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "liveVorrangAktiv": true,
+  "regelGeprueft": true
+}

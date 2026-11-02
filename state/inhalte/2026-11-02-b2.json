@@ -1,0 +1,90 @@
+{
+  "format": "schema",
+  "fach": "istr",
+  "klausur": 2,
+  "fachLabel": "Internationales Steuerrecht",
+  "themaId": "istr-modul-istr-istr2-03",
+  "caption": "Dividende an einen Steuerausländer – das Prüfschema in fünf Schritten für die Ertragsteuer-Klausur.\n\n1. Kapitalertrag: Gewinnausschüttung einer GmbH (§ 20 Abs. 1 Nr. 1 EStG).\n2. Inlandsbezug: Schuldner mit Sitz oder Geschäftsleitung im Inland (§ 49 Abs. 1 Nr. 5 Buchst. a Doppelbuchst. aa EStG); ohne inländischen Wohnsitz beschränkte Steuerpflicht (§ 1 Abs. 4 EStG).\n3. Steuerabzug: 25 % Kapitalertragsteuer (§ 43 Abs. 1 S. 1 Nr. 1, § 43a Abs. 1 S. 1 Nr. 1 EStG) plus 5,5 % Solidaritätszuschlag (§ 3 Abs. 1 Nr. 5, § 4 SolZG). Beispiel: 10.000 € Dividende, 2.637,50 € einbehalten.\n4. Abgeltung: Die Einkommensteuer gilt durch den Steuerabzug als abgegolten (§ 50 Abs. 2 S. 1 EStG), nicht aber u. a. für Einkünfte eines inländischen Betriebs (§ 50 Abs. 2 S. 2 Nr. 1 EStG).\n5. DBA: Entspricht das Abkommen Art. 10 Abs. 2 OECD-MA, darf der Quellenstaat bei Streubesitz höchstens 15 % erheben. Der Abzug wird trotzdem voll vorgenommen (§ 50c Abs. 1 EStG); den Mehrbetrag erstattet das BZSt auf Antrag, Frist vier Jahre nach Ablauf des Jahres des Zuflusses (§ 50c Abs. 3 EStG). Im Beispiel 1.137,50 €.\n\nZum Schluss: § 50 Abs. 2, § 50c Abs. 3 EStG zum Markieren. Speichern für Klausur 2 📌",
+  "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#internationalessteuerrecht"
+  ],
+  "quellen": [
+    "§ 1 Abs. 4 EStG",
+    "§ 20 Abs. 1 Nr. 1 EStG",
+    "§ 49 Abs. 1 Nr. 5 Buchst. a EStG",
+    "§ 43 Abs. 1 S. 1 Nr. 1 EStG",
+    "§ 43a Abs. 1 S. 1 Nr. 1 EStG",
+    "§ 3 Abs. 1 Nr. 5, § 4 SolZG",
+    "§ 50 Abs. 2 EStG",
+    "§ 50c Abs. 1, 3 EStG",
+    "Art. 10 Abs. 2 OECD-MA"
+  ],
+  "slug": "2026-11-02-b2",
+  "kurztitel": "Kapitalerträge bei beschränkter Steuerpflicht: Steuerabzug und Abgeltungswirkung",
+  "regelGeprueft": true,
+  "manuellGeprueft": false,
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "textProviderKostenUsd": 0,
+  "faktencheckProviderKostenUsd": 0,
+  "bildStatus": "open-peeps-render",
+  "renderer": "open-peeps-v4",
+  "liveVorrangAktiv": true,
+  "coverBadge": "Prüfschema",
+  "folien": [
+    {
+      "art": "titel",
+      "titel": "Prüfschema",
+      "text": "Prüfschema · Dividende · ins Ausland · § 50 Abs. 2 EStG · in 5 Schritten · + Markier-Guide §§ 50, 50c EStG",
+      "bild": "op-cover"
+    },
+    {
+      "art": "text",
+      "titel": "Internationales Steuerrecht",
+      "text": "Das Schema · Kapitalertrag? · § 20 Abs. 1 Nr. 1 EStG · Inlandsbezug? · § 49 Abs. 1 Nr. 5 Buchst. a EStG · Steuerabzug · §§ 43, 43a EStG · Abgeltung · § 50 Abs. 2 EStG · DBA und Erstattung · Art. 10 OECD-MA, § 50c EStG · Am Ende: §§ 50, 50c EStG markiert"
+    },
+    {
+      "art": "text",
+      "titel": "Internationales Steuerrecht",
+      "text": "Der Fall · Mateo wohnt in einem DBA-Staat, nicht in Deutschland. · Er hält 3 % an der Lindauer Möbel GmbH mit Sitz in Köln. · 2026 schüttet sie ihm 10.000 € aus. · Muss ich hier was tun?"
+    },
+    {
+      "art": "text",
+      "titel": "Internationales Steuerrecht",
+      "text": "Schritt 1 und 2 · Gewinnausschüttung einer GmbH: Kapitalertrag. · § 20 Abs. 1 Nr. 1 EStG · Die Schuldnerin sitzt im Inland: inländische Einkünfte. · § 49 Abs. 1 Nr. 5 Buchst. a Doppelbuchst. aa EStG · Ohne Wohnsitz hier: beschränkt steuerpflichtig. · § 1 Abs. 4 EStG · Ich bin Johanna, Beraterin."
+    },
+    {
+      "art": "text",
+      "titel": "Internationales Steuerrecht",
+      "text": "Schritt 3: Abzug · § 43a Abs. 1 Nr. 1 EStG · § 4 SolZG · Dividende · 10.000,00 € · Kapitalertragsteuer 25 % · − 2.500,00 € · Soli 5,5 % · − 137,50 € · Auszahlung an Mateo · 7.362,50 € · Gut ein Viertel weg!"
+    },
+    {
+      "art": "text",
+      "titel": "Internationales Steuerrecht",
+      "text": "Deine Einschätzung · Braucht Mateo eine deutsche Steuererklärung? · Kann er sich etwas erstatten lassen? · Erst überlegen!"
+    },
+    {
+      "art": "text",
+      "titel": "Internationales Steuerrecht",
+      "text": "Lösung: Schritt 4 · Keine Erklärung: Die Steuer gilt durch den Abzug als abgegolten. · § 50 Abs. 2 S. 1 EStG · Anders, wenn die Anteile zu einem inländischen Betrieb gehören. · § 50 Abs. 2 S. 2 Nr. 1 EStG · Keine Erklärung!"
+    },
+    {
+      "art": "text",
+      "titel": "Internationales Steuerrecht",
+      "text": "Lösung: Schritt 5 · Art. 10 Abs. 2 OECD-MA · § 50c Abs. 3 EStG · Einbehalten · 2.637,50 € · Erlaubt nach DBA: 15 % · 1.500,00 € · Erstattung vom BZSt · 1.137,50 € · Erst abziehen, dann erstatten · Antrag beim BZSt!"
+    },
+    {
+      "art": "text",
+      "titel": "Internationales Steuerrecht",
+      "text": "Mateo: 7.362,50 € netto, 1.137,50 € zurück · Am Ende bleiben 15 % in Deutschland · Ertrag und Inland, · Abzug ist Abgeltung, · DBA nur per Erstattung. · Speichern für Klausur 2 · Prüfst du den DBA-Satz mit? · Weiterwischen: §§ 50, 50c EStG markiert"
+    },
+    {
+      "art": "text",
+      "titel": "Internationales Steuerrecht",
+      "text": "§§ 50, 50c EStG (Auszug) · abgegolten · Ausnahme · BZSt · Mateo: 1.137,50 € · Erstattungsfrist: vier Jahre · ab Ende des Jahres der Ausschüttung"
+    }
+  ]
+}

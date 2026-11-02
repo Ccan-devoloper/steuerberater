@@ -1,0 +1,44 @@
+{
+  "slot": "s6",
+  "art": "norm",
+  "fach": "erbst",
+  "klausur": 1,
+  "fachLabel": "Erbschaftsteuer",
+  "themaId": "erbst-aufb-erbst-bew2-5",
+  "beitragSlot": null,
+  "quellen": null,
+  "titel": [
+    "Vergleich, Ertrag",
+    "oder Sachwert?"
+  ],
+  "norm": "§ 182 BewG",
+  "punkte": [
+    [
+      "Eigentumswohnung, Ein- und Zweifamilienhaus: Vergleichswert.",
+      "ok",
+      "§ 182 Abs. 2 BewG"
+    ],
+    [
+      "Mietwohngrundstück: Ertragswert. Fehlt Vergleichswert oder übliche Miete: Sachwert.",
+      "warn",
+      "§ 182 Abs. 3, 4 BewG"
+    ]
+  ],
+  "sichtbareTexte": [
+    "Erbschaftsteuer",
+    "Norm des Tages",
+    "Vergleich, Ertrag",
+    "oder Sachwert?",
+    "§ 182 BewG",
+    "Eigentumswohnung, Ein- und Zweifamilienhaus: Vergleichswert.",
+    "§ 182 Abs. 2 BewG",
+    "Mietwohngrundstück: Ertragswert. Fehlt Vergleichswert oder übliche Miete: Sachwert.",
+    "§ 182 Abs. 3, 4 BewG"
+  ],
+  "renderer": "open-peeps-v4",
+  "bildStatus": "open-peeps-render",
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "liveVorrangAktiv": true,
+  "regelGeprueft": true
+}

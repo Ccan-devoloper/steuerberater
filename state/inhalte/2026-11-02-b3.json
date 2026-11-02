@@ -1,0 +1,64 @@
+{
+  "format": "reel",
+  "fach": "umwst",
+  "klausur": 3,
+  "fachLabel": "Umwandlungssteuerrecht",
+  "themaId": "umwst-aufb-umw-ks-3-03",
+  "caption": "Übernahmegewinn bei Verschmelzung einer GmbH auf eine KG – erst § 7 UmwStG, dann rechnen. 🧮\n\nBeispiel: Kai hält 100 % an einer GmbH (Anschaffungskosten = Stammkapital 50.000 €, kein weiteres Einlagekonto). Buchwert des übergehenden Vermögens 400.000 €.\n\n▸ Seine Anteile gelten als in die KG eingelegt (§ 5 Abs. 2 UmwStG).\n▸ Übernahmegewinn 1. Stufe: 400.000 € − 50.000 € = 350.000 € (§ 4 Abs. 4 S. 1 UmwStG; Umwandlungskosten hier außer Acht).\n▸ Bezüge: Eigenkapital laut Steuerbilanz abzüglich Einlagekonto nach Anwendung des § 29 Abs. 1 KStG = 350.000 €, Einnahmen nach § 20 Abs. 1 Nr. 1 EStG (§ 7 UmwStG); hier im Teileinkünfteverfahren zu 60 % steuerpflichtig (§ 3 Nr. 40, § 20 Abs. 8 EStG), mit Kapitalertragsteuerabzug.\n▸ Der Übernahmegewinn vermindert sich um diese Bezüge (§ 4 Abs. 5 UmwStG): 0 €.\n▸ Ein verbleibender Übernahmegewinn: bei natürlichen Personen § 3 Nr. 40, § 3c EStG, bei Körperschaften § 8b KStG (§ 4 Abs. 7 UmwStG). Ein Übernahmeverlust: bei natürlichen Personen zu 60 %, höchstens 60 % der Bezüge; nicht bei entgeltlichem Erwerb der Anteile in den letzten fünf Jahren (§ 4 Abs. 6 S. 4, 6 UmwStG).\n\nSpeichern für Klausur 3 📌",
+  "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#umwandlungssteuerrecht"
+  ],
+  "quellen": [
+    "§ 4 Abs. 4, 5, 6, 7 UmwStG",
+    "§ 5 Abs. 2 UmwStG",
+    "§ 7 UmwStG",
+    "§ 29 Abs. 1 KStG",
+    "§ 3 Nr. 40, § 3c Abs. 2, § 20 Abs. 1 Nr. 1, Abs. 8 EStG",
+    "§ 8b KStG"
+  ],
+  "slug": "2026-11-02-b3",
+  "kurztitel": "Wie wird das Übernahmeergebnis bei der Personengesellschaft besteuert?",
+  "regelGeprueft": true,
+  "manuellGeprueft": false,
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "textProviderKostenUsd": 0,
+  "faktencheckProviderKostenUsd": 0,
+  "bildStatus": "open-peeps-render",
+  "renderer": "open-peeps-v4",
+  "liveVorrangAktiv": true,
+  "bild": "op-cover",
+  "reelTyp": "rechnung",
+  "hookStil": "kippen",
+  "coverBadge": "Reel",
+  "szenen": [
+    {
+      "art": "hook",
+      "titel": "Übernahmegewinn voll versteuern?"
+    },
+    {
+      "art": "schritt",
+      "titel": "Übernahmegewinn"
+    },
+    {
+      "art": "schritt",
+      "titel": "Erst die Dividende"
+    },
+    {
+      "art": "schritt",
+      "titel": "Dann abziehen"
+    }
+  ],
+  "sprecher": [
+    "Übernahmegewinn dreihundertfünfzigtausend Euro, voll steuerpflichtig? Stopp. Erst Paragraf sieben.",
+    "Kais GmbH wird auf eine KG verschmolzen. Vermögen vierhunderttausend, Kais Anteile fünfzigtausend. Differenz: dreihundertfünfzigtausend.",
+    "Die Rücklagen gelten als an Kai ausgeschüttet: dreihundertfünfzigtausend Euro Dividende, zu sechzig Prozent steuerpflichtig.",
+    "Diese Bezüge ziehst du vom Übernahmegewinn ab. Rest: null. Nichts wird doppelt besteuert.",
+    "Merke: Erst Bezüge nach Paragraf sieben abziehen, dann Rest rechnen."
+  ],
+  "dauerS": 40.782,
+  "tempo": 1
+}

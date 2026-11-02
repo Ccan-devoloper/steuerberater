@@ -1,0 +1,36 @@
+{
+  "slot": "s4",
+  "art": "frage",
+  "fach": "bilanz",
+  "klausur": 3,
+  "fachLabel": "Bilanzsteuerrecht",
+  "themaId": "bilanz-quiz-k3-12",
+  "beitragSlot": null,
+  "quellen": null,
+  "frage": [
+    "Dividende im Betrieb:",
+    "Was sperrt die Abgeltung?"
+  ],
+  "optionen": [
+    "§ 43 Abs. 5 EStG",
+    "§ 3 Nr. 40 EStG",
+    "§ 12 Nr. 3 EStG"
+  ],
+  "pairId": "bilanz-quiz-k3-12",
+  "sichtbareTexte": [
+    "Bilanzsteuerrecht",
+    "Prüfungsfrage",
+    "Dividende im Betrieb:",
+    "Was sperrt die Abgeltung?",
+    "§ 43 Abs. 5 EStG",
+    "§ 3 Nr. 40 EStG",
+    "§ 12 Nr. 3 EStG",
+    "Auflösung in der nächsten Story"
+  ],
+  "renderer": "open-peeps-v4",
+  "bildStatus": "open-peeps-render",
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "liveVorrangAktiv": true,
+  "regelGeprueft": true
+}
