@@ -17433,19 +17433,19 @@
         "#personengesellschaften"
       ],
       "insights": {
-        "reach": 1221,
+        "reach": 1223,
         "saved": 8,
         "shares": 0,
         "likes": 18,
         "comments": 0,
         "total_interactions": 26,
-        "views": 1545,
-        "ig_reels_avg_watch_time": 10796,
-        "ig_reels_video_view_total_time": 13484780,
-        "reels_skip_rate": 53.2
+        "views": 1546,
+        "ig_reels_avg_watch_time": 10792,
+        "ig_reels_video_view_total_time": 13490497,
+        "reels_skip_rate": 53.1
       },
-      "insightsStand": "2026-11-02T05:45:33.517Z",
-      "insightsAlterStunden": 61.3
+      "insightsStand": "2026-11-02T13:50:41.251Z",
+      "insightsAlterStunden": 69.3
     },
     {
       "datum": "2026-10-30",
@@ -17470,19 +17470,19 @@
         "#steuerberater"
       ],
       "insights": {
-        "reach": 1641,
-        "saved": 13,
+        "reach": 1643,
+        "saved": 14,
         "shares": 3,
         "likes": 17,
         "comments": 0,
-        "total_interactions": 34,
-        "views": 1956,
-        "ig_reels_avg_watch_time": 10881,
-        "ig_reels_video_view_total_time": 17953928,
+        "total_interactions": 35,
+        "views": 1960,
+        "ig_reels_avg_watch_time": 10877,
+        "ig_reels_video_view_total_time": 17991382,
         "reels_skip_rate": 58.6
       },
-      "insightsStand": "2026-11-02T05:45:33.517Z",
-      "insightsAlterStunden": 59.8
+      "insightsStand": "2026-11-02T13:50:41.251Z",
+      "insightsAlterStunden": 67.8
     },
     {
       "datum": "2026-10-30",
@@ -17662,7 +17662,7 @@
         "#gewerbesteuer"
       ],
       "insights": {
-        "reach": 201,
+        "reach": 208,
         "saved": 4,
         "shares": 0,
         "likes": 5,
@@ -17671,8 +17671,8 @@
         "follows": 0,
         "profile_visits": 1
       },
-      "insightsStand": "2026-11-02T05:45:33.517Z",
-      "insightsAlterStunden": 46.3
+      "insightsStand": "2026-11-02T13:50:41.251Z",
+      "insightsAlterStunden": 54.3
     },
     {
       "datum": "2026-10-31",
