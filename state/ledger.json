@@ -18215,7 +18215,7 @@
         "#umsatzsteuer"
       ],
       "insights": {
-        "reach": 111,
+        "reach": 118,
         "saved": 2,
         "shares": 0,
         "likes": 5,
@@ -18224,8 +18224,8 @@
         "follows": 0,
         "profile_visits": 2
       },
-      "insightsStand": "2026-11-02T06:09:03.956Z",
-      "insightsAlterStunden": 17.6
+      "insightsStand": "2026-11-02T09:45:15.602Z",
+      "insightsAlterStunden": 21.3
     },
     {
       "datum": "2026-11-01",
@@ -18273,22 +18273,22 @@
         "Woche abhaken"
       ],
       "insights": {
-        "reach": 61,
-        "views": 76,
+        "reach": 71,
+        "views": 85,
         "shares": 0,
         "total_interactions": 1,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 69,
-        "navigation_tap_back": 5,
+        "navigation": 77,
+        "navigation_swipe_forward": 8,
+        "navigation_tap_forward": 47,
         "navigation_tap_exit": 16,
-        "navigation_tap_forward": 40,
-        "navigation_swipe_forward": 8
+        "navigation_tap_back": 6
       },
-      "insightsStand": "2026-11-02T05:45:20.704Z",
-      "insightsAlterStunden": 16.1
+      "insightsStand": "2026-11-02T09:45:14.434Z",
+      "insightsAlterStunden": 20.1
     },
     {
       "datum": "2026-11-01",
@@ -18344,19 +18344,19 @@
         "#körperschaftsteuer"
       ],
       "insights": {
-        "reach": 440,
+        "reach": 450,
         "saved": 2,
         "shares": 1,
-        "likes": 2,
+        "likes": 3,
         "comments": 0,
-        "total_interactions": 5,
-        "views": 548,
-        "ig_reels_avg_watch_time": 7881,
-        "ig_reels_video_view_total_time": 3475759,
-        "reels_skip_rate": 63.9
+        "total_interactions": 6,
+        "views": 568,
+        "ig_reels_avg_watch_time": 8062,
+        "ig_reels_video_view_total_time": 3668593,
+        "reels_skip_rate": 63.8
       },
-      "insightsStand": "2026-11-02T06:09:03.956Z",
-      "insightsAlterStunden": 13.6
+      "insightsStand": "2026-11-02T09:45:15.602Z",
+      "insightsAlterStunden": 17.3
     },
     {
       "datum": "2026-11-01",
@@ -18382,19 +18382,19 @@
         "#steuerberater"
       ],
       "insights": {
-        "reach": 236,
+        "reach": 251,
         "saved": 1,
         "shares": 0,
         "likes": 7,
         "comments": 0,
         "total_interactions": 8,
-        "views": 320,
-        "ig_reels_avg_watch_time": 8858,
-        "ig_reels_video_view_total_time": 2143644,
-        "reels_skip_rate": 57.3
+        "views": 344,
+        "ig_reels_avg_watch_time": 8897,
+        "ig_reels_video_view_total_time": 2295621,
+        "reels_skip_rate": 57.4
       },
-      "insightsStand": "2026-11-02T06:09:03.956Z",
-      "insightsAlterStunden": 12.1
+      "insightsStand": "2026-11-02T09:45:15.602Z",
+      "insightsAlterStunden": 15.8
     },
     {
       "datum": "2026-11-01",
