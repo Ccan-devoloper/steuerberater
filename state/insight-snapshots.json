@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "stand": "2026-11-02T12:44:59.672Z",
+  "stand": "2026-11-02T13:40:13.114Z",
   "medien": {
     "18093399314208242": {
       "art": "beitrag",
@@ -56971,6 +56971,23 @@
           "navigation_tap_exit": 17,
           "navigation_tap_forward": 51,
           "navigation_swipe_forward": 7
+        },
+        {
+          "stand": "2026-11-02T13:40:06.993Z",
+          "alterStunden": 21.6,
+          "reach": 75,
+          "views": 91,
+          "shares": 0,
+          "total_interactions": 1,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 86,
+          "navigation_tap_back": 6,
+          "navigation_tap_exit": 18,
+          "navigation_tap_forward": 55,
+          "navigation_swipe_forward": 7
         }
       ]
     },
@@ -57053,6 +57070,20 @@
           "ig_reels_avg_watch_time": 8062,
           "ig_reels_video_view_total_time": 3668593,
           "reels_skip_rate": 63.8
+        },
+        {
+          "stand": "2026-11-02T13:40:11.085Z",
+          "alterStunden": 21.2,
+          "reach": 465,
+          "saved": 2,
+          "shares": 1,
+          "likes": 3,
+          "comments": 0,
+          "total_interactions": 6,
+          "views": 585,
+          "ig_reels_avg_watch_time": 7914,
+          "ig_reels_video_view_total_time": 3735562,
+          "reels_skip_rate": 64
         }
       ]
     },
@@ -57135,6 +57166,20 @@
           "ig_reels_avg_watch_time": 8897,
           "ig_reels_video_view_total_time": 2295621,
           "reels_skip_rate": 57.4
+        },
+        {
+          "stand": "2026-11-02T13:40:11.085Z",
+          "alterStunden": 19.7,
+          "reach": 257,
+          "saved": 1,
+          "shares": 0,
+          "likes": 7,
+          "comments": 0,
+          "total_interactions": 8,
+          "views": 352,
+          "ig_reels_avg_watch_time": 8917,
+          "ig_reels_video_view_total_time": 2363252,
+          "reels_skip_rate": 57.1
         }
       ]
     },
@@ -57454,6 +57499,23 @@
           "navigation_tap_exit": 3,
           "navigation_tap_forward": 12,
           "navigation_swipe_forward": 1
+        },
+        {
+          "stand": "2026-11-02T13:40:06.993Z",
+          "alterStunden": 6.2,
+          "reach": 38,
+          "views": 46,
+          "shares": 0,
+          "total_interactions": 1,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 2,
+          "profile_activity": 0,
+          "navigation": 43,
+          "navigation_tap_back": 2,
+          "navigation_swipe_forward": 4,
+          "navigation_tap_forward": 27,
+          "navigation_tap_exit": 10
         }
       ]
     },
@@ -57533,6 +57595,61 @@
           "navigation_swipe_forward": 1,
           "navigation_tap_forward": 10,
           "navigation_tap_exit": 5
+        }
+      ]
+    },
+    "17970648507196851": {
+      "art": "story",
+      "datum": "2026-11-02",
+      "titel": [
+        "Dividende ins Ausland"
+      ],
+      "format": null,
+      "fach": "istr",
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-11-02T12:30:18.559Z",
+      "snapshots": [
+        {
+          "stand": "2026-11-02T13:40:06.993Z",
+          "alterStunden": 1.2,
+          "reach": 18,
+          "views": 24,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 1,
+          "profile_activity": 0,
+          "navigation": 21,
+          "navigation_swipe_forward": 1,
+          "navigation_tap_forward": 11,
+          "navigation_tap_exit": 8,
+          "navigation_tap_back": 1
+        }
+      ]
+    },
+    "18199217671387864": {
+      "art": "beitrag",
+      "datum": "2026-11-02",
+      "titel": "Prüfschema",
+      "format": "schema",
+      "fach": "istr",
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-11-02T12:30:05.947Z",
+      "snapshots": [
+        {
+          "stand": "2026-11-02T13:40:11.085Z",
+          "alterStunden": 1.2,
+          "reach": 41,
+          "saved": 1,
+          "shares": 0,
+          "likes": 3,
+          "comments": 0,
+          "total_interactions": 4,
+          "follows": 0,
+          "profile_visits": 1
         }
       ]
     }
@@ -60635,6 +60752,11 @@
     },
     {
       "stand": "2026-11-02T12:44:59.672Z",
+      "follower": 452,
+      "medien": 180
+    },
+    {
+      "stand": "2026-11-02T13:40:13.114Z",
       "follower": 452,
       "medien": 180
     }
