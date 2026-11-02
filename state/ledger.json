@@ -18806,6 +18806,20 @@
         "#zivilrecht",
         "#steuerberater"
       ]
+    },
+    {
+      "datum": "2026-11-02",
+      "slot": "s3",
+      "medienId": "18113560949163212",
+      "veroeffentlicht": "2026-11-02T18:00:26.819Z",
+      "quelle": "vorproduktion",
+      "art": "story",
+      "storyArt": "teaser",
+      "thema": null,
+      "fach": "umwst",
+      "titel": [
+        "Übernahmegewinn voll versteuern?"
+      ]
     }
   ],
   "fachZaehler": {
