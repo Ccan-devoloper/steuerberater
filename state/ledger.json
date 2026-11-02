@@ -16756,7 +16756,7 @@
         "#bilanzsteuerrecht"
       ],
       "insights": {
-        "reach": 113,
+        "reach": 120,
         "saved": 2,
         "shares": 1,
         "likes": 2,
@@ -16765,8 +16765,8 @@
         "follows": 0,
         "profile_visits": 0
       },
-      "insightsStand": "2026-11-01T05:44:45.175Z",
-      "insightsAlterStunden": 70.2
+      "insightsStand": "2026-11-02T05:45:33.517Z",
+      "insightsAlterStunden": 94.3
     },
     {
       "datum": "2026-10-29",
@@ -16853,7 +16853,7 @@
         "#erbschaftsteuer"
       ],
       "insights": {
-        "reach": 118,
+        "reach": 131,
         "saved": 2,
         "shares": 0,
         "likes": 3,
@@ -16862,8 +16862,8 @@
         "follows": 0,
         "profile_visits": 1
       },
-      "insightsStand": "2026-11-01T05:44:45.175Z",
-      "insightsAlterStunden": 65.2
+      "insightsStand": "2026-11-02T05:45:33.517Z",
+      "insightsAlterStunden": 89.3
     },
     {
       "datum": "2026-10-29",
@@ -17207,7 +17207,7 @@
         "#abgabenordnung"
       ],
       "insights": {
-        "reach": 182,
+        "reach": 186,
         "saved": 2,
         "shares": 1,
         "likes": 6,
@@ -17216,8 +17216,8 @@
         "follows": 0,
         "profile_visits": 2
       },
-      "insightsStand": "2026-11-01T14:45:33.229Z",
-      "insightsAlterStunden": 55.3
+      "insightsStand": "2026-11-02T05:45:33.517Z",
+      "insightsAlterStunden": 70.3
     },
     {
       "datum": "2026-10-30",
@@ -17304,7 +17304,7 @@
         "#körperschaftsteuer"
       ],
       "insights": {
-        "reach": 127,
+        "reach": 132,
         "saved": 2,
         "shares": 0,
         "likes": 6,
@@ -17313,8 +17313,8 @@
         "follows": 0,
         "profile_visits": 1
       },
-      "insightsStand": "2026-11-01T14:45:33.229Z",
-      "insightsAlterStunden": 50.3
+      "insightsStand": "2026-11-02T05:45:33.517Z",
+      "insightsAlterStunden": 65.3
     },
     {
       "datum": "2026-10-30",
@@ -17433,19 +17433,19 @@
         "#personengesellschaften"
       ],
       "insights": {
-        "reach": 1211,
+        "reach": 1221,
         "saved": 8,
         "shares": 0,
-        "likes": 17,
+        "likes": 18,
         "comments": 0,
-        "total_interactions": 25,
-        "views": 1522,
-        "ig_reels_avg_watch_time": 10696,
-        "ig_reels_video_view_total_time": 13220647,
+        "total_interactions": 26,
+        "views": 1545,
+        "ig_reels_avg_watch_time": 10796,
+        "ig_reels_video_view_total_time": 13484780,
         "reels_skip_rate": 53.2
       },
-      "insightsStand": "2026-11-01T14:45:33.229Z",
-      "insightsAlterStunden": 46.3
+      "insightsStand": "2026-11-02T05:45:33.517Z",
+      "insightsAlterStunden": 61.3
     },
     {
       "datum": "2026-10-30",
@@ -17470,19 +17470,19 @@
         "#steuerberater"
       ],
       "insights": {
-        "reach": 1632,
+        "reach": 1641,
         "saved": 13,
         "shares": 3,
-        "likes": 16,
+        "likes": 17,
         "comments": 0,
-        "total_interactions": 33,
-        "views": 1935,
-        "ig_reels_avg_watch_time": 10834,
-        "ig_reels_video_view_total_time": 17713768,
+        "total_interactions": 34,
+        "views": 1956,
+        "ig_reels_avg_watch_time": 10881,
+        "ig_reels_video_view_total_time": 17953928,
         "reels_skip_rate": 58.6
       },
-      "insightsStand": "2026-11-01T15:45:44.605Z",
-      "insightsAlterStunden": 45.8
+      "insightsStand": "2026-11-02T05:45:33.517Z",
+      "insightsAlterStunden": 59.8
     },
     {
       "datum": "2026-10-30",
@@ -17662,17 +17662,17 @@
         "#gewerbesteuer"
       ],
       "insights": {
-        "reach": 190,
-        "saved": 3,
+        "reach": 201,
+        "saved": 4,
         "shares": 0,
-        "likes": 3,
+        "likes": 5,
         "comments": 0,
-        "total_interactions": 6,
+        "total_interactions": 9,
         "follows": 0,
         "profile_visits": 1
       },
-      "insightsStand": "2026-11-01T15:45:44.605Z",
-      "insightsAlterStunden": 32.3
+      "insightsStand": "2026-11-02T05:45:33.517Z",
+      "insightsAlterStunden": 46.3
     },
     {
       "datum": "2026-10-31",
@@ -18047,22 +18047,22 @@
       "fach": "gewst",
       "titel": "",
       "insights": {
-        "reach": 86,
-        "views": 110,
+        "reach": 91,
+        "views": 115,
         "shares": 0,
         "total_interactions": 1,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 94,
-        "navigation_tap_forward": 71,
-        "navigation_swipe_forward": 7,
-        "navigation_tap_exit": 13,
-        "navigation_tap_back": 3
+        "navigation": 98,
+        "navigation_tap_back": 3,
+        "navigation_tap_exit": 15,
+        "navigation_swipe_forward": 8,
+        "navigation_tap_forward": 72
       },
-      "insightsStand": "2026-11-01T20:45:05.025Z",
-      "insightsAlterStunden": 14.6
+      "insightsStand": "2026-11-02T05:45:20.704Z",
+      "insightsAlterStunden": 23.6
     },
     {
       "datum": "2026-11-01",
@@ -18079,22 +18079,22 @@
         "Grundsteuer"
       ],
       "insights": {
-        "reach": 78,
-        "views": 100,
+        "reach": 81,
+        "views": 104,
         "shares": 0,
         "total_interactions": 1,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 87,
+        "navigation": 92,
         "navigation_tap_exit": 7,
-        "navigation_tap_forward": 63,
+        "navigation_tap_forward": 65,
         "navigation_tap_back": 12,
-        "navigation_swipe_forward": 5
+        "navigation_swipe_forward": 8
       },
-      "insightsStand": "2026-11-01T20:45:05.025Z",
-      "insightsAlterStunden": 14.6
+      "insightsStand": "2026-11-02T05:45:20.704Z",
+      "insightsAlterStunden": 23.6
     },
     {
       "datum": "2026-11-01",
@@ -18145,7 +18145,7 @@
       ],
       "insights": {
         "reach": 72,
-        "views": 97,
+        "views": 98,
         "shares": 0,
         "total_interactions": 1,
         "replies": 0,
@@ -18158,8 +18158,8 @@
         "navigation_tap_back": 8,
         "navigation_tap_forward": 64
       },
-      "insightsStand": "2026-11-01T22:23:06.593Z",
-      "insightsAlterStunden": 14.9
+      "insightsStand": "2026-11-02T05:45:20.704Z",
+      "insightsAlterStunden": 22.3
     },
     {
       "datum": "2026-11-01",
@@ -18176,22 +18176,22 @@
         "wie abschreiben?"
       ],
       "insights": {
-        "reach": 64,
-        "views": 80,
+        "reach": 66,
+        "views": 84,
         "shares": 0,
         "total_interactions": 1,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 71,
-        "navigation_tap_exit": 11,
+        "navigation": 72,
+        "navigation_tap_back": 3,
+        "navigation_tap_forward": 52,
         "navigation_swipe_forward": 6,
-        "navigation_tap_forward": 51,
-        "navigation_tap_back": 3
+        "navigation_tap_exit": 11
       },
-      "insightsStand": "2026-11-01T22:23:06.593Z",
-      "insightsAlterStunden": 10.3
+      "insightsStand": "2026-11-02T05:45:20.704Z",
+      "insightsAlterStunden": 17.7
     },
     {
       "datum": "2026-11-01",
@@ -18241,22 +18241,22 @@
         "Halle in Tirol: Ort?"
       ],
       "insights": {
-        "reach": 59,
-        "views": 79,
+        "reach": 61,
+        "views": 83,
         "shares": 0,
         "total_interactions": 1,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 71,
-        "navigation_swipe_forward": 3,
-        "navigation_tap_forward": 48,
+        "navigation": 73,
+        "navigation_tap_back": 9,
         "navigation_tap_exit": 11,
-        "navigation_tap_back": 9
+        "navigation_tap_forward": 50,
+        "navigation_swipe_forward": 3
       },
-      "insightsStand": "2026-11-01T22:23:06.593Z",
-      "insightsAlterStunden": 9.9
+      "insightsStand": "2026-11-02T05:45:20.704Z",
+      "insightsAlterStunden": 17.3
     },
     {
       "datum": "2026-11-01",
@@ -18273,22 +18273,22 @@
         "Woche abhaken"
       ],
       "insights": {
-        "reach": 44,
-        "views": 55,
+        "reach": 61,
+        "views": 76,
         "shares": 0,
-        "total_interactions": 0,
+        "total_interactions": 1,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 49,
-        "navigation_tap_back": 3,
-        "navigation_tap_exit": 15,
-        "navigation_tap_forward": 24,
-        "navigation_swipe_forward": 7
+        "navigation": 69,
+        "navigation_tap_back": 5,
+        "navigation_tap_exit": 16,
+        "navigation_tap_forward": 40,
+        "navigation_swipe_forward": 8
       },
-      "insightsStand": "2026-11-01T18:45:48.369Z",
-      "insightsAlterStunden": 5.1
+      "insightsStand": "2026-11-02T05:45:20.704Z",
+      "insightsAlterStunden": 16.1
     },
     {
       "datum": "2026-11-01",
@@ -18305,22 +18305,22 @@
         "Gesellschafter"
       ],
       "insights": {
-        "reach": 55,
-        "views": 63,
+        "reach": 58,
+        "views": 68,
         "shares": 0,
         "total_interactions": 1,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 60,
-        "navigation_tap_back": 3,
+        "navigation": 63,
+        "navigation_swipe_forward": 5,
+        "navigation_tap_forward": 41,
         "navigation_tap_exit": 14,
-        "navigation_tap_forward": 38,
-        "navigation_swipe_forward": 5
+        "navigation_tap_back": 3
       },
-      "insightsStand": "2026-11-01T22:23:06.593Z",
-      "insightsAlterStunden": 6.3
+      "insightsStand": "2026-11-02T05:45:20.704Z",
+      "insightsAlterStunden": 13.7
     },
     {
       "datum": "2026-11-01",
@@ -18410,22 +18410,22 @@
         "Darlehen erlassen"
       ],
       "insights": {
-        "reach": 32,
-        "views": 38,
+        "reach": 50,
+        "views": 58,
         "shares": 0,
         "total_interactions": 1,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 33,
-        "navigation_tap_forward": 23,
-        "navigation_swipe_forward": 2,
-        "navigation_tap_exit": 7,
-        "navigation_tap_back": 1
+        "navigation": 50,
+        "navigation_tap_back": 1,
+        "navigation_tap_exit": 9,
+        "navigation_swipe_forward": 4,
+        "navigation_tap_forward": 36
       },
-      "insightsStand": "2026-11-01T19:47:18.030Z",
-      "insightsAlterStunden": 1.8
+      "insightsStand": "2026-11-02T05:45:20.704Z",
+      "insightsAlterStunden": 11.7
     },
     {
       "datum": "2026-11-01",
@@ -18442,22 +18442,22 @@
         "Der Prüfer fragt danach"
       ],
       "insights": {
-        "reach": 26,
-        "views": 38,
+        "reach": 47,
+        "views": 58,
         "shares": 0,
         "total_interactions": 1,
         "replies": 0,
         "follows": 0,
         "profile_visits": 1,
         "profile_activity": 0,
-        "navigation": 34,
+        "navigation": 52,
         "navigation_tap_back": 3,
-        "navigation_tap_exit": 2,
-        "navigation_tap_forward": 28,
-        "navigation_swipe_forward": 1
+        "navigation_tap_exit": 4,
+        "navigation_tap_forward": 43,
+        "navigation_swipe_forward": 2
       },
-      "insightsStand": "2026-11-01T19:47:18.030Z",
-      "insightsAlterStunden": 1.8
+      "insightsStand": "2026-11-02T05:45:20.704Z",
+      "insightsAlterStunden": 11.7
     },
     {
       "datum": "2026-11-01",
@@ -18474,21 +18474,22 @@
         "nach dem Kauf"
       ],
       "insights": {
-        "reach": 24,
-        "views": 29,
+        "reach": 43,
+        "views": 52,
         "shares": 0,
         "total_interactions": 1,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 24,
-        "navigation_tap_exit": 3,
-        "navigation_tap_back": 1,
-        "navigation_tap_forward": 20
+        "navigation": 47,
+        "navigation_tap_forward": 35,
+        "navigation_tap_back": 3,
+        "navigation_tap_exit": 7,
+        "navigation_swipe_forward": 2
       },
-      "insightsStand": "2026-11-01T19:47:18.030Z",
-      "insightsAlterStunden": 1.6
+      "insightsStand": "2026-11-02T05:45:20.704Z",
+      "insightsAlterStunden": 11.6
     }
   ],
   "fachZaehler": {
