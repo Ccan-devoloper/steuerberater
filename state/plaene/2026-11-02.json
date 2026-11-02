@@ -80,7 +80,8 @@
       "zeit": "12:14",
       "art": "norm",
       "themaId": "erbst-aufb-erbst-bew2-5",
-      "status": "geplant"
+      "status": "sendet",
+      "sendeversuch": "2026-11-02T11:14:00.085Z"
     },
     {
       "slot": "s2",
