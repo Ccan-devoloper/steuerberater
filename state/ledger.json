@@ -16303,17 +16303,17 @@
         "#einkommensteuer"
       ],
       "insights": {
-        "reach": 177,
+        "reach": 209,
         "saved": 3,
         "shares": 1,
-        "likes": 8,
+        "likes": 9,
         "comments": 0,
-        "total_interactions": 12,
-        "follows": 0,
-        "profile_visits": 3
+        "total_interactions": 13,
+        "follows": 1,
+        "profile_visits": 6
       },
-      "insightsStand": "2026-11-01T06:09:04.441Z",
-      "insightsAlterStunden": 93.1
+      "insightsStand": "2026-11-02T06:45:25.552Z",
+      "insightsAlterStunden": 117.7
     },
     {
       "datum": "2026-10-28",
@@ -16400,7 +16400,7 @@
         "#umwandlungssteuerrecht"
       ],
       "insights": {
-        "reach": 121,
+        "reach": 126,
         "saved": 3,
         "shares": 1,
         "likes": 3,
@@ -16409,8 +16409,8 @@
         "follows": 0,
         "profile_visits": 1
       },
-      "insightsStand": "2026-11-01T06:09:04.441Z",
-      "insightsAlterStunden": 89.6
+      "insightsStand": "2026-11-02T06:45:25.552Z",
+      "insightsAlterStunden": 114.3
     },
     {
       "datum": "2026-10-28",
