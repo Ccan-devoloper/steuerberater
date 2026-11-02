@@ -18759,6 +18759,28 @@
         "Zinsloses Darlehen",
         "an die GmbH"
       ]
+    },
+    {
+      "datum": "2026-11-02",
+      "slot": "b3",
+      "medienId": "18080505641539063",
+      "veroeffentlicht": "2026-11-02T16:30:09.940Z",
+      "quelle": "vorproduktion",
+      "art": "beitrag",
+      "zeit": "17:30",
+      "stunde": 17,
+      "format": "reel",
+      "thema": "umwst-aufb-umw-ks-3-03",
+      "fach": "umwst",
+      "klausur": 3,
+      "titel": "Wie wird das Übernahmeergebnis bei der Personengesellschaft besteuert?",
+      "hookTyp": null,
+      "hashtags": [
+        "#steuerberaterexamen",
+        "#steuerberaterprüfung",
+        "#examensvorbereitung",
+        "#umwandlungssteuerrecht"
+      ]
     }
   ],
   "fachZaehler": {
@@ -18771,7 +18793,7 @@
     "erbst": 13,
     "mindset": 2,
     "est": 8,
-    "umwst": 9,
+    "umwst": 10,
     "gewst": 5,
     "null": 12
   },
