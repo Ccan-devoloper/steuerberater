@@ -18118,7 +18118,7 @@
         "#steuerrecht"
       ],
       "insights": {
-        "reach": 126,
+        "reach": 129,
         "saved": 1,
         "shares": 0,
         "likes": 3,
@@ -18127,8 +18127,8 @@
         "follows": 0,
         "profile_visits": 1
       },
-      "insightsStand": "2026-11-02T06:09:03.956Z",
-      "insightsAlterStunden": 22.6
+      "insightsStand": "2026-11-02T15:45:06.857Z",
+      "insightsAlterStunden": 32.2
     },
     {
       "datum": "2026-11-01",
@@ -18305,22 +18305,22 @@
         "Gesellschafter"
       ],
       "insights": {
-        "reach": 75,
-        "views": 91,
+        "reach": 82,
+        "views": 100,
         "shares": 0,
         "total_interactions": 1,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 86,
-        "navigation_tap_back": 6,
-        "navigation_tap_exit": 18,
-        "navigation_tap_forward": 55,
-        "navigation_swipe_forward": 7
+        "navigation": 94,
+        "navigation_swipe_forward": 8,
+        "navigation_tap_forward": 59,
+        "navigation_tap_exit": 20,
+        "navigation_tap_back": 7
       },
-      "insightsStand": "2026-11-02T13:40:06.993Z",
-      "insightsAlterStunden": 21.6
+      "insightsStand": "2026-11-02T15:45:05.395Z",
+      "insightsAlterStunden": 23.7
     },
     {
       "datum": "2026-11-01",
@@ -18573,17 +18573,17 @@
         "#erbschaftsteuer"
       ],
       "insights": {
-        "reach": 87,
-        "saved": 2,
+        "reach": 98,
+        "saved": 3,
         "shares": 1,
         "likes": 3,
         "comments": 0,
-        "total_interactions": 6,
+        "total_interactions": 7,
         "follows": 0,
         "profile_visits": 0
       },
-      "insightsStand": "2026-11-02T12:30:20.792Z",
-      "insightsAlterStunden": 5
+      "insightsStand": "2026-11-02T15:45:06.857Z",
+      "insightsAlterStunden": 8.2
     },
     {
       "datum": "2026-11-02",
@@ -18669,17 +18669,17 @@
         "#internationalessteuerrecht"
       ],
       "insights": {
-        "reach": 41,
+        "reach": 64,
         "saved": 1,
         "shares": 0,
-        "likes": 3,
+        "likes": 4,
         "comments": 0,
-        "total_interactions": 4,
+        "total_interactions": 5,
         "follows": 0,
         "profile_visits": 1
       },
-      "insightsStand": "2026-11-02T13:40:11.085Z",
-      "insightsAlterStunden": 1.2
+      "insightsStand": "2026-11-02T15:45:06.857Z",
+      "insightsAlterStunden": 3.3
     },
     {
       "datum": "2026-11-02",
