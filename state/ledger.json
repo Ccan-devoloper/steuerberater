@@ -18273,22 +18273,22 @@
         "Woche abhaken"
       ],
       "insights": {
-        "reach": 71,
-        "views": 85,
+        "reach": 73,
+        "views": 90,
         "shares": 0,
         "total_interactions": 1,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 77,
-        "navigation_swipe_forward": 8,
-        "navigation_tap_forward": 47,
+        "navigation": 81,
+        "navigation_tap_back": 6,
         "navigation_tap_exit": 16,
-        "navigation_tap_back": 6
+        "navigation_tap_forward": 51,
+        "navigation_swipe_forward": 8
       },
-      "insightsStand": "2026-11-02T09:45:14.434Z",
-      "insightsAlterStunden": 20.1
+      "insightsStand": "2026-11-02T11:45:32.573Z",
+      "insightsAlterStunden": 22.1
     },
     {
       "datum": "2026-11-01",
@@ -18503,21 +18503,21 @@
       "fach": "bilanz",
       "titel": "",
       "insights": {
-        "reach": 17,
-        "views": 34,
+        "reach": 37,
+        "views": 52,
         "shares": 0,
         "total_interactions": 1,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 24,
-        "navigation_swipe_forward": 1,
-        "navigation_tap_forward": 19,
-        "navigation_tap_exit": 4
+        "navigation": 49,
+        "navigation_swipe_forward": 3,
+        "navigation_tap_forward": 40,
+        "navigation_tap_exit": 6
       },
-      "insightsStand": "2026-11-02T07:30:22.965Z",
-      "insightsAlterStunden": 1.4
+      "insightsStand": "2026-11-02T11:45:32.573Z",
+      "insightsAlterStunden": 5.6
     },
     {
       "datum": "2026-11-02",
@@ -18534,22 +18534,22 @@
         "S. 2 EStG"
       ],
       "insights": {
-        "reach": 17,
-        "views": 31,
+        "reach": 36,
+        "views": 50,
         "shares": 0,
         "total_interactions": 1,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 22,
-        "navigation_tap_forward": 12,
-        "navigation_tap_exit": 5,
-        "navigation_tap_back": 4,
+        "navigation": 50,
+        "navigation_tap_forward": 32,
+        "navigation_tap_exit": 7,
+        "navigation_tap_back": 10,
         "navigation_swipe_forward": 1
       },
-      "insightsStand": "2026-11-02T07:30:22.965Z",
-      "insightsAlterStunden": 1.4
+      "insightsStand": "2026-11-02T11:45:32.573Z",
+      "insightsAlterStunden": 5.6
     },
     {
       "datum": "2026-11-02",
