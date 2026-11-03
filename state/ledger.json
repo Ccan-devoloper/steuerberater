@@ -18866,21 +18866,22 @@
         "Übernahmegewinn voll versteuern?"
       ],
       "insights": {
-        "reach": 59,
-        "views": 76,
+        "reach": 67,
+        "views": 86,
         "shares": 0,
         "total_interactions": 1,
         "replies": 0,
         "follows": 0,
-        "profile_visits": 1,
+        "profile_visits": 2,
         "profile_activity": 0,
-        "navigation": 71,
-        "navigation_tap_forward": 58,
-        "navigation_tap_exit": 6,
-        "navigation_tap_back": 7
+        "navigation": 79,
+        "navigation_swipe_forward": 1,
+        "navigation_tap_back": 8,
+        "navigation_tap_exit": 9,
+        "navigation_tap_forward": 61
       },
-      "insightsStand": "2026-11-03T14:46:05.224Z",
-      "insightsAlterStunden": 20.8
+      "insightsStand": "2026-11-03T16:52:01.659Z",
+      "insightsAlterStunden": 22.9
     },
     {
       "datum": "2026-11-02",
@@ -18897,22 +18898,22 @@
         "und der Prüfer hakt nach"
       ],
       "insights": {
-        "reach": 61,
-        "views": 77,
+        "reach": 66,
+        "views": 82,
         "shares": 0,
         "total_interactions": 1,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 74,
-        "navigation_tap_back": 6,
+        "navigation": 79,
+        "navigation_tap_back": 7,
         "navigation_tap_exit": 10,
-        "navigation_tap_forward": 57,
-        "navigation_swipe_forward": 1
+        "navigation_tap_forward": 60,
+        "navigation_swipe_forward": 2
       },
-      "insightsStand": "2026-11-03T14:46:05.224Z",
-      "insightsAlterStunden": 20.8
+      "insightsStand": "2026-11-03T16:52:01.659Z",
+      "insightsAlterStunden": 22.9
     },
     {
       "datum": "2026-11-02",
@@ -18929,22 +18930,22 @@
         "welcher Stichtag?"
       ],
       "insights": {
-        "reach": 56,
-        "views": 78,
+        "reach": 58,
+        "views": 81,
         "shares": 0,
         "total_interactions": 1,
         "replies": 0,
         "follows": 0,
         "profile_visits": 2,
         "profile_activity": 0,
-        "navigation": 71,
+        "navigation": 73,
         "navigation_tap_exit": 13,
         "navigation_tap_back": 8,
-        "navigation_tap_forward": 46,
+        "navigation_tap_forward": 48,
         "navigation_swipe_forward": 4
       },
-      "insightsStand": "2026-11-03T14:46:05.224Z",
-      "insightsAlterStunden": 20.6
+      "insightsStand": "2026-11-03T16:52:01.659Z",
+      "insightsAlterStunden": 22.7
     },
     {
       "datum": "2026-11-03",
@@ -19054,22 +19055,22 @@
         "Entnahme wird Gewinn?"
       ],
       "insights": {
-        "reach": 25,
-        "views": 28,
+        "reach": 36,
+        "views": 45,
         "shares": 0,
         "total_interactions": 1,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 26,
-        "navigation_tap_back": 1,
-        "navigation_tap_forward": 19,
-        "navigation_tap_exit": 5,
-        "navigation_swipe_forward": 1
+        "navigation": 42,
+        "navigation_swipe_forward": 2,
+        "navigation_tap_exit": 7,
+        "navigation_tap_forward": 30,
+        "navigation_tap_back": 3
       },
-      "insightsStand": "2026-11-03T12:45:38.627Z",
-      "insightsAlterStunden": 5.3
+      "insightsStand": "2026-11-03T16:52:01.659Z",
+      "insightsAlterStunden": 9.4
     },
     {
       "datum": "2026-11-03",
