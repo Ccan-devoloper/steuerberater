@@ -19106,6 +19106,20 @@
         "#examensvorbereitung",
         "#bilanzsteuerrecht"
       ]
+    },
+    {
+      "datum": "2026-11-03",
+      "slot": "s2",
+      "medienId": "18030345830691805",
+      "veroeffentlicht": "2026-11-03T12:30:17.922Z",
+      "quelle": "vorproduktion",
+      "art": "story",
+      "storyArt": "teaser",
+      "thema": null,
+      "fach": "bilanz",
+      "titel": [
+        "Rückstellungen: steuerlich tabu"
+      ]
     }
   ],
   "fachZaehler": {
