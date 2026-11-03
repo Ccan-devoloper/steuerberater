@@ -15,11 +15,11 @@ def web_pille(img):
     from PIL import ImageDraw
     img = img.convert("RGB")
     d = ImageDraw.Draw(img)
-    f = F("Bold", 40)
+    f = F("Bold", 34)
     w = d.textlength(WEB_TEXT, font=f)
-    hh = 72; x0 = (img.width - w) / 2 - 40; y0 = img.height - hh - 8
-    d.rounded_rectangle([x0 + 6, y0 + 6, x0 + w + 86, y0 + hh + 6], radius=hh // 2, fill=INK[:3])
-    d.rounded_rectangle([x0, y0, x0 + w + 80, y0 + hh], radius=hh // 2, fill=(35, 217, 139), outline=INK[:3], width=4)
+    hh = 56; x0 = (img.width - w) / 2 - 32; y0 = img.height - hh - 4
+    d.rounded_rectangle([x0 + 6, y0 + 6, x0 + w + 70, y0 + hh + 5], radius=hh // 2, fill=INK[:3])
+    d.rounded_rectangle([x0, y0, x0 + w + 64, y0 + hh], radius=hh // 2, fill=(35, 217, 139), outline=INK[:3], width=4)
     d.text((img.width / 2 + 0, y0 + hh / 2), WEB_TEXT, font=f, fill=INK[:3], anchor="mm")
     return img
 
