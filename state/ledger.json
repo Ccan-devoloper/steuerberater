@@ -18994,6 +18994,20 @@
         "#examensvorbereitung",
         "#einkommensteuer"
       ]
+    },
+    {
+      "datum": "2026-11-03",
+      "slot": "s1",
+      "medienId": "17888657781620570",
+      "veroeffentlicht": "2026-11-03T07:30:20.525Z",
+      "quelle": "vorproduktion",
+      "art": "story",
+      "storyArt": "teaser",
+      "thema": null,
+      "fach": "est",
+      "titel": [
+        "Entnahme wird Gewinn?"
+      ]
     }
   ],
   "fachZaehler": {
