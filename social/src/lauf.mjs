@@ -17,6 +17,7 @@ import fs from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 import { CONFIG } from "./config.mjs";
+import { webHinweis } from "./webhinweis.mjs";
 import { manuellFinalisiert, tagesinhaltManuellFinalisiert } from "./finalisierung.mjs";
 import { istKostenKontrollFehler, budgetStoppGrund } from "./kostenfehler.mjs";
 import { mindsetThema } from "./kalender.mjs";
@@ -1066,7 +1067,7 @@ async function main() {
           log(`  Stimme „${gewaehlteStimme.name}“ entfernt (Tarif erlaubt sie nicht).`);
         }
         const [videoUrl, coverUrl] = await hosting.veroeffentlichen([r.video, r.cover], datum, `Reel ${datum} ${eintrag.slot}`);
-        const caption = `${reel.caption}${reel.bildQuelle ? `\n\n${reel.bildQuelle}` : ""}\n\n${reel.hashtags.join(" ")}`;
+        const caption = `${webHinweis(reel.caption)}${reel.bildQuelle ? `\n\n${reel.bildQuelle}` : ""}\n\n${reel.hashtags.join(" ")}`;
         const medienId = await ig.reelPosten({ videoUrl, coverUrl, caption });
         kontingent.genutzt += 1;
         const echt = veroeffentlichungEintragen(eintrag, medienId);
@@ -1093,7 +1094,7 @@ async function main() {
       }
       const bilder = await beitragRendern(beitrag, path.join(AUSGABE, "beitraege"), { variante });
       const urls = await hosting.veroeffentlichen(bilder, datum, `Beitrag ${datum} ${eintrag.slot}`);
-      const caption = `${beitrag.caption}${bildnachweis(beitrag)}\n\n${beitrag.hashtags.join(" ")}`;
+      const caption = `${webHinweis(beitrag.caption)}${bildnachweis(beitrag)}\n\n${beitrag.hashtags.join(" ")}`;
       const schonDa = await ig.bereitsVeroeffentlicht(caption);
       if (schonDa) log(`  Beitrag steht bereits auf Instagram (${schonDa}) – wird nur vermerkt.`);
       const medienId = schonDa || await ig.beitragPosten({ bildUrls: urls, caption });
@@ -1305,7 +1306,7 @@ async function main() {
     /* Die Publikationscaption entsteht HIER, in genau derselben Form wie im
        Tageslauf - und wird so gespeichert. Am Blockadetag wird nichts mehr
        zusammengesetzt; bereitsVeroeffentlicht() vergleicht diesen Text. */
-    const caption = `${beitrag.caption}${bildnachweis(beitrag)}\n\n${beitrag.hashtags.join(" ")}`;
+    const caption = `${webHinweis(beitrag.caption)}${bildnachweis(beitrag)}\n\n${beitrag.hashtags.join(" ")}`;
     return { thema, beitrag, bildUrls, caption, hashtags: beitrag.hashtags || [], faktenFreigabe: beitrag.faktenFreigabe };
   };
 
@@ -1416,7 +1417,7 @@ async function auffuellenLauf(ziel, { hosting, ledger, ledgerPfad, pool, poolInd
       }
       const bilder = await beitragRendern(beitrag, path.join(AUSGABE, "auffuellen"), { variante });
       const urls = await hosting.veroeffentlichen(bilder, datum, `Auffüllen ${slot}`);
-      const caption = `${beitrag.caption}${bildnachweis(beitrag)}\n\n${beitrag.hashtags.join(" ")}`;
+      const caption = `${webHinweis(beitrag.caption)}${bildnachweis(beitrag)}\n\n${beitrag.hashtags.join(" ")}`;
       const schonDa = await ig.bereitsVeroeffentlicht(caption);
       if (schonDa) log(`  Beitrag steht bereits auf Instagram (${schonDa}) – wird nur vermerkt.`);
       const medienId = schonDa || await ig.beitragPosten({ bildUrls: urls, caption });

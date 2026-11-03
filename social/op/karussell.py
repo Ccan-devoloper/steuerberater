@@ -6,6 +6,21 @@ from opkern import (C, F, OT, titel, pille, absatz, fl_block, karte, ficon, icon
                     X0, X1)
 
 MAX_WORTE = 40
+WEB_TEXT = "Mündliche StB-Prüfung? examenscampus.de"
+
+
+def web_pille(img):
+    """Kleiner Website-Hinweis unten mittig auf der letzten Folie."""
+    from PIL import ImageDraw
+    img = img.convert("RGB")
+    d = ImageDraw.Draw(img)
+    f = F("Bold", 28)
+    w = d.textlength(WEB_TEXT, font=f)
+    x0 = (img.width - w) / 2 - 24; y0 = img.height - 48
+    d.rounded_rectangle([x0, y0, x0 + w + 48, y0 + 44], radius=22, fill=INK[:3])
+    d.text((img.width / 2, y0 + 22), WEB_TEXT, font=f, fill=GELB[:3], anchor="mm")
+    return img
+
 MAX_FOLIEN = 10   # Grenze der Instagram-Graph-API für Karussells (die App erlaubt 20, die API nur 10)
 
 
@@ -34,6 +49,8 @@ class Karussell:
         if not ausnahme:
             assert worte <= MAX_WORTE, f"{datei}: {worte} Wörter (> {MAX_WORTE})"
         img = k.zusammensetzen(els, self.k, k.KARUSSELL)
+        if seite == self.n:
+            img = web_pille(img)
         pfad = os.path.join(self.out, datei)
         img.save(pfad, quality=93)
         self.dateien.append(pfad)
