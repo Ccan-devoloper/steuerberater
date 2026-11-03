@@ -18959,22 +18959,22 @@
       "fach": "ust",
       "titel": "",
       "insights": {
-        "reach": 42,
-        "views": 52,
+        "reach": 61,
+        "views": 81,
         "shares": 0,
         "total_interactions": 1,
         "replies": 0,
         "follows": 0,
-        "profile_visits": 0,
+        "profile_visits": 1,
         "profile_activity": 0,
-        "navigation": 48,
-        "navigation_swipe_forward": 1,
-        "navigation_tap_forward": 35,
-        "navigation_tap_exit": 11,
-        "navigation_tap_back": 1
+        "navigation": 72,
+        "navigation_tap_back": 3,
+        "navigation_tap_exit": 14,
+        "navigation_tap_forward": 53,
+        "navigation_swipe_forward": 2
       },
-      "insightsStand": "2026-11-03T15:47:12.601Z",
-      "insightsAlterStunden": 9.7
+      "insightsStand": "2026-11-03T19:59:15.949Z",
+      "insightsAlterStunden": 13.9
     },
     {
       "datum": "2026-11-03",
@@ -18991,21 +18991,21 @@
         "Empfänger"
       ],
       "insights": {
-        "reach": 38,
-        "views": 46,
+        "reach": 53,
+        "views": 70,
         "shares": 0,
         "total_interactions": 1,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 44,
-        "navigation_tap_exit": 6,
-        "navigation_tap_forward": 32,
-        "navigation_tap_back": 6
+        "navigation": 63,
+        "navigation_tap_exit": 7,
+        "navigation_tap_forward": 45,
+        "navigation_tap_back": 11
       },
-      "insightsStand": "2026-11-03T15:47:12.601Z",
-      "insightsAlterStunden": 9.6
+      "insightsStand": "2026-11-03T19:59:15.949Z",
+      "insightsAlterStunden": 13.8
     },
     {
       "datum": "2026-11-03",
@@ -19254,19 +19254,19 @@
         "#abgabenordnung"
       ],
       "insights": {
-        "reach": 208,
+        "reach": 378,
         "saved": 2,
         "shares": 0,
-        "likes": 6,
+        "likes": 8,
         "comments": 0,
-        "total_interactions": 8,
-        "views": 278,
-        "ig_reels_avg_watch_time": 8869,
-        "ig_reels_video_view_total_time": 1800427,
-        "reels_skip_rate": 56
+        "total_interactions": 10,
+        "views": 478,
+        "ig_reels_avg_watch_time": 9344,
+        "ig_reels_video_view_total_time": 3476336,
+        "reels_skip_rate": 56.9
       },
-      "insightsStand": "2026-11-03T18:12:37.102Z",
-      "insightsAlterStunden": 1.7
+      "insightsStand": "2026-11-03T19:59:22.788Z",
+      "insightsAlterStunden": 3.4
     },
     {
       "datum": "2026-11-03",
@@ -19318,7 +19318,23 @@
       "fach": "ao",
       "titel": [
         "Bescheid falsch: was geht noch?"
-      ]
+      ],
+      "insights": {
+        "reach": 22,
+        "views": 34,
+        "shares": 0,
+        "total_interactions": 0,
+        "replies": 0,
+        "follows": 0,
+        "profile_visits": 0,
+        "profile_activity": 0,
+        "navigation": 18,
+        "navigation_tap_forward": 13,
+        "navigation_tap_exit": 4,
+        "navigation_swipe_forward": 1
+      },
+      "insightsStand": "2026-11-03T19:59:15.949Z",
+      "insightsAlterStunden": 1.9
     },
     {
       "datum": "2026-11-03",
@@ -19333,7 +19349,23 @@
       "titel": [
         "„Kommt eh nicht dran“",
         "– bis es drankommt"
-      ]
+      ],
+      "insights": {
+        "reach": 20,
+        "views": 30,
+        "shares": 0,
+        "total_interactions": 0,
+        "replies": 0,
+        "follows": 0,
+        "profile_visits": 0,
+        "profile_activity": 0,
+        "navigation": 21,
+        "navigation_tap_exit": 4,
+        "navigation_tap_forward": 16,
+        "navigation_tap_back": 1
+      },
+      "insightsStand": "2026-11-03T19:59:15.949Z",
+      "insightsAlterStunden": 1.9
     },
     {
       "datum": "2026-11-03",
@@ -19348,7 +19380,24 @@
       "titel": [
         "Mehrere Fehler",
         "im Bescheid?"
-      ]
+      ],
+      "insights": {
+        "reach": 18,
+        "views": 26,
+        "shares": 0,
+        "total_interactions": 0,
+        "replies": 0,
+        "follows": 0,
+        "profile_visits": 0,
+        "profile_activity": 0,
+        "navigation": 19,
+        "navigation_swipe_forward": 1,
+        "navigation_tap_back": 1,
+        "navigation_tap_exit": 4,
+        "navigation_tap_forward": 13
+      },
+      "insightsStand": "2026-11-03T19:59:15.949Z",
+      "insightsAlterStunden": 1.8
     }
   ],
   "fachZaehler": {

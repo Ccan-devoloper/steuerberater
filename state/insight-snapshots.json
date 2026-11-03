@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "stand": "2026-11-03T18:55:58.312Z",
+  "stand": "2026-11-03T19:59:23.694Z",
   "medien": {
     "18093399314208242": {
       "art": "beitrag",
@@ -59631,6 +59631,23 @@
           "navigation_tap_forward": 35,
           "navigation_tap_exit": 11,
           "navigation_tap_back": 1
+        },
+        {
+          "stand": "2026-11-03T19:59:15.949Z",
+          "alterStunden": 13.9,
+          "reach": 61,
+          "views": 81,
+          "shares": 0,
+          "total_interactions": 1,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 1,
+          "profile_activity": 0,
+          "navigation": 72,
+          "navigation_tap_back": 3,
+          "navigation_tap_exit": 14,
+          "navigation_tap_forward": 53,
+          "navigation_swipe_forward": 2
         }
       ]
     },
@@ -59694,6 +59711,22 @@
           "navigation_tap_exit": 6,
           "navigation_tap_forward": 32,
           "navigation_tap_back": 6
+        },
+        {
+          "stand": "2026-11-03T19:59:15.949Z",
+          "alterStunden": 13.8,
+          "reach": 53,
+          "views": 70,
+          "shares": 0,
+          "total_interactions": 1,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 63,
+          "navigation_tap_exit": 7,
+          "navigation_tap_forward": 45,
+          "navigation_tap_back": 11
         }
       ]
     },
@@ -60076,6 +60109,20 @@
           "ig_reels_avg_watch_time": 8869,
           "ig_reels_video_view_total_time": 1800427,
           "reels_skip_rate": 56
+        },
+        {
+          "stand": "2026-11-03T19:59:22.788Z",
+          "alterStunden": 3.4,
+          "reach": 378,
+          "saved": 2,
+          "shares": 0,
+          "likes": 8,
+          "comments": 0,
+          "total_interactions": 10,
+          "views": 478,
+          "ig_reels_avg_watch_time": 9344,
+          "ig_reels_video_view_total_time": 3476336,
+          "reels_skip_rate": 56.9
         }
       ]
     },
@@ -60102,6 +60149,99 @@
           "ig_reels_avg_watch_time": 9357,
           "ig_reels_video_view_total_time": 1160348,
           "reels_skip_rate": 46.1
+        }
+      ]
+    },
+    "18122219189073809": {
+      "art": "story",
+      "datum": "2026-11-03",
+      "titel": [
+        "Bescheid falsch: was geht noch?"
+      ],
+      "format": null,
+      "fach": "ao",
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-11-03T18:06:47.021Z",
+      "snapshots": [
+        {
+          "stand": "2026-11-03T19:59:15.949Z",
+          "alterStunden": 1.9,
+          "reach": 22,
+          "views": 34,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 18,
+          "navigation_tap_forward": 13,
+          "navigation_tap_exit": 4,
+          "navigation_swipe_forward": 1
+        }
+      ]
+    },
+    "18101974052562044": {
+      "art": "story",
+      "datum": "2026-11-03",
+      "titel": [
+        "„Kommt eh nicht dran“",
+        "– bis es drankommt"
+      ],
+      "format": null,
+      "fach": null,
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-11-03T18:07:23.726Z",
+      "snapshots": [
+        {
+          "stand": "2026-11-03T19:59:15.949Z",
+          "alterStunden": 1.9,
+          "reach": 20,
+          "views": 30,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 21,
+          "navigation_tap_exit": 4,
+          "navigation_tap_forward": 16,
+          "navigation_tap_back": 1
+        }
+      ]
+    },
+    "18115721627606224": {
+      "art": "story",
+      "datum": "2026-11-03",
+      "titel": [
+        "Mehrere Fehler",
+        "im Bescheid?"
+      ],
+      "format": null,
+      "fach": "ao",
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-11-03T18:12:19.495Z",
+      "snapshots": [
+        {
+          "stand": "2026-11-03T19:59:15.949Z",
+          "alterStunden": 1.8,
+          "reach": 18,
+          "views": 26,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 19,
+          "navigation_swipe_forward": 1,
+          "navigation_tap_back": 1,
+          "navigation_tap_exit": 4,
+          "navigation_tap_forward": 13
         }
       ]
     }
@@ -63310,6 +63450,11 @@
     {
       "stand": "2026-11-03T18:12:39.894Z",
       "follower": 461,
+      "medien": 186
+    },
+    {
+      "stand": "2026-11-03T19:59:23.694Z",
+      "follower": 464,
       "medien": 186
     }
   ]
