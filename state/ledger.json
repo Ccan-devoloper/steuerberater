@@ -19234,6 +19234,30 @@
         "#examensvorbereitung",
         "#abgabenordnung"
       ]
+    },
+    {
+      "datum": "2026-11-03",
+      "slot": "m1",
+      "medienId": "18247054780314268",
+      "veroeffentlicht": "2026-11-03T18:06:00.829Z",
+      "quelle": "vorproduktion",
+      "art": "beitrag",
+      "zeit": "19:00",
+      "stunde": 19,
+      "format": "reel",
+      "thema": "lead-zr-z4",
+      "fach": null,
+      "klausur": 0,
+      "titel": "Darf der Prokurist das Grundstück verkaufen?",
+      "hookTyp": null,
+      "hashtags": [
+        "#steuerberaterprüfung",
+        "#steuerberaterexamen",
+        "#mündlicheprüfung",
+        "#examensvorbereitung",
+        "#zivilrecht",
+        "#steuerberater"
+      ]
     }
   ],
   "fachZaehler": {
@@ -19248,7 +19272,7 @@
     "est": 9,
     "umwst": 10,
     "gewst": 5,
-    "null": 13
+    "null": 14
   },
   "nachrichten": [],
   "postfach": [],
