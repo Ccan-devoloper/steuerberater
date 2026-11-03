@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "stand": "2026-11-03T11:47:10.556Z",
+  "stand": "2026-11-03T12:30:20.290Z",
   "medien": {
     "18093399314208242": {
       "art": "beitrag",
@@ -59312,6 +59312,48 @@
           "total_interactions": 2,
           "follows": 0,
           "profile_visits": 0
+        },
+        {
+          "stand": "2026-11-03T12:30:20.290Z",
+          "alterStunden": 5,
+          "reach": 72,
+          "saved": 2,
+          "shares": 0,
+          "likes": 0,
+          "comments": 0,
+          "total_interactions": 2,
+          "follows": 0,
+          "profile_visits": 0
+        }
+      ]
+    },
+    "17900428020399453": {
+      "art": "story",
+      "datum": "2026-11-03",
+      "titel": [
+        "Arbeiten im",
+        "Ausland?"
+      ],
+      "format": null,
+      "fach": "istr",
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-11-03T11:14:03.277Z",
+      "snapshots": [
+        {
+          "stand": "2026-11-03T12:30:19.196Z",
+          "alterStunden": 1.3,
+          "reach": 14,
+          "views": 16,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 14,
+          "navigation_tap_exit": 3,
+          "navigation_tap_forward": 11
         }
       ]
     }
