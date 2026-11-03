@@ -36,7 +36,8 @@
       "themaTitel": "Fehlerhafter Bescheid: erst Einspruch, dann Korrekturnorm, zuletzt Saldierung",
       "fach": "ao",
       "klausur": 1,
-      "status": "geplant"
+      "status": "sendet",
+      "sendeversuch": "2026-11-03T16:32:38.532Z"
     },
     {
       "slot": "m1",
