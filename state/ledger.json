@@ -18632,22 +18632,22 @@
         "oder Sachwert?"
       ],
       "insights": {
-        "reach": 67,
-        "views": 92,
+        "reach": 72,
+        "views": 100,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
-        "profile_visits": 0,
+        "profile_visits": 1,
         "profile_activity": 0,
-        "navigation": 79,
-        "navigation_tap_back": 9,
-        "navigation_tap_exit": 11,
+        "navigation": 83,
+        "navigation_swipe_forward": 7,
         "navigation_tap_forward": 54,
-        "navigation_swipe_forward": 5
+        "navigation_tap_exit": 13,
+        "navigation_tap_back": 9
       },
-      "insightsStand": "2026-11-03T08:44:54.472Z",
-      "insightsAlterStunden": 21.5
+      "insightsStand": "2026-11-03T10:48:00.472Z",
+      "insightsAlterStunden": 23.6
     },
     {
       "datum": "2026-11-02",
@@ -18698,7 +18698,7 @@
       ],
       "insights": {
         "reach": 67,
-        "views": 87,
+        "views": 88,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
@@ -18711,8 +18711,8 @@
         "navigation_tap_exit": 14,
         "navigation_tap_back": 7
       },
-      "insightsStand": "2026-11-03T08:44:54.472Z",
-      "insightsAlterStunden": 20.2
+      "insightsStand": "2026-11-03T10:48:00.472Z",
+      "insightsAlterStunden": 22.3
     },
     {
       "datum": "2026-11-02",
@@ -18761,22 +18761,22 @@
         "an die GmbH"
       ],
       "insights": {
-        "reach": 43,
-        "views": 67,
+        "reach": 58,
+        "views": 88,
         "shares": 0,
-        "total_interactions": 1,
+        "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 1,
         "profile_activity": 0,
-        "navigation": 54,
-        "navigation_tap_exit": 8,
-        "navigation_tap_forward": 38,
+        "navigation": 75,
+        "navigation_tap_exit": 11,
+        "navigation_tap_forward": 53,
         "navigation_tap_back": 4,
-        "navigation_swipe_forward": 4
+        "navigation_swipe_forward": 7
       },
-      "insightsStand": "2026-11-03T05:45:42.643Z",
-      "insightsAlterStunden": 13.7
+      "insightsStand": "2026-11-03T10:48:00.472Z",
+      "insightsAlterStunden": 18.7
     },
     {
       "datum": "2026-11-02",
@@ -18866,21 +18866,21 @@
         "Übernahmegewinn voll versteuern?"
       ],
       "insights": {
-        "reach": 40,
-        "views": 49,
+        "reach": 53,
+        "views": 70,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 1,
         "profile_activity": 0,
-        "navigation": 44,
-        "navigation_tap_back": 2,
-        "navigation_tap_exit": 5,
-        "navigation_tap_forward": 37
+        "navigation": 65,
+        "navigation_tap_forward": 52,
+        "navigation_tap_exit": 6,
+        "navigation_tap_back": 7
       },
-      "insightsStand": "2026-11-03T05:45:42.643Z",
-      "insightsAlterStunden": 11.8
+      "insightsStand": "2026-11-03T10:48:00.472Z",
+      "insightsAlterStunden": 16.8
     },
     {
       "datum": "2026-11-02",
@@ -18897,22 +18897,22 @@
         "und der Prüfer hakt nach"
       ],
       "insights": {
-        "reach": 41,
-        "views": 53,
+        "reach": 54,
+        "views": 71,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 50,
+        "navigation": 67,
         "navigation_swipe_forward": 1,
-        "navigation_tap_forward": 39,
-        "navigation_tap_exit": 7,
-        "navigation_tap_back": 3
+        "navigation_tap_forward": 51,
+        "navigation_tap_exit": 9,
+        "navigation_tap_back": 6
       },
-      "insightsStand": "2026-11-03T05:45:42.643Z",
-      "insightsAlterStunden": 11.8
+      "insightsStand": "2026-11-03T10:48:00.472Z",
+      "insightsAlterStunden": 16.8
     },
     {
       "datum": "2026-11-02",
@@ -18929,22 +18929,22 @@
         "welcher Stichtag?"
       ],
       "insights": {
-        "reach": 38,
-        "views": 54,
+        "reach": 49,
+        "views": 70,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
-        "profile_visits": 1,
+        "profile_visits": 2,
         "profile_activity": 0,
-        "navigation": 49,
+        "navigation": 63,
         "navigation_swipe_forward": 3,
-        "navigation_tap_forward": 29,
-        "navigation_tap_back": 6,
-        "navigation_tap_exit": 11
+        "navigation_tap_forward": 40,
+        "navigation_tap_back": 8,
+        "navigation_tap_exit": 12
       },
-      "insightsStand": "2026-11-03T05:45:42.643Z",
-      "insightsAlterStunden": 11.6
+      "insightsStand": "2026-11-03T10:48:00.472Z",
+      "insightsAlterStunden": 16.6
     },
     {
       "datum": "2026-11-03",
@@ -19026,7 +19026,7 @@
         "#einkommensteuer"
       ],
       "insights": {
-        "reach": 44,
+        "reach": 65,
         "saved": 2,
         "shares": 0,
         "likes": 0,
@@ -19035,8 +19035,8 @@
         "follows": 0,
         "profile_visits": 0
       },
-      "insightsStand": "2026-11-03T08:44:57.953Z",
-      "insightsAlterStunden": 1.2
+      "insightsStand": "2026-11-03T10:48:07.852Z",
+      "insightsAlterStunden": 3.3
     },
     {
       "datum": "2026-11-03",
