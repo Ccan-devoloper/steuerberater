@@ -15949,7 +15949,7 @@
         "#internationalessteuerrecht"
       ],
       "insights": {
-        "reach": 139,
+        "reach": 146,
         "saved": 3,
         "shares": 2,
         "likes": 3,
@@ -15958,8 +15958,8 @@
         "follows": 0,
         "profile_visits": 1
       },
-      "insightsStand": "2026-11-02T12:30:20.792Z",
-      "insightsAlterStunden": 144
+      "insightsStand": "2026-11-03T12:45:40.106Z",
+      "insightsAlterStunden": 168.3
     },
     {
       "datum": "2026-10-27",
@@ -16046,7 +16046,7 @@
         "#examensvorbereitung"
       ],
       "insights": {
-        "reach": 288,
+        "reach": 299,
         "saved": 4,
         "shares": 1,
         "likes": 2,
@@ -16055,8 +16055,8 @@
         "follows": 0,
         "profile_visits": 16
       },
-      "insightsStand": "2026-11-02T12:30:20.792Z",
-      "insightsAlterStunden": 140.9
+      "insightsStand": "2026-11-03T12:45:40.106Z",
+      "insightsAlterStunden": 165.2
     },
     {
       "datum": "2026-10-27",
@@ -18800,19 +18800,19 @@
         "#umwandlungssteuerrecht"
       ],
       "insights": {
-        "reach": 1108,
+        "reach": 1148,
         "saved": 7,
         "shares": 1,
         "likes": 15,
         "comments": 0,
         "total_interactions": 23,
-        "views": 1332,
-        "ig_reels_avg_watch_time": 10695,
-        "ig_reels_video_view_total_time": 12032860,
-        "reels_skip_rate": 50.3
+        "views": 1373,
+        "ig_reels_avg_watch_time": 10719,
+        "ig_reels_video_view_total_time": 12466350,
+        "reels_skip_rate": 50.6
       },
-      "insightsStand": "2026-11-03T09:45:24.905Z",
-      "insightsAlterStunden": 17.3
+      "insightsStand": "2026-11-03T12:45:40.106Z",
+      "insightsAlterStunden": 20.3
     },
     {
       "datum": "2026-11-02",
@@ -18838,19 +18838,19 @@
         "#steuerberater"
       ],
       "insights": {
-        "reach": 526,
+        "reach": 553,
         "saved": 5,
         "shares": 0,
         "likes": 6,
         "comments": 0,
         "total_interactions": 11,
-        "views": 638,
-        "ig_reels_avg_watch_time": 5947,
-        "ig_reels_video_view_total_time": 3265265,
-        "reels_skip_rate": 64
+        "views": 676,
+        "ig_reels_avg_watch_time": 5838,
+        "ig_reels_video_view_total_time": 3380451,
+        "reels_skip_rate": 64.1
       },
-      "insightsStand": "2026-11-03T09:45:24.905Z",
-      "insightsAlterStunden": 15.8
+      "insightsStand": "2026-11-03T12:45:40.106Z",
+      "insightsAlterStunden": 18.8
     },
     {
       "datum": "2026-11-02",
@@ -19054,21 +19054,22 @@
         "Entnahme wird Gewinn?"
       ],
       "insights": {
-        "reach": 9,
-        "views": 12,
+        "reach": 25,
+        "views": 28,
         "shares": 0,
-        "total_interactions": 0,
+        "total_interactions": 1,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 10,
-        "navigation_tap_forward": 6,
-        "navigation_tap_exit": 3,
+        "navigation": 26,
+        "navigation_tap_back": 1,
+        "navigation_tap_forward": 19,
+        "navigation_tap_exit": 5,
         "navigation_swipe_forward": 1
       },
-      "insightsStand": "2026-11-03T08:44:54.472Z",
-      "insightsAlterStunden": 1.2
+      "insightsStand": "2026-11-03T12:45:38.627Z",
+      "insightsAlterStunden": 5.3
     },
     {
       "datum": "2026-11-03",
