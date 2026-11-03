@@ -18957,6 +18957,21 @@
       "thema": "ust-quiz-ust-7",
       "fach": "ust",
       "titel": ""
+    },
+    {
+      "datum": "2026-11-03",
+      "slot": "s5",
+      "medienId": "18353333047255398",
+      "veroeffentlicht": "2026-11-03T06:09:03.047Z",
+      "quelle": "vorproduktion",
+      "art": "story",
+      "storyArt": "antwort",
+      "thema": "ust-quiz-ust-7",
+      "fach": "ust",
+      "titel": [
+        "B: der bauende",
+        "Empfänger"
+      ]
     }
   ],
   "fachZaehler": {
