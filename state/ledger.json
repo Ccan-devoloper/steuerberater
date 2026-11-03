@@ -18761,22 +18761,22 @@
         "an die GmbH"
       ],
       "insights": {
-        "reach": 58,
-        "views": 88,
+        "reach": 64,
+        "views": 93,
         "shares": 0,
-        "total_interactions": 0,
+        "total_interactions": 1,
         "replies": 0,
         "follows": 0,
         "profile_visits": 1,
         "profile_activity": 0,
-        "navigation": 75,
-        "navigation_tap_exit": 11,
-        "navigation_tap_forward": 53,
+        "navigation": 81,
+        "navigation_swipe_forward": 7,
         "navigation_tap_back": 4,
-        "navigation_swipe_forward": 7
+        "navigation_tap_forward": 58,
+        "navigation_tap_exit": 12
       },
-      "insightsStand": "2026-11-03T10:48:00.472Z",
-      "insightsAlterStunden": 18.7
+      "insightsStand": "2026-11-03T13:01:22.617Z",
+      "insightsAlterStunden": 21
     },
     {
       "datum": "2026-11-02",
