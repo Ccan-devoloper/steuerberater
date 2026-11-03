@@ -48,7 +48,8 @@
       "themaTitel": "Darf der Prokurist das Grundstück verkaufen?",
       "fach": null,
       "klausur": 0,
-      "status": "geplant"
+      "status": "sendet",
+      "sendeversuch": "2026-11-03T18:05:41.442Z"
     }
   ],
   "stories": [
