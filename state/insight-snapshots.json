@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "stand": "2026-11-03T16:52:07.263Z",
+  "stand": "2026-11-03T18:12:39.894Z",
   "medien": {
     "18093399314208242": {
       "art": "beitrag",
@@ -58856,6 +58856,18 @@
           "total_interactions": 9,
           "follows": 0,
           "profile_visits": 1
+        },
+        {
+          "stand": "2026-11-03T18:12:37.102Z",
+          "alterStunden": 29.7,
+          "reach": 99,
+          "saved": 4,
+          "shares": 0,
+          "likes": 5,
+          "comments": 0,
+          "total_interactions": 9,
+          "follows": 0,
+          "profile_visits": 1
         }
       ]
     },
@@ -59883,6 +59895,23 @@
           "navigation_swipe_forward": 1,
           "navigation_tap_exit": 4,
           "navigation_tap_forward": 8
+        },
+        {
+          "stand": "2026-11-03T18:12:33.370Z",
+          "alterStunden": 5.7,
+          "reach": 30,
+          "views": 38,
+          "shares": 0,
+          "total_interactions": 1,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 37,
+          "navigation_tap_back": 2,
+          "navigation_swipe_forward": 1,
+          "navigation_tap_exit": 7,
+          "navigation_tap_forward": 27
         }
       ]
     },
@@ -59919,6 +59948,18 @@
           "total_interactions": 3,
           "follows": 0,
           "profile_visits": 0
+        },
+        {
+          "stand": "2026-11-03T18:12:37.102Z",
+          "alterStunden": 5.7,
+          "reach": 70,
+          "saved": 2,
+          "shares": 0,
+          "likes": 1,
+          "comments": 0,
+          "total_interactions": 3,
+          "follows": 0,
+          "profile_visits": 1
         }
       ]
     },
@@ -59949,6 +59990,63 @@
           "navigation": 8,
           "navigation_tap_exit": 2,
           "navigation_tap_forward": 6
+        }
+      ]
+    },
+    "18113874506139363": {
+      "art": "story",
+      "datum": "2026-11-03",
+      "titel": [
+        "Buchung:",
+        "für welche Bilanz?"
+      ],
+      "format": null,
+      "fach": "bilanz",
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-11-03T16:04:04.048Z",
+      "snapshots": [
+        {
+          "stand": "2026-11-03T18:12:33.370Z",
+          "alterStunden": 2.1,
+          "reach": 19,
+          "views": 28,
+          "shares": 0,
+          "total_interactions": 1,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 21,
+          "navigation_tap_exit": 4,
+          "navigation_tap_forward": 15,
+          "navigation_tap_back": 2
+        }
+      ]
+    },
+    "18496331920106565": {
+      "art": "beitrag",
+      "datum": "2026-11-03",
+      "titel": "Fehlerhafter Bescheid: erst Einspruch, dann Korrekturnorm, zuletzt Saldierung",
+      "format": "reel",
+      "fach": "ao",
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-11-03T16:32:48.912Z",
+      "snapshots": [
+        {
+          "stand": "2026-11-03T18:12:37.102Z",
+          "alterStunden": 1.7,
+          "reach": 208,
+          "saved": 2,
+          "shares": 0,
+          "likes": 6,
+          "comments": 0,
+          "total_interactions": 8,
+          "views": 278,
+          "ig_reels_avg_watch_time": 8869,
+          "ig_reels_video_view_total_time": 1800427,
+          "reels_skip_rate": 56
         }
       ]
     }
@@ -63153,6 +63251,11 @@
       "stand": "2026-11-03T16:52:07.263Z",
       "follower": 459,
       "medien": 185
+    },
+    {
+      "stand": "2026-11-03T18:12:39.894Z",
+      "follower": 461,
+      "medien": 186
     }
   ]
 }
