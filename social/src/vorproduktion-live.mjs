@@ -24,6 +24,7 @@ import { beitragRendern, coverRendern } from "./render.mjs";
 import { coverDaten } from "./reel.mjs";
 import { coverIconEinsetzen } from "./vorproduktion.mjs";
 import { echteMedienId, veroeffentlichungEintragen } from "./veroeffentlichung.mjs";
+import { webHinweis } from "./webhinweis.mjs";
 
 const istJpeg = (name) => /\.jpe?g$/i.test(name);
 const istVideo = (name) => /\.mp4$/i.test(name);
@@ -88,7 +89,7 @@ function echteVeroeffentlichungImPlan(plan) {
 
 function captionFuer(inhalt) {
   const hashtags = Array.isArray(inhalt?.hashtags) ? inhalt.hashtags.filter(Boolean).join(" ") : "";
-  return [String(inhalt?.caption || "").trim(), hashtags].filter(Boolean).join("\n\n");
+  return [webHinweis(inhalt?.caption), hashtags].filter(Boolean).join("\n\n");
 }
 
 function dateienImOrdner(dir, test) {
