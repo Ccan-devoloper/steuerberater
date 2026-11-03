@@ -18972,6 +18972,28 @@
         "B: der bauende",
         "Empfänger"
       ]
+    },
+    {
+      "datum": "2026-11-03",
+      "slot": "b1",
+      "medienId": "18416651068081173",
+      "veroeffentlicht": "2026-11-03T07:30:06.756Z",
+      "quelle": "vorproduktion",
+      "art": "beitrag",
+      "zeit": "08:30",
+      "stunde": 8,
+      "format": "rechenweg",
+      "thema": "est-aufb-est-ks2-15a-06",
+      "fach": "est",
+      "klausur": 2,
+      "titel": "Rechenweg",
+      "hookTyp": null,
+      "hashtags": [
+        "#steuerberaterexamen",
+        "#steuerberaterprüfung",
+        "#examensvorbereitung",
+        "#einkommensteuer"
+      ]
     }
   ],
   "fachZaehler": {
@@ -18983,7 +19005,7 @@
     "istr": 21,
     "erbst": 13,
     "mindset": 2,
-    "est": 8,
+    "est": 9,
     "umwst": 10,
     "gewst": 5,
     "null": 13
