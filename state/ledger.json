@@ -19209,13 +19209,35 @@
         "Buchung:",
         "für welche Bilanz?"
       ]
+    },
+    {
+      "datum": "2026-11-03",
+      "slot": "b3",
+      "medienId": "18496331920106565",
+      "veroeffentlicht": "2026-11-03T16:32:48.912Z",
+      "quelle": "vorproduktion",
+      "art": "beitrag",
+      "zeit": "17:30",
+      "stunde": 17,
+      "format": "reel",
+      "thema": "ao-modul-ao-327",
+      "fach": "ao",
+      "klausur": 1,
+      "titel": "Fehlerhafter Bescheid: erst Einspruch, dann Korrekturnorm, zuletzt Saldierung",
+      "hookTyp": null,
+      "hashtags": [
+        "#steuerberaterexamen",
+        "#steuerberaterprüfung",
+        "#examensvorbereitung",
+        "#abgabenordnung"
+      ]
     }
   ],
   "fachZaehler": {
     "persg": 19,
     "ust": 16,
     "kst": 15,
-    "ao": 27,
+    "ao": 28,
     "bilanz": 27,
     "istr": 21,
     "erbst": 13,
