@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "stand": "2026-11-03T07:45:42.782Z",
+  "stand": "2026-11-03T08:44:58.542Z",
   "medien": {
     "18093399314208242": {
       "art": "beitrag",
@@ -58410,6 +58410,23 @@
           "navigation_tap_exit": 11,
           "navigation_tap_forward": 42,
           "navigation_swipe_forward": 3
+        },
+        {
+          "stand": "2026-11-03T08:44:54.472Z",
+          "alterStunden": 21.5,
+          "reach": 67,
+          "views": 92,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 79,
+          "navigation_tap_back": 9,
+          "navigation_tap_exit": 11,
+          "navigation_tap_forward": 54,
+          "navigation_swipe_forward": 5
         }
       ]
     },
@@ -58492,6 +58509,23 @@
           "navigation_tap_exit": 11,
           "navigation_tap_forward": 49,
           "navigation_swipe_forward": 1
+        },
+        {
+          "stand": "2026-11-03T08:44:54.472Z",
+          "alterStunden": 20.2,
+          "reach": 67,
+          "views": 87,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 1,
+          "profile_activity": 0,
+          "navigation": 82,
+          "navigation_swipe_forward": 3,
+          "navigation_tap_forward": 58,
+          "navigation_tap_exit": 14,
+          "navigation_tap_back": 7
         }
       ]
     },
@@ -59004,6 +59038,60 @@
           "navigation_tap_exit": 2,
           "navigation_tap_forward": 11,
           "navigation_tap_back": 3
+        }
+      ]
+    },
+    "17888657781620570": {
+      "art": "story",
+      "datum": "2026-11-03",
+      "titel": [
+        "Entnahme wird Gewinn?"
+      ],
+      "format": null,
+      "fach": "est",
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-11-03T07:30:20.525Z",
+      "snapshots": [
+        {
+          "stand": "2026-11-03T08:44:54.472Z",
+          "alterStunden": 1.2,
+          "reach": 9,
+          "views": 12,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 10,
+          "navigation_tap_forward": 6,
+          "navigation_tap_exit": 3,
+          "navigation_swipe_forward": 1
+        }
+      ]
+    },
+    "18416651068081173": {
+      "art": "beitrag",
+      "datum": "2026-11-03",
+      "titel": "Rechenweg",
+      "format": "rechenweg",
+      "fach": "est",
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-11-03T07:30:06.756Z",
+      "snapshots": [
+        {
+          "stand": "2026-11-03T08:44:57.953Z",
+          "alterStunden": 1.2,
+          "reach": 44,
+          "saved": 2,
+          "shares": 0,
+          "likes": 0,
+          "comments": 0,
+          "total_interactions": 2,
+          "follows": 0,
+          "profile_visits": 0
         }
       ]
     }
@@ -62162,6 +62250,11 @@
     {
       "stand": "2026-11-03T07:45:42.782Z",
       "follower": 460,
+      "medien": 183
+    },
+    {
+      "stand": "2026-11-03T08:44:58.542Z",
+      "follower": 461,
       "medien": 183
     }
   ]

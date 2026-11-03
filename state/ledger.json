@@ -18632,22 +18632,22 @@
         "oder Sachwert?"
       ],
       "insights": {
-        "reach": 54,
-        "views": 72,
+        "reach": 67,
+        "views": 92,
         "shares": 0,
-        "total_interactions": 1,
+        "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 63,
-        "navigation_tap_back": 7,
+        "navigation": 79,
+        "navigation_tap_back": 9,
         "navigation_tap_exit": 11,
-        "navigation_tap_forward": 42,
-        "navigation_swipe_forward": 3
+        "navigation_tap_forward": 54,
+        "navigation_swipe_forward": 5
       },
-      "insightsStand": "2026-11-03T05:45:42.643Z",
-      "insightsAlterStunden": 18.5
+      "insightsStand": "2026-11-03T08:44:54.472Z",
+      "insightsAlterStunden": 21.5
     },
     {
       "datum": "2026-11-02",
@@ -18697,22 +18697,22 @@
         "Dividende ins Ausland"
       ],
       "insights": {
-        "reach": 53,
-        "views": 72,
+        "reach": 67,
+        "views": 87,
         "shares": 0,
-        "total_interactions": 1,
+        "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 1,
         "profile_activity": 0,
-        "navigation": 67,
-        "navigation_tap_back": 6,
-        "navigation_tap_exit": 11,
-        "navigation_tap_forward": 49,
-        "navigation_swipe_forward": 1
+        "navigation": 82,
+        "navigation_swipe_forward": 3,
+        "navigation_tap_forward": 58,
+        "navigation_tap_exit": 14,
+        "navigation_tap_back": 7
       },
-      "insightsStand": "2026-11-03T05:45:42.643Z",
-      "insightsAlterStunden": 17.3
+      "insightsStand": "2026-11-03T08:44:54.472Z",
+      "insightsAlterStunden": 20.2
     },
     {
       "datum": "2026-11-02",
@@ -19024,7 +19024,19 @@
         "#steuerberaterprüfung",
         "#examensvorbereitung",
         "#einkommensteuer"
-      ]
+      ],
+      "insights": {
+        "reach": 44,
+        "saved": 2,
+        "shares": 0,
+        "likes": 0,
+        "comments": 0,
+        "total_interactions": 2,
+        "follows": 0,
+        "profile_visits": 0
+      },
+      "insightsStand": "2026-11-03T08:44:57.953Z",
+      "insightsAlterStunden": 1.2
     },
     {
       "datum": "2026-11-03",
@@ -19038,7 +19050,23 @@
       "fach": "est",
       "titel": [
         "Entnahme wird Gewinn?"
-      ]
+      ],
+      "insights": {
+        "reach": 9,
+        "views": 12,
+        "shares": 0,
+        "total_interactions": 0,
+        "replies": 0,
+        "follows": 0,
+        "profile_visits": 0,
+        "profile_activity": 0,
+        "navigation": 10,
+        "navigation_tap_forward": 6,
+        "navigation_tap_exit": 3,
+        "navigation_swipe_forward": 1
+      },
+      "insightsStand": "2026-11-03T08:44:54.472Z",
+      "insightsAlterStunden": 1.2
     }
   ],
   "fachZaehler": {
