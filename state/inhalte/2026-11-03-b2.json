@@ -1,0 +1,80 @@
+{
+  "format": "kurzvortrag",
+  "fach": "bilanz",
+  "klausur": 3,
+  "fachLabel": "Bilanzsteuerrecht",
+  "themaId": "bilanz-aufb-bil-melzer-12-02",
+  "caption": "Kurzvortrag für die mündliche Prüfung: Welche Rückstellungen sind in der Steuerbilanz verboten? So baust du zehn Minuten auf.\n\n1. Einstieg (1 Min.): Handelsrechtliche Passivierungspflichten gelten über die Maßgeblichkeit auch steuerlich (§ 5 Abs. 1 S. 1 EStG), soweit das EStG nichts anderes bestimmt.\n2. Handelsrecht (2 Min.): Pflicht für ungewisse Verbindlichkeiten und drohende Verluste aus schwebenden Geschäften (§ 249 Abs. 1 S. 1 HGB), für Instandhaltung mit Nachholung in drei Monaten, Abraumbeseitigung im Folgejahr und Kulanzgewährleistungen (§ 249 Abs. 1 S. 2 HGB); andere Rückstellungen sind verboten (§ 249 Abs. 2 S. 1 HGB).\n3. Steuerliche Verbote (4 Min.): keine Drohverlustrückstellung (§ 5 Abs. 4a S. 1 EStG), keine Rückstellung für künftige Anschaffungs- oder Herstellungskosten (§ 5 Abs. 4b S. 1 EStG), gewinnabhängige Verpflichtungen erst bei Anfall der Gewinne (§ 5 Abs. 2a EStG). Eng: Schutzrechtsverletzungen (§ 5 Abs. 3 EStG), Dienstjubiläen (§ 5 Abs. 4 EStG), Pensionen (§ 6a EStG).\n4. Bewertung (2 Min.): Grundsätze des § 6 Abs. 1 Nr. 3a EStG, Abzinsung mit 5,5 %, außer bei Laufzeit unter zwölf Monaten (Buchst. e).\n5. Fazit (1 Min.): HB-Pflicht wirkt steuerlich, außer ein Vorbehalt des EStG greift.\n\nTypische Nachfragen: Instandhaltung erst im fünften Monat nachgeholt? Was wird abgezinst?\nIn der mündlichen Prüfung gibt es nur Gesetzestexte.\n\nZum Schluss: § 5 EStG zum Markieren. Speichern für Klausur 3 📌",
+  "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#bilanzsteuerrecht"
+  ],
+  "quellen": [
+    "§ 5 Abs. 1 S. 1, Abs. 2a, 3, 4, 4a, 4b EStG",
+    "§ 6 Abs. 1 Nr. 3a EStG",
+    "§ 6a EStG",
+    "§ 249 Abs. 1, 2 HGB"
+  ],
+  "slug": "2026-11-03-b2",
+  "kurztitel": "Welche Rückstellungen sind in der Steuerbilanz verboten?",
+  "regelGeprueft": true,
+  "manuellGeprueft": false,
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "textProviderKostenUsd": 0,
+  "faktencheckProviderKostenUsd": 0,
+  "bildStatus": "open-peeps-render",
+  "renderer": "open-peeps-v4",
+  "liveVorrangAktiv": true,
+  "coverBadge": "Kurzvortrag",
+  "folien": [
+    {
+      "art": "titel",
+      "titel": "Kurzvortrag",
+      "text": "Kurzvortrag · Rückstellungen: · steuerlich tabu · § 5 Abs. 2a bis 4b EStG · 10 Minuten · + Markier-Guide § 5 EStG",
+      "bild": "op-cover"
+    },
+    {
+      "art": "text",
+      "titel": "Bilanzsteuerrecht",
+      "text": "Gliederung für 10 Minuten · Einstieg · 1 Minute · § 5 Abs. 1 S. 1 EStG · Handelsrecht · 2 Minuten · § 249 HGB · Steuerliche Verbote · 4 Minuten · § 5 Abs. 2a bis 4b EStG · Bewertung · 2 Minuten · § 6 Abs. 1 Nr. 3a EStG · Fazit · 1 Minute · Am Ende: § 5 EStG markiert"
+    },
+    {
+      "art": "text",
+      "titel": "Bilanzsteuerrecht",
+      "text": "Einstieg · Was die Handelsbilanz passivieren muss, gilt grundsätzlich auch steuerlich. · § 5 Abs. 1 S. 1 EStG · Das EStG durchbricht das an mehreren Stellen ausdrücklich. · Ich bin Juri und starte so."
+    },
+    {
+      "art": "text",
+      "titel": "Bilanzsteuerrecht",
+      "text": "Handelsrecht · Pflicht: ungewisse Verbindlichkeiten und drohende Verluste aus schwebenden Geschäften. · § 249 Abs. 1 S. 1 HGB · Pflicht: Instandhaltung, nachgeholt in drei Monaten; Kulanz. · § 249 Abs. 1 S. 2 HGB · Für andere Zwecke: verboten. · § 249 Abs. 2 S. 1 HGB · Erst das HGB."
+    },
+    {
+      "art": "text",
+      "titel": "Bilanzsteuerrecht",
+      "text": "Steuerlich nie · Drohende Verluste aus schwebenden Geschäften. · § 5 Abs. 4a S. 1 EStG · Künftige Anschaffungs- oder Herstellungskosten. · § 5 Abs. 4b S. 1 EStG · Nur aus künftigen Gewinnen zu zahlen: erst, wenn diese anfallen. · § 5 Abs. 2a EStG · Kernteil!"
+    },
+    {
+      "art": "text",
+      "titel": "Bilanzsteuerrecht",
+      "text": "Steuerlich nur eng · Fremde Schutzrechte: erst bei Anspruch oder ernsthafter Gefahr. · § 5 Abs. 3 EStG · Jubiläum: mindestens 10 Jahre Dienst, Jubiläum ab 15 Jahren, schriftliche Zusage. · § 5 Abs. 4 EStG · Pensionen: nur nach § 6a EStG. · § 6a Abs. 1 EStG · Hier zählen Bedingungen."
+    },
+    {
+      "art": "text",
+      "titel": "Bilanzsteuerrecht",
+      "text": "Typische Nachfragen · Instandhaltung im fünften Monat nachgeholt? · Keine Rückstellung, weder in Handels- noch in Steuerbilanz. · § 249 Abs. 2 S. 1 HGB · Abzinsen? · Mit 5,5 %, außer bei Laufzeit unter zwölf Monaten. · § 6 Abs. 1 Nr. 3a Buchst. e EStG · Ewa, Kommission: Nachfrage!"
+    },
+    {
+      "art": "text",
+      "titel": "Bilanzsteuerrecht",
+      "text": "Fazit in einem Satz · HB-Pflicht gilt steuerlich, außer das EStG verbietet es · Drohverlust nie, · künftige AK/HK nie, · Gewinnabhängiges später, · Jubiläum nur eng. · Speichern für Klausur 3 · Schaffst du das in 10 Minuten? · Weiterwischen: § 5 EStG markiert"
+    },
+    {
+      "art": "text",
+      "titel": "Bilanzsteuerrecht",
+      "text": "§ 5 EStG Gewinn bei Kaufleuten (Auszug) · erst später · HB: Pflicht! · Verbot · Verbot · Mündliche Prüfung · Nur Gesetzestexte, keine Richtlinien oder Erlasse"
+    }
+  ]
+}

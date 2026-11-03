@@ -1,0 +1,62 @@
+{
+  "format": "reel",
+  "fach": "ao",
+  "klausur": 1,
+  "fachLabel": "Abgabenordnung",
+  "themaId": "ao-modul-ao-327",
+  "caption": "Fehler im Steuerbescheid – was geht noch? Einspruch und Änderung im Vergleich. ⚖️\n\n▸ Einspruch zulässig und offen: Die Finanzbehörde prüft die Sache in vollem Umfang erneut; eine Verböserung ist nur nach Hinweis mit Gründen und Gelegenheit zur Äußerung möglich (§ 367 Abs. 2 S. 1, 2 AO).\n▸ Bescheid bestandskräftig: Änderung nur, wenn für den konkreten Fehler eine Korrekturvorschrift greift (z. B. §§ 129, 164 Abs. 2, 172 bis 175 AO) und die Festsetzungsfrist noch läuft (§§ 169 bis 171 AO).\n▸ Wird geändert, sind andere materielle Fehler zugunsten und zuungunsten mitzuberichtigen, soweit die Änderung reicht (§ 177 Abs. 1 bis 3 AO). § 177 AO ist keine eigene Änderungsnorm.\n\nSpeichern für Klausur 1 📌",
+  "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#abgabenordnung"
+  ],
+  "quellen": [
+    "§ 367 Abs. 2 AO",
+    "§§ 129, 164, 172 bis 175 AO",
+    "§§ 169 bis 171 AO",
+    "§ 177 AO"
+  ],
+  "slug": "2026-11-03-b3",
+  "kurztitel": "Fehlerhafter Bescheid: erst Einspruch, dann Korrekturnorm, zuletzt Saldierung",
+  "regelGeprueft": true,
+  "manuellGeprueft": false,
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "textProviderKostenUsd": 0,
+  "faktencheckProviderKostenUsd": 0,
+  "bildStatus": "open-peeps-render",
+  "renderer": "open-peeps-v4",
+  "liveVorrangAktiv": true,
+  "bild": "op-cover",
+  "reelTyp": "gegensatz",
+  "hookStil": "split",
+  "coverBadge": "Reel",
+  "szenen": [
+    {
+      "art": "hook",
+      "titel": "Bescheid falsch: was geht noch?"
+    },
+    {
+      "art": "schritt",
+      "titel": "Einspruch läuft"
+    },
+    {
+      "art": "schritt",
+      "titel": "Bestandskräftig"
+    },
+    {
+      "art": "schritt",
+      "titel": "Zuletzt saldieren"
+    }
+  ],
+  "sprecher": [
+    "Fehler im Steuerbescheid. Einspruch offen: alles offen. Bestandskräftig: nur mit Korrekturnorm.",
+    "Im Einspruch prüft das Finanzamt die Sache voll neu. Sogar eine Verböserung ist möglich, aber erst nach Hinweis.",
+    "Nach Bestandskraft braucht jeder Fehler seine eigene Änderungsnorm, und die Festsetzungsfrist muss noch laufen.",
+    "Wird geändert, saldiert Paragraf hundertsiebenundsiebzig andere Fehler mit, aber nur im Rahmen der Änderung.",
+    "Merke: Einspruch vor Änderungsnorm, Saldierung zuletzt."
+  ],
+  "dauerS": 35.067,
+  "tempo": 1
+}

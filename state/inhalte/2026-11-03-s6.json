@@ -1,0 +1,44 @@
+{
+  "slot": "s6",
+  "art": "norm",
+  "fach": "istr",
+  "klausur": 2,
+  "fachLabel": "Internationales Steuerrecht",
+  "themaId": "istr-modul-istr-istr2-07",
+  "beitragSlot": null,
+  "quellen": null,
+  "titel": [
+    "Arbeiten im",
+    "Ausland?"
+  ],
+  "norm": "Art. 15 OECD-MA",
+  "punkte": [
+    [
+      "Arbeitslohn darf der Staat besteuern, in dem gearbeitet wird.",
+      "ok",
+      "Art. 15 Abs. 1 OECD-MA"
+    ],
+    [
+      "Wohnsitzstaat nur, wenn alle drei Bedingungen erfüllt sind.",
+      "warn",
+      "Art. 15 Abs. 2 OECD-MA"
+    ]
+  ],
+  "sichtbareTexte": [
+    "Internationales Steuerrecht",
+    "Norm des Tages",
+    "Arbeiten im",
+    "Ausland?",
+    "Art. 15 OECD-MA",
+    "Arbeitslohn darf der Staat besteuern, in dem gearbeitet wird.",
+    "Art. 15 Abs. 1 OECD-MA",
+    "Wohnsitzstaat nur, wenn alle drei Bedingungen erfüllt sind.",
+    "Art. 15 Abs. 2 OECD-MA"
+  ],
+  "renderer": "open-peeps-v4",
+  "bildStatus": "open-peeps-render",
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "liveVorrangAktiv": true,
+  "regelGeprueft": true
+}

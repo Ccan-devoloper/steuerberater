@@ -1,0 +1,63 @@
+{
+  "format": "reel",
+  "fach": null,
+  "klausur": 0,
+  "fachLabel": "Mündliche · Zivilrecht",
+  "themaId": "lead-zr-z4",
+  "caption": "Prokurist verkauft das Firmengrundstück – geht das? 🏢\n\nDie Prokura ermächtigt zu allen Geschäften, die der Betrieb eines Handelsgewerbes mit sich bringt (§ 49 Abs. 1 HGB). Grundstücke veräußern und belasten nur mit besonderer Befugnis (§ 49 Abs. 2 HGB). Beschränkungen im Innenverhältnis sind Dritten gegenüber unwirksam (§ 50 Abs. 1 HGB).\n\nSchreib deine Antwort in die Kommentare 👇 und schick das Reel deinem Lernpartner.\n\nDie 10 häufigsten Fehler der Mündlichen – mit Prüfungsszenen und Lösungen – als Gratis-PDF, ausgewertet aus über 400 Prüfungsprotokollen. 👉 Link in der Bio",
+  "hashtags": [
+    "#steuerberaterprüfung",
+    "#steuerberaterexamen",
+    "#mündlicheprüfung",
+    "#examensvorbereitung",
+    "#zivilrecht",
+    "#steuerberater"
+  ],
+  "quellen": [
+    "§ 49 Abs. 1 HGB",
+    "§ 49 Abs. 2 HGB",
+    "§ 50 Abs. 1 HGB"
+  ],
+  "slug": "2026-11-03-m1",
+  "kurztitel": "Darf der Prokurist das Grundstück verkaufen?",
+  "regelGeprueft": true,
+  "manuellGeprueft": false,
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "textProviderKostenUsd": 0,
+  "faktencheckProviderKostenUsd": 0,
+  "bildStatus": "open-peeps-render",
+  "renderer": "open-peeps-v4",
+  "liveVorrangAktiv": true,
+  "bild": "op-cover",
+  "reelTyp": "klausurfalle",
+  "hookStil": "split",
+  "coverBadge": "Reel",
+  "szenen": [
+    {
+      "art": "hook",
+      "titel": "Prokurist verkauft Firmengrundstück."
+    },
+    {
+      "art": "schritt",
+      "titel": "Grundsatz"
+    },
+    {
+      "art": "schritt",
+      "titel": "Ausnahme"
+    },
+    {
+      "art": "schritt",
+      "titel": "Nachfrage"
+    }
+  ],
+  "sprecher": [
+    "Prokurist verkauft das Firmengrundstück. Darf er das?",
+    "Die Prokura ist weit. Sie deckt fast alle Geschäfte eines Handelsgewerbes.",
+    "Aber: Grundstücke veräußern oder belasten darf er nur mit besonderer Befugnis.",
+    "Und Beschränkungen im Innenverhältnis? Gelten gegenüber Dritten nicht.",
+    "Die zehn häufigsten Fehler der Mündlichen: kostenlos, Link in der Bio."
+  ],
+  "dauerS": 25.704,
+  "tempo": 1
+}

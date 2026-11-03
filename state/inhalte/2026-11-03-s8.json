@@ -1,0 +1,49 @@
+{
+  "slot": "s8",
+  "art": "tipp",
+  "fach": "bilanz",
+  "klausur": 3,
+  "fachLabel": "Bilanzsteuerrecht",
+  "themaId": "bilanz-karte-k3-23",
+  "beitragSlot": null,
+  "quellen": null,
+  "titel": [
+    "Buchung:",
+    "für welche Bilanz?"
+  ],
+  "punkte": [
+    [
+      "Für Handels- und Steuerbilanz?",
+      "ok",
+      null
+    ],
+    [
+      "Nur Handelsbilanz, etwa beim Drohverlust?",
+      "warn",
+      "§ 5 Abs. 4a EStG"
+    ],
+    [
+      "Nur Steuerbilanz? Immer dazuschreiben.",
+      "warn",
+      null
+    ]
+  ],
+  "icon": "tabler:arrows-split",
+  "iconFarbe": "GELB",
+  "sichtbareTexte": [
+    "Bilanzsteuerrecht",
+    "Klausurtipp",
+    "Buchung:",
+    "für welche Bilanz?",
+    "Für Handels- und Steuerbilanz?",
+    "Nur Handelsbilanz, etwa beim Drohverlust?",
+    "§ 5 Abs. 4a EStG",
+    "Nur Steuerbilanz? Immer dazuschreiben."
+  ],
+  "renderer": "open-peeps-v4",
+  "bildStatus": "open-peeps-render",
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "liveVorrangAktiv": true,
+  "regelGeprueft": true
+}

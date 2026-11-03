@@ -1,0 +1,119 @@
+{
+  "datum": "2026-11-03",
+  "erzeugt": "2026-11-03T05:45:40.346Z",
+  "quelle": "vorproduktion",
+  "providerKostenUsd": 0,
+  "beitraege": [
+    {
+      "slot": "b1",
+      "zeit": "08:30",
+      "format": "rechenweg",
+      "themaId": "est-aufb-est-ks2-15a-06",
+      "themaTitel": "Entnahmen des Kommanditisten: Wann droht eine Gewinnzurechnung?",
+      "fach": "est",
+      "klausur": 2,
+      "status": "geplant"
+    },
+    {
+      "slot": "b2",
+      "zeit": "13:30",
+      "format": "kurzvortrag",
+      "themaId": "bilanz-aufb-bil-melzer-12-02",
+      "themaTitel": "Welche Rückstellungen sind in der Steuerbilanz verboten?",
+      "fach": "bilanz",
+      "klausur": 3,
+      "status": "geplant"
+    },
+    {
+      "slot": "b3",
+      "zeit": "17:30",
+      "format": "reel",
+      "themaId": "ao-modul-ao-327",
+      "themaTitel": "Fehlerhafter Bescheid: erst Einspruch, dann Korrekturnorm, zuletzt Saldierung",
+      "fach": "ao",
+      "klausur": 1,
+      "status": "geplant"
+    },
+    {
+      "slot": "m1",
+      "zeit": "19:00",
+      "format": "reel",
+      "themaId": "lead-zr-z4",
+      "themaTitel": "Darf der Prokurist das Grundstück verkaufen?",
+      "fach": null,
+      "klausur": 0,
+      "status": "geplant"
+    }
+  ],
+  "stories": [
+    {
+      "slot": "s4",
+      "zeit": "07:07",
+      "art": "frage",
+      "themaId": "ust-quiz-ust-7",
+      "status": "geplant"
+    },
+    {
+      "slot": "s5",
+      "zeit": "07:09",
+      "art": "antwort",
+      "themaId": "ust-quiz-ust-7",
+      "status": "geplant"
+    },
+    {
+      "slot": "s1",
+      "zeit": "08:30",
+      "art": "teaser",
+      "beitragSlot": "b1",
+      "status": "geplant"
+    },
+    {
+      "slot": "s6",
+      "zeit": "12:14",
+      "art": "norm",
+      "themaId": "istr-modul-istr-istr2-07",
+      "status": "geplant"
+    },
+    {
+      "slot": "s2",
+      "zeit": "13:30",
+      "art": "teaser",
+      "beitragSlot": "b2",
+      "status": "geplant"
+    },
+    {
+      "slot": "s7",
+      "zeit": "14:40",
+      "art": "tipp",
+      "status": "geplant"
+    },
+    {
+      "slot": "s8",
+      "zeit": "17:04",
+      "art": "tipp",
+      "themaId": "bilanz-karte-k3-23",
+      "status": "geplant"
+    },
+    {
+      "slot": "s3",
+      "zeit": "19:00",
+      "art": "teaser",
+      "beitragSlot": "b3",
+      "status": "geplant"
+    },
+    {
+      "slot": "s9",
+      "zeit": "19:12",
+      "art": "merksatz",
+      "themaId": "ao-modul-ao-328",
+      "status": "geplant"
+    },
+    {
+      "slot": "s10",
+      "zeit": "19:00",
+      "art": "teaser",
+      "beitragSlot": "m1",
+      "status": "geplant"
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "slot": "s9",
+  "art": "merksatz",
+  "fach": "ao",
+  "klausur": 1,
+  "fachLabel": "Abgabenordnung",
+  "themaId": "ao-modul-ao-328",
+  "beitragSlot": null,
+  "quellen": null,
+  "titel": [
+    "Mehrere Fehler",
+    "im Bescheid?"
+  ],
+  "zeilen": [
+    [
+      [
+        "Jeder Fehler braucht",
+        null
+      ]
+    ],
+    [
+      [
+        "seine ",
+        null
+      ],
+      [
+        "eigene Norm",
+        "a"
+      ]
+    ],
+    [
+      [
+        "und eine ",
+        null
+      ],
+      [
+        "offene Frist",
+        "b"
+      ],
+      [
+        ".",
+        null
+      ]
+    ]
+  ],
+  "norm": "§§ 169, 172 ff. AO",
+  "sichtbareTexte": [
+    "Abgabenordnung",
+    "Merksatz",
+    "Mehrere Fehler",
+    "im Bescheid?",
+    "Jeder Fehler braucht",
+    "seine eigene Norm",
+    "und eine offene Frist.",
+    "§§ 169, 172 ff. AO"
+  ],
+  "renderer": "open-peeps-v4",
+  "bildStatus": "open-peeps-render",
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "liveVorrangAktiv": true,
+  "regelGeprueft": true
+}

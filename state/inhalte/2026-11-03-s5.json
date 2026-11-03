@@ -1,0 +1,40 @@
+{
+  "slot": "s5",
+  "art": "antwort",
+  "fach": "ust",
+  "klausur": 1,
+  "fachLabel": "Umsatzsteuer",
+  "themaId": "ust-quiz-ust-7",
+  "beitragSlot": null,
+  "quellen": null,
+  "titel": [
+    "B: der bauende",
+    "Empfänger"
+  ],
+  "optionen": [
+    "Immer der Leistende",
+    "Der Empfänger, wenn er selbst nachhaltig baut",
+    "Beide gemeinsam"
+  ],
+  "richtig": 1,
+  "text": "Erbringt der Empfänger selbst nachhaltig Bauleistungen, schuldet er die Steuer.",
+  "norm": "§ 13b Abs. 2 Nr. 4, Abs. 5 S. 2 UStG",
+  "pairId": "ust-quiz-ust-7",
+  "sichtbareTexte": [
+    "Umsatzsteuer",
+    "Auflösung",
+    "B: der bauende",
+    "Empfänger",
+    "Immer der Leistende",
+    "Der Empfänger, wenn er selbst nachhaltig baut",
+    "Beide gemeinsam",
+    "Erbringt der Empfänger selbst nachhaltig Bauleistungen, schuldet er die Steuer.",
+    "§ 13b Abs. 2 Nr. 4, Abs. 5 S. 2 UStG"
+  ],
+  "renderer": "open-peeps-v4",
+  "bildStatus": "open-peeps-render",
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "liveVorrangAktiv": true,
+  "regelGeprueft": true
+}

@@ -1,0 +1,26 @@
+{
+  "slot": "s2",
+  "art": "teaser",
+  "fach": "bilanz",
+  "klausur": 3,
+  "fachLabel": "Bilanzsteuerrecht",
+  "themaId": null,
+  "beitragSlot": "b2",
+  "quellen": null,
+  "titel": [
+    "Rückstellungen: steuerlich tabu"
+  ],
+  "unter": "Kurzvortrag + Markier-Guide · im Profil",
+  "sichtbareTexte": [
+    "Bilanzsteuerrecht",
+    "Neu im Feed",
+    "Rückstellungen: steuerlich tabu",
+    "Kurzvortrag + Markier-Guide · im Profil"
+  ],
+  "renderer": "open-peeps-v4",
+  "bildStatus": "open-peeps-render",
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "liveVorrangAktiv": true,
+  "regelGeprueft": true
+}

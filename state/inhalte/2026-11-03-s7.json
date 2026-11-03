@@ -1,0 +1,48 @@
+{
+  "slot": "s7",
+  "art": "tipp",
+  "fach": null,
+  "klausur": 0,
+  "fachLabel": "Klausurtechnik",
+  "themaId": null,
+  "beitragSlot": null,
+  "quellen": null,
+  "titel": [
+    "Normen zitieren:",
+    "so genau wie möglich"
+  ],
+  "punkte": [
+    [
+      "Absatz, Satz und Nummer nennen.",
+      "ok",
+      null
+    ],
+    [
+      "Erst Tatbestand prüfen, dann Rechtsfolge.",
+      "ok",
+      null
+    ],
+    [
+      "Jedes Teilergebnis in einem Satz festhalten.",
+      "ok",
+      null
+    ]
+  ],
+  "icon": "tabler:section-sign",
+  "iconFarbe": "GELB",
+  "sichtbareTexte": [
+    "Klausurtechnik",
+    "Klausurtipp",
+    "Normen zitieren:",
+    "so genau wie möglich",
+    "Absatz, Satz und Nummer nennen.",
+    "Erst Tatbestand prüfen, dann Rechtsfolge.",
+    "Jedes Teilergebnis in einem Satz festhalten."
+  ],
+  "renderer": "open-peeps-v4",
+  "bildStatus": "open-peeps-render",
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "liveVorrangAktiv": true,
+  "regelGeprueft": true
+}
