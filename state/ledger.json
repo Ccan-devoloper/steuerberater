@@ -16144,19 +16144,19 @@
         "#bilanzsteuerrecht"
       ],
       "insights": {
-        "reach": 468,
+        "reach": 473,
         "saved": 3,
         "shares": 3,
         "likes": 7,
         "comments": 0,
         "total_interactions": 13,
-        "views": 602,
-        "ig_reels_avg_watch_time": 7242,
-        "ig_reels_video_view_total_time": 3664586,
-        "reels_skip_rate": 70.3
+        "views": 611,
+        "ig_reels_avg_watch_time": 7292,
+        "ig_reels_video_view_total_time": 3741050,
+        "reels_skip_rate": 69.9
       },
-      "insightsStand": "2026-11-02T16:04:11.340Z",
-      "insightsAlterStunden": 142.1
+      "insightsStand": "2026-11-03T16:32:52.596Z",
+      "insightsAlterStunden": 166.5
     },
     {
       "datum": "2026-10-27",
@@ -19086,20 +19086,22 @@
         "Ausland?"
       ],
       "insights": {
-        "reach": 14,
-        "views": 16,
+        "reach": 30,
+        "views": 36,
         "shares": 0,
-        "total_interactions": 0,
+        "total_interactions": 1,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 14,
-        "navigation_tap_exit": 3,
-        "navigation_tap_forward": 11
+        "navigation": 33,
+        "navigation_swipe_forward": 1,
+        "navigation_tap_back": 2,
+        "navigation_tap_exit": 5,
+        "navigation_tap_forward": 25
       },
-      "insightsStand": "2026-11-03T12:30:19.196Z",
-      "insightsAlterStunden": 1.3
+      "insightsStand": "2026-11-03T16:32:50.869Z",
+      "insightsAlterStunden": 5.3
     },
     {
       "datum": "2026-11-03",
