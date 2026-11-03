@@ -19087,22 +19087,22 @@
         "Ausland?"
       ],
       "insights": {
-        "reach": 30,
-        "views": 36,
+        "reach": 49,
+        "views": 59,
         "shares": 0,
         "total_interactions": 1,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 33,
-        "navigation_swipe_forward": 1,
-        "navigation_tap_back": 2,
-        "navigation_tap_exit": 5,
-        "navigation_tap_forward": 25
+        "navigation": 55,
+        "navigation_tap_forward": 41,
+        "navigation_tap_exit": 7,
+        "navigation_tap_back": 4,
+        "navigation_swipe_forward": 3
       },
-      "insightsStand": "2026-11-03T16:32:50.869Z",
-      "insightsAlterStunden": 5.3
+      "insightsStand": "2026-11-03T20:42:35.390Z",
+      "insightsAlterStunden": 9.5
     },
     {
       "datum": "2026-11-03",
@@ -19292,19 +19292,19 @@
         "#steuerberater"
       ],
       "insights": {
-        "reach": 127,
+        "reach": 284,
         "saved": 1,
         "shares": 0,
-        "likes": 2,
+        "likes": 3,
         "comments": 0,
-        "total_interactions": 3,
-        "views": 202,
-        "ig_reels_avg_watch_time": 9357,
-        "ig_reels_video_view_total_time": 1160348,
-        "reels_skip_rate": 46.1
+        "total_interactions": 4,
+        "views": 398,
+        "ig_reels_avg_watch_time": 8331,
+        "ig_reels_video_view_total_time": 2382678,
+        "reels_skip_rate": 58.2
       },
-      "insightsStand": "2026-11-03T18:55:58.312Z",
-      "insightsAlterStunden": 0.8
+      "insightsStand": "2026-11-03T20:42:37.413Z",
+      "insightsAlterStunden": 2.6
     },
     {
       "datum": "2026-11-03",

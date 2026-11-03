@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "stand": "2026-11-03T19:59:23.694Z",
+  "stand": "2026-11-03T20:42:37.413Z",
   "medien": {
     "18093399314208242": {
       "art": "beitrag",
@@ -59910,6 +59910,23 @@
           "navigation_tap_back": 2,
           "navigation_tap_exit": 5,
           "navigation_tap_forward": 25
+        },
+        {
+          "stand": "2026-11-03T20:42:35.390Z",
+          "alterStunden": 9.5,
+          "reach": 49,
+          "views": 59,
+          "shares": 0,
+          "total_interactions": 1,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 55,
+          "navigation_tap_forward": 41,
+          "navigation_tap_exit": 7,
+          "navigation_tap_back": 4,
+          "navigation_swipe_forward": 3
         }
       ]
     },
@@ -60149,6 +60166,20 @@
           "ig_reels_avg_watch_time": 9357,
           "ig_reels_video_view_total_time": 1160348,
           "reels_skip_rate": 46.1
+        },
+        {
+          "stand": "2026-11-03T20:42:37.413Z",
+          "alterStunden": 2.6,
+          "reach": 284,
+          "saved": 1,
+          "shares": 0,
+          "likes": 3,
+          "comments": 0,
+          "total_interactions": 4,
+          "views": 398,
+          "ig_reels_avg_watch_time": 8331,
+          "ig_reels_video_view_total_time": 2382678,
+          "reels_skip_rate": 58.2
         }
       ]
     },
