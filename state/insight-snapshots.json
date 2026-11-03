@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "stand": "2026-11-03T06:45:33.471Z",
+  "stand": "2026-11-03T07:30:25.005Z",
   "medien": {
     "18093399314208242": {
       "art": "beitrag",
@@ -55686,6 +55686,18 @@
           "total_interactions": 7,
           "follows": 0,
           "profile_visits": 1
+        },
+        {
+          "stand": "2026-11-03T07:30:25.005Z",
+          "alterStunden": 67,
+          "reach": 154,
+          "saved": 3,
+          "shares": 0,
+          "likes": 4,
+          "comments": 0,
+          "total_interactions": 7,
+          "follows": 1,
+          "profile_visits": 2
         }
       ]
     },
@@ -55974,6 +55986,20 @@
           "ig_reels_avg_watch_time": 11692,
           "ig_reels_video_view_total_time": 18486411,
           "reels_skip_rate": 52.4
+        },
+        {
+          "stand": "2026-11-03T07:30:25.005Z",
+          "alterStunden": 63,
+          "reach": 1582,
+          "saved": 9,
+          "shares": 1,
+          "likes": 12,
+          "comments": 0,
+          "total_interactions": 22,
+          "views": 1957,
+          "ig_reels_avg_watch_time": 11676,
+          "ig_reels_video_view_total_time": 18495506,
+          "reels_skip_rate": 52.4
         }
       ]
     },
@@ -56098,6 +56124,20 @@
           "ig_reels_avg_watch_time": 8589,
           "ig_reels_video_view_total_time": 9972682,
           "reels_skip_rate": 58.9
+        },
+        {
+          "stand": "2026-11-03T07:30:25.005Z",
+          "alterStunden": 61.5,
+          "reach": 1164,
+          "saved": 4,
+          "shares": 0,
+          "likes": 14,
+          "comments": 0,
+          "total_interactions": 18,
+          "views": 1335,
+          "ig_reels_avg_watch_time": 8611,
+          "ig_reels_video_view_total_time": 10049206,
+          "reels_skip_rate": 58.7
         }
       ]
     },
@@ -57462,6 +57502,20 @@
           "views": 606,
           "ig_reels_avg_watch_time": 8023,
           "ig_reels_video_view_total_time": 3931479,
+          "reels_skip_rate": 63.7
+        },
+        {
+          "stand": "2026-11-03T07:30:25.005Z",
+          "alterStunden": 39,
+          "reach": 483,
+          "saved": 2,
+          "shares": 1,
+          "likes": 4,
+          "comments": 0,
+          "total_interactions": 7,
+          "views": 611,
+          "ig_reels_avg_watch_time": 8030,
+          "ig_reels_video_view_total_time": 3975280,
           "reels_skip_rate": 63.7
         }
       ]
@@ -58892,6 +58946,64 @@
           "navigation_tap_forward": 29,
           "navigation_tap_back": 6,
           "navigation_tap_exit": 11
+        }
+      ]
+    },
+    "18094849634672943": {
+      "art": "story",
+      "datum": "2026-11-03",
+      "titel": null,
+      "format": null,
+      "fach": "ust",
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-11-03T06:07:03.281Z",
+      "snapshots": [
+        {
+          "stand": "2026-11-03T07:30:21.718Z",
+          "alterStunden": 1.4,
+          "reach": 20,
+          "views": 26,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 18,
+          "navigation_tap_forward": 11,
+          "navigation_tap_exit": 7
+        }
+      ]
+    },
+    "18353333047255398": {
+      "art": "story",
+      "datum": "2026-11-03",
+      "titel": [
+        "B: der bauende",
+        "Empfänger"
+      ],
+      "format": null,
+      "fach": "ust",
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-11-03T06:09:03.047Z",
+      "snapshots": [
+        {
+          "stand": "2026-11-03T07:30:21.718Z",
+          "alterStunden": 1.4,
+          "reach": 17,
+          "views": 21,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 16,
+          "navigation_tap_exit": 2,
+          "navigation_tap_forward": 11,
+          "navigation_tap_back": 3
         }
       ]
     }

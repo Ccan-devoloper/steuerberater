@@ -17759,17 +17759,17 @@
         "#personengesellschaften"
       ],
       "insights": {
-        "reach": 150,
+        "reach": 154,
         "saved": 3,
         "shares": 0,
         "likes": 4,
         "comments": 0,
         "total_interactions": 7,
-        "follows": 0,
-        "profile_visits": 1
+        "follows": 1,
+        "profile_visits": 2
       },
-      "insightsStand": "2026-11-02T22:54:54.666Z",
-      "insightsAlterStunden": 58.4
+      "insightsStand": "2026-11-03T07:30:25.005Z",
+      "insightsAlterStunden": 67
     },
     {
       "datum": "2026-10-31",
@@ -17888,19 +17888,19 @@
         "#erbschaftsteuer"
       ],
       "insights": {
-        "reach": 1580,
+        "reach": 1582,
         "saved": 9,
         "shares": 1,
-        "likes": 11,
+        "likes": 12,
         "comments": 0,
-        "total_interactions": 21,
-        "views": 1953,
-        "ig_reels_avg_watch_time": 11692,
-        "ig_reels_video_view_total_time": 18486411,
+        "total_interactions": 22,
+        "views": 1957,
+        "ig_reels_avg_watch_time": 11676,
+        "ig_reels_video_view_total_time": 18495506,
         "reels_skip_rate": 52.4
       },
-      "insightsStand": "2026-11-02T22:54:54.666Z",
-      "insightsAlterStunden": 54.4
+      "insightsStand": "2026-11-03T07:30:25.005Z",
+      "insightsAlterStunden": 63
     },
     {
       "datum": "2026-10-31",
@@ -17926,19 +17926,19 @@
         "#steuerberater"
       ],
       "insights": {
-        "reach": 1162,
+        "reach": 1164,
         "saved": 4,
         "shares": 0,
         "likes": 14,
         "comments": 0,
         "total_interactions": 18,
-        "views": 1329,
-        "ig_reels_avg_watch_time": 8589,
-        "ig_reels_video_view_total_time": 9972682,
-        "reels_skip_rate": 58.9
+        "views": 1335,
+        "ig_reels_avg_watch_time": 8611,
+        "ig_reels_video_view_total_time": 10049206,
+        "reels_skip_rate": 58.7
       },
-      "insightsStand": "2026-11-02T22:54:54.666Z",
-      "insightsAlterStunden": 52.9
+      "insightsStand": "2026-11-03T07:30:25.005Z",
+      "insightsAlterStunden": 61.5
     },
     {
       "datum": "2026-10-31",
@@ -18344,19 +18344,19 @@
         "#körperschaftsteuer"
       ],
       "insights": {
-        "reach": 479,
+        "reach": 483,
         "saved": 2,
         "shares": 1,
         "likes": 4,
         "comments": 0,
         "total_interactions": 7,
-        "views": 606,
-        "ig_reels_avg_watch_time": 8023,
-        "ig_reels_video_view_total_time": 3931479,
+        "views": 611,
+        "ig_reels_avg_watch_time": 8030,
+        "ig_reels_video_view_total_time": 3975280,
         "reels_skip_rate": 63.7
       },
-      "insightsStand": "2026-11-02T22:54:54.666Z",
-      "insightsAlterStunden": 30.4
+      "insightsStand": "2026-11-03T07:30:25.005Z",
+      "insightsAlterStunden": 39
     },
     {
       "datum": "2026-11-01",
@@ -18956,7 +18956,22 @@
       "storyArt": "frage",
       "thema": "ust-quiz-ust-7",
       "fach": "ust",
-      "titel": ""
+      "titel": "",
+      "insights": {
+        "reach": 20,
+        "views": 26,
+        "shares": 0,
+        "total_interactions": 0,
+        "replies": 0,
+        "follows": 0,
+        "profile_visits": 0,
+        "profile_activity": 0,
+        "navigation": 18,
+        "navigation_tap_forward": 11,
+        "navigation_tap_exit": 7
+      },
+      "insightsStand": "2026-11-03T07:30:21.718Z",
+      "insightsAlterStunden": 1.4
     },
     {
       "datum": "2026-11-03",
@@ -18971,7 +18986,23 @@
       "titel": [
         "B: der bauende",
         "Empfänger"
-      ]
+      ],
+      "insights": {
+        "reach": 17,
+        "views": 21,
+        "shares": 0,
+        "total_interactions": 0,
+        "replies": 0,
+        "follows": 0,
+        "profile_visits": 0,
+        "profile_activity": 0,
+        "navigation": 16,
+        "navigation_tap_exit": 2,
+        "navigation_tap_forward": 11,
+        "navigation_tap_back": 3
+      },
+      "insightsStand": "2026-11-03T07:30:21.718Z",
+      "insightsAlterStunden": 1.4
     },
     {
       "datum": "2026-11-03",
