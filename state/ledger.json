@@ -19084,6 +19084,28 @@
         "Arbeiten im",
         "Ausland?"
       ]
+    },
+    {
+      "datum": "2026-11-03",
+      "slot": "b2",
+      "medienId": "18356682982266667",
+      "veroeffentlicht": "2026-11-03T12:30:05.691Z",
+      "quelle": "vorproduktion",
+      "art": "beitrag",
+      "zeit": "13:30",
+      "stunde": 13,
+      "format": "kurzvortrag",
+      "thema": "bilanz-aufb-bil-melzer-12-02",
+      "fach": "bilanz",
+      "klausur": 3,
+      "titel": "Kurzvortrag",
+      "hookTyp": null,
+      "hashtags": [
+        "#steuerberaterexamen",
+        "#steuerberaterprüfung",
+        "#examensvorbereitung",
+        "#bilanzsteuerrecht"
+      ]
     }
   ],
   "fachZaehler": {
@@ -19091,7 +19113,7 @@
     "ust": 16,
     "kst": 15,
     "ao": 27,
-    "bilanz": 26,
+    "bilanz": 27,
     "istr": 21,
     "erbst": 13,
     "mindset": 2,
