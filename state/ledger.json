@@ -19258,6 +19258,20 @@
         "#zivilrecht",
         "#steuerberater"
       ]
+    },
+    {
+      "datum": "2026-11-03",
+      "slot": "s3",
+      "medienId": "18122219189073809",
+      "veroeffentlicht": "2026-11-03T18:06:47.021Z",
+      "quelle": "vorproduktion",
+      "art": "story",
+      "storyArt": "teaser",
+      "thema": null,
+      "fach": "ao",
+      "titel": [
+        "Bescheid falsch: was geht noch?"
+      ]
     }
   ],
   "fachZaehler": {
