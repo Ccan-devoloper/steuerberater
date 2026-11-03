@@ -51,7 +51,8 @@
       "zeit": "07:07",
       "art": "frage",
       "themaId": "ust-quiz-ust-7",
-      "status": "geplant"
+      "status": "sendet",
+      "sendeversuch": "2026-11-03T06:07:00.101Z"
     },
     {
       "slot": "s5",
