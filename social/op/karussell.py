@@ -6,22 +6,22 @@ from opkern import (C, F, OT, titel, pille, absatz, fl_block, karte, ficon, icon
                     X0, X1)
 
 MAX_WORTE = 40
+MAX_FOLIEN = 10   # Grenze der Instagram-Graph-API für Karussells (die App erlaubt 20, die API nur 10)
 WEB_TEXT = "Mündliche StB-Prüfung? examenscampus.de"
 
 
 def web_pille(img):
-    """Kleiner Website-Hinweis unten mittig auf der letzten Folie."""
+    """Website-Hinweis unten mittig auf der letzten Folie, auf dem Rahmen sitzend."""
     from PIL import ImageDraw
     img = img.convert("RGB")
     d = ImageDraw.Draw(img)
-    f = F("Bold", 28)
+    f = F("Bold", 40)
     w = d.textlength(WEB_TEXT, font=f)
-    x0 = (img.width - w) / 2 - 24; y0 = img.height - 48
-    d.rounded_rectangle([x0, y0, x0 + w + 48, y0 + 44], radius=22, fill=INK[:3])
-    d.text((img.width / 2, y0 + 22), WEB_TEXT, font=f, fill=GELB[:3], anchor="mm")
+    hh = 72; x0 = (img.width - w) / 2 - 40; y0 = img.height - hh - 8
+    d.rounded_rectangle([x0 + 6, y0 + 6, x0 + w + 86, y0 + hh + 6], radius=hh // 2, fill=INK[:3])
+    d.rounded_rectangle([x0, y0, x0 + w + 80, y0 + hh], radius=hh // 2, fill=(35, 217, 139), outline=INK[:3], width=4)
+    d.text((img.width / 2 + 0, y0 + hh / 2), WEB_TEXT, font=f, fill=INK[:3], anchor="mm")
     return img
-
-MAX_FOLIEN = 10   # Grenze der Instagram-Graph-API für Karussells (die App erlaubt 20, die API nur 10)
 
 
 class Karussell:
