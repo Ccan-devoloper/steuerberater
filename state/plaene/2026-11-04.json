@@ -128,8 +128,9 @@
       "zeit": "19:12",
       "art": "merksatz",
       "themaId": "est-aufb-est-ks2-19-02",
-      "status": "sendet",
-      "sendeversuch": "2026-11-04T18:12:00.095Z"
+      "status": "veroeffentlicht",
+      "medienId": "18107709575346683",
+      "veroeffentlicht": "2026-11-04T18:12:05.044Z"
     },
     {
       "slot": "s10",
