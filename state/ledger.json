@@ -19429,10 +19429,32 @@
         "A: mindestens",
         "90 Prozent"
       ]
+    },
+    {
+      "datum": "2026-11-04",
+      "slot": "b1",
+      "medienId": "18028858313881684",
+      "veroeffentlicht": "2026-11-04T07:30:08.155Z",
+      "quelle": "vorproduktion",
+      "art": "beitrag",
+      "zeit": "08:30",
+      "stunde": 8,
+      "format": "fehlerfalle",
+      "thema": "persg-aufb-persg-melzer-4-5",
+      "fach": "persg",
+      "klausur": 3,
+      "titel": "Klausurfalle",
+      "hookTyp": null,
+      "hashtags": [
+        "#steuerberaterexamen",
+        "#steuerberaterprüfung",
+        "#examensvorbereitung",
+        "#personengesellschaften"
+      ]
     }
   ],
   "fachZaehler": {
-    "persg": 19,
+    "persg": 20,
     "ust": 16,
     "kst": 15,
     "ao": 28,
