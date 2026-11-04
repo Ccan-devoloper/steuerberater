@@ -1,0 +1,39 @@
+{
+  "slot": "s5",
+  "art": "antwort",
+  "fach": "istr",
+  "klausur": 2,
+  "fachLabel": "Internationales Steuerrecht",
+  "themaId": null,
+  "beitragSlot": null,
+  "quellen": null,
+  "titel": [
+    "A: mindestens",
+    "90 Prozent"
+  ],
+  "optionen": [
+    "Mindestens 90 % deutsche Einkünfte",
+    "Mindestens 50 %",
+    "Mindestens 75 %"
+  ],
+  "richtig": 0,
+  "text": "Alternativ: Die übrigen Einkünfte bleiben unter dem Grundfreibetrag.",
+  "norm": "§ 1 Abs. 3 S. 2 EStG",
+  "sichtbareTexte": [
+    "Internationales Steuerrecht",
+    "Auflösung",
+    "A: mindestens",
+    "90 Prozent",
+    "Mindestens 90 % deutsche Einkünfte",
+    "Mindestens 50 %",
+    "Mindestens 75 %",
+    "Alternativ: Die übrigen Einkünfte bleiben unter dem Grundfreibetrag.",
+    "§ 1 Abs. 3 S. 2 EStG"
+  ],
+  "renderer": "open-peeps-v4",
+  "bildStatus": "open-peeps-render",
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "liveVorrangAktiv": true,
+  "regelGeprueft": true
+}

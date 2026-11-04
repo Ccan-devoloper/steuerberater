@@ -1,0 +1,62 @@
+{
+  "format": "reel",
+  "fach": null,
+  "klausur": 0,
+  "fachLabel": "Mündliche · Zivilrecht",
+  "themaId": "lead-zr-z5",
+  "caption": "Wahr oder falsch: Eine Bürgschaft braucht immer Schriftform? ✍️\n\nFalsch. Grundsatz: schriftliche Erteilung der Bürgschaftserklärung (§ 766 S. 1 BGB), elektronische Form ausgeschlossen (§ 766 S. 2 BGB). Aber: Ist die Bürgschaft auf Seiten des Bürgen ein Handelsgeschäft, gilt die Form nicht (§ 350 HGB).\n\nSchreib deine Antwort in die Kommentare 👇 und schick das Reel deinem Lernpartner.\n\nDie 10 häufigsten Fehler der Mündlichen – mit Prüfungsszenen und Lösungen – als Gratis-PDF, ausgewertet aus über 400 Prüfungsprotokollen. 👉 Link in der Bio",
+  "hashtags": [
+    "#steuerberaterprüfung",
+    "#steuerberaterexamen",
+    "#mündlicheprüfung",
+    "#examensvorbereitung",
+    "#zivilrecht",
+    "#steuerberater"
+  ],
+  "quellen": [
+    "§ 766 BGB",
+    "§ 350 HGB"
+  ],
+  "slug": "2026-11-04-m1",
+  "kurztitel": "Wahr oder falsch: Bürgschaft braucht Schriftform",
+  "regelGeprueft": true,
+  "manuellGeprueft": false,
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "textProviderKostenUsd": 0,
+  "faktencheckProviderKostenUsd": 0,
+  "bildStatus": "open-peeps-render",
+  "renderer": "open-peeps-v4",
+  "liveVorrangAktiv": true,
+  "bild": "op-cover",
+  "reelTyp": "klausurfalle",
+  "hookStil": "split",
+  "coverBadge": "Reel",
+  "szenen": [
+    {
+      "art": "hook",
+      "titel": "Bürgschaft braucht immer Schriftform."
+    },
+    {
+      "art": "schritt",
+      "titel": "Grundsatz"
+    },
+    {
+      "art": "schritt",
+      "titel": "Ausnahme"
+    },
+    {
+      "art": "schritt",
+      "titel": "Bonus"
+    }
+  ],
+  "sprecher": [
+    "Wahr oder falsch: Eine Bürgschaft braucht immer Schriftform.",
+    "Falsch. Grundsätzlich muss die Erklärung des Bürgen schriftlich sein.",
+    "Aber für einen Kaufmann ist die Bürgschaft formfrei, wenn sie ein Handelsgeschäft ist.",
+    "Und eine Bürgschaft per E-Mail? Beim Privatbürgen ausdrücklich ausgeschlossen.",
+    "Schick das deinem Lernpartner. Und hol dir die zehn häufigsten Fehler, kostenlos, Link in der Bio."
+  ],
+  "dauerS": 27.04,
+  "tempo": 1
+}

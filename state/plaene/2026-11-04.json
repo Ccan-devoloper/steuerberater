@@ -1,0 +1,117 @@
+{
+  "datum": "2026-11-04",
+  "erzeugt": "2026-11-04T00:53:50.075Z",
+  "quelle": "vorproduktion",
+  "providerKostenUsd": 0,
+  "beitraege": [
+    {
+      "slot": "b1",
+      "zeit": "08:30",
+      "format": "fehlerfalle",
+      "themaId": "persg-aufb-persg-melzer-4-5",
+      "themaTitel": "Wann sind Anteile an der Komplementär-GmbH SBV II?",
+      "fach": "persg",
+      "klausur": 3,
+      "status": "geplant"
+    },
+    {
+      "slot": "b2",
+      "zeit": "13:30",
+      "format": "schema",
+      "themaId": "ao-modul-ao-333",
+      "themaTitel": "Ablaufhemmung bei Einspruch und Außenprüfung: § 171 Abs. 3a und Abs. 4 AO",
+      "fach": "ao",
+      "klausur": 1,
+      "status": "geplant"
+    },
+    {
+      "slot": "b3",
+      "zeit": "17:30",
+      "format": "reel",
+      "themaId": "istr-modul-istr-istr3-04",
+      "themaTitel": "Aufsichtsratsvergütung: § 18, § 49, § 50a und Art. 16 DBA",
+      "fach": "istr",
+      "klausur": 2,
+      "status": "geplant"
+    },
+    {
+      "slot": "m1",
+      "zeit": "19:00",
+      "format": "reel",
+      "themaId": "lead-zr-z5",
+      "themaTitel": "Wahr oder falsch: Bürgschaft braucht Schriftform",
+      "fach": null,
+      "klausur": 0,
+      "status": "geplant"
+    }
+  ],
+  "stories": [
+    {
+      "slot": "s4",
+      "zeit": "07:07",
+      "art": "frage",
+      "status": "geplant"
+    },
+    {
+      "slot": "s5",
+      "zeit": "07:09",
+      "art": "antwort",
+      "status": "geplant"
+    },
+    {
+      "slot": "s1",
+      "zeit": "08:30",
+      "art": "teaser",
+      "beitragSlot": "b1",
+      "status": "geplant"
+    },
+    {
+      "slot": "s6",
+      "zeit": "12:14",
+      "art": "norm",
+      "themaId": "persg-aufb-persg-melzer-4-6",
+      "status": "geplant"
+    },
+    {
+      "slot": "s2",
+      "zeit": "13:30",
+      "art": "teaser",
+      "beitragSlot": "b2",
+      "status": "geplant"
+    },
+    {
+      "slot": "s7",
+      "zeit": "14:40",
+      "art": "tipp",
+      "status": "geplant"
+    },
+    {
+      "slot": "s8",
+      "zeit": "17:04",
+      "art": "tipp",
+      "themaId": "ust-karte-ust-9",
+      "status": "geplant"
+    },
+    {
+      "slot": "s3",
+      "zeit": "19:00",
+      "art": "teaser",
+      "beitragSlot": "b3",
+      "status": "geplant"
+    },
+    {
+      "slot": "s9",
+      "zeit": "19:12",
+      "art": "merksatz",
+      "themaId": "est-aufb-est-ks2-19-02",
+      "status": "geplant"
+    },
+    {
+      "slot": "s10",
+      "zeit": "19:00",
+      "art": "teaser",
+      "beitragSlot": "m1",
+      "status": "geplant"
+    }
+  ]
+}

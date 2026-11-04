@@ -1,0 +1,44 @@
+{
+  "slot": "s6",
+  "art": "norm",
+  "fach": "persg",
+  "klausur": 3,
+  "fachLabel": "Personengesellschaften",
+  "themaId": "persg-aufb-persg-melzer-4-6",
+  "beitragSlot": null,
+  "quellen": null,
+  "titel": [
+    "Dividende der",
+    "Komplementär-GmbH"
+  ],
+  "norm": "§ 20 Abs. 8 EStG",
+  "punkte": [
+    [
+      "Anteile im SBV II: Sonderbetriebseinnahme bei der KG.",
+      "ok",
+      "§ 15 Abs. 1 S. 1 Nr. 2 EStG"
+    ],
+    [
+      "Zu 60 % steuerpflichtig; die Kapitalertragsteuer mindert den Gewinn nicht.",
+      "warn",
+      "§ 3 Nr. 40 S. 1 Buchst. d, § 12 Nr. 3 EStG"
+    ]
+  ],
+  "sichtbareTexte": [
+    "Personengesellschaften",
+    "Norm des Tages",
+    "Dividende der",
+    "Komplementär-GmbH",
+    "§ 20 Abs. 8 EStG",
+    "Anteile im SBV II: Sonderbetriebseinnahme bei der KG.",
+    "§ 15 Abs. 1 S. 1 Nr. 2 EStG",
+    "Zu 60 % steuerpflichtig; die Kapitalertragsteuer mindert den Gewinn nicht.",
+    "§ 3 Nr. 40 S. 1 Buchst. d, § 12 Nr. 3 EStG"
+  ],
+  "renderer": "open-peeps-v4",
+  "bildStatus": "open-peeps-render",
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "liveVorrangAktiv": true,
+  "regelGeprueft": true
+}

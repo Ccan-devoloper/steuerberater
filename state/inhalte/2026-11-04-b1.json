@@ -1,0 +1,89 @@
+{
+  "format": "fehlerfalle",
+  "fach": "persg",
+  "klausur": 3,
+  "fachLabel": "Personengesellschaften",
+  "themaId": "persg-aufb-persg-melzer-4-5",
+  "caption": "Klausurfalle: Sind GmbH-Anteile des Kommanditisten immer Sonderbetriebsvermögen II?\n\nFall: Kern GmbH & Co. KG, Kommanditisten Ilkay (60 %) und Talia (40 %). An der Komplementär-GmbH: Ilkay 92 %, Talia 8 %; die Satzung lässt die einfache Mehrheit genügen.\n\n▸ Sonderbetriebsvermögen II sind Wirtschaftsgüter, die der Beteiligung des Gesellschafters an der Personengesellschaft dienen (R 4.2 Abs. 2 EStR; Einkünfte nach § 15 Abs. 1 S. 1 Nr. 2 EStG).\n▸ Eine Minderheitsbeteiligung unter 10 % an der Komplementär-GmbH ist regelmäßig kein notwendiges Sonderbetriebsvermögen II, wenn die Gesellschafterversammlung mit einfacher Mehrheit entscheidet (BFH vom 16.04.2015, IV R 1/12, BStBl II 2015, 705). Anders, wenn ohne die Stimmen des Minderheitsgesellschafters keine Beschlüsse möglich sind.\n▸ Unterhält die GmbH neben der Geschäftsführung für die KG einen eigenen Geschäftsbetrieb von nicht ganz untergeordneter Bedeutung, gehört auch eine Mehrheitsbeteiligung in der Regel nicht zum notwendigen Sonderbetriebsvermögen II (BFH vom 21.12.2021, IV R 15/19, BStBl II 2022, 651).\n▸ Folge: Im Privatvermögen Einkünfte aus Kapitalvermögen (§ 20 Abs. 1 Nr. 1, § 32d Abs. 1 EStG); im Sonderbetriebsvermögen gewerbliche Sonderbetriebseinnahmen (§ 20 Abs. 8 EStG) im Teileinkünfteverfahren (§ 3 Nr. 40 S. 1 Buchst. d EStG).\n\nZum Schluss: § 15 Abs. 1 S. 1 Nr. 2 EStG, R 4.2 Abs. 2 EStR und H 4.2 (2) EStH zum Markieren. Speichern für Klausur 3 📌",
+  "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#personengesellschaften"
+  ],
+  "quellen": [
+    "§ 15 Abs. 1 S. 1 Nr. 2 EStG",
+    "R 4.2 Abs. 2 EStR",
+    "BFH vom 16.04.2015, IV R 1/12, BStBl II 2015, 705",
+    "§ 20 Abs. 1 Nr. 1, Abs. 8 EStG",
+    "§ 32d Abs. 1 EStG",
+    "§ 3 Nr. 40 S. 1 Buchst. d EStG",
+    "BFH vom 21.12.2021, IV R 15/19, BStBl II 2022, 651",
+    "H 4.2 (2) EStH"
+  ],
+  "slug": "2026-11-04-b1",
+  "kurztitel": "Wann sind Anteile an der Komplementär-GmbH SBV II?",
+  "regelGeprueft": true,
+  "manuellGeprueft": false,
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "textProviderKostenUsd": 0,
+  "faktencheckProviderKostenUsd": 0,
+  "bildStatus": "open-peeps-render",
+  "renderer": "open-peeps-v4",
+  "liveVorrangAktiv": true,
+  "coverBadge": "Klausurfalle",
+  "folien": [
+    {
+      "art": "titel",
+      "titel": "Klausurfalle",
+      "text": "Klausurfalle · GmbH-Anteil · immer SBV II? · § 15 Abs. 1 S. 1 Nr. 2 EStG · Vorsicht · + Markier-Guide § 15 + H 4.2",
+      "bild": "op-cover"
+    },
+    {
+      "art": "text",
+      "titel": "Personengesellschaften",
+      "text": "Die Annahme · Oft werden alle GmbH-Anteile eines Kommanditisten automatisch ins Sonderbetriebsvermögen II gebucht. · Dorthin gehören sie aber nur, wenn sie seiner Beteiligung an der KG dienen. · R 4.2 Abs. 2 EStR · Ich bin Ilkay. Wo ist das Problem?"
+    },
+    {
+      "art": "text",
+      "titel": "Personengesellschaften",
+      "text": "Der Fall · Kern GmbH & Co. KG: Kommanditisten sind Ilkay mit 60 % und Talia mit 40 %. · An der Komplementär-GmbH: Ilkay 92 %, Talia 8 %. · Satzung der GmbH: einfache Mehrheit genügt. · Ich bin Talia."
+    },
+    {
+      "art": "text",
+      "titel": "Personengesellschaften",
+      "text": "Jetzt du · Gehören Talias 8 % an der GmbH zu ihrem Sonderbetriebsvermögen II? · Und Ilkays 92 %? · Zählt nur die Quote?"
+    },
+    {
+      "art": "text",
+      "titel": "Personengesellschaften",
+      "text": "Lösung · Unter 10 % bei einfacher Mehrheit: kein Einfluss auf die Geschäftsführung der KG. · BFH vom 16.04.2015, IV R 1/12, BStBl II 2015, 705 · Talias Anteil bleibt Privatvermögen. · Ilkays 92 %: notwendiges Sonderbetriebsvermögen II. · Bei mir schon!"
+    },
+    {
+      "art": "text",
+      "titel": "Personengesellschaften",
+      "text": "Zwei Gegenproben · Geht laut Satzung ohne Talias Stimmen nichts, kippt das Ergebnis: Sonderbetriebsvermögen II. · BFH vom 16.04.2015, IV R 1/12, BStBl II 2015, 705 · Hat die GmbH ein eigenes, nicht nur untergeordnetes Geschäft, ist auch eine Mehrheit in der Regel nicht SBV II. · BFH vom 21.12.2021, IV R 15/19, BStBl II 2022, 651 · Und meine Mehrheit?"
+    },
+    {
+      "art": "text",
+      "titel": "Personengesellschaften",
+      "text": "Was hängt daran? · Privatvermögen · Dividende: Kapitalvermögen · § 20 Abs. 1 Nr. 1 EStG · Abgeltungsteuer · § 32d Abs. 1 EStG · SBV II · Dividende: Sonderbetriebseinnahme · § 20 Abs. 8 EStG · Teileinkünfteverfahren · § 3 Nr. 40 S. 1 Buchst. d EStG · Es geht um Geld!"
+    },
+    {
+      "art": "text",
+      "titel": "Personengesellschaften",
+      "text": "Talia: Privatvermögen · Ilkay: SBV II · Maßstab ist der Einfluss auf die KG · Einfluss zählt, · nicht die Quote allein: · unter 10 % meist privat, · Eigengeschäft sperrt. · Speichern für Klausur 3 · Satzung mitgelesen? · Weiterwischen: § 15 + H 4.2 markiert"
+    },
+    {
+      "art": "text",
+      "titel": "Personengesellschaften",
+      "text": "§ 15 Abs. 1 EStG (Auszug) · Gesamthand · auch GmbH & Co. KG · Sonderbereich · SBV II steht nicht im Gesetz · Grundlage: R 4.2 Abs. 2 EStR und BFH"
+    },
+    {
+      "art": "text",
+      "titel": "Personengesellschaften",
+      "text": "R 4.2 Abs. 2 EStR, H 4.2 (2) EStH (Auszug) · Zweck: Beteiligung · kein SBV II · Talia: 8 % · einfache Mehrheit · Ausnahmen: BFH IV R 1/12 und IV R 15/19 · BStBl II 2015, 705 und 2022, 651"
+    }
+  ]
+}

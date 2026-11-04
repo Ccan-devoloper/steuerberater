@@ -1,0 +1,49 @@
+{
+  "slot": "s7",
+  "art": "tipp",
+  "fach": null,
+  "klausur": 0,
+  "fachLabel": "Klausurtechnik",
+  "themaId": null,
+  "beitragSlot": null,
+  "quellen": null,
+  "titel": [
+    "Fristen lösen:",
+    "erst Zeitstrahl"
+  ],
+  "punkte": [
+    [
+      "Alle Daten aus dem Sachverhalt untereinander.",
+      "ok",
+      null
+    ],
+    [
+      "Beginn, Dauer und Ende getrennt begründen.",
+      "ok",
+      null
+    ],
+    [
+      "Wochenende und Feiertag am Fristende prüfen.",
+      "warn",
+      "§ 108 Abs. 3 AO"
+    ]
+  ],
+  "icon": "tabler:timeline",
+  "iconFarbe": "GELB",
+  "sichtbareTexte": [
+    "Klausurtechnik",
+    "Klausurtipp",
+    "Fristen lösen:",
+    "erst Zeitstrahl",
+    "Alle Daten aus dem Sachverhalt untereinander.",
+    "Beginn, Dauer und Ende getrennt begründen.",
+    "Wochenende und Feiertag am Fristende prüfen.",
+    "§ 108 Abs. 3 AO"
+  ],
+  "renderer": "open-peeps-v4",
+  "bildStatus": "open-peeps-render",
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "liveVorrangAktiv": true,
+  "regelGeprueft": true
+}

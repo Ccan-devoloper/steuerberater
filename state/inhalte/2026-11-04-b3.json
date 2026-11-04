@@ -1,0 +1,64 @@
+{
+  "format": "reel",
+  "fach": "istr",
+  "klausur": 2,
+  "fachLabel": "Internationales Steuerrecht",
+  "themaId": "istr-modul-istr-istr3-04",
+  "caption": "Klausurfalle Aufsichtsratsvergütung: Die Aufsichtsrätin wohnt im Ausland – trotzdem besteuert Deutschland. 🌍\n\n▸ Einkunftsart: Vergütungen für die Tätigkeit als Aufsichtsratsmitglied sind Einkünfte aus sonstiger selbständiger Arbeit (§ 18 Abs. 1 Nr. 3 EStG).\n▸ Inlandsbezug: selbständige Arbeit, die im Inland ausgeübt oder verwertet wird (§ 49 Abs. 1 Nr. 3 EStG); beschränkte Steuerpflicht (§ 1 Abs. 4 EStG).\n▸ Steuerabzug: Die Gesellschaft behält bei Aufsichtsratsvergütungen 30 % der gesamten Einnahmen ein (§ 50a Abs. 1 Nr. 4, Abs. 2 S. 1 EStG), hier 3.000 € von 10.000 €; die Steuer gilt grundsätzlich als abgegolten (§ 50 Abs. 2 S. 1 EStG).\n▸ DBA: Aufsichtsrats- und Verwaltungsratsvergütungen darf nach Art. 16 OECD-MA der Staat besteuern, in dem die Gesellschaft ansässig ist – nicht Art. 7 oder Art. 15. Der Wohnsitzstaat vermeidet die Doppelbesteuerung (Art. 23A/23B OECD-MA).\n\nSpeichern für Klausur 2 📌",
+  "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#internationalessteuerrecht"
+  ],
+  "quellen": [
+    "§ 18 Abs. 1 Nr. 3 EStG",
+    "§ 49 Abs. 1 Nr. 3 EStG",
+    "§ 1 Abs. 4 EStG",
+    "§ 50a Abs. 1 Nr. 4, Abs. 2 S. 1 EStG",
+    "§ 50 Abs. 2 S. 1 EStG",
+    "Art. 16, 23A, 23B OECD-MA"
+  ],
+  "slug": "2026-11-04-b3",
+  "kurztitel": "Aufsichtsratsvergütung: § 18, § 49, § 50a und Art. 16 DBA",
+  "regelGeprueft": true,
+  "manuellGeprueft": false,
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "textProviderKostenUsd": 0,
+  "faktencheckProviderKostenUsd": 0,
+  "bildStatus": "open-peeps-render",
+  "renderer": "open-peeps-v4",
+  "liveVorrangAktiv": true,
+  "bild": "op-cover",
+  "reelTyp": "klausurfalle",
+  "hookStil": "kippen",
+  "coverBadge": "Reel",
+  "szenen": [
+    {
+      "art": "hook",
+      "titel": "Aufsichtsrat nur daheim?"
+    },
+    {
+      "art": "schritt",
+      "titel": "Inländische Einkünfte"
+    },
+    {
+      "art": "schritt",
+      "titel": "Abzug durch die AG"
+    },
+    {
+      "art": "schritt",
+      "titel": "Und das DBA?"
+    }
+  ],
+  "sprecher": [
+    "Aufsichtsrätin aus dem Ausland, bezahlt von einer deutschen AG. Nur daheim steuerpflichtig? Falsch. Hier gilt eine Sonderregel.",
+    "Aufsichtsratsvergütungen sind Einkünfte aus selbständiger Arbeit. Weil die Überwachung in Deutschland verwertet wird, sind sie inländisch.",
+    "Die AG behält dreißig Prozent ein. Bei zehntausend Euro sind das dreitausend Euro Abzugsteuer.",
+    "Und das Abkommen? Artikel sechzehn lässt den Staat besteuern, in dem die Gesellschaft ansässig ist.",
+    "Merke: Der Aufsichtsrat zahlt dort, wo die Gesellschaft sitzt."
+  ],
+  "dauerS": 36.945,
+  "tempo": 1
+}

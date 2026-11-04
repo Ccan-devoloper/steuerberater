@@ -1,0 +1,71 @@
+{
+  "slot": "s9",
+  "art": "merksatz",
+  "fach": "est",
+  "klausur": 2,
+  "fachLabel": "Einkommensteuer",
+  "themaId": "est-aufb-est-ks2-19-02",
+  "beitragSlot": null,
+  "quellen": null,
+  "titel": [
+    "Firmenwagen:",
+    "pauschal"
+  ],
+  "zeilen": [
+    [
+      [
+        "1 %",
+        "a"
+      ],
+      [
+        " Listenpreis im Monat",
+        null
+      ]
+    ],
+    [
+      [
+        "+ ",
+        null
+      ],
+      [
+        "0,03 %",
+        "b"
+      ],
+      [
+        " je Entfernungs-km",
+        null
+      ]
+    ],
+    [
+      [
+        "oder ",
+        null
+      ],
+      [
+        "Fahrtenbuch",
+        "c"
+      ],
+      [
+        ".",
+        null
+      ]
+    ]
+  ],
+  "norm": "§ 8 Abs. 2 S. 2 bis 4 EStG",
+  "sichtbareTexte": [
+    "Einkommensteuer",
+    "Merksatz",
+    "Firmenwagen:",
+    "pauschal",
+    "1 % Listenpreis im Monat",
+    "+ 0,03 % je Entfernungs-km",
+    "oder Fahrtenbuch.",
+    "§ 8 Abs. 2 S. 2 bis 4 EStG"
+  ],
+  "renderer": "open-peeps-v4",
+  "bildStatus": "open-peeps-render",
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "liveVorrangAktiv": true,
+  "regelGeprueft": true
+}

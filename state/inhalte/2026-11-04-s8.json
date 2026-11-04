@@ -1,0 +1,52 @@
+{
+  "slot": "s8",
+  "art": "tipp",
+  "fach": "ust",
+  "klausur": 1,
+  "fachLabel": "Umsatzsteuer",
+  "themaId": "ust-karte-ust-9",
+  "beitragSlot": null,
+  "quellen": null,
+  "titel": [
+    "Ist-Versteuerung:",
+    "wer darf?"
+  ],
+  "normImTitel": false,
+  "punkte": [
+    [
+      "Gesamtumsatz im Vorjahr bis 800.000 €.",
+      "ok",
+      "§ 20 S. 1 Nr. 1 UStG"
+    ],
+    [
+      "Oder befreit von der Buchführungspflicht.",
+      "ok",
+      "§ 20 S. 1 Nr. 2 UStG"
+    ],
+    [
+      "Oder freiberufliche Umsätze.",
+      "ok",
+      "§ 20 S. 1 Nr. 3 UStG"
+    ]
+  ],
+  "icon": "tabler:cash",
+  "iconFarbe": "GELB",
+  "sichtbareTexte": [
+    "Umsatzsteuer",
+    "Klausurtipp",
+    "Ist-Versteuerung:",
+    "wer darf?",
+    "Gesamtumsatz im Vorjahr bis 800.000 €.",
+    "§ 20 S. 1 Nr. 1 UStG",
+    "Oder befreit von der Buchführungspflicht.",
+    "§ 20 S. 1 Nr. 2 UStG",
+    "Oder freiberufliche Umsätze.",
+    "§ 20 S. 1 Nr. 3 UStG"
+  ],
+  "renderer": "open-peeps-v4",
+  "bildStatus": "open-peeps-render",
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "liveVorrangAktiv": true,
+  "regelGeprueft": true
+}
