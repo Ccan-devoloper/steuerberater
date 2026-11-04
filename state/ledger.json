@@ -19256,19 +19256,19 @@
         "#abgabenordnung"
       ],
       "insights": {
-        "reach": 1112,
-        "saved": 12,
+        "reach": 1148,
+        "saved": 13,
         "shares": 1,
         "likes": 19,
         "comments": 0,
-        "total_interactions": 32,
-        "views": 1321,
-        "ig_reels_avg_watch_time": 8051,
-        "ig_reels_video_view_total_time": 8945389,
+        "total_interactions": 33,
+        "views": 1365,
+        "ig_reels_avg_watch_time": 8061,
+        "ig_reels_video_view_total_time": 9254263,
         "reels_skip_rate": 63.9
       },
-      "insightsStand": "2026-11-04T12:30:32.087Z",
-      "insightsAlterStunden": 20
+      "insightsStand": "2026-11-04T15:45:57.381Z",
+      "insightsAlterStunden": 23.2
     },
     {
       "datum": "2026-11-03",
@@ -19294,19 +19294,19 @@
         "#steuerberater"
       ],
       "insights": {
-        "reach": 662,
-        "saved": 5,
+        "reach": 709,
+        "saved": 6,
         "shares": 0,
         "likes": 8,
         "comments": 0,
-        "total_interactions": 13,
-        "views": 832,
-        "ig_reels_avg_watch_time": 15065,
-        "ig_reels_video_view_total_time": 10048837,
-        "reels_skip_rate": 58.9
+        "total_interactions": 14,
+        "views": 897,
+        "ig_reels_avg_watch_time": 14389,
+        "ig_reels_video_view_total_time": 10446460,
+        "reels_skip_rate": 59.7
       },
-      "insightsStand": "2026-11-04T12:30:32.087Z",
-      "insightsAlterStunden": 18.4
+      "insightsStand": "2026-11-04T15:45:57.381Z",
+      "insightsAlterStunden": 21.7
     },
     {
       "datum": "2026-11-03",
@@ -19415,22 +19415,22 @@
       "fach": "istr",
       "titel": "",
       "insights": {
-        "reach": 26,
-        "views": 37,
+        "reach": 33,
+        "views": 46,
         "shares": 0,
-        "total_interactions": 0,
+        "total_interactions": 1,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 36,
-        "navigation_swipe_forward": 2,
-        "navigation_tap_exit": 2,
-        "navigation_tap_forward": 27,
+        "navigation": 44,
+        "navigation_swipe_forward": 3,
+        "navigation_tap_exit": 3,
+        "navigation_tap_forward": 33,
         "navigation_tap_back": 5
       },
-      "insightsStand": "2026-11-04T11:45:41.178Z",
-      "insightsAlterStunden": 5.6
+      "insightsStand": "2026-11-04T15:45:54.050Z",
+      "insightsAlterStunden": 9.6
     },
     {
       "datum": "2026-11-04",
@@ -19447,21 +19447,22 @@
         "90 Prozent"
       ],
       "insights": {
-        "reach": 24,
-        "views": 33,
+        "reach": 30,
+        "views": 41,
         "shares": 0,
-        "total_interactions": 0,
+        "total_interactions": 1,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 31,
+        "navigation": 38,
         "navigation_tap_back": 5,
-        "navigation_tap_exit": 2,
-        "navigation_tap_forward": 24
+        "navigation_tap_exit": 4,
+        "navigation_tap_forward": 27,
+        "navigation_swipe_forward": 2
       },
-      "insightsStand": "2026-11-04T11:45:41.178Z",
-      "insightsAlterStunden": 5.6
+      "insightsStand": "2026-11-04T15:45:54.050Z",
+      "insightsAlterStunden": 9.6
     },
     {
       "datum": "2026-11-04",
@@ -19485,17 +19486,17 @@
         "#personengesellschaften"
       ],
       "insights": {
-        "reach": 95,
-        "saved": 1,
+        "reach": 125,
+        "saved": 2,
         "shares": 1,
-        "likes": 2,
+        "likes": 3,
         "comments": 0,
-        "total_interactions": 4,
+        "total_interactions": 6,
         "follows": 0,
-        "profile_visits": 0
+        "profile_visits": 2
       },
-      "insightsStand": "2026-11-04T12:30:32.087Z",
-      "insightsAlterStunden": 5
+      "insightsStand": "2026-11-04T15:45:57.381Z",
+      "insightsAlterStunden": 8.3
     },
     {
       "datum": "2026-11-04",
@@ -19581,7 +19582,7 @@
         "#abgabenordnung"
       ],
       "insights": {
-        "reach": 44,
+        "reach": 71,
         "saved": 1,
         "shares": 0,
         "likes": 1,
@@ -19590,8 +19591,8 @@
         "follows": 0,
         "profile_visits": 0
       },
-      "insightsStand": "2026-11-04T13:40:08.515Z",
-      "insightsAlterStunden": 1.2
+      "insightsStand": "2026-11-04T15:45:57.381Z",
+      "insightsAlterStunden": 3.3
     },
     {
       "datum": "2026-11-04",
