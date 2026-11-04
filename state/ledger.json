@@ -19526,6 +19526,21 @@
       },
       "insightsStand": "2026-11-04T08:46:18.530Z",
       "insightsAlterStunden": 1.3
+    },
+    {
+      "datum": "2026-11-04",
+      "slot": "s6",
+      "medienId": "18120847421069934",
+      "veroeffentlicht": "2026-11-04T11:14:30.227Z",
+      "quelle": "vorproduktion",
+      "art": "story",
+      "storyArt": "norm",
+      "thema": "persg-aufb-persg-melzer-4-6",
+      "fach": "persg",
+      "titel": [
+        "Dividende der",
+        "Komplementär-GmbH"
+      ]
     }
   ],
   "fachZaehler": {
