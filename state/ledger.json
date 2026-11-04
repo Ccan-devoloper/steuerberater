@@ -19746,19 +19746,19 @@
         "#steuerberater"
       ],
       "insights": {
-        "reach": 70,
+        "reach": 165,
         "saved": 0,
         "shares": 0,
-        "likes": 0,
+        "likes": 1,
         "comments": 0,
-        "total_interactions": 0,
-        "views": 144,
-        "ig_reels_avg_watch_time": 6626,
-        "ig_reels_video_view_total_time": 443998,
-        "reels_skip_rate": 33.9
+        "total_interactions": 1,
+        "views": 206,
+        "ig_reels_avg_watch_time": 6580,
+        "ig_reels_video_view_total_time": 1072605,
+        "reels_skip_rate": 64.7
       },
-      "insightsStand": "2026-11-04T18:46:05.998Z",
-      "insightsAlterStunden": 0.8
+      "insightsStand": "2026-11-04T20:34:04.263Z",
+      "insightsAlterStunden": 2.6
     },
     {
       "datum": "2026-11-04",
