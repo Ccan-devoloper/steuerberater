@@ -19714,6 +19714,20 @@
         "#zivilrecht",
         "#steuerberater"
       ]
+    },
+    {
+      "datum": "2026-11-04",
+      "slot": "s3",
+      "medienId": "18110752769249858",
+      "veroeffentlicht": "2026-11-04T18:00:24.503Z",
+      "quelle": "vorproduktion",
+      "art": "story",
+      "storyArt": "teaser",
+      "thema": null,
+      "fach": "istr",
+      "titel": [
+        "Aufsichtsrat nur daheim?"
+      ]
     }
   ],
   "fachZaehler": {
