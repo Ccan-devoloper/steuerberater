@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "stand": "2026-11-04T12:44:54.558Z",
+  "stand": "2026-11-04T13:40:09.536Z",
   "medien": {
     "18093399314208242": {
       "art": "beitrag",
@@ -61322,6 +61322,23 @@
           "navigation_tap_back": 2,
           "navigation_tap_exit": 5,
           "navigation_tap_forward": 5
+        },
+        {
+          "stand": "2026-11-04T13:40:05.814Z",
+          "alterStunden": 6.2,
+          "reach": 25,
+          "views": 35,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 31,
+          "navigation_swipe_forward": 1,
+          "navigation_tap_forward": 15,
+          "navigation_tap_exit": 10,
+          "navigation_tap_back": 5
         }
       ]
     },
@@ -61401,6 +61418,60 @@
           "navigation_tap_exit": 2,
           "navigation_tap_forward": 10,
           "navigation_tap_back": 1
+        }
+      ]
+    },
+    "18278635963306446": {
+      "art": "story",
+      "datum": "2026-11-04",
+      "titel": [
+        "Festsetzungsfrist gerettet?"
+      ],
+      "format": null,
+      "fach": "ao",
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-11-04T12:30:24.596Z",
+      "snapshots": [
+        {
+          "stand": "2026-11-04T13:40:05.814Z",
+          "alterStunden": 1.2,
+          "reach": 12,
+          "views": 14,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 11,
+          "navigation_tap_forward": 5,
+          "navigation_tap_exit": 5,
+          "navigation_tap_back": 1
+        }
+      ]
+    },
+    "17889397005624317": {
+      "art": "beitrag",
+      "datum": "2026-11-04",
+      "titel": "Prüfschema",
+      "format": "schema",
+      "fach": "ao",
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-11-04T12:30:07.957Z",
+      "snapshots": [
+        {
+          "stand": "2026-11-04T13:40:08.515Z",
+          "alterStunden": 1.2,
+          "reach": 44,
+          "saved": 1,
+          "shares": 0,
+          "likes": 1,
+          "comments": 0,
+          "total_interactions": 2,
+          "follows": 0,
+          "profile_visits": 0
         }
       ]
     }
@@ -64659,6 +64730,11 @@
     {
       "stand": "2026-11-04T12:44:54.558Z",
       "follower": 503,
+      "medien": 188
+    },
+    {
+      "stand": "2026-11-04T13:40:09.536Z",
+      "follower": 504,
       "medien": 188
     }
   ]
