@@ -19653,6 +19653,21 @@
       },
       "insightsStand": "2026-11-04T14:50:52.757Z",
       "insightsAlterStunden": 1.2
+    },
+    {
+      "datum": "2026-11-04",
+      "slot": "s8",
+      "medienId": "18124666219901151",
+      "veroeffentlicht": "2026-11-04T16:04:05.178Z",
+      "quelle": "vorproduktion",
+      "art": "story",
+      "storyArt": "tipp",
+      "thema": "ust-karte-ust-9",
+      "fach": "ust",
+      "titel": [
+        "Ist-Versteuerung:",
+        "wer darf?"
+      ]
     }
   ],
   "fachZaehler": {
