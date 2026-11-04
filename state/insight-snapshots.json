@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "stand": "2026-11-04T11:45:44.310Z",
+  "stand": "2026-11-04T12:30:32.087Z",
   "medien": {
     "18093399314208242": {
       "art": "beitrag",
@@ -60673,6 +60673,23 @@
           "navigation_tap_forward": 47,
           "navigation_tap_exit": 14,
           "navigation_swipe_forward": 1
+        },
+        {
+          "stand": "2026-11-04T12:30:26.281Z",
+          "alterStunden": 22.8,
+          "reach": 58,
+          "views": 78,
+          "shares": 0,
+          "total_interactions": 1,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 1,
+          "profile_activity": 0,
+          "navigation": 74,
+          "navigation_tap_back": 7,
+          "navigation_tap_forward": 52,
+          "navigation_tap_exit": 14,
+          "navigation_swipe_forward": 1
         }
       ]
     },
@@ -60755,6 +60772,23 @@
           "navigation_tap_back": 5,
           "navigation_tap_forward": 50,
           "navigation_tap_exit": 8
+        },
+        {
+          "stand": "2026-11-04T12:30:26.281Z",
+          "alterStunden": 20.4,
+          "reach": 55,
+          "views": 72,
+          "shares": 0,
+          "total_interactions": 1,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 68,
+          "navigation_tap_exit": 8,
+          "navigation_tap_forward": 53,
+          "navigation_tap_back": 6,
+          "navigation_swipe_forward": 1
         }
       ]
     },
@@ -60823,6 +60857,20 @@
           "ig_reels_avg_watch_time": 8220,
           "ig_reels_video_view_total_time": 8204231,
           "reels_skip_rate": 63.7
+        },
+        {
+          "stand": "2026-11-04T12:30:32.087Z",
+          "alterStunden": 20,
+          "reach": 1112,
+          "saved": 12,
+          "shares": 1,
+          "likes": 19,
+          "comments": 0,
+          "total_interactions": 32,
+          "views": 1321,
+          "ig_reels_avg_watch_time": 8051,
+          "ig_reels_video_view_total_time": 8945389,
+          "reels_skip_rate": 63.9
         }
       ]
     },
@@ -60891,6 +60939,20 @@
           "ig_reels_avg_watch_time": 15664,
           "ig_reels_video_view_total_time": 9649134,
           "reels_skip_rate": 57.9
+        },
+        {
+          "stand": "2026-11-04T12:30:32.087Z",
+          "alterStunden": 18.4,
+          "reach": 662,
+          "saved": 5,
+          "shares": 0,
+          "likes": 8,
+          "comments": 0,
+          "total_interactions": 13,
+          "views": 832,
+          "ig_reels_avg_watch_time": 15065,
+          "ig_reels_video_view_total_time": 10048837,
+          "reels_skip_rate": 58.9
         }
       ]
     },
@@ -61296,6 +61358,49 @@
           "total_interactions": 4,
           "follows": 0,
           "profile_visits": 0
+        },
+        {
+          "stand": "2026-11-04T12:30:32.087Z",
+          "alterStunden": 5,
+          "reach": 95,
+          "saved": 1,
+          "shares": 1,
+          "likes": 2,
+          "comments": 0,
+          "total_interactions": 4,
+          "follows": 0,
+          "profile_visits": 0
+        }
+      ]
+    },
+    "18120847421069934": {
+      "art": "story",
+      "datum": "2026-11-04",
+      "titel": [
+        "Dividende der",
+        "Komplementär-GmbH"
+      ],
+      "format": null,
+      "fach": "persg",
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-11-04T11:14:30.227Z",
+      "snapshots": [
+        {
+          "stand": "2026-11-04T12:30:26.281Z",
+          "alterStunden": 1.3,
+          "reach": 10,
+          "views": 17,
+          "shares": 0,
+          "total_interactions": 1,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 13,
+          "navigation_tap_exit": 2,
+          "navigation_tap_forward": 10,
+          "navigation_tap_back": 1
         }
       ]
     }
