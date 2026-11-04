@@ -19486,17 +19486,17 @@
         "#personengesellschaften"
       ],
       "insights": {
-        "reach": 125,
+        "reach": 149,
         "saved": 2,
-        "shares": 1,
-        "likes": 3,
+        "shares": 3,
+        "likes": 4,
         "comments": 0,
-        "total_interactions": 6,
+        "total_interactions": 9,
         "follows": 0,
         "profile_visits": 2
       },
-      "insightsStand": "2026-11-04T15:45:57.381Z",
-      "insightsAlterStunden": 8.3
+      "insightsStand": "2026-11-04T18:46:05.998Z",
+      "insightsAlterStunden": 11.3
     },
     {
       "datum": "2026-11-04",
@@ -19744,7 +19744,21 @@
         "#examensvorbereitung",
         "#zivilrecht",
         "#steuerberater"
-      ]
+      ],
+      "insights": {
+        "reach": 70,
+        "saved": 0,
+        "shares": 0,
+        "likes": 0,
+        "comments": 0,
+        "total_interactions": 0,
+        "views": 144,
+        "ig_reels_avg_watch_time": 6626,
+        "ig_reels_video_view_total_time": 443998,
+        "reels_skip_rate": 33.9
+      },
+      "insightsStand": "2026-11-04T18:46:05.998Z",
+      "insightsAlterStunden": 0.8
     },
     {
       "datum": "2026-11-04",

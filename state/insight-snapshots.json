@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "stand": "2026-11-04T18:00:52.626Z",
+  "stand": "2026-11-04T18:46:05.998Z",
   "medien": {
     "18093399314208242": {
       "art": "beitrag",
@@ -61732,6 +61732,18 @@
           "total_interactions": 6,
           "follows": 0,
           "profile_visits": 2
+        },
+        {
+          "stand": "2026-11-04T18:46:05.998Z",
+          "alterStunden": 11.3,
+          "reach": 149,
+          "saved": 2,
+          "shares": 3,
+          "likes": 4,
+          "comments": 0,
+          "total_interactions": 9,
+          "follows": 0,
+          "profile_visits": 2
         }
       ]
     },
@@ -61961,6 +61973,32 @@
           "ig_reels_avg_watch_time": 8392,
           "ig_reels_video_view_total_time": 1141313,
           "reels_skip_rate": 57
+        }
+      ]
+    },
+    "17977818257938352": {
+      "art": "beitrag",
+      "datum": "2026-11-04",
+      "titel": "Wahr oder falsch: Bürgschaft braucht Schriftform",
+      "format": "reel",
+      "fach": null,
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-11-04T18:00:08.418Z",
+      "snapshots": [
+        {
+          "stand": "2026-11-04T18:46:05.998Z",
+          "alterStunden": 0.8,
+          "reach": 70,
+          "saved": 0,
+          "shares": 0,
+          "likes": 0,
+          "comments": 0,
+          "total_interactions": 0,
+          "views": 144,
+          "ig_reels_avg_watch_time": 6626,
+          "ig_reels_video_view_total_time": 443998,
+          "reels_skip_rate": 33.9
         }
       ]
     }
