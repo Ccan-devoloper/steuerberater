@@ -128,7 +128,8 @@
       "zeit": "19:12",
       "art": "merksatz",
       "themaId": "est-aufb-est-ks2-19-02",
-      "status": "geplant"
+      "status": "sendet",
+      "sendeversuch": "2026-11-04T18:12:00.095Z"
     },
     {
       "slot": "s10",
