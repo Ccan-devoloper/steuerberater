@@ -19414,6 +19414,21 @@
       "thema": null,
       "fach": "istr",
       "titel": ""
+    },
+    {
+      "datum": "2026-11-04",
+      "slot": "s5",
+      "medienId": "17874031617641246",
+      "veroeffentlicht": "2026-11-04T06:09:14.803Z",
+      "quelle": "vorproduktion",
+      "art": "story",
+      "storyArt": "antwort",
+      "thema": null,
+      "fach": "istr",
+      "titel": [
+        "A: mindestens",
+        "90 Prozent"
+      ]
     }
   ],
   "fachZaehler": {
