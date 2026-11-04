@@ -19563,6 +19563,20 @@
         "#examensvorbereitung",
         "#abgabenordnung"
       ]
+    },
+    {
+      "datum": "2026-11-04",
+      "slot": "s2",
+      "medienId": "18278635963306446",
+      "veroeffentlicht": "2026-11-04T12:30:24.596Z",
+      "quelle": "vorproduktion",
+      "art": "story",
+      "storyArt": "teaser",
+      "thema": null,
+      "fach": "ao",
+      "titel": [
+        "Festsetzungsfrist gerettet?"
+      ]
     }
   ],
   "fachZaehler": {
