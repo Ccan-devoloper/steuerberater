@@ -19690,6 +19690,30 @@
         "#examensvorbereitung",
         "#internationalessteuerrecht"
       ]
+    },
+    {
+      "datum": "2026-11-04",
+      "slot": "m1",
+      "medienId": "17977818257938352",
+      "veroeffentlicht": "2026-11-04T18:00:08.418Z",
+      "quelle": "vorproduktion",
+      "art": "beitrag",
+      "zeit": "19:00",
+      "stunde": 19,
+      "format": "reel",
+      "thema": "lead-zr-z5",
+      "fach": null,
+      "klausur": 0,
+      "titel": "Wahr oder falsch: Bürgschaft braucht Schriftform",
+      "hookTyp": null,
+      "hashtags": [
+        "#steuerberaterprüfung",
+        "#steuerberaterexamen",
+        "#mündlicheprüfung",
+        "#examensvorbereitung",
+        "#zivilrecht",
+        "#steuerberater"
+      ]
     }
   ],
   "fachZaehler": {
@@ -19704,7 +19728,7 @@
     "est": 9,
     "umwst": 10,
     "gewst": 5,
-    "null": 14
+    "null": 15
   },
   "nachrichten": [],
   "postfach": [],
