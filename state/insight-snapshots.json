@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "stand": "2026-11-04T16:46:11.918Z",
+  "stand": "2026-11-04T18:00:52.626Z",
   "medien": {
     "18093399314208242": {
       "art": "beitrag",
@@ -58862,6 +58862,18 @@
           "total_interactions": 9,
           "follows": 0,
           "profile_visits": 0
+        },
+        {
+          "stand": "2026-11-04T18:00:48.551Z",
+          "alterStunden": 58.5,
+          "reach": 145,
+          "saved": 5,
+          "shares": 1,
+          "likes": 3,
+          "comments": 0,
+          "total_interactions": 9,
+          "follows": 0,
+          "profile_visits": 0
         }
       ]
     },
@@ -59555,6 +59567,20 @@
           "ig_reels_avg_watch_time": 10584,
           "ig_reels_video_view_total_time": 12881536,
           "reels_skip_rate": 51.2
+        },
+        {
+          "stand": "2026-11-04T18:00:48.551Z",
+          "alterStunden": 49.5,
+          "reach": 1191,
+          "saved": 7,
+          "shares": 1,
+          "likes": 15,
+          "comments": 0,
+          "total_interactions": 23,
+          "views": 1443,
+          "ig_reels_avg_watch_time": 10598,
+          "ig_reels_video_view_total_time": 12983102,
+          "reels_skip_rate": 51.2
         }
       ]
     },
@@ -59678,6 +59704,20 @@
           "views": 768,
           "ig_reels_avg_watch_time": 6099,
           "ig_reels_video_view_total_time": 4056068,
+          "reels_skip_rate": 64.1
+        },
+        {
+          "stand": "2026-11-04T18:00:48.551Z",
+          "alterStunden": 48,
+          "reach": 640,
+          "saved": 8,
+          "shares": 0,
+          "likes": 8,
+          "comments": 0,
+          "total_interactions": 16,
+          "views": 778,
+          "ig_reels_avg_watch_time": 6112,
+          "ig_reels_video_view_total_time": 4113387,
           "reels_skip_rate": 64.1
         }
       ]
@@ -60709,6 +60749,18 @@
           "total_interactions": 6,
           "follows": 0,
           "profile_visits": 4
+        },
+        {
+          "stand": "2026-11-04T18:00:48.551Z",
+          "alterStunden": 29.5,
+          "reach": 126,
+          "saved": 5,
+          "shares": 0,
+          "likes": 2,
+          "comments": 0,
+          "total_interactions": 7,
+          "follows": 0,
+          "profile_visits": 4
         }
       ]
     },
@@ -61603,6 +61655,23 @@
           "navigation_tap_forward": 15,
           "navigation_tap_exit": 10,
           "navigation_tap_back": 5
+        },
+        {
+          "stand": "2026-11-04T18:00:44.504Z",
+          "alterStunden": 10.5,
+          "reach": 33,
+          "views": 44,
+          "shares": 0,
+          "total_interactions": 2,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 1,
+          "profile_activity": 0,
+          "navigation": 38,
+          "navigation_tap_back": 5,
+          "navigation_tap_exit": 10,
+          "navigation_tap_forward": 22,
+          "navigation_swipe_forward": 1
         }
       ]
     },
@@ -61740,6 +61809,23 @@
           "navigation_tap_forward": 5,
           "navigation_tap_exit": 5,
           "navigation_tap_back": 1
+        },
+        {
+          "stand": "2026-11-04T18:00:44.504Z",
+          "alterStunden": 5.5,
+          "reach": 26,
+          "views": 28,
+          "shares": 0,
+          "total_interactions": 1,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 24,
+          "navigation_tap_back": 2,
+          "navigation_tap_exit": 7,
+          "navigation_tap_forward": 14,
+          "navigation_swipe_forward": 1
         }
       ]
     },
@@ -61776,6 +61862,18 @@
           "total_interactions": 2,
           "follows": 0,
           "profile_visits": 0
+        },
+        {
+          "stand": "2026-11-04T18:00:48.551Z",
+          "alterStunden": 5.5,
+          "reach": 88,
+          "saved": 1,
+          "shares": 0,
+          "likes": 2,
+          "comments": 0,
+          "total_interactions": 3,
+          "follows": 1,
+          "profile_visits": 1
         }
       ]
     },
@@ -61806,6 +61904,63 @@
           "navigation": 8,
           "navigation_tap_forward": 6,
           "navigation_tap_exit": 2
+        }
+      ]
+    },
+    "18124666219901151": {
+      "art": "story",
+      "datum": "2026-11-04",
+      "titel": [
+        "Ist-Versteuerung:",
+        "wer darf?"
+      ],
+      "format": null,
+      "fach": "ust",
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-11-04T16:04:05.178Z",
+      "snapshots": [
+        {
+          "stand": "2026-11-04T18:00:44.504Z",
+          "alterStunden": 1.9,
+          "reach": 16,
+          "views": 22,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 17,
+          "navigation_swipe_forward": 1,
+          "navigation_tap_exit": 6,
+          "navigation_tap_forward": 10
+        }
+      ]
+    },
+    "18110602247268369": {
+      "art": "beitrag",
+      "datum": "2026-11-04",
+      "titel": "Aufsichtsratsvergütung: § 18, § 49, § 50a und Art. 16 DBA",
+      "format": "reel",
+      "fach": "istr",
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-11-04T16:30:10.577Z",
+      "snapshots": [
+        {
+          "stand": "2026-11-04T18:00:48.551Z",
+          "alterStunden": 1.5,
+          "reach": 136,
+          "saved": 1,
+          "shares": 0,
+          "likes": 1,
+          "comments": 0,
+          "total_interactions": 2,
+          "views": 183,
+          "ig_reels_avg_watch_time": 8392,
+          "ig_reels_video_view_total_time": 1141313,
+          "reels_skip_rate": 57
         }
       ]
     }
@@ -65085,6 +65240,11 @@
       "stand": "2026-11-04T16:46:11.918Z",
       "follower": 507,
       "medien": 189
+    },
+    {
+      "stand": "2026-11-04T18:00:52.626Z",
+      "follower": 509,
+      "medien": 190
     }
   ]
 }
