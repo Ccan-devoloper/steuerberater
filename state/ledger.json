@@ -19153,22 +19153,22 @@
         "Rückstellungen: steuerlich tabu"
       ],
       "insights": {
-        "reach": 58,
-        "views": 76,
+        "reach": 59,
+        "views": 78,
         "shares": 0,
-        "total_interactions": 0,
+        "total_interactions": 1,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 72,
-        "navigation_tap_forward": 56,
-        "navigation_tap_exit": 8,
+        "navigation": 75,
+        "navigation_tap_back": 3,
         "navigation_swipe_forward": 5,
-        "navigation_tap_back": 3
+        "navigation_tap_exit": 9,
+        "navigation_tap_forward": 58
       },
-      "insightsStand": "2026-11-04T08:46:18.530Z",
-      "insightsAlterStunden": 20.3
+      "insightsStand": "2026-11-04T11:14:40.458Z",
+      "insightsAlterStunden": 22.7
     },
     {
       "datum": "2026-11-03",
