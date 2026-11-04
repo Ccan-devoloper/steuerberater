@@ -19544,21 +19544,22 @@
         "Komplementär-GmbH"
       ],
       "insights": {
-        "reach": 25,
-        "views": 31,
+        "reach": 42,
+        "views": 50,
         "shares": 0,
-        "total_interactions": 0,
+        "total_interactions": 1,
         "replies": 0,
         "follows": 0,
-        "profile_visits": 0,
-        "profile_activity": 0,
-        "navigation": 24,
-        "navigation_tap_exit": 6,
-        "navigation_tap_forward": 16,
+        "profile_visits": 1,
+        "profile_activity": 1,
+        "navigation": 36,
+        "navigation_swipe_forward": 1,
+        "navigation_tap_exit": 9,
+        "navigation_tap_forward": 24,
         "navigation_tap_back": 2
       },
-      "insightsStand": "2026-11-04T16:46:10.376Z",
-      "insightsAlterStunden": 5.5
+      "insightsStand": "2026-11-04T21:21:33.209Z",
+      "insightsAlterStunden": 10.1
     },
     {
       "datum": "2026-11-04",
@@ -19582,7 +19583,7 @@
         "#abgabenordnung"
       ],
       "insights": {
-        "reach": 88,
+        "reach": 106,
         "saved": 1,
         "shares": 0,
         "likes": 2,
@@ -19591,8 +19592,8 @@
         "follows": 1,
         "profile_visits": 1
       },
-      "insightsStand": "2026-11-04T18:00:48.551Z",
-      "insightsAlterStunden": 5.5
+      "insightsStand": "2026-11-04T21:21:35.051Z",
+      "insightsAlterStunden": 8.9
     },
     {
       "datum": "2026-11-04",
@@ -19708,19 +19709,19 @@
         "#internationalessteuerrecht"
       ],
       "insights": {
-        "reach": 171,
+        "reach": 193,
         "saved": 2,
         "shares": 0,
         "likes": 1,
         "comments": 0,
         "total_interactions": 3,
-        "views": 222,
-        "ig_reels_avg_watch_time": 7724,
-        "ig_reels_video_view_total_time": 1336350,
-        "reels_skip_rate": 63.1
+        "views": 249,
+        "ig_reels_avg_watch_time": 7994,
+        "ig_reels_video_view_total_time": 1574914,
+        "reels_skip_rate": 62.8
       },
-      "insightsStand": "2026-11-04T19:46:20.172Z",
-      "insightsAlterStunden": 3.3
+      "insightsStand": "2026-11-04T21:21:35.051Z",
+      "insightsAlterStunden": 4.9
     },
     {
       "datum": "2026-11-04",
