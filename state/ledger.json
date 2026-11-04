@@ -19415,22 +19415,22 @@
       "fach": "istr",
       "titel": "",
       "insights": {
-        "reach": 33,
-        "views": 46,
+        "reach": 45,
+        "views": 61,
         "shares": 0,
         "total_interactions": 1,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 44,
-        "navigation_swipe_forward": 3,
+        "navigation": 53,
+        "navigation_tap_back": 5,
+        "navigation_tap_forward": 42,
         "navigation_tap_exit": 3,
-        "navigation_tap_forward": 33,
-        "navigation_tap_back": 5
+        "navigation_swipe_forward": 3
       },
-      "insightsStand": "2026-11-04T15:45:54.050Z",
-      "insightsAlterStunden": 9.6
+      "insightsStand": "2026-11-04T19:46:12.608Z",
+      "insightsAlterStunden": 13.7
     },
     {
       "datum": "2026-11-04",
@@ -19447,22 +19447,22 @@
         "90 Prozent"
       ],
       "insights": {
-        "reach": 30,
-        "views": 41,
+        "reach": 40,
+        "views": 54,
         "shares": 0,
         "total_interactions": 1,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 38,
+        "navigation": 46,
         "navigation_tap_back": 5,
         "navigation_tap_exit": 4,
-        "navigation_tap_forward": 27,
-        "navigation_swipe_forward": 2
+        "navigation_tap_forward": 34,
+        "navigation_swipe_forward": 3
       },
-      "insightsStand": "2026-11-04T15:45:54.050Z",
-      "insightsAlterStunden": 9.6
+      "insightsStand": "2026-11-04T19:46:12.608Z",
+      "insightsAlterStunden": 13.6
     },
     {
       "datum": "2026-11-04",
@@ -19640,20 +19640,20 @@
         "erst Zeitstrahl"
       ],
       "insights": {
-        "reach": 8,
-        "views": 11,
+        "reach": 30,
+        "views": 32,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 8,
-        "navigation_tap_forward": 6,
-        "navigation_tap_exit": 2
+        "navigation": 28,
+        "navigation_tap_forward": 22,
+        "navigation_tap_exit": 6
       },
-      "insightsStand": "2026-11-04T14:50:52.757Z",
-      "insightsAlterStunden": 1.2
+      "insightsStand": "2026-11-04T19:46:12.608Z",
+      "insightsAlterStunden": 6.1
     },
     {
       "datum": "2026-11-04",
@@ -19708,19 +19708,19 @@
         "#internationalessteuerrecht"
       ],
       "insights": {
-        "reach": 136,
-        "saved": 1,
+        "reach": 171,
+        "saved": 2,
         "shares": 0,
         "likes": 1,
         "comments": 0,
-        "total_interactions": 2,
-        "views": 183,
-        "ig_reels_avg_watch_time": 8392,
-        "ig_reels_video_view_total_time": 1141313,
-        "reels_skip_rate": 57
+        "total_interactions": 3,
+        "views": 222,
+        "ig_reels_avg_watch_time": 7724,
+        "ig_reels_video_view_total_time": 1336350,
+        "reels_skip_rate": 63.1
       },
-      "insightsStand": "2026-11-04T18:00:48.551Z",
-      "insightsAlterStunden": 1.5
+      "insightsStand": "2026-11-04T19:46:20.172Z",
+      "insightsAlterStunden": 3.3
     },
     {
       "datum": "2026-11-04",
@@ -19772,7 +19772,23 @@
       "fach": "istr",
       "titel": [
         "Aufsichtsrat nur daheim?"
-      ]
+      ],
+      "insights": {
+        "reach": 20,
+        "views": 22,
+        "shares": 0,
+        "total_interactions": 0,
+        "replies": 0,
+        "follows": 0,
+        "profile_visits": 0,
+        "profile_activity": 0,
+        "navigation": 18,
+        "navigation_swipe_forward": 1,
+        "navigation_tap_exit": 2,
+        "navigation_tap_forward": 15
+      },
+      "insightsStand": "2026-11-04T19:46:12.608Z",
+      "insightsAlterStunden": 1.8
     },
     {
       "datum": "2026-11-04",
@@ -19787,7 +19803,24 @@
       "titel": [
         "Nicht zugehört?",
         "Gleich bist du dran"
-      ]
+      ],
+      "insights": {
+        "reach": 19,
+        "views": 22,
+        "shares": 0,
+        "total_interactions": 1,
+        "replies": 0,
+        "follows": 0,
+        "profile_visits": 0,
+        "profile_activity": 0,
+        "navigation": 19,
+        "navigation_tap_back": 1,
+        "navigation_tap_exit": 2,
+        "navigation_tap_forward": 15,
+        "navigation_swipe_forward": 1
+      },
+      "insightsStand": "2026-11-04T19:46:12.608Z",
+      "insightsAlterStunden": 1.8
     },
     {
       "datum": "2026-11-04",
@@ -19802,7 +19835,24 @@
       "titel": [
         "Firmenwagen:",
         "pauschal"
-      ]
+      ],
+      "insights": {
+        "reach": 18,
+        "views": 24,
+        "shares": 0,
+        "total_interactions": 1,
+        "replies": 0,
+        "follows": 0,
+        "profile_visits": 0,
+        "profile_activity": 0,
+        "navigation": 18,
+        "navigation_swipe_forward": 3,
+        "navigation_tap_exit": 3,
+        "navigation_tap_forward": 11,
+        "navigation_tap_back": 1
+      },
+      "insightsStand": "2026-11-04T19:46:12.608Z",
+      "insightsAlterStunden": 1.6
     }
   ],
   "fachZaehler": {

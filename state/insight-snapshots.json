@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "stand": "2026-11-04T18:46:05.998Z",
+  "stand": "2026-11-04T19:46:21.007Z",
   "medien": {
     "18093399314208242": {
       "art": "beitrag",
@@ -61544,6 +61544,23 @@
           "navigation_tap_exit": 3,
           "navigation_tap_forward": 33,
           "navigation_tap_back": 5
+        },
+        {
+          "stand": "2026-11-04T19:46:12.608Z",
+          "alterStunden": 13.7,
+          "reach": 45,
+          "views": 61,
+          "shares": 0,
+          "total_interactions": 1,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 53,
+          "navigation_tap_back": 5,
+          "navigation_tap_forward": 42,
+          "navigation_tap_exit": 3,
+          "navigation_swipe_forward": 3
         }
       ]
     },
@@ -61608,6 +61625,23 @@
           "navigation_tap_exit": 4,
           "navigation_tap_forward": 27,
           "navigation_swipe_forward": 2
+        },
+        {
+          "stand": "2026-11-04T19:46:12.608Z",
+          "alterStunden": 13.6,
+          "reach": 40,
+          "views": 54,
+          "shares": 0,
+          "total_interactions": 1,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 46,
+          "navigation_tap_back": 5,
+          "navigation_tap_exit": 4,
+          "navigation_tap_forward": 34,
+          "navigation_swipe_forward": 3
         }
       ]
     },
@@ -61916,6 +61950,21 @@
           "navigation": 8,
           "navigation_tap_forward": 6,
           "navigation_tap_exit": 2
+        },
+        {
+          "stand": "2026-11-04T19:46:12.608Z",
+          "alterStunden": 6.1,
+          "reach": 30,
+          "views": 32,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 28,
+          "navigation_tap_forward": 22,
+          "navigation_tap_exit": 6
         }
       ]
     },
@@ -61973,6 +62022,20 @@
           "ig_reels_avg_watch_time": 8392,
           "ig_reels_video_view_total_time": 1141313,
           "reels_skip_rate": 57
+        },
+        {
+          "stand": "2026-11-04T19:46:20.172Z",
+          "alterStunden": 3.3,
+          "reach": 171,
+          "saved": 2,
+          "shares": 0,
+          "likes": 1,
+          "comments": 0,
+          "total_interactions": 3,
+          "views": 222,
+          "ig_reels_avg_watch_time": 7724,
+          "ig_reels_video_view_total_time": 1336350,
+          "reels_skip_rate": 63.1
         }
       ]
     },
@@ -61999,6 +62062,100 @@
           "ig_reels_avg_watch_time": 6626,
           "ig_reels_video_view_total_time": 443998,
           "reels_skip_rate": 33.9
+        }
+      ]
+    },
+    "18110752769249858": {
+      "art": "story",
+      "datum": "2026-11-04",
+      "titel": [
+        "Aufsichtsrat nur daheim?"
+      ],
+      "format": null,
+      "fach": "istr",
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-11-04T18:00:24.503Z",
+      "snapshots": [
+        {
+          "stand": "2026-11-04T19:46:12.608Z",
+          "alterStunden": 1.8,
+          "reach": 20,
+          "views": 22,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 18,
+          "navigation_swipe_forward": 1,
+          "navigation_tap_exit": 2,
+          "navigation_tap_forward": 15
+        }
+      ]
+    },
+    "18129149305856011": {
+      "art": "story",
+      "datum": "2026-11-04",
+      "titel": [
+        "Nicht zugehört?",
+        "Gleich bist du dran"
+      ],
+      "format": null,
+      "fach": null,
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-11-04T18:00:41.340Z",
+      "snapshots": [
+        {
+          "stand": "2026-11-04T19:46:12.608Z",
+          "alterStunden": 1.8,
+          "reach": 19,
+          "views": 22,
+          "shares": 0,
+          "total_interactions": 1,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 19,
+          "navigation_tap_back": 1,
+          "navigation_tap_exit": 2,
+          "navigation_tap_forward": 15,
+          "navigation_swipe_forward": 1
+        }
+      ]
+    },
+    "18107709575346683": {
+      "art": "story",
+      "datum": "2026-11-04",
+      "titel": [
+        "Firmenwagen:",
+        "pauschal"
+      ],
+      "format": null,
+      "fach": "est",
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-11-04T18:12:05.044Z",
+      "snapshots": [
+        {
+          "stand": "2026-11-04T19:46:12.608Z",
+          "alterStunden": 1.6,
+          "reach": 18,
+          "views": 24,
+          "shares": 0,
+          "total_interactions": 1,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 18,
+          "navigation_swipe_forward": 3,
+          "navigation_tap_exit": 3,
+          "navigation_tap_forward": 11,
+          "navigation_tap_back": 1
         }
       ]
     }
@@ -65281,6 +65438,11 @@
     },
     {
       "stand": "2026-11-04T18:00:52.626Z",
+      "follower": 509,
+      "medien": 190
+    },
+    {
+      "stand": "2026-11-04T19:46:21.007Z",
       "follower": 509,
       "medien": 190
     }
