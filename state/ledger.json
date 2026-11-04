@@ -19451,6 +19451,20 @@
         "#examensvorbereitung",
         "#personengesellschaften"
       ]
+    },
+    {
+      "datum": "2026-11-04",
+      "slot": "s1",
+      "medienId": "18107997320217708",
+      "veroeffentlicht": "2026-11-04T07:30:23.964Z",
+      "quelle": "vorproduktion",
+      "art": "story",
+      "storyArt": "teaser",
+      "thema": null,
+      "fach": "persg",
+      "titel": [
+        "GmbH-Anteil immer SBV II?"
+      ]
     }
   ],
   "fachZaehler": {
