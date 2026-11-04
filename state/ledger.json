@@ -19541,13 +19541,35 @@
         "Dividende der",
         "Komplementär-GmbH"
       ]
+    },
+    {
+      "datum": "2026-11-04",
+      "slot": "b2",
+      "medienId": "17889397005624317",
+      "veroeffentlicht": "2026-11-04T12:30:07.957Z",
+      "quelle": "vorproduktion",
+      "art": "beitrag",
+      "zeit": "13:30",
+      "stunde": 13,
+      "format": "schema",
+      "thema": "ao-modul-ao-333",
+      "fach": "ao",
+      "klausur": 1,
+      "titel": "Prüfschema",
+      "hookTyp": null,
+      "hashtags": [
+        "#steuerberaterexamen",
+        "#steuerberaterprüfung",
+        "#examensvorbereitung",
+        "#abgabenordnung"
+      ]
     }
   ],
   "fachZaehler": {
     "persg": 20,
     "ust": 16,
     "kst": 15,
-    "ao": 28,
+    "ao": 29,
     "bilanz": 27,
     "istr": 21,
     "erbst": 13,
