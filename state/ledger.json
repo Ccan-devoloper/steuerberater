@@ -19088,22 +19088,22 @@
         "Ausland?"
       ],
       "insights": {
-        "reach": 56,
-        "views": 67,
+        "reach": 59,
+        "views": 73,
         "shares": 0,
         "total_interactions": 1,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 62,
-        "navigation_swipe_forward": 3,
-        "navigation_tap_back": 4,
+        "navigation": 66,
+        "navigation_tap_forward": 51,
         "navigation_tap_exit": 7,
-        "navigation_tap_forward": 48
+        "navigation_tap_back": 5,
+        "navigation_swipe_forward": 3
       },
-      "insightsStand": "2026-11-04T05:45:31.417Z",
-      "insightsAlterStunden": 18.5
+      "insightsStand": "2026-11-04T07:45:59.608Z",
+      "insightsAlterStunden": 20.5
     },
     {
       "datum": "2026-11-03",
