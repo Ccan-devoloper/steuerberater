@@ -1,0 +1,709 @@
+{
+  "datum": "2026-11-18",
+  "status": "vorproduziert",
+  "freigabeBetreiber": true,
+  "liveVerknuepft": false,
+  "vorproduktionStatus": "live-freigegeben",
+  "layoutQuelle": "open-peeps-variante-c",
+  "semantikQuelle": "examenscampus",
+  "liveVorrangAktiv": true,
+  "normalbetriebGesperrt": true,
+  "bildStatus": "open-peeps-render",
+  "kostenPolicy": {
+    "textUndFaktencheckUsd": 0,
+    "bildgenerierungUsd": 0,
+    "providerKostenUsd": 0,
+    "coverbilder": false,
+    "bildgenerierungErlaubt": false,
+    "reelStimme": "elevenlabs-abo"
+  },
+  "plan": {
+    "beitraege": [
+      {
+        "slot": "b1",
+        "zeit": "08:30",
+        "format": "fehlerfalle",
+        "themaId": "kst-aufb-kst-t2-07",
+        "themaTitel": "Streubesitz: Welche Anteile zählen für die 10-%-Grenze?",
+        "fach": "kst",
+        "klausur": 2
+      },
+      {
+        "slot": "b2",
+        "zeit": "13:30",
+        "format": "schema",
+        "themaId": "bilanz-aufb-bil-melzer-4-01",
+        "themaTitel": "Was gehört zu den Anschaffungskosten und was nicht?",
+        "fach": "bilanz",
+        "klausur": 3
+      },
+      {
+        "slot": "b3",
+        "zeit": "19:00",
+        "format": "reel",
+        "themaId": "erbst-modul-erbst-548",
+        "themaTitel": "Ertragswertverfahren §§ 184–188 BewG: Bodenwert + Gebäudeertragswert",
+        "fach": "erbst",
+        "klausur": 1
+      }
+    ],
+    "stories": [
+      {
+        "slot": "s4",
+        "zeit": "07:07",
+        "art": "frage",
+        "themaId": "ao-quiz-rechtsbehelfsbelehrung"
+      },
+      {
+        "slot": "s5",
+        "zeit": "07:09",
+        "art": "antwort",
+        "themaId": "ao-quiz-rechtsbehelfsbelehrung"
+      },
+      {
+        "slot": "s1",
+        "zeit": "08:30",
+        "art": "teaser",
+        "beitragSlot": "b1"
+      },
+      {
+        "slot": "s6",
+        "zeit": "12:14",
+        "art": "norm",
+        "themaId": "kst-aufb-kst-t2-38"
+      },
+      {
+        "slot": "s2",
+        "zeit": "13:30",
+        "art": "teaser",
+        "beitragSlot": "b2"
+      },
+      {
+        "slot": "s7",
+        "zeit": "14:40",
+        "art": "tipp"
+      },
+      {
+        "slot": "s8",
+        "zeit": "17:04",
+        "art": "tipp",
+        "themaId": "bilanz-karte-k3-4"
+      },
+      {
+        "slot": "s3",
+        "zeit": "19:00",
+        "art": "teaser",
+        "beitragSlot": "b3"
+      },
+      {
+        "slot": "s9",
+        "zeit": "19:12",
+        "art": "merksatz",
+        "themaId": "ao-aufb-ao-jacobs-5-2"
+      }
+    ]
+  },
+  "inhalte": {
+    "b1": {
+      "format": "fehlerfalle",
+      "fach": "kst",
+      "klausur": 2,
+      "fachLabel": "Körperschaftsteuer",
+      "themaId": "kst-aufb-kst-t2-07",
+      "caption": "Klausurfalle Streubesitz: Welche Anteile zählen für die 10-%-Grenze des § 8b Abs. 4 KStG?\n\n▸ Dividenden bleiben nur außer Ansatz, wenn die Beteiligung zu Beginn des Kalenderjahres unmittelbar mindestens 10 % des Grund- oder Stammkapitals beträgt (§ 8b Abs. 1 S. 1, Abs. 4 S. 1 KStG). Über eine Tochter-Kapitalgesellschaft gehaltene Anteile zählen nicht, Stimmrechte ebenso wenig.\n▸ Beteiligungen über eine Mitunternehmerschaft werden anteilig zugerechnet und gelten als unmittelbar (§ 8b Abs. 4 S. 4, 5 KStG).\n▸ Überlassene (verliehene) Anteile werden dem Überlassenden zugerechnet (§ 8b Abs. 4 S. 3 KStG).\n▸ Der Erwerb einer Beteiligung von mindestens 10 % gilt als zu Beginn des Kalenderjahres erfolgt (§ 8b Abs. 4 S. 6 KStG).\n▸ Bei Streubesitz ist die Dividende voll steuerpflichtig, die 5-%-Pauschale entfällt (§ 8b Abs. 4 S. 7 KStG). Für Veräußerungsgewinne gibt es keine Mindestquote (§ 8b Abs. 2 KStG).\n\nBeispiel: 6 % direkt + 50 % von 8 % über eine KG = 10 %: frei. Bei 25 % an der KG nur 8 %: steuerpflichtig.\n\nZum Schluss: § 8b Abs. 4 KStG zum Markieren. Speichern für Klausur 2 📌",
+      "hashtags": [
+        "#steuerberaterexamen",
+        "#steuerberaterprüfung",
+        "#examensvorbereitung",
+        "#körperschaftsteuer"
+      ],
+      "quellen": [
+        "§ 8b Abs. 1 S. 1 KStG",
+        "§ 8b Abs. 2 KStG",
+        "§ 8b Abs. 4 S. 1, 3–7 KStG",
+        "§ 8b Abs. 5 KStG"
+      ],
+      "slug": "2026-11-18-b1",
+      "kurztitel": "Streubesitz: Welche Anteile zählen für die 10-%-Grenze?",
+      "regelGeprueft": true,
+      "manuellGeprueft": false,
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "open-peeps-render",
+      "renderer": "open-peeps-v4",
+      "liveVorrangAktiv": true,
+      "coverBadge": "Klausurfalle",
+      "folien": [
+        {
+          "art": "titel",
+          "titel": "Klausurfalle",
+          "text": "Klausurfalle · Streubesitz: · falsch gezählt · § 8b Abs. 4 KStG · 10 %? · + Markier-Guide § 8b KStG · 6 % direkt + 5 % über GmbH · = 6 % · nicht 11 %",
+          "bild": "op-cover"
+        },
+        {
+          "art": "text",
+          "titel": "Körperschaftsteuer",
+          "text": "Mittelbar zählt nicht · Maßgeblich ist nur die unmittelbare Beteiligung am Grund- oder Stammkapital. · § 8b Abs. 4 S. 1 KStG · Anteile, die eine Tochter-GmbH hält, bleiben außen vor. · Auch Stimmrechte heben eine kleine Quote nicht an. · Ich bin Kemal. 11 % weg?"
+        },
+        {
+          "art": "text",
+          "titel": "Körperschaftsteuer",
+          "text": "Die Grundregel · Dividenden sind nur frei, wenn zu Beginn des Kalenderjahres mindestens 10 % gehalten werden. · § 8b Abs. 1 S. 1, Abs. 4 S. 1 KStG · Darunter: Die Dividende ist voll steuerpflichtig. · § 8b Abs. 4 S. 1 KStG · Veräußerungsgewinne kennen keine Mindestquote. · § 8b Abs. 2 S. 1 KStG · Nur Dividenden."
+        },
+        {
+          "art": "text",
+          "titel": "Körperschaftsteuer",
+          "text": "Was doch zählt · Anteile über eine Mitunternehmerschaft: anteilig, gelten als unmittelbar. · § 8b Abs. 4 S. 4, 5 KStG · Verliehene Anteile zählen beim Verleiher. · § 8b Abs. 4 S. 3 KStG · Erwerb von mindestens 10 % im Jahr gilt als zu Jahresbeginn erfolgt. · § 8b Abs. 4 S. 6 KStG · Die KG schon!"
+        },
+        {
+          "art": "text",
+          "titel": "Körperschaftsteuer",
+          "text": "Kemals Falkner GmbH · § 8b Abs. 4 S. 1, 4, 5 KStG · Direkt gehalten · 6 % · Über KG: 50 % von 8 % · 4 % · Über Tochter-GmbH · 0 % · Quote · 10 % · Dividende frei, 5 % nicht abziehbar"
+        },
+        {
+          "art": "text",
+          "titel": "Körperschaftsteuer",
+          "text": "Jetzt du · Variante: Die Falkner GmbH ist an der KG nur zu 25 % beteiligt. · Alles andere bleibt gleich. · Bleibt die Dividende steuerfrei? · Knapp, oder?"
+        },
+        {
+          "art": "text",
+          "titel": "Körperschaftsteuer",
+          "text": "Lösung · § 8b Abs. 4 S. 1, 7 KStG · Direkt gehalten · 6 % · Über KG: 25 % von 8 % · 2 % · Quote · 8 % · Streubesitz: Dividende voll steuerpflichtig · Zwei Prozent fehlen."
+        },
+        {
+          "art": "text",
+          "titel": "Körperschaftsteuer",
+          "text": "Zählen: direkt + über Mitunternehmerschaft · Nicht zählen: über Kapitalgesellschaft, Stimmrechte · Unmittelbar am Kapital, · zu Jahresbeginn, · KG anteilig dazu, · Tochter-GmbH nie. · Speichern für Klausur 2 · Wärst du reingefallen? · Weiterwischen: § 8b KStG markiert"
+        },
+        {
+          "art": "text",
+          "titel": "Körperschaftsteuer",
+          "text": "§ 8b Abs. 4 KStG (Auszug) · Stichtag · Grenze · KG zählt · Erwerb im Jahr · Randnotiz: § 8b Abs. 4 S. 7 KStG · Bei Streubesitz keine 5-%-Pauschale"
+        }
+      ]
+    },
+    "b2": {
+      "format": "schema",
+      "fach": "bilanz",
+      "klausur": 3,
+      "fachLabel": "Bilanzsteuerrecht",
+      "themaId": "bilanz-aufb-bil-melzer-4-01",
+      "caption": "Anschaffungskosten sauber ermitteln: das Prüfschema für die Bilanzklausur.\n\n1. Preis ohne abziehbare Vorsteuer (§ 9b Abs. 1 EStG); nicht abziehbare Vorsteuer erhöht die Anschaffungskosten.\n2. Einzeln zurechenbare Nebenkosten und Kosten der Betriebsbereitschaft hinzurechnen (§ 255 Abs. 1 S. 1, 2 HGB; steuerlich maßgeblich nach H 6.2 EStH).\n3. Einzeln zurechenbare Preisminderungen wie Rabatte und genutzte Skonti abziehen (§ 255 Abs. 1 S. 3 HGB).\n4. Finanzierungskosten (Zinsen, Grundschuld) und Gemeinkosten gehören nicht dazu.\n\nBeispiel Maschine: 50.000 € – 5.000 € Rabatt – 900 € Skonto + 3.500 € Fracht und Fundament = 47.600 €.\nBeispiel Grundstück: 300.000 € + 18.000 € Grunderwerbsteuer + 2.400 € Notar Kaufvertrag + 10.000 € Makler = 330.400 €; Notarkosten der Grundschuld sind Aufwand.\n\nZum Schluss: § 255 Abs. 1 HGB zum Markieren. Speichern für Klausur 3 📌",
+      "hashtags": [
+        "#steuerberaterexamen",
+        "#steuerberaterprüfung",
+        "#examensvorbereitung",
+        "#bilanzsteuerrecht"
+      ],
+      "quellen": [
+        "§ 255 Abs. 1 HGB",
+        "§ 9b Abs. 1 EStG",
+        "H 6.2 EStH"
+      ],
+      "slug": "2026-11-18-b2",
+      "kurztitel": "Was gehört zu den Anschaffungskosten und was nicht?",
+      "regelGeprueft": true,
+      "manuellGeprueft": false,
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "open-peeps-render",
+      "renderer": "open-peeps-v4",
+      "liveVorrangAktiv": true,
+      "coverBadge": "Prüfschema",
+      "folien": [
+        {
+          "art": "titel",
+          "titel": "Prüfschema",
+          "text": "Prüfschema · Anschaffungskosten · sauber ermitteln · § 255 Abs. 1 HGB · in 4 Schritten · + Markier-Guide § 255 HGB · Maschine · 47.600 € · statt 50.000 €",
+          "bild": "op-cover"
+        },
+        {
+          "art": "text",
+          "titel": "Bilanzsteuerrecht",
+          "text": "Anschaffungskosten prüfen · Preis netto · § 9b Abs. 1 EStG · ohne abziehbare Vorsteuer · Nebenkosten dazu · § 255 Abs. 1 S. 1, 2 HGB · auch Betriebsbereitschaft · Preisminderungen ab · § 255 Abs. 1 S. 3 HGB · Rabatt, Skonto · Finanzierung raus · § 255 Abs. 1 S. 1 HGB · auch Gemeinkosten · Am Ende: § 255 HGB markiert"
+        },
+        {
+          "art": "text",
+          "titel": "Bilanzsteuerrecht",
+          "text": "1 · Preis und Vorsteuer · Ausgangspunkt ist der vereinbarte Preis. · Abziehbare Vorsteuer gehört nicht dazu. · § 9b Abs. 1 EStG · Nicht abziehbare Vorsteuer erhöht die Anschaffungskosten. · § 9b Abs. 1 EStG · Netto denken."
+        },
+        {
+          "art": "text",
+          "titel": "Bilanzsteuerrecht",
+          "text": "2 · Was dazukommt · Einzeln zurechenbare Nebenkosten, etwa Fracht, Notar und Grunderwerbsteuer. · § 255 Abs. 1 S. 2 HGB · Kosten, um den Gegenstand betriebsbereit zu machen, etwa Fundament oder Montage. · § 255 Abs. 1 S. 1 HGB · Bis er läuft."
+        },
+        {
+          "art": "text",
+          "titel": "Bilanzsteuerrecht",
+          "text": "3 + 4 · Was abgeht · Rabatte und genutzte Skonti mindern die Anschaffungskosten. · § 255 Abs. 1 S. 3 HGB · Zinsen und Kosten der Grundschuld sind Finanzierung, kein Erwerb. · Gemeinkosten, etwa der eigene Einkauf, sind Aufwand. · § 255 Abs. 1 S. 1 HGB · Skonto ist kein Ertrag."
+        },
+        {
+          "art": "text",
+          "titel": "Bilanzsteuerrecht",
+          "text": "Yukis neue Maschine · § 255 Abs. 1 HGB · H 6.2 EStH · Listenpreis netto · 50.000 € · – 10 % Rabatt, – 2 % Skonto · – 5.900 € · + Fracht und Fundament · 3.500 € · Finanzierungszinsen · 0 € · Anschaffungskosten · 47.600 € · Zinsen sind Aufwand, keine Anschaffungskosten"
+        },
+        {
+          "art": "text",
+          "titel": "Bilanzsteuerrecht",
+          "text": "Jetzt du · Yuki kauft ein unbebautes Grundstück für 300.000 €. · Dazu: Grunderwerbsteuer 18.000 €, Notar für den Kaufvertrag 2.400 €, Notar für die Grundschuld 900 €, Makler 10.000 €. · Anschaffungskosten? · Was zählt dazu?"
+        },
+        {
+          "art": "text",
+          "titel": "Bilanzsteuerrecht",
+          "text": "Lösung · § 255 Abs. 1 S. 2 HGB · Kaufpreis · 300.000 € · + Grunderwerbsteuer · 18.000 € · + Notar Kaufvertrag, Makler · 12.400 € · Notar Grundschuld · Aufwand · Anschaffungskosten · 330.400 €"
+        },
+        {
+          "art": "text",
+          "titel": "Bilanzsteuerrecht",
+          "text": "Preis netto + Nebenkosten + Betriebsbereitschaft · abzüglich Preisminderungen, ohne Finanzierung · Netto ansetzen, · Nebenkosten dazu, · Skonto ab, · Zinsen bleiben draußen. · Speichern für Klausur 3 · Grundschuld erkannt? · Weiterwischen: § 255 HGB markiert"
+        },
+        {
+          "art": "text",
+          "titel": "Bilanzsteuerrecht",
+          "text": "§ 255 HGB Bewertungsmaßstäbe (Auszug) · Erwerb · Fundament, Montage · keine Gemeinkosten · Notar, GrESt · Randnotiz: § 9b Abs. 1 EStG · Abziehbare Vorsteuer gehört nicht dazu"
+        }
+      ]
+    },
+    "b3": {
+      "format": "reel",
+      "fach": "erbst",
+      "klausur": 1,
+      "fachLabel": "Erbschaftsteuer",
+      "themaId": "erbst-modul-erbst-548",
+      "caption": "Klausurfalle im Ertragswertverfahren: den Boden nicht doppelt erfassen. 🏢\n\n▸ Ertragswert = Bodenwert + Gebäudeertragswert (§ 184 Abs. 1, 3 S. 1 BewG); Bodenwert nach § 179 BewG (§ 184 Abs. 2 BewG); mindestens der Bodenwert (§ 184 Abs. 3 S. 2 BewG).\n▸ Reinertrag = Rohertrag – Bewirtschaftungskosten (§ 185 Abs. 1, §§ 186, 187 BewG).\n▸ Vor der Kapitalisierung den Reinertrag um die Bodenwertverzinsung mit dem Liegenschaftszinssatz kürzen (§ 185 Abs. 2 BewG). Ohne Werte des Gutachterausschusses: 6,0 % für Geschäftsgrundstücke (§ 188 Abs. 2 S. 2 Nr. 4 BewG).\n▸ Nur der Gebäudereinertrag wird mit dem Vervielfältiger aus Anlage 21 kapitalisiert (§ 185 Abs. 3 BewG).\n\nBeispiel Geschäftsgrundstück: Reinertrag 54.000 €, Bodenwert 250.000 € × 6 % = 15.000 €, Gebäudereinertrag 39.000 € × 12 (angenommener Vervielfältiger) = 468.000 € + 250.000 € = 718.000 €. Ohne Verzinsung kämen 898.000 € heraus.\n\nSpeichern für Klausur 1 📌",
+      "hashtags": [
+        "#steuerberaterexamen",
+        "#steuerberaterprüfung",
+        "#examensvorbereitung",
+        "#erbschaftsteuer"
+      ],
+      "quellen": [
+        "§ 184 BewG",
+        "§ 185 Abs. 1–3 BewG",
+        "§§ 186, 187 BewG",
+        "§ 188 Abs. 2 BewG",
+        "Anlage 21 BewG"
+      ],
+      "slug": "2026-11-18-b3",
+      "kurztitel": "Ertragswertverfahren §§ 184–188 BewG: Bodenwert + Gebäudeertragswert",
+      "regelGeprueft": true,
+      "manuellGeprueft": false,
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "open-peeps-render",
+      "renderer": "open-peeps-v4",
+      "liveVorrangAktiv": true,
+      "bild": "op-cover",
+      "reelTyp": "klausurfalle",
+      "hookStil": "split",
+      "coverBadge": "Reel",
+      "szenen": [
+        {
+          "art": "hook",
+          "titel": "Ertragswert: Boden doppelt?"
+        },
+        {
+          "art": "schritt",
+          "titel": "Bodenwertverzinsung"
+        },
+        {
+          "art": "schritt",
+          "titel": "Erst dann kapitalisieren"
+        },
+        {
+          "art": "schritt",
+          "titel": "Ergebnis"
+        }
+      ],
+      "sprecher": [
+        "Reinertrag mal Vervielfältiger plus Bodenwert? Dann liegst du hundertachtzigtausend Euro zu hoch.",
+        "Der Boden steckt schon im Reinertrag. Also erst die Bodenwertverzinsung abziehen: sechs Prozent von zweihundertfünfzigtausend, also fünfzehntausend.",
+        "Von vierundfünfzigtausend Reinertrag bleiben neununddreißigtausend. Nur die werden kapitalisiert, hier mit zwölf.",
+        "Plus Bodenwert ergibt das siebenhundertachtzehntausend Euro.",
+        "Merke: Boden verzinsen, Rest kapitalisieren, dann Boden addieren."
+      ],
+      "dauerS": 36.169,
+      "tempo": 1.0
+    },
+    "s4": {
+      "slot": "s4",
+      "art": "frage",
+      "fach": "ao",
+      "klausur": 1,
+      "fachLabel": "Abgabenordnung",
+      "themaId": "ao-quiz-rechtsbehelfsbelehrung",
+      "beitragSlot": null,
+      "quellen": null,
+      "frage": [
+        "Belehrung fehlt:",
+        "wie lange Einspruch?"
+      ],
+      "optionen": [
+        "Ein Monat",
+        "Ein Jahr ab Bekanntgabe",
+        "Unbegrenzt"
+      ],
+      "pairId": "ao-quiz-rechtsbehelfsbelehrung",
+      "sichtbareTexte": [
+        "Abgabenordnung",
+        "Prüfungsfrage",
+        "Belehrung fehlt:",
+        "wie lange Einspruch?",
+        "Ein Monat",
+        "Ein Jahr ab Bekanntgabe",
+        "Unbegrenzt",
+        "Auflösung in der nächsten Story"
+      ],
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
+      "liveVorrangAktiv": true,
+      "regelGeprueft": true
+    },
+    "s5": {
+      "slot": "s5",
+      "art": "antwort",
+      "fach": "ao",
+      "klausur": 1,
+      "fachLabel": "Abgabenordnung",
+      "themaId": "ao-quiz-rechtsbehelfsbelehrung",
+      "beitragSlot": null,
+      "quellen": null,
+      "titel": [
+        "B: ein Jahr"
+      ],
+      "optionen": [
+        "Ein Monat",
+        "Ein Jahr ab Bekanntgabe",
+        "Unbegrenzt"
+      ],
+      "richtig": 1,
+      "text": "Ohne richtige Belehrung beginnt die Monatsfrist nicht. Es gilt die Jahresfrist.",
+      "norm": "§ 356 Abs. 1, 2 AO",
+      "pairId": "ao-quiz-rechtsbehelfsbelehrung",
+      "sichtbareTexte": [
+        "Abgabenordnung",
+        "Auflösung",
+        "B: ein Jahr",
+        "Ein Monat",
+        "Ein Jahr ab Bekanntgabe",
+        "Unbegrenzt",
+        "Ohne richtige Belehrung beginnt die Monatsfrist nicht. Es gilt die Jahresfrist.",
+        "§ 356 Abs. 1, 2 AO"
+      ],
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
+      "liveVorrangAktiv": true,
+      "regelGeprueft": true
+    },
+    "s1": {
+      "slot": "s1",
+      "art": "teaser",
+      "fach": "kst",
+      "klausur": 2,
+      "fachLabel": "Körperschaftsteuer",
+      "themaId": null,
+      "beitragSlot": "b1",
+      "quellen": null,
+      "titel": [
+        "Streubesitz: falsch gezählt"
+      ],
+      "unter": "Klausurfalle + Markier-Guide · im Profil",
+      "sichtbareTexte": [
+        "Körperschaftsteuer",
+        "Neu im Feed",
+        "Streubesitz: falsch gezählt",
+        "Klausurfalle + Markier-Guide · im Profil"
+      ],
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
+      "liveVorrangAktiv": true,
+      "regelGeprueft": true
+    },
+    "s6": {
+      "slot": "s6",
+      "art": "norm",
+      "fach": "kst",
+      "klausur": 2,
+      "fachLabel": "Körperschaftsteuer",
+      "themaId": "kst-aufb-kst-t2-38",
+      "beitragSlot": null,
+      "quellen": null,
+      "titel": [
+        "Dividende",
+        "über die KG?"
+      ],
+      "norm": "§ 8b Abs. 6 S. 1 KStG",
+      "punkte": [
+        [
+          "Gewerbliche KG: Die GmbH wird gestellt, als hätte sie selbst bezogen.",
+          "ok",
+          "§ 8b Abs. 6 S. 1 KStG"
+        ],
+        [
+          "Vermögensverwaltende KG: anteilige Zurechnung ohnehin.",
+          "ok",
+          "§ 39 Abs. 2 Nr. 2 AO"
+        ]
+      ],
+      "sichtbareTexte": [
+        "Körperschaftsteuer",
+        "Norm des Tages",
+        "Dividende",
+        "über die KG?",
+        "§ 8b Abs. 6 S. 1 KStG",
+        "Gewerbliche KG: Die GmbH wird gestellt, als hätte sie selbst bezogen.",
+        "§ 8b Abs. 6 S. 1 KStG",
+        "Vermögensverwaltende KG: anteilige Zurechnung ohnehin.",
+        "§ 39 Abs. 2 Nr. 2 AO"
+      ],
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
+      "liveVorrangAktiv": true,
+      "regelGeprueft": true
+    },
+    "s2": {
+      "slot": "s2",
+      "art": "teaser",
+      "fach": "bilanz",
+      "klausur": 3,
+      "fachLabel": "Bilanzsteuerrecht",
+      "themaId": null,
+      "beitragSlot": "b2",
+      "quellen": null,
+      "titel": [
+        "Anschaffungskosten"
+      ],
+      "unter": "Prüfschema + Markier-Guide · im Profil",
+      "sichtbareTexte": [
+        "Bilanzsteuerrecht",
+        "Neu im Feed",
+        "Anschaffungskosten",
+        "Prüfschema + Markier-Guide · im Profil"
+      ],
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
+      "liveVorrangAktiv": true,
+      "regelGeprueft": true
+    },
+    "s7": {
+      "slot": "s7",
+      "art": "tipp",
+      "fach": null,
+      "klausur": 0,
+      "fachLabel": "Klausurtechnik",
+      "themaId": null,
+      "beitragSlot": null,
+      "quellen": null,
+      "titel": [
+        "Erst Gerüst,",
+        "dann Text"
+      ],
+      "punkte": [
+        [
+          "Für jeden Teil des Sachverhalts eine Überschrift setzen.",
+          "ok",
+          null
+        ],
+        [
+          "Zeit je Teil am Rand notieren.",
+          "ok",
+          null
+        ],
+        [
+          "Hängst du fest, spring zum nächsten Teil.",
+          "warn",
+          null
+        ]
+      ],
+      "icon": "tabler:layout-list",
+      "iconFarbe": "GELB",
+      "sichtbareTexte": [
+        "Klausurtechnik",
+        "Klausurtipp",
+        "Erst Gerüst,",
+        "dann Text",
+        "Für jeden Teil des Sachverhalts eine Überschrift setzen.",
+        "Zeit je Teil am Rand notieren.",
+        "Hängst du fest, spring zum nächsten Teil."
+      ],
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
+      "liveVorrangAktiv": true,
+      "regelGeprueft": true
+    },
+    "s8": {
+      "slot": "s8",
+      "art": "tipp",
+      "fach": "bilanz",
+      "klausur": 3,
+      "fachLabel": "Bilanzsteuerrecht",
+      "themaId": "bilanz-karte-k3-4",
+      "beitragSlot": null,
+      "quellen": null,
+      "titel": [
+        "Selbst geschaffen",
+        "und immateriell?"
+      ],
+      "punkte": [
+        [
+          "Handelsbilanz: Wahlrecht, nicht für Marken oder Kundenlisten.",
+          "ok",
+          "§ 248 Abs. 2 HGB"
+        ],
+        [
+          "Steuerbilanz: Verbot, nur entgeltlich Erworbenes.",
+          "nein",
+          "§ 5 Abs. 2 EStG"
+        ]
+      ],
+      "icon": "tabler:bulb",
+      "iconFarbe": "GELB",
+      "sichtbareTexte": [
+        "Bilanzsteuerrecht",
+        "Klausurtipp",
+        "Selbst geschaffen",
+        "und immateriell?",
+        "Handelsbilanz: Wahlrecht, nicht für Marken oder Kundenlisten.",
+        "§ 248 Abs. 2 HGB",
+        "Steuerbilanz: Verbot, nur entgeltlich Erworbenes.",
+        "§ 5 Abs. 2 EStG"
+      ],
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
+      "liveVorrangAktiv": true,
+      "regelGeprueft": true
+    },
+    "s3": {
+      "slot": "s3",
+      "art": "teaser",
+      "fach": "erbst",
+      "klausur": 1,
+      "fachLabel": "Erbschaftsteuer",
+      "themaId": null,
+      "beitragSlot": "b3",
+      "quellen": null,
+      "titel": [
+        "Ertragswert: Boden doppelt?"
+      ],
+      "unter": "Neues Reel · im Profil",
+      "sichtbareTexte": [
+        "Erbschaftsteuer",
+        "Neu im Feed",
+        "Ertragswert: Boden doppelt?",
+        "Neues Reel · im Profil"
+      ],
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
+      "liveVorrangAktiv": true,
+      "regelGeprueft": true
+    },
+    "s9": {
+      "slot": "s9",
+      "art": "merksatz",
+      "fach": "ao",
+      "klausur": 1,
+      "fachLabel": "Abgabenordnung",
+      "themaId": "ao-aufb-ao-jacobs-5-2",
+      "beitragSlot": null,
+      "quellen": null,
+      "titel": [
+        "Vorbehalt der",
+        "Nachprüfung"
+      ],
+      "zeilen": [
+        [
+          [
+            "Lebt",
+            "a"
+          ],
+          [
+            " er: alles änderbar.",
+            null
+          ]
+        ],
+        [
+          [
+            "Aufgehoben",
+            "b"
+          ],
+          [
+            " oder",
+            null
+          ]
+        ],
+        [
+          [
+            "Frist um",
+            "c"
+          ],
+          [
+            ": nur noch",
+            null
+          ]
+        ],
+        [
+          [
+            "Einzelkorrektur.",
+            null
+          ]
+        ]
+      ],
+      "norm": "§ 164 Abs. 2–4 AO",
+      "sichtbareTexte": [
+        "Abgabenordnung",
+        "Merksatz",
+        "Vorbehalt der",
+        "Nachprüfung",
+        "Lebt er: alles änderbar.",
+        "Aufgehoben oder",
+        "Frist um: nur noch",
+        "Einzelkorrektur.",
+        "§ 164 Abs. 2–4 AO"
+      ],
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
+      "liveVorrangAktiv": true,
+      "regelGeprueft": true
+    }
+  },
+  "renderVorschau": {
+    "status": "fertig",
+    "erzeugtAm": "2026-11-04T07:34:43Z",
+    "pfad": "vorproduktion/2026-11-18/fertig",
+    "providerKostenUsd": 0,
+    "coverbilder": false,
+    "coverIcons": false,
+    "renderer": "open-peeps-v4",
+    "layoutQuelle": "open-peeps-variante-c",
+    "reelStimme": "elevenlabs-laura",
+    "sfx": "freesound-cc0",
+    "freigabeBetreiber": true,
+    "liveVorrangAktiv": true,
+    "normalbetriebGesperrt": true,
+    "wartetLive": []
+  }
+}
