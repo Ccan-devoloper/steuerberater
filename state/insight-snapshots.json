@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "stand": "2026-11-04T06:45:19.561Z",
+  "stand": "2026-11-04T07:30:27.739Z",
   "medien": {
     "18093399314208242": {
       "art": "beitrag",
@@ -50549,6 +50549,18 @@
           "total_interactions": 13,
           "follows": 1,
           "profile_visits": 6
+        },
+        {
+          "stand": "2026-11-04T07:30:27.739Z",
+          "alterStunden": 166.4,
+          "reach": 253,
+          "saved": 4,
+          "shares": 1,
+          "likes": 9,
+          "comments": 0,
+          "total_interactions": 14,
+          "follows": 1,
+          "profile_visits": 6
         }
       ]
     },
@@ -50910,6 +50922,18 @@
           "likes": 3,
           "comments": 0,
           "total_interactions": 7,
+          "follows": 0,
+          "profile_visits": 1
+        },
+        {
+          "stand": "2026-11-04T07:30:27.739Z",
+          "alterStunden": 163,
+          "reach": 139,
+          "saved": 4,
+          "shares": 1,
+          "likes": 3,
+          "comments": 0,
+          "total_interactions": 8,
           "follows": 0,
           "profile_visits": 1
         }
@@ -55878,6 +55902,18 @@
           "total_interactions": 7,
           "follows": 1,
           "profile_visits": 2
+        },
+        {
+          "stand": "2026-11-04T07:30:27.739Z",
+          "alterStunden": 91,
+          "reach": 166,
+          "saved": 3,
+          "shares": 0,
+          "likes": 4,
+          "comments": 0,
+          "total_interactions": 7,
+          "follows": 1,
+          "profile_visits": 2
         }
       ]
     },
@@ -60828,6 +60864,66 @@
           "navigation_tap_back": 2,
           "navigation_tap_exit": 9,
           "navigation_tap_forward": 26
+        }
+      ]
+    },
+    "18179714677451675": {
+      "art": "story",
+      "datum": "2026-11-04",
+      "titel": null,
+      "format": null,
+      "fach": "istr",
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-11-04T06:07:05.748Z",
+      "snapshots": [
+        {
+          "stand": "2026-11-04T07:30:25.396Z",
+          "alterStunden": 1.4,
+          "reach": 15,
+          "views": 21,
+          "shares": 0,
+          "total_interactions": 1,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 19,
+          "navigation_swipe_forward": 2,
+          "navigation_tap_exit": 2,
+          "navigation_tap_forward": 13,
+          "navigation_tap_back": 2
+        }
+      ]
+    },
+    "17874031617641246": {
+      "art": "story",
+      "datum": "2026-11-04",
+      "titel": [
+        "A: mindestens",
+        "90 Prozent"
+      ],
+      "format": null,
+      "fach": "istr",
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-11-04T06:09:14.803Z",
+      "snapshots": [
+        {
+          "stand": "2026-11-04T07:30:25.396Z",
+          "alterStunden": 1.4,
+          "reach": 12,
+          "views": 16,
+          "shares": 0,
+          "total_interactions": 1,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 13,
+          "navigation_tap_forward": 9,
+          "navigation_tap_exit": 2,
+          "navigation_tap_back": 2
         }
       ]
     }

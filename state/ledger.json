@@ -16303,17 +16303,17 @@
         "#einkommensteuer"
       ],
       "insights": {
-        "reach": 243,
-        "saved": 3,
+        "reach": 253,
+        "saved": 4,
         "shares": 1,
         "likes": 9,
         "comments": 0,
-        "total_interactions": 13,
+        "total_interactions": 14,
         "follows": 1,
         "profile_visits": 6
       },
-      "insightsStand": "2026-11-03T06:45:32.364Z",
-      "insightsAlterStunden": 141.7
+      "insightsStand": "2026-11-04T07:30:27.739Z",
+      "insightsAlterStunden": 166.4
     },
     {
       "datum": "2026-10-28",
@@ -16400,17 +16400,17 @@
         "#umwandlungssteuerrecht"
       ],
       "insights": {
-        "reach": 132,
-        "saved": 3,
+        "reach": 139,
+        "saved": 4,
         "shares": 1,
         "likes": 3,
         "comments": 0,
-        "total_interactions": 7,
+        "total_interactions": 8,
         "follows": 0,
         "profile_visits": 1
       },
-      "insightsStand": "2026-11-03T06:45:32.364Z",
-      "insightsAlterStunden": 138.3
+      "insightsStand": "2026-11-04T07:30:27.739Z",
+      "insightsAlterStunden": 163
     },
     {
       "datum": "2026-10-28",
@@ -17759,7 +17759,7 @@
         "#personengesellschaften"
       ],
       "insights": {
-        "reach": 154,
+        "reach": 166,
         "saved": 3,
         "shares": 0,
         "likes": 4,
@@ -17768,8 +17768,8 @@
         "follows": 1,
         "profile_visits": 2
       },
-      "insightsStand": "2026-11-03T07:30:25.005Z",
-      "insightsAlterStunden": 67
+      "insightsStand": "2026-11-04T07:30:27.739Z",
+      "insightsAlterStunden": 91
     },
     {
       "datum": "2026-10-31",
@@ -19413,7 +19413,24 @@
       "storyArt": "frage",
       "thema": null,
       "fach": "istr",
-      "titel": ""
+      "titel": "",
+      "insights": {
+        "reach": 15,
+        "views": 21,
+        "shares": 0,
+        "total_interactions": 1,
+        "replies": 0,
+        "follows": 0,
+        "profile_visits": 0,
+        "profile_activity": 0,
+        "navigation": 19,
+        "navigation_swipe_forward": 2,
+        "navigation_tap_exit": 2,
+        "navigation_tap_forward": 13,
+        "navigation_tap_back": 2
+      },
+      "insightsStand": "2026-11-04T07:30:25.396Z",
+      "insightsAlterStunden": 1.4
     },
     {
       "datum": "2026-11-04",
@@ -19428,7 +19445,23 @@
       "titel": [
         "A: mindestens",
         "90 Prozent"
-      ]
+      ],
+      "insights": {
+        "reach": 12,
+        "views": 16,
+        "shares": 0,
+        "total_interactions": 1,
+        "replies": 0,
+        "follows": 0,
+        "profile_visits": 0,
+        "profile_activity": 0,
+        "navigation": 13,
+        "navigation_tap_forward": 9,
+        "navigation_tap_exit": 2,
+        "navigation_tap_back": 2
+      },
+      "insightsStand": "2026-11-04T07:30:25.396Z",
+      "insightsAlterStunden": 1.4
     },
     {
       "datum": "2026-11-04",
