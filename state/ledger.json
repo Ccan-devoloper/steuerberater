@@ -19544,21 +19544,21 @@
         "Komplementär-GmbH"
       ],
       "insights": {
-        "reach": 10,
-        "views": 17,
+        "reach": 25,
+        "views": 31,
         "shares": 0,
-        "total_interactions": 1,
+        "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 13,
-        "navigation_tap_exit": 2,
-        "navigation_tap_forward": 10,
-        "navigation_tap_back": 1
+        "navigation": 24,
+        "navigation_tap_exit": 6,
+        "navigation_tap_forward": 16,
+        "navigation_tap_back": 2
       },
-      "insightsStand": "2026-11-04T12:30:26.281Z",
-      "insightsAlterStunden": 1.3
+      "insightsStand": "2026-11-04T16:46:10.376Z",
+      "insightsAlterStunden": 5.5
     },
     {
       "datum": "2026-11-04",
