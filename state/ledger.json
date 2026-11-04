@@ -19415,22 +19415,22 @@
       "fach": "istr",
       "titel": "",
       "insights": {
-        "reach": 15,
-        "views": 21,
+        "reach": 26,
+        "views": 37,
         "shares": 0,
-        "total_interactions": 1,
+        "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 19,
+        "navigation": 36,
         "navigation_swipe_forward": 2,
         "navigation_tap_exit": 2,
-        "navigation_tap_forward": 13,
-        "navigation_tap_back": 2
+        "navigation_tap_forward": 27,
+        "navigation_tap_back": 5
       },
-      "insightsStand": "2026-11-04T07:30:25.396Z",
-      "insightsAlterStunden": 1.4
+      "insightsStand": "2026-11-04T11:45:41.178Z",
+      "insightsAlterStunden": 5.6
     },
     {
       "datum": "2026-11-04",
@@ -19447,21 +19447,21 @@
         "90 Prozent"
       ],
       "insights": {
-        "reach": 12,
-        "views": 16,
+        "reach": 24,
+        "views": 33,
         "shares": 0,
-        "total_interactions": 1,
+        "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 13,
-        "navigation_tap_forward": 9,
+        "navigation": 31,
+        "navigation_tap_back": 5,
         "navigation_tap_exit": 2,
-        "navigation_tap_back": 2
+        "navigation_tap_forward": 24
       },
-      "insightsStand": "2026-11-04T07:30:25.396Z",
-      "insightsAlterStunden": 1.4
+      "insightsStand": "2026-11-04T11:45:41.178Z",
+      "insightsAlterStunden": 5.6
     },
     {
       "datum": "2026-11-04",
