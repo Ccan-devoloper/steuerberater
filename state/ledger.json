@@ -19668,6 +19668,28 @@
         "Ist-Versteuerung:",
         "wer darf?"
       ]
+    },
+    {
+      "datum": "2026-11-04",
+      "slot": "b3",
+      "medienId": "18110602247268369",
+      "veroeffentlicht": "2026-11-04T16:30:10.577Z",
+      "quelle": "vorproduktion",
+      "art": "beitrag",
+      "zeit": "17:30",
+      "stunde": 17,
+      "format": "reel",
+      "thema": "istr-modul-istr-istr3-04",
+      "fach": "istr",
+      "klausur": 2,
+      "titel": "Aufsichtsratsvergütung: § 18, § 49, § 50a und Art. 16 DBA",
+      "hookTyp": null,
+      "hashtags": [
+        "#steuerberaterexamen",
+        "#steuerberaterprüfung",
+        "#examensvorbereitung",
+        "#internationalessteuerrecht"
+      ]
     }
   ],
   "fachZaehler": {
@@ -19676,7 +19698,7 @@
     "kst": 15,
     "ao": 29,
     "bilanz": 27,
-    "istr": 21,
+    "istr": 22,
     "erbst": 13,
     "mindset": 2,
     "est": 9,
