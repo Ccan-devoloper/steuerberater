@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "stand": "2026-11-05T18:47:30.452Z",
+  "stand": "2026-11-05T19:46:32.811Z",
   "medien": {
     "18093399314208242": {
       "art": "beitrag",
@@ -63668,6 +63668,18 @@
           "total_interactions": 5,
           "follows": 0,
           "profile_visits": 0
+        },
+        {
+          "stand": "2026-11-05T19:46:30.123Z",
+          "alterStunden": 12.3,
+          "reach": 84,
+          "saved": 3,
+          "shares": 0,
+          "likes": 3,
+          "comments": 0,
+          "total_interactions": 6,
+          "follows": 0,
+          "profile_visits": 0
         }
       ]
     },
@@ -63914,6 +63926,20 @@
           "ig_reels_avg_watch_time": 6725,
           "ig_reels_video_view_total_time": 961788,
           "reels_skip_rate": 71.4
+        },
+        {
+          "stand": "2026-11-05T19:46:30.123Z",
+          "alterStunden": 3.2,
+          "reach": 205,
+          "saved": 2,
+          "shares": 0,
+          "likes": 4,
+          "comments": 0,
+          "total_interactions": 6,
+          "views": 281,
+          "ig_reels_avg_watch_time": 7509,
+          "ig_reels_video_view_total_time": 1501842,
+          "reels_skip_rate": 68.1
         }
       ]
     },
@@ -63940,6 +63966,100 @@
           "ig_reels_avg_watch_time": 6632,
           "ig_reels_video_view_total_time": 736159,
           "reels_skip_rate": 60.5
+        }
+      ]
+    },
+    "18114309065174227": {
+      "art": "story",
+      "datum": "2026-11-05",
+      "titel": [
+        "Dividende immer steuerfrei?"
+      ],
+      "format": null,
+      "fach": "bilanz",
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-11-05T18:00:21.048Z",
+      "snapshots": [
+        {
+          "stand": "2026-11-05T19:46:23.246Z",
+          "alterStunden": 1.8,
+          "reach": 14,
+          "views": 16,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 15,
+          "navigation_tap_exit": 3,
+          "navigation_tap_forward": 9,
+          "navigation_tap_back": 1,
+          "navigation_swipe_forward": 2
+        }
+      ]
+    },
+    "18110101802369391": {
+      "art": "story",
+      "datum": "2026-11-05",
+      "titel": [
+        "„Keine Ahnung“:",
+        "der teuerste Satz"
+      ],
+      "format": null,
+      "fach": null,
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-11-05T18:00:34.968Z",
+      "snapshots": [
+        {
+          "stand": "2026-11-05T19:46:23.246Z",
+          "alterStunden": 1.8,
+          "reach": 13,
+          "views": 16,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 16,
+          "navigation_tap_exit": 1,
+          "navigation_swipe_forward": 1,
+          "navigation_tap_back": 1,
+          "navigation_tap_forward": 13
+        }
+      ]
+    },
+    "18000307941029604": {
+      "art": "story",
+      "datum": "2026-11-05",
+      "titel": [
+        "Nach Umwandlung",
+        "verkauft?"
+      ],
+      "format": null,
+      "fach": "umwst",
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-11-05T18:12:04.630Z",
+      "snapshots": [
+        {
+          "stand": "2026-11-05T19:46:23.246Z",
+          "alterStunden": 1.6,
+          "reach": 10,
+          "views": 12,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 12,
+          "navigation_tap_forward": 9,
+          "navigation_tap_back": 2,
+          "navigation_tap_exit": 1
         }
       ]
     }
@@ -67292,6 +67412,11 @@
     },
     {
       "stand": "2026-11-05T18:00:44.794Z",
+      "follower": 520,
+      "medien": 194
+    },
+    {
+      "stand": "2026-11-05T19:46:32.811Z",
       "follower": 520,
       "medien": 194
     }

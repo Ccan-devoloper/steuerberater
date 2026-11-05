@@ -19942,17 +19942,17 @@
         "#umsatzsteuer"
       ],
       "insights": {
-        "reach": 73,
-        "saved": 2,
+        "reach": 84,
+        "saved": 3,
         "shares": 0,
         "likes": 3,
         "comments": 0,
-        "total_interactions": 5,
+        "total_interactions": 6,
         "follows": 0,
         "profile_visits": 0
       },
-      "insightsStand": "2026-11-05T16:33:00.238Z",
-      "insightsAlterStunden": 9
+      "insightsStand": "2026-11-05T19:46:30.123Z",
+      "insightsAlterStunden": 12.3
     },
     {
       "datum": "2026-11-05",
@@ -20166,19 +20166,19 @@
         "#bilanzsteuerrecht"
       ],
       "insights": {
-        "reach": 148,
+        "reach": 205,
         "saved": 2,
         "shares": 0,
-        "likes": 2,
+        "likes": 4,
         "comments": 0,
-        "total_interactions": 4,
-        "views": 200,
-        "ig_reels_avg_watch_time": 6725,
-        "ig_reels_video_view_total_time": 961788,
-        "reels_skip_rate": 71.4
+        "total_interactions": 6,
+        "views": 281,
+        "ig_reels_avg_watch_time": 7509,
+        "ig_reels_video_view_total_time": 1501842,
+        "reels_skip_rate": 68.1
       },
-      "insightsStand": "2026-11-05T18:00:41.367Z",
-      "insightsAlterStunden": 1.5
+      "insightsStand": "2026-11-05T19:46:30.123Z",
+      "insightsAlterStunden": 3.2
     },
     {
       "datum": "2026-11-05",
@@ -20230,7 +20230,24 @@
       "fach": "bilanz",
       "titel": [
         "Dividende immer steuerfrei?"
-      ]
+      ],
+      "insights": {
+        "reach": 14,
+        "views": 16,
+        "shares": 0,
+        "total_interactions": 0,
+        "replies": 0,
+        "follows": 0,
+        "profile_visits": 0,
+        "profile_activity": 0,
+        "navigation": 15,
+        "navigation_tap_exit": 3,
+        "navigation_tap_forward": 9,
+        "navigation_tap_back": 1,
+        "navigation_swipe_forward": 2
+      },
+      "insightsStand": "2026-11-05T19:46:23.246Z",
+      "insightsAlterStunden": 1.8
     },
     {
       "datum": "2026-11-05",
@@ -20245,7 +20262,24 @@
       "titel": [
         "„Keine Ahnung“:",
         "der teuerste Satz"
-      ]
+      ],
+      "insights": {
+        "reach": 13,
+        "views": 16,
+        "shares": 0,
+        "total_interactions": 0,
+        "replies": 0,
+        "follows": 0,
+        "profile_visits": 0,
+        "profile_activity": 0,
+        "navigation": 16,
+        "navigation_tap_exit": 1,
+        "navigation_swipe_forward": 1,
+        "navigation_tap_back": 1,
+        "navigation_tap_forward": 13
+      },
+      "insightsStand": "2026-11-05T19:46:23.246Z",
+      "insightsAlterStunden": 1.8
     },
     {
       "datum": "2026-11-05",
@@ -20260,7 +20294,23 @@
       "titel": [
         "Nach Umwandlung",
         "verkauft?"
-      ]
+      ],
+      "insights": {
+        "reach": 10,
+        "views": 12,
+        "shares": 0,
+        "total_interactions": 0,
+        "replies": 0,
+        "follows": 0,
+        "profile_visits": 0,
+        "profile_activity": 0,
+        "navigation": 12,
+        "navigation_tap_forward": 9,
+        "navigation_tap_back": 2,
+        "navigation_tap_exit": 1
+      },
+      "insightsStand": "2026-11-05T19:46:23.246Z",
+      "insightsAlterStunden": 1.6
     }
   ],
   "fachZaehler": {
