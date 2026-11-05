@@ -24,7 +24,8 @@
       "themaTitel": "Verdeckte Einlage",
       "fach": "kst",
       "klausur": 2,
-      "status": "geplant"
+      "status": "sendet",
+      "sendeversuch": "2026-11-05T12:30:00.096Z"
     },
     {
       "slot": "b3",
