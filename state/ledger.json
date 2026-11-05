@@ -20231,6 +20231,21 @@
         "„Keine Ahnung“:",
         "der teuerste Satz"
       ]
+    },
+    {
+      "datum": "2026-11-05",
+      "slot": "s9",
+      "medienId": "18000307941029604",
+      "veroeffentlicht": "2026-11-05T18:12:04.630Z",
+      "quelle": "vorproduktion",
+      "art": "story",
+      "storyArt": "merksatz",
+      "thema": "umwst-aufb-umw-ks-3-06",
+      "fach": "umwst",
+      "titel": [
+        "Nach Umwandlung",
+        "verkauft?"
+      ]
     }
   ],
   "fachZaehler": {

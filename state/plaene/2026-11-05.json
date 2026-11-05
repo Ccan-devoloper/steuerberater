@@ -130,8 +130,9 @@
       "zeit": "19:12",
       "art": "merksatz",
       "themaId": "umwst-aufb-umw-ks-3-06",
-      "status": "sendet",
-      "sendeversuch": "2026-11-05T18:12:00.099Z"
+      "status": "veroeffentlicht",
+      "medienId": "18000307941029604",
+      "veroeffentlicht": "2026-11-05T18:12:04.630Z"
     },
     {
       "slot": "s10",
