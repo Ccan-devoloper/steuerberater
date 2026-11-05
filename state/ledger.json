@@ -19884,11 +19884,33 @@
         "C: drei Jahre",
         "nach der Erklärung"
       ]
+    },
+    {
+      "datum": "2026-11-05",
+      "slot": "b1",
+      "medienId": "18118307033080127",
+      "veroeffentlicht": "2026-11-05T07:30:05.740Z",
+      "quelle": "vorproduktion",
+      "art": "beitrag",
+      "zeit": "08:30",
+      "stunde": 8,
+      "format": "spickzettel",
+      "thema": "ust-aufb-ust-m-b06-10",
+      "fach": "ust",
+      "klausur": 1,
+      "titel": "Spickzettel",
+      "hookTyp": null,
+      "hashtags": [
+        "#steuerberaterexamen",
+        "#steuerberaterprüfung",
+        "#examensvorbereitung",
+        "#umsatzsteuer"
+      ]
     }
   ],
   "fachZaehler": {
     "persg": 20,
-    "ust": 16,
+    "ust": 17,
     "kst": 15,
     "ao": 29,
     "bilanz": 27,
