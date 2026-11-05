@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "stand": "2026-11-05T07:45:44.810Z",
+  "stand": "2026-11-05T08:45:34.781Z",
   "medien": {
     "18093399314208242": {
       "art": "beitrag",
@@ -62173,6 +62173,23 @@
           "navigation_tap_forward": 32,
           "navigation_tap_exit": 9,
           "navigation_swipe_forward": 1
+        },
+        {
+          "stand": "2026-11-05T08:45:30.807Z",
+          "alterStunden": 21.5,
+          "reach": 57,
+          "views": 68,
+          "shares": 0,
+          "total_interactions": 1,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 1,
+          "profile_activity": 1,
+          "navigation": 53,
+          "navigation_swipe_forward": 1,
+          "navigation_tap_exit": 9,
+          "navigation_tap_forward": 41,
+          "navigation_tap_back": 2
         }
       ]
     },
@@ -62254,6 +62271,23 @@
           "navigation_tap_forward": 30,
           "navigation_tap_exit": 9,
           "navigation_tap_back": 4
+        },
+        {
+          "stand": "2026-11-05T08:45:30.807Z",
+          "alterStunden": 20.3,
+          "reach": 53,
+          "views": 60,
+          "shares": 0,
+          "total_interactions": 1,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 55,
+          "navigation_swipe_forward": 1,
+          "navigation_tap_forward": 39,
+          "navigation_tap_exit": 10,
+          "navigation_tap_back": 5
         }
       ]
     },
@@ -62856,6 +62890,60 @@
           "navigation_tap_forward": 11,
           "navigation_tap_exit": 3,
           "navigation_tap_back": 1
+        }
+      ]
+    },
+    "18079060955727263": {
+      "art": "story",
+      "datum": "2026-11-05",
+      "titel": [
+        "Bauleistung: wer zahlt USt?"
+      ],
+      "format": null,
+      "fach": "ust",
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-11-05T07:30:16.432Z",
+      "snapshots": [
+        {
+          "stand": "2026-11-05T08:45:30.807Z",
+          "alterStunden": 1.3,
+          "reach": 11,
+          "views": 12,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 12,
+          "navigation_tap_forward": 8,
+          "navigation_tap_exit": 2,
+          "navigation_swipe_forward": 2
+        }
+      ]
+    },
+    "18118307033080127": {
+      "art": "beitrag",
+      "datum": "2026-11-05",
+      "titel": "Spickzettel",
+      "format": "spickzettel",
+      "fach": "ust",
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-11-05T07:30:05.740Z",
+      "snapshots": [
+        {
+          "stand": "2026-11-05T08:45:34.332Z",
+          "alterStunden": 1.3,
+          "reach": 31,
+          "saved": 2,
+          "shares": 0,
+          "likes": 2,
+          "comments": 0,
+          "total_interactions": 4,
+          "follows": 0,
+          "profile_visits": 0
         }
       ]
     }
@@ -66169,6 +66257,11 @@
     {
       "stand": "2026-11-05T07:45:44.810Z",
       "follower": 515,
+      "medien": 191
+    },
+    {
+      "stand": "2026-11-05T08:45:34.781Z",
+      "follower": 516,
       "medien": 191
     }
   ]
