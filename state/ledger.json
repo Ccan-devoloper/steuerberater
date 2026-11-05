@@ -19609,22 +19609,22 @@
         "Festsetzungsfrist gerettet?"
       ],
       "insights": {
-        "reach": 53,
-        "views": 60,
+        "reach": 56,
+        "views": 66,
         "shares": 0,
         "total_interactions": 1,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 55,
-        "navigation_swipe_forward": 1,
-        "navigation_tap_forward": 39,
-        "navigation_tap_exit": 10,
-        "navigation_tap_back": 5
+        "navigation": 59,
+        "navigation_tap_back": 6,
+        "navigation_tap_exit": 11,
+        "navigation_tap_forward": 41,
+        "navigation_swipe_forward": 1
       },
-      "insightsStand": "2026-11-05T08:45:30.807Z",
-      "insightsAlterStunden": 20.3
+      "insightsStand": "2026-11-05T11:14:12.219Z",
+      "insightsAlterStunden": 22.7
     },
     {
       "datum": "2026-11-04",
