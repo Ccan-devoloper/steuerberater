@@ -24,8 +24,9 @@
       "themaTitel": "Verdeckte Einlage",
       "fach": "kst",
       "klausur": 2,
-      "status": "sendet",
-      "sendeversuch": "2026-11-05T12:30:00.096Z"
+      "status": "veroeffentlicht",
+      "medienId": "18017931071967042",
+      "veroeffentlicht": "2026-11-05T12:30:05.826Z"
     },
     {
       "slot": "b3",

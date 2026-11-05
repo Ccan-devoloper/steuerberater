@@ -19998,12 +19998,34 @@
         "Familienheim",
         "steuerfrei?"
       ]
+    },
+    {
+      "datum": "2026-11-05",
+      "slot": "b2",
+      "medienId": "18017931071967042",
+      "veroeffentlicht": "2026-11-05T12:30:05.826Z",
+      "quelle": "vorproduktion",
+      "art": "beitrag",
+      "zeit": "13:30",
+      "stunde": 13,
+      "format": "schema",
+      "thema": "kst-schema-2",
+      "fach": "kst",
+      "klausur": 2,
+      "titel": "Prüfschema",
+      "hookTyp": null,
+      "hashtags": [
+        "#steuerberaterexamen",
+        "#steuerberaterprüfung",
+        "#examensvorbereitung",
+        "#körperschaftsteuer"
+      ]
     }
   ],
   "fachZaehler": {
     "persg": 20,
     "ust": 17,
-    "kst": 15,
+    "kst": 16,
     "ao": 29,
     "bilanz": 27,
     "istr": 22,
