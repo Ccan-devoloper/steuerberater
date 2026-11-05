@@ -20096,21 +20096,22 @@
         "dann der Sachverhalt"
       ],
       "insights": {
-        "reach": 9,
-        "views": 15,
+        "reach": 28,
+        "views": 31,
         "shares": 0,
-        "total_interactions": 0,
+        "total_interactions": 1,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 10,
-        "navigation_swipe_forward": 2,
-        "navigation_tap_forward": 5,
-        "navigation_tap_exit": 3
+        "navigation": 29,
+        "navigation_tap_exit": 5,
+        "navigation_tap_forward": 20,
+        "navigation_swipe_forward": 3,
+        "navigation_tap_back": 1
       },
-      "insightsStand": "2026-11-05T14:44:55.853Z",
-      "insightsAlterStunden": 1.1
+      "insightsStand": "2026-11-05T18:47:28.152Z",
+      "insightsAlterStunden": 5.1
     },
     {
       "datum": "2026-11-05",
@@ -20201,7 +20202,21 @@
         "#examensvorbereitung",
         "#zivilrecht",
         "#steuerberater"
-      ]
+      ],
+      "insights": {
+        "reach": 110,
+        "saved": 0,
+        "shares": 0,
+        "likes": 2,
+        "comments": 0,
+        "total_interactions": 2,
+        "views": 177,
+        "ig_reels_avg_watch_time": 6632,
+        "ig_reels_video_view_total_time": 736159,
+        "reels_skip_rate": 60.5
+      },
+      "insightsStand": "2026-11-05T18:47:30.452Z",
+      "insightsAlterStunden": 0.8
     },
     {
       "datum": "2026-11-05",

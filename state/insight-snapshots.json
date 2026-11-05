@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "stand": "2026-11-05T18:12:05.730Z",
+  "stand": "2026-11-05T18:47:30.452Z",
   "medien": {
     "18093399314208242": {
       "art": "beitrag",
@@ -63840,6 +63840,23 @@
           "navigation_swipe_forward": 2,
           "navigation_tap_forward": 5,
           "navigation_tap_exit": 3
+        },
+        {
+          "stand": "2026-11-05T18:47:28.152Z",
+          "alterStunden": 5.1,
+          "reach": 28,
+          "views": 31,
+          "shares": 0,
+          "total_interactions": 1,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 29,
+          "navigation_tap_exit": 5,
+          "navigation_tap_forward": 20,
+          "navigation_swipe_forward": 3,
+          "navigation_tap_back": 1
         }
       ]
     },
@@ -63897,6 +63914,32 @@
           "ig_reels_avg_watch_time": 6725,
           "ig_reels_video_view_total_time": 961788,
           "reels_skip_rate": 71.4
+        }
+      ]
+    },
+    "18202445596391492": {
+      "art": "beitrag",
+      "datum": "2026-11-05",
+      "titel": "Gutgläubig gekauft – trotzdem weg?",
+      "format": "reel",
+      "fach": null,
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-11-05T18:00:08.162Z",
+      "snapshots": [
+        {
+          "stand": "2026-11-05T18:47:30.452Z",
+          "alterStunden": 0.8,
+          "reach": 110,
+          "saved": 0,
+          "shares": 0,
+          "likes": 2,
+          "comments": 0,
+          "total_interactions": 2,
+          "views": 177,
+          "ig_reels_avg_watch_time": 6632,
+          "ig_reels_video_view_total_time": 736159,
+          "reels_skip_rate": 60.5
         }
       ]
     }
