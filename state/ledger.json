@@ -19673,22 +19673,22 @@
         "wer darf?"
       ],
       "insights": {
-        "reach": 50,
-        "views": 65,
+        "reach": 53,
+        "views": 71,
         "shares": 0,
         "total_interactions": 1,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 53,
-        "navigation_tap_forward": 39,
+        "navigation": 59,
+        "navigation_tap_forward": 43,
         "navigation_tap_exit": 8,
         "navigation_swipe_forward": 4,
-        "navigation_tap_back": 2
+        "navigation_tap_back": 4
       },
-      "insightsStand": "2026-11-05T10:45:29.194Z",
-      "insightsAlterStunden": 18.7
+      "insightsStand": "2026-11-05T12:52:34.705Z",
+      "insightsAlterStunden": 20.8
     },
     {
       "datum": "2026-11-04",
@@ -19712,19 +19712,19 @@
         "#internationalessteuerrecht"
       ],
       "insights": {
-        "reach": 246,
+        "reach": 254,
         "saved": 2,
         "shares": 0,
         "likes": 1,
         "comments": 0,
         "total_interactions": 3,
-        "views": 312,
-        "ig_reels_avg_watch_time": 8509,
-        "ig_reels_video_view_total_time": 2110376,
-        "reels_skip_rate": 61.8
+        "views": 319,
+        "ig_reels_avg_watch_time": 8331,
+        "ig_reels_video_view_total_time": 2132925,
+        "reels_skip_rate": 61.7
       },
-      "insightsStand": "2026-11-05T09:45:56.519Z",
-      "insightsAlterStunden": 17.3
+      "insightsStand": "2026-11-05T12:52:37.991Z",
+      "insightsAlterStunden": 20.4
     },
     {
       "datum": "2026-11-04",
@@ -19750,19 +19750,19 @@
         "#steuerberater"
       ],
       "insights": {
-        "reach": 227,
+        "reach": 237,
         "saved": 1,
         "shares": 0,
         "likes": 1,
         "comments": 0,
         "total_interactions": 2,
-        "views": 266,
-        "ig_reels_avg_watch_time": 6660,
-        "ig_reels_video_view_total_time": 1525305,
-        "reels_skip_rate": 65.3
+        "views": 281,
+        "ig_reels_avg_watch_time": 6822,
+        "ig_reels_video_view_total_time": 1637500,
+        "reels_skip_rate": 64
       },
-      "insightsStand": "2026-11-05T09:45:56.519Z",
-      "insightsAlterStunden": 15.8
+      "insightsStand": "2026-11-05T12:52:37.991Z",
+      "insightsAlterStunden": 18.9
     },
     {
       "datum": "2026-11-04",
@@ -19968,21 +19968,22 @@
         "Bauleistung: wer zahlt USt?"
       ],
       "insights": {
-        "reach": 11,
-        "views": 12,
+        "reach": 22,
+        "views": 31,
         "shares": 0,
-        "total_interactions": 0,
+        "total_interactions": 1,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 12,
-        "navigation_tap_forward": 8,
+        "navigation": 28,
+        "navigation_tap_forward": 21,
         "navigation_tap_exit": 2,
-        "navigation_swipe_forward": 2
+        "navigation_swipe_forward": 3,
+        "navigation_tap_back": 2
       },
-      "insightsStand": "2026-11-05T08:45:30.807Z",
-      "insightsAlterStunden": 1.3
+      "insightsStand": "2026-11-05T12:52:34.705Z",
+      "insightsAlterStunden": 5.4
     },
     {
       "datum": "2026-11-05",
