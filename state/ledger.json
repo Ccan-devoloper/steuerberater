@@ -20147,6 +20147,30 @@
         "#examensvorbereitung",
         "#bilanzsteuerrecht"
       ]
+    },
+    {
+      "datum": "2026-11-05",
+      "slot": "m1",
+      "medienId": "18202445596391492",
+      "veroeffentlicht": "2026-11-05T18:00:08.162Z",
+      "quelle": "vorproduktion",
+      "art": "beitrag",
+      "zeit": "19:00",
+      "stunde": 19,
+      "format": "reel",
+      "thema": "lead-zr-z6",
+      "fach": null,
+      "klausur": 0,
+      "titel": "Gutgläubig gekauft – trotzdem weg?",
+      "hookTyp": null,
+      "hashtags": [
+        "#steuerberaterprüfung",
+        "#steuerberaterexamen",
+        "#mündlicheprüfung",
+        "#examensvorbereitung",
+        "#zivilrecht",
+        "#steuerberater"
+      ]
     }
   ],
   "fachZaehler": {
@@ -20161,7 +20185,7 @@
     "est": 9,
     "umwst": 10,
     "gewst": 5,
-    "null": 15
+    "null": 16
   },
   "nachrichten": [],
   "postfach": [],
