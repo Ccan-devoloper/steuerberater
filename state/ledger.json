@@ -19868,7 +19868,22 @@
       "storyArt": "frage",
       "thema": "persg-quiz-k3-29",
       "fach": "persg",
-      "titel": ""
+      "titel": "",
+      "insights": {
+        "reach": 16,
+        "views": 26,
+        "shares": 0,
+        "total_interactions": 0,
+        "replies": 0,
+        "follows": 0,
+        "profile_visits": 0,
+        "profile_activity": 0,
+        "navigation": 19,
+        "navigation_tap_back": 1,
+        "navigation_tap_forward": 18
+      },
+      "insightsStand": "2026-11-05T07:30:17.583Z",
+      "insightsAlterStunden": 1.4
     },
     {
       "datum": "2026-11-05",
@@ -19883,7 +19898,23 @@
       "titel": [
         "C: drei Jahre",
         "nach der Erklärung"
-      ]
+      ],
+      "insights": {
+        "reach": 15,
+        "views": 22,
+        "shares": 0,
+        "total_interactions": 0,
+        "replies": 0,
+        "follows": 0,
+        "profile_visits": 0,
+        "profile_activity": 0,
+        "navigation": 15,
+        "navigation_tap_forward": 11,
+        "navigation_tap_exit": 3,
+        "navigation_tap_back": 1
+      },
+      "insightsStand": "2026-11-05T07:30:17.583Z",
+      "insightsAlterStunden": 1.4
     },
     {
       "datum": "2026-11-05",

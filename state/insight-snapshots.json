@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "stand": "2026-11-05T06:47:25.192Z",
+  "stand": "2026-11-05T07:30:17.583Z",
   "medien": {
     "18093399314208242": {
       "art": "beitrag",
@@ -62786,6 +62786,64 @@
           "navigation_tap_exit": 7,
           "navigation_tap_forward": 23,
           "navigation_tap_back": 3
+        }
+      ]
+    },
+    "18127030468686805": {
+      "art": "story",
+      "datum": "2026-11-05",
+      "titel": null,
+      "format": null,
+      "fach": "persg",
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-11-05T06:07:03.599Z",
+      "snapshots": [
+        {
+          "stand": "2026-11-05T07:30:17.583Z",
+          "alterStunden": 1.4,
+          "reach": 16,
+          "views": 26,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 19,
+          "navigation_tap_back": 1,
+          "navigation_tap_forward": 18
+        }
+      ]
+    },
+    "18446742835132444": {
+      "art": "story",
+      "datum": "2026-11-05",
+      "titel": [
+        "C: drei Jahre",
+        "nach der Erklärung"
+      ],
+      "format": null,
+      "fach": "persg",
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-11-05T06:09:04.089Z",
+      "snapshots": [
+        {
+          "stand": "2026-11-05T07:30:17.583Z",
+          "alterStunden": 1.4,
+          "reach": 15,
+          "views": 22,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 15,
+          "navigation_tap_forward": 11,
+          "navigation_tap_exit": 3,
+          "navigation_tap_back": 1
         }
       ]
     }
