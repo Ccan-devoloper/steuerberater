@@ -1,0 +1,89 @@
+{
+  "format": "schema",
+  "fach": "kst",
+  "klausur": 2,
+  "fachLabel": "Körperschaftsteuer",
+  "themaId": "kst-schema-2",
+  "caption": "Verdeckte Einlage – das Prüfschema in fünf Schritten für die KSt-Klausur.\n\nFall: Priya (100 %) verzichtet 2026 auf ein privates Darlehen über 50.000 € an ihre angeschlagene Kessler GmbH; die Forderung ist noch 30.000 € wert.\n\n1. Zuwendung eines Gesellschafters oder einer nahestehenden Person außerhalb der gesellschaftsrechtlichen Einlagen (R 8.9 Abs. 1 KStR).\n2. Einlagefähiger Vermögensvorteil: Wegfall einer Verbindlichkeit ja, bloße Nutzungsvorteile nein (BFH vom 26.10.1987, GrS 2/86, BStBl II 1988, 348).\n3. Veranlassung durch das Gesellschaftsverhältnis: Ein Nichtgesellschafter hätte bei der Sorgfalt eines ordentlichen Kaufmanns nicht verzichtet (R 8.9 Abs. 3 KStR).\n4. Wert und Einkommen: Beim Forderungsverzicht ist nur der werthaltige Teil Einlage (H 8.9 KStH; BFH vom 09.06.1997, GrS 1/94, BStBl II 1998, 307), Bewertung mit dem Teilwert (§ 6 Abs. 1 Nr. 5 EStG i. V. m. § 8 Abs. 1 KStG). Verdeckte Einlagen erhöhen das Einkommen nicht (§ 8 Abs. 3 S. 3 KStG): 50.000 € Ertrag, 30.000 € außerbilanziell abziehen, 20.000 € bleiben steuerpflichtig. Korrespondenz: keine Kürzung, soweit die Einlage das Einkommen des Gesellschafters gemindert hat (§ 8 Abs. 3 S. 4 KStG).\n5. Folgen: Zugang zum steuerlichen Einlagekonto (§ 27 Abs. 1 KStG); beim Gesellschafter nachträgliche Anschaffungskosten (§ 17 Abs. 2a S. 3 Nr. 1 EStG; im Betriebsvermögen § 6 Abs. 6 S. 2 EStG).\n\nZum Schluss: § 8 Abs. 3 KStG, R 8.9 KStR und H 8.9 KStH zum Markieren. Speichern für Klausur 2 📌",
+  "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#körperschaftsteuer"
+  ],
+  "quellen": [
+    "§ 8 Abs. 1, Abs. 3 S. 3, 4 KStG",
+    "R 8.9 Abs. 1, 3 KStR",
+    "BFH vom 26.10.1987, GrS 2/86, BStBl II 1988, 348",
+    "BFH vom 09.06.1997, GrS 1/94, BStBl II 1998, 307",
+    "§ 6 Abs. 1 Nr. 5, Abs. 6 S. 2 EStG",
+    "§ 27 Abs. 1 KStG",
+    "§ 17 Abs. 2a S. 3 Nr. 1 EStG",
+    "H 8.9 KStH"
+  ],
+  "slug": "2026-11-05-b2",
+  "kurztitel": "Verdeckte Einlage",
+  "regelGeprueft": true,
+  "manuellGeprueft": false,
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "textProviderKostenUsd": 0,
+  "faktencheckProviderKostenUsd": 0,
+  "bildStatus": "open-peeps-render",
+  "renderer": "open-peeps-v4",
+  "liveVorrangAktiv": true,
+  "coverBadge": "Prüfschema",
+  "folien": [
+    {
+      "art": "titel",
+      "titel": "Prüfschema",
+      "text": "Prüfschema · Verdeckte · Einlage · § 8 Abs. 3 S. 3 KStG · in 5 Schritten · + Markier-Guide § 8 + R 8.9 · Verzicht · 50.000 € · alles Einlage?",
+      "bild": "op-cover"
+    },
+    {
+      "art": "text",
+      "titel": "Körperschaftsteuer",
+      "text": "Das Schema · Zuwendung vom Gesellschafter · R 8.9 Abs. 1 KStR · Einlagefähiger Vorteil? · BFH GrS 2/86 · Gesellschaftlich veranlasst? · R 8.9 Abs. 3 KStR · Wert und Einkommen · § 8 Abs. 3 S. 3, 4 KStG · Folgen bei beiden · § 27 KStG, § 17 Abs. 2a EStG · Am Ende: § 8 KStG + R 8.9 markiert"
+    },
+    {
+      "art": "text",
+      "titel": "Körperschaftsteuer",
+      "text": "Der Fall · Priya hält 100 % an der Kessler GmbH und hat ihr privat 50.000 € geliehen. · 2026 verzichtet sie auf die Rückzahlung. · Die GmbH ist angeschlagen: Die Forderung ist nur noch 30.000 € wert. · Ich bin Priya."
+    },
+    {
+      "art": "text",
+      "titel": "Körperschaftsteuer",
+      "text": "Schritt 1 bis 3 · Zuwendung durch die Gesellschafterin: ja. · R 8.9 Abs. 1 KStR · Wegfall einer Schuld: einlagefähig, anders als bloße Nutzungen. · BFH vom 26.10.1987, GrS 2/86, BStBl II 1988, 348 · Ein fremder Gläubiger hätte nicht verzichtet: gesellschaftlich veranlasst. · R 8.9 Abs. 3 KStR · Dreimal ja."
+    },
+    {
+      "art": "text",
+      "titel": "Körperschaftsteuer",
+      "text": "Jetzt du · Die GmbH bucht 50.000 € Ertrag. Wie hoch ist die verdeckte Einlage? · Und was gilt für den Rest? · Alles steuerfrei?"
+    },
+    {
+      "art": "text",
+      "titel": "Körperschaftsteuer",
+      "text": "Lösung: Schritt 4 · § 8 Abs. 3 S. 3 KStG · H 8.9 KStH; BFH GrS 1/94 · Ertrag aus Ausbuchung · + 50.000 € · Verdeckte Einlage, Teilwert · − 30.000 € · Steuerpflichtiger Ertrag · 20.000 € · Abzug außerhalb der Bilanz · Nur 30.000 €?"
+    },
+    {
+      "art": "text",
+      "titel": "Körperschaftsteuer",
+      "text": "Schritt 5: Folgen · GmbH: Einlagekonto plus 30.000 €. · § 27 Abs. 1 KStG · Priya: nachträgliche Anschaffungskosten der Beteiligung. · § 17 Abs. 2a S. 3 Nr. 1 EStG · Hat die Einlage Priyas Einkommen gemindert, entfällt die Kürzung bei der GmbH. · § 8 Abs. 3 S. 4 KStG · Beide Seiten prüfen!"
+    },
+    {
+      "art": "text",
+      "titel": "Körperschaftsteuer",
+      "text": "Kessler GmbH: 20.000 € steuerpflichtig · 30.000 € verdeckte Einlage, Einlagekonto + 30.000 € · Nur der werthaltige Teil · ist Einlage, der Rest · bleibt Ertrag. · Speichern für Klausur 2 · Teilwert geprüft? · Weiterwischen: § 8 KStG + R 8.9 markiert"
+    },
+    {
+      "art": "text",
+      "titel": "Körperschaftsteuer",
+      "text": "§ 8 Abs. 3 KStG, § 6 Abs. 6 EStG (Auszug) · Begriff: R 8.9 KStR · außerbilanziell · Korrespondenz · beim Gesellschafter · Maßstab · Bewertung: § 6 Abs. 1 Nr. 5 EStG · Teilwert, über § 8 Abs. 1 KStG"
+    },
+    {
+      "art": "text",
+      "titel": "Körperschaftsteuer",
+      "text": "R 8.9 KStR, H 8.9 KStH (Auszug) · Schritt 1 · Schritt 2 · Schritt 3 · nur 30.000 € · Nutzungen sind nicht einlagefähig · BFH GrS 2/86, BStBl II 1988, 348"
+    }
+  ]
+}

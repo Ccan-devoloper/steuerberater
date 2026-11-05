@@ -1,0 +1,36 @@
+{
+  "slot": "s4",
+  "art": "frage",
+  "fach": "persg",
+  "klausur": 3,
+  "fachLabel": "Personengesellschaften",
+  "themaId": "persg-quiz-k3-29",
+  "beitragSlot": null,
+  "quellen": null,
+  "frage": [
+    "Realteilung:",
+    "Wann endet die Sperrfrist?"
+  ],
+  "optionen": [
+    "Ein Jahr nach Realteilung",
+    "Drei Jahre nach Realteilung",
+    "Drei Jahre nach der Erklärung"
+  ],
+  "pairId": "persg-quiz-k3-29",
+  "sichtbareTexte": [
+    "Personengesellschaften",
+    "Prüfungsfrage",
+    "Realteilung:",
+    "Wann endet die Sperrfrist?",
+    "Ein Jahr nach Realteilung",
+    "Drei Jahre nach Realteilung",
+    "Drei Jahre nach der Erklärung",
+    "Auflösung in der nächsten Story"
+  ],
+  "renderer": "open-peeps-v4",
+  "bildStatus": "open-peeps-render",
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "liveVorrangAktiv": true,
+  "regelGeprueft": true
+}

@@ -1,0 +1,61 @@
+{
+  "format": "reel",
+  "fach": null,
+  "klausur": 0,
+  "fachLabel": "Mündliche · Zivilrecht",
+  "themaId": "lead-zr-z6",
+  "caption": "Gutgläubig gekauft – und trotzdem nicht Eigentümer? 🚲\n\nAn gestohlenen, verlorenen oder sonst abhanden gekommenen Sachen ist gutgläubiger Erwerb ausgeschlossen (§ 935 Abs. 1 BGB). Ausnahme u. a.: Geld und Inhaberpapiere sowie Sachen aus öffentlicher Versteigerung (§ 935 Abs. 2 BGB).\n\nSchreib deine Antwort in die Kommentare 👇 und schick das Reel deinem Lernpartner.\n\nDie 10 häufigsten Fehler der Mündlichen – mit Prüfungsszenen und Lösungen – als Gratis-PDF, ausgewertet aus über 400 Prüfungsprotokollen. 👉 Link in der Bio",
+  "hashtags": [
+    "#steuerberaterprüfung",
+    "#steuerberaterexamen",
+    "#mündlicheprüfung",
+    "#examensvorbereitung",
+    "#zivilrecht",
+    "#steuerberater"
+  ],
+  "quellen": [
+    "§ 935 BGB"
+  ],
+  "slug": "2026-11-05-m1",
+  "kurztitel": "Gutgläubig gekauft – trotzdem weg?",
+  "regelGeprueft": true,
+  "manuellGeprueft": false,
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "textProviderKostenUsd": 0,
+  "faktencheckProviderKostenUsd": 0,
+  "bildStatus": "open-peeps-render",
+  "renderer": "open-peeps-v4",
+  "liveVorrangAktiv": true,
+  "bild": "op-cover",
+  "reelTyp": "klausurfalle",
+  "hookStil": "knall",
+  "coverBadge": "Reel",
+  "szenen": [
+    {
+      "art": "hook",
+      "titel": "Gutgläubig gekauft. Trotzdem weg?"
+    },
+    {
+      "art": "schritt",
+      "titel": "Der Fall"
+    },
+    {
+      "art": "schritt",
+      "titel": "Die Regel"
+    },
+    {
+      "art": "schritt",
+      "titel": "Ausnahme"
+    }
+  ],
+  "sprecher": [
+    "Gutgläubig gekauft, trotzdem nicht Eigentümer? Ja!",
+    "Du kaufst ein Fahrrad, hältst den Verkäufer für den Eigentümer. Es war gestohlen.",
+    "Bei gestohlenen Sachen ist gutgläubiger Erwerb ausgeschlossen.",
+    "Die Ausnahme fragt jeder Prüfer: Geld. Das geht auch gestohlen gutgläubig.",
+    "Wer das nicht weiß, verliert Punkte. Die zehn häufigsten Fehler: kostenlos, Link in der Bio."
+  ],
+  "dauerS": 27.56,
+  "tempo": 1.02
+}

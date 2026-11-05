@@ -1,0 +1,48 @@
+{
+  "slot": "s7",
+  "art": "tipp",
+  "fach": null,
+  "klausur": 0,
+  "fachLabel": "Klausurtechnik",
+  "themaId": null,
+  "beitragSlot": null,
+  "quellen": null,
+  "titel": [
+    "Erst die Fragen,",
+    "dann der Sachverhalt"
+  ],
+  "punkte": [
+    [
+      "Aufgabenstellung am Ende zuerst lesen.",
+      "ok",
+      null
+    ],
+    [
+      "Dann den Sachverhalt gezielt durcharbeiten.",
+      "ok",
+      null
+    ],
+    [
+      "Jede Zahl und jedes Datum markieren.",
+      "ok",
+      null
+    ]
+  ],
+  "icon": "tabler:list-search",
+  "iconFarbe": "GELB",
+  "sichtbareTexte": [
+    "Klausurtechnik",
+    "Klausurtipp",
+    "Erst die Fragen,",
+    "dann der Sachverhalt",
+    "Aufgabenstellung am Ende zuerst lesen.",
+    "Dann den Sachverhalt gezielt durcharbeiten.",
+    "Jede Zahl und jedes Datum markieren."
+  ],
+  "renderer": "open-peeps-v4",
+  "bildStatus": "open-peeps-render",
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "liveVorrangAktiv": true,
+  "regelGeprueft": true
+}

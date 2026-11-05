@@ -1,0 +1,40 @@
+{
+  "slot": "s5",
+  "art": "antwort",
+  "fach": "persg",
+  "klausur": 3,
+  "fachLabel": "Personengesellschaften",
+  "themaId": "persg-quiz-k3-29",
+  "beitragSlot": null,
+  "quellen": null,
+  "titel": [
+    "C: drei Jahre",
+    "nach der Erklärung"
+  ],
+  "optionen": [
+    "Ein Jahr nach Realteilung",
+    "Drei Jahre nach Realteilung",
+    "Drei Jahre nach der Erklärung"
+  ],
+  "richtig": 2,
+  "text": "Maßgeblich ist die Erklärung der Gesellschaft für das Jahr der Realteilung.",
+  "norm": "§ 16 Abs. 3 S. 3 EStG",
+  "pairId": "persg-quiz-k3-29",
+  "sichtbareTexte": [
+    "Personengesellschaften",
+    "Auflösung",
+    "C: drei Jahre",
+    "nach der Erklärung",
+    "Ein Jahr nach Realteilung",
+    "Drei Jahre nach Realteilung",
+    "Drei Jahre nach der Erklärung",
+    "Maßgeblich ist die Erklärung der Gesellschaft für das Jahr der Realteilung.",
+    "§ 16 Abs. 3 S. 3 EStG"
+  ],
+  "renderer": "open-peeps-v4",
+  "bildStatus": "open-peeps-render",
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "liveVorrangAktiv": true,
+  "regelGeprueft": true
+}

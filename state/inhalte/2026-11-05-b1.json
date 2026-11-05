@@ -1,0 +1,70 @@
+{
+  "format": "spickzettel",
+  "fach": "ust",
+  "klausur": 1,
+  "fachLabel": "Umsatzsteuer",
+  "themaId": "ust-aufb-ust-m-b06-10",
+  "caption": "Bauleistungen: Wann schuldet der Auftraggeber die Umsatzsteuer? Der Spickzettel für die USt-Klausur.\n\n▸ Bauleistungen sind Leistungen im Zusammenhang mit Grundstücken, die der Herstellung, Instandsetzung, Instandhaltung, Änderung oder Beseitigung von Bauwerken dienen; Planungs- und Überwachungsleistungen sind ausgenommen (§ 13b Abs. 2 Nr. 4 S. 1 UStG). Auf Dauer installierte Anlagen und Maschinen gelten als Grundstücke (§ 13b Abs. 2 Nr. 4 S. 2 UStG).\n▸ Der Leistungsempfänger schuldet die Steuer, wenn er Unternehmer ist und selbst nachhaltig entsprechende Leistungen erbringt – auch für Eingangsleistungen, die er anders verwendet; davon ist bei einer gültigen Bescheinigung des Finanzamts auszugehen (§ 13b Abs. 5 S. 2 UStG).\n▸ Rechnung ohne Steuerausweis mit der Angabe „Steuerschuldnerschaft des Leistungsempfängers“ (§ 14a Abs. 5 UStG).\n▸ Keine Bauleistungen nach Verwaltungsauffassung u. a.: reine Materiallieferungen, Vermietung von Baugeräten ohne Bedienpersonal, Reparatur- und Wartungsarbeiten bis 500 € netto (Abschn. 13b.2 Abs. 7 UStAE).\n▸ Sind beide Seiten in Zweifelsfällen übereinstimmend von § 13b ausgegangen, bleibt der Empfänger Steuerschuldner, sofern kein Steuerausfall entsteht (§ 13b Abs. 5 S. 8 UStG).\n\nZum Schluss: § 13b UStG und Abschn. 13b.2 Abs. 7 UStAE zum Markieren. Speichern für Klausur 1 📌",
+  "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#umsatzsteuer"
+  ],
+  "quellen": [
+    "§ 13b Abs. 2 Nr. 4 S. 1, 2 UStG",
+    "§ 13b Abs. 5 S. 2, 8 UStG",
+    "§ 14a Abs. 5 UStG",
+    "Abschn. 13b.2 Abs. 7 UStAE"
+  ],
+  "slug": "2026-11-05-b1",
+  "kurztitel": "Bauleistungen: Wann schuldet der Auftraggeber die Umsatzsteuer?",
+  "regelGeprueft": true,
+  "manuellGeprueft": false,
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "textProviderKostenUsd": 0,
+  "faktencheckProviderKostenUsd": 0,
+  "bildStatus": "open-peeps-render",
+  "renderer": "open-peeps-v4",
+  "liveVorrangAktiv": true,
+  "coverBadge": "Spickzettel",
+  "folien": [
+    {
+      "art": "titel",
+      "titel": "Spickzettel",
+      "text": "Spickzettel · Bauleistung: · wer zahlt USt? · § 13b Abs. 2 Nr. 4 UStG · auf einer Karte · + Markier-Guide + UStAE · Rechnung · ohne USt · zu Recht?",
+      "bild": "op-cover"
+    },
+    {
+      "art": "text",
+      "titel": "Umsatzsteuer",
+      "text": "Die Karte · Bauleistung? · § 13b Abs. 2 Nr. 4 S. 1 UStG · Bauwerk errichten, ändern, reparieren, beseitigen · Empfänger baut selbst? · § 13b Abs. 5 S. 2 UStG · nachhaltig, etwa per Bescheinigung · Steuer schuldet der Empfänger · § 13b Abs. 5 S. 2 UStG · Rechnung netto · § 14a Abs. 5 UStG · Am Ende: § 13b + UStAE markiert"
+    },
+    {
+      "art": "text",
+      "titel": "Umsatzsteuer",
+      "text": "Bauleistung oder nicht? · Ja · Dach neu decken · Heizung fest einbauen · § 13b Abs. 2 Nr. 4 S. 2 UStG · Nein · Planung und Überwachung · § 13b Abs. 2 Nr. 4 S. 1 UStG · Nur Material liefern, Bagger ohne Fahrer · Abschn. 13b.2 Abs. 7 UStAE · Ich bin Rasmus, Dachdecker."
+    },
+    {
+      "art": "text",
+      "titel": "Umsatzsteuer",
+      "text": "Zwei Stolpersteine · Reparatur oder Wartung bis 500 € netto: nach Verwaltungsansicht keine Bauleistung. · Abschn. 13b.2 Abs. 7 UStAE · Beide gehen irrtümlich von § 13b aus: Der Empfänger bleibt Schuldner, wenn kein Steuerausfall entsteht. · § 13b Abs. 5 S. 8 UStG · Auch bei Irrtum?"
+    },
+    {
+      "art": "text",
+      "titel": "Umsatzsteuer",
+      "text": "Dachdecker arbeitet für eine Baufirma · Steuerschuldnerin ist die Baufirma, Rechnung netto · Bau an Bauleister: · Empfänger ist Schuldner, · Rechnung netto. · Speichern für Klausur 1 · Prüfst du beide Seiten? · Weiterwischen: § 13b + UStAE markiert"
+    },
+    {
+      "art": "text",
+      "titel": "Umsatzsteuer",
+      "text": "§ 13b UStG (Auszug) · Was? · nicht! · Folge · Wer? · Rechnung: § 14a Abs. 5 UStG · „Steuerschuldnerschaft des Leistungsempfängers“"
+    },
+    {
+      "art": "text",
+      "titel": "Umsatzsteuer",
+      "text": "Abschn. 13b.2 Abs. 7 UStAE (Auszug) · keine Bauleistung · nur Material · Bagger ohne Fahrer · Bagatelle · Wartung über 500 €: Nr. 15 S. 2 · Bauleistung nur, wenn Teile getauscht werden"
+    }
+  ]
+}

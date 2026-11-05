@@ -1,0 +1,44 @@
+{
+  "slot": "s6",
+  "art": "norm",
+  "fach": "erbst",
+  "klausur": 1,
+  "fachLabel": "Erbschaftsteuer",
+  "themaId": "erbst-aufb-erbst-v-2",
+  "beitragSlot": null,
+  "quellen": null,
+  "titel": [
+    "Familienheim",
+    "steuerfrei?"
+  ],
+  "norm": "§ 13 Abs. 1 Nr. 4a bis 4c ErbStG",
+  "punkte": [
+    [
+      "Ehegatte zu Lebzeiten: ohne Frist und Wertgrenze.",
+      "ok",
+      "§ 13 Abs. 1 Nr. 4a ErbStG"
+    ],
+    [
+      "Im Erbfall: zehn Jahre selbst wohnen; Kinder nur bis 200 qm.",
+      "warn",
+      "§ 13 Abs. 1 Nr. 4b, 4c ErbStG"
+    ]
+  ],
+  "sichtbareTexte": [
+    "Erbschaftsteuer",
+    "Norm des Tages",
+    "Familienheim",
+    "steuerfrei?",
+    "§ 13 Abs. 1 Nr. 4a bis 4c ErbStG",
+    "Ehegatte zu Lebzeiten: ohne Frist und Wertgrenze.",
+    "§ 13 Abs. 1 Nr. 4a ErbStG",
+    "Im Erbfall: zehn Jahre selbst wohnen; Kinder nur bis 200 qm.",
+    "§ 13 Abs. 1 Nr. 4b, 4c ErbStG"
+  ],
+  "renderer": "open-peeps-v4",
+  "bildStatus": "open-peeps-render",
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "liveVorrangAktiv": true,
+  "regelGeprueft": true
+}
