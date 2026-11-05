@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "stand": "2026-11-05T12:52:40.013Z",
+  "stand": "2026-11-05T13:40:06.948Z",
   "medien": {
     "18093399314208242": {
       "art": "beitrag",
@@ -63345,6 +63345,60 @@
           "navigation": 11,
           "navigation_tap_forward": 9,
           "navigation_tap_exit": 2
+        }
+      ]
+    },
+    "17927458590433266": {
+      "art": "story",
+      "datum": "2026-11-05",
+      "titel": [
+        "Verdeckte Einlage"
+      ],
+      "format": null,
+      "fach": "kst",
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-11-05T12:30:17.780Z",
+      "snapshots": [
+        {
+          "stand": "2026-11-05T13:40:05.825Z",
+          "alterStunden": 1.2,
+          "reach": 11,
+          "views": 16,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 12,
+          "navigation_swipe_forward": 2,
+          "navigation_tap_forward": 7,
+          "navigation_tap_exit": 3
+        }
+      ]
+    },
+    "18017931071967042": {
+      "art": "beitrag",
+      "datum": "2026-11-05",
+      "titel": "Prüfschema",
+      "format": "schema",
+      "fach": "kst",
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-11-05T12:30:05.826Z",
+      "snapshots": [
+        {
+          "stand": "2026-11-05T13:40:06.948Z",
+          "alterStunden": 1.2,
+          "reach": 38,
+          "saved": 0,
+          "shares": 0,
+          "likes": 2,
+          "comments": 0,
+          "total_interactions": 2,
+          "follows": 0,
+          "profile_visits": 0
         }
       ]
     }

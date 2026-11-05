@@ -20035,7 +20035,19 @@
         "#steuerberaterprüfung",
         "#examensvorbereitung",
         "#körperschaftsteuer"
-      ]
+      ],
+      "insights": {
+        "reach": 38,
+        "saved": 0,
+        "shares": 0,
+        "likes": 2,
+        "comments": 0,
+        "total_interactions": 2,
+        "follows": 0,
+        "profile_visits": 0
+      },
+      "insightsStand": "2026-11-05T13:40:06.948Z",
+      "insightsAlterStunden": 1.2
     },
     {
       "datum": "2026-11-05",
@@ -20049,7 +20061,23 @@
       "fach": "kst",
       "titel": [
         "Verdeckte Einlage"
-      ]
+      ],
+      "insights": {
+        "reach": 11,
+        "views": 16,
+        "shares": 0,
+        "total_interactions": 0,
+        "replies": 0,
+        "follows": 0,
+        "profile_visits": 0,
+        "profile_activity": 0,
+        "navigation": 12,
+        "navigation_swipe_forward": 2,
+        "navigation_tap_forward": 7,
+        "navigation_tap_exit": 3
+      },
+      "insightsStand": "2026-11-05T13:40:05.825Z",
+      "insightsAlterStunden": 1.2
     },
     {
       "datum": "2026-11-05",
