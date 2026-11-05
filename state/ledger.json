@@ -20050,6 +20050,21 @@
       "titel": [
         "Verdeckte Einlage"
       ]
+    },
+    {
+      "datum": "2026-11-05",
+      "slot": "s7",
+      "medienId": "18072130466790194",
+      "veroeffentlicht": "2026-11-05T13:40:04.392Z",
+      "quelle": "vorproduktion",
+      "art": "story",
+      "storyArt": "tipp",
+      "thema": null,
+      "fach": null,
+      "titel": [
+        "Erst die Fragen,",
+        "dann der Sachverhalt"
+      ]
     }
   ],
   "fachZaehler": {
