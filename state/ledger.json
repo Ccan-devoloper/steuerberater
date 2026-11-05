@@ -19869,6 +19869,21 @@
       "thema": "persg-quiz-k3-29",
       "fach": "persg",
       "titel": ""
+    },
+    {
+      "datum": "2026-11-05",
+      "slot": "s5",
+      "medienId": "18446742835132444",
+      "veroeffentlicht": "2026-11-05T06:09:04.089Z",
+      "quelle": "vorproduktion",
+      "art": "story",
+      "storyArt": "antwort",
+      "thema": "persg-quiz-k3-29",
+      "fach": "persg",
+      "titel": [
+        "C: drei Jahre",
+        "nach der Erklärung"
+      ]
     }
   ],
   "fachZaehler": {
