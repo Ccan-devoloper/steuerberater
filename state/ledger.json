@@ -20109,6 +20109,21 @@
       },
       "insightsStand": "2026-11-05T14:44:55.853Z",
       "insightsAlterStunden": 1.1
+    },
+    {
+      "datum": "2026-11-05",
+      "slot": "s8",
+      "medienId": "18453729193193848",
+      "veroeffentlicht": "2026-11-05T16:32:14.351Z",
+      "quelle": "vorproduktion",
+      "art": "story",
+      "storyArt": "tipp",
+      "thema": "kst-aufb-kst-ks-3-07",
+      "fach": "kst",
+      "titel": [
+        "Einlagekonto:",
+        "wann wird es genutzt?"
+      ]
     }
   ],
   "fachZaehler": {
