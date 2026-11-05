@@ -20171,6 +20171,20 @@
         "#zivilrecht",
         "#steuerberater"
       ]
+    },
+    {
+      "datum": "2026-11-05",
+      "slot": "s3",
+      "medienId": "18114309065174227",
+      "veroeffentlicht": "2026-11-05T18:00:21.048Z",
+      "quelle": "vorproduktion",
+      "art": "story",
+      "storyArt": "teaser",
+      "thema": null,
+      "fach": "bilanz",
+      "titel": [
+        "Dividende immer steuerfrei?"
+      ]
     }
   ],
   "fachZaehler": {
