@@ -20124,6 +20124,28 @@
         "Einlagekonto:",
         "wann wird es genutzt?"
       ]
+    },
+    {
+      "datum": "2026-11-05",
+      "slot": "b3",
+      "medienId": "18120637916062691",
+      "veroeffentlicht": "2026-11-05T16:32:54.434Z",
+      "quelle": "vorproduktion",
+      "art": "beitrag",
+      "zeit": "17:30",
+      "stunde": 17,
+      "format": "reel",
+      "thema": "bilanz-karte-k3-32",
+      "fach": "bilanz",
+      "klausur": 3,
+      "titel": "Wann greift die Streubesitzgrenze des § 8b Abs. 4 KStG?",
+      "hookTyp": null,
+      "hashtags": [
+        "#steuerberaterexamen",
+        "#steuerberaterprüfung",
+        "#examensvorbereitung",
+        "#bilanzsteuerrecht"
+      ]
     }
   ],
   "fachZaehler": {
@@ -20131,7 +20153,7 @@
     "ust": 17,
     "kst": 16,
     "ao": 29,
-    "bilanz": 27,
+    "bilanz": 28,
     "istr": 22,
     "erbst": 13,
     "mindset": 2,
