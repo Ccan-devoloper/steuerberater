@@ -19980,6 +19980,21 @@
       },
       "insightsStand": "2026-11-05T08:45:30.807Z",
       "insightsAlterStunden": 1.3
+    },
+    {
+      "datum": "2026-11-05",
+      "slot": "s6",
+      "medienId": "17883918576535092",
+      "veroeffentlicht": "2026-11-05T11:14:10.624Z",
+      "quelle": "vorproduktion",
+      "art": "story",
+      "storyArt": "norm",
+      "thema": "erbst-aufb-erbst-v-2",
+      "fach": "erbst",
+      "titel": [
+        "Familienheim",
+        "steuerfrei?"
+      ]
     }
   ],
   "fachZaehler": {
