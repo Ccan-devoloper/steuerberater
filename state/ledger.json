@@ -19906,6 +19906,20 @@
         "#examensvorbereitung",
         "#umsatzsteuer"
       ]
+    },
+    {
+      "datum": "2026-11-05",
+      "slot": "s1",
+      "medienId": "18079060955727263",
+      "veroeffentlicht": "2026-11-05T07:30:16.432Z",
+      "quelle": "vorproduktion",
+      "art": "story",
+      "storyArt": "teaser",
+      "thema": null,
+      "fach": "ust",
+      "titel": [
+        "Bauleistung: wer zahlt USt?"
+      ]
     }
   ],
   "fachZaehler": {
