@@ -20020,6 +20020,20 @@
         "#examensvorbereitung",
         "#körperschaftsteuer"
       ]
+    },
+    {
+      "datum": "2026-11-05",
+      "slot": "s2",
+      "medienId": "17927458590433266",
+      "veroeffentlicht": "2026-11-05T12:30:17.780Z",
+      "quelle": "vorproduktion",
+      "art": "story",
+      "storyArt": "teaser",
+      "thema": null,
+      "fach": "kst",
+      "titel": [
+        "Verdeckte Einlage"
+      ]
     }
   ],
   "fachZaehler": {
