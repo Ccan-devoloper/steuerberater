@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "stand": "2026-11-05T16:33:06.814Z",
+  "stand": "2026-11-05T16:46:59.075Z",
   "medien": {
     "18093399314208242": {
       "art": "beitrag",
@@ -63115,6 +63115,23 @@
           "navigation_tap_forward": 51,
           "navigation_tap_exit": 5,
           "navigation_swipe_forward": 1
+        },
+        {
+          "stand": "2026-11-05T16:46:59.075Z",
+          "alterStunden": 22.8,
+          "reach": 60,
+          "views": 77,
+          "shares": 0,
+          "total_interactions": 1,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 71,
+          "navigation_swipe_forward": 4,
+          "navigation_tap_exit": 5,
+          "navigation_tap_forward": 52,
+          "navigation_tap_back": 10
         }
       ]
     },
@@ -63215,6 +63232,23 @@
           "navigation_tap_forward": 56,
           "navigation_tap_exit": 4,
           "navigation_tap_back": 6
+        },
+        {
+          "stand": "2026-11-05T16:46:59.075Z",
+          "alterStunden": 22.8,
+          "reach": 58,
+          "views": 73,
+          "shares": 0,
+          "total_interactions": 1,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 70,
+          "navigation_tap_back": 6,
+          "navigation_tap_exit": 5,
+          "navigation_tap_forward": 58,
+          "navigation_swipe_forward": 1
         }
       ]
     },
@@ -63315,6 +63349,23 @@
           "navigation_tap_forward": 42,
           "navigation_tap_exit": 9,
           "navigation_swipe_forward": 6
+        },
+        {
+          "stand": "2026-11-05T16:46:59.075Z",
+          "alterStunden": 22.6,
+          "reach": 56,
+          "views": 75,
+          "shares": 0,
+          "total_interactions": 1,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 69,
+          "navigation_swipe_forward": 6,
+          "navigation_tap_exit": 10,
+          "navigation_tap_forward": 43,
+          "navigation_tap_back": 10
         }
       ]
     },
