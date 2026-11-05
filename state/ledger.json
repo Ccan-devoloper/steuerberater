@@ -18215,17 +18215,17 @@
         "#umsatzsteuer"
       ],
       "insights": {
-        "reach": 154,
+        "reach": 164,
         "saved": 3,
         "shares": 0,
-        "likes": 6,
+        "likes": 8,
         "comments": 0,
-        "total_interactions": 9,
+        "total_interactions": 11,
         "follows": 0,
         "profile_visits": 2
       },
-      "insightsStand": "2026-11-04T09:46:24.611Z",
-      "insightsAlterStunden": 69.3
+      "insightsStand": "2026-11-05T10:45:35.587Z",
+      "insightsAlterStunden": 94.3
     },
     {
       "datum": "2026-11-01",
@@ -18344,19 +18344,19 @@
         "#körperschaftsteuer"
       ],
       "insights": {
-        "reach": 494,
+        "reach": 500,
         "saved": 3,
         "shares": 1,
         "likes": 4,
         "comments": 0,
         "total_interactions": 8,
-        "views": 627,
-        "ig_reels_avg_watch_time": 8133,
-        "ig_reels_video_view_total_time": 4139972,
-        "reels_skip_rate": 63.3
+        "views": 635,
+        "ig_reels_avg_watch_time": 8204,
+        "ig_reels_video_view_total_time": 4225470,
+        "reels_skip_rate": 63.1
       },
-      "insightsStand": "2026-11-04T09:46:24.611Z",
-      "insightsAlterStunden": 65.3
+      "insightsStand": "2026-11-05T10:45:35.587Z",
+      "insightsAlterStunden": 90.3
     },
     {
       "datum": "2026-11-01",
@@ -18382,19 +18382,19 @@
         "#steuerberater"
       ],
       "insights": {
-        "reach": 300,
+        "reach": 310,
         "saved": 1,
         "shares": 0,
         "likes": 9,
         "comments": 0,
         "total_interactions": 10,
-        "views": 405,
-        "ig_reels_avg_watch_time": 8536,
-        "ig_reels_video_view_total_time": 2646332,
-        "reels_skip_rate": 55.9
+        "views": 415,
+        "ig_reels_avg_watch_time": 8697,
+        "ig_reels_video_view_total_time": 2774601,
+        "reels_skip_rate": 55.6
       },
-      "insightsStand": "2026-11-04T09:46:24.611Z",
-      "insightsAlterStunden": 63.8
+      "insightsStand": "2026-11-05T10:45:35.587Z",
+      "insightsAlterStunden": 88.8
     },
     {
       "datum": "2026-11-01",
@@ -19673,22 +19673,22 @@
         "wer darf?"
       ],
       "insights": {
-        "reach": 41,
-        "views": 53,
+        "reach": 50,
+        "views": 65,
         "shares": 0,
-        "total_interactions": 0,
+        "total_interactions": 1,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 43,
-        "navigation_tap_forward": 30,
+        "navigation": 53,
+        "navigation_tap_forward": 39,
         "navigation_tap_exit": 8,
-        "navigation_swipe_forward": 3,
+        "navigation_swipe_forward": 4,
         "navigation_tap_back": 2
       },
-      "insightsStand": "2026-11-05T05:46:25.432Z",
-      "insightsAlterStunden": 13.7
+      "insightsStand": "2026-11-05T10:45:29.194Z",
+      "insightsAlterStunden": 18.7
     },
     {
       "datum": "2026-11-04",
@@ -19778,22 +19778,22 @@
         "Aufsichtsrat nur daheim?"
       ],
       "insights": {
-        "reach": 38,
-        "views": 45,
+        "reach": 48,
+        "views": 58,
         "shares": 0,
-        "total_interactions": 0,
+        "total_interactions": 1,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 39,
+        "navigation": 53,
         "navigation_swipe_forward": 1,
-        "navigation_tap_exit": 3,
-        "navigation_tap_forward": 32,
-        "navigation_tap_back": 3
+        "navigation_tap_exit": 5,
+        "navigation_tap_forward": 42,
+        "navigation_tap_back": 5
       },
-      "insightsStand": "2026-11-05T05:46:25.432Z",
-      "insightsAlterStunden": 11.8
+      "insightsStand": "2026-11-05T10:45:29.194Z",
+      "insightsAlterStunden": 16.8
     },
     {
       "datum": "2026-11-04",
@@ -19810,22 +19810,22 @@
         "Gleich bist du dran"
       ],
       "insights": {
-        "reach": 38,
-        "views": 43,
+        "reach": 47,
+        "views": 57,
         "shares": 0,
         "total_interactions": 1,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 41,
-        "navigation_tap_back": 2,
+        "navigation": 53,
+        "navigation_swipe_forward": 1,
+        "navigation_tap_forward": 46,
         "navigation_tap_exit": 4,
-        "navigation_tap_forward": 34,
-        "navigation_swipe_forward": 1
+        "navigation_tap_back": 2
       },
-      "insightsStand": "2026-11-05T05:46:25.432Z",
-      "insightsAlterStunden": 11.8
+      "insightsStand": "2026-11-05T10:45:29.194Z",
+      "insightsAlterStunden": 16.7
     },
     {
       "datum": "2026-11-04",
@@ -19842,22 +19842,22 @@
         "pauschal"
       ],
       "insights": {
-        "reach": 36,
-        "views": 44,
+        "reach": 45,
+        "views": 58,
         "shares": 0,
         "total_interactions": 1,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 38,
-        "navigation_swipe_forward": 5,
-        "navigation_tap_exit": 7,
-        "navigation_tap_forward": 23,
-        "navigation_tap_back": 3
+        "navigation": 53,
+        "navigation_tap_back": 6,
+        "navigation_tap_forward": 34,
+        "navigation_tap_exit": 8,
+        "navigation_swipe_forward": 5
       },
-      "insightsStand": "2026-11-05T05:46:25.432Z",
-      "insightsAlterStunden": 11.6
+      "insightsStand": "2026-11-05T10:45:29.194Z",
+      "insightsAlterStunden": 16.6
     },
     {
       "datum": "2026-11-05",
@@ -19939,7 +19939,7 @@
         "#umsatzsteuer"
       ],
       "insights": {
-        "reach": 31,
+        "reach": 51,
         "saved": 2,
         "shares": 0,
         "likes": 2,
@@ -19948,8 +19948,8 @@
         "follows": 0,
         "profile_visits": 0
       },
-      "insightsStand": "2026-11-05T08:45:34.332Z",
-      "insightsAlterStunden": 1.3
+      "insightsStand": "2026-11-05T10:45:35.587Z",
+      "insightsAlterStunden": 3.3
     },
     {
       "datum": "2026-11-05",
