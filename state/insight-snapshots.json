@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "stand": "2026-11-05T05:46:43.677Z",
+  "stand": "2026-11-05T06:47:25.192Z",
   "medien": {
     "18093399314208242": {
       "art": "beitrag",
@@ -52274,6 +52274,18 @@
           "total_interactions": 6,
           "follows": 0,
           "profile_visits": 0
+        },
+        {
+          "stand": "2026-11-05T06:47:23.425Z",
+          "alterStunden": 167.3,
+          "reach": 135,
+          "saved": 3,
+          "shares": 1,
+          "likes": 2,
+          "comments": 0,
+          "total_interactions": 6,
+          "follows": 0,
+          "profile_visits": 0
         }
       ]
     },
@@ -52649,6 +52661,18 @@
           "stand": "2026-11-04T06:09:16.525Z",
           "alterStunden": 137.7,
           "reach": 139,
+          "saved": 2,
+          "shares": 0,
+          "likes": 4,
+          "comments": 0,
+          "total_interactions": 6,
+          "follows": 0,
+          "profile_visits": 1
+        },
+        {
+          "stand": "2026-11-05T06:47:23.425Z",
+          "alterStunden": 162.3,
+          "reach": 141,
           "saved": 2,
           "shares": 0,
           "likes": 4,
@@ -53977,6 +54001,18 @@
           "total_interactions": 12,
           "follows": 0,
           "profile_visits": 2
+        },
+        {
+          "stand": "2026-11-05T06:47:23.425Z",
+          "alterStunden": 143.3,
+          "reach": 226,
+          "saved": 4,
+          "shares": 1,
+          "likes": 8,
+          "comments": 0,
+          "total_interactions": 13,
+          "follows": 0,
+          "profile_visits": 2
         }
       ]
     },
@@ -54341,6 +54377,18 @@
           "stand": "2026-11-04T06:09:16.525Z",
           "alterStunden": 113.7,
           "reach": 142,
+          "saved": 3,
+          "shares": 0,
+          "likes": 6,
+          "comments": 0,
+          "total_interactions": 9,
+          "follows": 0,
+          "profile_visits": 1
+        },
+        {
+          "stand": "2026-11-05T06:47:23.425Z",
+          "alterStunden": 138.3,
+          "reach": 146,
           "saved": 3,
           "shares": 0,
           "likes": 6,
@@ -66040,6 +66088,11 @@
     },
     {
       "stand": "2026-11-05T05:46:43.677Z",
+      "follower": 515,
+      "medien": 190
+    },
+    {
+      "stand": "2026-11-05T06:47:25.192Z",
       "follower": 515,
       "medien": 190
     }
