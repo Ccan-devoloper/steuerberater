@@ -20564,6 +20564,21 @@
       },
       "insightsStand": "2026-11-06T14:47:22.019Z",
       "insightsAlterStunden": 1.1
+    },
+    {
+      "datum": "2026-11-06",
+      "slot": "s8",
+      "medienId": "18119342528085155",
+      "veroeffentlicht": "2026-11-06T16:04:05.608Z",
+      "quelle": "vorproduktion",
+      "art": "story",
+      "storyArt": "tipp",
+      "thema": "bilanz-karte-k3-38",
+      "fach": "bilanz",
+      "titel": [
+        "Fehler aus dem",
+        "Vorjahr?"
+      ]
     }
   ],
   "fachZaehler": {
