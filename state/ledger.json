@@ -20397,7 +20397,7 @@
         "#internationalessteuerrecht"
       ],
       "insights": {
-        "reach": 110,
+        "reach": 117,
         "saved": 4,
         "shares": 1,
         "likes": 4,
@@ -20406,8 +20406,8 @@
         "follows": 0,
         "profile_visits": 0
       },
-      "insightsStand": "2026-11-06T16:30:13.259Z",
-      "insightsAlterStunden": 9
+      "insightsStand": "2026-11-06T19:46:02.065Z",
+      "insightsAlterStunden": 12.3
     },
     {
       "datum": "2026-11-06",
@@ -20622,19 +20622,19 @@
         "#umsatzsteuer"
       ],
       "insights": {
-        "reach": 144,
+        "reach": 209,
         "saved": 1,
         "shares": 0,
-        "likes": 5,
+        "likes": 6,
         "comments": 0,
-        "total_interactions": 6,
-        "views": 203,
-        "ig_reels_avg_watch_time": 8223,
-        "ig_reels_video_view_total_time": 1217012,
-        "reels_skip_rate": 64.3
+        "total_interactions": 7,
+        "views": 300,
+        "ig_reels_avg_watch_time": 10357,
+        "ig_reels_video_view_total_time": 2237194,
+        "reels_skip_rate": 60.9
       },
-      "insightsStand": "2026-11-06T18:00:54.895Z",
-      "insightsAlterStunden": 1.5
+      "insightsStand": "2026-11-06T19:46:02.065Z",
+      "insightsAlterStunden": 3.3
     },
     {
       "datum": "2026-11-06",
@@ -20686,7 +20686,22 @@
       "fach": "ust",
       "titel": [
         "Café verkauft: Umsatzsteuer?"
-      ]
+      ],
+      "insights": {
+        "reach": 14,
+        "views": 20,
+        "shares": 0,
+        "total_interactions": 0,
+        "replies": 0,
+        "follows": 0,
+        "profile_visits": 0,
+        "profile_activity": 0,
+        "navigation": 12,
+        "navigation_tap_exit": 2,
+        "navigation_tap_forward": 10
+      },
+      "insightsStand": "2026-11-06T19:45:58.856Z",
+      "insightsAlterStunden": 1.8
     },
     {
       "datum": "2026-11-06",
@@ -20701,7 +20716,22 @@
       "titel": [
         "Dieser eine Satz",
         "rettet deine Runde"
-      ]
+      ],
+      "insights": {
+        "reach": 13,
+        "views": 20,
+        "shares": 0,
+        "total_interactions": 0,
+        "replies": 0,
+        "follows": 0,
+        "profile_visits": 0,
+        "profile_activity": 0,
+        "navigation": 11,
+        "navigation_tap_forward": 8,
+        "navigation_tap_exit": 3
+      },
+      "insightsStand": "2026-11-06T19:45:58.856Z",
+      "insightsAlterStunden": 1.8
     },
     {
       "datum": "2026-11-06",

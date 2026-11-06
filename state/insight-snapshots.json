@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "stand": "2026-11-06T18:54:12.237Z",
+  "stand": "2026-11-06T19:46:04.081Z",
   "medien": {
     "18093399314208242": {
       "art": "beitrag",
@@ -65373,6 +65373,18 @@
           "total_interactions": 9,
           "follows": 0,
           "profile_visits": 0
+        },
+        {
+          "stand": "2026-11-06T19:46:02.065Z",
+          "alterStunden": 12.3,
+          "reach": 117,
+          "saved": 4,
+          "shares": 1,
+          "likes": 4,
+          "comments": 0,
+          "total_interactions": 9,
+          "follows": 0,
+          "profile_visits": 0
         }
       ]
     },
@@ -65608,6 +65620,20 @@
           "ig_reels_avg_watch_time": 8223,
           "ig_reels_video_view_total_time": 1217012,
           "reels_skip_rate": 64.3
+        },
+        {
+          "stand": "2026-11-06T19:46:02.065Z",
+          "alterStunden": 3.3,
+          "reach": 209,
+          "saved": 1,
+          "shares": 0,
+          "likes": 6,
+          "comments": 0,
+          "total_interactions": 7,
+          "views": 300,
+          "ig_reels_avg_watch_time": 10357,
+          "ig_reels_video_view_total_time": 2237194,
+          "reels_skip_rate": 60.9
         }
       ]
     },
@@ -65634,6 +65660,65 @@
           "ig_reels_avg_watch_time": 4152,
           "ig_reels_video_view_total_time": 199302,
           "reels_skip_rate": 33.6
+        }
+      ]
+    },
+    "17881048944631408": {
+      "art": "story",
+      "datum": "2026-11-06",
+      "titel": [
+        "Café verkauft: Umsatzsteuer?"
+      ],
+      "format": null,
+      "fach": "ust",
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-11-06T18:00:30.151Z",
+      "snapshots": [
+        {
+          "stand": "2026-11-06T19:45:58.856Z",
+          "alterStunden": 1.8,
+          "reach": 14,
+          "views": 20,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 12,
+          "navigation_tap_exit": 2,
+          "navigation_tap_forward": 10
+        }
+      ]
+    },
+    "18098325869482339": {
+      "art": "story",
+      "datum": "2026-11-06",
+      "titel": [
+        "Dieser eine Satz",
+        "rettet deine Runde"
+      ],
+      "format": null,
+      "fach": null,
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-11-06T18:00:48.159Z",
+      "snapshots": [
+        {
+          "stand": "2026-11-06T19:45:58.856Z",
+          "alterStunden": 1.8,
+          "reach": 13,
+          "views": 20,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 11,
+          "navigation_tap_forward": 8,
+          "navigation_tap_exit": 3
         }
       ]
     }
@@ -69061,6 +69146,11 @@
     },
     {
       "stand": "2026-11-06T18:54:12.237Z",
+      "follower": 530,
+      "medien": 198
+    },
+    {
+      "stand": "2026-11-06T19:46:04.081Z",
       "follower": 530,
       "medien": 198
     }
