@@ -20437,6 +20437,21 @@
       },
       "insightsStand": "2026-11-06T08:45:33.335Z",
       "insightsAlterStunden": 1.3
+    },
+    {
+      "datum": "2026-11-06",
+      "slot": "s6",
+      "medienId": "18096861239467414",
+      "veroeffentlicht": "2026-11-06T11:14:04.902Z",
+      "quelle": "vorproduktion",
+      "art": "story",
+      "storyArt": "norm",
+      "thema": "istr-aufb-istr-gh-6-02",
+      "fach": "istr",
+      "titel": [
+        "Hinzurechnung",
+        "nach dem AStG?"
+      ]
     }
   ],
   "fachZaehler": {
