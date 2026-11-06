@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "stand": "2026-11-06T07:46:09.432Z",
+  "stand": "2026-11-06T08:45:37.568Z",
   "medien": {
     "18093399314208242": {
       "art": "beitrag",
@@ -64125,6 +64125,23 @@
           "navigation_swipe_forward": 4,
           "navigation_tap_forward": 38,
           "navigation_tap_exit": 7
+        },
+        {
+          "stand": "2026-11-06T08:45:33.335Z",
+          "alterStunden": 20.3,
+          "reach": 51,
+          "views": 67,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 2,
+          "profile_activity": 0,
+          "navigation": 64,
+          "navigation_tap_exit": 7,
+          "navigation_tap_forward": 44,
+          "navigation_swipe_forward": 5,
+          "navigation_tap_back": 8
         }
       ]
     },
@@ -64609,6 +64626,61 @@
           "navigation_tap_forward": 8,
           "navigation_tap_back": 4,
           "navigation_tap_exit": 1
+        }
+      ]
+    },
+    "18011833973779295": {
+      "art": "story",
+      "datum": "2026-11-06",
+      "titel": [
+        "Mietverlust aus Brasilien"
+      ],
+      "format": null,
+      "fach": "istr",
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-11-06T07:30:22.007Z",
+      "snapshots": [
+        {
+          "stand": "2026-11-06T08:45:33.335Z",
+          "alterStunden": 1.3,
+          "reach": 11,
+          "views": 15,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 14,
+          "navigation_tap_exit": 3,
+          "navigation_tap_back": 2,
+          "navigation_tap_forward": 8,
+          "navigation_swipe_forward": 1
+        }
+      ]
+    },
+    "18025647749712493": {
+      "art": "beitrag",
+      "datum": "2026-11-06",
+      "titel": "Mini-Fall",
+      "format": "minifall",
+      "fach": "istr",
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-11-06T07:30:06.602Z",
+      "snapshots": [
+        {
+          "stand": "2026-11-06T08:45:36.344Z",
+          "alterStunden": 1.3,
+          "reach": 45,
+          "saved": 0,
+          "shares": 1,
+          "likes": 4,
+          "comments": 0,
+          "total_interactions": 5,
+          "follows": 0,
+          "profile_visits": 0
         }
       ]
     }
@@ -67987,6 +68059,11 @@
     {
       "stand": "2026-11-06T07:46:09.432Z",
       "follower": 523,
+      "medien": 195
+    },
+    {
+      "stand": "2026-11-06T08:45:37.568Z",
+      "follower": 524,
       "medien": 195
     }
   ]
