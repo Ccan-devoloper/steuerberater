@@ -20361,6 +20361,20 @@
         "#examensvorbereitung",
         "#internationalessteuerrecht"
       ]
+    },
+    {
+      "datum": "2026-11-06",
+      "slot": "s1",
+      "medienId": "18011833973779295",
+      "veroeffentlicht": "2026-11-06T07:30:22.007Z",
+      "quelle": "vorproduktion",
+      "art": "story",
+      "storyArt": "teaser",
+      "thema": null,
+      "fach": "istr",
+      "titel": [
+        "Mietverlust aus Brasilien"
+      ]
     }
   ],
   "fachZaehler": {
