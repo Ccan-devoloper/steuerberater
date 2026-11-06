@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "stand": "2026-11-06T19:46:04.081Z",
+  "stand": "2026-11-06T20:06:19.318Z",
   "medien": {
     "18093399314208242": {
       "art": "beitrag",
@@ -65182,6 +65182,23 @@
           "navigation_tap_forward": 36,
           "navigation_tap_exit": 2,
           "navigation_swipe_forward": 2
+        },
+        {
+          "stand": "2026-11-06T20:06:19.318Z",
+          "alterStunden": 14,
+          "reach": 46,
+          "views": 61,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 56,
+          "navigation_tap_back": 2,
+          "navigation_tap_forward": 46,
+          "navigation_tap_exit": 3,
+          "navigation_swipe_forward": 5
         }
       ]
     },
@@ -65248,6 +65265,23 @@
           "navigation_tap_forward": 29,
           "navigation_tap_back": 8,
           "navigation_tap_exit": 5
+        },
+        {
+          "stand": "2026-11-06T20:06:19.318Z",
+          "alterStunden": 14,
+          "reach": 41,
+          "views": 59,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 55,
+          "navigation_swipe_forward": 1,
+          "navigation_tap_forward": 37,
+          "navigation_tap_back": 9,
+          "navigation_tap_exit": 8
         }
       ]
     },
@@ -65719,6 +65753,38 @@
           "navigation": 11,
           "navigation_tap_forward": 8,
           "navigation_tap_exit": 3
+        }
+      ]
+    },
+    "18101305604540201": {
+      "art": "story",
+      "datum": "2026-11-06",
+      "titel": [
+        "Prüfung begonnen,",
+        "dann Pause?"
+      ],
+      "format": null,
+      "fach": "ao",
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-11-06T18:54:06.760Z",
+      "snapshots": [
+        {
+          "stand": "2026-11-06T20:06:19.318Z",
+          "alterStunden": 1.2,
+          "reach": 13,
+          "views": 22,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 18,
+          "navigation_swipe_forward": 1,
+          "navigation_tap_back": 3,
+          "navigation_tap_exit": 3,
+          "navigation_tap_forward": 11
         }
       ]
     }
