@@ -17759,7 +17759,7 @@
         "#personengesellschaften"
       ],
       "insights": {
-        "reach": 177,
+        "reach": 184,
         "saved": 4,
         "shares": 0,
         "likes": 5,
@@ -17768,8 +17768,8 @@
         "follows": 1,
         "profile_visits": 2
       },
-      "insightsStand": "2026-11-05T07:45:44.129Z",
-      "insightsAlterStunden": 115.3
+      "insightsStand": "2026-11-06T07:46:08.917Z",
+      "insightsAlterStunden": 139.3
     },
     {
       "datum": "2026-10-31",
@@ -20000,21 +20000,21 @@
         "steuerfrei?"
       ],
       "insights": {
-        "reach": 46,
-        "views": 56,
+        "reach": 51,
+        "views": 61,
         "shares": 0,
         "total_interactions": 1,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 52,
+        "navigation": 56,
         "navigation_tap_back": 2,
-        "navigation_tap_exit": 9,
-        "navigation_tap_forward": 41
+        "navigation_tap_exit": 10,
+        "navigation_tap_forward": 44
       },
-      "insightsStand": "2026-11-06T05:45:58.370Z",
-      "insightsAlterStunden": 18.5
+      "insightsStand": "2026-11-06T07:46:07.544Z",
+      "insightsAlterStunden": 20.5
     },
     {
       "datum": "2026-11-05",
