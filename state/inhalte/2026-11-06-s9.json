@@ -1,0 +1,78 @@
+{
+  "slot": "s9",
+  "art": "merksatz",
+  "fach": "ao",
+  "klausur": 1,
+  "fachLabel": "Abgabenordnung",
+  "themaId": "ao-modul-ao-336",
+  "beitragSlot": null,
+  "quellen": null,
+  "titel": [
+    "Prüfung begonnen,",
+    "dann Pause?"
+  ],
+  "zeilen": [
+    [
+      [
+        "Pause über ",
+        null
+      ],
+      [
+        "6 Monate",
+        "a"
+      ]
+    ],
+    [
+      [
+        "direkt nach ",
+        null
+      ],
+      [
+        "Beginn",
+        "b"
+      ],
+      [
+        ",",
+        null
+      ]
+    ],
+    [
+      [
+        "vom ",
+        null
+      ],
+      [
+        "Finanzamt",
+        "c"
+      ],
+      [
+        " verursacht:",
+        null
+      ]
+    ],
+    [
+      [
+        "keine Hemmung.",
+        null
+      ]
+    ]
+  ],
+  "norm": "§ 171 Abs. 4 S. 2 AO",
+  "sichtbareTexte": [
+    "Abgabenordnung",
+    "Merksatz",
+    "Prüfung begonnen,",
+    "dann Pause?",
+    "Pause über 6 Monate",
+    "direkt nach Beginn,",
+    "vom Finanzamt verursacht:",
+    "keine Hemmung.",
+    "§ 171 Abs. 4 S. 2 AO"
+  ],
+  "renderer": "open-peeps-v4",
+  "bildStatus": "open-peeps-render",
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "liveVorrangAktiv": true,
+  "regelGeprueft": true
+}

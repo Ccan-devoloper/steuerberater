@@ -1,0 +1,62 @@
+{
+  "format": "reel",
+  "fach": "ust",
+  "klausur": 1,
+  "fachLabel": "Umsatzsteuer",
+  "themaId": "ust-aufb-ust-m-b06-17",
+  "caption": "Café verkauft: Warum bei der Geschäftsveräußerung im Ganzen keine Umsatzsteuer anfällt. ☕\n\n▸ Rechnung: Inventar einzeln für 50.000 € netto verkauft = 9.500 € Umsatzsteuer (19 %). Ganzes Café: 0 €.\n▸ Wird das Geschäft im Ganzen an einen Unternehmer für dessen Unternehmen veräußert, ist der Vorgang nicht steuerbar (§ 1 Abs. 1a S. 1 UStG).\n▸ Geschäftsveräußerung: Ein Unternehmen oder gesondert geführter Betrieb wird im Ganzen entgeltlich oder unentgeltlich übereignet oder eingebracht (§ 1 Abs. 1a S. 2 UStG). Entscheidend ist, ob der Erwerber die Tätigkeit fortführen kann; gemietete Räume können über die Übernahme des Mietvertrags genügen (Abschn. 1.5 UStAE).\n▸ Umsatzsteuerlich übernimmt der Käufer die Position des Verkäufers (§ 1 Abs. 1a S. 3 UStG); der Berichtigungszeitraum nach § 15a UStG läuft weiter (§ 15a Abs. 10 UStG).\n▸ Zurückbehaltene Gegenstände, die später verkauft oder entnommen werden, sind gesondert steuerbar.\n\nSpeichern für Klausur 1 📌",
+  "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#umsatzsteuer"
+  ],
+  "quellen": [
+    "§ 1 Abs. 1a S. 1 bis 3 UStG",
+    "§ 15a Abs. 10 UStG",
+    "§ 12 Abs. 1 UStG",
+    "Abschn. 1.5 UStAE"
+  ],
+  "slug": "2026-11-06-b3",
+  "kurztitel": "Ganzes Unternehmen übertragen: Warum keine Umsatzsteuer anfällt",
+  "regelGeprueft": true,
+  "manuellGeprueft": false,
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "textProviderKostenUsd": 0,
+  "faktencheckProviderKostenUsd": 0,
+  "bildStatus": "open-peeps-render",
+  "renderer": "open-peeps-v4",
+  "liveVorrangAktiv": true,
+  "bild": "op-cover",
+  "reelTyp": "rechnung",
+  "hookStil": "split",
+  "coverBadge": "Reel",
+  "szenen": [
+    {
+      "art": "hook",
+      "titel": "Café verkauft: Umsatzsteuer?"
+    },
+    {
+      "art": "schritt",
+      "titel": "Alles geht über"
+    },
+    {
+      "art": "schritt",
+      "titel": "Nicht steuerbar"
+    },
+    {
+      "art": "schritt",
+      "titel": "Die Folgen"
+    }
+  ],
+  "sprecher": [
+    "Café-Inventar einzeln verkauft: neuntausendfünfhundert Euro Umsatzsteuer. Das ganze Café: null.",
+    "Lia verkauft ihr Café samt Inventar, Küche und Mietvertrag an einen Gastronomen. Er führt es ohne neue Investitionen fort.",
+    "Das ist eine Geschäftsveräußerung im Ganzen. Die Umsätze sind nicht steuerbar, sogar bei Schenkung.",
+    "Der Käufer tritt an Lias Stelle, etwa bei der Vorsteuerberichtigung. Was Lia behält und später verkauft, bleibt steuerbar.",
+    "Merke: Ganzes Unternehmen, fortführbar, keine Umsatzsteuer."
+  ],
+  "dauerS": 37.473,
+  "tempo": 1
+}

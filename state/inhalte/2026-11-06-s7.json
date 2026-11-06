@@ -1,0 +1,48 @@
+{
+  "slot": "s7",
+  "art": "tipp",
+  "fach": null,
+  "klausur": 0,
+  "fachLabel": "Klausurtechnik",
+  "themaId": null,
+  "beitragSlot": null,
+  "quellen": null,
+  "titel": [
+    "Erst skizzieren,",
+    "dann schreiben"
+  ],
+  "punkte": [
+    [
+      "Je Teilaufgabe eine Gliederung in Stichworten.",
+      "ok",
+      null
+    ],
+    [
+      "Die Normen gleich dazuschreiben.",
+      "ok",
+      null
+    ],
+    [
+      "Dann zügig ausformulieren, ohne Umwege.",
+      "ok",
+      null
+    ]
+  ],
+  "icon": "tabler:pencil",
+  "iconFarbe": "GELB",
+  "sichtbareTexte": [
+    "Klausurtechnik",
+    "Klausurtipp",
+    "Erst skizzieren,",
+    "dann schreiben",
+    "Je Teilaufgabe eine Gliederung in Stichworten.",
+    "Die Normen gleich dazuschreiben.",
+    "Dann zügig ausformulieren, ohne Umwege."
+  ],
+  "renderer": "open-peeps-v4",
+  "bildStatus": "open-peeps-render",
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "liveVorrangAktiv": true,
+  "regelGeprueft": true
+}

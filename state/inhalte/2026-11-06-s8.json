@@ -1,0 +1,49 @@
+{
+  "slot": "s8",
+  "art": "tipp",
+  "fach": "bilanz",
+  "klausur": 3,
+  "fachLabel": "Bilanzsteuerrecht",
+  "themaId": "bilanz-karte-k3-38",
+  "beitragSlot": null,
+  "quellen": null,
+  "titel": [
+    "Fehler aus dem",
+    "Vorjahr?"
+  ],
+  "punkte": [
+    [
+      "Vorjahr offen: dort berichtigen, 1.1. neutral über Kapital.",
+      "ok",
+      null
+    ],
+    [
+      "Handelsbilanz: laufendes Jahr, über die GuV.",
+      "ok",
+      null
+    ],
+    [
+      "Sonst: erfolgswirksam im ersten offenen Jahr.",
+      "warn",
+      "R 4.4 Abs. 1 EStR"
+    ]
+  ],
+  "icon": "tabler:history",
+  "iconFarbe": "GELB",
+  "sichtbareTexte": [
+    "Bilanzsteuerrecht",
+    "Klausurtipp",
+    "Fehler aus dem",
+    "Vorjahr?",
+    "Vorjahr offen: dort berichtigen, 1.1. neutral über Kapital.",
+    "Handelsbilanz: laufendes Jahr, über die GuV.",
+    "Sonst: erfolgswirksam im ersten offenen Jahr.",
+    "R 4.4 Abs. 1 EStR"
+  ],
+  "renderer": "open-peeps-v4",
+  "bildStatus": "open-peeps-render",
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "liveVorrangAktiv": true,
+  "regelGeprueft": true
+}

@@ -1,0 +1,80 @@
+{
+  "format": "minifall",
+  "fach": "istr",
+  "klausur": 2,
+  "fachLabel": "Internationales Steuerrecht",
+  "themaId": "istr-aufb-istr-gh-5-01",
+  "caption": "Mini-Fall: Darf Yara den Mietverlust aus Brasilien mit ihrem Gehalt verrechnen?\n\nFall: Yara wohnt in Köln, Gehalt 2026: 80.000 €. Aus einer vermieteten Wohnung in Brasilien erzielt sie 2026 einen Verlust von 12.000 €. Ein DBA besteht nicht.\n\n▸ Als unbeschränkt Steuerpflichtige erfasst Deutschland grundsätzlich ihr Welteinkommen (§ 1 Abs. 1, § 2 Abs. 1 EStG).\n▸ Brasilien ist weder EU- noch EWR-Staat und damit Drittstaat (§ 2a Abs. 2a S. 1 Nr. 1, S. 2 EStG).\n▸ Negative Einkünfte aus der Vermietung von unbeweglichem Vermögen in einem Drittstaat dürfen nur mit positiven Einkünften der jeweils selben Art aus demselben Staat ausgeglichen werden, auch kein Verlustabzug nach § 10d (§ 2a Abs. 1 S. 1 Nr. 6 Buchst. a EStG).\n▸ Nicht ausgeglichene Verluste mindern spätere positive Einkünfte derselben Art aus demselben Staat (§ 2a Abs. 1 S. 3 EStG) und werden gesondert festgestellt (§ 2a Abs. 1 S. 5 EStG).\n▸ Gegenprobe: Für Wohnungen in EU- oder EWR-Staaten gilt § 2a nicht; bei gewerblichen Drittstaaten-Betriebsstätten hilft die Aktivitätsklausel (§ 2a Abs. 2 S. 1 EStG).\n\nZum Schluss: § 2a Abs. 1, 2a EStG zum Markieren. Speichern für Klausur 2 📌",
+  "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#internationalessteuerrecht"
+  ],
+  "quellen": [
+    "§ 1 Abs. 1, § 2 Abs. 1 EStG",
+    "§ 2a Abs. 1 S. 1 Nr. 6 Buchst. a, S. 3, 5 EStG",
+    "§ 2a Abs. 2 S. 1 EStG",
+    "§ 2a Abs. 2a EStG"
+  ],
+  "slug": "2026-11-06-b1",
+  "kurztitel": "Drittstaatenverluste: Warum § 2a EStG den Ausgleich sperrt",
+  "regelGeprueft": true,
+  "manuellGeprueft": false,
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "textProviderKostenUsd": 0,
+  "faktencheckProviderKostenUsd": 0,
+  "bildStatus": "open-peeps-render",
+  "renderer": "open-peeps-v4",
+  "liveVorrangAktiv": true,
+  "coverBadge": "Mini-Fall",
+  "folien": [
+    {
+      "art": "titel",
+      "titel": "Mini-Fall",
+      "text": "Mini-Fall · Mietverlust · aus Brasilien · § 2a Abs. 1 EStG · mit Lösung · + Markier-Guide § 2a EStG · Mietverlust · − 12.000 € · verrechenbar?",
+      "bild": "op-cover"
+    },
+    {
+      "art": "text",
+      "titel": "Internationales Steuerrecht",
+      "text": "Der Fall · Yara wohnt in Köln und verdient 2026 als Angestellte 80.000 €. · Sie vermietet eine Wohnung in Brasilien: 2026 ein Verlust von 12.000 €. · Ein DBA mit Brasilien gibt es nicht. · Ich bin Yara."
+    },
+    {
+      "art": "text",
+      "titel": "Internationales Steuerrecht",
+      "text": "Die Frage · Darf Yara den Verlust aus Brasilien mit ihrem Gehalt verrechnen? · Erst selbst überlegen, dann weiterwischen. · Weltweit ist weltweit, oder?"
+    },
+    {
+      "art": "text",
+      "titel": "Internationales Steuerrecht",
+      "text": "Schritt 1: Drittstaat? · Yara ist unbeschränkt steuerpflichtig: Auch Auslandseinkünfte zählen. · § 1 Abs. 1, § 2 Abs. 1 EStG · Brasilien ist weder EU- noch EWR-Staat: Drittstaat. · § 2a Abs. 2a S. 1 Nr. 1 EStG · Ein Haken?"
+    },
+    {
+      "art": "text",
+      "titel": "Internationales Steuerrecht",
+      "text": "Lösung · Vermietungsverlust aus einem Drittstaat: kein Ausgleich mit dem Gehalt. · § 2a Abs. 1 S. 1 Nr. 6 Buchst. a EStG · Nur mit späteren Mietgewinnen derselben Art aus Brasilien. · § 2a Abs. 1 S. 3 EStG · Der Rest wird gesondert festgestellt. · § 2a Abs. 1 S. 5 EStG · Nicht mit dem Gehalt?"
+    },
+    {
+      "art": "text",
+      "titel": "Internationales Steuerrecht",
+      "text": "Ergebnis 2026 · § 2a Abs. 1 EStG · Einkünfte aus dem Gehalt · 80.000 € · Verlust Brasilien · ± 0 € · Summe der Einkünfte · 80.000 € · Festgestellt für später · 12.000 € · Vereinfacht, ohne Werbungskosten"
+    },
+    {
+      "art": "text",
+      "titel": "Internationales Steuerrecht",
+      "text": "Gegenprobe · Läge die Wohnung in einem EU- oder EWR-Staat, griffe § 2a nicht. · § 2a Abs. 2a EStG · Gewerbliche Betriebsstätte im Drittstaat: Ausnahme bei aktiver Tätigkeit. · § 2a Abs. 2 S. 1 EStG · Erst den Staat prüfen!"
+    },
+    {
+      "art": "text",
+      "titel": "Internationales Steuerrecht",
+      "text": "Yara: 12.000 € Verlust bleiben im Brasilien-Topf · Ausgleich nur mit späteren Mietgewinnen von dort · Drittstaat und passiv: · gleiche Art, · gleicher Staat, · sonst Vortrag. · Speichern für Klausur 2 · Prüfst du EU, EWR, Drittstaat? · Weiterwischen: § 2a EStG markiert"
+    },
+    {
+      "art": "text",
+      "titel": "Internationales Steuerrecht",
+      "text": "§ 2a EStG (Auszug) · Tatbestand · Art · Staat · Vortrag · Brasilien · Yara: 12.000 € im Brasilien-Topf · nur gegen spätere Mieten von dort"
+    }
+  ]
+}

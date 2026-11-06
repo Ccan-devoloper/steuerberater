@@ -1,0 +1,82 @@
+{
+  "format": "kurzvortrag",
+  "fach": "umwst",
+  "klausur": 3,
+  "fachLabel": "Umwandlungssteuerrecht",
+  "themaId": "umwst-aufb-umw-ks-4-02",
+  "caption": "Kurzvortrag für die mündliche Prüfung: Wann darf die übertragende GmbH bei der Verschmelzung Buchwerte ansetzen? So füllst du zehn Minuten.\n\n1. Einstieg (1 Min.): Bei der Verschmelzung auf eine andere Körperschaft erstellt die Übertragerin eine steuerliche Schlussbilanz (§ 11 Abs. 1 UmwStG).\n2. Grundsatz (2 Min.): alle übergehenden Wirtschaftsgüter zum gemeinen Wert, auch nicht entgeltlich erworbene oder selbst geschaffene immaterielle Wirtschaftsgüter; Pensionsrückstellungen nach § 6a EStG (§ 11 Abs. 1 S. 1, 2 UmwStG).\n3. Buchwert auf Antrag (4 Min.): einheitlich Buch- oder Zwischenwert, soweit die spätere Besteuerung mit Körperschaftsteuer gesichert ist, das deutsche Besteuerungsrecht nicht ausgeschlossen oder beschränkt wird und keine Gegenleistung oder nur Gesellschaftsrechte gewährt werden (§ 11 Abs. 2 S. 1 Nr. 1 bis 3 UmwStG).\n4. Antrag und Folgen (2 Min.): Antrag spätestens bis zur erstmaligen Abgabe der steuerlichen Schlussbilanz (§ 11 Abs. 3 i. V. m. § 3 Abs. 2 S. 2 UmwStG). Ein Übertragungsgewinn unterliegt der Körperschaftsteuer und über § 19 Abs. 1 UmwStG der Gewerbesteuer. Verlustvorträge der Übertragerin gehen nicht über (§ 12 Abs. 3 i. V. m. § 4 Abs. 2 S. 2 UmwStG).\n5. Fazit (1 Min.): Gemeiner Wert ist Grundsatz, Buchwert die Ausnahme auf Antrag.\n\nTypische Nachfragen: bare Zuzahlung (insoweit Aufdeckung), Zwischenwert zur Nutzung eigener Verlustvorträge.\n\nZum Schluss: § 11 Abs. 2 UmwStG zum Markieren. Speichern für Klausur 3 📌",
+  "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#umwandlungssteuerrecht"
+  ],
+  "quellen": [
+    "§ 11 Abs. 1, 2, 3 UmwStG",
+    "§ 3 Abs. 2 S. 2 UmwStG",
+    "§ 12 Abs. 3 UmwStG",
+    "§ 4 Abs. 2 S. 2 UmwStG",
+    "§ 19 Abs. 1 UmwStG",
+    "§ 6a EStG"
+  ],
+  "slug": "2026-11-06-b2",
+  "kurztitel": "Wann darf die übertragende GmbH bei Verschmelzung Buchwerte ansetzen?",
+  "regelGeprueft": true,
+  "manuellGeprueft": false,
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "textProviderKostenUsd": 0,
+  "faktencheckProviderKostenUsd": 0,
+  "bildStatus": "open-peeps-render",
+  "renderer": "open-peeps-v4",
+  "liveVorrangAktiv": true,
+  "coverBadge": "Kurzvortrag",
+  "folien": [
+    {
+      "art": "titel",
+      "titel": "Kurzvortrag",
+      "text": "Kurzvortrag · Verschmelzung: · Buchwert erlaubt? · § 11 UmwStG · 10 Minuten · + Markier-Guide § 11 UmwStG",
+      "bild": "op-cover"
+    },
+    {
+      "art": "text",
+      "titel": "Umwandlungssteuerrecht",
+      "text": "Gliederung für 10 Minuten · Einstieg · 1 Minute · § 11 Abs. 1 UmwStG · Grundsatz · 2 Minuten · § 11 Abs. 1 UmwStG · Buchwert auf Antrag · 4 Minuten · § 11 Abs. 2 S. 1 UmwStG · Antrag und Folgen · 2 Minuten · § 11 Abs. 3, §§ 12, 19 UmwStG · Fazit · 1 Minute · Am Ende: § 11 UmwStG markiert"
+    },
+    {
+      "art": "text",
+      "titel": "Umwandlungssteuerrecht",
+      "text": "Einstieg · Zwei Kapitalgesellschaften verschmelzen: Die übertragende erstellt eine steuerliche Schlussbilanz. · § 11 Abs. 1 UmwStG · Ihre Werte entscheiden, ob ein Übertragungsgewinn entsteht. · Ich bin Neele und starte so."
+    },
+    {
+      "art": "text",
+      "titel": "Umwandlungssteuerrecht",
+      "text": "Grundsatz: gemeiner Wert · Alle übergehenden Wirtschaftsgüter mit dem gemeinen Wert, auch selbst geschaffene immaterielle. · § 11 Abs. 1 S. 1 UmwStG · Ausnahme: Pensionsrückstellungen nach § 6a EStG. · § 11 Abs. 1 S. 2 UmwStG · Erst der Grundsatz."
+    },
+    {
+      "art": "text",
+      "titel": "Umwandlungssteuerrecht",
+      "text": "Buchwert auf Antrag · Spätere Körperschaftsteuer bei der Übernehmerin gesichert. · § 11 Abs. 2 S. 1 Nr. 1 UmwStG · Deutsches Besteuerungsrecht bleibt erhalten. · § 11 Abs. 2 S. 1 Nr. 2 UmwStG · Keine Gegenleistung oder nur Gesellschaftsrechte. · § 11 Abs. 2 S. 1 Nr. 3 UmwStG · Einheitlich für alle Wirtschaftsgüter · Alle drei nötig!"
+    },
+    {
+      "art": "text",
+      "titel": "Umwandlungssteuerrecht",
+      "text": "Antrag und Folgen · Antrag spätestens mit der ersten Abgabe der steuerlichen Schlussbilanz. · § 11 Abs. 3 i. V. m. § 3 Abs. 2 S. 2 UmwStG · Übertragungsgewinn: Körperschaft- und Gewerbesteuer. · § 19 Abs. 1 UmwStG · Verlustvorträge der Übertragerin gehen nicht über. · § 12 Abs. 3 i. V. m. § 4 Abs. 2 S. 2 UmwStG · Frist nicht verpassen!"
+    },
+    {
+      "art": "text",
+      "titel": "Umwandlungssteuerrecht",
+      "text": "Typische Nachfragen · Bare Zuzahlung an die Gesellschafter? · Insoweit kein Buchwert, stille Reserven werden anteilig aufgedeckt. · § 11 Abs. 2 S. 1 Nr. 3 UmwStG · Warum ein Zwischenwert? · Damit eigene Verlustvorträge noch genutzt werden. · § 12 Abs. 3 UmwStG · Kalle, Kommission: Und dann?"
+    },
+    {
+      "art": "text",
+      "titel": "Umwandlungssteuerrecht",
+      "text": "Fazit in einem Satz · Gemeiner Wert ist Grundsatz, Buchwert nur auf Antrag · KSt gesichert, · Recht Deutschlands bleibt, · Gegenleistung: Anteile, · rechtzeitig Antrag. · Speichern für Klausur 3 · Hältst du die 10 Minuten? · Weiterwischen: § 11 UmwStG markiert"
+    },
+    {
+      "art": "text",
+      "titel": "Umwandlungssteuerrecht",
+      "text": "§ 11 UmwStG (Auszug) · Frist! · alle WG gleich · Wahl · Nr. 1 · Nr. 3 · Antragsfrist: § 3 Abs. 2 S. 2 UmwStG · gilt über § 11 Abs. 3 UmwStG entsprechend"
+    }
+  ]
+}

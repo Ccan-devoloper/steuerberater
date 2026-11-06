@@ -1,0 +1,44 @@
+{
+  "slot": "s6",
+  "art": "norm",
+  "fach": "istr",
+  "klausur": 2,
+  "fachLabel": "Internationales Steuerrecht",
+  "themaId": "istr-aufb-istr-gh-6-02",
+  "beitragSlot": null,
+  "quellen": null,
+  "titel": [
+    "Hinzurechnung",
+    "nach dem AStG?"
+  ],
+  "norm": "§ 7 Abs. 1 AStG",
+  "punkte": [
+    [
+      "Ein Inländer beherrscht die Auslandsgesellschaft: mehr als die Hälfte.",
+      "ok",
+      "§ 7 Abs. 2 AStG"
+    ],
+    [
+      "Passive Einkünfte, belastet mit weniger als 15 %.",
+      "warn",
+      "§ 8 Abs. 1, 5 AStG"
+    ]
+  ],
+  "sichtbareTexte": [
+    "Internationales Steuerrecht",
+    "Norm des Tages",
+    "Hinzurechnung",
+    "nach dem AStG?",
+    "§ 7 Abs. 1 AStG",
+    "Ein Inländer beherrscht die Auslandsgesellschaft: mehr als die Hälfte.",
+    "§ 7 Abs. 2 AStG",
+    "Passive Einkünfte, belastet mit weniger als 15 %.",
+    "§ 8 Abs. 1, 5 AStG"
+  ],
+  "renderer": "open-peeps-v4",
+  "bildStatus": "open-peeps-render",
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "liveVorrangAktiv": true,
+  "regelGeprueft": true
+}

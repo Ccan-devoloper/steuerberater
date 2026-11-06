@@ -1,0 +1,36 @@
+{
+  "slot": "s4",
+  "art": "frage",
+  "fach": "ust",
+  "klausur": 1,
+  "fachLabel": "Umsatzsteuer",
+  "themaId": "ust-quiz-ust-9",
+  "beitragSlot": null,
+  "quellen": null,
+  "frage": [
+    "Ganzes Unternehmen",
+    "verkauft: USt?"
+  ],
+  "optionen": [
+    "Steuerbar und steuerpflichtig",
+    "Steuerbar, aber steuerfrei",
+    "Nicht steuerbar"
+  ],
+  "pairId": "ust-quiz-ust-9",
+  "sichtbareTexte": [
+    "Umsatzsteuer",
+    "Prüfungsfrage",
+    "Ganzes Unternehmen",
+    "verkauft: USt?",
+    "Steuerbar und steuerpflichtig",
+    "Steuerbar, aber steuerfrei",
+    "Nicht steuerbar",
+    "Auflösung in der nächsten Story"
+  ],
+  "renderer": "open-peeps-v4",
+  "bildStatus": "open-peeps-render",
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "liveVorrangAktiv": true,
+  "regelGeprueft": true
+}
