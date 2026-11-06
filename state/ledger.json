@@ -20685,6 +20685,21 @@
         "Dieser eine Satz",
         "rettet deine Runde"
       ]
+    },
+    {
+      "datum": "2026-11-06",
+      "slot": "s9",
+      "medienId": "18101305604540201",
+      "veroeffentlicht": "2026-11-06T18:54:06.760Z",
+      "quelle": "vorproduktion",
+      "art": "story",
+      "storyArt": "merksatz",
+      "thema": "ao-modul-ao-336",
+      "fach": "ao",
+      "titel": [
+        "Prüfung begonnen,",
+        "dann Pause?"
+      ]
     }
   ],
   "fachZaehler": {
