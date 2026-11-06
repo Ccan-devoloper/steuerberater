@@ -20660,19 +20660,19 @@
         "#steuerberater"
       ],
       "insights": {
-        "reach": 50,
+        "reach": 148,
         "saved": 0,
-        "shares": 0,
-        "likes": 0,
+        "shares": 1,
+        "likes": 1,
         "comments": 0,
-        "total_interactions": 0,
-        "views": 138,
-        "ig_reels_avg_watch_time": 4152,
-        "ig_reels_video_view_total_time": 199302,
-        "reels_skip_rate": 33.6
+        "total_interactions": 2,
+        "views": 181,
+        "ig_reels_avg_watch_time": 5884,
+        "ig_reels_video_view_total_time": 859121,
+        "reels_skip_rate": 75
       },
-      "insightsStand": "2026-11-06T18:54:11.001Z",
-      "insightsAlterStunden": 0.9
+      "insightsStand": "2026-11-06T20:45:12.725Z",
+      "insightsAlterStunden": 2.7
     },
     {
       "datum": "2026-11-06",
