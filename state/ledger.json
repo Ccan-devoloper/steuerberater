@@ -20601,6 +20601,30 @@
         "#examensvorbereitung",
         "#umsatzsteuer"
       ]
+    },
+    {
+      "datum": "2026-11-06",
+      "slot": "m1",
+      "medienId": "18080972435392317",
+      "veroeffentlicht": "2026-11-06T18:00:14.262Z",
+      "quelle": "vorproduktion",
+      "art": "beitrag",
+      "zeit": "19:00",
+      "stunde": 19,
+      "format": "reel",
+      "thema": "lead-zr-z7",
+      "fach": null,
+      "klausur": 0,
+      "titel": "Schenkung ohne Notar unwirksam?",
+      "hookTyp": null,
+      "hashtags": [
+        "#steuerberaterprüfung",
+        "#steuerberaterexamen",
+        "#mündlicheprüfung",
+        "#examensvorbereitung",
+        "#zivilrecht",
+        "#steuerberater"
+      ]
     }
   ],
   "fachZaehler": {
@@ -20615,7 +20639,7 @@
     "est": 9,
     "umwst": 11,
     "gewst": 5,
-    "null": 16
+    "null": 17
   },
   "nachrichten": [],
   "postfach": [],
