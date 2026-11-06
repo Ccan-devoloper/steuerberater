@@ -20519,21 +20519,22 @@
         "Verschmelzung: Buchwert erlaubt?"
       ],
       "insights": {
-        "reach": 14,
-        "views": 16,
+        "reach": 24,
+        "views": 31,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 15,
-        "navigation_tap_forward": 11,
-        "navigation_tap_exit": 2,
-        "navigation_swipe_forward": 2
+        "navigation": 28,
+        "navigation_swipe_forward": 3,
+        "navigation_tap_exit": 3,
+        "navigation_tap_forward": 21,
+        "navigation_tap_back": 1
       },
-      "insightsStand": "2026-11-06T14:47:22.019Z",
-      "insightsAlterStunden": 1.5
+      "insightsStand": "2026-11-06T18:54:08.256Z",
+      "insightsAlterStunden": 5.6
     },
     {
       "datum": "2026-11-06",
@@ -20550,20 +20551,22 @@
         "dann schreiben"
       ],
       "insights": {
-        "reach": 9,
-        "views": 10,
+        "reach": 19,
+        "views": 23,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 9,
-        "navigation_tap_exit": 2,
-        "navigation_tap_forward": 7
+        "navigation": 22,
+        "navigation_tap_back": 2,
+        "navigation_swipe_forward": 1,
+        "navigation_tap_forward": 17,
+        "navigation_tap_exit": 2
       },
-      "insightsStand": "2026-11-06T14:47:22.019Z",
-      "insightsAlterStunden": 1.1
+      "insightsStand": "2026-11-06T18:54:08.256Z",
+      "insightsAlterStunden": 5.2
     },
     {
       "datum": "2026-11-06",
@@ -20655,7 +20658,21 @@
         "#examensvorbereitung",
         "#zivilrecht",
         "#steuerberater"
-      ]
+      ],
+      "insights": {
+        "reach": 50,
+        "saved": 0,
+        "shares": 0,
+        "likes": 0,
+        "comments": 0,
+        "total_interactions": 0,
+        "views": 138,
+        "ig_reels_avg_watch_time": 4152,
+        "ig_reels_video_view_total_time": 199302,
+        "reels_skip_rate": 33.6
+      },
+      "insightsStand": "2026-11-06T18:54:11.001Z",
+      "insightsAlterStunden": 0.9
     },
     {
       "datum": "2026-11-06",

@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "stand": "2026-11-06T18:00:57.319Z",
+  "stand": "2026-11-06T18:54:12.237Z",
   "medien": {
     "18093399314208242": {
       "art": "beitrag",
@@ -65450,6 +65450,23 @@
           "navigation_tap_forward": 11,
           "navigation_tap_exit": 2,
           "navigation_swipe_forward": 2
+        },
+        {
+          "stand": "2026-11-06T18:54:08.256Z",
+          "alterStunden": 5.6,
+          "reach": 24,
+          "views": 31,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 28,
+          "navigation_swipe_forward": 3,
+          "navigation_tap_exit": 3,
+          "navigation_tap_forward": 21,
+          "navigation_tap_back": 1
         }
       ]
     },
@@ -65480,6 +65497,23 @@
           "navigation": 9,
           "navigation_tap_exit": 2,
           "navigation_tap_forward": 7
+        },
+        {
+          "stand": "2026-11-06T18:54:08.256Z",
+          "alterStunden": 5.2,
+          "reach": 19,
+          "views": 23,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 22,
+          "navigation_tap_back": 2,
+          "navigation_swipe_forward": 1,
+          "navigation_tap_forward": 17,
+          "navigation_tap_exit": 2
         }
       ]
     },
@@ -65574,6 +65608,32 @@
           "ig_reels_avg_watch_time": 8223,
           "ig_reels_video_view_total_time": 1217012,
           "reels_skip_rate": 64.3
+        }
+      ]
+    },
+    "18080972435392317": {
+      "art": "beitrag",
+      "datum": "2026-11-06",
+      "titel": "Schenkung ohne Notar unwirksam?",
+      "format": "reel",
+      "fach": null,
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-11-06T18:00:14.262Z",
+      "snapshots": [
+        {
+          "stand": "2026-11-06T18:54:11.001Z",
+          "alterStunden": 0.9,
+          "reach": 50,
+          "saved": 0,
+          "shares": 0,
+          "likes": 0,
+          "comments": 0,
+          "total_interactions": 0,
+          "views": 138,
+          "ig_reels_avg_watch_time": 4152,
+          "ig_reels_video_view_total_time": 199302,
+          "reels_skip_rate": 33.6
         }
       ]
     }
@@ -68997,6 +69057,11 @@
     {
       "stand": "2026-11-06T18:00:57.319Z",
       "follower": 528,
+      "medien": 198
+    },
+    {
+      "stand": "2026-11-06T18:54:12.237Z",
+      "follower": 530,
       "medien": 198
     }
   ]
