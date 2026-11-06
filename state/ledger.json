@@ -19942,7 +19942,7 @@
         "#umsatzsteuer"
       ],
       "insights": {
-        "reach": 100,
+        "reach": 104,
         "saved": 5,
         "shares": 0,
         "likes": 4,
@@ -19951,8 +19951,8 @@
         "follows": 0,
         "profile_visits": 0
       },
-      "insightsStand": "2026-11-06T06:09:08.217Z",
-      "insightsAlterStunden": 22.7
+      "insightsStand": "2026-11-06T15:45:29.884Z",
+      "insightsAlterStunden": 32.3
     },
     {
       "datum": "2026-11-05",
@@ -20129,21 +20129,21 @@
         "wann wird es genutzt?"
       ],
       "insights": {
-        "reach": 47,
-        "views": 56,
+        "reach": 53,
+        "views": 62,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 52,
-        "navigation_tap_forward": 42,
-        "navigation_swipe_forward": 6,
-        "navigation_tap_exit": 4
+        "navigation": 57,
+        "navigation_tap_exit": 5,
+        "navigation_swipe_forward": 7,
+        "navigation_tap_forward": 45
       },
-      "insightsStand": "2026-11-06T13:17:35.903Z",
-      "insightsAlterStunden": 20.8
+      "insightsStand": "2026-11-06T15:45:28.417Z",
+      "insightsAlterStunden": 23.2
     },
     {
       "datum": "2026-11-05",
@@ -20491,7 +20491,19 @@
         "#steuerberaterprüfung",
         "#examensvorbereitung",
         "#umwandlungssteuerrecht"
-      ]
+      ],
+      "insights": {
+        "reach": 73,
+        "saved": 0,
+        "shares": 0,
+        "likes": 4,
+        "comments": 0,
+        "total_interactions": 4,
+        "follows": 0,
+        "profile_visits": 1
+      },
+      "insightsStand": "2026-11-06T15:45:29.884Z",
+      "insightsAlterStunden": 2.5
     },
     {
       "datum": "2026-11-06",

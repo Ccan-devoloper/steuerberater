@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "stand": "2026-11-06T14:47:36.579Z",
+  "stand": "2026-11-06T15:45:31.298Z",
   "medien": {
     "18093399314208242": {
       "art": "beitrag",
@@ -64127,6 +64127,18 @@
           "total_interactions": 9,
           "follows": 0,
           "profile_visits": 0
+        },
+        {
+          "stand": "2026-11-06T15:45:29.884Z",
+          "alterStunden": 32.3,
+          "reach": 104,
+          "saved": 5,
+          "shares": 0,
+          "likes": 4,
+          "comments": 0,
+          "total_interactions": 9,
+          "follows": 0,
+          "profile_visits": 0
         }
       ]
     },
@@ -64586,6 +64598,22 @@
           "navigation_tap_forward": 42,
           "navigation_swipe_forward": 6,
           "navigation_tap_exit": 4
+        },
+        {
+          "stand": "2026-11-06T15:45:28.417Z",
+          "alterStunden": 23.2,
+          "reach": 53,
+          "views": 62,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 57,
+          "navigation_tap_exit": 5,
+          "navigation_swipe_forward": 7,
+          "navigation_tap_forward": 45
         }
       ]
     },
@@ -65277,6 +65305,30 @@
           "navigation": 9,
           "navigation_tap_exit": 2,
           "navigation_tap_forward": 7
+        }
+      ]
+    },
+    "17994535104052832": {
+      "art": "beitrag",
+      "datum": "2026-11-06",
+      "titel": "Kurzvortrag",
+      "format": "kurzvortrag",
+      "fach": "umwst",
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-11-06T13:17:19.987Z",
+      "snapshots": [
+        {
+          "stand": "2026-11-06T15:45:29.884Z",
+          "alterStunden": 2.5,
+          "reach": 73,
+          "saved": 0,
+          "shares": 0,
+          "likes": 4,
+          "comments": 0,
+          "total_interactions": 4,
+          "follows": 0,
+          "profile_visits": 1
         }
       ]
     }
@@ -68684,6 +68736,11 @@
     },
     {
       "stand": "2026-11-06T14:47:36.579Z",
+      "follower": 528,
+      "medien": 196
+    },
+    {
+      "stand": "2026-11-06T15:45:31.298Z",
       "follower": 528,
       "medien": 196
     }
