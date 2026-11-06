@@ -20506,6 +20506,21 @@
       "titel": [
         "Verschmelzung: Buchwert erlaubt?"
       ]
+    },
+    {
+      "datum": "2026-11-06",
+      "slot": "s7",
+      "medienId": "17905242447607465",
+      "veroeffentlicht": "2026-11-06T13:40:03.736Z",
+      "quelle": "vorproduktion",
+      "art": "story",
+      "storyArt": "tipp",
+      "thema": null,
+      "fach": null,
+      "titel": [
+        "Erst skizzieren,",
+        "dann schreiben"
+      ]
     }
   ],
   "fachZaehler": {
