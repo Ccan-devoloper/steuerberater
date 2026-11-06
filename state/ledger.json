@@ -20097,22 +20097,22 @@
         "dann der Sachverhalt"
       ],
       "insights": {
-        "reach": 49,
-        "views": 59,
+        "reach": 50,
+        "views": 60,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 55,
-        "navigation_tap_back": 7,
+        "navigation": 56,
+        "navigation_tap_exit": 8,
+        "navigation_tap_forward": 37,
         "navigation_swipe_forward": 4,
-        "navigation_tap_forward": 36,
-        "navigation_tap_exit": 8
+        "navigation_tap_back": 7
       },
-      "insightsStand": "2026-11-06T09:46:01.556Z",
-      "insightsAlterStunden": 20.1
+      "insightsStand": "2026-11-06T11:46:13.479Z",
+      "insightsAlterStunden": 22.1
     },
     {
       "datum": "2026-11-05",
@@ -20326,20 +20326,22 @@
       "fach": "ust",
       "titel": "",
       "insights": {
-        "reach": 10,
-        "views": 15,
+        "reach": 23,
+        "views": 31,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 13,
-        "navigation_tap_forward": 12,
-        "navigation_tap_exit": 1
+        "navigation": 29,
+        "navigation_swipe_forward": 1,
+        "navigation_tap_exit": 2,
+        "navigation_tap_forward": 25,
+        "navigation_tap_back": 1
       },
-      "insightsStand": "2026-11-06T07:30:23.528Z",
-      "insightsAlterStunden": 1.4
+      "insightsStand": "2026-11-06T11:46:13.479Z",
+      "insightsAlterStunden": 5.7
     },
     {
       "datum": "2026-11-06",
@@ -20356,22 +20358,22 @@
         "steuerbar"
       ],
       "insights": {
-        "reach": 8,
-        "views": 14,
+        "reach": 19,
+        "views": 33,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 14,
-        "navigation_swipe_forward": 1,
-        "navigation_tap_forward": 8,
-        "navigation_tap_back": 4,
-        "navigation_tap_exit": 1
+        "navigation": 30,
+        "navigation_tap_exit": 2,
+        "navigation_tap_back": 6,
+        "navigation_tap_forward": 21,
+        "navigation_swipe_forward": 1
       },
-      "insightsStand": "2026-11-06T07:30:23.528Z",
-      "insightsAlterStunden": 1.4
+      "insightsStand": "2026-11-06T11:46:13.479Z",
+      "insightsAlterStunden": 5.6
     },
     {
       "datum": "2026-11-06",
