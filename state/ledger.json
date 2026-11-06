@@ -20454,6 +20454,28 @@
         "Hinzurechnung",
         "nach dem AStG?"
       ]
+    },
+    {
+      "datum": "2026-11-06",
+      "slot": "b2",
+      "medienId": "17994535104052832",
+      "veroeffentlicht": "2026-11-06T13:17:19.987Z",
+      "quelle": "vorproduktion",
+      "art": "beitrag",
+      "zeit": "13:30",
+      "stunde": 14,
+      "format": "kurzvortrag",
+      "thema": "umwst-aufb-umw-ks-4-02",
+      "fach": "umwst",
+      "klausur": 3,
+      "titel": "Kurzvortrag",
+      "hookTyp": null,
+      "hashtags": [
+        "#steuerberaterexamen",
+        "#steuerberaterprüfung",
+        "#examensvorbereitung",
+        "#umwandlungssteuerrecht"
+      ]
     }
   ],
   "fachZaehler": {
@@ -20466,7 +20488,7 @@
     "erbst": 13,
     "mindset": 2,
     "est": 9,
-    "umwst": 10,
+    "umwst": 11,
     "gewst": 5,
     "null": 16
   },
