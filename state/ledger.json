@@ -20476,6 +20476,20 @@
         "#examensvorbereitung",
         "#umwandlungssteuerrecht"
       ]
+    },
+    {
+      "datum": "2026-11-06",
+      "slot": "s2",
+      "medienId": "18101403989690260",
+      "veroeffentlicht": "2026-11-06T13:17:34.726Z",
+      "quelle": "vorproduktion",
+      "art": "story",
+      "storyArt": "teaser",
+      "thema": null,
+      "fach": "umwst",
+      "titel": [
+        "Verschmelzung: Buchwert erlaubt?"
+      ]
     }
   ],
   "fachZaehler": {
