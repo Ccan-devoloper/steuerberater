@@ -20339,6 +20339,28 @@
         "C: nicht",
         "steuerbar"
       ]
+    },
+    {
+      "datum": "2026-11-06",
+      "slot": "b1",
+      "medienId": "18025647749712493",
+      "veroeffentlicht": "2026-11-06T07:30:06.602Z",
+      "quelle": "vorproduktion",
+      "art": "beitrag",
+      "zeit": "08:30",
+      "stunde": 8,
+      "format": "minifall",
+      "thema": "istr-aufb-istr-gh-5-01",
+      "fach": "istr",
+      "klausur": 2,
+      "titel": "Mini-Fall",
+      "hookTyp": null,
+      "hashtags": [
+        "#steuerberaterexamen",
+        "#steuerberaterprüfung",
+        "#examensvorbereitung",
+        "#internationalessteuerrecht"
+      ]
     }
   ],
   "fachZaehler": {
@@ -20347,7 +20369,7 @@
     "kst": 16,
     "ao": 29,
     "bilanz": 28,
-    "istr": 22,
+    "istr": 23,
     "erbst": 13,
     "mindset": 2,
     "est": 9,
