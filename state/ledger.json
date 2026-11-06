@@ -20639,6 +20639,21 @@
       "titel": [
         "Café verkauft: Umsatzsteuer?"
       ]
+    },
+    {
+      "datum": "2026-11-06",
+      "slot": "s10",
+      "medienId": "18098325869482339",
+      "veroeffentlicht": "2026-11-06T18:00:48.159Z",
+      "quelle": "vorproduktion",
+      "art": "story",
+      "storyArt": "teaser",
+      "thema": null,
+      "fach": null,
+      "titel": [
+        "Dieser eine Satz",
+        "rettet deine Runde"
+      ]
     }
   ],
   "fachZaehler": {
