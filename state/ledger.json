@@ -20039,17 +20039,17 @@
         "#körperschaftsteuer"
       ],
       "insights": {
-        "reach": 98,
-        "saved": 2,
+        "reach": 109,
+        "saved": 3,
         "shares": 0,
         "likes": 5,
         "comments": 0,
-        "total_interactions": 7,
+        "total_interactions": 8,
         "follows": 0,
         "profile_visits": 0
       },
-      "insightsStand": "2026-11-06T09:46:08.650Z",
-      "insightsAlterStunden": 21.3
+      "insightsStand": "2026-11-06T18:00:54.895Z",
+      "insightsAlterStunden": 29.5
     },
     {
       "datum": "2026-11-05",
@@ -20423,22 +20423,22 @@
         "Mietverlust aus Brasilien"
       ],
       "insights": {
-        "reach": 24,
-        "views": 28,
+        "reach": 35,
+        "views": 42,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 26,
-        "navigation_tap_exit": 4,
+        "navigation": 40,
+        "navigation_tap_exit": 10,
         "navigation_tap_back": 3,
-        "navigation_tap_forward": 18,
-        "navigation_swipe_forward": 1
+        "navigation_tap_forward": 25,
+        "navigation_swipe_forward": 2
       },
-      "insightsStand": "2026-11-06T13:17:35.903Z",
-      "insightsAlterStunden": 5.8
+      "insightsStand": "2026-11-06T18:00:49.576Z",
+      "insightsAlterStunden": 10.5
     },
     {
       "datum": "2026-11-06",
@@ -20455,21 +20455,21 @@
         "nach dem AStG?"
       ],
       "insights": {
-        "reach": 17,
-        "views": 19,
+        "reach": 28,
+        "views": 31,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 16,
-        "navigation_swipe_forward": 1,
-        "navigation_tap_forward": 9,
-        "navigation_tap_exit": 6
+        "navigation": 27,
+        "navigation_tap_exit": 7,
+        "navigation_tap_forward": 18,
+        "navigation_swipe_forward": 2
       },
-      "insightsStand": "2026-11-06T13:17:35.903Z",
-      "insightsAlterStunden": 2.1
+      "insightsStand": "2026-11-06T18:00:49.576Z",
+      "insightsAlterStunden": 6.8
     },
     {
       "datum": "2026-11-06",
@@ -20493,17 +20493,17 @@
         "#umwandlungssteuerrecht"
       ],
       "insights": {
-        "reach": 73,
-        "saved": 0,
+        "reach": 83,
+        "saved": 1,
         "shares": 0,
-        "likes": 4,
+        "likes": 5,
         "comments": 0,
-        "total_interactions": 4,
+        "total_interactions": 6,
         "follows": 0,
         "profile_visits": 1
       },
-      "insightsStand": "2026-11-06T15:45:29.884Z",
-      "insightsAlterStunden": 2.5
+      "insightsStand": "2026-11-06T18:00:54.895Z",
+      "insightsAlterStunden": 4.7
     },
     {
       "datum": "2026-11-06",
@@ -20578,7 +20578,24 @@
       "titel": [
         "Fehler aus dem",
         "Vorjahr?"
-      ]
+      ],
+      "insights": {
+        "reach": 11,
+        "views": 16,
+        "shares": 0,
+        "total_interactions": 0,
+        "replies": 0,
+        "follows": 0,
+        "profile_visits": 0,
+        "profile_activity": 0,
+        "navigation": 12,
+        "navigation_tap_back": 1,
+        "navigation_swipe_forward": 1,
+        "navigation_tap_forward": 5,
+        "navigation_tap_exit": 5
+      },
+      "insightsStand": "2026-11-06T18:00:49.576Z",
+      "insightsAlterStunden": 1.9
     },
     {
       "datum": "2026-11-06",
@@ -20600,7 +20617,21 @@
         "#steuerberaterprüfung",
         "#examensvorbereitung",
         "#umsatzsteuer"
-      ]
+      ],
+      "insights": {
+        "reach": 144,
+        "saved": 1,
+        "shares": 0,
+        "likes": 5,
+        "comments": 0,
+        "total_interactions": 6,
+        "views": 203,
+        "ig_reels_avg_watch_time": 8223,
+        "ig_reels_video_view_total_time": 1217012,
+        "reels_skip_rate": 64.3
+      },
+      "insightsStand": "2026-11-06T18:00:54.895Z",
+      "insightsAlterStunden": 1.5
     },
     {
       "datum": "2026-11-06",
