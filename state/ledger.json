@@ -20579,11 +20579,33 @@
         "Fehler aus dem",
         "Vorjahr?"
       ]
+    },
+    {
+      "datum": "2026-11-06",
+      "slot": "b3",
+      "medienId": "18038926586885834",
+      "veroeffentlicht": "2026-11-06T16:30:11.590Z",
+      "quelle": "vorproduktion",
+      "art": "beitrag",
+      "zeit": "17:30",
+      "stunde": 17,
+      "format": "reel",
+      "thema": "ust-aufb-ust-m-b06-17",
+      "fach": "ust",
+      "klausur": 1,
+      "titel": "Ganzes Unternehmen übertragen: Warum keine Umsatzsteuer anfällt",
+      "hookTyp": null,
+      "hashtags": [
+        "#steuerberaterexamen",
+        "#steuerberaterprüfung",
+        "#examensvorbereitung",
+        "#umsatzsteuer"
+      ]
     }
   ],
   "fachZaehler": {
     "persg": 20,
-    "ust": 17,
+    "ust": 18,
     "kst": 16,
     "ao": 29,
     "bilanz": 28,
