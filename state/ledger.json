@@ -18671,7 +18671,7 @@
         "#internationalessteuerrecht"
       ],
       "insights": {
-        "reach": 119,
+        "reach": 122,
         "saved": 4,
         "shares": 0,
         "likes": 5,
@@ -18680,8 +18680,8 @@
         "follows": 0,
         "profile_visits": 1
       },
-      "insightsStand": "2026-11-05T09:45:56.519Z",
-      "insightsAlterStunden": 69.3
+      "insightsStand": "2026-11-06T09:46:08.650Z",
+      "insightsAlterStunden": 93.3
     },
     {
       "datum": "2026-11-02",
@@ -20038,7 +20038,7 @@
         "#körperschaftsteuer"
       ],
       "insights": {
-        "reach": 96,
+        "reach": 98,
         "saved": 2,
         "shares": 0,
         "likes": 5,
@@ -20047,8 +20047,8 @@
         "follows": 0,
         "profile_visits": 0
       },
-      "insightsStand": "2026-11-06T06:09:08.217Z",
-      "insightsAlterStunden": 17.7
+      "insightsStand": "2026-11-06T09:46:08.650Z",
+      "insightsAlterStunden": 21.3
     },
     {
       "datum": "2026-11-05",
@@ -20096,22 +20096,22 @@
         "dann der Sachverhalt"
       ],
       "insights": {
-        "reach": 40,
-        "views": 52,
+        "reach": 49,
+        "views": 59,
         "shares": 0,
-        "total_interactions": 2,
+        "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 47,
-        "navigation_tap_exit": 5,
-        "navigation_tap_forward": 31,
+        "navigation": 55,
+        "navigation_tap_back": 7,
         "navigation_swipe_forward": 4,
-        "navigation_tap_back": 7
+        "navigation_tap_forward": 36,
+        "navigation_tap_exit": 8
       },
-      "insightsStand": "2026-11-06T05:45:58.370Z",
-      "insightsAlterStunden": 16.1
+      "insightsStand": "2026-11-06T09:46:01.556Z",
+      "insightsAlterStunden": 20.1
     },
     {
       "datum": "2026-11-05",
@@ -20128,21 +20128,21 @@
         "wann wird es genutzt?"
       ],
       "insights": {
-        "reach": 37,
-        "views": 47,
+        "reach": 45,
+        "views": 53,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 40,
+        "navigation": 49,
         "navigation_tap_exit": 4,
-        "navigation_swipe_forward": 5,
-        "navigation_tap_forward": 31
+        "navigation_swipe_forward": 6,
+        "navigation_tap_forward": 39
       },
-      "insightsStand": "2026-11-06T05:45:58.370Z",
-      "insightsAlterStunden": 13.2
+      "insightsStand": "2026-11-06T09:46:01.556Z",
+      "insightsAlterStunden": 17.2
     },
     {
       "datum": "2026-11-05",
@@ -20166,19 +20166,19 @@
         "#bilanzsteuerrecht"
       ],
       "insights": {
-        "reach": 306,
+        "reach": 374,
         "saved": 4,
         "shares": 0,
         "likes": 7,
         "comments": 0,
         "total_interactions": 11,
-        "views": 410,
-        "ig_reels_avg_watch_time": 9095,
-        "ig_reels_video_view_total_time": 2719500,
-        "reels_skip_rate": 62.2
+        "views": 489,
+        "ig_reels_avg_watch_time": 8788,
+        "ig_reels_video_view_total_time": 3225337,
+        "reels_skip_rate": 64.3
       },
-      "insightsStand": "2026-11-06T06:09:08.217Z",
-      "insightsAlterStunden": 13.6
+      "insightsStand": "2026-11-06T09:46:08.650Z",
+      "insightsAlterStunden": 17.2
     },
     {
       "datum": "2026-11-05",
@@ -20204,19 +20204,19 @@
         "#steuerberater"
       ],
       "insights": {
-        "reach": 520,
-        "saved": 5,
-        "shares": 3,
-        "likes": 8,
+        "reach": 580,
+        "saved": 7,
+        "shares": 4,
+        "likes": 11,
         "comments": 0,
-        "total_interactions": 16,
-        "views": 668,
-        "ig_reels_avg_watch_time": 6785,
-        "ig_reels_video_view_total_time": 3623469,
-        "reels_skip_rate": 69.4
+        "total_interactions": 22,
+        "views": 732,
+        "ig_reels_avg_watch_time": 6791,
+        "ig_reels_video_view_total_time": 4088395,
+        "reels_skip_rate": 71
       },
-      "insightsStand": "2026-11-06T06:09:08.217Z",
-      "insightsAlterStunden": 12.2
+      "insightsStand": "2026-11-06T09:46:08.650Z",
+      "insightsAlterStunden": 15.8
     },
     {
       "datum": "2026-11-05",
@@ -20232,22 +20232,22 @@
         "Dividende immer steuerfrei?"
       ],
       "insights": {
-        "reach": 32,
-        "views": 39,
+        "reach": 42,
+        "views": 49,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 34,
-        "navigation_swipe_forward": 2,
-        "navigation_tap_back": 2,
-        "navigation_tap_forward": 24,
-        "navigation_tap_exit": 6
+        "navigation": 47,
+        "navigation_swipe_forward": 3,
+        "navigation_tap_back": 3,
+        "navigation_tap_forward": 34,
+        "navigation_tap_exit": 7
       },
-      "insightsStand": "2026-11-06T05:45:58.370Z",
-      "insightsAlterStunden": 11.8
+      "insightsStand": "2026-11-06T09:46:01.556Z",
+      "insightsAlterStunden": 15.8
     },
     {
       "datum": "2026-11-05",
@@ -20264,22 +20264,22 @@
         "der teuerste Satz"
       ],
       "insights": {
-        "reach": 32,
-        "views": 36,
+        "reach": 40,
+        "views": 46,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 32,
+        "navigation": 45,
         "navigation_tap_exit": 2,
         "navigation_swipe_forward": 1,
-        "navigation_tap_back": 1,
-        "navigation_tap_forward": 28
+        "navigation_tap_back": 3,
+        "navigation_tap_forward": 39
       },
-      "insightsStand": "2026-11-06T05:45:58.370Z",
-      "insightsAlterStunden": 11.8
+      "insightsStand": "2026-11-06T09:46:01.556Z",
+      "insightsAlterStunden": 15.8
     },
     {
       "datum": "2026-11-05",
@@ -20296,22 +20296,22 @@
         "verkauft?"
       ],
       "insights": {
-        "reach": 29,
-        "views": 37,
+        "reach": 40,
+        "views": 47,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 35,
-        "navigation_tap_forward": 27,
-        "navigation_tap_back": 2,
+        "navigation": 46,
+        "navigation_swipe_forward": 3,
         "navigation_tap_exit": 3,
-        "navigation_swipe_forward": 3
+        "navigation_tap_back": 3,
+        "navigation_tap_forward": 37
       },
-      "insightsStand": "2026-11-06T05:45:58.370Z",
-      "insightsAlterStunden": 11.6
+      "insightsStand": "2026-11-06T09:46:01.556Z",
+      "insightsAlterStunden": 15.6
     },
     {
       "datum": "2026-11-06",
