@@ -20625,6 +20625,20 @@
         "#zivilrecht",
         "#steuerberater"
       ]
+    },
+    {
+      "datum": "2026-11-06",
+      "slot": "s3",
+      "medienId": "17881048944631408",
+      "veroeffentlicht": "2026-11-06T18:00:30.151Z",
+      "quelle": "vorproduktion",
+      "art": "story",
+      "storyArt": "teaser",
+      "thema": null,
+      "fach": "ust",
+      "titel": [
+        "Café verkauft: Umsatzsteuer?"
+      ]
     }
   ],
   "fachZaehler": {
