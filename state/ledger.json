@@ -17207,7 +17207,7 @@
         "#abgabenordnung"
       ],
       "insights": {
-        "reach": 226,
+        "reach": 238,
         "saved": 4,
         "shares": 1,
         "likes": 8,
@@ -17216,8 +17216,8 @@
         "follows": 0,
         "profile_visits": 2
       },
-      "insightsStand": "2026-11-05T06:47:23.425Z",
-      "insightsAlterStunden": 143.3
+      "insightsStand": "2026-11-06T07:30:25.919Z",
+      "insightsAlterStunden": 168
     },
     {
       "datum": "2026-10-30",
@@ -17304,17 +17304,17 @@
         "#körperschaftsteuer"
       ],
       "insights": {
-        "reach": 146,
+        "reach": 148,
         "saved": 3,
         "shares": 0,
-        "likes": 6,
+        "likes": 7,
         "comments": 0,
-        "total_interactions": 9,
+        "total_interactions": 10,
         "follows": 0,
         "profile_visits": 1
       },
-      "insightsStand": "2026-11-05T06:47:23.425Z",
-      "insightsAlterStunden": 138.3
+      "insightsStand": "2026-11-06T07:30:25.919Z",
+      "insightsAlterStunden": 163
     },
     {
       "datum": "2026-10-30",
@@ -20323,7 +20323,22 @@
       "storyArt": "frage",
       "thema": "ust-quiz-ust-9",
       "fach": "ust",
-      "titel": ""
+      "titel": "",
+      "insights": {
+        "reach": 10,
+        "views": 15,
+        "shares": 0,
+        "total_interactions": 0,
+        "replies": 0,
+        "follows": 0,
+        "profile_visits": 0,
+        "profile_activity": 0,
+        "navigation": 13,
+        "navigation_tap_forward": 12,
+        "navigation_tap_exit": 1
+      },
+      "insightsStand": "2026-11-06T07:30:23.528Z",
+      "insightsAlterStunden": 1.4
     },
     {
       "datum": "2026-11-06",
@@ -20338,7 +20353,24 @@
       "titel": [
         "C: nicht",
         "steuerbar"
-      ]
+      ],
+      "insights": {
+        "reach": 8,
+        "views": 14,
+        "shares": 0,
+        "total_interactions": 0,
+        "replies": 0,
+        "follows": 0,
+        "profile_visits": 0,
+        "profile_activity": 0,
+        "navigation": 14,
+        "navigation_swipe_forward": 1,
+        "navigation_tap_forward": 8,
+        "navigation_tap_back": 4,
+        "navigation_tap_exit": 1
+      },
+      "insightsStand": "2026-11-06T07:30:23.528Z",
+      "insightsAlterStunden": 1.4
     },
     {
       "datum": "2026-11-06",
