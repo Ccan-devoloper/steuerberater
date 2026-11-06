@@ -18215,17 +18215,17 @@
         "#umsatzsteuer"
       ],
       "insights": {
-        "reach": 164,
+        "reach": 172,
         "saved": 3,
         "shares": 0,
         "likes": 8,
         "comments": 0,
         "total_interactions": 11,
         "follows": 0,
-        "profile_visits": 2
+        "profile_visits": 3
       },
-      "insightsStand": "2026-11-05T10:45:35.587Z",
-      "insightsAlterStunden": 94.3
+      "insightsStand": "2026-11-06T11:14:07.425Z",
+      "insightsAlterStunden": 118.7
     },
     {
       "datum": "2026-11-01",
@@ -18344,19 +18344,19 @@
         "#körperschaftsteuer"
       ],
       "insights": {
-        "reach": 500,
+        "reach": 504,
         "saved": 3,
         "shares": 1,
         "likes": 4,
         "comments": 0,
         "total_interactions": 8,
-        "views": 635,
-        "ig_reels_avg_watch_time": 8204,
-        "ig_reels_video_view_total_time": 4225470,
-        "reels_skip_rate": 63.1
+        "views": 645,
+        "ig_reels_avg_watch_time": 8290,
+        "ig_reels_video_view_total_time": 4327446,
+        "reels_skip_rate": 62.5
       },
-      "insightsStand": "2026-11-05T10:45:35.587Z",
-      "insightsAlterStunden": 90.3
+      "insightsStand": "2026-11-06T11:14:07.425Z",
+      "insightsAlterStunden": 114.7
     },
     {
       "datum": "2026-11-01",
@@ -18382,19 +18382,19 @@
         "#steuerberater"
       ],
       "insights": {
-        "reach": 310,
+        "reach": 319,
         "saved": 1,
         "shares": 0,
         "likes": 9,
         "comments": 0,
         "total_interactions": 10,
-        "views": 415,
-        "ig_reels_avg_watch_time": 8697,
-        "ig_reels_video_view_total_time": 2774601,
-        "reels_skip_rate": 55.6
+        "views": 428,
+        "ig_reels_avg_watch_time": 8833,
+        "ig_reels_video_view_total_time": 2897295,
+        "reels_skip_rate": 55
       },
-      "insightsStand": "2026-11-05T10:45:35.587Z",
-      "insightsAlterStunden": 88.8
+      "insightsStand": "2026-11-06T11:14:07.425Z",
+      "insightsAlterStunden": 113.2
     },
     {
       "datum": "2026-11-01",
@@ -20065,22 +20065,22 @@
         "Verdeckte Einlage"
       ],
       "insights": {
-        "reach": 51,
-        "views": 67,
+        "reach": 55,
+        "views": 71,
         "shares": 0,
-        "total_interactions": 0,
+        "total_interactions": 1,
         "replies": 0,
         "follows": 0,
         "profile_visits": 2,
         "profile_activity": 0,
-        "navigation": 64,
-        "navigation_tap_exit": 7,
-        "navigation_tap_forward": 44,
+        "navigation": 68,
+        "navigation_tap_back": 8,
         "navigation_swipe_forward": 5,
-        "navigation_tap_back": 8
+        "navigation_tap_forward": 47,
+        "navigation_tap_exit": 8
       },
-      "insightsStand": "2026-11-06T08:45:33.335Z",
-      "insightsAlterStunden": 20.3
+      "insightsStand": "2026-11-06T11:14:06.148Z",
+      "insightsAlterStunden": 22.7
     },
     {
       "datum": "2026-11-05",

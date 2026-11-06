@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "stand": "2026-11-06T10:45:28.136Z",
+  "stand": "2026-11-06T11:14:07.425Z",
   "medien": {
     "18093399314208242": {
       "art": "beitrag",
@@ -57817,6 +57817,18 @@
           "total_interactions": 11,
           "follows": 0,
           "profile_visits": 2
+        },
+        {
+          "stand": "2026-11-06T11:14:07.425Z",
+          "alterStunden": 118.7,
+          "reach": 172,
+          "saved": 3,
+          "shares": 0,
+          "likes": 8,
+          "comments": 0,
+          "total_interactions": 11,
+          "follows": 0,
+          "profile_visits": 3
         }
       ]
     },
@@ -58213,6 +58225,20 @@
           "ig_reels_avg_watch_time": 8204,
           "ig_reels_video_view_total_time": 4225470,
           "reels_skip_rate": 63.1
+        },
+        {
+          "stand": "2026-11-06T11:14:07.425Z",
+          "alterStunden": 114.7,
+          "reach": 504,
+          "saved": 3,
+          "shares": 1,
+          "likes": 4,
+          "comments": 0,
+          "total_interactions": 8,
+          "views": 645,
+          "ig_reels_avg_watch_time": 8290,
+          "ig_reels_video_view_total_time": 4327446,
+          "reels_skip_rate": 62.5
         }
       ]
     },
@@ -58393,6 +58419,20 @@
           "ig_reels_avg_watch_time": 8697,
           "ig_reels_video_view_total_time": 2774601,
           "reels_skip_rate": 55.6
+        },
+        {
+          "stand": "2026-11-06T11:14:07.425Z",
+          "alterStunden": 113.2,
+          "reach": 319,
+          "saved": 1,
+          "shares": 0,
+          "likes": 9,
+          "comments": 0,
+          "total_interactions": 10,
+          "views": 428,
+          "ig_reels_avg_watch_time": 8833,
+          "ig_reels_video_view_total_time": 2897295,
+          "reels_skip_rate": 55
         }
       ]
     },
@@ -64171,6 +64211,23 @@
           "navigation_tap_forward": 44,
           "navigation_swipe_forward": 5,
           "navigation_tap_back": 8
+        },
+        {
+          "stand": "2026-11-06T11:14:06.148Z",
+          "alterStunden": 22.7,
+          "reach": 55,
+          "views": 71,
+          "shares": 0,
+          "total_interactions": 1,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 2,
+          "profile_activity": 0,
+          "navigation": 68,
+          "navigation_tap_back": 8,
+          "navigation_swipe_forward": 5,
+          "navigation_tap_forward": 47,
+          "navigation_tap_exit": 8
         }
       ]
     },
