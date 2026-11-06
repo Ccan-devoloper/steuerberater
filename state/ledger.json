@@ -20129,21 +20129,21 @@
         "wann wird es genutzt?"
       ],
       "insights": {
-        "reach": 45,
-        "views": 53,
+        "reach": 47,
+        "views": 56,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 49,
-        "navigation_tap_exit": 4,
+        "navigation": 52,
+        "navigation_tap_forward": 42,
         "navigation_swipe_forward": 6,
-        "navigation_tap_forward": 39
+        "navigation_tap_exit": 4
       },
-      "insightsStand": "2026-11-06T09:46:01.556Z",
-      "insightsAlterStunden": 17.2
+      "insightsStand": "2026-11-06T13:17:35.903Z",
+      "insightsAlterStunden": 20.8
     },
     {
       "datum": "2026-11-05",
@@ -20167,19 +20167,19 @@
         "#bilanzsteuerrecht"
       ],
       "insights": {
-        "reach": 374,
-        "saved": 4,
+        "reach": 401,
+        "saved": 5,
         "shares": 0,
         "likes": 7,
         "comments": 0,
-        "total_interactions": 11,
-        "views": 489,
-        "ig_reels_avg_watch_time": 8788,
-        "ig_reels_video_view_total_time": 3225337,
-        "reels_skip_rate": 64.3
+        "total_interactions": 12,
+        "views": 523,
+        "ig_reels_avg_watch_time": 8886,
+        "ig_reels_video_view_total_time": 3492563,
+        "reels_skip_rate": 64.1
       },
-      "insightsStand": "2026-11-06T09:46:08.650Z",
-      "insightsAlterStunden": 17.2
+      "insightsStand": "2026-11-06T13:17:39.555Z",
+      "insightsAlterStunden": 20.7
     },
     {
       "datum": "2026-11-05",
@@ -20205,19 +20205,19 @@
         "#steuerberater"
       ],
       "insights": {
-        "reach": 580,
-        "saved": 7,
-        "shares": 4,
+        "reach": 651,
+        "saved": 8,
+        "shares": 5,
         "likes": 11,
         "comments": 0,
-        "total_interactions": 22,
-        "views": 732,
-        "ig_reels_avg_watch_time": 6791,
-        "ig_reels_video_view_total_time": 4088395,
-        "reels_skip_rate": 71
+        "total_interactions": 24,
+        "views": 831,
+        "ig_reels_avg_watch_time": 6895,
+        "ig_reels_video_view_total_time": 4681841,
+        "reels_skip_rate": 69.8
       },
-      "insightsStand": "2026-11-06T09:46:08.650Z",
-      "insightsAlterStunden": 15.8
+      "insightsStand": "2026-11-06T13:17:39.555Z",
+      "insightsAlterStunden": 19.3
     },
     {
       "datum": "2026-11-05",
@@ -20397,17 +20397,17 @@
         "#internationalessteuerrecht"
       ],
       "insights": {
-        "reach": 78,
-        "saved": 2,
+        "reach": 102,
+        "saved": 4,
         "shares": 1,
         "likes": 4,
         "comments": 0,
-        "total_interactions": 7,
+        "total_interactions": 9,
         "follows": 0,
         "profile_visits": 0
       },
-      "insightsStand": "2026-11-06T10:45:27.276Z",
-      "insightsAlterStunden": 3.3
+      "insightsStand": "2026-11-06T13:17:39.555Z",
+      "insightsAlterStunden": 5.8
     },
     {
       "datum": "2026-11-06",
@@ -20423,22 +20423,22 @@
         "Mietverlust aus Brasilien"
       ],
       "insights": {
-        "reach": 11,
-        "views": 15,
+        "reach": 24,
+        "views": 28,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 14,
-        "navigation_tap_exit": 3,
-        "navigation_tap_back": 2,
-        "navigation_tap_forward": 8,
+        "navigation": 26,
+        "navigation_tap_exit": 4,
+        "navigation_tap_back": 3,
+        "navigation_tap_forward": 18,
         "navigation_swipe_forward": 1
       },
-      "insightsStand": "2026-11-06T08:45:33.335Z",
-      "insightsAlterStunden": 1.3
+      "insightsStand": "2026-11-06T13:17:35.903Z",
+      "insightsAlterStunden": 5.8
     },
     {
       "datum": "2026-11-06",
@@ -20453,7 +20453,23 @@
       "titel": [
         "Hinzurechnung",
         "nach dem AStG?"
-      ]
+      ],
+      "insights": {
+        "reach": 17,
+        "views": 19,
+        "shares": 0,
+        "total_interactions": 0,
+        "replies": 0,
+        "follows": 0,
+        "profile_visits": 0,
+        "profile_activity": 0,
+        "navigation": 16,
+        "navigation_swipe_forward": 1,
+        "navigation_tap_forward": 9,
+        "navigation_tap_exit": 6
+      },
+      "insightsStand": "2026-11-06T13:17:35.903Z",
+      "insightsAlterStunden": 2.1
     },
     {
       "datum": "2026-11-06",
