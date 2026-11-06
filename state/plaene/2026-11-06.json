@@ -48,7 +48,8 @@
       "themaTitel": "Schenkung ohne Notar unwirksam?",
       "fach": null,
       "klausur": 0,
-      "status": "geplant"
+      "status": "sendet",
+      "sendeversuch": "2026-11-06T18:00:00.094Z"
     }
   ],
   "stories": [
