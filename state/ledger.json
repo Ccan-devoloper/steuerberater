@@ -21007,20 +21007,22 @@
         "Ernte einfahren"
       ],
       "insights": {
-        "reach": 14,
-        "views": 17,
+        "reach": 47,
+        "views": 60,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 13,
-        "navigation_tap_exit": 4,
-        "navigation_tap_forward": 9
+        "navigation": 52,
+        "navigation_swipe_forward": 2,
+        "navigation_tap_exit": 10,
+        "navigation_tap_forward": 39,
+        "navigation_tap_back": 1
       },
-      "insightsStand": "2026-11-07T14:45:25.967Z",
-      "insightsAlterStunden": 1.1
+      "insightsStand": "2026-11-07T19:45:08.345Z",
+      "insightsAlterStunden": 6.1
     },
     {
       "datum": "2026-11-07",
@@ -21074,19 +21076,19 @@
         "#einkommensteuer"
       ],
       "insights": {
-        "reach": 139,
+        "reach": 225,
         "saved": 2,
         "shares": 0,
-        "likes": 2,
+        "likes": 4,
         "comments": 0,
-        "total_interactions": 4,
-        "views": 200,
-        "ig_reels_avg_watch_time": 9505,
-        "ig_reels_video_view_total_time": 1321251,
-        "reels_skip_rate": 53.5
+        "total_interactions": 6,
+        "views": 293,
+        "ig_reels_avg_watch_time": 9881,
+        "ig_reels_video_view_total_time": 2075189,
+        "reels_skip_rate": 56.4
       },
-      "insightsStand": "2026-11-07T18:00:35.769Z",
-      "insightsAlterStunden": 1.5
+      "insightsStand": "2026-11-07T19:45:15.621Z",
+      "insightsAlterStunden": 3.3
     },
     {
       "datum": "2026-11-07",
@@ -21138,7 +21140,22 @@
       "fach": "est",
       "titel": [
         "Aktien verkauft: Spekulationsgewinn?"
-      ]
+      ],
+      "insights": {
+        "reach": 28,
+        "views": 30,
+        "shares": 0,
+        "total_interactions": 0,
+        "replies": 0,
+        "follows": 0,
+        "profile_visits": 0,
+        "profile_activity": 0,
+        "navigation": 28,
+        "navigation_tap_forward": 25,
+        "navigation_tap_exit": 3
+      },
+      "insightsStand": "2026-11-07T19:45:08.345Z",
+      "insightsAlterStunden": 1.7
     },
     {
       "datum": "2026-11-07",
@@ -21153,7 +21170,23 @@
       "titel": [
         "Runde verhauen?",
         "So rettest du den Tag"
-      ]
+      ],
+      "insights": {
+        "reach": 27,
+        "views": 27,
+        "shares": 0,
+        "total_interactions": 0,
+        "replies": 0,
+        "follows": 0,
+        "profile_visits": 0,
+        "profile_activity": 0,
+        "navigation": 26,
+        "navigation_swipe_forward": 1,
+        "navigation_tap_forward": 22,
+        "navigation_tap_exit": 3
+      },
+      "insightsStand": "2026-11-07T19:45:08.345Z",
+      "insightsAlterStunden": 1.7
     },
     {
       "datum": "2026-11-07",
@@ -21168,7 +21201,22 @@
       "titel": [
         "Splitting nach",
         "dem Tod?"
-      ]
+      ],
+      "insights": {
+        "reach": 20,
+        "views": 26,
+        "shares": 0,
+        "total_interactions": 0,
+        "replies": 0,
+        "follows": 0,
+        "profile_visits": 0,
+        "profile_activity": 0,
+        "navigation": 24,
+        "navigation_tap_forward": 19,
+        "navigation_tap_exit": 5
+      },
+      "insightsStand": "2026-11-07T19:45:08.345Z",
+      "insightsAlterStunden": 1.6
     }
   ],
   "fachZaehler": {

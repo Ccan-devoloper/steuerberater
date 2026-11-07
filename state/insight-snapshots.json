@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "stand": "2026-11-07T18:45:20.091Z",
+  "stand": "2026-11-07T19:45:17.133Z",
   "medien": {
     "18093399314208242": {
       "art": "beitrag",
@@ -67442,6 +67442,23 @@
           "navigation": 13,
           "navigation_tap_exit": 4,
           "navigation_tap_forward": 9
+        },
+        {
+          "stand": "2026-11-07T19:45:08.345Z",
+          "alterStunden": 6.1,
+          "reach": 47,
+          "views": 60,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 52,
+          "navigation_swipe_forward": 2,
+          "navigation_tap_exit": 10,
+          "navigation_tap_forward": 39,
+          "navigation_tap_back": 1
         }
       ]
     },
@@ -67498,6 +67515,20 @@
           "ig_reels_avg_watch_time": 9505,
           "ig_reels_video_view_total_time": 1321251,
           "reels_skip_rate": 53.5
+        },
+        {
+          "stand": "2026-11-07T19:45:15.621Z",
+          "alterStunden": 3.3,
+          "reach": 225,
+          "saved": 2,
+          "shares": 0,
+          "likes": 4,
+          "comments": 0,
+          "total_interactions": 6,
+          "views": 293,
+          "ig_reels_avg_watch_time": 9881,
+          "ig_reels_video_view_total_time": 2075189,
+          "reels_skip_rate": 56.4
         }
       ]
     },
@@ -67524,6 +67555,96 @@
           "ig_reels_avg_watch_time": 6218,
           "ig_reels_video_view_total_time": 472630,
           "reels_skip_rate": 45.8
+        }
+      ]
+    },
+    "17953086546346536": {
+      "art": "story",
+      "datum": "2026-11-07",
+      "titel": [
+        "Aktien verkauft: Spekulationsgewinn?"
+      ],
+      "format": null,
+      "fach": "est",
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-11-07T18:00:18.958Z",
+      "snapshots": [
+        {
+          "stand": "2026-11-07T19:45:08.345Z",
+          "alterStunden": 1.7,
+          "reach": 28,
+          "views": 30,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 28,
+          "navigation_tap_forward": 25,
+          "navigation_tap_exit": 3
+        }
+      ]
+    },
+    "17870891154661689": {
+      "art": "story",
+      "datum": "2026-11-07",
+      "titel": [
+        "Runde verhauen?",
+        "So rettest du den Tag"
+      ],
+      "format": null,
+      "fach": null,
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-11-07T18:00:29.684Z",
+      "snapshots": [
+        {
+          "stand": "2026-11-07T19:45:08.345Z",
+          "alterStunden": 1.7,
+          "reach": 27,
+          "views": 27,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 26,
+          "navigation_swipe_forward": 1,
+          "navigation_tap_forward": 22,
+          "navigation_tap_exit": 3
+        }
+      ]
+    },
+    "18123338611943897": {
+      "art": "story",
+      "datum": "2026-11-07",
+      "titel": [
+        "Splitting nach",
+        "dem Tod?"
+      ],
+      "format": null,
+      "fach": "est",
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-11-07T18:12:07.429Z",
+      "snapshots": [
+        {
+          "stand": "2026-11-07T19:45:08.345Z",
+          "alterStunden": 1.6,
+          "reach": 20,
+          "views": 26,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 24,
+          "navigation_tap_forward": 19,
+          "navigation_tap_exit": 5
         }
       ]
     }
@@ -71032,6 +71153,11 @@
     {
       "stand": "2026-11-07T18:00:38.806Z",
       "follower": 545,
+      "medien": 202
+    },
+    {
+      "stand": "2026-11-07T19:45:17.133Z",
+      "follower": 547,
       "medien": 202
     }
   ]
