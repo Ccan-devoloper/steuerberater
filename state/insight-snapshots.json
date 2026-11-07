@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "stand": "2026-11-07T06:45:24.845Z",
+  "stand": "2026-11-07T07:30:21.786Z",
   "medien": {
     "18093399314208242": {
       "art": "beitrag",
@@ -66393,6 +66393,63 @@
           "navigation_tap_back": 4,
           "navigation_tap_exit": 6,
           "navigation_tap_forward": 31
+        }
+      ]
+    },
+    "18116057504585144": {
+      "art": "story",
+      "datum": "2026-11-07",
+      "titel": null,
+      "format": null,
+      "fach": "est",
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-11-07T06:07:04.114Z",
+      "snapshots": [
+        {
+          "stand": "2026-11-07T07:30:21.786Z",
+          "alterStunden": 1.4,
+          "reach": 13,
+          "views": 18,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 14,
+          "navigation_tap_forward": 13,
+          "navigation_swipe_forward": 1
+        }
+      ]
+    },
+    "17913175482305799": {
+      "art": "story",
+      "datum": "2026-11-07",
+      "titel": [
+        "B: 0,38 €",
+        "ab km 1"
+      ],
+      "format": null,
+      "fach": "est",
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-11-07T06:09:03.575Z",
+      "snapshots": [
+        {
+          "stand": "2026-11-07T07:30:21.786Z",
+          "alterStunden": 1.4,
+          "reach": 12,
+          "views": 17,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 14,
+          "navigation_tap_back": 1,
+          "navigation_tap_forward": 13
         }
       ]
     }

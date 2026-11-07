@@ -20780,7 +20780,22 @@
       "storyArt": "frage",
       "thema": null,
       "fach": "est",
-      "titel": ""
+      "titel": "",
+      "insights": {
+        "reach": 13,
+        "views": 18,
+        "shares": 0,
+        "total_interactions": 0,
+        "replies": 0,
+        "follows": 0,
+        "profile_visits": 0,
+        "profile_activity": 0,
+        "navigation": 14,
+        "navigation_tap_forward": 13,
+        "navigation_swipe_forward": 1
+      },
+      "insightsStand": "2026-11-07T07:30:21.786Z",
+      "insightsAlterStunden": 1.4
     },
     {
       "datum": "2026-11-07",
@@ -20795,7 +20810,22 @@
       "titel": [
         "B: 0,38 €",
         "ab km 1"
-      ]
+      ],
+      "insights": {
+        "reach": 12,
+        "views": 17,
+        "shares": 0,
+        "total_interactions": 0,
+        "replies": 0,
+        "follows": 0,
+        "profile_visits": 0,
+        "profile_activity": 0,
+        "navigation": 14,
+        "navigation_tap_back": 1,
+        "navigation_tap_forward": 13
+      },
+      "insightsStand": "2026-11-07T07:30:21.786Z",
+      "insightsAlterStunden": 1.4
     },
     {
       "datum": "2026-11-07",
