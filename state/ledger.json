@@ -21019,6 +21019,21 @@
       },
       "insightsStand": "2026-11-07T14:45:25.967Z",
       "insightsAlterStunden": 1.1
+    },
+    {
+      "datum": "2026-11-07",
+      "slot": "s8",
+      "medienId": "18173856940457716",
+      "veroeffentlicht": "2026-11-07T16:04:03.949Z",
+      "quelle": "vorproduktion",
+      "art": "story",
+      "storyArt": "tipp",
+      "thema": "ust-aufb-ust-m-b06-6",
+      "fach": "ust",
+      "titel": [
+        "Leistender aus",
+        "dem Ausland?"
+      ]
     }
   ],
   "fachZaehler": {
