@@ -18671,7 +18671,7 @@
         "#internationalessteuerrecht"
       ],
       "insights": {
-        "reach": 122,
+        "reach": 124,
         "saved": 4,
         "shares": 0,
         "likes": 5,
@@ -18680,8 +18680,8 @@
         "follows": 0,
         "profile_visits": 1
       },
-      "insightsStand": "2026-11-06T09:46:08.650Z",
-      "insightsAlterStunden": 93.3
+      "insightsStand": "2026-11-07T10:45:27.507Z",
+      "insightsAlterStunden": 118.3
     },
     {
       "datum": "2026-11-02",
@@ -20455,22 +20455,22 @@
         "nach dem AStG?"
       ],
       "insights": {
-        "reach": 57,
-        "views": 66,
+        "reach": 72,
+        "views": 83,
         "shares": 0,
         "total_interactions": 1,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 57,
-        "navigation_tap_back": 2,
-        "navigation_swipe_forward": 4,
-        "navigation_tap_forward": 43,
-        "navigation_tap_exit": 8
+        "navigation": 76,
+        "navigation_tap_exit": 11,
+        "navigation_tap_forward": 54,
+        "navigation_swipe_forward": 7,
+        "navigation_tap_back": 4
       },
-      "insightsStand": "2026-11-07T07:45:26.752Z",
-      "insightsAlterStunden": 20.5
+      "insightsStand": "2026-11-07T10:45:26.252Z",
+      "insightsAlterStunden": 23.5
     },
     {
       "datum": "2026-11-06",
