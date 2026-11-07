@@ -20947,7 +20947,19 @@
         "#steuerberaterprüfung",
         "#examensvorbereitung",
         "#erbschaftsteuer"
-      ]
+      ],
+      "insights": {
+        "reach": 45,
+        "saved": 0,
+        "shares": 0,
+        "likes": 0,
+        "comments": 0,
+        "total_interactions": 0,
+        "follows": 0,
+        "profile_visits": 0
+      },
+      "insightsStand": "2026-11-07T13:40:06.786Z",
+      "insightsAlterStunden": 1.2
     },
     {
       "datum": "2026-11-07",
@@ -20961,7 +20973,22 @@
       "fach": "erbst",
       "titel": [
         "Zwei Schenkungen, ein Freibetrag"
-      ]
+      ],
+      "insights": {
+        "reach": 13,
+        "views": 16,
+        "shares": 0,
+        "total_interactions": 0,
+        "replies": 0,
+        "follows": 0,
+        "profile_visits": 0,
+        "profile_activity": 0,
+        "navigation": 15,
+        "navigation_tap_forward": 12,
+        "navigation_tap_exit": 3
+      },
+      "insightsStand": "2026-11-07T13:40:05.162Z",
+      "insightsAlterStunden": 1.2
     },
     {
       "datum": "2026-11-07",

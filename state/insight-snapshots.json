@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "stand": "2026-11-07T12:45:27.617Z",
+  "stand": "2026-11-07T13:40:07.430Z",
   "medien": {
     "18093399314208242": {
       "art": "beitrag",
@@ -66982,6 +66982,59 @@
           "navigation_tap_forward": 11
         }
       ]
+    },
+    "18132955216692568": {
+      "art": "story",
+      "datum": "2026-11-07",
+      "titel": [
+        "Zwei Schenkungen, ein Freibetrag"
+      ],
+      "format": null,
+      "fach": "erbst",
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-11-07T12:30:16.899Z",
+      "snapshots": [
+        {
+          "stand": "2026-11-07T13:40:05.162Z",
+          "alterStunden": 1.2,
+          "reach": 13,
+          "views": 16,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 15,
+          "navigation_tap_forward": 12,
+          "navigation_tap_exit": 3
+        }
+      ]
+    },
+    "18127057864683434": {
+      "art": "beitrag",
+      "datum": "2026-11-07",
+      "titel": "Rechenweg",
+      "format": "rechenweg",
+      "fach": "erbst",
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-11-07T12:30:05.266Z",
+      "snapshots": [
+        {
+          "stand": "2026-11-07T13:40:06.786Z",
+          "alterStunden": 1.2,
+          "reach": 45,
+          "saved": 0,
+          "shares": 0,
+          "likes": 0,
+          "comments": 0,
+          "total_interactions": 0,
+          "follows": 0,
+          "profile_visits": 0
+        }
+      ]
     }
   },
   "konto": [
@@ -70462,6 +70515,11 @@
     },
     {
       "stand": "2026-11-07T12:45:27.617Z",
+      "follower": 545,
+      "medien": 200
+    },
+    {
+      "stand": "2026-11-07T13:40:07.430Z",
       "follower": 545,
       "medien": 200
     }
