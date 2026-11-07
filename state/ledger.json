@@ -21034,6 +21034,28 @@
         "Leistender aus",
         "dem Ausland?"
       ]
+    },
+    {
+      "datum": "2026-11-07",
+      "slot": "b3",
+      "medienId": "18188373745422232",
+      "veroeffentlicht": "2026-11-07T16:30:08.454Z",
+      "quelle": "vorproduktion",
+      "art": "beitrag",
+      "zeit": "17:30",
+      "stunde": 17,
+      "format": "reel",
+      "thema": "est-aufb-est-ks2-23-02",
+      "fach": "est",
+      "klausur": 2,
+      "titel": "Warum § 23 EStG immer zuletzt geprüft wird",
+      "hookTyp": null,
+      "hashtags": [
+        "#steuerberaterexamen",
+        "#steuerberaterprüfung",
+        "#examensvorbereitung",
+        "#einkommensteuer"
+      ]
     }
   ],
   "fachZaehler": {
@@ -21045,7 +21067,7 @@
     "istr": 23,
     "erbst": 14,
     "mindset": 2,
-    "est": 9,
+    "est": 10,
     "umwst": 11,
     "gewst": 5,
     "null": 17
