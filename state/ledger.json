@@ -20911,21 +20911,22 @@
         "KG einbringen"
       ],
       "insights": {
-        "reach": 13,
-        "views": 20,
+        "reach": 39,
+        "views": 55,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 16,
-        "navigation_swipe_forward": 2,
-        "navigation_tap_exit": 3,
-        "navigation_tap_forward": 11
+        "navigation": 46,
+        "navigation_tap_forward": 34,
+        "navigation_tap_exit": 5,
+        "navigation_swipe_forward": 5,
+        "navigation_tap_back": 2
       },
-      "insightsStand": "2026-11-07T12:30:18.069Z",
-      "insightsAlterStunden": 1.3
+      "insightsStand": "2026-11-07T16:45:13.410Z",
+      "insightsAlterStunden": 5.5
     },
     {
       "datum": "2026-11-07",
