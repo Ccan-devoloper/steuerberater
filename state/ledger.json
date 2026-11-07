@@ -20908,6 +20908,28 @@
         "Betrieb in eine",
         "KG einbringen"
       ]
+    },
+    {
+      "datum": "2026-11-07",
+      "slot": "b2",
+      "medienId": "18127057864683434",
+      "veroeffentlicht": "2026-11-07T12:30:05.266Z",
+      "quelle": "vorproduktion",
+      "art": "beitrag",
+      "zeit": "13:30",
+      "stunde": 13,
+      "format": "rechenweg",
+      "thema": "erbst-aufb-erbst-v-31",
+      "fach": "erbst",
+      "klausur": 1,
+      "titel": "Rechenweg",
+      "hookTyp": null,
+      "hashtags": [
+        "#steuerberaterexamen",
+        "#steuerberaterprüfung",
+        "#examensvorbereitung",
+        "#erbschaftsteuer"
+      ]
     }
   ],
   "fachZaehler": {
@@ -20917,7 +20939,7 @@
     "ao": 29,
     "bilanz": 28,
     "istr": 23,
-    "erbst": 13,
+    "erbst": 14,
     "mindset": 2,
     "est": 9,
     "umwst": 11,
