@@ -21140,6 +21140,21 @@
         "Runde verhauen?",
         "So rettest du den Tag"
       ]
+    },
+    {
+      "datum": "2026-11-07",
+      "slot": "s9",
+      "medienId": "18123338611943897",
+      "veroeffentlicht": "2026-11-07T18:12:07.429Z",
+      "quelle": "vorproduktion",
+      "art": "story",
+      "storyArt": "merksatz",
+      "thema": "est-aufb-est-ks1-ein-05",
+      "fach": "est",
+      "titel": [
+        "Splitting nach",
+        "dem Tod?"
+      ]
     }
   ],
   "fachZaehler": {
