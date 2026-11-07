@@ -20781,6 +20781,21 @@
       "thema": null,
       "fach": "est",
       "titel": ""
+    },
+    {
+      "datum": "2026-11-07",
+      "slot": "s5",
+      "medienId": "17913175482305799",
+      "veroeffentlicht": "2026-11-07T06:09:03.575Z",
+      "quelle": "vorproduktion",
+      "art": "story",
+      "storyArt": "antwort",
+      "thema": null,
+      "fach": "est",
+      "titel": [
+        "B: 0,38 €",
+        "ab km 1"
+      ]
     }
   ],
   "fachZaehler": {
