@@ -1186,9 +1186,30 @@
       "renderErzeugtAm": "2026-11-06T07:59:52Z",
       "coverIcons": false,
       "renderer": "open-peeps-v4"
+    },
+    {
+      "datum": "2026-11-21",
+      "status": "vorproduziert",
+      "freigabeBetreiber": true,
+      "liveVerknuepft": false,
+      "vorproduktionStatus": "live-freigegeben",
+      "feed": 3,
+      "storiesEigenstaendig": 6,
+      "teaserAbgeleitet": 3,
+      "wartetLive": 0,
+      "reviewPfad": "vorproduktion/2026-11-21/fertig",
+      "coverbilder": false,
+      "providerKostenUsd": 0,
+      "liveVorrangAktiv": true,
+      "normalbetriebGesperrt": true,
+      "bilderStatus": "open-peeps-render",
+      "renderStatus": "fertig",
+      "renderErzeugtAm": "2026-11-07T07:16:04Z",
+      "coverIcons": false,
+      "renderer": "open-peeps-v4"
     }
   ],
-  "stand": "2026-11-06T07:59:52Z",
+  "stand": "2026-11-07T07:16:04Z",
   "layoutQuelle": "herrjurist",
   "semantikQuelle": "examenscampus",
   "kostenPolicy": {

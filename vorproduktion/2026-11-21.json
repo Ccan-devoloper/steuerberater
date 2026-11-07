@@ -1,0 +1,701 @@
+{
+  "datum": "2026-11-21",
+  "status": "vorproduziert",
+  "freigabeBetreiber": true,
+  "liveVerknuepft": false,
+  "vorproduktionStatus": "live-freigegeben",
+  "layoutQuelle": "open-peeps-variante-c",
+  "semantikQuelle": "examenscampus",
+  "liveVorrangAktiv": true,
+  "normalbetriebGesperrt": true,
+  "bildStatus": "open-peeps-render",
+  "kostenPolicy": {
+    "textUndFaktencheckUsd": 0,
+    "bildgenerierungUsd": 0,
+    "providerKostenUsd": 0,
+    "coverbilder": false,
+    "bildgenerierungErlaubt": false,
+    "reelStimme": "elevenlabs-abo"
+  },
+  "plan": {
+    "beitraege": [
+      {
+        "slot": "b1",
+        "zeit": "08:30",
+        "format": "klausurtechnik",
+        "themaId": "gewst-technik-gewerbesteuerteil",
+        "themaTitel": "Der Gewerbesteuer-Teil der Ertragsteuerklausur: Zeit, Gerüst, Darstellung",
+        "fach": "gewst",
+        "klausur": 2
+      },
+      {
+        "slot": "b2",
+        "zeit": "13:30",
+        "format": "rechenweg",
+        "themaId": "bilanz-aufb-bil-melzer-4-02",
+        "themaTitel": "Mit welchem Wert werden Einlagen und Entnahmen angesetzt?",
+        "fach": "bilanz",
+        "klausur": 3
+      },
+      {
+        "slot": "b3",
+        "zeit": "19:00",
+        "format": "reel",
+        "themaId": "ao-modul-ao-352",
+        "themaTitel": "§ 129 AO: offenbare Unrichtigkeit – Schreib-/Rechenfehler und Übernahmefehler",
+        "fach": "ao",
+        "klausur": 1
+      }
+    ],
+    "stories": [
+      {
+        "slot": "s4",
+        "zeit": "07:07",
+        "art": "frage",
+        "themaId": "ust-quiz-ig-lieferung"
+      },
+      {
+        "slot": "s5",
+        "zeit": "07:09",
+        "art": "antwort",
+        "themaId": "ust-quiz-ig-lieferung"
+      },
+      {
+        "slot": "s1",
+        "zeit": "08:30",
+        "art": "teaser",
+        "beitragSlot": "b1"
+      },
+      {
+        "slot": "s6",
+        "zeit": "12:14",
+        "art": "norm",
+        "themaId": "kst-aufb-kst-t4-56"
+      },
+      {
+        "slot": "s2",
+        "zeit": "13:30",
+        "art": "teaser",
+        "beitragSlot": "b2"
+      },
+      {
+        "slot": "s7",
+        "zeit": "14:40",
+        "art": "tipp"
+      },
+      {
+        "slot": "s8",
+        "zeit": "17:04",
+        "art": "tipp",
+        "themaId": "bilanz-karte-k3-9"
+      },
+      {
+        "slot": "s3",
+        "zeit": "19:00",
+        "art": "teaser",
+        "beitragSlot": "b3"
+      },
+      {
+        "slot": "s9",
+        "zeit": "19:12",
+        "art": "merksatz",
+        "themaId": "ust-modul-ust-178"
+      }
+    ]
+  },
+  "inhalte": {
+    "b1": {
+      "format": "klausurtechnik",
+      "fach": "gewst",
+      "klausur": 2,
+      "fachLabel": "Gewerbesteuer",
+      "themaId": "gewst-technik-gewerbesteuerteil",
+      "caption": "Klausurtechnik für die Ertragsteuerklausur: den Gewerbesteuer-Teil sicher durchziehen. Für den zweiten Anlauf 2027.\n\n▸ Frage genau lesen: Messbetrag, Gewerbesteuer oder Rückstellung?\n▸ Zeit nach Punkten planen: Bei sechs Stunden und 20 % der Punkte rund 70 Minuten.\n▸ Gerüst als Tabelle: Gewinn (§ 7 S. 1 GewStG), Hinzurechnungen (§ 8 GewStG), Kürzungen (§ 9 GewStG), Gewerbeverlust (§ 10a GewStG), Abrundung und Freibetrag (§ 11 Abs. 1 S. 3 GewStG), Steuermesszahl 3,5 % (§ 11 Abs. 2 GewStG).\n▸ Darstellung: je Posten Betrag, Norm, ein Satz; auch Nicht-Anwendbares kurz begründen; Zwischensummen zeigen.\n▸ Typische Punktfresser: Freibetrag von 24.500 € nur für natürliche Personen und Personengesellschaften (§ 11 Abs. 1 S. 3 Nr. 1 GewStG); Hinzurechnung nach § 8 Nr. 1 GewStG erst über 200.000 €; Gewerbeverlust erst nach Hinzurechnungen und Kürzungen (§ 10a S. 1 GewStG).\n\nZum Schluss: § 7 GewStG zum Markieren. Speichern für Klausur 2 📌",
+      "hashtags": [
+        "#steuerberaterexamen",
+        "#steuerberaterprüfung",
+        "#examensvorbereitung",
+        "#gewerbesteuer"
+      ],
+      "quellen": [
+        "§ 7 S. 1 GewStG",
+        "§ 8 Nr. 1 GewStG",
+        "§ 9 GewStG",
+        "§ 10a S. 1 GewStG",
+        "§ 11 Abs. 1 S. 3, Abs. 2 GewStG"
+      ],
+      "slug": "2026-11-21-b1",
+      "kurztitel": "Der Gewerbesteuer-Teil der Ertragsteuerklausur: Zeit, Gerüst, Darstellung",
+      "regelGeprueft": true,
+      "manuellGeprueft": false,
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "open-peeps-render",
+      "renderer": "open-peeps-v4",
+      "liveVorrangAktiv": true,
+      "coverBadge": "Klausurtechnik",
+      "folien": [
+        {
+          "art": "titel",
+          "titel": "Klausurtechnik",
+          "text": "Klausurtechnik · Gewerbesteuer: · Punkte sichern · Strategie · + Markier-Guide § 7 GewStG",
+          "bild": "op-cover"
+        },
+        {
+          "art": "text",
+          "titel": "Gewerbesteuer",
+          "text": "Der Plan für den Teil · Frage genau lesen · Messbetrag, Steuer oder Rückstellung? · Zeit festlegen · nach dem Punkteanteil · Gerüst als Tabelle · eine Zeile je Posten, Norm daneben · Rechenweg sichtbar lassen · so zählen Folgefehler nicht doppelt · Am Ende: § 7 GewStG markiert"
+        },
+        {
+          "art": "text",
+          "titel": "Gewerbesteuer",
+          "text": "Zeit nach Punkten · Sechs Stunden für die ganze Klausur. · Gibt es für die Gewerbesteuer 20 % der Punkte, bleiben rund 70 Minuten. · Zeitlimit an den Rand schreiben und einhalten. · Uhr im Blick."
+        },
+        {
+          "art": "text",
+          "titel": "Gewerbesteuer",
+          "text": "Das Gerüst · Gewinn · § 7 S. 1 · + Hinzurechnungen · § 8 · – Kürzungen · § 9 · – Gewerbeverlust · § 10a · Abrunden, Freibetrag · § 11 Abs. 1 S. 3 · × 3,5 % = Messbetrag · § 11 Abs. 2 · Alle Normen aus dem GewStG"
+        },
+        {
+          "art": "text",
+          "titel": "Gewerbesteuer",
+          "text": "Darstellung, die zählt · Je Posten: Betrag, Norm, ein kurzer Satz. · Auch was nicht greift, kurz abhaken: „keine Kürzung, weil …“. · Zwischensummen hinschreiben, damit Folgefehler bewertbar bleiben. · Sichtbar rechnen!"
+        },
+        {
+          "art": "text",
+          "titel": "Gewerbesteuer",
+          "text": "Typische Punktfresser · Freibetrag von 24.500 € bei der GmbH angesetzt. · § 11 Abs. 1 S. 3 Nr. 1 GewStG · Finanzierungsanteile ohne den Freibetrag von 200.000 € hinzugerechnet. · § 8 Nr. 1 GewStG · Verlustvortrag vor den Kürzungen abgezogen. · § 10a S. 1 GewStG · Kenn ich."
+        },
+        {
+          "art": "text",
+          "titel": "Gewerbesteuer",
+          "text": "Punkteanteil = Zeitanteil · Gerüst als Tabelle, Norm in jede Zeile · Frage lesen, · Zeit setzen, · Gerüst bauen, · sichtbar rechnen. · Speichern für Klausur 2 · Wie viel Zeit planst du ein? · Weiterwischen: § 7 GewStG markiert"
+        },
+        {
+          "art": "text",
+          "titel": "Gewerbesteuer",
+          "text": "§ 7 GewStG Gewerbeertrag (Auszug) · Start: Gewinn · Gerüst! · Randnotiz: § 11 GewStG · Abrunden, Freibetrag, 3,5 %"
+        }
+      ]
+    },
+    "b2": {
+      "format": "rechenweg",
+      "fach": "bilanz",
+      "klausur": 3,
+      "fachLabel": "Bilanzsteuerrecht",
+      "themaId": "bilanz-aufb-bil-melzer-4-02",
+      "caption": "Einlagen und Entnahmen bewerten: der Rechenweg für die Bilanzklausur.\n\n▸ Entnahmen und Einlagen: § 4 Abs. 1 S. 2, 8 EStG.\n▸ Entnahmen sind mit dem Teilwert anzusetzen (§ 6 Abs. 1 Nr. 4 S. 1 EStG); Nutzungsentnahmen mit den darauf entfallenden Kosten; private Kfz-Nutzung nach § 6 Abs. 1 Nr. 4 S. 2 EStG.\n▸ Einlagen sind mit dem Teilwert für den Zeitpunkt der Zuführung anzusetzen, höchstens mit den Anschaffungs- oder Herstellungskosten, wenn das Wirtschaftsgut innerhalb der letzten drei Jahre vor der Zuführung aus dem Privatvermögen angeschafft oder hergestellt wurde (§ 6 Abs. 1 Nr. 5 S. 1 Buchst. a EStG).\n▸ Bei abnutzbaren Wirtschaftsgütern sind diese Kosten um die AfA bis zur Einlage zu kürzen (§ 6 Abs. 1 Nr. 5 S. 2 EStG).\n\nBeispiel: Kauf 01.07.2024 für 36.000 €, Nutzungsdauer 6 Jahre, Einlage 01.07.2026: 36.000 € − 12.000 € = 24.000 € statt Teilwert 30.000 €. Kauf schon am 01.03.2023: mehr als drei Jahre, Einlage zum Teilwert 30.000 €.\n\nZum Schluss: § 6 Abs. 1 Nr. 5 EStG zum Markieren. Speichern für Klausur 3 📌",
+      "hashtags": [
+        "#steuerberaterexamen",
+        "#steuerberaterprüfung",
+        "#examensvorbereitung",
+        "#bilanzsteuerrecht"
+      ],
+      "quellen": [
+        "§ 4 Abs. 1 S. 2, 8 EStG",
+        "§ 6 Abs. 1 Nr. 4 S. 1, 2 EStG",
+        "§ 6 Abs. 1 Nr. 5 S. 1 Buchst. a, S. 2 EStG"
+      ],
+      "slug": "2026-11-21-b2",
+      "kurztitel": "Mit welchem Wert werden Einlagen und Entnahmen angesetzt?",
+      "regelGeprueft": true,
+      "manuellGeprueft": false,
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "open-peeps-render",
+      "renderer": "open-peeps-v4",
+      "liveVorrangAktiv": true,
+      "coverBadge": "Rechenweg",
+      "folien": [
+        {
+          "art": "titel",
+          "titel": "Rechenweg",
+          "text": "Rechenweg · Einlage richtig · bewerten · § 6 Abs. 1 Nr. 4, 5 EStG · Rechenweg · + Markier-Guide § 6 EStG · Teilwert 30.000 € · 24.000 € · Einlagewert",
+          "bild": "op-cover"
+        },
+        {
+          "art": "text",
+          "titel": "Bilanzsteuerrecht",
+          "text": "Der Rechenweg · Was wechselt die Seite? · § 4 Abs. 1 S. 2, 8 EStG · Wirtschaftsgut, Nutzung, Leistung · Entnahme: Teilwert · § 6 Abs. 1 Nr. 4 S. 1 EStG · Einlage: Teilwert, Deckel prüfen · § 6 Abs. 1 Nr. 5 S. 1 EStG · binnen drei Jahren angeschafft? · Abnutzbar: AfA abziehen · § 6 Abs. 1 Nr. 5 S. 2 EStG · Am Ende: § 6 EStG markiert"
+        },
+        {
+          "art": "text",
+          "titel": "Bilanzsteuerrecht",
+          "text": "Entnahmen · Wirtschaftsgüter gehen mit dem Teilwert hinaus. · § 6 Abs. 1 Nr. 4 S. 1 EStG · Nutzungen werden mit den darauf entfallenden Kosten bewertet, nicht mit dem Marktpreis. · Firmenwagen privat: eigene Pauschale. · § 6 Abs. 1 Nr. 4 S. 2 EStG · Raus: Teilwert."
+        },
+        {
+          "art": "text",
+          "titel": "Bilanzsteuerrecht",
+          "text": "Einlagen · Grundsatz: Teilwert im Zeitpunkt der Zuführung. · § 6 Abs. 1 Nr. 5 S. 1 EStG · In den letzten drei Jahren privat angeschafft: höchstens die Anschaffungskosten. · § 6 Abs. 1 Nr. 5 S. 1 Buchst. a EStG · Abnutzbar: Anschaffungskosten um die AfA bis zur Einlage kürzen. · § 6 Abs. 1 Nr. 5 S. 2 EStG · Rein: mit Deckel?"
+        },
+        {
+          "art": "text",
+          "titel": "Bilanzsteuerrecht",
+          "text": "Linas Lieferwagen · § 6 Abs. 1 Nr. 5 S. 1 Buchst. a, S. 2 EStG · Privat gekauft 01.07.2024 · 36.000 € · – AfA 2 von 6 Jahren · – 12.000 € · Fortgeführte Kosten · 24.000 € · Teilwert bei Einlage · 30.000 € · Einlagewert · 24.000 € · Einlage am 01.07.2026: noch keine drei Jahre"
+        },
+        {
+          "art": "text",
+          "titel": "Bilanzsteuerrecht",
+          "text": "Jetzt du · Variante: Lina hat den Wagen schon am 01.03.2023 gekauft. · Einlage wieder am 01.07.2026, Teilwert 30.000 €. · Mit welchem Wert legt sie ein? · MÄRZ · 1 · 2023 gekauft · JULI · 1 · 2026 eingelegt"
+        },
+        {
+          "art": "text",
+          "titel": "Bilanzsteuerrecht",
+          "text": "Lösung · Zwischen Kauf und Einlage liegen mehr als drei Jahre. · § 6 Abs. 1 Nr. 5 S. 1 Buchst. a EStG · Der Deckel greift nicht: Einlage zum Teilwert von 30.000 €. · § 6 Abs. 1 Nr. 5 S. 1 EStG · Drei Jahre genau nachzählen · 30.000 €!"
+        },
+        {
+          "art": "text",
+          "titel": "Bilanzsteuerrecht",
+          "text": "Binnen drei Jahren: Kosten minus AfA · 24.000 € statt Teilwert 30.000 € · Entnahme: Teilwert, · Einlage: Teilwert, · drei Jahre: Deckel, · AfA abziehen. · Speichern für Klausur 3 · Deckel schon mal vergessen? · Weiterwischen: § 6 EStG markiert"
+        },
+        {
+          "art": "text",
+          "titel": "Bilanzsteuerrecht",
+          "text": "§ 6 Abs. 1 Nr. 5 EStG (Auszug) · Grundsatz · Deckel · Frist · AfA weg · Randnotiz: § 6 Abs. 1 Nr. 4 EStG · Entnahmen zum Teilwert"
+        }
+      ]
+    },
+    "b3": {
+      "format": "reel",
+      "fach": "ao",
+      "klausur": 1,
+      "fachLabel": "Abgabenordnung",
+      "themaId": "ao-modul-ao-352",
+      "caption": "Fehler aus der Steuererklärung übernommen: § 129 AO oder § 173a AO? 🔍\n\n▸ § 129 AO erfasst offenbare Unrichtigkeiten, die beim Erlass des Verwaltungsakts unterlaufen sind (§ 129 S. 1 AO). Übernimmt das Finanzamt einen Fehler aus der Erklärung, der für es erkennbar war, macht es ihn sich zu eigen.\n▸ War der Schreib- oder Rechenfehler des Steuerpflichtigen für das Finanzamt nicht erkennbar, ist der Bescheid nach § 173a AO zu ändern, soweit dadurch rechtserhebliche Tatsachen unzutreffend mitgeteilt wurden.\n▸ In beiden Fällen endet die Festsetzungsfrist insoweit nicht vor Ablauf eines Jahres nach Bekanntgabe des Bescheids (§ 171 Abs. 2 S. 1, 2 AO).\n\nSpeichern für Klausur 1 📌",
+      "hashtags": [
+        "#steuerberaterexamen",
+        "#steuerberaterprüfung",
+        "#examensvorbereitung",
+        "#abgabenordnung"
+      ],
+      "quellen": [
+        "§ 129 S. 1 AO",
+        "§ 173a AO",
+        "§ 171 Abs. 2 S. 1, 2 AO"
+      ],
+      "slug": "2026-11-21-b3",
+      "kurztitel": "§ 129 AO: offenbare Unrichtigkeit – Schreib-/Rechenfehler und Übernahmefehler",
+      "regelGeprueft": true,
+      "manuellGeprueft": false,
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "open-peeps-render",
+      "renderer": "open-peeps-v4",
+      "liveVorrangAktiv": true,
+      "bild": "op-cover",
+      "reelTyp": "gegensatz",
+      "hookStil": "split",
+      "coverBadge": "Reel",
+      "szenen": [
+        {
+          "art": "hook",
+          "titel": "Fehler übernommen: 129 oder 173a?"
+        },
+        {
+          "art": "schritt",
+          "titel": "Erkennbar"
+        },
+        {
+          "art": "schritt",
+          "titel": "Nicht erkennbar"
+        },
+        {
+          "art": "schritt",
+          "titel": "Die Frist"
+        }
+      ],
+      "sprecher": [
+        "Zahlendreher in der Erklärung, das Amt übernimmt ihn. Wer hilft: hundertneunundzwanzig oder hundertdreiundsiebzig a?",
+        "War der Fehler für das Amt erkennbar, etwa aus der Anlage, macht es ihn sich zu eigen. Dann greift hundertneunundzwanzig.",
+        "War er nicht erkennbar, weil die richtige Zahl nur in deinen Unterlagen stand, hilft hundertdreiundsiebzig a.",
+        "In beiden Fällen endet die Festsetzungsfrist nicht vor einem Jahr nach Bekanntgabe.",
+        "Merke: erkennbar, hundertneunundzwanzig. Nicht erkennbar, hundertdreiundsiebzig a."
+      ],
+      "dauerS": 36.49,
+      "tempo": 1.0
+    },
+    "s4": {
+      "slot": "s4",
+      "art": "frage",
+      "fach": "ust",
+      "klausur": 1,
+      "fachLabel": "Umsatzsteuer",
+      "themaId": "ust-quiz-ig-lieferung",
+      "beitragSlot": null,
+      "quellen": null,
+      "frage": [
+        "Innergemeinschaftliche",
+        "Lieferung: steuerfrei nach?"
+      ],
+      "optionen": [
+        "§ 4 Nr. 1 Buchst. b UStG",
+        "§ 4 Nr. 8 UStG",
+        "§ 13b UStG"
+      ],
+      "pairId": "ust-quiz-ig-lieferung",
+      "sichtbareTexte": [
+        "Umsatzsteuer",
+        "Prüfungsfrage",
+        "Innergemeinschaftliche",
+        "Lieferung: steuerfrei nach?",
+        "§ 4 Nr. 1 Buchst. b UStG",
+        "§ 4 Nr. 8 UStG",
+        "§ 13b UStG",
+        "Auflösung in der nächsten Story"
+      ],
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
+      "liveVorrangAktiv": true,
+      "regelGeprueft": true
+    },
+    "s5": {
+      "slot": "s5",
+      "art": "antwort",
+      "fach": "ust",
+      "klausur": 1,
+      "fachLabel": "Umsatzsteuer",
+      "themaId": "ust-quiz-ig-lieferung",
+      "beitragSlot": null,
+      "quellen": null,
+      "titel": [
+        "A: § 4 Nr. 1",
+        "Buchst. b UStG"
+      ],
+      "optionen": [
+        "§ 4 Nr. 1 Buchst. b UStG",
+        "§ 4 Nr. 8 UStG",
+        "§ 13b UStG"
+      ],
+      "richtig": 0,
+      "text": "Die Voraussetzungen stehen in § 6a. Ohne Zusammenfassende Meldung keine Befreiung.",
+      "norm": "§ 4 Nr. 1 Buchst. b, § 6a UStG",
+      "pairId": "ust-quiz-ig-lieferung",
+      "sichtbareTexte": [
+        "Umsatzsteuer",
+        "Auflösung",
+        "A: § 4 Nr. 1",
+        "Buchst. b UStG",
+        "§ 4 Nr. 1 Buchst. b UStG",
+        "§ 4 Nr. 8 UStG",
+        "§ 13b UStG",
+        "Die Voraussetzungen stehen in § 6a. Ohne Zusammenfassende Meldung keine Befreiung.",
+        "§ 4 Nr. 1 Buchst. b, § 6a UStG"
+      ],
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
+      "liveVorrangAktiv": true,
+      "regelGeprueft": true
+    },
+    "s1": {
+      "slot": "s1",
+      "art": "teaser",
+      "fach": "gewst",
+      "klausur": 2,
+      "fachLabel": "Gewerbesteuer",
+      "themaId": null,
+      "beitragSlot": "b1",
+      "quellen": null,
+      "titel": [
+        "Gewerbesteuer: Punkte sichern"
+      ],
+      "unter": "Klausurtechnik + Markier-Guide · im Profil",
+      "sichtbareTexte": [
+        "Gewerbesteuer",
+        "Neu im Feed",
+        "Gewerbesteuer: Punkte sichern",
+        "Klausurtechnik + Markier-Guide · im Profil"
+      ],
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
+      "liveVorrangAktiv": true,
+      "regelGeprueft": true
+    },
+    "s6": {
+      "slot": "s6",
+      "art": "norm",
+      "fach": "kst",
+      "klausur": 2,
+      "fachLabel": "Körperschaftsteuer",
+      "themaId": "kst-aufb-kst-t4-56",
+      "beitragSlot": null,
+      "quellen": null,
+      "titel": [
+        "Pensionszusage:",
+        "75-%-Grenze"
+      ],
+      "norm": "BMF vom 03.11.2004",
+      "punkte": [
+        [
+          "Zusage plus gesetzliche Rente über 75 % der Aktivbezüge: Überversorgung.",
+          "warn",
+          null
+        ],
+        [
+          "Festbetrag: Rückstellung kürzen. Ohne laufendes Gehalt: ganz auflösen.",
+          "ok",
+          null
+        ]
+      ],
+      "sichtbareTexte": [
+        "Körperschaftsteuer",
+        "Norm des Tages",
+        "Pensionszusage:",
+        "75-%-Grenze",
+        "BMF vom 03.11.2004",
+        "Zusage plus gesetzliche Rente über 75 % der Aktivbezüge: Überversorgung.",
+        "Festbetrag: Rückstellung kürzen. Ohne laufendes Gehalt: ganz auflösen."
+      ],
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
+      "liveVorrangAktiv": true,
+      "regelGeprueft": true
+    },
+    "s2": {
+      "slot": "s2",
+      "art": "teaser",
+      "fach": "bilanz",
+      "klausur": 3,
+      "fachLabel": "Bilanzsteuerrecht",
+      "themaId": null,
+      "beitragSlot": "b2",
+      "quellen": null,
+      "titel": [
+        "Einlage richtig bewerten"
+      ],
+      "unter": "Rechenweg + Markier-Guide · im Profil",
+      "sichtbareTexte": [
+        "Bilanzsteuerrecht",
+        "Neu im Feed",
+        "Einlage richtig bewerten",
+        "Rechenweg + Markier-Guide · im Profil"
+      ],
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
+      "liveVorrangAktiv": true,
+      "regelGeprueft": true
+    },
+    "s7": {
+      "slot": "s7",
+      "art": "tipp",
+      "fach": null,
+      "klausur": 0,
+      "fachLabel": "Klausurtechnik",
+      "themaId": null,
+      "beitragSlot": null,
+      "quellen": null,
+      "titel": [
+        "Die letzten",
+        "15 Minuten"
+      ],
+      "punkte": [
+        [
+          "Offene Teile mit Ergebnis und Norm retten.",
+          "ok",
+          null
+        ],
+        [
+          "Keinen neuen Teil ohne Plan beginnen.",
+          "warn",
+          null
+        ],
+        [
+          "Kennziffer auf jedem Blatt prüfen.",
+          "ok",
+          null
+        ]
+      ],
+      "icon": "tabler:hourglass",
+      "iconFarbe": "GELB",
+      "sichtbareTexte": [
+        "Klausurtechnik",
+        "Klausurtipp",
+        "Die letzten",
+        "15 Minuten",
+        "Offene Teile mit Ergebnis und Norm retten.",
+        "Keinen neuen Teil ohne Plan beginnen.",
+        "Kennziffer auf jedem Blatt prüfen."
+      ],
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
+      "liveVorrangAktiv": true,
+      "regelGeprueft": true
+    },
+    "s8": {
+      "slot": "s8",
+      "art": "tipp",
+      "fach": "bilanz",
+      "klausur": 3,
+      "fachLabel": "Bilanzsteuerrecht",
+      "themaId": "bilanz-karte-k3-9",
+      "beitragSlot": null,
+      "quellen": null,
+      "titel": [
+        "Aktiver RAP:",
+        "die Merkmale"
+      ],
+      "punkte": [
+        [
+          "Ausgabe vor dem Stichtag",
+          "ok",
+          null
+        ],
+        [
+          "Aufwand für eine bestimmte Zeit danach",
+          "ok",
+          "§ 5 Abs. 5 S. 1 Nr. 1 EStG"
+        ],
+        [
+          "Bis 800 €: Wahlrecht, darauf verzichten",
+          "warn",
+          "§ 5 Abs. 5 S. 2 EStG"
+        ]
+      ],
+      "icon": "tabler:calendar-time",
+      "iconFarbe": "GELB",
+      "sichtbareTexte": [
+        "Bilanzsteuerrecht",
+        "Klausurtipp",
+        "Aktiver RAP:",
+        "die Merkmale",
+        "Ausgabe vor dem Stichtag",
+        "Aufwand für eine bestimmte Zeit danach",
+        "§ 5 Abs. 5 S. 1 Nr. 1 EStG",
+        "Bis 800 €: Wahlrecht, darauf verzichten",
+        "§ 5 Abs. 5 S. 2 EStG"
+      ],
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
+      "liveVorrangAktiv": true,
+      "regelGeprueft": true
+    },
+    "s3": {
+      "slot": "s3",
+      "art": "teaser",
+      "fach": "ao",
+      "klausur": 1,
+      "fachLabel": "Abgabenordnung",
+      "themaId": null,
+      "beitragSlot": "b3",
+      "quellen": null,
+      "titel": [
+        "129 oder 173a?"
+      ],
+      "unter": "Neues Reel · im Profil",
+      "sichtbareTexte": [
+        "Abgabenordnung",
+        "Neu im Feed",
+        "129 oder 173a?",
+        "Neues Reel · im Profil"
+      ],
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
+      "liveVorrangAktiv": true,
+      "regelGeprueft": true
+    },
+    "s9": {
+      "slot": "s9",
+      "art": "merksatz",
+      "fach": "ust",
+      "klausur": 1,
+      "fachLabel": "Umsatzsteuer",
+      "themaId": "ust-modul-ust-178",
+      "beitragSlot": null,
+      "quellen": null,
+      "titel": [
+        "Reihengeschäft:",
+        "nur eine bewegt"
+      ],
+      "zeilen": [
+        [
+          [
+            "Eine",
+            null
+          ],
+          [
+            " bewegte",
+            "a"
+          ],
+          [
+            " Lieferung,",
+            null
+          ]
+        ],
+        [
+          [
+            "davor",
+            "b"
+          ],
+          [
+            ": Abgangsort,",
+            null
+          ]
+        ],
+        [
+          [
+            "danach",
+            "c"
+          ],
+          [
+            ": Ankunftsort.",
+            null
+          ]
+        ]
+      ],
+      "norm": "§ 3 Abs. 6a S. 1, Abs. 7 S. 2 UStG",
+      "sichtbareTexte": [
+        "Umsatzsteuer",
+        "Merksatz",
+        "Reihengeschäft:",
+        "nur eine bewegt",
+        "Eine bewegte Lieferung,",
+        "davor: Abgangsort,",
+        "danach: Ankunftsort.",
+        "§ 3 Abs. 6a S. 1, Abs. 7 S. 2 UStG"
+      ],
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
+      "liveVorrangAktiv": true,
+      "regelGeprueft": true
+    }
+  },
+  "renderVorschau": {
+    "status": "fertig",
+    "erzeugtAm": "2026-11-07T07:16:04Z",
+    "pfad": "vorproduktion/2026-11-21/fertig",
+    "providerKostenUsd": 0,
+    "coverbilder": false,
+    "coverIcons": false,
+    "renderer": "open-peeps-v4",
+    "layoutQuelle": "open-peeps-variante-c",
+    "reelStimme": "elevenlabs-laura",
+    "sfx": "freesound-cc0",
+    "freigabeBetreiber": true,
+    "liveVorrangAktiv": true,
+    "normalbetriebGesperrt": true,
+    "wartetLive": []
+  }
+}
