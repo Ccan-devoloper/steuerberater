@@ -20455,22 +20455,22 @@
         "nach dem AStG?"
       ],
       "insights": {
-        "reach": 50,
-        "views": 57,
+        "reach": 57,
+        "views": 66,
         "shares": 0,
         "total_interactions": 1,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 51,
-        "navigation_tap_exit": 7,
-        "navigation_tap_forward": 40,
-        "navigation_swipe_forward": 2,
-        "navigation_tap_back": 2
+        "navigation": 57,
+        "navigation_tap_back": 2,
+        "navigation_swipe_forward": 4,
+        "navigation_tap_forward": 43,
+        "navigation_tap_exit": 8
       },
-      "insightsStand": "2026-11-07T05:44:47.826Z",
-      "insightsAlterStunden": 18.5
+      "insightsStand": "2026-11-07T07:45:26.752Z",
+      "insightsAlterStunden": 20.5
     },
     {
       "datum": "2026-11-06",
