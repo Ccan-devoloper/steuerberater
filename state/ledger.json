@@ -20796,6 +20796,28 @@
         "B: 0,38 €",
         "ab km 1"
       ]
+    },
+    {
+      "datum": "2026-11-07",
+      "slot": "b1",
+      "medienId": "18194772997395880",
+      "veroeffentlicht": "2026-11-07T07:30:05.999Z",
+      "quelle": "vorproduktion",
+      "art": "beitrag",
+      "zeit": "08:30",
+      "stunde": 8,
+      "format": "klausurtechnik",
+      "thema": null,
+      "fach": "bilanz",
+      "klausur": 3,
+      "titel": "Klausurtechnik",
+      "hookTyp": null,
+      "hashtags": [
+        "#steuerberaterexamen",
+        "#steuerberaterprüfung",
+        "#examensvorbereitung",
+        "#bilanzsteuerrecht"
+      ]
     }
   ],
   "fachZaehler": {
