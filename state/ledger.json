@@ -20520,22 +20520,22 @@
         "Verschmelzung: Buchwert erlaubt?"
       ],
       "insights": {
-        "reach": 48,
-        "views": 57,
+        "reach": 65,
+        "views": 75,
         "shares": 0,
         "total_interactions": 1,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 54,
-        "navigation_swipe_forward": 5,
-        "navigation_tap_exit": 6,
-        "navigation_tap_forward": 40,
-        "navigation_tap_back": 3
+        "navigation": 72,
+        "navigation_tap_back": 4,
+        "navigation_tap_forward": 53,
+        "navigation_tap_exit": 8,
+        "navigation_swipe_forward": 7
       },
-      "insightsStand": "2026-11-07T05:44:47.826Z",
-      "insightsAlterStunden": 16.5
+      "insightsStand": "2026-11-07T09:44:54.980Z",
+      "insightsAlterStunden": 20.5
     },
     {
       "datum": "2026-11-06",
@@ -20552,22 +20552,22 @@
         "dann schreiben"
       ],
       "insights": {
-        "reach": 44,
-        "views": 57,
+        "reach": 60,
+        "views": 74,
         "shares": 0,
         "total_interactions": 1,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 52,
-        "navigation_tap_back": 3,
+        "navigation": 69,
+        "navigation_tap_exit": 8,
+        "navigation_tap_forward": 55,
         "navigation_swipe_forward": 2,
-        "navigation_tap_forward": 41,
-        "navigation_tap_exit": 6
+        "navigation_tap_back": 4
       },
-      "insightsStand": "2026-11-07T05:44:47.826Z",
-      "insightsAlterStunden": 16.1
+      "insightsStand": "2026-11-07T09:44:54.980Z",
+      "insightsAlterStunden": 20.1
     },
     {
       "datum": "2026-11-06",
@@ -20584,22 +20584,22 @@
         "Vorjahr?"
       ],
       "insights": {
-        "reach": 43,
-        "views": 59,
+        "reach": 55,
+        "views": 73,
         "shares": 0,
         "total_interactions": 1,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 54,
-        "navigation_tap_exit": 7,
-        "navigation_tap_forward": 38,
+        "navigation": 68,
+        "navigation_tap_exit": 8,
+        "navigation_tap_forward": 49,
         "navigation_swipe_forward": 2,
-        "navigation_tap_back": 7
+        "navigation_tap_back": 9
       },
-      "insightsStand": "2026-11-07T05:44:47.826Z",
-      "insightsAlterStunden": 13.7
+      "insightsStand": "2026-11-07T09:44:54.980Z",
+      "insightsAlterStunden": 17.7
     },
     {
       "datum": "2026-11-06",
@@ -20689,22 +20689,22 @@
         "Café verkauft: Umsatzsteuer?"
       ],
       "insights": {
-        "reach": 39,
-        "views": 51,
+        "reach": 50,
+        "views": 67,
         "shares": 0,
         "total_interactions": 1,
         "replies": 0,
         "follows": 0,
-        "profile_visits": 0,
+        "profile_visits": 1,
         "profile_activity": 0,
-        "navigation": 49,
+        "navigation": 64,
         "navigation_tap_back": 8,
-        "navigation_tap_forward": 33,
-        "navigation_tap_exit": 7,
-        "navigation_swipe_forward": 1
+        "navigation_tap_forward": 46,
+        "navigation_tap_exit": 8,
+        "navigation_swipe_forward": 2
       },
-      "insightsStand": "2026-11-07T05:44:47.826Z",
-      "insightsAlterStunden": 11.7
+      "insightsStand": "2026-11-07T09:44:54.980Z",
+      "insightsAlterStunden": 15.7
     },
     {
       "datum": "2026-11-06",
@@ -20721,22 +20721,22 @@
         "rettet deine Runde"
       ],
       "insights": {
-        "reach": 33,
-        "views": 45,
+        "reach": 49,
+        "views": 63,
         "shares": 0,
         "total_interactions": 1,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 38,
-        "navigation_swipe_forward": 1,
-        "navigation_tap_back": 3,
-        "navigation_tap_exit": 4,
-        "navigation_tap_forward": 30
+        "navigation": 55,
+        "navigation_swipe_forward": 2,
+        "navigation_tap_back": 6,
+        "navigation_tap_exit": 6,
+        "navigation_tap_forward": 41
       },
-      "insightsStand": "2026-11-07T05:44:47.826Z",
-      "insightsAlterStunden": 11.7
+      "insightsStand": "2026-11-07T09:44:54.980Z",
+      "insightsAlterStunden": 15.7
     },
     {
       "datum": "2026-11-06",
@@ -20753,22 +20753,22 @@
         "dann Pause?"
       ],
       "insights": {
-        "reach": 35,
-        "views": 45,
+        "reach": 46,
+        "views": 57,
         "shares": 0,
         "total_interactions": 1,
         "replies": 0,
         "follows": 0,
         "profile_visits": 2,
         "profile_activity": 1,
-        "navigation": 42,
+        "navigation": 54,
         "navigation_swipe_forward": 1,
-        "navigation_tap_back": 4,
-        "navigation_tap_exit": 6,
-        "navigation_tap_forward": 31
+        "navigation_tap_back": 6,
+        "navigation_tap_exit": 8,
+        "navigation_tap_forward": 39
       },
-      "insightsStand": "2026-11-07T05:44:47.826Z",
-      "insightsAlterStunden": 10.8
+      "insightsStand": "2026-11-07T09:44:54.980Z",
+      "insightsAlterStunden": 14.8
     },
     {
       "datum": "2026-11-07",
@@ -20847,7 +20847,19 @@
         "#steuerberaterprüfung",
         "#examensvorbereitung",
         "#bilanzsteuerrecht"
-      ]
+      ],
+      "insights": {
+        "reach": 51,
+        "saved": 1,
+        "shares": 0,
+        "likes": 0,
+        "comments": 0,
+        "total_interactions": 1,
+        "follows": 0,
+        "profile_visits": 0
+      },
+      "insightsStand": "2026-11-07T09:45:03.368Z",
+      "insightsAlterStunden": 2.2
     },
     {
       "datum": "2026-11-07",

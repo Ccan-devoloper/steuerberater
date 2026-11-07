@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "stand": "2026-11-07T08:45:25.648Z",
+  "stand": "2026-11-07T09:45:03.842Z",
   "medien": {
     "18093399314208242": {
       "art": "beitrag",
@@ -65952,6 +65952,23 @@
           "navigation_tap_exit": 6,
           "navigation_tap_forward": 40,
           "navigation_tap_back": 3
+        },
+        {
+          "stand": "2026-11-07T09:44:54.980Z",
+          "alterStunden": 20.5,
+          "reach": 65,
+          "views": 75,
+          "shares": 0,
+          "total_interactions": 1,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 72,
+          "navigation_tap_back": 4,
+          "navigation_tap_forward": 53,
+          "navigation_tap_exit": 8,
+          "navigation_swipe_forward": 7
         }
       ]
     },
@@ -66033,6 +66050,23 @@
           "navigation_swipe_forward": 2,
           "navigation_tap_forward": 41,
           "navigation_tap_exit": 6
+        },
+        {
+          "stand": "2026-11-07T09:44:54.980Z",
+          "alterStunden": 20.1,
+          "reach": 60,
+          "views": 74,
+          "shares": 0,
+          "total_interactions": 1,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 69,
+          "navigation_tap_exit": 8,
+          "navigation_tap_forward": 55,
+          "navigation_swipe_forward": 2,
+          "navigation_tap_back": 4
         }
       ]
     },
@@ -66171,6 +66205,23 @@
           "navigation_tap_forward": 38,
           "navigation_swipe_forward": 2,
           "navigation_tap_back": 7
+        },
+        {
+          "stand": "2026-11-07T09:44:54.980Z",
+          "alterStunden": 17.7,
+          "reach": 55,
+          "views": 73,
+          "shares": 0,
+          "total_interactions": 1,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 68,
+          "navigation_tap_exit": 8,
+          "navigation_tap_forward": 49,
+          "navigation_swipe_forward": 2,
+          "navigation_tap_back": 9
         }
       ]
     },
@@ -66384,6 +66435,23 @@
           "navigation_tap_forward": 33,
           "navigation_tap_exit": 7,
           "navigation_swipe_forward": 1
+        },
+        {
+          "stand": "2026-11-07T09:44:54.980Z",
+          "alterStunden": 15.7,
+          "reach": 50,
+          "views": 67,
+          "shares": 0,
+          "total_interactions": 1,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 1,
+          "profile_activity": 0,
+          "navigation": 64,
+          "navigation_tap_back": 8,
+          "navigation_tap_forward": 46,
+          "navigation_tap_exit": 8,
+          "navigation_swipe_forward": 2
         }
       ]
     },
@@ -66448,6 +66516,23 @@
           "navigation_tap_back": 3,
           "navigation_tap_exit": 4,
           "navigation_tap_forward": 30
+        },
+        {
+          "stand": "2026-11-07T09:44:54.980Z",
+          "alterStunden": 15.7,
+          "reach": 49,
+          "views": 63,
+          "shares": 0,
+          "total_interactions": 1,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 55,
+          "navigation_swipe_forward": 2,
+          "navigation_tap_back": 6,
+          "navigation_tap_exit": 6,
+          "navigation_tap_forward": 41
         }
       ]
     },
@@ -66514,6 +66599,23 @@
           "navigation_tap_back": 4,
           "navigation_tap_exit": 6,
           "navigation_tap_forward": 31
+        },
+        {
+          "stand": "2026-11-07T09:44:54.980Z",
+          "alterStunden": 14.8,
+          "reach": 46,
+          "views": 57,
+          "shares": 0,
+          "total_interactions": 1,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 2,
+          "profile_activity": 1,
+          "navigation": 54,
+          "navigation_swipe_forward": 1,
+          "navigation_tap_back": 6,
+          "navigation_tap_exit": 8,
+          "navigation_tap_forward": 39
         }
       ]
     },
@@ -66600,6 +66702,30 @@
           "navigation": 9,
           "navigation_tap_forward": 7,
           "navigation_tap_exit": 2
+        }
+      ]
+    },
+    "18194772997395880": {
+      "art": "beitrag",
+      "datum": "2026-11-07",
+      "titel": "Klausurtechnik",
+      "format": "klausurtechnik",
+      "fach": "bilanz",
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-11-07T07:30:05.999Z",
+      "snapshots": [
+        {
+          "stand": "2026-11-07T09:45:03.368Z",
+          "alterStunden": 2.2,
+          "reach": 51,
+          "saved": 1,
+          "shares": 0,
+          "likes": 0,
+          "comments": 0,
+          "total_interactions": 1,
+          "follows": 0,
+          "profile_visits": 0
         }
       ]
     }
@@ -70063,6 +70189,11 @@
     {
       "stand": "2026-11-07T08:45:25.648Z",
       "follower": 542,
+      "medien": 199
+    },
+    {
+      "stand": "2026-11-07T09:45:03.842Z",
+      "follower": 543,
       "medien": 199
     }
   ]
