@@ -12,7 +12,8 @@
       "themaTitel": "Bilanzklausur: Zeit, Aufbau und Darstellung am dritten Tag",
       "fach": "bilanz",
       "klausur": 3,
-      "status": "geplant"
+      "status": "sendet",
+      "sendeversuch": "2026-11-07T07:30:00.096Z"
     },
     {
       "slot": "b2",
