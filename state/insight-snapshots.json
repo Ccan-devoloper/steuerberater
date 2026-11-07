@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "stand": "2026-11-07T05:45:03.741Z",
+  "stand": "2026-11-07T06:09:04.872Z",
   "medien": {
     "18093399314208242": {
       "art": "beitrag",
@@ -55820,6 +55820,18 @@
           "total_interactions": 15,
           "follows": 0,
           "profile_visits": 1
+        },
+        {
+          "stand": "2026-11-07T06:09:04.872Z",
+          "alterStunden": 166.6,
+          "reach": 273,
+          "saved": 6,
+          "shares": 0,
+          "likes": 9,
+          "comments": 0,
+          "total_interactions": 15,
+          "follows": 0,
+          "profile_visits": 1
         }
       ]
     },
@@ -57479,6 +57491,18 @@
           "stand": "2026-11-06T05:46:18.550Z",
           "alterStunden": 118.3,
           "reach": 157,
+          "saved": 2,
+          "shares": 0,
+          "likes": 4,
+          "comments": 0,
+          "total_interactions": 6,
+          "follows": 0,
+          "profile_visits": 1
+        },
+        {
+          "stand": "2026-11-07T06:09:04.872Z",
+          "alterStunden": 142.6,
+          "reach": 162,
           "saved": 2,
           "shares": 0,
           "likes": 4,
@@ -60972,6 +60996,18 @@
           "total_interactions": 6,
           "follows": 0,
           "profile_visits": 1
+        },
+        {
+          "stand": "2026-11-07T06:09:04.872Z",
+          "alterStunden": 94.6,
+          "reach": 162,
+          "saved": 8,
+          "shares": 0,
+          "likes": 1,
+          "comments": 0,
+          "total_interactions": 9,
+          "follows": 0,
+          "profile_visits": 3
         }
       ]
     },
@@ -61337,6 +61373,18 @@
           "likes": 4,
           "comments": 0,
           "total_interactions": 9,
+          "follows": 0,
+          "profile_visits": 5
+        },
+        {
+          "stand": "2026-11-07T06:09:04.872Z",
+          "alterStunden": 89.6,
+          "reach": 156,
+          "saved": 6,
+          "shares": 0,
+          "likes": 4,
+          "comments": 0,
+          "total_interactions": 10,
           "follows": 0,
           "profile_visits": 5
         }
