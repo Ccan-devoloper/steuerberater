@@ -50,7 +50,8 @@
       "slot": "s4",
       "zeit": "07:07",
       "art": "frage",
-      "status": "geplant"
+      "status": "sendet",
+      "sendeversuch": "2026-11-07T06:07:00.062Z"
     },
     {
       "slot": "s5",
