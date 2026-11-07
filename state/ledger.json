@@ -20039,17 +20039,17 @@
         "#körperschaftsteuer"
       ],
       "insights": {
-        "reach": 114,
+        "reach": 120,
         "saved": 3,
         "shares": 0,
         "likes": 5,
         "comments": 0,
         "total_interactions": 8,
         "follows": 0,
-        "profile_visits": 0
+        "profile_visits": 1
       },
-      "insightsStand": "2026-11-07T05:44:59.754Z",
-      "insightsAlterStunden": 41.2
+      "insightsStand": "2026-11-07T14:45:33.199Z",
+      "insightsAlterStunden": 50.3
     },
     {
       "datum": "2026-11-05",
@@ -20167,19 +20167,19 @@
         "#bilanzsteuerrecht"
       ],
       "insights": {
-        "reach": 469,
+        "reach": 475,
         "saved": 5,
         "shares": 2,
         "likes": 10,
         "comments": 0,
         "total_interactions": 17,
-        "views": 608,
-        "ig_reels_avg_watch_time": 8911,
-        "ig_reels_video_view_total_time": 4125952,
+        "views": 619,
+        "ig_reels_avg_watch_time": 8904,
+        "ig_reels_video_view_total_time": 4194064,
         "reels_skip_rate": 64
       },
-      "insightsStand": "2026-11-07T05:44:59.754Z",
-      "insightsAlterStunden": 37.2
+      "insightsStand": "2026-11-07T14:45:33.199Z",
+      "insightsAlterStunden": 46.2
     },
     {
       "datum": "2026-11-05",
@@ -20205,19 +20205,19 @@
         "#steuerberater"
       ],
       "insights": {
-        "reach": 731,
+        "reach": 737,
         "saved": 8,
         "shares": 5,
         "likes": 14,
         "comments": 0,
         "total_interactions": 27,
-        "views": 922,
-        "ig_reels_avg_watch_time": 6843,
-        "ig_reels_video_view_total_time": 5221368,
-        "reels_skip_rate": 69.3
+        "views": 936,
+        "ig_reels_avg_watch_time": 6904,
+        "ig_reels_video_view_total_time": 5330310,
+        "reels_skip_rate": 69.1
       },
-      "insightsStand": "2026-11-07T05:44:59.754Z",
-      "insightsAlterStunden": 35.7
+      "insightsStand": "2026-11-07T14:45:33.199Z",
+      "insightsAlterStunden": 44.8
     },
     {
       "datum": "2026-11-05",
@@ -20397,17 +20397,17 @@
         "#internationalessteuerrecht"
       ],
       "insights": {
-        "reach": 127,
+        "reach": 142,
         "saved": 4,
         "shares": 1,
         "likes": 5,
         "comments": 0,
         "total_interactions": 10,
         "follows": 0,
-        "profile_visits": 0
+        "profile_visits": 1
       },
-      "insightsStand": "2026-11-07T05:44:59.754Z",
-      "insightsAlterStunden": 22.2
+      "insightsStand": "2026-11-07T14:45:33.199Z",
+      "insightsAlterStunden": 31.3
     },
     {
       "datum": "2026-11-06",
@@ -20584,22 +20584,22 @@
         "Vorjahr?"
       ],
       "insights": {
-        "reach": 57,
-        "views": 80,
+        "reach": 61,
+        "views": 87,
         "shares": 0,
-        "total_interactions": 1,
+        "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 73,
+        "navigation": 77,
         "navigation_tap_back": 10,
         "navigation_swipe_forward": 2,
-        "navigation_tap_forward": 53,
+        "navigation_tap_forward": 57,
         "navigation_tap_exit": 8
       },
-      "insightsStand": "2026-11-07T12:30:18.069Z",
-      "insightsAlterStunden": 20.4
+      "insightsStand": "2026-11-07T14:45:25.967Z",
+      "insightsAlterStunden": 22.7
     },
     {
       "datum": "2026-11-06",
@@ -20689,22 +20689,22 @@
         "Café verkauft: Umsatzsteuer?"
       ],
       "insights": {
-        "reach": 50,
-        "views": 67,
+        "reach": 58,
+        "views": 84,
         "shares": 0,
-        "total_interactions": 1,
+        "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 1,
         "profile_activity": 0,
-        "navigation": 64,
-        "navigation_tap_back": 8,
-        "navigation_tap_forward": 46,
-        "navigation_tap_exit": 8,
-        "navigation_swipe_forward": 2
+        "navigation": 76,
+        "navigation_tap_back": 9,
+        "navigation_tap_forward": 55,
+        "navigation_tap_exit": 9,
+        "navigation_swipe_forward": 3
       },
-      "insightsStand": "2026-11-07T09:44:54.980Z",
-      "insightsAlterStunden": 15.7
+      "insightsStand": "2026-11-07T14:45:25.967Z",
+      "insightsAlterStunden": 20.7
     },
     {
       "datum": "2026-11-06",
@@ -20721,22 +20721,22 @@
         "rettet deine Runde"
       ],
       "insights": {
-        "reach": 49,
-        "views": 63,
+        "reach": 58,
+        "views": 80,
         "shares": 0,
-        "total_interactions": 1,
+        "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 55,
-        "navigation_swipe_forward": 2,
+        "navigation": 67,
+        "navigation_tap_forward": 50,
+        "navigation_tap_exit": 8,
         "navigation_tap_back": 6,
-        "navigation_tap_exit": 6,
-        "navigation_tap_forward": 41
+        "navigation_swipe_forward": 3
       },
-      "insightsStand": "2026-11-07T09:44:54.980Z",
-      "insightsAlterStunden": 15.7
+      "insightsStand": "2026-11-07T14:45:25.967Z",
+      "insightsAlterStunden": 20.7
     },
     {
       "datum": "2026-11-06",
@@ -20753,22 +20753,22 @@
         "dann Pause?"
       ],
       "insights": {
-        "reach": 46,
-        "views": 57,
+        "reach": 54,
+        "views": 72,
         "shares": 0,
-        "total_interactions": 1,
+        "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 2,
         "profile_activity": 1,
-        "navigation": 54,
-        "navigation_swipe_forward": 1,
-        "navigation_tap_back": 6,
-        "navigation_tap_exit": 8,
-        "navigation_tap_forward": 39
+        "navigation": 66,
+        "navigation_tap_forward": 48,
+        "navigation_tap_exit": 9,
+        "navigation_tap_back": 7,
+        "navigation_swipe_forward": 2
       },
-      "insightsStand": "2026-11-07T09:44:54.980Z",
-      "insightsAlterStunden": 14.8
+      "insightsStand": "2026-11-07T14:45:25.967Z",
+      "insightsAlterStunden": 19.9
     },
     {
       "datum": "2026-11-07",
@@ -20853,7 +20853,7 @@
         "#bilanzsteuerrecht"
       ],
       "insights": {
-        "reach": 74,
+        "reach": 83,
         "saved": 2,
         "shares": 0,
         "likes": 1,
@@ -20862,8 +20862,8 @@
         "follows": 0,
         "profile_visits": 1
       },
-      "insightsStand": "2026-11-07T11:45:15.748Z",
-      "insightsAlterStunden": 4.3
+      "insightsStand": "2026-11-07T14:45:33.199Z",
+      "insightsAlterStunden": 7.3
     },
     {
       "datum": "2026-11-07",
@@ -21003,7 +21003,22 @@
       "titel": [
         "Die letzten Minuten:",
         "Ernte einfahren"
-      ]
+      ],
+      "insights": {
+        "reach": 14,
+        "views": 17,
+        "shares": 0,
+        "total_interactions": 0,
+        "replies": 0,
+        "follows": 0,
+        "profile_visits": 0,
+        "profile_activity": 0,
+        "navigation": 13,
+        "navigation_tap_exit": 4,
+        "navigation_tap_forward": 9
+      },
+      "insightsStand": "2026-11-07T14:45:25.967Z",
+      "insightsAlterStunden": 1.1
     }
   ],
   "fachZaehler": {
