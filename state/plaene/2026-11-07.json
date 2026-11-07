@@ -97,7 +97,8 @@
       "slot": "s7",
       "zeit": "14:40",
       "art": "tipp",
-      "status": "geplant"
+      "status": "sendet",
+      "sendeversuch": "2026-11-07T13:40:00.063Z"
     },
     {
       "slot": "s8",
