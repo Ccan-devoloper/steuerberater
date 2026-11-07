@@ -48,8 +48,9 @@
       "themaTitel": "Teste dich: Testament am PC geschrieben",
       "fach": null,
       "klausur": 0,
-      "status": "sendet",
-      "sendeversuch": "2026-11-07T18:00:00.007Z"
+      "status": "veroeffentlicht",
+      "medienId": "17917885095521476",
+      "veroeffentlicht": "2026-11-07T18:00:06.979Z"
     }
   ],
   "stories": [

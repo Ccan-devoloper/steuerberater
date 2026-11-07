@@ -21057,6 +21057,30 @@
         "#examensvorbereitung",
         "#einkommensteuer"
       ]
+    },
+    {
+      "datum": "2026-11-07",
+      "slot": "m1",
+      "medienId": "17917885095521476",
+      "veroeffentlicht": "2026-11-07T18:00:06.979Z",
+      "quelle": "vorproduktion",
+      "art": "beitrag",
+      "zeit": "19:00",
+      "stunde": 19,
+      "format": "reel",
+      "thema": "lead-zr-z8",
+      "fach": null,
+      "klausur": 0,
+      "titel": "Teste dich: Testament am PC geschrieben",
+      "hookTyp": null,
+      "hashtags": [
+        "#steuerberaterprüfung",
+        "#steuerberaterexamen",
+        "#mündlicheprüfung",
+        "#examensvorbereitung",
+        "#zivilrecht",
+        "#steuerberater"
+      ]
     }
   ],
   "fachZaehler": {
@@ -21071,7 +21095,7 @@
     "est": 10,
     "umwst": 11,
     "gewst": 5,
-    "null": 17
+    "null": 18
   },
   "nachrichten": [],
   "postfach": [],
