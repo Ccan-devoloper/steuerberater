@@ -1,0 +1,43 @@
+{
+  "slot": "s6",
+  "art": "norm",
+  "fach": "persg",
+  "klausur": 3,
+  "fachLabel": "Personengesellschaften",
+  "themaId": "persg-aufb-persg-melzer-5-3",
+  "beitragSlot": null,
+  "quellen": null,
+  "titel": [
+    "Betrieb in eine",
+    "KG einbringen"
+  ],
+  "norm": "§ 24 Abs. 1 UmwStG",
+  "punkte": [
+    [
+      "Ganzer Betrieb gegen Mitunternehmerstellung: § 24, nicht § 6 Abs. 5 EStG.",
+      "ok",
+      "§ 24 Abs. 1 UmwStG"
+    ],
+    [
+      "Alle wesentlichen Betriebsgrundlagen müssen mit übergehen.",
+      "warn",
+      null
+    ]
+  ],
+  "sichtbareTexte": [
+    "Personengesellschaften",
+    "Norm des Tages",
+    "Betrieb in eine",
+    "KG einbringen",
+    "§ 24 Abs. 1 UmwStG",
+    "Ganzer Betrieb gegen Mitunternehmerstellung: § 24, nicht § 6 Abs. 5 EStG.",
+    "§ 24 Abs. 1 UmwStG",
+    "Alle wesentlichen Betriebsgrundlagen müssen mit übergehen."
+  ],
+  "renderer": "open-peeps-v4",
+  "bildStatus": "open-peeps-render",
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "liveVorrangAktiv": true,
+  "regelGeprueft": true
+}

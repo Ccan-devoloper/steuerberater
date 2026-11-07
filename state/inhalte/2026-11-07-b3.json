@@ -1,0 +1,62 @@
+{
+  "format": "reel",
+  "fach": "est",
+  "klausur": 2,
+  "fachLabel": "Einkommensteuer",
+  "themaId": "est-aufb-est-ks2-23-02",
+  "caption": "Aktien nach sechs Monaten mit Gewinn verkauft – ein privates Veräußerungsgeschäft? Nein. 📈\n\n▸ Einkünfte aus privaten Veräußerungsgeschäften sind den anderen Einkunftsarten zuzurechnen, soweit sie zu diesen gehören (§ 23 Abs. 2 EStG). § 23 ist Auffangnorm und wird zuletzt geprüft.\n▸ Aktien im Privatvermögen: Veräußerungsgewinn nach § 20 Abs. 2 S. 1 Nr. 1 EStG, grundsätzlich Abgeltungsteuer (§ 32d Abs. 1 EStG) – unabhängig von der Haltedauer.\n▸ Beteiligung von mindestens 1 % innerhalb der letzten fünf Jahre: Einkünfte aus Gewerbebetrieb nach § 17 Abs. 1 S. 1 EStG.\n▸ Für § 23 bleiben vor allem Grundstücke mit höchstens zehn Jahren zwischen Anschaffung und Veräußerung (§ 23 Abs. 1 S. 1 Nr. 1 EStG) und andere Wirtschaftsgüter mit höchstens einem Jahr, ohne Gegenstände des täglichen Gebrauchs (§ 23 Abs. 1 S. 1 Nr. 2 EStG).\n\nSpeichern für Klausur 2 📌",
+  "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#einkommensteuer"
+  ],
+  "quellen": [
+    "§ 23 Abs. 1 S. 1 Nr. 1, 2, Abs. 2 EStG",
+    "§ 20 Abs. 2 S. 1 Nr. 1 EStG",
+    "§ 32d Abs. 1 EStG",
+    "§ 17 Abs. 1 S. 1 EStG"
+  ],
+  "slug": "2026-11-07-b3",
+  "kurztitel": "Warum § 23 EStG immer zuletzt geprüft wird",
+  "regelGeprueft": true,
+  "manuellGeprueft": false,
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "textProviderKostenUsd": 0,
+  "faktencheckProviderKostenUsd": 0,
+  "bildStatus": "open-peeps-render",
+  "renderer": "open-peeps-v4",
+  "liveVorrangAktiv": true,
+  "bild": "op-cover",
+  "reelTyp": "gegensatz",
+  "hookStil": "kippen",
+  "coverBadge": "Reel",
+  "szenen": [
+    {
+      "art": "hook",
+      "titel": "Aktien verkauft: Spekulationsgewinn?"
+    },
+    {
+      "art": "schritt",
+      "titel": "Auffangnorm"
+    },
+    {
+      "art": "schritt",
+      "titel": "Aktien: vorrangig"
+    },
+    {
+      "art": "schritt",
+      "titel": "Was für § 23 bleibt"
+    }
+  ],
+  "sprecher": [
+    "Aktien nach sechs Monaten mit Gewinn verkauft. Ein privates Veräußerungsgeschäft? Nein. Paragraf dreiundzwanzig kommt zuletzt.",
+    "Paragraf dreiundzwanzig ist eine Auffangnorm. Erfasst eine andere Einkunftsart den Verkauf, geht sie vor.",
+    "Aktien im Privatvermögen: Paragraf zwanzig, Abgeltungsteuer. Ab einem Prozent Beteiligung: Paragraf siebzehn.",
+    "Übrig bleiben vor allem Grundstücke binnen zehn Jahren und andere Gegenstände binnen eines Jahres.",
+    "Merke: Erst siebzehn und zwanzig, dreiundzwanzig zuletzt."
+  ],
+  "dauerS": 36.88,
+  "tempo": 1
+}

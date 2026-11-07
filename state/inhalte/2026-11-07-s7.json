@@ -1,0 +1,48 @@
+{
+  "slot": "s7",
+  "art": "tipp",
+  "fach": null,
+  "klausur": 0,
+  "fachLabel": "Klausurtechnik",
+  "themaId": null,
+  "beitragSlot": null,
+  "quellen": null,
+  "titel": [
+    "Die letzten Minuten:",
+    "Ernte einfahren"
+  ],
+  "punkte": [
+    [
+      "Offene Teile in Stichworten lösen.",
+      "ok",
+      null
+    ],
+    [
+      "Ergebnisse je Teilaufgabe hervorheben.",
+      "ok",
+      null
+    ],
+    [
+      "Blätter nummerieren, Namen prüfen.",
+      "ok",
+      null
+    ]
+  ],
+  "icon": "tabler:hourglass",
+  "iconFarbe": "GELB",
+  "sichtbareTexte": [
+    "Klausurtechnik",
+    "Klausurtipp",
+    "Die letzten Minuten:",
+    "Ernte einfahren",
+    "Offene Teile in Stichworten lösen.",
+    "Ergebnisse je Teilaufgabe hervorheben.",
+    "Blätter nummerieren, Namen prüfen."
+  ],
+  "renderer": "open-peeps-v4",
+  "bildStatus": "open-peeps-render",
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "liveVorrangAktiv": true,
+  "regelGeprueft": true
+}

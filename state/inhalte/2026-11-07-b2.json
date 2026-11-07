@@ -1,0 +1,79 @@
+{
+  "format": "rechenweg",
+  "fach": "erbst",
+  "klausur": 1,
+  "fachLabel": "Erbschaftsteuer",
+  "themaId": "erbst-aufb-erbst-v-31",
+  "caption": "Zwei Schenkungen, ein Freibetrag: der Rechenweg zur Zusammenrechnung nach § 14 ErbStG.\n\nFall: Bodo schenkt seinem Sohn Linus im März 2019 Wertpapiere für 300.000 € und im Mai 2026 weitere 250.000 €. Freibetrag Kind: 400.000 € (§ 16 Abs. 1 Nr. 2 ErbStG).\n\n1. Zusammenrechnen: Erwerbe von derselben Person innerhalb von zehn Jahren werden dem letzten Erwerb mit ihrem früheren Wert zugerechnet (§ 14 Abs. 1 S. 1 ErbStG): 250.000 € + 300.000 € = 550.000 €, abzüglich 400.000 € = 150.000 €.\n2. Steuer: 150.000 € × 11 % (Steuerklasse I, § 19 Abs. 1 ErbStG) = 16.500 €. Abzuziehen ist die Steuer, die für den Vorerwerb nach heutigen Verhältnissen und heutigem Recht zu erheben gewesen wäre (§ 14 Abs. 1 S. 2 ErbStG): 0 €.\n3. Gegenproben: Ist die tatsächlich gezahlte Steuer höher, wird sie abgezogen (§ 14 Abs. 1 S. 3 ErbStG); die Steuer für den letzten Erwerb allein darf nicht unterschritten werden (§ 14 Abs. 1 S. 4 ErbStG).\nErgebnis: 16.500 € Schenkungsteuer 2026.\n\nKlausurfalle: Wertsteigerungen der früheren Zuwendung spielen keine Rolle – es zählt der frühere Wert.\n\nZum Schluss: § 14 Abs. 1 ErbStG zum Markieren. Speichern für Klausur 1 📌",
+  "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#erbschaftsteuer"
+  ],
+  "quellen": [
+    "§ 14 Abs. 1 S. 1 bis 4 ErbStG",
+    "§ 16 Abs. 1 Nr. 2 ErbStG",
+    "§ 19 Abs. 1 ErbStG"
+  ],
+  "slug": "2026-11-07-b2",
+  "kurztitel": "Zusammenrechnung nach § 14 ErbStG: der Zehnjahreszeitraum",
+  "regelGeprueft": true,
+  "manuellGeprueft": false,
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "textProviderKostenUsd": 0,
+  "faktencheckProviderKostenUsd": 0,
+  "bildStatus": "open-peeps-render",
+  "renderer": "open-peeps-v4",
+  "liveVorrangAktiv": true,
+  "coverBadge": "Rechenweg",
+  "folien": [
+    {
+      "art": "titel",
+      "titel": "Rechenweg",
+      "text": "Rechenweg · Zwei Schenkungen, · ein Freibetrag · § 14 ErbStG · mit Zahlen · + Markier-Guide § 14 ErbStG · 2019 und 2026 · 550.000 € · Steuer?",
+      "bild": "op-cover"
+    },
+    {
+      "art": "text",
+      "titel": "Erbschaftsteuer",
+      "text": "Der Fall · Bodo schenkt seinem Sohn Linus im März 2019 Wertpapiere für 300.000 €. · Im Mai 2026 überweist er ihm weitere 250.000 €. · Freibetrag für ein Kind: 400.000 €. · § 16 Abs. 1 Nr. 2 ErbStG · Ich bin Linus."
+    },
+    {
+      "art": "text",
+      "titel": "Erbschaftsteuer",
+      "text": "Jetzt du · Jede Schenkung für sich läge unter dem Freibetrag. · Wie viel Schenkungsteuer fällt 2026 an? · Bodo hier: Zweimal unter 400.000 €!"
+    },
+    {
+      "art": "text",
+      "titel": "Erbschaftsteuer",
+      "text": "Schritt 1: zusammenrechnen · § 14 Abs. 1 S. 1 ErbStG · § 16 Abs. 1 Nr. 2 ErbStG · Erwerb 2026 · 250.000 € · Erwerb 2019 · + 300.000 € · Summe · 550.000 € · Freibetrag · − 400.000 € · Steuerpflichtig · 150.000 €"
+    },
+    {
+      "art": "text",
+      "titel": "Erbschaftsteuer",
+      "text": "Schritt 2: Steuer · § 14 Abs. 1 S. 2 ErbStG · § 19 Abs. 1 ErbStG · 150.000 € × 11 %, Klasse I · 16.500 € · Steuer auf 2019, heute gerechnet · − 0 € · Schenkungsteuer 2026 · 16.500 € · Doch Steuer!"
+    },
+    {
+      "art": "text",
+      "titel": "Erbschaftsteuer",
+      "text": "Schritt 3: Gegenproben · Abgezogen wird die höhere: fiktive oder tatsächlich gezahlte Steuer. · § 14 Abs. 1 S. 2, 3 ErbStG · Mindestens bleibt die Steuer auf den letzten Erwerb allein. · § 14 Abs. 1 S. 4 ErbStG · Hier beides 0 €: Es bleibt bei 16.500 €. · Also bleibt es?"
+    },
+    {
+      "art": "text",
+      "titel": "Erbschaftsteuer",
+      "text": "Kursgewinn seit 2019? · Die Wertpapiere von 2019 sind heute 500.000 € wert. · Egal: Frühere Erwerbe zählen mit ihrem früheren Wert. · § 14 Abs. 1 S. 1 ErbStG · Damals zählt!"
+    },
+    {
+      "art": "text",
+      "titel": "Erbschaftsteuer",
+      "text": "Linus zahlt 2026: 16.500 € · Der Freibetrag wirkt in zehn Jahren nur einmal · Zehn Jahre zusammenrechnen, · frühere Steuer abziehen, · nie unter den Letzterwerb. · Speichern für Klausur 1 · Prüfst du die Vorerwerbe? · Weiterwischen: § 14 ErbStG markiert"
+    },
+    {
+      "art": "text",
+      "titel": "Erbschaftsteuer",
+      "text": "§ 14 ErbStG (Auszug) · Zeitraum · Wert damals · Recht heute · Untergrenze · Höhere tatsächliche Steuer? · Dann diese abziehen: § 14 Abs. 1 S. 3 ErbStG"
+    }
+  ]
+}

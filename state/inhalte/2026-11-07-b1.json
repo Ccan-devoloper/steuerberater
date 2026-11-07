@@ -1,0 +1,74 @@
+{
+  "format": "klausurtechnik",
+  "fach": "bilanz",
+  "klausur": 3,
+  "fachLabel": "Bilanzsteuerrecht",
+  "themaId": null,
+  "caption": "Bilanzklausur am dritten Tag: So planst du Zeit, Aufbau und Darstellung.\n\n▸ Höchstens sechs Stunden stehen zur Verfügung (§ 18 Abs. 1 S. 3 DVStB). Zuerst die Bearbeitungshinweise lesen, dann die Zeit nach Umfang der Teile verteilen und Endzeiten notieren.\n▸ Mit dem sichersten Teil beginnen: Das bringt Punkte und Ruhe.\n▸ Jeder Sachverhalt im selben Aufbau: Handelsbilanz, dann Steuerbilanz (§ 5 Abs. 1 S. 1 EStG), Ansatz vor Bewertung, Buchungssatz, Gewinnauswirkung.\n▸ Ausführlich nur, wo Probleme liegen; Unstreitiges kurz feststellen.\n▸ Gewinnauswirkungen laufend in einer Tabelle sammeln – sie folgen aus dem Betriebsvermögensvergleich (§ 4 Abs. 1 S. 1 EStG).\n▸ Puffer für Summen und offene Teile lassen.\n\nZum Schluss: § 4 Abs. 1 S. 1 EStG zum Markieren. Speichern für Klausur 3 📌",
+  "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#bilanzsteuerrecht"
+  ],
+  "quellen": [
+    "§ 18 Abs. 1 S. 3 DVStB",
+    "§ 4 Abs. 1 S. 1 EStG",
+    "§ 5 Abs. 1 S. 1 EStG"
+  ],
+  "slug": "2026-11-07-b1",
+  "kurztitel": "Bilanzklausur: Zeit, Aufbau und Darstellung am dritten Tag",
+  "regelGeprueft": true,
+  "manuellGeprueft": false,
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "textProviderKostenUsd": 0,
+  "faktencheckProviderKostenUsd": 0,
+  "bildStatus": "open-peeps-render",
+  "renderer": "open-peeps-v4",
+  "liveVorrangAktiv": true,
+  "coverBadge": "Klausurtechnik",
+  "folien": [
+    {
+      "art": "titel",
+      "titel": "Klausurtechnik",
+      "text": "Klausurtechnik · Bilanzklausur: · so teilst du ein · Strategie Tag 3 · + Markier-Guide § 4 EStG",
+      "bild": "op-cover"
+    },
+    {
+      "art": "text",
+      "titel": "Bilanzsteuerrecht",
+      "text": "Der Plan für den Tag · Lesen und planen · Hinweise zuerst, Zeit je Teil festlegen · Sicherster Teil zuerst · schnelle Punkte, mehr Ruhe · Fester Aufbau je Sachverhalt · Ansatz, Bewertung, Buchung, Gewinn · Puffer am Ende · Ergebnisse und Summen prüfen · Am Ende: § 4 EStG markiert"
+    },
+    {
+      "art": "text",
+      "titel": "Bilanzsteuerrecht",
+      "text": "Zeit einteilen · Die Bearbeitungszeit beträgt höchstens sechs Stunden. · § 18 Abs. 1 S. 3 DVStB · Zeit nach Umfang der Teile verteilen, Endzeiten an den Rand schreiben. · Teil überzogen? Stichworte, dann weiter. · Ich bin Hanno. Uhr im Blick!"
+    },
+    {
+      "art": "text",
+      "titel": "Bilanzsteuerrecht",
+      "text": "Aufbau je Sachverhalt · Erst Handelsbilanz, dann Steuerbilanz. · § 5 Abs. 1 S. 1 EStG · Ansatz vor Bewertung, dann der Buchungssatz. · Gewinnauswirkung immer beziffern. · § 4 Abs. 1 S. 1 EStG · Immer dieselbe Reihenfolge."
+    },
+    {
+      "art": "text",
+      "titel": "Bilanzsteuerrecht",
+      "text": "Ausführlich oder kurz? · Ausführlich · Echte Probleme und Wahlrechte · Abweichung HB und StB · Kurz · Richtig gebucht? Ein Satz genügt. · Unstreitiges nur feststellen · Wo liegen die Punkte?"
+    },
+    {
+      "art": "text",
+      "titel": "Bilanzsteuerrecht",
+      "text": "Gewinn laufend sammeln · Von Anfang an eine Tabelle führen: Sachverhalt, Mehr- oder Wenigergewinn. · Am Ende nur noch addieren statt suchen. · Folgeposten wie Steuerrückstellungen nur anpassen, wenn die Aufgabe es verlangt. · Spart Minuten!"
+    },
+    {
+      "art": "text",
+      "titel": "Bilanzsteuerrecht",
+      "text": "Planen, sicher beginnen, Reserve lassen · Jeder Sachverhalt: HB, StB, Buchung, Gewinn · Plan vor dem ersten Satz, · Aufbau je Sachverhalt, · Gewinn laufend sammeln, · Puffer am Ende. · Speichern für Klausur 3 · Wie viel Puffer planst du? · Weiterwischen: § 4 EStG markiert"
+    },
+    {
+      "art": "text",
+      "titel": "Bilanzsteuerrecht",
+      "text": "§ 4 Abs. 1 EStG (Auszug) · Gewinnauswirkung · Bilanzposten · Entnahme: + · Einlage: − · Jede Bilanzkorrektur · wirkt über das Betriebsvermögen auf den Gewinn"
+    }
+  ]
+}

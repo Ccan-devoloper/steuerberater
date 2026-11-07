@@ -1,0 +1,39 @@
+{
+  "slot": "s5",
+  "art": "antwort",
+  "fach": "est",
+  "klausur": 2,
+  "fachLabel": "Einkommensteuer",
+  "themaId": null,
+  "beitragSlot": null,
+  "quellen": null,
+  "titel": [
+    "B: 0,38 €",
+    "ab km 1"
+  ],
+  "optionen": [
+    "Mehr erst ab km 21",
+    "0,38 € ab km 1",
+    "0,35 € je km"
+  ],
+  "richtig": 1,
+  "text": "Je vollem Entfernungskilometer und Arbeitstag.",
+  "norm": "§ 9 Abs. 1 S. 3 Nr. 4 S. 2 EStG",
+  "sichtbareTexte": [
+    "Einkommensteuer",
+    "Auflösung",
+    "B: 0,38 €",
+    "ab km 1",
+    "Mehr erst ab km 21",
+    "0,38 € ab km 1",
+    "0,35 € je km",
+    "Je vollem Entfernungskilometer und Arbeitstag.",
+    "§ 9 Abs. 1 S. 3 Nr. 4 S. 2 EStG"
+  ],
+  "renderer": "open-peeps-v4",
+  "bildStatus": "open-peeps-render",
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "liveVorrangAktiv": true,
+  "regelGeprueft": true
+}

@@ -1,0 +1,35 @@
+{
+  "slot": "s4",
+  "art": "frage",
+  "fach": "est",
+  "klausur": 2,
+  "fachLabel": "Einkommensteuer",
+  "themaId": null,
+  "beitragSlot": null,
+  "quellen": null,
+  "frage": [
+    "Pendlerpauschale",
+    "seit 2026?"
+  ],
+  "optionen": [
+    "Mehr erst ab km 21",
+    "0,38 € ab km 1",
+    "0,35 € je km"
+  ],
+  "sichtbareTexte": [
+    "Einkommensteuer",
+    "Prüfungsfrage",
+    "Pendlerpauschale",
+    "seit 2026?",
+    "Mehr erst ab km 21",
+    "0,38 € ab km 1",
+    "0,35 € je km",
+    "Auflösung in der nächsten Story"
+  ],
+  "renderer": "open-peeps-v4",
+  "bildStatus": "open-peeps-render",
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "liveVorrangAktiv": true,
+  "regelGeprueft": true
+}

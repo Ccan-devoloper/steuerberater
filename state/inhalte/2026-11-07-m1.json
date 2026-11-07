@@ -1,0 +1,62 @@
+{
+  "format": "reel",
+  "fach": null,
+  "klausur": 0,
+  "fachLabel": "Mündliche · Zivilrecht",
+  "themaId": "lead-zr-z8",
+  "caption": "Teste dich: Testament am PC getippt, aber eigenhändig unterschrieben – wirksam? 📝\n\nA) ja  B) nur mit Datum  C) nein\n\nAuflösung: C. Das eigenhändige Testament muss vollständig eigenhändig geschrieben und unterschrieben sein (§ 2247 Abs. 1 BGB). Gemeinschaftliches Ehegattentestament: Es genügt, wenn ein Ehegatte es eigenhändig schreibt und beide unterschreiben (§ 2267 BGB).\n\nSchreib deine Antwort in die Kommentare 👇 und schick das Reel deinem Lernpartner.\n\nDie 10 häufigsten Fehler der Mündlichen – mit Prüfungsszenen und Lösungen – als Gratis-PDF, ausgewertet aus über 400 Prüfungsprotokollen. 👉 Link in der Bio",
+  "hashtags": [
+    "#steuerberaterprüfung",
+    "#steuerberaterexamen",
+    "#mündlicheprüfung",
+    "#examensvorbereitung",
+    "#zivilrecht",
+    "#steuerberater"
+  ],
+  "quellen": [
+    "§ 2247 Abs. 1 BGB",
+    "§ 2267 BGB"
+  ],
+  "slug": "2026-11-07-m1",
+  "kurztitel": "Teste dich: Testament am PC geschrieben",
+  "regelGeprueft": true,
+  "manuellGeprueft": false,
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "textProviderKostenUsd": 0,
+  "faktencheckProviderKostenUsd": 0,
+  "bildStatus": "open-peeps-render",
+  "renderer": "open-peeps-v4",
+  "liveVorrangAktiv": true,
+  "bild": "op-cover",
+  "reelTyp": "klausurfalle",
+  "hookStil": "split",
+  "coverBadge": "Reel",
+  "szenen": [
+    {
+      "art": "hook",
+      "titel": "Testament am PC, eigenhändig unterschrieben?"
+    },
+    {
+      "art": "schritt",
+      "titel": "A, B oder C?"
+    },
+    {
+      "art": "schritt",
+      "titel": "Auflösung"
+    },
+    {
+      "art": "schritt",
+      "titel": "Die Nachfrage"
+    }
+  ],
+  "sprecher": [
+    "Drei Sekunden: Testament am Computer, eigenhändig unterschrieben. Wirksam?",
+    "A, ja. B, nur mit Datum. C, nein. Drei, zwei, eins.",
+    "Richtig ist C. Es muss komplett handgeschrieben sein.",
+    "Und beim Ehegattentestament? Einer schreibt, beide unterschreiben.",
+    "Schick das deinem Lernpartner. Und hol dir die zehn häufigsten Fehler, kostenlos, Link in der Bio."
+  ],
+  "dauerS": 26.64,
+  "tempo": 1.12
+}

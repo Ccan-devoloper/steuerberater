@@ -1,0 +1,51 @@
+{
+  "slot": "s8",
+  "art": "tipp",
+  "fach": "ust",
+  "klausur": 1,
+  "fachLabel": "Umsatzsteuer",
+  "themaId": "ust-aufb-ust-m-b06-6",
+  "beitragSlot": null,
+  "quellen": null,
+  "titel": [
+    "Leistender aus",
+    "dem Ausland?"
+  ],
+  "punkte": [
+    [
+      "Werklieferung oder sonstige Leistung im Inland.",
+      "ok",
+      "§ 13b Abs. 2 Nr. 1 UStG"
+    ],
+    [
+      "Unternehmer als Empfänger schuldet die Steuer.",
+      "ok",
+      "§ 13b Abs. 5 S. 1 UStG"
+    ],
+    [
+      "Inländische Betriebsstätte beteiligt? Dann nicht.",
+      "warn",
+      "§ 13b Abs. 7 UStG"
+    ]
+  ],
+  "icon": "tabler:world",
+  "iconFarbe": "GELB",
+  "sichtbareTexte": [
+    "Umsatzsteuer",
+    "Klausurtipp",
+    "Leistender aus",
+    "dem Ausland?",
+    "Werklieferung oder sonstige Leistung im Inland.",
+    "§ 13b Abs. 2 Nr. 1 UStG",
+    "Unternehmer als Empfänger schuldet die Steuer.",
+    "§ 13b Abs. 5 S. 1 UStG",
+    "Inländische Betriebsstätte beteiligt? Dann nicht.",
+    "§ 13b Abs. 7 UStG"
+  ],
+  "renderer": "open-peeps-v4",
+  "bildStatus": "open-peeps-render",
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "liveVorrangAktiv": true,
+  "regelGeprueft": true
+}
