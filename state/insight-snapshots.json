@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "stand": "2026-11-07T16:45:14.710Z",
+  "stand": "2026-11-07T18:00:38.806Z",
   "medien": {
     "18093399314208242": {
       "art": "beitrag",
@@ -56762,6 +56762,20 @@
           "ig_reels_avg_watch_time": 8562,
           "ig_reels_video_view_total_time": 10146782,
           "reels_skip_rate": 58.9
+        },
+        {
+          "stand": "2026-11-07T18:00:35.769Z",
+          "alterStunden": 168,
+          "reach": 1184,
+          "saved": 4,
+          "shares": 0,
+          "likes": 16,
+          "comments": 0,
+          "total_interactions": 20,
+          "views": 1357,
+          "ig_reels_avg_watch_time": 8562,
+          "ig_reels_video_view_total_time": 10146782,
+          "reels_skip_rate": 58.8
         }
       ]
     },
@@ -64491,6 +64505,18 @@
           "total_interactions": 9,
           "follows": 0,
           "profile_visits": 0
+        },
+        {
+          "stand": "2026-11-07T18:00:35.769Z",
+          "alterStunden": 58.5,
+          "reach": 117,
+          "saved": 5,
+          "shares": 0,
+          "likes": 4,
+          "comments": 0,
+          "total_interactions": 9,
+          "follows": 0,
+          "profile_visits": 0
         }
       ]
     },
@@ -66980,6 +67006,23 @@
           "navigation_tap_exit": 9,
           "navigation_tap_back": 7,
           "navigation_swipe_forward": 2
+        },
+        {
+          "stand": "2026-11-07T18:00:30.823Z",
+          "alterStunden": 23.1,
+          "reach": 65,
+          "views": 86,
+          "shares": 0,
+          "total_interactions": 1,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 2,
+          "profile_activity": 1,
+          "navigation": 79,
+          "navigation_tap_forward": 58,
+          "navigation_tap_exit": 11,
+          "navigation_tap_back": 7,
+          "navigation_swipe_forward": 3
         }
       ]
     },
@@ -67151,6 +67194,23 @@
           "navigation_tap_exit": 8,
           "navigation_tap_forward": 31,
           "navigation_swipe_forward": 1
+        },
+        {
+          "stand": "2026-11-07T18:00:30.823Z",
+          "alterStunden": 10.5,
+          "reach": 54,
+          "views": 71,
+          "shares": 0,
+          "total_interactions": 1,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 66,
+          "navigation_tap_back": 3,
+          "navigation_tap_exit": 10,
+          "navigation_tap_forward": 52,
+          "navigation_swipe_forward": 1
         }
       ]
     },
@@ -67199,6 +67259,18 @@
           "total_interactions": 3,
           "follows": 0,
           "profile_visits": 1
+        },
+        {
+          "stand": "2026-11-07T18:00:35.769Z",
+          "alterStunden": 10.5,
+          "reach": 94,
+          "saved": 3,
+          "shares": 0,
+          "likes": 1,
+          "comments": 0,
+          "total_interactions": 4,
+          "follows": 0,
+          "profile_visits": 2
         }
       ]
     },
@@ -67276,6 +67348,22 @@
           "navigation": 15,
           "navigation_tap_forward": 12,
           "navigation_tap_exit": 3
+        },
+        {
+          "stand": "2026-11-07T18:00:30.823Z",
+          "alterStunden": 5.5,
+          "reach": 45,
+          "views": 53,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 51,
+          "navigation_tap_exit": 6,
+          "navigation_tap_forward": 43,
+          "navigation_tap_back": 2
         }
       ]
     },
@@ -67312,6 +67400,18 @@
           "total_interactions": 1,
           "follows": 0,
           "profile_visits": 1
+        },
+        {
+          "stand": "2026-11-07T18:00:35.769Z",
+          "alterStunden": 5.5,
+          "reach": 92,
+          "saved": 1,
+          "shares": 0,
+          "likes": 1,
+          "comments": 0,
+          "total_interactions": 2,
+          "follows": 0,
+          "profile_visits": 1
         }
       ]
     },
@@ -67342,6 +67442,62 @@
           "navigation": 13,
           "navigation_tap_exit": 4,
           "navigation_tap_forward": 9
+        }
+      ]
+    },
+    "18173856940457716": {
+      "art": "story",
+      "datum": "2026-11-07",
+      "titel": [
+        "Leistender aus",
+        "dem Ausland?"
+      ],
+      "format": null,
+      "fach": "ust",
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-11-07T16:04:03.949Z",
+      "snapshots": [
+        {
+          "stand": "2026-11-07T18:00:30.823Z",
+          "alterStunden": 1.9,
+          "reach": 23,
+          "views": 27,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 25,
+          "navigation_tap_forward": 15,
+          "navigation_tap_exit": 10
+        }
+      ]
+    },
+    "18188373745422232": {
+      "art": "beitrag",
+      "datum": "2026-11-07",
+      "titel": "Warum § 23 EStG immer zuletzt geprüft wird",
+      "format": "reel",
+      "fach": "est",
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-11-07T16:30:08.454Z",
+      "snapshots": [
+        {
+          "stand": "2026-11-07T18:00:35.769Z",
+          "alterStunden": 1.5,
+          "reach": 139,
+          "saved": 2,
+          "shares": 0,
+          "likes": 2,
+          "comments": 0,
+          "total_interactions": 4,
+          "views": 200,
+          "ig_reels_avg_watch_time": 9505,
+          "ig_reels_video_view_total_time": 1321251,
+          "reels_skip_rate": 53.5
         }
       ]
     }
@@ -70846,6 +71002,11 @@
       "stand": "2026-11-07T16:45:14.710Z",
       "follower": 545,
       "medien": 201
+    },
+    {
+      "stand": "2026-11-07T18:00:38.806Z",
+      "follower": 545,
+      "medien": 202
     }
   ]
 }

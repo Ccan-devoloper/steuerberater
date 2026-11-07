@@ -17932,13 +17932,13 @@
         "likes": 16,
         "comments": 0,
         "total_interactions": 20,
-        "views": 1356,
+        "views": 1357,
         "ig_reels_avg_watch_time": 8562,
         "ig_reels_video_view_total_time": 10146782,
-        "reels_skip_rate": 58.9
+        "reels_skip_rate": 58.8
       },
-      "insightsStand": "2026-11-06T16:45:31.217Z",
-      "insightsAlterStunden": 142.8
+      "insightsStand": "2026-11-07T18:00:35.769Z",
+      "insightsAlterStunden": 168
     },
     {
       "datum": "2026-10-31",
@@ -19942,7 +19942,7 @@
         "#umsatzsteuer"
       ],
       "insights": {
-        "reach": 114,
+        "reach": 117,
         "saved": 5,
         "shares": 0,
         "likes": 4,
@@ -19951,8 +19951,8 @@
         "follows": 0,
         "profile_visits": 0
       },
-      "insightsStand": "2026-11-07T08:45:21.250Z",
-      "insightsAlterStunden": 49.3
+      "insightsStand": "2026-11-07T18:00:35.769Z",
+      "insightsAlterStunden": 58.5
     },
     {
       "datum": "2026-11-05",
@@ -20753,22 +20753,22 @@
         "dann Pause?"
       ],
       "insights": {
-        "reach": 54,
-        "views": 72,
+        "reach": 65,
+        "views": 86,
         "shares": 0,
-        "total_interactions": 0,
+        "total_interactions": 1,
         "replies": 0,
         "follows": 0,
         "profile_visits": 2,
         "profile_activity": 1,
-        "navigation": 66,
-        "navigation_tap_forward": 48,
-        "navigation_tap_exit": 9,
+        "navigation": 79,
+        "navigation_tap_forward": 58,
+        "navigation_tap_exit": 11,
         "navigation_tap_back": 7,
-        "navigation_swipe_forward": 2
+        "navigation_swipe_forward": 3
       },
-      "insightsStand": "2026-11-07T14:45:25.967Z",
-      "insightsAlterStunden": 19.9
+      "insightsStand": "2026-11-07T18:00:30.823Z",
+      "insightsAlterStunden": 23.1
     },
     {
       "datum": "2026-11-07",
@@ -20853,17 +20853,17 @@
         "#bilanzsteuerrecht"
       ],
       "insights": {
-        "reach": 83,
-        "saved": 2,
+        "reach": 94,
+        "saved": 3,
         "shares": 0,
         "likes": 1,
         "comments": 0,
-        "total_interactions": 3,
+        "total_interactions": 4,
         "follows": 0,
-        "profile_visits": 1
+        "profile_visits": 2
       },
-      "insightsStand": "2026-11-07T14:45:33.199Z",
-      "insightsAlterStunden": 7.3
+      "insightsStand": "2026-11-07T18:00:35.769Z",
+      "insightsAlterStunden": 10.5
     },
     {
       "datum": "2026-11-07",
@@ -20879,22 +20879,22 @@
         "Bilanzklausur: so teilst du ein"
       ],
       "insights": {
-        "reach": 36,
-        "views": 46,
+        "reach": 54,
+        "views": 71,
         "shares": 0,
         "total_interactions": 1,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 43,
+        "navigation": 66,
         "navigation_tap_back": 3,
-        "navigation_tap_exit": 8,
-        "navigation_tap_forward": 31,
+        "navigation_tap_exit": 10,
+        "navigation_tap_forward": 52,
         "navigation_swipe_forward": 1
       },
-      "insightsStand": "2026-11-07T12:45:26.021Z",
-      "insightsAlterStunden": 5.3
+      "insightsStand": "2026-11-07T18:00:30.823Z",
+      "insightsAlterStunden": 10.5
     },
     {
       "datum": "2026-11-07",
@@ -20950,17 +20950,17 @@
         "#erbschaftsteuer"
       ],
       "insights": {
-        "reach": 76,
-        "saved": 0,
+        "reach": 92,
+        "saved": 1,
         "shares": 0,
         "likes": 1,
         "comments": 0,
-        "total_interactions": 1,
+        "total_interactions": 2,
         "follows": 0,
         "profile_visits": 1
       },
-      "insightsStand": "2026-11-07T15:45:58.022Z",
-      "insightsAlterStunden": 3.3
+      "insightsStand": "2026-11-07T18:00:35.769Z",
+      "insightsAlterStunden": 5.5
     },
     {
       "datum": "2026-11-07",
@@ -20976,20 +20976,21 @@
         "Zwei Schenkungen, ein Freibetrag"
       ],
       "insights": {
-        "reach": 13,
-        "views": 16,
+        "reach": 45,
+        "views": 53,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 15,
-        "navigation_tap_forward": 12,
-        "navigation_tap_exit": 3
+        "navigation": 51,
+        "navigation_tap_exit": 6,
+        "navigation_tap_forward": 43,
+        "navigation_tap_back": 2
       },
-      "insightsStand": "2026-11-07T13:40:05.162Z",
-      "insightsAlterStunden": 1.2
+      "insightsStand": "2026-11-07T18:00:30.823Z",
+      "insightsAlterStunden": 5.5
     },
     {
       "datum": "2026-11-07",
@@ -21034,7 +21035,22 @@
       "titel": [
         "Leistender aus",
         "dem Ausland?"
-      ]
+      ],
+      "insights": {
+        "reach": 23,
+        "views": 27,
+        "shares": 0,
+        "total_interactions": 0,
+        "replies": 0,
+        "follows": 0,
+        "profile_visits": 0,
+        "profile_activity": 0,
+        "navigation": 25,
+        "navigation_tap_forward": 15,
+        "navigation_tap_exit": 10
+      },
+      "insightsStand": "2026-11-07T18:00:30.823Z",
+      "insightsAlterStunden": 1.9
     },
     {
       "datum": "2026-11-07",
@@ -21056,7 +21072,21 @@
         "#steuerberaterprüfung",
         "#examensvorbereitung",
         "#einkommensteuer"
-      ]
+      ],
+      "insights": {
+        "reach": 139,
+        "saved": 2,
+        "shares": 0,
+        "likes": 2,
+        "comments": 0,
+        "total_interactions": 4,
+        "views": 200,
+        "ig_reels_avg_watch_time": 9505,
+        "ig_reels_video_view_total_time": 1321251,
+        "reels_skip_rate": 53.5
+      },
+      "insightsStand": "2026-11-07T18:00:35.769Z",
+      "insightsAlterStunden": 1.5
     },
     {
       "datum": "2026-11-07",
