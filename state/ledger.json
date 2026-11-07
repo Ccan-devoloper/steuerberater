@@ -20769,6 +20769,18 @@
       },
       "insightsStand": "2026-11-07T05:44:47.826Z",
       "insightsAlterStunden": 10.8
+    },
+    {
+      "datum": "2026-11-07",
+      "slot": "s4",
+      "medienId": "18116057504585144",
+      "veroeffentlicht": "2026-11-07T06:07:04.114Z",
+      "quelle": "vorproduktion",
+      "art": "story",
+      "storyArt": "frage",
+      "thema": null,
+      "fach": "est",
+      "titel": ""
     }
   ],
   "fachZaehler": {
