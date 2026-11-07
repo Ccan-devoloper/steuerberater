@@ -20889,6 +20889,21 @@
       },
       "insightsStand": "2026-11-07T08:45:20.016Z",
       "insightsAlterStunden": 1.2
+    },
+    {
+      "datum": "2026-11-07",
+      "slot": "s6",
+      "medienId": "17984493212908355",
+      "veroeffentlicht": "2026-11-07T11:14:04.265Z",
+      "quelle": "vorproduktion",
+      "art": "story",
+      "storyArt": "norm",
+      "thema": "persg-aufb-persg-melzer-5-3",
+      "fach": "persg",
+      "titel": [
+        "Betrieb in eine",
+        "KG einbringen"
+      ]
     }
   ],
   "fachZaehler": {
