@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "stand": "2026-11-08T18:45:07.517Z",
+  "stand": "2026-11-08T19:44:16.799Z",
   "medien": {
     "18093399314208242": {
       "art": "beitrag",
@@ -69371,6 +69371,140 @@
           "ig_reels_avg_watch_time": 9018,
           "ig_reels_video_view_total_time": 1280608,
           "reels_skip_rate": 60.8
+        },
+        {
+          "stand": "2026-11-08T19:44:14.788Z",
+          "alterStunden": 3.2,
+          "reach": 291,
+          "saved": 6,
+          "shares": 0,
+          "likes": 5,
+          "comments": 0,
+          "total_interactions": 11,
+          "views": 428,
+          "ig_reels_avg_watch_time": 10419,
+          "ig_reels_video_view_total_time": 3084051,
+          "reels_skip_rate": 56.7
+        }
+      ]
+    },
+    "18076742927495897": {
+      "art": "story",
+      "datum": "2026-11-08",
+      "titel": [
+        "Brutto oder netto?"
+      ],
+      "format": null,
+      "fach": "persg",
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-11-08T18:00:26.108Z",
+      "snapshots": [
+        {
+          "stand": "2026-11-08T19:44:10.474Z",
+          "alterStunden": 1.7,
+          "reach": 36,
+          "views": 45,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 2,
+          "profile_activity": 0,
+          "navigation": 38,
+          "navigation_tap_back": 1,
+          "navigation_swipe_forward": 3,
+          "navigation_tap_exit": 8,
+          "navigation_tap_forward": 26
+        }
+      ]
+    },
+    "18648751216039236": {
+      "art": "story",
+      "datum": "2026-11-08",
+      "titel": [
+        "Kurzvortrag",
+        "verschenkt? Nicht mit dir"
+      ],
+      "format": null,
+      "fach": null,
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-11-08T18:00:39.476Z",
+      "snapshots": [
+        {
+          "stand": "2026-11-08T19:44:10.474Z",
+          "alterStunden": 1.7,
+          "reach": 33,
+          "views": 38,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 32,
+          "navigation_tap_exit": 4,
+          "navigation_tap_forward": 25,
+          "navigation_swipe_forward": 1,
+          "navigation_tap_back": 2
+        }
+      ]
+    },
+    "18146471638510165": {
+      "art": "story",
+      "datum": "2026-11-08",
+      "titel": [
+        "Verschmelzung:",
+        "und die Anteile?"
+      ],
+      "format": null,
+      "fach": "umwst",
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-11-08T18:12:03.808Z",
+      "snapshots": [
+        {
+          "stand": "2026-11-08T19:44:10.474Z",
+          "alterStunden": 1.5,
+          "reach": 27,
+          "views": 32,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 26,
+          "navigation_tap_forward": 23,
+          "navigation_swipe_forward": 1,
+          "navigation_tap_exit": 2
+        }
+      ]
+    },
+    "17978772785934886": {
+      "art": "beitrag",
+      "datum": "2026-11-08",
+      "titel": "Kommanditist haftet unbeschränkt?",
+      "format": "reel",
+      "fach": null,
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-11-08T18:00:13.602Z",
+      "snapshots": [
+        {
+          "stand": "2026-11-08T19:44:14.788Z",
+          "alterStunden": 1.7,
+          "reach": 163,
+          "saved": 0,
+          "shares": 0,
+          "likes": 1,
+          "comments": 0,
+          "total_interactions": 1,
+          "views": 266,
+          "ig_reels_avg_watch_time": 8522,
+          "ig_reels_video_view_total_time": 1389238,
+          "reels_skip_rate": 51.9
         }
       ]
     }
@@ -72959,6 +73093,11 @@
     {
       "stand": "2026-11-08T18:00:46.855Z",
       "follower": 553,
+      "medien": 206
+    },
+    {
+      "stand": "2026-11-08T19:44:16.799Z",
+      "follower": 556,
       "medien": 206
     }
   ]

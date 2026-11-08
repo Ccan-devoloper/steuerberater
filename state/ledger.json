@@ -21532,19 +21532,19 @@
         "#personengesellschaften"
       ],
       "insights": {
-        "reach": 143,
-        "saved": 3,
+        "reach": 291,
+        "saved": 6,
         "shares": 0,
-        "likes": 2,
+        "likes": 5,
         "comments": 0,
-        "total_interactions": 5,
-        "views": 215,
-        "ig_reels_avg_watch_time": 9018,
-        "ig_reels_video_view_total_time": 1280608,
-        "reels_skip_rate": 60.8
+        "total_interactions": 11,
+        "views": 428,
+        "ig_reels_avg_watch_time": 10419,
+        "ig_reels_video_view_total_time": 3084051,
+        "reels_skip_rate": 56.7
       },
-      "insightsStand": "2026-11-08T18:00:44.864Z",
-      "insightsAlterStunden": 1.5
+      "insightsStand": "2026-11-08T19:44:14.788Z",
+      "insightsAlterStunden": 3.2
     },
     {
       "datum": "2026-11-08",
@@ -21568,7 +21568,21 @@
         "#examensvorbereitung",
         "#zivilrecht",
         "#steuerberater"
-      ]
+      ],
+      "insights": {
+        "reach": 163,
+        "saved": 0,
+        "shares": 0,
+        "likes": 1,
+        "comments": 0,
+        "total_interactions": 1,
+        "views": 266,
+        "ig_reels_avg_watch_time": 8522,
+        "ig_reels_video_view_total_time": 1389238,
+        "reels_skip_rate": 51.9
+      },
+      "insightsStand": "2026-11-08T19:44:14.788Z",
+      "insightsAlterStunden": 1.7
     },
     {
       "datum": "2026-11-08",
@@ -21582,7 +21596,24 @@
       "fach": "persg",
       "titel": [
         "Brutto oder netto?"
-      ]
+      ],
+      "insights": {
+        "reach": 36,
+        "views": 45,
+        "shares": 0,
+        "total_interactions": 0,
+        "replies": 0,
+        "follows": 0,
+        "profile_visits": 2,
+        "profile_activity": 0,
+        "navigation": 38,
+        "navigation_tap_back": 1,
+        "navigation_swipe_forward": 3,
+        "navigation_tap_exit": 8,
+        "navigation_tap_forward": 26
+      },
+      "insightsStand": "2026-11-08T19:44:10.474Z",
+      "insightsAlterStunden": 1.7
     },
     {
       "datum": "2026-11-08",
@@ -21597,7 +21628,24 @@
       "titel": [
         "Kurzvortrag",
         "verschenkt? Nicht mit dir"
-      ]
+      ],
+      "insights": {
+        "reach": 33,
+        "views": 38,
+        "shares": 0,
+        "total_interactions": 0,
+        "replies": 0,
+        "follows": 0,
+        "profile_visits": 0,
+        "profile_activity": 0,
+        "navigation": 32,
+        "navigation_tap_exit": 4,
+        "navigation_tap_forward": 25,
+        "navigation_swipe_forward": 1,
+        "navigation_tap_back": 2
+      },
+      "insightsStand": "2026-11-08T19:44:10.474Z",
+      "insightsAlterStunden": 1.7
     },
     {
       "datum": "2026-11-08",
@@ -21612,7 +21660,23 @@
       "titel": [
         "Verschmelzung:",
         "und die Anteile?"
-      ]
+      ],
+      "insights": {
+        "reach": 27,
+        "views": 32,
+        "shares": 0,
+        "total_interactions": 0,
+        "replies": 0,
+        "follows": 0,
+        "profile_visits": 0,
+        "profile_activity": 0,
+        "navigation": 26,
+        "navigation_tap_forward": 23,
+        "navigation_swipe_forward": 1,
+        "navigation_tap_exit": 2
+      },
+      "insightsStand": "2026-11-08T19:44:10.474Z",
+      "insightsAlterStunden": 1.5
     }
   ],
   "fachZaehler": {
