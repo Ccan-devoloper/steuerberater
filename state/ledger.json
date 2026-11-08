@@ -18215,7 +18215,7 @@
         "#umsatzsteuer"
       ],
       "insights": {
-        "reach": 178,
+        "reach": 184,
         "saved": 3,
         "shares": 0,
         "likes": 8,
@@ -18224,8 +18224,8 @@
         "follows": 0,
         "profile_visits": 4
       },
-      "insightsStand": "2026-11-07T11:45:15.748Z",
-      "insightsAlterStunden": 143.3
+      "insightsStand": "2026-11-08T11:45:38.097Z",
+      "insightsAlterStunden": 167.3
     },
     {
       "datum": "2026-11-01",
@@ -18344,19 +18344,19 @@
         "#körperschaftsteuer"
       ],
       "insights": {
-        "reach": 509,
+        "reach": 512,
         "saved": 3,
         "shares": 1,
         "likes": 4,
         "comments": 0,
         "total_interactions": 8,
-        "views": 654,
-        "ig_reels_avg_watch_time": 8393,
-        "ig_reels_video_view_total_time": 4415041,
-        "reels_skip_rate": 62.6
+        "views": 658,
+        "ig_reels_avg_watch_time": 8359,
+        "ig_reels_video_view_total_time": 4430730,
+        "reels_skip_rate": 62.7
       },
-      "insightsStand": "2026-11-07T11:45:15.748Z",
-      "insightsAlterStunden": 139.3
+      "insightsStand": "2026-11-08T11:45:38.097Z",
+      "insightsAlterStunden": 163.3
     },
     {
       "datum": "2026-11-01",
@@ -18382,19 +18382,19 @@
         "#steuerberater"
       ],
       "insights": {
-        "reach": 323,
+        "reach": 328,
         "saved": 1,
         "shares": 0,
         "likes": 9,
         "comments": 0,
         "total_interactions": 10,
-        "views": 437,
-        "ig_reels_avg_watch_time": 8741,
-        "ig_reels_video_view_total_time": 2928480,
-        "reels_skip_rate": 55.3
+        "views": 443,
+        "ig_reels_avg_watch_time": 8736,
+        "ig_reels_video_view_total_time": 2970427,
+        "reels_skip_rate": 55.4
       },
-      "insightsStand": "2026-11-07T11:45:15.748Z",
-      "insightsAlterStunden": 137.8
+      "insightsStand": "2026-11-08T11:45:38.097Z",
+      "insightsAlterStunden": 161.8
     },
     {
       "datum": "2026-11-01",
@@ -21008,22 +21008,22 @@
         "Ernte einfahren"
       ],
       "insights": {
-        "reach": 85,
-        "views": 112,
+        "reach": 88,
+        "views": 115,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 97,
-        "navigation_tap_back": 2,
-        "navigation_tap_forward": 75,
+        "navigation": 101,
+        "navigation_tap_back": 3,
+        "navigation_tap_forward": 78,
         "navigation_tap_exit": 16,
         "navigation_swipe_forward": 4
       },
-      "insightsStand": "2026-11-08T09:45:27.772Z",
-      "insightsAlterStunden": 20.1
+      "insightsStand": "2026-11-08T11:45:34.424Z",
+      "insightsAlterStunden": 22.1
     },
     {
       "datum": "2026-11-07",
@@ -21238,22 +21238,22 @@
       "fach": "bilanz",
       "titel": "",
       "insights": {
-        "reach": 10,
-        "views": 18,
+        "reach": 55,
+        "views": 70,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 12,
+        "navigation": 67,
         "navigation_swipe_forward": 1,
-        "navigation_tap_forward": 8,
+        "navigation_tap_forward": 62,
         "navigation_tap_exit": 2,
-        "navigation_tap_back": 1
+        "navigation_tap_back": 2
       },
-      "insightsStand": "2026-11-08T07:30:20.268Z",
-      "insightsAlterStunden": 1.4
+      "insightsStand": "2026-11-08T11:45:34.424Z",
+      "insightsAlterStunden": 5.6
     },
     {
       "datum": "2026-11-08",
@@ -21269,21 +21269,22 @@
         "B: 5,5 Prozent"
       ],
       "insights": {
-        "reach": 8,
-        "views": 13,
+        "reach": 55,
+        "views": 67,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 8,
-        "navigation_tap_back": 1,
-        "navigation_tap_forward": 6,
-        "navigation_tap_exit": 1
+        "navigation": 62,
+        "navigation_tap_back": 9,
+        "navigation_tap_forward": 47,
+        "navigation_tap_exit": 5,
+        "navigation_swipe_forward": 1
       },
-      "insightsStand": "2026-11-08T07:30:20.268Z",
-      "insightsAlterStunden": 1.4
+      "insightsStand": "2026-11-08T11:45:34.424Z",
+      "insightsAlterStunden": 5.6
     },
     {
       "datum": "2026-11-08",
