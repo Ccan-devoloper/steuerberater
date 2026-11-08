@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "stand": "2026-11-08T16:45:28.668Z",
+  "stand": "2026-11-08T18:00:46.855Z",
   "medien": {
     "18093399314208242": {
       "art": "beitrag",
@@ -68124,6 +68124,18 @@
           "total_interactions": 4,
           "follows": 0,
           "profile_visits": 2
+        },
+        {
+          "stand": "2026-11-08T18:00:44.864Z",
+          "alterStunden": 29.5,
+          "reach": 119,
+          "saved": 1,
+          "shares": 0,
+          "likes": 3,
+          "comments": 0,
+          "total_interactions": 4,
+          "follows": 0,
+          "profile_visits": 2
         }
       ]
     },
@@ -69023,6 +69035,23 @@
           "navigation_tap_exit": 4,
           "navigation_tap_forward": 47,
           "navigation_tap_back": 2
+        },
+        {
+          "stand": "2026-11-08T18:00:40.641Z",
+          "alterStunden": 10.5,
+          "reach": 66,
+          "views": 76,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 72,
+          "navigation_tap_back": 3,
+          "navigation_tap_forward": 59,
+          "navigation_tap_exit": 5,
+          "navigation_swipe_forward": 5
         }
       ]
     },
@@ -69162,6 +69191,23 @@
           "navigation_tap_forward": 12,
           "navigation_swipe_forward": 1,
           "navigation_tap_back": 2
+        },
+        {
+          "stand": "2026-11-08T18:00:40.641Z",
+          "alterStunden": 5.5,
+          "reach": 47,
+          "views": 53,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 50,
+          "navigation_tap_exit": 5,
+          "navigation_tap_forward": 37,
+          "navigation_swipe_forward": 4,
+          "navigation_tap_back": 4
         }
       ]
     },
@@ -69191,6 +69237,18 @@
           "stand": "2026-11-08T15:44:43.904Z",
           "alterStunden": 3.2,
           "reach": 110,
+          "saved": 4,
+          "shares": 0,
+          "likes": 1,
+          "comments": 0,
+          "total_interactions": 5,
+          "follows": 0,
+          "profile_visits": 1
+        },
+        {
+          "stand": "2026-11-08T18:00:44.864Z",
+          "alterStunden": 5.5,
+          "reach": 135,
           "saved": 4,
           "shares": 0,
           "likes": 1,
@@ -69228,6 +69286,62 @@
           "navigation": 18,
           "navigation_tap_forward": 13,
           "navigation_tap_exit": 5
+        }
+      ]
+    },
+    "18031169309922275": {
+      "art": "story",
+      "datum": "2026-11-08",
+      "titel": [
+        "GmbH verkauft",
+        "Anteile"
+      ],
+      "format": null,
+      "fach": "kst",
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-11-08T16:04:03.212Z",
+      "snapshots": [
+        {
+          "stand": "2026-11-08T18:00:40.641Z",
+          "alterStunden": 1.9,
+          "reach": 26,
+          "views": 33,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 28,
+          "navigation_tap_forward": 24,
+          "navigation_tap_exit": 4
+        }
+      ]
+    },
+    "17882463717549247": {
+      "art": "beitrag",
+      "datum": "2026-11-08",
+      "titel": "Brutto- oder Nettomethode: Buchwert nach § 24 UmwStG richtig zeigen",
+      "format": "reel",
+      "fach": "persg",
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-11-08T16:30:10.956Z",
+      "snapshots": [
+        {
+          "stand": "2026-11-08T18:00:44.864Z",
+          "alterStunden": 1.5,
+          "reach": 143,
+          "saved": 3,
+          "shares": 0,
+          "likes": 2,
+          "comments": 0,
+          "total_interactions": 5,
+          "views": 215,
+          "ig_reels_avg_watch_time": 9018,
+          "ig_reels_video_view_total_time": 1280608,
+          "reels_skip_rate": 60.8
         }
       ]
     }
@@ -72812,6 +72926,11 @@
       "stand": "2026-11-08T16:45:28.668Z",
       "follower": 553,
       "medien": 205
+    },
+    {
+      "stand": "2026-11-08T18:00:46.855Z",
+      "follower": 553,
+      "medien": 206
     }
   ]
 }
