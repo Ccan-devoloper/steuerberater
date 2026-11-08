@@ -21491,10 +21491,32 @@
         "GmbH verkauft",
         "Anteile"
       ]
+    },
+    {
+      "datum": "2026-11-08",
+      "slot": "b3",
+      "medienId": "17882463717549247",
+      "veroeffentlicht": "2026-11-08T16:30:10.956Z",
+      "quelle": "vorproduktion",
+      "art": "beitrag",
+      "zeit": "17:30",
+      "stunde": 17,
+      "format": "reel",
+      "thema": "persg-aufb-persg-melzer-5-4",
+      "fach": "persg",
+      "klausur": 3,
+      "titel": "Brutto- oder Nettomethode: Buchwert nach § 24 UmwStG richtig zeigen",
+      "hookTyp": null,
+      "hashtags": [
+        "#steuerberaterexamen",
+        "#steuerberaterprüfung",
+        "#examensvorbereitung",
+        "#personengesellschaften"
+      ]
     }
   ],
   "fachZaehler": {
-    "persg": 20,
+    "persg": 21,
     "ust": 18,
     "kst": 17,
     "ao": 29,
