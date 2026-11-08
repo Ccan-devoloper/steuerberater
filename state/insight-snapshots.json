@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "stand": "2026-11-08T14:45:05.283Z",
+  "stand": "2026-11-08T15:44:44.903Z",
   "medien": {
     "18093399314208242": {
       "art": "beitrag",
@@ -68262,6 +68262,23 @@
           "navigation_tap_exit": 19,
           "navigation_tap_forward": 69,
           "navigation_swipe_forward": 1
+        },
+        {
+          "stand": "2026-11-08T15:44:42.821Z",
+          "alterStunden": 23.7,
+          "reach": 96,
+          "views": 130,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 1,
+          "profile_activity": 0,
+          "navigation": 111,
+          "navigation_tap_back": 11,
+          "navigation_tap_exit": 23,
+          "navigation_tap_forward": 75,
+          "navigation_swipe_forward": 2
         }
       ]
     },
@@ -68885,6 +68902,18 @@
           "total_interactions": 1,
           "follows": 0,
           "profile_visits": 2
+        },
+        {
+          "stand": "2026-11-08T15:44:43.904Z",
+          "alterStunden": 8.2,
+          "reach": 90,
+          "saved": 1,
+          "shares": 0,
+          "likes": 0,
+          "comments": 0,
+          "total_interactions": 1,
+          "follows": 0,
+          "profile_visits": 2
         }
       ]
     },
@@ -68964,6 +68993,18 @@
           "stand": "2026-11-08T13:40:07.563Z",
           "alterStunden": 1.2,
           "reach": 63,
+          "saved": 4,
+          "shares": 0,
+          "likes": 1,
+          "comments": 0,
+          "total_interactions": 5,
+          "follows": 0,
+          "profile_visits": 1
+        },
+        {
+          "stand": "2026-11-08T15:44:43.904Z",
+          "alterStunden": 3.2,
+          "reach": 110,
           "saved": 4,
           "shares": 0,
           "likes": 1,
@@ -72573,6 +72614,11 @@
     },
     {
       "stand": "2026-11-08T14:45:05.283Z",
+      "follower": 553,
+      "medien": 204
+    },
+    {
+      "stand": "2026-11-08T15:44:44.903Z",
       "follower": 553,
       "medien": 204
     }
