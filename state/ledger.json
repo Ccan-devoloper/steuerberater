@@ -21386,6 +21386,20 @@
         "#examensvorbereitung",
         "#körperschaftsteuer"
       ]
+    },
+    {
+      "datum": "2026-11-08",
+      "slot": "s2",
+      "medienId": "17981484824920659",
+      "veroeffentlicht": "2026-11-08T12:30:22.180Z",
+      "quelle": "vorproduktion",
+      "art": "story",
+      "storyArt": "teaser",
+      "thema": null,
+      "fach": "kst",
+      "titel": [
+        "vGA an die Mutter: steuerfrei?"
+      ]
     }
   ],
   "fachZaehler": {
