@@ -1,0 +1,707 @@
+{
+  "datum": "2026-11-22",
+  "status": "vorproduziert",
+  "freigabeBetreiber": true,
+  "liveVerknuepft": false,
+  "vorproduktionStatus": "live-freigegeben",
+  "layoutQuelle": "open-peeps-variante-c",
+  "semantikQuelle": "examenscampus",
+  "liveVorrangAktiv": true,
+  "normalbetriebGesperrt": true,
+  "bildStatus": "open-peeps-render",
+  "kostenPolicy": {
+    "textUndFaktencheckUsd": 0,
+    "bildgenerierungUsd": 0,
+    "providerKostenUsd": 0,
+    "coverbilder": false,
+    "bildgenerierungErlaubt": false,
+    "reelStimme": "elevenlabs-abo"
+  },
+  "plan": {
+    "beitraege": [
+      {
+        "slot": "b1",
+        "zeit": "08:30",
+        "format": "wochenrueckblick",
+        "themaId": "wochenrueckblick-alle-2026-47",
+        "themaTitel": "Alle Klausuren: sechs Themen der Woche 47",
+        "fach": null,
+        "klausur": 0
+      },
+      {
+        "slot": "b2",
+        "zeit": "13:30",
+        "format": "pruefungsfrage",
+        "themaId": "ust-aufb-ust-m-b10-29",
+        "themaTitel": "Kleinunternehmer ab 2025: Die Grenzen des § 19 UStG",
+        "fach": "ust",
+        "klausur": 1
+      },
+      {
+        "slot": "b3",
+        "zeit": "19:00",
+        "format": "reel",
+        "themaId": "kst-aufb-kst-t6-22",
+        "themaTitel": "Dividenden der Organgesellschaft: Wer wendet § 8b KStG an?",
+        "fach": "kst",
+        "klausur": 2
+      }
+    ],
+    "stories": [
+      {
+        "slot": "s4",
+        "zeit": "07:07",
+        "art": "frage",
+        "themaId": "kst-quiz-steuersatz-2026"
+      },
+      {
+        "slot": "s5",
+        "zeit": "07:09",
+        "art": "antwort",
+        "themaId": "kst-quiz-steuersatz-2026"
+      },
+      {
+        "slot": "s1",
+        "zeit": "08:30",
+        "art": "teaser",
+        "beitragSlot": "b1"
+      },
+      {
+        "slot": "s6",
+        "zeit": "12:14",
+        "art": "norm",
+        "themaId": "bilanz-glossar-1"
+      },
+      {
+        "slot": "s2",
+        "zeit": "13:30",
+        "art": "teaser",
+        "beitragSlot": "b2"
+      },
+      {
+        "slot": "s7",
+        "zeit": "14:40",
+        "art": "tipp"
+      },
+      {
+        "slot": "s8",
+        "zeit": "17:04",
+        "art": "tipp",
+        "themaId": "ao-modul-ao-377"
+      },
+      {
+        "slot": "s3",
+        "zeit": "19:00",
+        "art": "teaser",
+        "beitragSlot": "b3"
+      },
+      {
+        "slot": "s9",
+        "zeit": "19:12",
+        "art": "merksatz",
+        "themaId": "kst-modul-kst-1"
+      }
+    ]
+  },
+  "inhalte": {
+    "b1": {
+      "format": "wochenrueckblick",
+      "fach": null,
+      "klausur": 0,
+      "fachLabel": "Alle Klausuren",
+      "themaId": "wochenrueckblick-alle-2026-47",
+      "caption": "Wochenrückblick KW 47: je Klausur die Themen der Woche.\n\nKlausur 1 (AO, USt, ErbSt)\n1. Schreibfehler, Rechenfehler und ähnliche offenbare Unrichtigkeiten beim Erlass eines Verwaltungsakts kann das Finanzamt jederzeit berichtigen (§ 129 S. 1 AO); die Festsetzungsfrist endet insoweit nicht vor Ablauf eines Jahres nach Bekanntgabe (§ 171 Abs. 2 S. 1 AO). Kommt ein Rechtsirrtum in Betracht, scheidet § 129 AO aus.\n2. Wiedereinsetzung bei unverschuldeter Fristversäumnis: Antrag innerhalb eines Monats nach Wegfall des Hindernisses, versäumte Handlung nachholen (§ 110 Abs. 1 S. 1, Abs. 2 S. 1, 3 AO).\n\nKlausur 2 (Ertragsteuern)\n3. Dividenden bleiben bei einer Kapitalgesellschaft nur außer Ansatz, wenn sie am 1. Januar direkt mit wenigstens 10 % beteiligt war; Anteile über eine Mitunternehmerschaft zählen anteilig (§ 8b Abs. 4 S. 1, 4, 5 KStG).\n4. Eine Ausschüttung greift erst auf das steuerliche Einlagekonto zu, wenn der ausschüttbare Gewinn zum Ende des Vorjahres aufgebraucht ist (§ 27 Abs. 1 S. 3, 5 KStG).\n\nKlausur 3 (Buchführung und Bilanzwesen)\n5. Realteilung: Gelangen die Wirtschaftsgüter in Betriebsvermögen der Realteiler, sind die Buchwerte fortzuführen (§ 16 Abs. 3 S. 2 EStG); Sperrfrist für Einzelwirtschaftsgüter (§ 16 Abs. 3 S. 3 EStG). Eine reine Geldabfindung ist Veräußerung des Mitunternehmeranteils (§ 16 Abs. 1 S. 1 Nr. 2 EStG).\n6. Wer ein erst in den letzten drei Jahren gekauftes Wirtschaftsgut einlegt, setzt höchstens die Anschaffungskosten an, bei abnutzbaren abzüglich der AfA bis zur Einlage (§ 6 Abs. 1 Nr. 5 S. 1 Buchst. a, S. 2 EStG).\n\nZum Schluss: § 16 Abs. 3 S. 2, 3 EStG zum Markieren. Speichern für alle drei Klausuren 📌",
+      "hashtags": [
+        "#steuerberaterexamen",
+        "#steuerberaterprüfung",
+        "#examensvorbereitung",
+        "#steuerrecht"
+      ],
+      "quellen": [
+        "§ 129 S. 1 AO",
+        "§ 171 Abs. 2 S. 1 AO",
+        "§ 110 Abs. 1 S. 1, Abs. 2 S. 1, 3 AO",
+        "§ 8b Abs. 4 S. 1, 4, 5 KStG",
+        "§ 27 Abs. 1 S. 3, 5 KStG",
+        "§ 16 Abs. 1 S. 1 Nr. 2, Abs. 3 S. 2, 3 EStG",
+        "§ 6 Abs. 1 Nr. 5 S. 1 Buchst. a, S. 2 EStG"
+      ],
+      "slug": "2026-11-22-b1",
+      "kurztitel": "Alle Klausuren: sechs Themen der Woche 47",
+      "regelGeprueft": true,
+      "manuellGeprueft": false,
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "open-peeps-render",
+      "renderer": "open-peeps-v4",
+      "liveVorrangAktiv": true,
+      "coverBadge": "Wochenrückblick",
+      "folien": [
+        {
+          "art": "titel",
+          "titel": "Wochenrückblick",
+          "text": "Wochenrückblick · Alle 3 · Klausuren · 6 Themen · + Markier-Guide § 16 EStG · NOVEMBER · 22 · So · Woche 47",
+          "bild": "op-cover"
+        },
+        {
+          "art": "text",
+          "titel": "Alle Klausuren",
+          "text": "Die Woche in 3 Klausuren · Klausur 1 · Abgabenordnung · §§ 110, 129 AO · Wiedereinsetzung und Tippfehler · Klausur 2 · Körperschaftsteuer · §§ 8b, 27 KStG · Streubesitz und Einlagekonto · Klausur 3 · PersG und Bilanz · § 16 Abs. 3, § 6 Abs. 1 Nr. 5 EStG · Realteilung und Einlagen · Am Ende: § 16 Abs. 3 EStG markiert"
+        },
+        {
+          "art": "text",
+          "titel": "Alle Klausuren",
+          "text": "Klausur 1 · Abgabenordnung · Offenbare Unrichtigkeit: nur mechanisches Versehen, jederzeit berichtigbar. · § 129 S. 1 AO · Rechtsirrtum möglich? Dann kein § 129 AO. · Frist ohne Verschulden versäumt: Antrag binnen eines Monats nach Wegfall des Hindernisses. · § 110 Abs. 1 S. 1, Abs. 2 S. 1 AO · Tippfehler oder Irrtum?"
+        },
+        {
+          "art": "text",
+          "titel": "Alle Klausuren",
+          "text": "Klausur 2 · Körperschaftsteuer · Streubesitz: unmittelbar mindestens 10 % zu Jahresbeginn nötig; über eine KG anteilig. · § 8b Abs. 4 S. 1, 4, 5 KStG · Einlagekonto: Eine Ausschüttung mindert es nur, soweit sie den ausschüttbaren Gewinn übersteigt. · § 27 Abs. 1 S. 3, 5 KStG · Erst der Gewinn"
+        },
+        {
+          "art": "text",
+          "titel": "Alle Klausuren",
+          "text": "Klausur 3 · PersG und Bilanz · Realteilung ins Betriebsvermögen der Realteiler: Buchwert. · § 16 Abs. 3 S. 2 EStG · Nur Geld als Abfindung: Veräußerung des Anteils, keine Realteilung. · § 16 Abs. 1 S. 1 Nr. 2 EStG · Einlage binnen drei Jahren nach Anschaffung: höchstens Anschaffungskosten minus AfA. · § 6 Abs. 1 Nr. 5 S. 1 Buchst. a, S. 2 EStG · Nur Geld?"
+        },
+        {
+          "art": "text",
+          "titel": "Alle Klausuren",
+          "text": "Die Woche in allen 3 Klausuren · Verfahren · Ertragsteuern · Bilanz · Tippfehler jederzeit, · ein Monat nach Hindernis, · 10 % zu Jahresbeginn, · Realteilung zum Buchwert. · Speichern für alle 3 Klausuren · Welche Klausur wackelt noch? · Weiterwischen: § 16 Abs. 3 EStG markiert"
+        },
+        {
+          "art": "text",
+          "titel": "Alle Klausuren",
+          "text": "§ 16 Abs. 3 EStG (Auszug) · Realteilung · ins Betriebsvermögen · Buchwert · Sperrfrist verletzt · Fristende · Nur Geld als Abfindung? · Keine Realteilung, sondern Veräußerung des Anteils"
+        }
+      ]
+    },
+    "b2": {
+      "format": "pruefungsfrage",
+      "fach": "ust",
+      "klausur": 1,
+      "fachLabel": "Umsatzsteuer",
+      "themaId": "ust-aufb-ust-m-b10-29",
+      "caption": "Prüfungsfrage zur Kleinunternehmerregelung seit 2025: Welche Grenzen gelten nach § 19 UStG?\n\n▸ Umsätze sind steuerfrei, wenn der Gesamtumsatz im Vorjahr 25.000 € nicht überschritten hat und im laufenden Jahr 100.000 € nicht überschreitet (§ 19 Abs. 1 S. 1 UStG). Kein Vorsteuerabzug für steuerfreie Umsätze (§ 15 Abs. 2 S. 1 Nr. 1 UStG).\n▸ Gesamtumsatz nach vereinnahmten Entgelten; bestimmte steuerfreie Umsätze und Umsätze mit Anlagevermögen bleiben außer Ansatz (§ 19 Abs. 2 UStG).\n▸ Bereits der Umsatz, mit dem die 100.000-€-Grenze überschritten wird, unterliegt der Regelbesteuerung; frühere Umsätze bleiben steuerfrei (Abschn. 19.1 Abs. 2 S. 4 UStAE i. d. F. des BMF-Schreibens vom 18.03.2025).\n▸ Bei Neuaufnahme der Tätigkeit zählt allein der Umsatz des laufenden Jahres, Grenze 25.000 € (Abschn. 19.1 Abs. 3 UStAE).\n\nBeispiel: 96.000 € steuerfrei, der Auftrag über 7.000 € (Summe 103.000 €) ist steuerpflichtig, 2027 Regelbesteuerung.\n\nZum Schluss: § 19 UStG und Abschn. 19.1 UStAE zum Markieren. Speichern für Klausur 1 📌",
+      "hashtags": [
+        "#steuerberaterexamen",
+        "#steuerberaterprüfung",
+        "#examensvorbereitung",
+        "#umsatzsteuer"
+      ],
+      "quellen": [
+        "§ 19 Abs. 1 S. 1, Abs. 2 UStG",
+        "§ 15 Abs. 2 S. 1 Nr. 1 UStG",
+        "Abschn. 19.1 UStAE (BMF vom 18.03.2025)"
+      ],
+      "slug": "2026-11-22-b2",
+      "kurztitel": "Kleinunternehmer ab 2025: Die Grenzen des § 19 UStG",
+      "regelGeprueft": true,
+      "manuellGeprueft": false,
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "open-peeps-render",
+      "renderer": "open-peeps-v4",
+      "liveVorrangAktiv": true,
+      "coverBadge": "Prüfungsfrage",
+      "folien": [
+        {
+          "art": "titel",
+          "titel": "Prüfungsfrage",
+          "text": "Prüfungsfrage · Kleinunternehmer: · die Grenzen · § 19 Abs. 1 UStG · Die Frage · + Markier-Guide § 19 + UStAE · Vorjahr · 25.000 € · laufend 100.000 €",
+          "bild": "op-cover"
+        },
+        {
+          "art": "text",
+          "titel": "Umsatzsteuer",
+          "text": "Die Klausurfrage · Smilla gestaltet Logos. Gesamtumsatz 2025: 23.000 €. · 2026 hat sie bis zum 10.11. schon 96.000 € vereinnahmt. Am 12.11. folgt ein Auftrag über 7.000 €. · Wie sind die Umsätze 2026 und 2027 zu behandeln? · Ich bin Smilla."
+        },
+        {
+          "art": "text",
+          "titel": "Umsatzsteuer",
+          "text": "Die zwei Grenzen · Vorjahr: Gesamtumsatz höchstens 25.000 €. · § 19 Abs. 1 S. 1 UStG · Laufendes Jahr: höchstens 100.000 €. · § 19 Abs. 1 S. 1 UStG · Folge: Umsätze steuerfrei, dafür kein Vorsteuerabzug. · § 15 Abs. 2 S. 1 Nr. 1 UStG · Zwei Hürden."
+        },
+        {
+          "art": "text",
+          "titel": "Umsatzsteuer",
+          "text": "Grenze im Jahr gerissen · Schon der Umsatz, mit dem 100.000 € überschritten werden, ist regulär zu versteuern. · Abschn. 19.1 Abs. 2 S. 4 UStAE · Frühere Umsätze desselben Jahres bleiben steuerfrei. · Sofort?"
+        },
+        {
+          "art": "text",
+          "titel": "Umsatzsteuer",
+          "text": "Lösung · Bis 10.11.: 96.000 €, steuerfrei. · § 19 Abs. 1 S. 1 UStG · Auftrag über 7.000 €: Summe 103.000 €, dieser Umsatz ist schon steuerpflichtig. · Abschn. 19.1 Abs. 2 S. 4 UStAE · 2027: Regelbesteuerung, weil 2026 über 25.000 € lag. · § 19 Abs. 1 S. 1 UStG · Ab jetzt mit 19 %."
+        },
+        {
+          "art": "text",
+          "titel": "Umsatzsteuer",
+          "text": "Jetzt du · Variante: Smilla gründet erst am 01.07.2026. · Welche Grenze gilt im Gründungsjahr? · Neustart?"
+        },
+        {
+          "art": "text",
+          "titel": "Umsatzsteuer",
+          "text": "Lösung · Im Jahr der Aufnahme zählt allein der Umsatz dieses Jahres. · Abschn. 19.1 Abs. 3 UStAE · Grenze dann: 25.000 €, nicht 100.000 €. · Abschn. 19.1 Abs. 3 UStAE · Gut zu wissen."
+        },
+        {
+          "art": "text",
+          "titel": "Umsatzsteuer",
+          "text": "Was zum Gesamtumsatz zählt · Gerechnet wird nach vereinnahmten Entgelten. · § 19 Abs. 2 S. 1 UStG · Bestimmte steuerfreie Umsätze und Verkäufe von Anlagevermögen bleiben außen vor. · § 19 Abs. 2 S. 1 Nr. 1, 2, S. 2 UStG · Nicht alles zählt."
+        },
+        {
+          "art": "text",
+          "titel": "Umsatzsteuer",
+          "text": "Vorjahr ≤ 25.000 € und laufendes Jahr ≤ 100.000 € · Gründungsjahr: 25.000 € · Vorjahr 25.000 €, · laufend 100.000 €, · der Umsatz drüber · ist schon steuerpflichtig. · Speichern für Klausur 1 · Hättest du den 7.000-€-Auftrag erkannt? · Weiterwischen: § 19 + UStAE markiert"
+        },
+        {
+          "art": "text",
+          "titel": "Umsatzsteuer",
+          "text": "§ 19 UStG Kleinunternehmer (Auszug) · seit 2025: frei · Vorjahr · laufend · Ist-Prinzip · Abschn. 19.1 UStAE (Auszug) · schon dieser! · Gründungsjahr · 25.000 € · Daneben: § 15 Abs. 2 S. 1 Nr. 1 UStG · Steuerfrei heißt: kein Vorsteuerabzug"
+        }
+      ]
+    },
+    "b3": {
+      "format": "reel",
+      "fach": "kst",
+      "klausur": 2,
+      "fachLabel": "Körperschaftsteuer",
+      "themaId": "kst-aufb-kst-t6-22",
+      "caption": "Dividende an die Organgesellschaft: Wer wendet § 8b KStG an? 🏢\n\n▸ Bei der Organgesellschaft sind § 8b Abs. 1 bis 6 KStG nicht anzuwenden; die Dividende geht brutto in das dem Organträger zugerechnete Einkommen ein (§ 15 S. 1 Nr. 2 S. 1 KStG).\n▸ Erst bei der Ermittlung des Einkommens des Organträgers sind § 8b KStG bzw. § 3 Nr. 40 und § 3c Abs. 2 EStG anzuwenden (§ 15 S. 1 Nr. 2 S. 2 KStG): Kapitalgesellschaft als Organträger § 8b KStG, natürliche Person Teileinkünfteverfahren.\n▸ Für die 10-%-Grenze des § 8b Abs. 4 KStG werden Beteiligungen von Organgesellschaft und Organträger getrennt betrachtet (§ 15 S. 1 Nr. 2 S. 4 KStG).\n\nSpeichern für Klausur 2 📌",
+      "hashtags": [
+        "#steuerberaterexamen",
+        "#steuerberaterprüfung",
+        "#examensvorbereitung",
+        "#körperschaftsteuer"
+      ],
+      "quellen": [
+        "§ 15 S. 1 Nr. 2 S. 1, 2, 4 KStG",
+        "§ 8b Abs. 1–6 KStG",
+        "§ 3 Nr. 40, § 3c Abs. 2 EStG"
+      ],
+      "slug": "2026-11-22-b3",
+      "kurztitel": "Dividenden der Organgesellschaft: Wer wendet § 8b KStG an?",
+      "regelGeprueft": true,
+      "manuellGeprueft": false,
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "open-peeps-render",
+      "renderer": "open-peeps-v4",
+      "liveVorrangAktiv": true,
+      "bild": "op-cover",
+      "reelTyp": "merksatz",
+      "hookStil": "kippen",
+      "coverBadge": "Reel",
+      "szenen": [
+        {
+          "art": "hook",
+          "titel": "Organgesellschaft stellt frei?"
+        },
+        {
+          "art": "schritt",
+          "titel": "Organgesellschaft"
+        },
+        {
+          "art": "schritt",
+          "titel": "Organträger"
+        },
+        {
+          "art": "schritt",
+          "titel": "Die 10-%-Grenze"
+        }
+      ],
+      "sprecher": [
+        "Die Organgesellschaft bekommt eine Dividende und stellt sie selbst frei? Falsch. Das macht erst der Organträger.",
+        "Bei der Organgesellschaft bleibt Paragraf acht b außen vor. Die Dividende geht brutto ins zugerechnete Einkommen.",
+        "Erst beim Organträger wird entschieden: Ist er eine GmbH, gilt Paragraf acht b. Ist er ein Mensch, das Teileinkünfteverfahren.",
+        "Die Zehn-Prozent-Grenze prüft jede Gesellschaft für ihre eigenen Anteile.",
+        "Merke: brutto zurechnen, erst beim Organträger freistellen."
+      ],
+      "dauerS": 35.783,
+      "tempo": 1.0
+    },
+    "s4": {
+      "slot": "s4",
+      "art": "frage",
+      "fach": "kst",
+      "klausur": 2,
+      "fachLabel": "Körperschaftsteuer",
+      "themaId": "kst-quiz-steuersatz-2026",
+      "beitragSlot": null,
+      "quellen": null,
+      "frage": [
+        "Körperschaftsteuer:",
+        "Satz für 2026?"
+      ],
+      "optionen": [
+        "15 %",
+        "14 %",
+        "10 %"
+      ],
+      "pairId": "kst-quiz-steuersatz-2026",
+      "sichtbareTexte": [
+        "Körperschaftsteuer",
+        "Prüfungsfrage",
+        "Körperschaftsteuer:",
+        "Satz für 2026?",
+        "15 %",
+        "14 %",
+        "10 %",
+        "Auflösung in der nächsten Story"
+      ],
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
+      "liveVorrangAktiv": true,
+      "regelGeprueft": true
+    },
+    "s5": {
+      "slot": "s5",
+      "art": "antwort",
+      "fach": "kst",
+      "klausur": 2,
+      "fachLabel": "Körperschaftsteuer",
+      "themaId": "kst-quiz-steuersatz-2026",
+      "beitragSlot": null,
+      "quellen": null,
+      "titel": [
+        "A: 15 %"
+      ],
+      "optionen": [
+        "15 %",
+        "14 %",
+        "10 %"
+      ],
+      "richtig": 0,
+      "text": "Bis 2027 bleibt es bei 15 %. Ab 2028 sinkt der Satz jedes Jahr um einen Punkt.",
+      "norm": "§ 23 Abs. 1 KStG",
+      "pairId": "kst-quiz-steuersatz-2026",
+      "sichtbareTexte": [
+        "Körperschaftsteuer",
+        "Auflösung",
+        "A: 15 %",
+        "15 %",
+        "14 %",
+        "10 %",
+        "Bis 2027 bleibt es bei 15 %. Ab 2028 sinkt der Satz jedes Jahr um einen Punkt.",
+        "§ 23 Abs. 1 KStG"
+      ],
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
+      "liveVorrangAktiv": true,
+      "regelGeprueft": true
+    },
+    "s1": {
+      "slot": "s1",
+      "art": "teaser",
+      "fach": null,
+      "klausur": 0,
+      "fachLabel": "Alle Klausuren",
+      "themaId": null,
+      "beitragSlot": "b1",
+      "quellen": null,
+      "titel": [
+        "Woche kompakt: alle 3 Klausuren"
+      ],
+      "unter": "Wochenrückblick + Markier-Guide · im Profil",
+      "sichtbareTexte": [
+        "Alle Klausuren",
+        "Neu im Feed",
+        "Woche kompakt: alle 3 Klausuren",
+        "Wochenrückblick + Markier-Guide · im Profil"
+      ],
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
+      "liveVorrangAktiv": true,
+      "regelGeprueft": true
+    },
+    "s6": {
+      "slot": "s6",
+      "art": "norm",
+      "fach": "bilanz",
+      "klausur": 3,
+      "fachLabel": "Bilanzsteuerrecht",
+      "themaId": "bilanz-glossar-1",
+      "beitragSlot": null,
+      "quellen": null,
+      "titel": [
+        "Maßgeblichkeit:",
+        "HGB als Start"
+      ],
+      "norm": "§ 5 Abs. 1 S. 1 EStG",
+      "punkte": [
+        [
+          "Die Steuerbilanz folgt den Grundsätzen ordnungsmäßiger Buchführung.",
+          "ok",
+          "§ 5 Abs. 1 S. 1 Hs. 1 EStG"
+        ],
+        [
+          "Steuerliche Sonderregeln gehen vor, etwa zur Bewertung.",
+          "warn",
+          "§ 5 Abs. 6 EStG"
+        ]
+      ],
+      "sichtbareTexte": [
+        "Bilanzsteuerrecht",
+        "Norm des Tages",
+        "Maßgeblichkeit:",
+        "HGB als Start",
+        "§ 5 Abs. 1 S. 1 EStG",
+        "Die Steuerbilanz folgt den Grundsätzen ordnungsmäßiger Buchführung.",
+        "§ 5 Abs. 1 S. 1 Hs. 1 EStG",
+        "Steuerliche Sonderregeln gehen vor, etwa zur Bewertung.",
+        "§ 5 Abs. 6 EStG"
+      ],
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
+      "liveVorrangAktiv": true,
+      "regelGeprueft": true
+    },
+    "s2": {
+      "slot": "s2",
+      "art": "teaser",
+      "fach": "ust",
+      "klausur": 1,
+      "fachLabel": "Umsatzsteuer",
+      "themaId": null,
+      "beitragSlot": "b2",
+      "quellen": null,
+      "titel": [
+        "Kleinunternehmer-Grenzen"
+      ],
+      "unter": "Prüfungsfrage + Markier-Guide · im Profil",
+      "sichtbareTexte": [
+        "Umsatzsteuer",
+        "Neu im Feed",
+        "Kleinunternehmer-Grenzen",
+        "Prüfungsfrage + Markier-Guide · im Profil"
+      ],
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
+      "liveVorrangAktiv": true,
+      "regelGeprueft": true
+    },
+    "s7": {
+      "slot": "s7",
+      "art": "tipp",
+      "fach": null,
+      "klausur": 0,
+      "fachLabel": "Klausurtechnik",
+      "themaId": null,
+      "beitragSlot": null,
+      "quellen": null,
+      "titel": [
+        "Sonntag:",
+        "Fehlerliste"
+      ],
+      "punkte": [
+        [
+          "Drei Fehler der Woche aufschreiben.",
+          "ok",
+          null
+        ],
+        [
+          "Zu jedem Fehler die richtige Norm.",
+          "ok",
+          null
+        ],
+        [
+          "Montag zuerst diese Liste lesen.",
+          "ok",
+          null
+        ]
+      ],
+      "icon": "tabler:list-details",
+      "iconFarbe": "GELB",
+      "sichtbareTexte": [
+        "Klausurtechnik",
+        "Klausurtipp",
+        "Sonntag:",
+        "Fehlerliste",
+        "Drei Fehler der Woche aufschreiben.",
+        "Zu jedem Fehler die richtige Norm.",
+        "Montag zuerst diese Liste lesen."
+      ],
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
+      "liveVorrangAktiv": true,
+      "regelGeprueft": true
+    },
+    "s8": {
+      "slot": "s8",
+      "art": "tipp",
+      "fach": "ao",
+      "klausur": 1,
+      "fachLabel": "Abgabenordnung",
+      "themaId": "ao-modul-ao-377",
+      "beitragSlot": null,
+      "quellen": null,
+      "titel": [
+        "Sonstiger VA:",
+        "welche Korrektur?"
+      ],
+      "punkte": [
+        [
+          "Offenbarer Fehler: berichtigen.",
+          "ok",
+          "§ 129 AO"
+        ],
+        [
+          "Rechtswidrig: Rücknahme.",
+          "ok",
+          "§ 130 AO"
+        ],
+        [
+          "Rechtmäßig: Widerruf.",
+          "ok",
+          "§ 131 AO"
+        ]
+      ],
+      "icon": "tabler:git-branch",
+      "iconFarbe": "GELB",
+      "sichtbareTexte": [
+        "Abgabenordnung",
+        "Klausurtipp",
+        "Sonstiger VA:",
+        "welche Korrektur?",
+        "Offenbarer Fehler: berichtigen.",
+        "§ 129 AO",
+        "Rechtswidrig: Rücknahme.",
+        "§ 130 AO",
+        "Rechtmäßig: Widerruf.",
+        "§ 131 AO"
+      ],
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
+      "liveVorrangAktiv": true,
+      "regelGeprueft": true
+    },
+    "s3": {
+      "slot": "s3",
+      "art": "teaser",
+      "fach": "kst",
+      "klausur": 2,
+      "fachLabel": "Körperschaftsteuer",
+      "themaId": null,
+      "beitragSlot": "b3",
+      "quellen": null,
+      "titel": [
+        "Organgesellschaft stellt frei?"
+      ],
+      "unter": "Neues Reel · im Profil",
+      "sichtbareTexte": [
+        "Körperschaftsteuer",
+        "Neu im Feed",
+        "Organgesellschaft stellt frei?",
+        "Neues Reel · im Profil"
+      ],
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
+      "liveVorrangAktiv": true,
+      "regelGeprueft": true
+    },
+    "s9": {
+      "slot": "s9",
+      "art": "merksatz",
+      "fach": "kst",
+      "klausur": 2,
+      "fachLabel": "Körperschaftsteuer",
+      "themaId": "kst-modul-kst-1",
+      "beitragSlot": null,
+      "quellen": null,
+      "titel": [
+        "Eintragung",
+        "scheitert?"
+      ],
+      "zeilen": [
+        [
+          [
+            "Keine Eintragung",
+            "a"
+          ],
+          [
+            ":",
+            null
+          ]
+        ],
+        [
+          [
+            "keine",
+            null
+          ],
+          [
+            " Körperschaft",
+            "b"
+          ],
+          [
+            ",",
+            null
+          ]
+        ],
+        [
+          [
+            "Personengesellschaft",
+            "c"
+          ]
+        ],
+        [
+          [
+            "oder Einzelunternehmen.",
+            null
+          ]
+        ]
+      ],
+      "norm": "H 1.1 KStH",
+      "sichtbareTexte": [
+        "Körperschaftsteuer",
+        "Merksatz",
+        "Eintragung",
+        "scheitert?",
+        "Keine Eintragung:",
+        "keine Körperschaft,",
+        "Personengesellschaft",
+        "oder Einzelunternehmen.",
+        "H 1.1 KStH"
+      ],
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
+      "liveVorrangAktiv": true,
+      "regelGeprueft": true
+    }
+  },
+  "renderVorschau": {
+    "status": "fertig",
+    "erzeugtAm": "2026-11-08T07:28:04Z",
+    "pfad": "vorproduktion/2026-11-22/fertig",
+    "providerKostenUsd": 0,
+    "coverbilder": false,
+    "coverIcons": false,
+    "renderer": "open-peeps-v4",
+    "layoutQuelle": "open-peeps-variante-c",
+    "reelStimme": "elevenlabs-laura",
+    "sfx": "freesound-cc0",
+    "freigabeBetreiber": true,
+    "liveVorrangAktiv": true,
+    "normalbetriebGesperrt": true,
+    "wartetLive": []
+  }
+}
