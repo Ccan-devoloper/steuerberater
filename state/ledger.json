@@ -21514,6 +21514,30 @@
         "#examensvorbereitung",
         "#personengesellschaften"
       ]
+    },
+    {
+      "datum": "2026-11-08",
+      "slot": "m1",
+      "medienId": "17978772785934886",
+      "veroeffentlicht": "2026-11-08T18:00:13.602Z",
+      "quelle": "vorproduktion",
+      "art": "beitrag",
+      "zeit": "19:00",
+      "stunde": 19,
+      "format": "reel",
+      "thema": "lead-zr-z9",
+      "fach": null,
+      "klausur": 0,
+      "titel": "Kommanditist haftet unbeschränkt?",
+      "hookTyp": null,
+      "hashtags": [
+        "#steuerberaterprüfung",
+        "#steuerberaterexamen",
+        "#mündlicheprüfung",
+        "#examensvorbereitung",
+        "#zivilrecht",
+        "#steuerberater"
+      ]
     }
   ],
   "fachZaehler": {
@@ -21528,7 +21552,7 @@
     "est": 10,
     "umwst": 11,
     "gewst": 5,
-    "null": 19
+    "null": 20
   },
   "nachrichten": [],
   "postfach": [],
