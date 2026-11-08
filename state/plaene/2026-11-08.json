@@ -24,7 +24,8 @@
       "themaTitel": "vGA beim Empfänger steuerfrei? Nur mit Korrespondenz",
       "fach": "kst",
       "klausur": 2,
-      "status": "geplant"
+      "status": "sendet",
+      "sendeversuch": "2026-11-08T12:30:00.078Z"
     },
     {
       "slot": "b3",
