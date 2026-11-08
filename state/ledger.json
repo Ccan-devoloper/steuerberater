@@ -21348,6 +21348,21 @@
       },
       "insightsStand": "2026-11-08T08:45:34.452Z",
       "insightsAlterStunden": 1.3
+    },
+    {
+      "datum": "2026-11-08",
+      "slot": "s6",
+      "medienId": "17894816394615970",
+      "veroeffentlicht": "2026-11-08T11:14:04.566Z",
+      "quelle": "vorproduktion",
+      "art": "story",
+      "storyArt": "norm",
+      "thema": "erbst-modul-erbst-509",
+      "fach": "erbst",
+      "titel": [
+        "Hausrat",
+        "geerbt?"
+      ]
     }
   ],
   "fachZaehler": {
