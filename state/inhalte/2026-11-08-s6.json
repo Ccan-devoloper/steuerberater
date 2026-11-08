@@ -1,0 +1,44 @@
+{
+  "slot": "s6",
+  "art": "norm",
+  "fach": "erbst",
+  "klausur": 1,
+  "fachLabel": "Erbschaftsteuer",
+  "themaId": "erbst-modul-erbst-509",
+  "beitragSlot": null,
+  "quellen": null,
+  "titel": [
+    "Hausrat",
+    "geerbt?"
+  ],
+  "norm": "§ 13 Abs. 1 Nr. 1 ErbStG",
+  "punkte": [
+    [
+      "Klasse I: Hausrat bis 41.000 €, andere bewegliche Gegenstände bis 12.000 €.",
+      "ok",
+      "§ 13 Abs. 1 Nr. 1 Buchst. a, b ErbStG"
+    ],
+    [
+      "Klassen II und III: zusammen nur 12.000 €.",
+      "warn",
+      "§ 13 Abs. 1 Nr. 1 Buchst. c ErbStG"
+    ]
+  ],
+  "sichtbareTexte": [
+    "Erbschaftsteuer",
+    "Norm des Tages",
+    "Hausrat",
+    "geerbt?",
+    "§ 13 Abs. 1 Nr. 1 ErbStG",
+    "Klasse I: Hausrat bis 41.000 €, andere bewegliche Gegenstände bis 12.000 €.",
+    "§ 13 Abs. 1 Nr. 1 Buchst. a, b ErbStG",
+    "Klassen II und III: zusammen nur 12.000 €.",
+    "§ 13 Abs. 1 Nr. 1 Buchst. c ErbStG"
+  ],
+  "renderer": "open-peeps-v4",
+  "bildStatus": "open-peeps-render",
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "liveVorrangAktiv": true,
+  "regelGeprueft": true
+}

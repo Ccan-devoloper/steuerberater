@@ -1,0 +1,38 @@
+{
+  "slot": "s5",
+  "art": "antwort",
+  "fach": "bilanz",
+  "klausur": 3,
+  "fachLabel": "Bilanzsteuerrecht",
+  "themaId": "bilanz-quiz-k3-13",
+  "beitragSlot": null,
+  "quellen": null,
+  "titel": [
+    "B: 5,5 Prozent"
+  ],
+  "optionen": [
+    "3 %",
+    "5,5 %",
+    "6 %"
+  ],
+  "richtig": 1,
+  "text": "Nicht bei Laufzeit unter zwölf Monaten. Die 6 % gelten für Pensionsrückstellungen.",
+  "norm": "§ 6 Abs. 1 Nr. 3a Buchst. e EStG",
+  "pairId": "bilanz-quiz-k3-13",
+  "sichtbareTexte": [
+    "Bilanzsteuerrecht",
+    "Auflösung",
+    "B: 5,5 Prozent",
+    "3 %",
+    "5,5 %",
+    "6 %",
+    "Nicht bei Laufzeit unter zwölf Monaten. Die 6 % gelten für Pensionsrückstellungen.",
+    "§ 6 Abs. 1 Nr. 3a Buchst. e EStG"
+  ],
+  "renderer": "open-peeps-v4",
+  "bildStatus": "open-peeps-render",
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "liveVorrangAktiv": true,
+  "regelGeprueft": true
+}

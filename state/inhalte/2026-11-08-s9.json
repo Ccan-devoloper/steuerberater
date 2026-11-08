@@ -1,0 +1,71 @@
+{
+  "slot": "s9",
+  "art": "merksatz",
+  "fach": "umwst",
+  "klausur": 3,
+  "fachLabel": "Umwandlungssteuerrecht",
+  "themaId": "umwst-aufb-umw-ks-4-04",
+  "beitragSlot": null,
+  "quellen": null,
+  "titel": [
+    "Verschmelzung:",
+    "und die Anteile?"
+  ],
+  "zeilen": [
+    [
+      [
+        "Ohne Antrag ",
+        null
+      ],
+      [
+        "Tausch",
+        "a"
+      ]
+    ],
+    [
+      [
+        "zum ",
+        null
+      ],
+      [
+        "gemeinen Wert",
+        "b"
+      ],
+      [
+        ",",
+        null
+      ]
+    ],
+    [
+      [
+        "mit Antrag ",
+        null
+      ],
+      [
+        "Buchwert",
+        "c"
+      ],
+      [
+        ".",
+        null
+      ]
+    ]
+  ],
+  "norm": "§ 13 Abs. 1, 2 UmwStG",
+  "sichtbareTexte": [
+    "Umwandlungssteuerrecht",
+    "Merksatz",
+    "Verschmelzung:",
+    "und die Anteile?",
+    "Ohne Antrag Tausch",
+    "zum gemeinen Wert,",
+    "mit Antrag Buchwert.",
+    "§ 13 Abs. 1, 2 UmwStG"
+  ],
+  "renderer": "open-peeps-v4",
+  "bildStatus": "open-peeps-render",
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "liveVorrangAktiv": true,
+  "regelGeprueft": true
+}

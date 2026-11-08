@@ -1,0 +1,60 @@
+{
+  "format": "reel",
+  "fach": "persg",
+  "klausur": 3,
+  "fachLabel": "Personengesellschaften",
+  "themaId": "persg-aufb-persg-melzer-5-4",
+  "caption": "Brutto- oder Nettomethode bei der Einbringung nach § 24 UmwStG – am Ende zählt dieselbe Summe. ⚖️\n\nFall: Ida bringt ihr Einzelunternehmen (Buchwert 100.000 €, gemeiner Wert 300.000 €) in eine KG ein; Malte leistet 300.000 € bar. Beide sollen zu 50 % beteiligt sein, Ida will den Buchwert fortführen.\n\n▸ Grundsatz gemeiner Wert; auf Antrag Buch- oder Zwischenwert, wenn das deutsche Besteuerungsrecht nicht eingeschränkt wird und sonstige Gegenleistungen die Grenzen nicht überschreiten (§ 24 Abs. 2 S. 1, 2 UmwStG).\n▸ Maßgeblich ist der Wert in der Bilanz der Gesellschaft einschließlich der Ergänzungsbilanzen; er gilt für den Einbringenden als Veräußerungspreis (§ 24 Abs. 3 S. 1 UmwStG).\n▸ Bruttomethode: KG-Bilanz mit 300.000 €, Kapital je 300.000 €, negative Ergänzungsbilanz Ida −200.000 € – zusammen 100.000 €.\n▸ Nettomethode: KG-Bilanz mit Buchwert 100.000 €, Kapitalkonten je 200.000 €; Ida −100.000 € und Malte +100.000 € in Ergänzungsbilanzen.\n▸ Beide Wege: Für Ida ergibt sich der Buchwert, kein Einbringungsgewinn.\n\nSpeichern für Klausur 3 📌",
+  "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#personengesellschaften"
+  ],
+  "quellen": [
+    "§ 24 Abs. 2 S. 1, 2 UmwStG",
+    "§ 24 Abs. 3 S. 1 UmwStG"
+  ],
+  "slug": "2026-11-08-b3",
+  "kurztitel": "Brutto- oder Nettomethode: Buchwert nach § 24 UmwStG richtig zeigen",
+  "regelGeprueft": true,
+  "manuellGeprueft": false,
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "textProviderKostenUsd": 0,
+  "faktencheckProviderKostenUsd": 0,
+  "bildStatus": "open-peeps-render",
+  "renderer": "open-peeps-v4",
+  "liveVorrangAktiv": true,
+  "bild": "op-cover",
+  "reelTyp": "merksatz",
+  "hookStil": "split",
+  "coverBadge": "Reel",
+  "szenen": [
+    {
+      "art": "hook",
+      "titel": "Brutto oder netto?"
+    },
+    {
+      "art": "schritt",
+      "titel": "Der Fall"
+    },
+    {
+      "art": "schritt",
+      "titel": "Bruttomethode"
+    },
+    {
+      "art": "schritt",
+      "titel": "Nettomethode"
+    }
+  ],
+  "sprecher": [
+    "Einbringung zum Buchwert. Brutto oder netto? Am Ende zählt dieselbe Summe.",
+    "Ida bringt ihren Betrieb ein: Buchwert hunderttausend, gemeiner Wert dreihunderttausend. Malte zahlt dreihunderttausend bar ein.",
+    "Bruttomethode: Die KG zeigt dreihunderttausend. Ida bekommt eine negative Ergänzungsbilanz über zweihunderttausend.",
+    "Nettomethode: Die KG zeigt nur den Buchwert. Gleiche Kapitalkonten entstehen über Ergänzungsbilanzen.",
+    "Merke: Gesamthand plus Ergänzungsbilanz ergibt den Buchwert."
+  ],
+  "dauerS": 38.053,
+  "tempo": 1
+}

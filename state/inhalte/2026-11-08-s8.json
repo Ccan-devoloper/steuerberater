@@ -1,0 +1,51 @@
+{
+  "slot": "s8",
+  "art": "tipp",
+  "fach": "kst",
+  "klausur": 2,
+  "fachLabel": "Körperschaftsteuer",
+  "themaId": "kst-aufb-kst-ks-4-08",
+  "beitragSlot": null,
+  "quellen": null,
+  "titel": [
+    "GmbH verkauft",
+    "Anteile"
+  ],
+  "punkte": [
+    [
+      "Gewinn steuerfrei, egal wie hoch beteiligt.",
+      "ok",
+      "§ 8b Abs. 2 KStG"
+    ],
+    [
+      "5 % gelten als nicht abziehbar.",
+      "warn",
+      "§ 8b Abs. 3 S. 1 KStG"
+    ],
+    [
+      "Streubesitz trifft nur Dividenden.",
+      "warn",
+      "§ 8b Abs. 4 S. 1 KStG"
+    ]
+  ],
+  "icon": "tabler:building-bank",
+  "iconFarbe": "GELB",
+  "sichtbareTexte": [
+    "Körperschaftsteuer",
+    "Klausurtipp",
+    "GmbH verkauft",
+    "Anteile",
+    "Gewinn steuerfrei, egal wie hoch beteiligt.",
+    "§ 8b Abs. 2 KStG",
+    "5 % gelten als nicht abziehbar.",
+    "§ 8b Abs. 3 S. 1 KStG",
+    "Streubesitz trifft nur Dividenden.",
+    "§ 8b Abs. 4 S. 1 KStG"
+  ],
+  "renderer": "open-peeps-v4",
+  "bildStatus": "open-peeps-render",
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "liveVorrangAktiv": true,
+  "regelGeprueft": true
+}

@@ -1,0 +1,62 @@
+{
+  "format": "reel",
+  "fach": null,
+  "klausur": 0,
+  "fachLabel": "Mündliche · Zivilrecht",
+  "themaId": "lead-zr-z9",
+  "caption": "Ein Kommanditist haftet unbeschränkt? Kann passieren. ⚠️\n\nGrundsatz: Haftung nur bis zur Höhe der Einlage (§ 171 Abs. 1 HGB). Beginnt die KG ihre Geschäfte vor der Eintragung mit Zustimmung des Kommanditisten, haftet er für die bis zur Eintragung begründeten Verbindlichkeiten wie ein Komplementär – es sei denn, der Gläubiger kannte seine Beteiligung als Kommanditist (§ 176 Abs. 1 HGB).\n\nSchreib deine Antwort in die Kommentare 👇 und schick das Reel deinem Lernpartner.\n\nDie 10 häufigsten Fehler der Mündlichen – mit Prüfungsszenen und Lösungen – als Gratis-PDF, ausgewertet aus über 400 Prüfungsprotokollen. 👉 Link in der Bio",
+  "hashtags": [
+    "#steuerberaterprüfung",
+    "#steuerberaterexamen",
+    "#mündlicheprüfung",
+    "#examensvorbereitung",
+    "#zivilrecht",
+    "#steuerberater"
+  ],
+  "quellen": [
+    "§ 171 Abs. 1 HGB",
+    "§ 176 Abs. 1 HGB"
+  ],
+  "slug": "2026-11-08-m1",
+  "kurztitel": "Kommanditist haftet unbeschränkt?",
+  "regelGeprueft": true,
+  "manuellGeprueft": false,
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "textProviderKostenUsd": 0,
+  "faktencheckProviderKostenUsd": 0,
+  "bildStatus": "open-peeps-render",
+  "renderer": "open-peeps-v4",
+  "liveVorrangAktiv": true,
+  "bild": "op-cover",
+  "reelTyp": "klausurfalle",
+  "hookStil": "knall",
+  "coverBadge": "Reel",
+  "szenen": [
+    {
+      "art": "hook",
+      "titel": "Kommanditist haftet unbeschränkt?"
+    },
+    {
+      "art": "schritt",
+      "titel": "Normal"
+    },
+    {
+      "art": "schritt",
+      "titel": "Vor Eintragung"
+    },
+    {
+      "art": "schritt",
+      "titel": "Ausnahme"
+    }
+  ],
+  "sprecher": [
+    "Ein Kommanditist haftet unbeschränkt? Ja, das ist möglich.",
+    "Normal haftet er nur bis zur Höhe seiner Einlage.",
+    "Aber: Beginnt die KG ihre Geschäfte vor der Eintragung, und er stimmt zu, haftet er für diese Schulden unbeschränkt.",
+    "Außer der Gläubiger wusste, dass er nur Kommanditist ist.",
+    "Wer das nicht weiß, verliert Punkte. Die zehn häufigsten Fehler: kostenlos, Link in der Bio."
+  ],
+  "dauerS": 27.346,
+  "tempo": 1.02
+}

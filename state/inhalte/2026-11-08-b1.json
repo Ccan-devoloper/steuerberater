@@ -1,0 +1,73 @@
+{
+  "format": "wochenrueckblick",
+  "fach": null,
+  "klausur": 0,
+  "fachLabel": "Alle Klausuren",
+  "themaId": "wochenrueckblick-alle-2026-45",
+  "caption": "Wochenrückblick KW 45: je Klausur die Themen der Woche.\n\nKlausur 1 (AO, USt, ErbSt)\n1. Ein bestandskräftiger Bescheid wird nur geändert, wenn für den Fehler eine Korrekturvorschrift greift (§§ 172 bis 175 AO). Dann sind andere materielle Fehler zugunsten und zuungunsten mitzuberichtigen, soweit die Änderung reicht (§ 177 Abs. 1 bis 3 AO).\n2. Erwerbe von derselben Person innerhalb von zehn Jahren werden mit ihrem früheren Wert zusammengerechnet; der Freibetrag gilt für alle zusammen einmal (§ 14 Abs. 1 S. 1 ErbStG).\n\nKlausur 2 (Ertragsteuern)\n3. Entsteht oder erhöht sich ein negatives Kapitalkonto des Kommanditisten durch Entnahmen, wird ihm der Betrag als Gewinn zugerechnet, soweit keine nach § 15a Abs. 1 S. 2 EStG zu berücksichtigende Haftung besteht oder entsteht (§ 15a Abs. 3 S. 1, 2 EStG).\n4. Verluste aus der Vermietung von Grundbesitz in einem Drittstaat sind nur mit positiven Einkünften derselben Art aus demselben Staat ausgleichbar (§ 2a Abs. 1 S. 1 Nr. 6 Buchst. a EStG).\n\nKlausur 3 (Buchführung und Bilanzwesen)\n5. In der Steuerbilanz verboten: Rückstellungen für drohende Verluste aus schwebenden Geschäften (§ 5 Abs. 4a S. 1 EStG) und für künftige Anschaffungs- oder Herstellungskosten (§ 5 Abs. 4b S. 1 EStG).\n6. Eine Beteiligung unter 10 % an der Komplementär-GmbH ist regelmäßig kein notwendiges Sonderbetriebsvermögen II, wenn die Gesellschafterversammlung mit einfacher Mehrheit entscheidet (BFH vom 16.04.2015, IV R 1/12, BStBl II 2015, 705).\n\nZum Schluss: § 177 AO zum Markieren. Speichern für alle drei Klausuren 📌",
+  "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#steuerrecht"
+  ],
+  "quellen": [
+    "§§ 172 bis 175 AO",
+    "§ 177 Abs. 1 bis 3 AO",
+    "§ 14 Abs. 1 S. 1 ErbStG",
+    "§ 15a Abs. 1 S. 2, Abs. 3 S. 1, 2 EStG",
+    "§ 2a Abs. 1 S. 1 Nr. 6 Buchst. a EStG",
+    "§ 5 Abs. 4a S. 1, Abs. 4b S. 1 EStG",
+    "BFH vom 16.04.2015, IV R 1/12, BStBl II 2015, 705"
+  ],
+  "slug": "2026-11-08-b1",
+  "kurztitel": "Alle Klausuren: sechs Themen der Woche 45",
+  "regelGeprueft": true,
+  "manuellGeprueft": false,
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "textProviderKostenUsd": 0,
+  "faktencheckProviderKostenUsd": 0,
+  "bildStatus": "open-peeps-render",
+  "renderer": "open-peeps-v4",
+  "liveVorrangAktiv": true,
+  "coverBadge": "Wochenrückblick",
+  "folien": [
+    {
+      "art": "titel",
+      "titel": "Wochenrückblick",
+      "text": "Wochenrückblick · Woche · kompakt · 6 Themen · + Markier-Guide § 177 AO · WOCHE · 45 · 2. bis 7. November",
+      "bild": "op-cover"
+    },
+    {
+      "art": "text",
+      "titel": "Alle Klausuren",
+      "text": "Die Woche in 3 Klausuren · Klausur 1 · AO und ErbSt · § 177 AO · § 14 ErbStG · Saldierung und Zusammenrechnung · Klausur 2 · Einkommensteuer · § 15a Abs. 3, § 2a EStG · Einlageminderung und Drittstaatenverluste · Klausur 3 · Bilanz und PersG · § 5 Abs. 4a, 4b EStG · Rückstellungsverbote und SBV II · Am Ende: § 177 AO markiert"
+    },
+    {
+      "art": "text",
+      "titel": "Alle Klausuren",
+      "text": "Klausur 1 · AO und ErbSt · Bestandskräftig: Jeder Fehler braucht eine Korrekturnorm. · §§ 172 bis 175 AO · Wird geändert, andere Fehler mitberichtigen, soweit die Änderung reicht. · § 177 Abs. 1 bis 3 AO · Schenkungen derselben Person in zehn Jahren: zusammenrechnen, Freibetrag nur einmal. · § 14 Abs. 1 S. 1 ErbStG · Reihenfolge zählt!"
+    },
+    {
+      "art": "text",
+      "titel": "Alle Klausuren",
+      "text": "Klausur 2 · Einkommensteuer · Entnahme macht das Kommanditkapital negativ: Gewinnzurechnung, soweit keine Haftung auflebt. · § 15a Abs. 3 S. 1 EStG · Mietverlust aus einem Drittstaat: nur mit gleichartigen Einkünften aus demselben Staat. · § 2a Abs. 1 S. 1 Nr. 6 Buchst. a EStG · Haftet sie noch?"
+    },
+    {
+      "art": "text",
+      "titel": "Alle Klausuren",
+      "text": "Klausur 3 · Bilanz und PersG · Steuerlich verboten: Drohverlustrückstellungen. · § 5 Abs. 4a S. 1 EStG · Ebenso Rückstellungen für künftige Anschaffungs- oder Herstellungskosten. · § 5 Abs. 4b S. 1 EStG · Unter 10 % an der Komplementär-GmbH: regelmäßig kein SBV II. · BFH vom 16.04.2015, IV R 1/12, BStBl II 2015, 705 · Stimmrechte zählen"
+    },
+    {
+      "art": "text",
+      "titel": "Alle Klausuren",
+      "text": "Die Woche in allen 3 Klausuren · Verfahren · Ertragsteuern · Bilanz · Korrekturnorm zuerst, · zehn Jahre zusammen, · Entnahme kann Gewinn sein, · Drohverlust verboten. · Speichern für alle 3 Klausuren · Welche Klausur wackelt noch? · Weiterwischen: § 177 AO markiert"
+    },
+    {
+      "art": "text",
+      "titel": "Alle Klausuren",
+      "text": "§ 177 AO (Auszug) · erst Korrekturnorm · Rahmen · Saldierung · Gegenrichtung · Begriff · Keine eigene Änderungsnorm · Erst die Korrekturvorschrift, dann saldieren"
+    }
+  ]
+}

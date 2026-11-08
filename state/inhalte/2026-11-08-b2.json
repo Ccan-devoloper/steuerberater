@@ -1,0 +1,82 @@
+{
+  "format": "pruefungsfrage",
+  "fach": "kst",
+  "klausur": 2,
+  "fachLabel": "Körperschaftsteuer",
+  "themaId": "kst-aufb-kst-ks-4-06",
+  "caption": "Prüfungsfrage: Ist eine vGA bei der Mutter-GmbH nach § 8b KStG steuerfrei?\n\nFall: Die Falkner GmbH hält 100 % an der Ostwind GmbH. Ostwind zahlt ihr 2025 für Beratung 100.000 €, angemessen wären 60.000 €. Der Körperschaftsteuerbescheid 2025 der Ostwind ist bestandskräftig, die vGA wurde nicht hinzugerechnet.\n\n▸ Bei Ostwind liegt eine vGA von 40.000 € vor, die das Einkommen nicht mindern darf (§ 8 Abs. 3 S. 2 KStG).\n▸ Bei Falkner sind die 40.000 € Bezüge (§ 20 Abs. 1 Nr. 1 S. 2 EStG), die grundsätzlich außer Ansatz bleiben (§ 8b Abs. 1 S. 1 KStG).\n▸ Voraussetzung: Die zahlende Gesellschaft durfte die Bezüge nicht als Aufwand abziehen (§ 8b Abs. 1 S. 2 KStG). Hier haben sie es gemindert: voll steuerpflichtig, ohne 5-%-Pauschale (§ 8b Abs. 5 S. 1 KStG).\n▸ Wird der Bescheid der Ostwind wegen der vGA doch noch geändert, kann der Bescheid der Falkner GmbH angepasst werden; die Frist läuft dafür mindestens bis ein Jahr, nachdem der Ostwind-Bescheid unanfechtbar ist (§ 32a Abs. 1 S. 1, 2 KStG).\n▸ Bei natürlichen Personen gilt die Korrespondenz für das Teileinkünfteverfahren (§ 3 Nr. 40 S. 1 Buchst. d S. 2 EStG) und den Abgeltungsteuersatz (§ 32d Abs. 2 Nr. 4 EStG).\n\nZum Schluss: § 8b Abs. 1 und 5 KStG zum Markieren. Speichern für Klausur 2 📌",
+  "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#körperschaftsteuer"
+  ],
+  "quellen": [
+    "§ 8 Abs. 3 S. 2 KStG",
+    "§ 8b Abs. 1 S. 1, 2, Abs. 5 S. 1 KStG",
+    "§ 32a Abs. 1 KStG",
+    "§ 20 Abs. 1 Nr. 1 S. 2 EStG",
+    "§ 3 Nr. 40 S. 1 Buchst. d S. 2 EStG",
+    "§ 32d Abs. 2 Nr. 4 EStG"
+  ],
+  "slug": "2026-11-08-b2",
+  "kurztitel": "vGA beim Empfänger steuerfrei? Nur mit Korrespondenz",
+  "regelGeprueft": true,
+  "manuellGeprueft": false,
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "textProviderKostenUsd": 0,
+  "faktencheckProviderKostenUsd": 0,
+  "bildStatus": "open-peeps-render",
+  "renderer": "open-peeps-v4",
+  "liveVorrangAktiv": true,
+  "coverBadge": "Prüfungsfrage",
+  "folien": [
+    {
+      "art": "titel",
+      "titel": "Prüfungsfrage",
+      "text": "Prüfungsfrage · vGA an die Mutter: · steuerfrei? · § 8b Abs. 1 S. 2 KStG · Klausurfrage · + Markier-Guide § 8b KStG · Honorar zu hoch · 40.000 € · steuerfrei?",
+      "bild": "op-cover"
+    },
+    {
+      "art": "text",
+      "titel": "Körperschaftsteuer",
+      "text": "Der Fall · Die Falkner GmbH hält 100 % an der Ostwind GmbH. · Ostwind zahlt ihr 2025 ein Honorar von 100.000 € statt angemessener 60.000 €. · Der Bescheid 2025 der Ostwind ist bestandskräftig, die vGA unentdeckt. · Ich bin Dörte von Falkner."
+    },
+    {
+      "art": "text",
+      "titel": "Körperschaftsteuer",
+      "text": "Die Klausurfrage · Wie erfasst die Falkner GmbH die überhöhten 40.000 € bei ihrem Einkommen 2025? · Erst selbst lösen, dann weiterwischen. · Dividende ist doch steuerfrei?"
+    },
+    {
+      "art": "text",
+      "titel": "Körperschaftsteuer",
+      "text": "Schritt 1: bei Ostwind · Überhöhtes Honorar an die Gesellschafterin: vGA von 40.000 €. · § 8 Abs. 3 S. 2 KStG · Ihr Einkommen hätte um 40.000 € steigen müssen. · Der Bescheid ist aber bestandskräftig. · Nicht mehr änderbar?"
+    },
+    {
+      "art": "text",
+      "titel": "Körperschaftsteuer",
+      "text": "Schritt 2: bei Falkner · Die 40.000 € sind Bezüge, keine Beratungseinnahme. · § 20 Abs. 1 Nr. 1 S. 2 EStG · Im Grundsatz blieben sie außer Ansatz. · § 8b Abs. 1 S. 1 KStG · Also steuerfrei?"
+    },
+    {
+      "art": "text",
+      "titel": "Körperschaftsteuer",
+      "text": "Lösung · Nur, soweit die vGA das Einkommen der Ostwind nicht gemindert hat. · § 8b Abs. 1 S. 2 KStG · Hier gemindert: Die 40.000 € sind bei Falkner voll steuerpflichtig. · Keine 5-%-Pauschale, weil nichts außer Ansatz bleibt. · § 8b Abs. 5 S. 1 KStG · Voll steuerpflichtig!"
+    },
+    {
+      "art": "text",
+      "titel": "Körperschaftsteuer",
+      "text": "Und wenn Ostwind geändert wird? · Dann kann auch Falkners Bescheid geändert werden. · § 32a Abs. 1 S. 1 KStG · Frist frühestens ein Jahr nach Unanfechtbarkeit bei Ostwind. · § 32a Abs. 1 S. 2 KStG · Bei natürlichen Personen gilt das für Teileinkünfte und Abgeltungsteuer genauso. · § 3 Nr. 40 S. 1 Buchst. d S. 2, § 32d Abs. 2 Nr. 4 EStG · Beide Ebenen zusammen!"
+    },
+    {
+      "art": "text",
+      "titel": "Körperschaftsteuer",
+      "text": "Falkner GmbH: 40.000 € voll steuerpflichtig · Steuerfrei erst, wenn Ostwind die vGA versteuert · Abgezogen bei der Tochter, · steuerpflichtig bei der Mutter; · § 32a KStG verbindet beide. · Speichern für Klausur 2 · Prüfst du immer beide Ebenen? · Weiterwischen: § 8b KStG markiert"
+    },
+    {
+      "art": "text",
+      "titel": "Körperschaftsteuer",
+      "text": "§ 8b KStG (Auszug) · Grundsatz · Korrespondenz! · nur dann · Pauschale · Änderung beim Empfänger · § 32a Abs. 1 KStG"
+    }
+  ]
+}
