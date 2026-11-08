@@ -21538,6 +21538,20 @@
         "#zivilrecht",
         "#steuerberater"
       ]
+    },
+    {
+      "datum": "2026-11-08",
+      "slot": "s3",
+      "medienId": "18076742927495897",
+      "veroeffentlicht": "2026-11-08T18:00:26.108Z",
+      "quelle": "vorproduktion",
+      "art": "story",
+      "storyArt": "teaser",
+      "thema": null,
+      "fach": "persg",
+      "titel": [
+        "Brutto oder netto?"
+      ]
     }
   ],
   "fachZaehler": {
