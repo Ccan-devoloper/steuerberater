@@ -21234,7 +21234,24 @@
       "storyArt": "frage",
       "thema": "bilanz-quiz-k3-13",
       "fach": "bilanz",
-      "titel": ""
+      "titel": "",
+      "insights": {
+        "reach": 10,
+        "views": 18,
+        "shares": 0,
+        "total_interactions": 0,
+        "replies": 0,
+        "follows": 0,
+        "profile_visits": 0,
+        "profile_activity": 0,
+        "navigation": 12,
+        "navigation_swipe_forward": 1,
+        "navigation_tap_forward": 8,
+        "navigation_tap_exit": 2,
+        "navigation_tap_back": 1
+      },
+      "insightsStand": "2026-11-08T07:30:20.268Z",
+      "insightsAlterStunden": 1.4
     },
     {
       "datum": "2026-11-08",
@@ -21248,7 +21265,23 @@
       "fach": "bilanz",
       "titel": [
         "B: 5,5 Prozent"
-      ]
+      ],
+      "insights": {
+        "reach": 8,
+        "views": 13,
+        "shares": 0,
+        "total_interactions": 0,
+        "replies": 0,
+        "follows": 0,
+        "profile_visits": 0,
+        "profile_activity": 0,
+        "navigation": 8,
+        "navigation_tap_back": 1,
+        "navigation_tap_forward": 6,
+        "navigation_tap_exit": 1
+      },
+      "insightsStand": "2026-11-08T07:30:20.268Z",
+      "insightsAlterStunden": 1.4
     },
     {
       "datum": "2026-11-08",
