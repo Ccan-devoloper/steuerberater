@@ -12,8 +12,9 @@
       "themaTitel": "Alle Klausuren: sechs Themen der Woche 45",
       "fach": null,
       "klausur": 0,
-      "status": "sendet",
-      "sendeversuch": "2026-11-08T07:30:00.098Z"
+      "status": "veroeffentlicht",
+      "medienId": "17990854539119916",
+      "veroeffentlicht": "2026-11-08T07:30:07.519Z"
     },
     {
       "slot": "b2",

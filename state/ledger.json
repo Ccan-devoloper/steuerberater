@@ -21249,6 +21249,28 @@
       "titel": [
         "B: 5,5 Prozent"
       ]
+    },
+    {
+      "datum": "2026-11-08",
+      "slot": "b1",
+      "medienId": "17990854539119916",
+      "veroeffentlicht": "2026-11-08T07:30:07.519Z",
+      "quelle": "vorproduktion",
+      "art": "beitrag",
+      "zeit": "08:30",
+      "stunde": 8,
+      "format": "wochenrueckblick",
+      "thema": "wochenrueckblick-alle-2026-45",
+      "fach": null,
+      "klausur": 0,
+      "titel": "Wochenrückblick",
+      "hookTyp": null,
+      "hashtags": [
+        "#steuerberaterexamen",
+        "#steuerberaterprüfung",
+        "#examensvorbereitung",
+        "#steuerrecht"
+      ]
     }
   ],
   "fachZaehler": {
@@ -21263,7 +21285,7 @@
     "est": 10,
     "umwst": 11,
     "gewst": 5,
-    "null": 18
+    "null": 19
   },
   "nachrichten": [],
   "postfach": [],
