@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "stand": "2026-11-08T11:45:40.391Z",
+  "stand": "2026-11-08T12:30:24.718Z",
   "medien": {
     "18093399314208242": {
       "art": "beitrag",
@@ -68668,6 +68668,49 @@
           "total_interactions": 1,
           "follows": 0,
           "profile_visits": 2
+        },
+        {
+          "stand": "2026-11-08T12:30:24.718Z",
+          "alterStunden": 5,
+          "reach": 76,
+          "saved": 1,
+          "shares": 0,
+          "likes": 0,
+          "comments": 0,
+          "total_interactions": 1,
+          "follows": 0,
+          "profile_visits": 2
+        }
+      ]
+    },
+    "17894816394615970": {
+      "art": "story",
+      "datum": "2026-11-08",
+      "titel": [
+        "Hausrat",
+        "geerbt?"
+      ],
+      "format": null,
+      "fach": "erbst",
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-11-08T11:14:04.566Z",
+      "snapshots": [
+        {
+          "stand": "2026-11-08T12:30:23.227Z",
+          "alterStunden": 1.3,
+          "reach": 19,
+          "views": 27,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 23,
+          "navigation_tap_forward": 17,
+          "navigation_tap_exit": 5,
+          "navigation_swipe_forward": 1
         }
       ]
     }
