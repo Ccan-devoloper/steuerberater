@@ -21364,12 +21364,34 @@
         "Hausrat",
         "geerbt?"
       ]
+    },
+    {
+      "datum": "2026-11-08",
+      "slot": "b2",
+      "medienId": "17920928931461461",
+      "veroeffentlicht": "2026-11-08T12:30:08.430Z",
+      "quelle": "vorproduktion",
+      "art": "beitrag",
+      "zeit": "13:30",
+      "stunde": 13,
+      "format": "pruefungsfrage",
+      "thema": "kst-aufb-kst-ks-4-06",
+      "fach": "kst",
+      "klausur": 2,
+      "titel": "Prüfungsfrage",
+      "hookTyp": null,
+      "hashtags": [
+        "#steuerberaterexamen",
+        "#steuerberaterprüfung",
+        "#examensvorbereitung",
+        "#körperschaftsteuer"
+      ]
     }
   ],
   "fachZaehler": {
     "persg": 20,
     "ust": 18,
-    "kst": 16,
+    "kst": 17,
     "ao": 29,
     "bilanz": 28,
     "istr": 23,
