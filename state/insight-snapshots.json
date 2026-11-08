@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "stand": "2026-11-08T07:45:46.016Z",
+  "stand": "2026-11-08T08:45:40.278Z",
   "medien": {
     "18093399314208242": {
       "art": "beitrag",
@@ -63293,6 +63293,18 @@
           "total_interactions": 7,
           "follows": 1,
           "profile_visits": 1
+        },
+        {
+          "stand": "2026-11-08T08:45:37.925Z",
+          "alterStunden": 92.3,
+          "reach": 160,
+          "saved": 4,
+          "shares": 0,
+          "likes": 3,
+          "comments": 0,
+          "total_interactions": 7,
+          "follows": 1,
+          "profile_visits": 2
         }
       ]
     },
@@ -63669,6 +63681,20 @@
           "ig_reels_avg_watch_time": 7827,
           "ig_reels_video_view_total_time": 2222918,
           "reels_skip_rate": 63
+        },
+        {
+          "stand": "2026-11-08T08:45:37.925Z",
+          "alterStunden": 88.3,
+          "reach": 280,
+          "saved": 3,
+          "shares": 0,
+          "likes": 2,
+          "comments": 0,
+          "total_interactions": 5,
+          "views": 360,
+          "ig_reels_avg_watch_time": 7664,
+          "ig_reels_video_view_total_time": 2238118,
+          "reels_skip_rate": 63.7
         }
       ]
     },
@@ -63821,6 +63847,20 @@
           "ig_reels_avg_watch_time": 6771,
           "ig_reels_video_view_total_time": 1990746,
           "reels_skip_rate": 66
+        },
+        {
+          "stand": "2026-11-08T08:45:37.925Z",
+          "alterStunden": 86.8,
+          "reach": 298,
+          "saved": 1,
+          "shares": 0,
+          "likes": 2,
+          "comments": 0,
+          "total_interactions": 3,
+          "views": 355,
+          "ig_reels_avg_watch_time": 6689,
+          "ig_reels_video_view_total_time": 2006822,
+          "reels_skip_rate": 66.3
         }
       ]
     },
@@ -67655,6 +67695,23 @@
           "navigation_swipe_forward": 8,
           "navigation_tap_exit": 7,
           "navigation_tap_forward": 65
+        },
+        {
+          "stand": "2026-11-08T08:45:34.452Z",
+          "alterStunden": 21.5,
+          "reach": 91,
+          "views": 123,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 101,
+          "navigation_tap_back": 4,
+          "navigation_swipe_forward": 10,
+          "navigation_tap_exit": 8,
+          "navigation_tap_forward": 79
         }
       ]
     },
@@ -67732,6 +67789,23 @@
           "navigation_tap_exit": 8,
           "navigation_tap_forward": 67,
           "navigation_tap_back": 3
+        },
+        {
+          "stand": "2026-11-08T08:45:34.452Z",
+          "alterStunden": 20.3,
+          "reach": 86,
+          "views": 102,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 94,
+          "navigation_swipe_forward": 1,
+          "navigation_tap_back": 6,
+          "navigation_tap_forward": 78,
+          "navigation_tap_exit": 9
         }
       ]
     },
@@ -68266,6 +68340,60 @@
           "navigation_tap_back": 1,
           "navigation_tap_forward": 6,
           "navigation_tap_exit": 1
+        }
+      ]
+    },
+    "17891944272653236": {
+      "art": "story",
+      "datum": "2026-11-08",
+      "titel": [
+        "Woche kompakt: alle 3 Klausuren"
+      ],
+      "format": null,
+      "fach": null,
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-11-08T07:30:19.159Z",
+      "snapshots": [
+        {
+          "stand": "2026-11-08T08:45:34.452Z",
+          "alterStunden": 1.3,
+          "reach": 27,
+          "views": 34,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 29,
+          "navigation_swipe_forward": 1,
+          "navigation_tap_exit": 2,
+          "navigation_tap_forward": 26
+        }
+      ]
+    },
+    "17990854539119916": {
+      "art": "beitrag",
+      "datum": "2026-11-08",
+      "titel": "Wochenrückblick",
+      "format": "wochenrueckblick",
+      "fach": null,
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-11-08T07:30:07.519Z",
+      "snapshots": [
+        {
+          "stand": "2026-11-08T08:45:37.925Z",
+          "alterStunden": 1.3,
+          "reach": 43,
+          "saved": 0,
+          "shares": 0,
+          "likes": 0,
+          "comments": 0,
+          "total_interactions": 0,
+          "follows": 0,
+          "profile_visits": 1
         }
       ]
     }
@@ -71804,6 +71932,11 @@
     {
       "stand": "2026-11-08T07:45:46.016Z",
       "follower": 548,
+      "medien": 203
+    },
+    {
+      "stand": "2026-11-08T08:45:40.278Z",
+      "follower": 549,
       "medien": 203
     }
   ]
