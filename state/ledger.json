@@ -21235,6 +21235,20 @@
       "thema": "bilanz-quiz-k3-13",
       "fach": "bilanz",
       "titel": ""
+    },
+    {
+      "datum": "2026-11-08",
+      "slot": "s5",
+      "medienId": "18121578176468298",
+      "veroeffentlicht": "2026-11-08T06:09:04.697Z",
+      "quelle": "vorproduktion",
+      "art": "story",
+      "storyArt": "antwort",
+      "thema": "bilanz-quiz-k3-13",
+      "fach": "bilanz",
+      "titel": [
+        "B: 5,5 Prozent"
+      ]
     }
   ],
   "fachZaehler": {
