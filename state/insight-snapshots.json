@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "stand": "2026-11-08T06:09:06.419Z",
+  "stand": "2026-11-08T06:45:35.689Z",
   "medien": {
     "18093399314208242": {
       "art": "beitrag",
@@ -59362,6 +59362,18 @@
           "total_interactions": 11,
           "follows": 0,
           "profile_visits": 0
+        },
+        {
+          "stand": "2026-11-08T06:45:34.790Z",
+          "alterStunden": 143.3,
+          "reach": 168,
+          "saved": 7,
+          "shares": 1,
+          "likes": 3,
+          "comments": 0,
+          "total_interactions": 11,
+          "follows": 0,
+          "profile_visits": 0
         }
       ]
     },
@@ -71722,6 +71734,11 @@
     },
     {
       "stand": "2026-11-08T05:46:12.676Z",
+      "follower": 548,
+      "medien": 202
+    },
+    {
+      "stand": "2026-11-08T06:45:35.689Z",
       "follower": 548,
       "medien": 202
     }
