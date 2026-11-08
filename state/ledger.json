@@ -20950,17 +20950,17 @@
         "#erbschaftsteuer"
       ],
       "insights": {
-        "reach": 106,
+        "reach": 110,
         "saved": 1,
         "shares": 0,
-        "likes": 2,
+        "likes": 3,
         "comments": 0,
-        "total_interactions": 3,
+        "total_interactions": 4,
         "follows": 0,
         "profile_visits": 2
       },
-      "insightsStand": "2026-11-08T06:09:06.419Z",
-      "insightsAlterStunden": 17.7
+      "insightsStand": "2026-11-08T09:45:28.715Z",
+      "insightsAlterStunden": 21.3
     },
     {
       "datum": "2026-11-07",
@@ -21008,22 +21008,22 @@
         "Ernte einfahren"
       ],
       "insights": {
-        "reach": 67,
-        "views": 88,
+        "reach": 85,
+        "views": 112,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 77,
+        "navigation": 97,
         "navigation_tap_back": 2,
-        "navigation_tap_forward": 61,
-        "navigation_tap_exit": 12,
-        "navigation_swipe_forward": 2
+        "navigation_tap_forward": 75,
+        "navigation_tap_exit": 16,
+        "navigation_swipe_forward": 4
       },
-      "insightsStand": "2026-11-08T05:45:54.094Z",
-      "insightsAlterStunden": 16.1
+      "insightsStand": "2026-11-08T09:45:27.772Z",
+      "insightsAlterStunden": 20.1
     },
     {
       "datum": "2026-11-07",
@@ -21078,19 +21078,19 @@
         "#einkommensteuer"
       ],
       "insights": {
-        "reach": 781,
+        "reach": 1117,
         "saved": 5,
-        "shares": 0,
-        "likes": 7,
+        "shares": 1,
+        "likes": 9,
         "comments": 0,
-        "total_interactions": 12,
-        "views": 994,
-        "ig_reels_avg_watch_time": 10555,
-        "ig_reels_video_view_total_time": 8518600,
-        "reels_skip_rate": 51
+        "total_interactions": 15,
+        "views": 1367,
+        "ig_reels_avg_watch_time": 11137,
+        "ig_reels_video_view_total_time": 12484992,
+        "reels_skip_rate": 48.6
       },
-      "insightsStand": "2026-11-08T06:09:06.419Z",
-      "insightsAlterStunden": 13.6
+      "insightsStand": "2026-11-08T09:45:28.715Z",
+      "insightsAlterStunden": 17.3
     },
     {
       "datum": "2026-11-07",
@@ -21116,19 +21116,19 @@
         "#steuerberater"
       ],
       "insights": {
-        "reach": 303,
+        "reach": 397,
         "saved": 2,
         "shares": 0,
         "likes": 1,
         "comments": 0,
         "total_interactions": 3,
-        "views": 382,
-        "ig_reels_avg_watch_time": 6631,
-        "ig_reels_video_view_total_time": 2042520,
-        "reels_skip_rate": 68.8
+        "views": 492,
+        "ig_reels_avg_watch_time": 7002,
+        "ig_reels_video_view_total_time": 2814873,
+        "reels_skip_rate": 66.9
       },
-      "insightsStand": "2026-11-08T06:09:06.419Z",
-      "insightsAlterStunden": 12.1
+      "insightsStand": "2026-11-08T09:45:28.715Z",
+      "insightsAlterStunden": 15.8
     },
     {
       "datum": "2026-11-07",
