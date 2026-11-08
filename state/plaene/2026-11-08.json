@@ -51,8 +51,9 @@
       "zeit": "07:07",
       "art": "frage",
       "themaId": "bilanz-quiz-k3-13",
-      "status": "sendet",
-      "sendeversuch": "2026-11-08T06:07:00.100Z"
+      "status": "veroeffentlicht",
+      "medienId": "18117497735613833",
+      "veroeffentlicht": "2026-11-08T06:07:04.176Z"
     },
     {
       "slot": "s5",
