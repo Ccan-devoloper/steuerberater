@@ -21842,6 +21842,20 @@
         "#examensvorbereitung",
         "#personengesellschaften"
       ]
+    },
+    {
+      "datum": "2026-11-09",
+      "slot": "s2",
+      "medienId": "17988217944104548",
+      "veroeffentlicht": "2026-11-09T12:30:20.113Z",
+      "quelle": "vorproduktion",
+      "art": "story",
+      "storyArt": "teaser",
+      "thema": null,
+      "fach": "persg",
+      "titel": [
+        "Mitunternehmer in 3 Schritten"
+      ]
     }
   ],
   "fachZaehler": {
