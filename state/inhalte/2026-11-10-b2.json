@@ -1,0 +1,82 @@
+{
+  "format": "kurzvortrag",
+  "fach": "ust",
+  "klausur": 1,
+  "fachLabel": "Umsatzsteuer",
+  "themaId": "ust-aufb-ust-m-b08-2-38",
+  "caption": "Kurzvortrag für die mündliche Prüfung: Option bei der Grundstücksvermietung und die Sperre des § 9 Abs. 2 UStG – in 10 Minuten.\n\nGliederung: Einstieg (1 Min.) · Option dem Grunde nach (2 Min.) · Sperre (4 Min.) · Folgen und Fazit (3 Min.).\n\n1. Vermietung ist steuerfrei (§ 4 Nr. 12 S. 1 Buchst. a UStG) und schließt den Vorsteuerabzug aus (§ 15 Abs. 2 S. 1 Nr. 1 UStG).\n2. Option nur bei Umsätzen an andere Unternehmer für deren Unternehmen (§ 9 Abs. 1 UStG); selbständig nutzbare Grundstücksteile werden gesondert beurteilt (Abschn. 9.2 Abs. 1 S. 2 UStAE).\n3. Sperre: nur soweit der Mieter das Grundstück ausschließlich für Umsätze verwendet, die den Vorsteuerabzug nicht ausschließen; Nachweis durch den Vermieter (§ 9 Abs. 2 S. 1, 2 UStG). Bagatellgrenze der Verwaltung 5 % (Abschn. 9.2 Abs. 3 S. 2 UStAE).\n4. Beispiel: Bäckerei ja; Zahnarzt (§ 4 Nr. 14 Buchst. a UStG) und Versicherungsmakler (§ 4 Nr. 11 UStG) nein.\n\nTypische Nachfragen: Altbauten (§ 27 Abs. 2 UStG), Mieterwechsel und Vorsteuerberichtigung bei Grundstücken über zehn Jahre (§ 15a Abs. 1 S. 2 UStG).\n\nHinweis: In der mündlichen Prüfung liegen keine Richtlinien vor – die Verwaltungsregeln aus dem Kopf nennen. Speichern für die Mündliche 📌",
+  "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#umsatzsteuer"
+  ],
+  "quellen": [
+    "§ 4 Nr. 11, Nr. 12 S. 1 Buchst. a, Nr. 14 Buchst. a UStG",
+    "§ 9 Abs. 1, 2 UStG",
+    "§ 15 Abs. 2 S. 1 Nr. 1 UStG",
+    "§ 15a Abs. 1 S. 2 UStG",
+    "§ 27 Abs. 2 UStG",
+    "Abschn. 9.2 Abs. 1 S. 2, Abs. 3 S. 2 UStAE"
+  ],
+  "slug": "2026-11-10-b2",
+  "kurztitel": "Option bei Grundstücksvermietung: Die Sperre des § 9 Abs. 2 UStG",
+  "regelGeprueft": true,
+  "manuellGeprueft": false,
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "textProviderKostenUsd": 0,
+  "faktencheckProviderKostenUsd": 0,
+  "bildStatus": "open-peeps-render",
+  "renderer": "open-peeps-v4",
+  "liveVorrangAktiv": true,
+  "coverBadge": "Kurzvortrag",
+  "folien": [
+    {
+      "art": "titel",
+      "titel": "Kurzvortrag",
+      "text": "Kurzvortrag · Option bei · Vermietung · § 9 Abs. 2 UStG · in 10 Minuten · + Markier-Guide § 9 UStG",
+      "bild": "op-cover"
+    },
+    {
+      "art": "text",
+      "titel": "Umsatzsteuer",
+      "text": "Gliederung: 10 Minuten · Einstieg (1 Min.) · § 4 Nr. 12 S. 1 Buchst. a UStG · steuerfrei ohne Vorsteuer · Option an sich (2 Min.) · § 9 Abs. 1 UStG · Mieter ist Unternehmer · Die Sperre (4 Min.) · § 9 Abs. 2 UStG · Nutzung des Mieters · Folgen, Fazit (3 Min.) · §§ 15, 15a UStG · Vorsteuer, Berichtigung · Am Ende: § 9 UStG markiert"
+    },
+    {
+      "art": "text",
+      "titel": "Umsatzsteuer",
+      "text": "Einstieg: Warum optieren? · Die Vermietung von Grundstücken ist steuerfrei. · § 4 Nr. 12 S. 1 Buchst. a UStG · Steuerfreie Umsätze schließen den Vorsteuerabzug aus, etwa aus den Baukosten. · § 15 Abs. 2 S. 1 Nr. 1 UStG · Die Option öffnet ihn wieder. · § 9 Abs. 1 UStG · Erst das Motiv."
+    },
+    {
+      "art": "text",
+      "titel": "Umsatzsteuer",
+      "text": "Option dem Grunde nach · Der Umsatz geht an einen anderen Unternehmer für dessen Unternehmen. · § 9 Abs. 1 UStG · Vermietung an Privatleute: keine Option. · Jeder selbständig nutzbare Teil wird gesondert geprüft. · Abschn. 9.2 Abs. 1 S. 2 UStAE · Etage für Etage."
+    },
+    {
+      "art": "text",
+      "titel": "Umsatzsteuer",
+      "text": "Kern: die Sperre · Verzicht nur, soweit der Mieter ausschließlich Umsätze ausführt, die den Vorsteuerabzug nicht ausschließen. · § 9 Abs. 2 S. 1 UStG · Den Nachweis führt der Vermieter. · § 9 Abs. 2 S. 2 UStG · Verwaltung: bis 5 % schädliche Nutzung unschädlich. · Abschn. 9.2 Abs. 3 S. 2 UStAE · Hier liegen die Punkte."
+    },
+    {
+      "art": "text",
+      "titel": "Umsatzsteuer",
+      "text": "Beispiel im Vortrag · Erdgeschoss an eine Bäckerei: Option möglich. · § 9 Abs. 2 S. 1 UStG · 1. Stock an eine Zahnarztpraxis: Heilbehandlung ist steuerfrei, keine Option. · § 4 Nr. 14 Buchst. a UStG · 2. Stock an einen Versicherungsmakler: ebenfalls steuerfrei, keine Option. · § 4 Nr. 11 UStG · Ein Haus, drei Ergebnisse."
+    },
+    {
+      "art": "text",
+      "titel": "Umsatzsteuer",
+      "text": "Nachfragen der Prüfer · „Gilt die Sperre für jedes Gebäude?“ Nein: nicht für bestimmte Altbauten, etwa gewerblich, Baubeginn vor 11.11.1993, fertig vor 1998. · § 27 Abs. 2 Nr. 3 UStG · „Und wenn der Mieter wechselt?“ Vorsteuerberichtigung über zehn Jahre. · § 15a Abs. 1 S. 2 UStG · Und bei Altbauten?"
+    },
+    {
+      "art": "text",
+      "titel": "Umsatzsteuer",
+      "text": "Zeitplan: 1 · 2 · 4 · 3 Minuten · Schwerpunkt Absatz 2, immer mit Beispiel · Mieter ist Unternehmer, · nur Abzugsumsätze, · je Gebäudeteil prüfen, · Nachweis beim Vermieter. · Speichern für die Mündliche · Welche Nachfrage fürchtest du? · Weiterwischen: § 9 UStG markiert"
+    },
+    {
+      "art": "text",
+      "titel": "Umsatzsteuer",
+      "text": "§ 9 UStG Verzicht auf Steuerbefreiungen · Grunderfordernis · Anwendungsfall · Kernwort! · Beweislast · Altbauten: § 27 Abs. 2 UStG · Für sie gilt die Sperre nicht"
+    }
+  ]
+}

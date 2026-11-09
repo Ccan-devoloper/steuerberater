@@ -1,0 +1,26 @@
+{
+  "slot": "s3",
+  "art": "teaser",
+  "fach": "kst",
+  "klausur": 2,
+  "fachLabel": "Körperschaftsteuer",
+  "themaId": null,
+  "beitragSlot": "b3",
+  "quellen": null,
+  "titel": [
+    "Tochter pleite: Verlust weg?"
+  ],
+  "unter": "Neues Reel · im Profil",
+  "sichtbareTexte": [
+    "Körperschaftsteuer",
+    "Neu im Feed",
+    "Tochter pleite: Verlust weg?",
+    "Neues Reel · im Profil"
+  ],
+  "renderer": "open-peeps-v4",
+  "bildStatus": "open-peeps-render",
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "liveVorrangAktiv": true,
+  "regelGeprueft": true
+}

@@ -1,0 +1,42 @@
+{
+  "slot": "s6",
+  "art": "norm",
+  "fach": "persg",
+  "klausur": 3,
+  "fachLabel": "Personengesellschaften",
+  "themaId": "persg-modul-persg-2",
+  "beitragSlot": null,
+  "quellen": null,
+  "titel": [
+    "GmbH & Co. KG:",
+    "geprägt?"
+  ],
+  "norm": "§ 15 Abs. 3 Nr. 2 EStG",
+  "punkte": [
+    [
+      "Persönlich haften nur Kapitalgesellschaften.",
+      "ok",
+      null
+    ],
+    [
+      "Geschäftsführung nur durch sie oder Nichtgesellschafter.",
+      "warn",
+      null
+    ]
+  ],
+  "sichtbareTexte": [
+    "Personengesellschaften",
+    "Norm des Tages",
+    "GmbH & Co. KG:",
+    "geprägt?",
+    "§ 15 Abs. 3 Nr. 2 EStG",
+    "Persönlich haften nur Kapitalgesellschaften.",
+    "Geschäftsführung nur durch sie oder Nichtgesellschafter."
+  ],
+  "renderer": "open-peeps-v4",
+  "bildStatus": "open-peeps-render",
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "liveVorrangAktiv": true,
+  "regelGeprueft": true
+}

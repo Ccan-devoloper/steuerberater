@@ -1,0 +1,90 @@
+{
+  "format": "rechenweg",
+  "fach": "umwst",
+  "klausur": 3,
+  "fachLabel": "Umwandlungssteuerrecht",
+  "themaId": "umwst-aufb-umw-ks-6-c-15",
+  "caption": "Anteile in die Holding: Anteilstausch oder verdeckte Einlage? Der Rechenweg für die Bilanzklausur.\n\nWeg A – Anteilstausch: Die Holding gewährt neue Anteile (§ 21 Abs. 1 S. 1 UmwStG). Hat sie danach unmittelbar die Stimmrechtsmehrheit, ist auf Antrag der Buchwert möglich (§ 21 Abs. 1 S. 2 Nr. 1 UmwStG); bei Anteilen im Privatvermögen treten die Anschaffungskosten an die Stelle des Buchwerts (§ 21 Abs. 2 S. 5 UmwStG). Für Konrad ist dieser Wert zugleich Erlös der alten und Kostenbasis der neuen Anteile (§ 21 Abs. 2 S. 1 UmwStG). Beispiel: Gewinn 0 €. Verkauft die Holding die Anteile innerhalb von sieben Jahren, droht ein Einbringungsgewinn II (§ 22 Abs. 2 S. 1 UmwStG).\n\nWeg B – verdeckte Einlage: Ohne neue Anteile steht die Übertragung einer Veräußerung gleich (§ 17 Abs. 1 S. 2 EStG), an die Stelle des Preises tritt der gemeine Wert (§ 17 Abs. 2 S. 2 EStG). Beispiel: 400.000 € – 50.000 € = 350.000 €, davon 60 % = 210.000 € steuerpflichtig (§ 3 Nr. 40 S. 1 Buchst. c, § 3c Abs. 2 EStG); der Freibetrag nach § 17 Abs. 3 EStG ist abgeschmolzen.\nBei der Holding: Ansatz mit dem Teilwert (BFH vom 04.03.2009, I R 32/08, BStBl II 2012, 341), keine Einkommenserhöhung (§ 8 Abs. 3 S. 3 KStG), Zugang zum Einlagekonto (§ 27 Abs. 1 KStG).\n\nZum Schluss: § 21 Abs. 1, 2 UmwStG zum Markieren. Speichern für Klausur 3 📌",
+  "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#umwandlungssteuerrecht"
+  ],
+  "quellen": [
+    "§ 21 Abs. 1 S. 1, 2 Nr. 1 UmwStG",
+    "§ 21 Abs. 2 S. 1, 5 UmwStG",
+    "§ 22 Abs. 2 S. 1 UmwStG",
+    "§ 17 Abs. 1 S. 2, Abs. 2 S. 2, Abs. 3 EStG",
+    "§ 3 Nr. 40 S. 1 Buchst. c EStG",
+    "§ 3c Abs. 2 EStG",
+    "§ 8 Abs. 3 S. 3 KStG",
+    "§ 27 Abs. 1 KStG",
+    "BFH vom 04.03.2009, I R 32/08, BStBl II 2012, 341"
+  ],
+  "slug": "2026-11-10-b1",
+  "kurztitel": "Anteilstausch oder verdeckte Einlage: Worauf kommt es an?",
+  "regelGeprueft": true,
+  "manuellGeprueft": false,
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "textProviderKostenUsd": 0,
+  "faktencheckProviderKostenUsd": 0,
+  "bildStatus": "open-peeps-render",
+  "renderer": "open-peeps-v4",
+  "liveVorrangAktiv": true,
+  "coverBadge": "Rechenweg",
+  "folien": [
+    {
+      "art": "titel",
+      "titel": "Rechenweg",
+      "text": "Rechenweg · Anteile rein, · Gewinn raus? · § 21 UmwStG · Zwei Wege · + Markier-Guide § 21 UmwStG · GmbH-Anteil · 400.000 € · Kosten 50.000 €",
+      "bild": "op-cover"
+    },
+    {
+      "art": "text",
+      "titel": "Umwandlungssteuerrecht",
+      "text": "Die Ausgangslage · Konrad hält 100 % der Konrad Pumpen GmbH im Privatvermögen. · Anschaffungskosten 50.000 €, gemeiner Wert 400.000 €. · Er überträgt alle Anteile auf seine neue Holding-GmbH. · Frage: Was muss er versteuern? · Kostet mich das was?"
+    },
+    {
+      "art": "text",
+      "titel": "Umwandlungssteuerrecht",
+      "text": "Worauf es ankommt · Neue Anteile · Holding erhöht ihr Kapital und gibt Konrad neue Anteile · = Anteilstausch · § 21 Abs. 1 S. 1 UmwStG · Keine neuen Anteile · Wert landet nur in der Kapitalrücklage · = verdeckte Einlage · § 17 Abs. 1 S. 2 EStG · Gegenleistung prüfen!"
+    },
+    {
+      "art": "text",
+      "titel": "Umwandlungssteuerrecht",
+      "text": "Weg A: Anteilstausch · § 21 Abs. 1 S. 2 Nr. 1, Abs. 2 S. 1, 5 UmwStG · Mehrheit der Holding · 100 % · Ansatz auf Antrag (Kosten) · 50.000 € · Veräußerungspreis Konrad · 50.000 € · – Anschaffungskosten · 50.000 € · Gewinn · 0 € · Neue Anteile kosten ihn 50.000 €"
+    },
+    {
+      "art": "text",
+      "titel": "Umwandlungssteuerrecht",
+      "text": "Weg B: verdeckte Einlage · § 17 Abs. 2 S. 2 EStG · §§ 3 Nr. 40 S. 1 c, 3c Abs. 2 EStG · Gemeiner Wert statt Preis · 400.000 € · – Anschaffungskosten · 50.000 € · Veräußerungsgewinn · 350.000 € · davon 60 % steuerpflichtig · 210.000 € · Freibetrag § 17 Abs. 3: hier 0 €"
+    },
+    {
+      "art": "text",
+      "titel": "Umwandlungssteuerrecht",
+      "text": "Und bei der Holding? · Weg B: Ansatz zum Teilwert, also 400.000 €. · BFH vom 04.03.2009, I R 32/08, BStBl II 2012, 341 · Die Einlage erhöht das Einkommen nicht. · § 8 Abs. 3 S. 3 KStG · Sie fließt ins steuerliche Einlagekonto. · § 27 Abs. 1 KStG · Weg A: Verkauft die Holding binnen sieben Jahren, droht Einbringungsgewinn II. · § 22 Abs. 2 S. 1 UmwStG · Sperrfrist merken!"
+    },
+    {
+      "art": "text",
+      "titel": "Umwandlungssteuerrecht",
+      "text": "Jetzt du · Ines legt ihren Anteil von 30 % an einer GmbH verdeckt in ihre eigene GmbH ein. · Anschaffungskosten 90.000 €, gemeiner Wert 240.000 €. · Wie hoch ist der steuerpflichtige Teil? · Rechnest du mit?"
+    },
+    {
+      "art": "text",
+      "titel": "Umwandlungssteuerrecht",
+      "text": "Lösung · § 17 Abs. 2 S. 2 EStG · § 3 Nr. 40 S. 1 c EStG · Gemeiner Wert · 240.000 € · – Anschaffungskosten · 90.000 € · Gewinn nach § 17 · 150.000 € · steuerpflichtig (60 %) · 90.000 € · Freibetrag fällt weg: Gewinn zu hoch"
+    },
+    {
+      "art": "text",
+      "titel": "Umwandlungssteuerrecht",
+      "text": "Weg A: 0 € · Weg B: 210.000 € steuerpflichtig · Entscheidend: neue Anteile · Neue Anteile: § 21, · Mehrheit + Antrag, · Rücklage allein: · § 17 wie Verkauf. · Speichern für Klausur 3 · Hättest du es bemerkt? · Weiterwischen: § 21 UmwStG markiert"
+    },
+    {
+      "art": "text",
+      "titel": "Umwandlungssteuerrecht",
+      "text": "§ 21 UmwStG Anteilstausch (Auszug) · neue Anteile! · Wahlrecht · Konrad: Preis · privat: AK 50.000 € · Weg A: Preis 50.000 € = AK · Gewinn 0 €"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "slot": "s7",
+  "art": "tipp",
+  "fach": null,
+  "klausur": 0,
+  "fachLabel": "Klausurtechnik",
+  "themaId": null,
+  "beitragSlot": null,
+  "quellen": null,
+  "titel": [
+    "Erst die Aufgabe,",
+    "dann der Fall"
+  ],
+  "punkte": [
+    [
+      "Bearbeitungshinweise vor dem Text lesen",
+      "ok",
+      null
+    ],
+    [
+      "Gefragte Steuern und Jahre notieren",
+      "ok",
+      null
+    ],
+    [
+      "Nicht Gefragtes bringt keine Punkte",
+      "warn",
+      null
+    ]
+  ],
+  "icon": "tabler:list-check",
+  "iconFarbe": "GELB",
+  "sichtbareTexte": [
+    "Klausurtechnik",
+    "Klausurtipp",
+    "Erst die Aufgabe,",
+    "dann der Fall",
+    "Bearbeitungshinweise vor dem Text lesen",
+    "Gefragte Steuern und Jahre notieren",
+    "Nicht Gefragtes bringt keine Punkte"
+  ],
+  "renderer": "open-peeps-v4",
+  "bildStatus": "open-peeps-render",
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "liveVorrangAktiv": true,
+  "regelGeprueft": true
+}
