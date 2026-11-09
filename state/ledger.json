@@ -21534,19 +21534,19 @@
         "#personengesellschaften"
       ],
       "insights": {
-        "reach": 792,
+        "reach": 886,
         "saved": 10,
         "shares": 3,
-        "likes": 8,
+        "likes": 9,
         "comments": 0,
-        "total_interactions": 21,
-        "views": 1018,
-        "ig_reels_avg_watch_time": 11179,
-        "ig_reels_video_view_total_time": 8943909,
-        "reels_skip_rate": 59.7
+        "total_interactions": 22,
+        "views": 1125,
+        "ig_reels_avg_watch_time": 10779,
+        "ig_reels_video_view_total_time": 9583127,
+        "reels_skip_rate": 61.7
       },
-      "insightsStand": "2026-11-09T09:44:48.826Z",
-      "insightsAlterStunden": 17.2
+      "insightsStand": "2026-11-09T12:45:39.491Z",
+      "insightsAlterStunden": 20.3
     },
     {
       "datum": "2026-11-08",
@@ -21572,19 +21572,19 @@
         "#steuerberater"
       ],
       "insights": {
-        "reach": 1056,
+        "reach": 1081,
         "saved": 16,
-        "shares": 4,
+        "shares": 5,
         "likes": 12,
         "comments": 0,
-        "total_interactions": 32,
-        "views": 1284,
-        "ig_reels_avg_watch_time": 7675,
-        "ig_reels_video_view_total_time": 8266682,
-        "reels_skip_rate": 65.1
+        "total_interactions": 33,
+        "views": 1315,
+        "ig_reels_avg_watch_time": 7604,
+        "ig_reels_video_view_total_time": 8418586,
+        "reels_skip_rate": 65.5
       },
-      "insightsStand": "2026-11-09T09:44:48.826Z",
-      "insightsAlterStunden": 15.7
+      "insightsStand": "2026-11-09T12:45:39.491Z",
+      "insightsAlterStunden": 18.8
     },
     {
       "datum": "2026-11-08",
@@ -21790,21 +21790,22 @@
         "Auslandsverlust verrechenbar?"
       ],
       "insights": {
-        "reach": 18,
-        "views": 22,
+        "reach": 51,
+        "views": 69,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 1,
         "profile_activity": 0,
-        "navigation": 21,
-        "navigation_tap_forward": 16,
-        "navigation_tap_exit": 4,
-        "navigation_tap_back": 1
+        "navigation": 59,
+        "navigation_tap_forward": 42,
+        "navigation_tap_exit": 10,
+        "navigation_tap_back": 4,
+        "navigation_swipe_forward": 3
       },
-      "insightsStand": "2026-11-09T08:44:25.487Z",
-      "insightsAlterStunden": 1.2
+      "insightsStand": "2026-11-09T12:45:38.166Z",
+      "insightsAlterStunden": 5.3
     },
     {
       "datum": "2026-11-09",

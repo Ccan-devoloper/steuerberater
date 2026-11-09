@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "stand": "2026-11-09T12:30:25.841Z",
+  "stand": "2026-11-09T12:45:41.639Z",
   "medien": {
     "18093399314208242": {
       "art": "beitrag",
@@ -70072,6 +70072,20 @@
           "ig_reels_avg_watch_time": 11179,
           "ig_reels_video_view_total_time": 8943909,
           "reels_skip_rate": 59.7
+        },
+        {
+          "stand": "2026-11-09T12:45:39.491Z",
+          "alterStunden": 20.3,
+          "reach": 886,
+          "saved": 10,
+          "shares": 3,
+          "likes": 9,
+          "comments": 0,
+          "total_interactions": 22,
+          "views": 1125,
+          "ig_reels_avg_watch_time": 10779,
+          "ig_reels_video_view_total_time": 9583127,
+          "reels_skip_rate": 61.7
         }
       ]
     },
@@ -70336,6 +70350,20 @@
           "ig_reels_avg_watch_time": 7675,
           "ig_reels_video_view_total_time": 8266682,
           "reels_skip_rate": 65.1
+        },
+        {
+          "stand": "2026-11-09T12:45:39.491Z",
+          "alterStunden": 18.8,
+          "reach": 1081,
+          "saved": 16,
+          "shares": 5,
+          "likes": 12,
+          "comments": 0,
+          "total_interactions": 33,
+          "views": 1315,
+          "ig_reels_avg_watch_time": 7604,
+          "ig_reels_video_view_total_time": 8418586,
+          "reels_skip_rate": 65.5
         }
       ]
     },
@@ -70458,6 +70486,23 @@
           "navigation_tap_forward": 16,
           "navigation_tap_exit": 4,
           "navigation_tap_back": 1
+        },
+        {
+          "stand": "2026-11-09T12:45:38.166Z",
+          "alterStunden": 5.3,
+          "reach": 51,
+          "views": 69,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 1,
+          "profile_activity": 0,
+          "navigation": 59,
+          "navigation_tap_forward": 42,
+          "navigation_tap_exit": 10,
+          "navigation_tap_back": 4,
+          "navigation_swipe_forward": 3
         }
       ]
     },
@@ -74176,6 +74221,11 @@
       "stand": "2026-11-09T11:44:44.668Z",
       "follower": 566,
       "medien": 207
+    },
+    {
+      "stand": "2026-11-09T12:45:41.639Z",
+      "follower": 566,
+      "medien": 208
     }
   ]
 }
