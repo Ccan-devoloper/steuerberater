@@ -21707,6 +21707,28 @@
         "B: im Zeitraum",
         "der Änderung"
       ]
+    },
+    {
+      "datum": "2026-11-09",
+      "slot": "b1",
+      "medienId": "18078864161563445",
+      "veroeffentlicht": "2026-11-09T07:30:05.604Z",
+      "quelle": "vorproduktion",
+      "art": "beitrag",
+      "zeit": "08:30",
+      "stunde": 8,
+      "format": "pruefungsfrage",
+      "thema": "istr-modul-istr-istr1-03",
+      "fach": "istr",
+      "klausur": 2,
+      "titel": "Prüfungsfrage",
+      "hookTyp": null,
+      "hashtags": [
+        "#steuerberaterexamen",
+        "#steuerberaterprüfung",
+        "#examensvorbereitung",
+        "#internationalessteuerrecht"
+      ]
     }
   ],
   "fachZaehler": {
@@ -21715,7 +21737,7 @@
     "kst": 17,
     "ao": 29,
     "bilanz": 28,
-    "istr": 23,
+    "istr": 24,
     "erbst": 14,
     "mindset": 2,
     "est": 10,
