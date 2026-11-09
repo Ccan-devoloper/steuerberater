@@ -60,7 +60,8 @@
       "zeit": "07:09",
       "art": "antwort",
       "themaId": "ust-quiz-ust-10",
-      "status": "geplant"
+      "status": "sendet",
+      "sendeversuch": "2026-11-09T06:09:00.062Z"
     },
     {
       "slot": "s1",
