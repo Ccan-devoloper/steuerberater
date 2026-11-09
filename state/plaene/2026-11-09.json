@@ -48,7 +48,8 @@
       "themaTitel": "Teste dich: Wann ist die Forderung verjährt?",
       "fach": null,
       "klausur": 0,
-      "status": "geplant"
+      "status": "sendet",
+      "sendeversuch": "2026-11-09T18:00:59.196Z"
     }
   ],
   "stories": [
