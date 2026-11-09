@@ -21993,6 +21993,20 @@
         "#zivilrecht",
         "#steuerberater"
       ]
+    },
+    {
+      "datum": "2026-11-09",
+      "slot": "s3",
+      "medienId": "18118345922024016",
+      "veroeffentlicht": "2026-11-09T18:01:19.978Z",
+      "quelle": "vorproduktion",
+      "art": "story",
+      "storyArt": "teaser",
+      "thema": null,
+      "fach": "erbst",
+      "titel": [
+        "Kind erbt Haus: steuerfrei?"
+      ]
     }
   ],
   "fachZaehler": {
