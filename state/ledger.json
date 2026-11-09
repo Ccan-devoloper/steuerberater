@@ -18574,7 +18574,7 @@
         "#erbschaftsteuer"
       ],
       "insights": {
-        "reach": 168,
+        "reach": 175,
         "saved": 7,
         "shares": 1,
         "likes": 3,
@@ -18583,8 +18583,8 @@
         "follows": 0,
         "profile_visits": 0
       },
-      "insightsStand": "2026-11-08T06:45:34.790Z",
-      "insightsAlterStunden": 143.3
+      "insightsStand": "2026-11-09T07:30:20.625Z",
+      "insightsAlterStunden": 168
     },
     {
       "datum": "2026-11-02",
@@ -21691,7 +21691,23 @@
       "storyArt": "frage",
       "thema": "ust-quiz-ust-10",
       "fach": "ust",
-      "titel": ""
+      "titel": "",
+      "insights": {
+        "reach": 27,
+        "views": 39,
+        "shares": 0,
+        "total_interactions": 0,
+        "replies": 0,
+        "follows": 0,
+        "profile_visits": 0,
+        "profile_activity": 0,
+        "navigation": 29,
+        "navigation_tap_forward": 23,
+        "navigation_swipe_forward": 4,
+        "navigation_tap_exit": 2
+      },
+      "insightsStand": "2026-11-09T07:30:18.181Z",
+      "insightsAlterStunden": 1.4
     },
     {
       "datum": "2026-11-09",
@@ -21706,7 +21722,22 @@
       "titel": [
         "B: im Zeitraum",
         "der Änderung"
-      ]
+      ],
+      "insights": {
+        "reach": 25,
+        "views": 36,
+        "shares": 0,
+        "total_interactions": 0,
+        "replies": 0,
+        "follows": 0,
+        "profile_visits": 0,
+        "profile_activity": 0,
+        "navigation": 30,
+        "navigation_tap_forward": 26,
+        "navigation_tap_back": 4
+      },
+      "insightsStand": "2026-11-09T07:30:18.181Z",
+      "insightsAlterStunden": 1.4
     },
     {
       "datum": "2026-11-09",

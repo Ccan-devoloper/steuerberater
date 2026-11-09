@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "stand": "2026-11-09T06:44:59.491Z",
+  "stand": "2026-11-09T07:30:20.625Z",
   "medien": {
     "18093399314208242": {
       "art": "beitrag",
@@ -59414,6 +59414,18 @@
           "total_interactions": 11,
           "follows": 0,
           "profile_visits": 0
+        },
+        {
+          "stand": "2026-11-09T07:30:20.625Z",
+          "alterStunden": 168,
+          "reach": 175,
+          "saved": 7,
+          "shares": 1,
+          "likes": 3,
+          "comments": 0,
+          "total_interactions": 11,
+          "follows": 0,
+          "profile_visits": 0
         }
       ]
     },
@@ -70045,6 +70057,64 @@
           "ig_reels_avg_watch_time": 7911,
           "ig_reels_video_view_total_time": 5641080,
           "reels_skip_rate": 62.8
+        }
+      ]
+    },
+    "18096789092161882": {
+      "art": "story",
+      "datum": "2026-11-09",
+      "titel": null,
+      "format": null,
+      "fach": "ust",
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-11-09T06:07:04.213Z",
+      "snapshots": [
+        {
+          "stand": "2026-11-09T07:30:18.181Z",
+          "alterStunden": 1.4,
+          "reach": 27,
+          "views": 39,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 29,
+          "navigation_tap_forward": 23,
+          "navigation_swipe_forward": 4,
+          "navigation_tap_exit": 2
+        }
+      ]
+    },
+    "18044732408838757": {
+      "art": "story",
+      "datum": "2026-11-09",
+      "titel": [
+        "B: im Zeitraum",
+        "der Änderung"
+      ],
+      "format": null,
+      "fach": "ust",
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-11-09T06:09:03.522Z",
+      "snapshots": [
+        {
+          "stand": "2026-11-09T07:30:18.181Z",
+          "alterStunden": 1.4,
+          "reach": 25,
+          "views": 36,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 30,
+          "navigation_tap_forward": 26,
+          "navigation_tap_back": 4
         }
       ]
     }
