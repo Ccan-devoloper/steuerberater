@@ -1,0 +1,61 @@
+{
+  "format": "reel",
+  "fach": "erbst",
+  "klausur": 1,
+  "fachLabel": "Erbschaftsteuer",
+  "themaId": "erbst-modul-erbst-512",
+  "caption": "Kind erbt das Elternhaus: Ist das Familienheim komplett steuerfrei? 🏠\n\n▸ Erwerb von Todes wegen durch Kinder: steuerfrei, soweit der Erblasser bis zum Erbfall selbst darin wohnte (oder aus zwingenden Gründen gehindert war), das Kind die Wohnung unverzüglich selbst nutzt und soweit die Wohnfläche 200 qm nicht übersteigt (§ 13 Abs. 1 Nr. 4c S. 1 ErbStG).\n▸ Beispiel: 250 qm, Grundbesitzwert 750.000 € → 200/250 = 80 % frei (600.000 €), 150.000 € steuerpflichtig. Danach greift der persönliche Freibetrag des Kindes von 400.000 € (§ 16 Abs. 1 Nr. 2 ErbStG).\n▸ Nutzt das Kind das Haus innerhalb von zehn Jahren nicht mehr selbst, entfällt die Befreiung rückwirkend, außer bei zwingenden Gründen (§ 13 Abs. 1 Nr. 4c S. 5 ErbStG).\n▸ Zum Vergleich: Ehegatten und Lebenspartner haben keine Flächengrenze (§ 13 Abs. 1 Nr. 4b ErbStG); Zuwendungen unter Lebenden nur zwischen Ehegatten oder Lebenspartnern (§ 13 Abs. 1 Nr. 4a ErbStG).\n\nSpeichern für Klausur 1 📌",
+  "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#erbschaftsteuer"
+  ],
+  "quellen": [
+    "§ 13 Abs. 1 Nr. 4a, 4b ErbStG",
+    "§ 13 Abs. 1 Nr. 4c S. 1, 5 ErbStG",
+    "§ 16 Abs. 1 Nr. 2 ErbStG"
+  ],
+  "slug": "2026-11-09-b3",
+  "kurztitel": "Familienheim: § 13 Abs. 1 Nr. 4a, 4b und 4c ErbStG",
+  "regelGeprueft": true,
+  "manuellGeprueft": false,
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "textProviderKostenUsd": 0,
+  "faktencheckProviderKostenUsd": 0,
+  "bildStatus": "open-peeps-render",
+  "renderer": "open-peeps-v4",
+  "liveVorrangAktiv": true,
+  "bild": "op-cover",
+  "reelTyp": "rechnung",
+  "hookStil": "kippen",
+  "coverBadge": "Reel",
+  "szenen": [
+    {
+      "art": "hook",
+      "titel": "Kind erbt Haus: alles steuerfrei?"
+    },
+    {
+      "art": "schritt",
+      "titel": "Der Fall"
+    },
+    {
+      "art": "schritt",
+      "titel": "Die Rechnung"
+    },
+    {
+      "art": "schritt",
+      "titel": "Zehn Jahre wohnen"
+    }
+  ],
+  "sprecher": [
+    "Kind erbt Elternhaus, alles steuerfrei? Nicht ganz. Steuerfrei nur bis zweihundert Quadratmeter.",
+    "Der Vater wohnte bis zuletzt darin, Ida zieht sofort ein. Zweihundertfünfzig Quadratmeter, Wert siebenhundertfünfzigtausend Euro.",
+    "Begünstigt sind zweihundert von zweihundertfünfzig, also achtzig Prozent. Steuerpflichtig bleiben hundertfünfzigtausend Euro.",
+    "Dann zehn Jahre selbst wohnen. Auszug ohne zwingenden Grund kostet die Befreiung rückwirkend.",
+    "Merke: Kinder zweihundert Quadratmeter, Rest anteilig, zehn Jahre wohnen."
+  ],
+  "dauerS": 40.641,
+  "tempo": 1
+}

@@ -1,0 +1,40 @@
+{
+  "slot": "s5",
+  "art": "antwort",
+  "fach": "ust",
+  "klausur": 1,
+  "fachLabel": "Umsatzsteuer",
+  "themaId": "ust-quiz-ust-10",
+  "beitragSlot": null,
+  "quellen": null,
+  "titel": [
+    "B: im Zeitraum",
+    "der Änderung"
+  ],
+  "optionen": [
+    "Rückwirkend im Liefermonat",
+    "Wenn sich das Entgelt ändert",
+    "In der Jahreserklärung"
+  ],
+  "richtig": 1,
+  "text": "Steuer und Vorsteuer werden nicht rückwirkend berichtigt.",
+  "norm": "§ 17 Abs. 1 S. 8 UStG",
+  "pairId": "ust-quiz-ust-10",
+  "sichtbareTexte": [
+    "Umsatzsteuer",
+    "Auflösung",
+    "B: im Zeitraum",
+    "der Änderung",
+    "Rückwirkend im Liefermonat",
+    "Wenn sich das Entgelt ändert",
+    "In der Jahreserklärung",
+    "Steuer und Vorsteuer werden nicht rückwirkend berichtigt.",
+    "§ 17 Abs. 1 S. 8 UStG"
+  ],
+  "renderer": "open-peeps-v4",
+  "bildStatus": "open-peeps-render",
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "liveVorrangAktiv": true,
+  "regelGeprueft": true
+}

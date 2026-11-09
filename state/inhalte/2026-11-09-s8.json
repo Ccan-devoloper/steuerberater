@@ -1,0 +1,44 @@
+{
+  "slot": "s8",
+  "art": "tipp",
+  "fach": "bilanz",
+  "klausur": 3,
+  "fachLabel": "Bilanzsteuerrecht",
+  "themaId": "bilanz-karte-k3-39",
+  "beitragSlot": null,
+  "quellen": null,
+  "titel": [
+    "Einlage:",
+    "wann gedeckelt?"
+  ],
+  "punkte": [
+    [
+      "Grundsatz: Teilwert",
+      "ok",
+      "§ 6 Abs. 1 Nr. 5 S. 1 EStG"
+    ],
+    [
+      "Binnen drei Jahren privat angeschafft: höchstens Anschaffungskosten, abnutzbar minus AfA",
+      "warn",
+      "§ 6 Abs. 1 Nr. 5 S. 1 Buchst. a, S. 2 EStG"
+    ]
+  ],
+  "icon": "tabler:arrow-bar-to-down",
+  "iconFarbe": "GELB",
+  "sichtbareTexte": [
+    "Bilanzsteuerrecht",
+    "Klausurtipp",
+    "Einlage:",
+    "wann gedeckelt?",
+    "Grundsatz: Teilwert",
+    "§ 6 Abs. 1 Nr. 5 S. 1 EStG",
+    "Binnen drei Jahren privat angeschafft: höchstens Anschaffungskosten, abnutzbar minus AfA",
+    "§ 6 Abs. 1 Nr. 5 S. 1 Buchst. a, S. 2 EStG"
+  ],
+  "renderer": "open-peeps-v4",
+  "bildStatus": "open-peeps-render",
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "liveVorrangAktiv": true,
+  "regelGeprueft": true
+}

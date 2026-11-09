@@ -1,0 +1,44 @@
+{
+  "slot": "s6",
+  "art": "norm",
+  "fach": "istr",
+  "klausur": 2,
+  "fachLabel": "Internationales Steuerrecht",
+  "themaId": "istr-modul-istr-istr3-07",
+  "beitragSlot": null,
+  "quellen": null,
+  "titel": [
+    "Wegzug ins",
+    "Niedrigsteuerland"
+  ],
+  "norm": "§ 2 AStG",
+  "punkte": [
+    [
+      "Deutscher, 5 von 10 Jahren unbeschränkt pflichtig, wesentliche Inlandsinteressen.",
+      "warn",
+      "§ 2 Abs. 1 S. 1 AStG"
+    ],
+    [
+      "Zehn Jahre erweitert beschränkt pflichtig, bei Einkünften über 16.500 €.",
+      "ok",
+      "§ 2 Abs. 1 S. 3 AStG"
+    ]
+  ],
+  "sichtbareTexte": [
+    "Internationales Steuerrecht",
+    "Norm des Tages",
+    "Wegzug ins",
+    "Niedrigsteuerland",
+    "§ 2 AStG",
+    "Deutscher, 5 von 10 Jahren unbeschränkt pflichtig, wesentliche Inlandsinteressen.",
+    "§ 2 Abs. 1 S. 1 AStG",
+    "Zehn Jahre erweitert beschränkt pflichtig, bei Einkünften über 16.500 €.",
+    "§ 2 Abs. 1 S. 3 AStG"
+  ],
+  "renderer": "open-peeps-v4",
+  "bildStatus": "open-peeps-render",
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "liveVorrangAktiv": true,
+  "regelGeprueft": true
+}

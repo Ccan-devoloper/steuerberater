@@ -1,0 +1,66 @@
+{
+  "slot": "s9",
+  "art": "merksatz",
+  "fach": "ao",
+  "klausur": 1,
+  "fachLabel": "Abgabenordnung",
+  "themaId": "ao-modul-ao-338",
+  "beitragSlot": null,
+  "quellen": null,
+  "titel": [
+    "Grundlagenbescheid",
+    "kommt spät?"
+  ],
+  "zeilen": [
+    [
+      [
+        "Festsetzungsfrist endet",
+        null
+      ]
+    ],
+    [
+      [
+        "frühestens ",
+        null
+      ],
+      [
+        "2 Jahre",
+        "a"
+      ]
+    ],
+    [
+      [
+        "nach ",
+        null
+      ],
+      [
+        "Bekanntgabe",
+        "b"
+      ]
+    ],
+    [
+      [
+        "des Grundlagenbescheids",
+        null
+      ]
+    ]
+  ],
+  "norm": "§ 171 Abs. 10 S. 1 AO",
+  "sichtbareTexte": [
+    "Abgabenordnung",
+    "Merksatz",
+    "Grundlagenbescheid",
+    "kommt spät?",
+    "Festsetzungsfrist endet",
+    "frühestens 2 Jahre",
+    "nach Bekanntgabe",
+    "des Grundlagenbescheids",
+    "§ 171 Abs. 10 S. 1 AO"
+  ],
+  "renderer": "open-peeps-v4",
+  "bildStatus": "open-peeps-render",
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "liveVorrangAktiv": true,
+  "regelGeprueft": true
+}

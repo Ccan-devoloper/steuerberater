@@ -1,0 +1,36 @@
+{
+  "slot": "s4",
+  "art": "frage",
+  "fach": "ust",
+  "klausur": 1,
+  "fachLabel": "Umsatzsteuer",
+  "themaId": "ust-quiz-ust-10",
+  "beitragSlot": null,
+  "quellen": null,
+  "frage": [
+    "Skonto kommt später:",
+    "Wann berichtigen?"
+  ],
+  "optionen": [
+    "Rückwirkend im Liefermonat",
+    "Wenn sich das Entgelt ändert",
+    "In der Jahreserklärung"
+  ],
+  "pairId": "ust-quiz-ust-10",
+  "sichtbareTexte": [
+    "Umsatzsteuer",
+    "Prüfungsfrage",
+    "Skonto kommt später:",
+    "Wann berichtigen?",
+    "Rückwirkend im Liefermonat",
+    "Wenn sich das Entgelt ändert",
+    "In der Jahreserklärung",
+    "Auflösung in der nächsten Story"
+  ],
+  "renderer": "open-peeps-v4",
+  "bildStatus": "open-peeps-render",
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "liveVorrangAktiv": true,
+  "regelGeprueft": true
+}

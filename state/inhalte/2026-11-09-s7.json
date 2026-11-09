@@ -1,0 +1,48 @@
+{
+  "slot": "s7",
+  "art": "tipp",
+  "fach": null,
+  "klausur": 0,
+  "fachLabel": "Zweiter Anlauf",
+  "themaId": null,
+  "beitragSlot": null,
+  "quellen": null,
+  "titel": [
+    "Erst analysieren,",
+    "dann lernen"
+  ],
+  "punkte": [
+    [
+      "Klausureinsicht nutzen: Wo gingen Punkte verloren?",
+      "ok",
+      null
+    ],
+    [
+      "Ursache benennen: Wissen, Zeit oder Darstellung?",
+      "ok",
+      null
+    ],
+    [
+      "Daraus drei konkrete Lernziele machen.",
+      "ok",
+      null
+    ]
+  ],
+  "icon": "tabler:target-arrow",
+  "iconFarbe": "GELB",
+  "sichtbareTexte": [
+    "Zweiter Anlauf",
+    "Klausurtipp",
+    "Erst analysieren,",
+    "dann lernen",
+    "Klausureinsicht nutzen: Wo gingen Punkte verloren?",
+    "Ursache benennen: Wissen, Zeit oder Darstellung?",
+    "Daraus drei konkrete Lernziele machen."
+  ],
+  "renderer": "open-peeps-v4",
+  "bildStatus": "open-peeps-render",
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "liveVorrangAktiv": true,
+  "regelGeprueft": true
+}

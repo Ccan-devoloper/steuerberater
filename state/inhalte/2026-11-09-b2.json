@@ -1,0 +1,87 @@
+{
+  "format": "schema",
+  "fach": "persg",
+  "klausur": 3,
+  "fachLabel": "Personengesellschaften",
+  "themaId": "persg-modul-persg-1",
+  "caption": "Mitunternehmerschaft in 3 Schritten: der Einstieg in jeden Personengesellschaftsfall der Bilanzklausur.\n\n1. Personengesellschaft: OHG, KG oder andere Gesellschaft, z. B. GbR (§ 15 Abs. 1 S. 1 Nr. 2 S. 1 EStG; § 705 BGB).\n2. Gewerbliche Einkünfte: originär (§ 15 Abs. 2 EStG), durch Abfärbung (§ 15 Abs. 3 Nr. 1 EStG) oder durch gewerbliche Prägung (§ 15 Abs. 3 Nr. 2 EStG).\n3. Mitunternehmer: Mitunternehmerinitiative und Mitunternehmerrisiko müssen beide vorliegen (H 15.8 (1) EStH; BFH vom 25.06.1984, GrS 4/82, BStBl II 1984, 751).\n\nFalle: Zivilrechtliche Gesellschafterstellung allein reicht nicht. Wer weder an Verlusten noch an stillen Reserven teilhat, ist kein Mitunternehmer.\n\nZum Schluss: § 15 EStG und H 15.8 (1) EStH zum Markieren. Speichern für Klausur 3 📌",
+  "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#personengesellschaften"
+  ],
+  "quellen": [
+    "§ 15 Abs. 1 S. 1 Nr. 2 S. 1 EStG",
+    "§ 15 Abs. 2 S. 1 EStG",
+    "§ 15 Abs. 3 Nr. 1, 2 EStG",
+    "§ 705 BGB",
+    "H 15.8 (1) EStH",
+    "BFH vom 25.06.1984, GrS 4/82, BStBl II 1984, 751"
+  ],
+  "slug": "2026-11-09-b2",
+  "kurztitel": "Mitunternehmerschaft: Grundtatbestand des § 15 EStG",
+  "regelGeprueft": true,
+  "manuellGeprueft": false,
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "textProviderKostenUsd": 0,
+  "faktencheckProviderKostenUsd": 0,
+  "bildStatus": "open-peeps-render",
+  "renderer": "open-peeps-v4",
+  "liveVorrangAktiv": true,
+  "coverBadge": "Prüfschema",
+  "folien": [
+    {
+      "art": "titel",
+      "titel": "Prüfschema",
+      "text": "Prüfschema · Mitunternehmer · in 3 Schritten · § 15 Abs. 1 S. 1 Nr. 2 EStG · Klausureinstieg · + Markier-Guide § 15 + H 15.8",
+      "bild": "op-cover"
+    },
+    {
+      "art": "text",
+      "titel": "Personengesellschaften",
+      "text": "Das Schema · Personengesellschaft · § 15 Abs. 1 S. 1 Nr. 2 EStG · OHG, KG oder vergleichbare Gesellschaft · Gewerbliche Einkünfte · § 15 Abs. 2, 3 EStG · originär, abgefärbt oder geprägt · Mitunternehmer · H 15.8 (1) EStH · Initiative und Risiko, für jeden einzeln · Am Ende: § 15 EStG + H 15.8 markiert"
+    },
+    {
+      "art": "text",
+      "titel": "Personengesellschaften",
+      "text": "1 · Personengesellschaft · OHG und KG nennt das Gesetz ausdrücklich. · § 15 Abs. 1 S. 1 Nr. 2 S. 1 EStG · Auch eine „andere Gesellschaft“ genügt, etwa eine GbR. · § 705 BGB · Grundlage ist immer ein Gesellschaftsvertrag. · Erst der Vertrag."
+    },
+    {
+      "art": "text",
+      "titel": "Personengesellschaften",
+      "text": "2 · Gewerbliche Einkünfte · Originär: Die Gesellschaft betreibt selbst ein Gewerbe. · § 15 Abs. 2 S. 1 EStG · Abfärbung: Eine gewerbliche Teiltätigkeit macht alles gewerblich. · § 15 Abs. 3 Nr. 1 EStG · Prägung: Nur Kapitalgesellschaften haften persönlich und führen die Geschäfte. · § 15 Abs. 3 Nr. 2 EStG · Drei Wege!"
+    },
+    {
+      "art": "text",
+      "titel": "Personengesellschaften",
+      "text": "3 · Mitunternehmer · Initiative: Mitsprache mindestens wie ein Kommanditist, also Stimm-, Kontroll- und Widerspruchsrechte. · H 15.8 (1) EStH · Risiko: Teilhabe an Gewinn, Verlust und stillen Reserven samt Firmenwert. · H 15.8 (1) EStH · Beides muss vorliegen. · Für jeden einzeln!"
+    },
+    {
+      "art": "text",
+      "titel": "Personengesellschaften",
+      "text": "Gesellschafter ≠ Mitunternehmer · Die Stellung im Handelsregister entscheidet nicht. · Wer kein Risiko trägt, bleibt außen vor, auch als Kommanditist. · H 15.8 (1) EStH · Register reicht nicht."
+    },
+    {
+      "art": "text",
+      "titel": "Personengesellschaften",
+      "text": "Jetzt du · Tilda ist Kommanditistin der Holzbau KG. · Sie erhält fest 4 % auf ihre Einlage, trägt keine Verluste und bekommt beim Ausscheiden nur ihre Einlage zurück. · Ist sie Mitunternehmerin? · Bin ich es?"
+    },
+    {
+      "art": "text",
+      "titel": "Personengesellschaften",
+      "text": "Lösung · Kein Mitunternehmerrisiko: keine Verlustteilhabe, keine stillen Reserven. · H 15.8 (1) EStH · Ihr Anteil fällt nicht unter § 15 Abs. 1 S. 1 Nr. 2 EStG. · Die übrigen Gesellschafter werden gesondert geprüft. · Also kein § 15."
+    },
+    {
+      "art": "text",
+      "titel": "Personengesellschaften",
+      "text": "Reihenfolge: Gesellschaft, Gewerblichkeit, · danach jeder Gesellschafter einzeln · Gesellschaft feststellen, · Gewerbe begründen, · Initiative und · Risiko prüfen. · Speichern für Klausur 3 · Welcher Schritt fehlt dir oft? · Weiterwischen: § 15 + H 15.8 markiert"
+    },
+    {
+      "art": "text",
+      "titel": "Personengesellschaften",
+      "text": "§ 15 EStG (Auszug) · Schritt 1 · Schritt 3 · Abfärbung · H 15.8 (1) EStH (Auszug) · Initiative · Risiko · auch Reserven · Tilda: 4 % · Grundlage: BFH vom 25.06.1984, GrS 4/82 · BStBl II 1984, 751"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "slot": "s2",
+  "art": "teaser",
+  "fach": "persg",
+  "klausur": 3,
+  "fachLabel": "Personengesellschaften",
+  "themaId": null,
+  "beitragSlot": "b2",
+  "quellen": null,
+  "titel": [
+    "Mitunternehmer in 3 Schritten"
+  ],
+  "unter": "Prüfschema + Markier-Guide · im Profil",
+  "sichtbareTexte": [
+    "Personengesellschaften",
+    "Neu im Feed",
+    "Mitunternehmer in 3 Schritten",
+    "Prüfschema + Markier-Guide · im Profil"
+  ],
+  "renderer": "open-peeps-v4",
+  "bildStatus": "open-peeps-render",
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "liveVorrangAktiv": true,
+  "regelGeprueft": true
+}
