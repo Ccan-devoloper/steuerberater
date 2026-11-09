@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "stand": "2026-11-09T18:01:25.305Z",
+  "stand": "2026-11-09T23:35:32.071Z",
   "medien": {
     "18093399314208242": {
       "art": "beitrag",
@@ -68125,6 +68125,18 @@
           "total_interactions": 8,
           "follows": 0,
           "profile_visits": 2
+        },
+        {
+          "stand": "2026-11-09T23:35:27.638Z",
+          "alterStunden": 64.1,
+          "reach": 156,
+          "saved": 5,
+          "shares": 0,
+          "likes": 3,
+          "comments": 0,
+          "total_interactions": 8,
+          "follows": 0,
+          "profile_visits": 2
         }
       ]
     },
@@ -68470,6 +68482,18 @@
           "likes": 5,
           "comments": 0,
           "total_interactions": 6,
+          "follows": 0,
+          "profile_visits": 2
+        },
+        {
+          "stand": "2026-11-09T23:35:27.638Z",
+          "alterStunden": 59.1,
+          "reach": 142,
+          "saved": 2,
+          "shares": 0,
+          "likes": 5,
+          "comments": 0,
+          "total_interactions": 7,
           "follows": 0,
           "profile_visits": 2
         }
@@ -68821,6 +68845,20 @@
           "ig_reels_avg_watch_time": 11451,
           "ig_reels_video_view_total_time": 14063039,
           "reels_skip_rate": 49.3
+        },
+        {
+          "stand": "2026-11-09T23:35:27.638Z",
+          "alterStunden": 55.1,
+          "reach": 1236,
+          "saved": 5,
+          "shares": 1,
+          "likes": 10,
+          "comments": 0,
+          "total_interactions": 16,
+          "views": 1505,
+          "ig_reels_avg_watch_time": 11526,
+          "ig_reels_video_view_total_time": 14258476,
+          "reels_skip_rate": 49.5
         }
       ]
     },
@@ -68959,6 +68997,20 @@
           "ig_reels_avg_watch_time": 7642,
           "ig_reels_video_view_total_time": 4241544,
           "reels_skip_rate": 63.7
+        },
+        {
+          "stand": "2026-11-09T23:35:27.638Z",
+          "alterStunden": 53.6,
+          "reach": 564,
+          "saved": 2,
+          "shares": 0,
+          "likes": 1,
+          "comments": 0,
+          "total_interactions": 3,
+          "views": 675,
+          "ig_reels_avg_watch_time": 7771,
+          "ig_reels_video_view_total_time": 4398779,
+          "reels_skip_rate": 63.1
         }
       ]
     },
@@ -69652,6 +69704,18 @@
           "likes": 0,
           "comments": 0,
           "total_interactions": 2,
+          "follows": 0,
+          "profile_visits": 2
+        },
+        {
+          "stand": "2026-11-09T23:35:27.638Z",
+          "alterStunden": 40.1,
+          "reach": 125,
+          "saved": 3,
+          "shares": 0,
+          "likes": 0,
+          "comments": 0,
+          "total_interactions": 3,
           "follows": 0,
           "profile_visits": 2
         }
@@ -70761,6 +70825,23 @@
           "navigation_tap_exit": 10,
           "navigation_swipe_forward": 5,
           "navigation_tap_forward": 75
+        },
+        {
+          "stand": "2026-11-09T23:35:12.421Z",
+          "alterStunden": 17.5,
+          "reach": 142,
+          "views": 170,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 151,
+          "navigation_tap_back": 2,
+          "navigation_tap_exit": 16,
+          "navigation_swipe_forward": 19,
+          "navigation_tap_forward": 114
         }
       ]
     },
@@ -70825,6 +70906,23 @@
           "navigation_tap_back": 10,
           "navigation_tap_forward": 73,
           "navigation_swipe_forward": 1
+        },
+        {
+          "stand": "2026-11-09T23:35:12.421Z",
+          "alterStunden": 17.4,
+          "reach": 128,
+          "views": 158,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 151,
+          "navigation_swipe_forward": 10,
+          "navigation_tap_forward": 110,
+          "navigation_tap_back": 18,
+          "navigation_tap_exit": 13
         }
       ]
     },
@@ -70889,6 +70987,23 @@
           "navigation_tap_back": 4,
           "navigation_tap_exit": 13,
           "navigation_tap_forward": 57
+        },
+        {
+          "stand": "2026-11-09T23:35:12.421Z",
+          "alterStunden": 16.1,
+          "reach": 112,
+          "views": 135,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 2,
+          "profile_activity": 0,
+          "navigation": 126,
+          "navigation_swipe_forward": 11,
+          "navigation_tap_back": 8,
+          "navigation_tap_exit": 19,
+          "navigation_tap_forward": 88
         }
       ]
     },
@@ -70949,6 +71064,18 @@
           "total_interactions": 3,
           "follows": 0,
           "profile_visits": 0
+        },
+        {
+          "stand": "2026-11-09T23:35:27.638Z",
+          "alterStunden": 16.1,
+          "reach": 92,
+          "saved": 2,
+          "shares": 0,
+          "likes": 3,
+          "comments": 0,
+          "total_interactions": 5,
+          "follows": 0,
+          "profile_visits": 0
         }
       ]
     },
@@ -70997,6 +71124,23 @@
           "navigation_tap_forward": 47,
           "navigation_tap_exit": 14,
           "navigation_tap_back": 2
+        },
+        {
+          "stand": "2026-11-09T23:35:12.421Z",
+          "alterStunden": 12.4,
+          "reach": 104,
+          "views": 129,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 113,
+          "navigation_tap_back": 5,
+          "navigation_tap_exit": 16,
+          "navigation_tap_forward": 87,
+          "navigation_swipe_forward": 5
         }
       ]
     },
@@ -71043,6 +71187,23 @@
           "navigation_tap_forward": 47,
           "navigation_tap_exit": 7,
           "navigation_swipe_forward": 3
+        },
+        {
+          "stand": "2026-11-09T23:35:12.421Z",
+          "alterStunden": 11.1,
+          "reach": 93,
+          "views": 120,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 1,
+          "profile_activity": 0,
+          "navigation": 106,
+          "navigation_tap_back": 10,
+          "navigation_tap_forward": 82,
+          "navigation_tap_exit": 9,
+          "navigation_swipe_forward": 5
         }
       ]
     },
@@ -71091,6 +71252,18 @@
           "total_interactions": 5,
           "follows": 0,
           "profile_visits": 1
+        },
+        {
+          "stand": "2026-11-09T23:35:27.638Z",
+          "alterStunden": 11.1,
+          "reach": 139,
+          "saved": 2,
+          "shares": 0,
+          "likes": 4,
+          "comments": 0,
+          "total_interactions": 6,
+          "follows": 0,
+          "profile_visits": 2
         }
       ]
     },
@@ -71122,6 +71295,23 @@
           "navigation_tap_exit": 4,
           "navigation_tap_forward": 10,
           "navigation_tap_back": 1
+        },
+        {
+          "stand": "2026-11-09T23:35:12.421Z",
+          "alterStunden": 9.9,
+          "reach": 89,
+          "views": 108,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 102,
+          "navigation_swipe_forward": 5,
+          "navigation_tap_back": 8,
+          "navigation_tap_forward": 76,
+          "navigation_tap_exit": 13
         }
       ]
     },
@@ -71153,6 +71343,112 @@
           "navigation_tap_back": 3,
           "navigation_tap_exit": 8,
           "navigation_tap_forward": 27
+        },
+        {
+          "stand": "2026-11-09T23:35:12.421Z",
+          "alterStunden": 7.5,
+          "reach": 81,
+          "views": 101,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 93,
+          "navigation_tap_back": 7,
+          "navigation_tap_exit": 9,
+          "navigation_tap_forward": 75,
+          "navigation_swipe_forward": 2
+        }
+      ]
+    },
+    "18118345922024016": {
+      "art": "story",
+      "datum": "2026-11-09",
+      "titel": [
+        "Kind erbt Haus: steuerfrei?"
+      ],
+      "format": null,
+      "fach": "erbst",
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-11-09T18:01:19.978Z",
+      "snapshots": [
+        {
+          "stand": "2026-11-09T23:35:12.421Z",
+          "alterStunden": 5.6,
+          "reach": 74,
+          "views": 89,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 83,
+          "navigation_tap_forward": 68,
+          "navigation_swipe_forward": 3,
+          "navigation_tap_exit": 8,
+          "navigation_tap_back": 4
+        }
+      ]
+    },
+    "17930309418426078": {
+      "art": "story",
+      "datum": "2026-11-09",
+      "titel": [
+        "Grundlagenbescheid",
+        "kommt spät?"
+      ],
+      "format": null,
+      "fach": "ao",
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-11-09T18:12:03.853Z",
+      "snapshots": [
+        {
+          "stand": "2026-11-09T23:35:12.421Z",
+          "alterStunden": 5.4,
+          "reach": 67,
+          "views": 82,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 2,
+          "profile_activity": 0,
+          "navigation": 78,
+          "navigation_tap_exit": 7,
+          "navigation_tap_back": 7,
+          "navigation_swipe_forward": 1,
+          "navigation_tap_forward": 63
+        }
+      ]
+    },
+    "17915667171283412": {
+      "art": "beitrag",
+      "datum": "2026-11-09",
+      "titel": "Familienheim: § 13 Abs. 1 Nr. 4a, 4b und 4c ErbStG",
+      "format": "reel",
+      "fach": "erbst",
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-11-09T18:00:08.308Z",
+      "snapshots": [
+        {
+          "stand": "2026-11-09T23:35:27.638Z",
+          "alterStunden": 5.6,
+          "reach": 287,
+          "saved": 2,
+          "shares": 3,
+          "likes": 3,
+          "comments": 0,
+          "total_interactions": 8,
+          "views": 370,
+          "ig_reels_avg_watch_time": 10573,
+          "ig_reels_video_view_total_time": 3087388,
+          "reels_skip_rate": 65.8
         }
       ]
     }
@@ -74820,6 +75116,11 @@
     },
     {
       "stand": "2026-11-09T18:01:25.305Z",
+      "follower": 567,
+      "medien": 210
+    },
+    {
+      "stand": "2026-11-09T23:35:32.071Z",
       "follower": 567,
       "medien": 210
     }
