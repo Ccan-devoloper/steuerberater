@@ -48,8 +48,9 @@
       "themaTitel": "Teste dich: Wann ist die Forderung verjährt?",
       "fach": null,
       "klausur": 0,
-      "status": "sendet",
-      "sendeversuch": "2026-11-09T18:00:59.196Z"
+      "status": "veroeffentlicht",
+      "medienId": "18025866053715906",
+      "veroeffentlicht": "2026-11-09T18:01:08.181Z"
     }
   ],
   "stories": [
