@@ -21366,22 +21366,22 @@
         "geerbt?"
       ],
       "insights": {
-        "reach": 98,
-        "views": 124,
+        "reach": 111,
+        "views": 138,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
-        "profile_visits": 0,
+        "profile_visits": 1,
         "profile_activity": 0,
-        "navigation": 104,
-        "navigation_tap_back": 5,
-        "navigation_swipe_forward": 7,
-        "navigation_tap_exit": 14,
-        "navigation_tap_forward": 78
+        "navigation": 117,
+        "navigation_tap_forward": 86,
+        "navigation_tap_exit": 16,
+        "navigation_swipe_forward": 10,
+        "navigation_tap_back": 5
       },
-      "insightsStand": "2026-11-09T07:44:58.238Z",
-      "insightsAlterStunden": 20.5
+      "insightsStand": "2026-11-09T10:45:34.098Z",
+      "insightsAlterStunden": 23.5
     },
     {
       "datum": "2026-11-08",
@@ -21431,22 +21431,22 @@
         "vGA an die Mutter: steuerfrei?"
       ],
       "insights": {
-        "reach": 95,
-        "views": 110,
+        "reach": 103,
+        "views": 119,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 102,
+        "navigation": 110,
         "navigation_tap_back": 9,
-        "navigation_swipe_forward": 8,
-        "navigation_tap_forward": 74,
-        "navigation_tap_exit": 11
+        "navigation_swipe_forward": 11,
+        "navigation_tap_forward": 77,
+        "navigation_tap_exit": 13
       },
-      "insightsStand": "2026-11-09T08:44:25.487Z",
-      "insightsAlterStunden": 20.2
+      "insightsStand": "2026-11-09T10:45:34.098Z",
+      "insightsAlterStunden": 22.3
     },
     {
       "datum": "2026-11-08",
@@ -21761,7 +21761,7 @@
         "#internationalessteuerrecht"
       ],
       "insights": {
-        "reach": 35,
+        "reach": 51,
         "saved": 0,
         "shares": 0,
         "likes": 2,
@@ -21770,8 +21770,8 @@
         "follows": 0,
         "profile_visits": 0
       },
-      "insightsStand": "2026-11-09T08:44:28.174Z",
-      "insightsAlterStunden": 1.2
+      "insightsStand": "2026-11-09T10:45:36.533Z",
+      "insightsAlterStunden": 3.3
     },
     {
       "datum": "2026-11-09",

@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "stand": "2026-11-09T09:44:53.543Z",
+  "stand": "2026-11-09T10:45:37.163Z",
   "medien": {
     "18093399314208242": {
       "art": "beitrag",
@@ -69565,6 +69565,23 @@
           "navigation_swipe_forward": 7,
           "navigation_tap_exit": 14,
           "navigation_tap_forward": 78
+        },
+        {
+          "stand": "2026-11-09T10:45:34.098Z",
+          "alterStunden": 23.5,
+          "reach": 111,
+          "views": 138,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 1,
+          "profile_activity": 0,
+          "navigation": 117,
+          "navigation_tap_forward": 86,
+          "navigation_tap_exit": 16,
+          "navigation_swipe_forward": 10,
+          "navigation_tap_back": 5
         }
       ]
     },
@@ -69664,6 +69681,23 @@
           "navigation_swipe_forward": 8,
           "navigation_tap_forward": 74,
           "navigation_tap_exit": 11
+        },
+        {
+          "stand": "2026-11-09T10:45:34.098Z",
+          "alterStunden": 22.3,
+          "reach": 103,
+          "views": 119,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 110,
+          "navigation_tap_back": 9,
+          "navigation_swipe_forward": 11,
+          "navigation_tap_forward": 77,
+          "navigation_tap_exit": 13
         }
       ]
     },
@@ -70361,6 +70395,18 @@
           "stand": "2026-11-09T08:44:28.174Z",
           "alterStunden": 1.2,
           "reach": 35,
+          "saved": 0,
+          "shares": 0,
+          "likes": 2,
+          "comments": 0,
+          "total_interactions": 2,
+          "follows": 0,
+          "profile_visits": 0
+        },
+        {
+          "stand": "2026-11-09T10:45:36.533Z",
+          "alterStunden": 3.3,
+          "reach": 51,
           "saved": 0,
           "shares": 0,
           "likes": 2,
@@ -73995,6 +74041,11 @@
     },
     {
       "stand": "2026-11-09T09:44:53.543Z",
+      "follower": 566,
+      "medien": 207
+    },
+    {
+      "stand": "2026-11-09T10:45:37.163Z",
       "follower": 566,
       "medien": 207
     }
