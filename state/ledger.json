@@ -21820,10 +21820,32 @@
         "Wegzug ins",
         "Niedrigsteuerland"
       ]
+    },
+    {
+      "datum": "2026-11-09",
+      "slot": "b2",
+      "medienId": "18100515011552565",
+      "veroeffentlicht": "2026-11-09T12:30:06.914Z",
+      "quelle": "vorproduktion",
+      "art": "beitrag",
+      "zeit": "13:30",
+      "stunde": 13,
+      "format": "schema",
+      "thema": "persg-modul-persg-1",
+      "fach": "persg",
+      "klausur": 3,
+      "titel": "Prüfschema",
+      "hookTyp": null,
+      "hashtags": [
+        "#steuerberaterexamen",
+        "#steuerberaterprüfung",
+        "#examensvorbereitung",
+        "#personengesellschaften"
+      ]
     }
   ],
   "fachZaehler": {
-    "persg": 21,
+    "persg": 22,
     "ust": 18,
     "kst": 17,
     "ao": 29,
