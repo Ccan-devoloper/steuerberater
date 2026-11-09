@@ -21729,6 +21729,20 @@
         "#examensvorbereitung",
         "#internationalessteuerrecht"
       ]
+    },
+    {
+      "datum": "2026-11-09",
+      "slot": "s1",
+      "medienId": "18124124408278184",
+      "veroeffentlicht": "2026-11-09T07:30:17.045Z",
+      "quelle": "vorproduktion",
+      "art": "story",
+      "storyArt": "teaser",
+      "thema": null,
+      "fach": "istr",
+      "titel": [
+        "Auslandsverlust verrechenbar?"
+      ]
     }
   ],
   "fachZaehler": {
