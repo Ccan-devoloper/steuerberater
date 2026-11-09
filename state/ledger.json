@@ -21366,22 +21366,22 @@
         "geerbt?"
       ],
       "insights": {
-        "reach": 91,
-        "views": 113,
+        "reach": 98,
+        "views": 124,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 98,
+        "navigation": 104,
         "navigation_tap_back": 5,
         "navigation_swipe_forward": 7,
         "navigation_tap_exit": 14,
-        "navigation_tap_forward": 72
+        "navigation_tap_forward": 78
       },
-      "insightsStand": "2026-11-09T05:44:42.469Z",
-      "insightsAlterStunden": 18.5
+      "insightsStand": "2026-11-09T07:44:58.238Z",
+      "insightsAlterStunden": 20.5
     },
     {
       "datum": "2026-11-08",
