@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "stand": "2026-11-09T14:18:18.951Z",
+  "stand": "2026-11-09T14:44:50.909Z",
   "medien": {
     "18093399314208242": {
       "art": "beitrag",
@@ -70082,6 +70082,23 @@
           "navigation_tap_forward": 83,
           "navigation_tap_exit": 13,
           "navigation_tap_back": 3
+        },
+        {
+          "stand": "2026-11-09T14:44:48.093Z",
+          "alterStunden": 22.7,
+          "reach": 114,
+          "views": 134,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 119,
+          "navigation_tap_back": 3,
+          "navigation_tap_exit": 13,
+          "navigation_tap_forward": 96,
+          "navigation_swipe_forward": 7
         }
       ]
     },
@@ -70778,6 +70795,37 @@
           "total_interactions": 2,
           "follows": 0,
           "profile_visits": 0
+        }
+      ]
+    },
+    "18133665283685540": {
+      "art": "story",
+      "datum": "2026-11-09",
+      "titel": [
+        "Erst analysieren,",
+        "dann lernen"
+      ],
+      "format": null,
+      "fach": null,
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-11-09T13:40:06.047Z",
+      "snapshots": [
+        {
+          "stand": "2026-11-09T14:44:48.093Z",
+          "alterStunden": 1.1,
+          "reach": 14,
+          "views": 23,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 15,
+          "navigation_tap_exit": 4,
+          "navigation_tap_forward": 10,
+          "navigation_tap_back": 1
         }
       ]
     }
@@ -74426,6 +74474,11 @@
     {
       "stand": "2026-11-09T13:40:09.624Z",
       "follower": 566,
+      "medien": 208
+    },
+    {
+      "stand": "2026-11-09T14:44:50.909Z",
+      "follower": 567,
       "medien": 208
     }
   ]

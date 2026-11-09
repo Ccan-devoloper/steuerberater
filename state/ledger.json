@@ -21495,22 +21495,22 @@
         "Anteile"
       ],
       "insights": {
-        "reach": 98,
-        "views": 114,
+        "reach": 114,
+        "views": 134,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 103,
-        "navigation_swipe_forward": 4,
-        "navigation_tap_forward": 83,
+        "navigation": 119,
+        "navigation_tap_back": 3,
         "navigation_tap_exit": 13,
-        "navigation_tap_back": 3
+        "navigation_tap_forward": 96,
+        "navigation_swipe_forward": 7
       },
-      "insightsStand": "2026-11-09T12:30:21.468Z",
-      "insightsAlterStunden": 20.4
+      "insightsStand": "2026-11-09T14:44:48.093Z",
+      "insightsAlterStunden": 22.7
     },
     {
       "datum": "2026-11-08",
@@ -21914,7 +21914,23 @@
       "titel": [
         "Erst analysieren,",
         "dann lernen"
-      ]
+      ],
+      "insights": {
+        "reach": 14,
+        "views": 23,
+        "shares": 0,
+        "total_interactions": 0,
+        "replies": 0,
+        "follows": 0,
+        "profile_visits": 0,
+        "profile_activity": 0,
+        "navigation": 15,
+        "navigation_tap_exit": 4,
+        "navigation_tap_forward": 10,
+        "navigation_tap_back": 1
+      },
+      "insightsStand": "2026-11-09T14:44:48.093Z",
+      "insightsAlterStunden": 1.1
     }
   ],
   "fachZaehler": {
