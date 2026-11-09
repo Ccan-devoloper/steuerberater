@@ -21600,22 +21600,22 @@
         "Brutto oder netto?"
       ],
       "insights": {
-        "reach": 102,
-        "views": 121,
+        "reach": 113,
+        "views": 135,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 2,
         "profile_activity": 0,
-        "navigation": 114,
-        "navigation_tap_forward": 85,
-        "navigation_tap_exit": 12,
+        "navigation": 127,
+        "navigation_tap_back": 8,
         "navigation_swipe_forward": 10,
-        "navigation_tap_back": 7
+        "navigation_tap_exit": 14,
+        "navigation_tap_forward": 95
       },
-      "insightsStand": "2026-11-09T14:18:14.815Z",
-      "insightsAlterStunden": 20.3
+      "insightsStand": "2026-11-09T16:55:49.408Z",
+      "insightsAlterStunden": 22.9
     },
     {
       "datum": "2026-11-08",
@@ -21632,22 +21632,22 @@
         "verschenkt? Nicht mit dir"
       ],
       "insights": {
-        "reach": 98,
-        "views": 115,
+        "reach": 107,
+        "views": 125,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 107,
-        "navigation_tap_back": 7,
-        "navigation_swipe_forward": 3,
-        "navigation_tap_forward": 88,
-        "navigation_tap_exit": 9
+        "navigation": 117,
+        "navigation_tap_back": 8,
+        "navigation_swipe_forward": 4,
+        "navigation_tap_forward": 95,
+        "navigation_tap_exit": 10
       },
-      "insightsStand": "2026-11-09T14:18:14.815Z",
-      "insightsAlterStunden": 20.3
+      "insightsStand": "2026-11-09T16:55:49.408Z",
+      "insightsAlterStunden": 22.9
     },
     {
       "datum": "2026-11-08",
@@ -21664,22 +21664,22 @@
         "und die Anteile?"
       ],
       "insights": {
-        "reach": 96,
-        "views": 108,
+        "reach": 103,
+        "views": 116,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 1,
         "profile_activity": 1,
-        "navigation": 102,
+        "navigation": 109,
         "navigation_tap_back": 5,
-        "navigation_tap_forward": 84,
-        "navigation_swipe_forward": 7,
-        "navigation_tap_exit": 6
+        "navigation_tap_forward": 88,
+        "navigation_swipe_forward": 9,
+        "navigation_tap_exit": 7
       },
-      "insightsStand": "2026-11-09T14:18:14.815Z",
-      "insightsAlterStunden": 20.1
+      "insightsStand": "2026-11-09T16:55:49.408Z",
+      "insightsAlterStunden": 22.7
     },
     {
       "datum": "2026-11-09",
@@ -21790,22 +21790,22 @@
         "Auslandsverlust verrechenbar?"
       ],
       "insights": {
-        "reach": 51,
-        "views": 69,
+        "reach": 71,
+        "views": 85,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 1,
         "profile_activity": 0,
-        "navigation": 59,
-        "navigation_tap_forward": 42,
-        "navigation_tap_exit": 10,
+        "navigation": 79,
+        "navigation_swipe_forward": 5,
         "navigation_tap_back": 4,
-        "navigation_swipe_forward": 3
+        "navigation_tap_exit": 13,
+        "navigation_tap_forward": 57
       },
-      "insightsStand": "2026-11-09T12:45:38.166Z",
-      "insightsAlterStunden": 5.3
+      "insightsStand": "2026-11-09T16:55:49.408Z",
+      "insightsAlterStunden": 9.4
     },
     {
       "datum": "2026-11-09",
@@ -21822,21 +21822,22 @@
         "Niedrigsteuerland"
       ],
       "insights": {
-        "reach": 26,
-        "views": 31,
+        "reach": 61,
+        "views": 72,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 27,
-        "navigation_tap_forward": 16,
-        "navigation_tap_exit": 10,
-        "navigation_tap_back": 1
+        "navigation": 65,
+        "navigation_swipe_forward": 2,
+        "navigation_tap_forward": 47,
+        "navigation_tap_exit": 14,
+        "navigation_tap_back": 2
       },
-      "insightsStand": "2026-11-09T12:30:21.468Z",
-      "insightsAlterStunden": 1.3
+      "insightsStand": "2026-11-09T16:55:49.408Z",
+      "insightsAlterStunden": 5.7
     },
     {
       "datum": "2026-11-09",
