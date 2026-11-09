@@ -21692,6 +21692,21 @@
       "thema": "ust-quiz-ust-10",
       "fach": "ust",
       "titel": ""
+    },
+    {
+      "datum": "2026-11-09",
+      "slot": "s5",
+      "medienId": "18044732408838757",
+      "veroeffentlicht": "2026-11-09T06:09:03.522Z",
+      "quelle": "vorproduktion",
+      "art": "story",
+      "storyArt": "antwort",
+      "thema": "ust-quiz-ust-10",
+      "fach": "ust",
+      "titel": [
+        "B: im Zeitraum",
+        "der Änderung"
+      ]
     }
   ],
   "fachZaehler": {
