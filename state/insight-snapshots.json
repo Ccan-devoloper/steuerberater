@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "stand": "2026-11-09T07:44:59.686Z",
+  "stand": "2026-11-09T08:44:28.863Z",
   "medien": {
     "18093399314208242": {
       "art": "beitrag",
@@ -69607,6 +69607,23 @@
           "navigation_swipe_forward": 7,
           "navigation_tap_forward": 67,
           "navigation_tap_exit": 8
+        },
+        {
+          "stand": "2026-11-09T08:44:25.487Z",
+          "alterStunden": 20.2,
+          "reach": 95,
+          "views": 110,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 102,
+          "navigation_tap_back": 9,
+          "navigation_swipe_forward": 8,
+          "navigation_tap_forward": 74,
+          "navigation_tap_exit": 11
         }
       ]
     },
@@ -70132,6 +70149,60 @@
           "navigation": 30,
           "navigation_tap_forward": 26,
           "navigation_tap_back": 4
+        }
+      ]
+    },
+    "18124124408278184": {
+      "art": "story",
+      "datum": "2026-11-09",
+      "titel": [
+        "Auslandsverlust verrechenbar?"
+      ],
+      "format": null,
+      "fach": "istr",
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-11-09T07:30:17.045Z",
+      "snapshots": [
+        {
+          "stand": "2026-11-09T08:44:25.487Z",
+          "alterStunden": 1.2,
+          "reach": 18,
+          "views": 22,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 1,
+          "profile_activity": 0,
+          "navigation": 21,
+          "navigation_tap_forward": 16,
+          "navigation_tap_exit": 4,
+          "navigation_tap_back": 1
+        }
+      ]
+    },
+    "18078864161563445": {
+      "art": "beitrag",
+      "datum": "2026-11-09",
+      "titel": "Prüfungsfrage",
+      "format": "pruefungsfrage",
+      "fach": "istr",
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-11-09T07:30:05.604Z",
+      "snapshots": [
+        {
+          "stand": "2026-11-09T08:44:28.174Z",
+          "alterStunden": 1.2,
+          "reach": 35,
+          "saved": 0,
+          "shares": 0,
+          "likes": 2,
+          "comments": 0,
+          "total_interactions": 2,
+          "follows": 0,
+          "profile_visits": 0
         }
       ]
     }
@@ -73750,6 +73821,11 @@
     {
       "stand": "2026-11-09T07:44:59.686Z",
       "follower": 565,
+      "medien": 207
+    },
+    {
+      "stand": "2026-11-09T08:44:28.863Z",
+      "follower": 566,
       "medien": 207
     }
   ]
