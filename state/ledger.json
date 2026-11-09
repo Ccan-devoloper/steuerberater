@@ -21858,7 +21858,19 @@
         "#steuerberaterprüfung",
         "#examensvorbereitung",
         "#personengesellschaften"
-      ]
+      ],
+      "insights": {
+        "reach": 47,
+        "saved": 0,
+        "shares": 0,
+        "likes": 2,
+        "comments": 0,
+        "total_interactions": 2,
+        "follows": 0,
+        "profile_visits": 0
+      },
+      "insightsStand": "2026-11-09T13:40:09.099Z",
+      "insightsAlterStunden": 1.2
     },
     {
       "datum": "2026-11-09",
@@ -21872,7 +21884,22 @@
       "fach": "persg",
       "titel": [
         "Mitunternehmer in 3 Schritten"
-      ]
+      ],
+      "insights": {
+        "reach": 17,
+        "views": 24,
+        "shares": 0,
+        "total_interactions": 0,
+        "replies": 0,
+        "follows": 0,
+        "profile_visits": 0,
+        "profile_activity": 0,
+        "navigation": 16,
+        "navigation_tap_forward": 13,
+        "navigation_tap_exit": 3
+      },
+      "insightsStand": "2026-11-09T13:40:07.628Z",
+      "insightsAlterStunden": 1.2
     },
     {
       "datum": "2026-11-09",

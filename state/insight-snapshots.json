@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "stand": "2026-11-09T12:45:41.639Z",
+  "stand": "2026-11-09T13:40:09.624Z",
   "medien": {
     "18093399314208242": {
       "art": "beitrag",
@@ -70584,6 +70584,59 @@
           "navigation_tap_back": 1
         }
       ]
+    },
+    "17988217944104548": {
+      "art": "story",
+      "datum": "2026-11-09",
+      "titel": [
+        "Mitunternehmer in 3 Schritten"
+      ],
+      "format": null,
+      "fach": "persg",
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-11-09T12:30:20.113Z",
+      "snapshots": [
+        {
+          "stand": "2026-11-09T13:40:07.628Z",
+          "alterStunden": 1.2,
+          "reach": 17,
+          "views": 24,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 16,
+          "navigation_tap_forward": 13,
+          "navigation_tap_exit": 3
+        }
+      ]
+    },
+    "18100515011552565": {
+      "art": "beitrag",
+      "datum": "2026-11-09",
+      "titel": "Prüfschema",
+      "format": "schema",
+      "fach": "persg",
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-11-09T12:30:06.914Z",
+      "snapshots": [
+        {
+          "stand": "2026-11-09T13:40:09.099Z",
+          "alterStunden": 1.2,
+          "reach": 47,
+          "saved": 0,
+          "shares": 0,
+          "likes": 2,
+          "comments": 0,
+          "total_interactions": 2,
+          "follows": 0,
+          "profile_visits": 0
+        }
+      ]
     }
   },
   "konto": [
@@ -74224,6 +74277,11 @@
     },
     {
       "stand": "2026-11-09T12:45:41.639Z",
+      "follower": 566,
+      "medien": 208
+    },
+    {
+      "stand": "2026-11-09T13:40:09.624Z",
       "follower": 566,
       "medien": 208
     }
