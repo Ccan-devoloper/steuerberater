@@ -21802,6 +21802,21 @@
       },
       "insightsStand": "2026-11-09T08:44:25.487Z",
       "insightsAlterStunden": 1.2
+    },
+    {
+      "datum": "2026-11-09",
+      "slot": "s6",
+      "medienId": "18096437438178673",
+      "veroeffentlicht": "2026-11-09T11:14:04.121Z",
+      "quelle": "vorproduktion",
+      "art": "story",
+      "storyArt": "norm",
+      "thema": "istr-modul-istr-istr3-07",
+      "fach": "istr",
+      "titel": [
+        "Wegzug ins",
+        "Niedrigsteuerland"
+      ]
     }
   ],
   "fachZaehler": {
