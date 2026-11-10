@@ -22229,6 +22229,21 @@
       },
       "insightsStand": "2026-11-10T08:45:06.799Z",
       "insightsAlterStunden": 1.2
+    },
+    {
+      "datum": "2026-11-10",
+      "slot": "s6",
+      "medienId": "18116259101026383",
+      "veroeffentlicht": "2026-11-10T11:14:04.388Z",
+      "quelle": "vorproduktion",
+      "art": "story",
+      "storyArt": "norm",
+      "thema": "persg-modul-persg-2",
+      "fach": "persg",
+      "titel": [
+        "GmbH & Co. KG:",
+        "geprägt?"
+      ]
     }
   ],
   "fachZaehler": {
