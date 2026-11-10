@@ -22153,6 +22153,20 @@
         "#examensvorbereitung",
         "#umwandlungssteuerrecht"
       ]
+    },
+    {
+      "datum": "2026-11-10",
+      "slot": "s1",
+      "medienId": "17888241336689729",
+      "veroeffentlicht": "2026-11-10T07:30:20.494Z",
+      "quelle": "vorproduktion",
+      "art": "story",
+      "storyArt": "teaser",
+      "thema": null,
+      "fach": "umwst",
+      "titel": [
+        "Anteile rein, Gewinn raus?"
+      ]
     }
   ],
   "fachZaehler": {
