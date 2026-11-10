@@ -21861,17 +21861,17 @@
         "#personengesellschaften"
       ],
       "insights": {
-        "reach": 149,
+        "reach": 154,
         "saved": 3,
         "shares": 0,
-        "likes": 4,
+        "likes": 5,
         "comments": 0,
-        "total_interactions": 7,
+        "total_interactions": 8,
         "follows": 1,
         "profile_visits": 4
       },
-      "insightsStand": "2026-11-10T11:55:33.938Z",
-      "insightsAlterStunden": 23.4
+      "insightsStand": "2026-11-10T20:45:15.908Z",
+      "insightsAlterStunden": 32.3
     },
     {
       "datum": "2026-11-09",
@@ -22117,22 +22117,22 @@
       "fach": "kst",
       "titel": "",
       "insights": {
-        "reach": 101,
-        "views": 139,
+        "reach": 150,
+        "views": 222,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 122,
-        "navigation_swipe_forward": 8,
-        "navigation_tap_forward": 90,
-        "navigation_tap_back": 10,
-        "navigation_tap_exit": 14
+        "navigation": 181,
+        "navigation_swipe_forward": 20,
+        "navigation_tap_forward": 131,
+        "navigation_tap_back": 14,
+        "navigation_tap_exit": 16
       },
-      "insightsStand": "2026-11-10T16:04:05.242Z",
-      "insightsAlterStunden": 10
+      "insightsStand": "2026-11-10T20:45:11.934Z",
+      "insightsAlterStunden": 14.6
     },
     {
       "datum": "2026-11-10",
@@ -22149,22 +22149,22 @@
         "steuerpflichtig"
       ],
       "insights": {
-        "reach": 89,
-        "views": 138,
+        "reach": 142,
+        "views": 201,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 126,
-        "navigation_tap_forward": 87,
-        "navigation_tap_exit": 7,
-        "navigation_tap_back": 23,
-        "navigation_swipe_forward": 9
+        "navigation": 187,
+        "navigation_tap_forward": 128,
+        "navigation_tap_exit": 14,
+        "navigation_tap_back": 31,
+        "navigation_swipe_forward": 14
       },
-      "insightsStand": "2026-11-10T16:04:05.242Z",
-      "insightsAlterStunden": 9.9
+      "insightsStand": "2026-11-10T20:45:11.934Z",
+      "insightsAlterStunden": 14.6
     },
     {
       "datum": "2026-11-10",
@@ -22246,22 +22246,22 @@
         "geprägt?"
       ],
       "insights": {
-        "reach": 76,
-        "views": 93,
+        "reach": 117,
+        "views": 147,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 86,
-        "navigation_tap_back": 7,
-        "navigation_swipe_forward": 4,
-        "navigation_tap_exit": 16,
-        "navigation_tap_forward": 59
+        "navigation": 135,
+        "navigation_tap_back": 10,
+        "navigation_swipe_forward": 6,
+        "navigation_tap_exit": 27,
+        "navigation_tap_forward": 92
       },
-      "insightsStand": "2026-11-10T16:44:39.959Z",
-      "insightsAlterStunden": 5.5
+      "insightsStand": "2026-11-10T20:45:11.934Z",
+      "insightsAlterStunden": 9.5
     },
     {
       "datum": "2026-11-10",
@@ -22414,19 +22414,19 @@
         "#körperschaftsteuer"
       ],
       "insights": {
-        "reach": 70,
-        "saved": 1,
-        "shares": 0,
-        "likes": 0,
+        "reach": 188,
+        "saved": 3,
+        "shares": 1,
+        "likes": 1,
         "comments": 0,
-        "total_interactions": 1,
-        "views": 169,
-        "ig_reels_avg_watch_time": 7484,
-        "ig_reels_video_view_total_time": 523922,
-        "reels_skip_rate": 30.1
+        "total_interactions": 5,
+        "views": 253,
+        "ig_reels_avg_watch_time": 7436,
+        "ig_reels_video_view_total_time": 1405533,
+        "reels_skip_rate": 61.2
       },
-      "insightsStand": "2026-11-10T18:45:20.950Z",
-      "insightsAlterStunden": 0.8
+      "insightsStand": "2026-11-10T20:45:15.908Z",
+      "insightsAlterStunden": 2.8
     },
     {
       "datum": "2026-11-10",
