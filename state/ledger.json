@@ -22373,12 +22373,34 @@
         "Vorsteuer",
         "aufteilen"
       ]
+    },
+    {
+      "datum": "2026-11-10",
+      "slot": "b3",
+      "medienId": "18172871734463395",
+      "veroeffentlicht": "2026-11-10T18:00:12.247Z",
+      "quelle": "vorproduktion",
+      "art": "beitrag",
+      "zeit": "19:00",
+      "stunde": 19,
+      "format": "reel",
+      "thema": "kst-aufb-kst-ks-4-10",
+      "fach": "kst",
+      "klausur": 2,
+      "titel": "Darlehen an die Tochter fällt aus: Ist der Verlust abziehbar?",
+      "hookTyp": null,
+      "hashtags": [
+        "#steuerberaterexamen",
+        "#steuerberaterprüfung",
+        "#examensvorbereitung",
+        "#körperschaftsteuer"
+      ]
     }
   ],
   "fachZaehler": {
     "persg": 22,
     "ust": 19,
-    "kst": 17,
+    "kst": 18,
     "ao": 29,
     "bilanz": 28,
     "istr": 24,
