@@ -22115,7 +22115,24 @@
       "storyArt": "frage",
       "thema": null,
       "fach": "kst",
-      "titel": ""
+      "titel": "",
+      "insights": {
+        "reach": 22,
+        "views": 37,
+        "shares": 0,
+        "total_interactions": 0,
+        "replies": 0,
+        "follows": 0,
+        "profile_visits": 0,
+        "profile_activity": 0,
+        "navigation": 25,
+        "navigation_tap_exit": 1,
+        "navigation_tap_back": 1,
+        "navigation_tap_forward": 22,
+        "navigation_swipe_forward": 1
+      },
+      "insightsStand": "2026-11-10T07:30:22.121Z",
+      "insightsAlterStunden": 1.4
     },
     {
       "datum": "2026-11-10",
@@ -22130,7 +22147,24 @@
       "titel": [
         "B: voll",
         "steuerpflichtig"
-      ]
+      ],
+      "insights": {
+        "reach": 19,
+        "views": 35,
+        "shares": 0,
+        "total_interactions": 0,
+        "replies": 0,
+        "follows": 0,
+        "profile_visits": 0,
+        "profile_activity": 0,
+        "navigation": 26,
+        "navigation_tap_forward": 18,
+        "navigation_tap_exit": 2,
+        "navigation_tap_back": 5,
+        "navigation_swipe_forward": 1
+      },
+      "insightsStand": "2026-11-10T07:30:22.121Z",
+      "insightsAlterStunden": 1.4
     },
     {
       "datum": "2026-11-10",

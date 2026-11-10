@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "stand": "2026-11-10T06:45:10.932Z",
+  "stand": "2026-11-10T07:30:22.121Z",
   "medien": {
     "18093399314208242": {
       "art": "beitrag",
@@ -71790,6 +71790,67 @@
           "ig_reels_avg_watch_time": 7863,
           "ig_reels_video_view_total_time": 1965962,
           "reels_skip_rate": 64.5
+        }
+      ]
+    },
+    "18111466751576880": {
+      "art": "story",
+      "datum": "2026-11-10",
+      "titel": null,
+      "format": null,
+      "fach": "kst",
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-11-10T06:07:04.448Z",
+      "snapshots": [
+        {
+          "stand": "2026-11-10T07:30:22.121Z",
+          "alterStunden": 1.4,
+          "reach": 22,
+          "views": 37,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 25,
+          "navigation_tap_exit": 1,
+          "navigation_tap_back": 1,
+          "navigation_tap_forward": 22,
+          "navigation_swipe_forward": 1
+        }
+      ]
+    },
+    "18108418694626814": {
+      "art": "story",
+      "datum": "2026-11-10",
+      "titel": [
+        "B: voll",
+        "steuerpflichtig"
+      ],
+      "format": null,
+      "fach": "kst",
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-11-10T06:09:03.368Z",
+      "snapshots": [
+        {
+          "stand": "2026-11-10T07:30:22.121Z",
+          "alterStunden": 1.4,
+          "reach": 19,
+          "views": 35,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 26,
+          "navigation_tap_forward": 18,
+          "navigation_tap_exit": 2,
+          "navigation_tap_back": 5,
+          "navigation_swipe_forward": 1
         }
       ]
     }
