@@ -1,0 +1,705 @@
+{
+  "datum": "2026-11-24",
+  "status": "vorproduziert",
+  "freigabeBetreiber": true,
+  "liveVerknuepft": false,
+  "vorproduktionStatus": "live-freigegeben",
+  "layoutQuelle": "open-peeps-variante-c",
+  "semantikQuelle": "examenscampus",
+  "liveVorrangAktiv": true,
+  "normalbetriebGesperrt": true,
+  "bildStatus": "open-peeps-render",
+  "kostenPolicy": {
+    "textUndFaktencheckUsd": 0,
+    "bildgenerierungUsd": 0,
+    "providerKostenUsd": 0,
+    "coverbilder": false,
+    "bildgenerierungErlaubt": false,
+    "reelStimme": "elevenlabs-abo"
+  },
+  "plan": {
+    "beitraege": [
+      {
+        "slot": "b1",
+        "zeit": "08:30",
+        "format": "rechenweg",
+        "themaId": "kst-modul-kst-6",
+        "themaTitel": "Dreiecksfälle und materielle Korrespondenz",
+        "fach": "kst",
+        "klausur": 2
+      },
+      {
+        "slot": "b2",
+        "zeit": "13:30",
+        "format": "kurzvortrag",
+        "themaId": "bilanz-aufb-bil-melzer-5-02",
+        "themaTitel": "Wann darf ein Investitionsabzugsbetrag gebildet werden?",
+        "fach": "bilanz",
+        "klausur": 3
+      },
+      {
+        "slot": "b3",
+        "zeit": "19:00",
+        "format": "reel",
+        "themaId": "ust-modul-ust-191",
+        "themaTitel": "Innergemeinschaftliche Lieferung: Ausgangsseite nach § 6a UStG",
+        "fach": "ust",
+        "klausur": 1
+      }
+    ],
+    "stories": [
+      {
+        "slot": "s4",
+        "zeit": "07:07",
+        "art": "frage"
+      },
+      {
+        "slot": "s5",
+        "zeit": "07:09",
+        "art": "antwort"
+      },
+      {
+        "slot": "s1",
+        "zeit": "08:30",
+        "art": "teaser",
+        "beitragSlot": "b1"
+      },
+      {
+        "slot": "s6",
+        "zeit": "12:14",
+        "art": "norm",
+        "themaId": "kst-modul-kst-8"
+      },
+      {
+        "slot": "s2",
+        "zeit": "13:30",
+        "art": "teaser",
+        "beitragSlot": "b2"
+      },
+      {
+        "slot": "s7",
+        "zeit": "14:40",
+        "art": "tipp"
+      },
+      {
+        "slot": "s8",
+        "zeit": "17:04",
+        "art": "tipp",
+        "themaId": "bilanz-glossar-15"
+      },
+      {
+        "slot": "s3",
+        "zeit": "19:00",
+        "art": "teaser",
+        "beitragSlot": "b3"
+      },
+      {
+        "slot": "s9",
+        "zeit": "19:12",
+        "art": "merksatz",
+        "themaId": "ao-modul-ao-348"
+      }
+    ]
+  },
+  "inhalte": {
+    "b1": {
+      "format": "rechenweg",
+      "fach": "kst",
+      "klausur": 2,
+      "fachLabel": "Körperschaftsteuer",
+      "themaId": "kst-modul-kst-6",
+      "caption": "Vorteil unter Schwestergesellschaften: der Rechenweg im Dreieck für die Körperschaftsteuer-Klausur.\n\nFall: Die Holding hält je 100 % an Aro und Bex. Aro verkauft Bex eine Maschine im Wert von 100.000 € für 60.000 €, weil beide derselben Mutter gehören.\n\n1. Aro: verdeckte Gewinnausschüttung an die Holding, außerbilanziell + 40.000 € (§ 8 Abs. 3 S. 2 KStG).\n2. Holding: Beteiligungsertrag 40.000 € (§ 20 Abs. 1 Nr. 1 S. 2 EStG), außer Ansatz (§ 8b Abs. 1 S. 1 KStG), 5 % = 2.000 € gelten als nicht abziehbare Betriebsausgaben (§ 8b Abs. 5 S. 1 KStG). Der Vorteil wird in Bex eingelegt, die Anschaffungskosten der Bex-Anteile steigen um 40.000 € (§ 6 Abs. 6 S. 2 EStG).\n3. Bex: verdeckte Einlage, das Einkommen erhöht sich nicht (§ 8 Abs. 3 S. 3 KStG).\nErgebnis: insgesamt 42.000 € mehr Einkommen.\n\nKlausurfalle materielle Korrespondenz: Freigestellt wird nur, soweit die vGA bei der ausschüttenden Gesellschaft das Einkommen nicht verringert hat (§ 8b Abs. 1 S. 2 KStG). Ist die vGA bei Aro nicht erfasst, versteuert die Holding die 40.000 € voll. Wird Aros Bescheid hinsichtlich der vGA erlassen, aufgehoben oder geändert, kann der Bescheid der Holding angepasst werden (§ 32a Abs. 1 S. 1 KStG).\n\nZum Schluss: § 8 Abs. 3, § 8b Abs. 1, 5 KStG zum Markieren. Speichern für Klausur 2 📌",
+      "hashtags": [
+        "#steuerberaterexamen",
+        "#steuerberaterprüfung",
+        "#examensvorbereitung",
+        "#körperschaftsteuer"
+      ],
+      "quellen": [
+        "§ 8 Abs. 3 S. 2, 3 KStG",
+        "§ 8b Abs. 1 S. 1, 2, Abs. 5 S. 1 KStG",
+        "§ 20 Abs. 1 Nr. 1 S. 2 EStG",
+        "§ 6 Abs. 6 S. 2 EStG",
+        "§ 32a Abs. 1 S. 1 KStG"
+      ],
+      "slug": "2026-11-24-b1",
+      "kurztitel": "Dreiecksfälle und materielle Korrespondenz",
+      "regelGeprueft": true,
+      "manuellGeprueft": false,
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "open-peeps-render",
+      "renderer": "open-peeps-v4",
+      "liveVorrangAktiv": true,
+      "coverBadge": "Rechenweg",
+      "folien": [
+        {
+          "art": "titel",
+          "titel": "Rechenweg",
+          "text": "Rechenweg · Vorteil im · Dreieck · § 8 Abs. 3 S. 2, 3 KStG · mit Zahlen · + Markier-Guide § 8b KStG · Preisvorteil · 40.000 € · wer versteuert?",
+          "bild": "op-cover"
+        },
+        {
+          "art": "text",
+          "titel": "Körperschaftsteuer",
+          "text": "Der Fall · Die Holm Holding GmbH hält je 100 % an der Aro GmbH und der Bex GmbH. · Aro verkauft Bex eine Maschine für 60.000 €. Wert: 100.000 €. · Der Grund: Beide gehören derselben Mutter. · Ich leite die Holding."
+        },
+        {
+          "art": "text",
+          "titel": "Körperschaftsteuer",
+          "text": "Den Vorteil verfolgen · 1. · vGA: Aro an Holding · § 8 Abs. 3 S. 2 KStG · 2. · Einlage: Holding in Bex · § 8 Abs. 3 S. 3 KStG · 3. · Bex-Anteile werden teurer · § 6 Abs. 6 S. 2 EStG · Pfeile zeichnen!"
+        },
+        {
+          "art": "text",
+          "titel": "Körperschaftsteuer",
+          "text": "Bei der Holding · Die vGA ist für sie ein Beteiligungsertrag von 40.000 €. · § 20 Abs. 1 Nr. 1 S. 2 EStG · Er bleibt außer Ansatz, 5 % gelten als nicht abziehbar. · § 8b Abs. 1 S. 1, Abs. 5 S. 1 KStG · Zugleich steigen die Anschaffungskosten der Bex-Anteile um 40.000 €. · § 6 Abs. 6 S. 2 EStG · Fast steuerfrei."
+        },
+        {
+          "art": "text",
+          "titel": "Körperschaftsteuer",
+          "text": "Der Rechenweg · § 8 Abs. 3 KStG · § 8b Abs. 1, 5 KStG · Aro: vGA hinzu · + 40.000 € · Holding: Ertrag · + 40.000 € · Holding: außer Ansatz · – 40.000 € · Holding: 5 % hinzu · + 2.000 € · Bex: Einlage · ± 0 € · Mehr Einkommen gesamt · 42.000 €"
+        },
+        {
+          "art": "text",
+          "titel": "Körperschaftsteuer",
+          "text": "Jetzt du · Variante: Aros Bescheid ist bestandskräftig, die vGA wurde dort nie erfasst. · Was gilt jetzt für die 40.000 € bei der Holding? · Und nun?"
+        },
+        {
+          "art": "text",
+          "titel": "Körperschaftsteuer",
+          "text": "Lösung: Korrespondenz · Steuerfrei nur, soweit die vGA das Einkommen von Aro nicht gemindert hat. · § 8b Abs. 1 S. 2 KStG · Hier gemindert: Die Holding versteuert 40.000 € voll. · Ändert das Amt Aros Bescheid wegen der vGA, kann der Holding-Bescheid folgen. · § 32a Abs. 1 S. 1 KStG · Achtung!"
+        },
+        {
+          "art": "text",
+          "titel": "Körperschaftsteuer",
+          "text": "Grundfall: 42.000 € mehr Einkommen · Ohne vGA bei Aro: 40.000 € voll bei der Holding · Pfeile zeichnen, · vGA nach oben, · Einlage nach unten, · Korrespondenz prüfen. · Speichern für Klausur 2 · Zeichnest du Dreiecke schon? · Weiterwischen: § 8b KStG markiert"
+        },
+        {
+          "art": "text",
+          "titel": "Körperschaftsteuer",
+          "text": "§§ 8, 8b KStG (Auszug) · Ebene Aro · Ebene Bex · Holding: frei · Korrespondenz! · + 2.000 € · Grundfall: + 42.000 € Einkommen · 40.000 € bei Aro, 2.000 € bei der Holding"
+        }
+      ]
+    },
+    "b2": {
+      "format": "kurzvortrag",
+      "fach": "bilanz",
+      "klausur": 3,
+      "fachLabel": "Bilanzsteuerrecht",
+      "themaId": "bilanz-aufb-bil-melzer-5-02",
+      "caption": "Kurzvortrag für die mündliche Steuerberaterprüfung: Wann darf ein Investitionsabzugsbetrag gebildet werden? 🎤\n\nIn der Mündlichen erhältst du eine halbe Stunde vor Beginn drei Themen zur Wahl (§ 26 Abs. 6 DVStB). So baust du rund zehn Minuten auf:\n\n▸ Einstieg: Künftige AfA vorziehen, bis zu 50 % der voraussichtlichen Kosten gewinnmindernd abziehen, außerhalb der Bilanz (§ 7g Abs. 1 S. 1 EStG).\n▸ Voraussetzungen: abnutzbares bewegliches Anlagegut; Vermietung oder (fast) ausschließlich betriebliche Nutzung in einer inländischen Betriebsstätte bis zum Ende des Folgejahres; Gewinn nach § 4 oder § 5 EStG, im Abzugsjahr ohne Abzug höchstens 200.000 €; elektronische Übermittlung; je Betrieb höchstens 200.000 € (§ 7g Abs. 1 S. 1, S. 2 Nr. 1, 2, S. 4 EStG). Ein Verlust darf entstehen (§ 7g Abs. 1 S. 3 EStG).\n▸ Investitionsjahr: Hinzurechnung bis 50 % der Kosten, höchstens der Abzug; Kürzung der Kosten um bis zu 50 %, die AfA-Basis sinkt (§ 7g Abs. 2 S. 1, 3 EStG); daneben Sonderabschreibung bis 40 % (§ 7g Abs. 5, 6 EStG).\n▸ Ohne Investition bis zum Ende des dritten Folgejahres: Rückgängigmachung im Abzugsjahr, auch bei Bestandskraft; § 233a Abs. 2a AO gilt nicht (§ 7g Abs. 3 EStG). Nutzung verfehlt: ebenfalls rückgängig (§ 7g Abs. 4 EStG).\n\nBeispiel: Ofen 50.000 €. 2026 Abzug 25.000 €, 2027 Hinzurechnung 25.000 € und Kürzung 25.000 €, AfA-Basis 25.000 €.\n\nZum Schluss: § 7g Abs. 1 EStG zum Markieren. Speichern für die Mündliche 📌",
+      "hashtags": [
+        "#steuerberaterexamen",
+        "#steuerberaterprüfung",
+        "#examensvorbereitung",
+        "#bilanzsteuerrecht"
+      ],
+      "quellen": [
+        "§ 7g Abs. 1–6 EStG",
+        "§ 233a Abs. 2a AO",
+        "§ 26 Abs. 6 DVStB"
+      ],
+      "slug": "2026-11-24-b2",
+      "kurztitel": "Wann darf ein Investitionsabzugsbetrag gebildet werden?",
+      "regelGeprueft": true,
+      "manuellGeprueft": false,
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "open-peeps-render",
+      "renderer": "open-peeps-v4",
+      "liveVorrangAktiv": true,
+      "coverBadge": "Kurzvortrag",
+      "folien": [
+        {
+          "art": "titel",
+          "titel": "Kurzvortrag",
+          "text": "Kurzvortrag · Wann IAB · bilden? · § 7g Abs. 1 EStG · 10 Minuten · + Markier-Guide § 7g EStG · Vortrag · 10 Min. · drei Teile",
+          "bild": "op-cover"
+        },
+        {
+          "art": "text",
+          "titel": "Bilanzsteuerrecht",
+          "text": "Dein Aufbau · Einstieg · 1 Min. · Zweck: AfA vorziehen · Voraussetzungen · 4 Min. · § 7g Abs. 1 EStG · Investitionsjahr · 3 Min. · § 7g Abs. 2, 5 EStG · Ohne Investition · 1 Min. · § 7g Abs. 3, 4 EStG · Schluss · 1 Min. · Kernsatz und Beispiel · Am Ende: § 7g EStG markiert"
+        },
+        {
+          "art": "text",
+          "titel": "Bilanzsteuerrecht",
+          "text": "Einstieg · Kleine Betriebe ziehen künftige AfA vor: bis zu 50 % der geplanten Kosten mindern schon heute den Gewinn. · § 7g Abs. 1 S. 1 EStG · Der Abzug läuft außerhalb der Bilanz, es gibt keine Rücklage. · Ziel: Liquidität vor der Investition. · Ich bin Tomasz."
+        },
+        {
+          "art": "text",
+          "titel": "Bilanzsteuerrecht",
+          "text": "Hauptteil 1: Voraussetzungen · Abnutzbares bewegliches Anlagegut, auch gebraucht. · § 7g Abs. 1 S. 1 EStG · Vermietet oder fast nur betrieblich im Inland genutzt, bis Ende des Folgejahres. · § 7g Abs. 1 S. 1 EStG · Gewinn ohne Abzug höchstens 200.000 €, Summe je Betrieb ebenso. · § 7g Abs. 1 S. 2 Nr. 1 Buchst. b, S. 4 EStG · Vier Minuten."
+        },
+        {
+          "art": "text",
+          "titel": "Bilanzsteuerrecht",
+          "text": "Hauptteil 2: Investitionsjahr · Hinzurechnung bis 50 % der tatsächlichen Kosten, höchstens der Abzug. · § 7g Abs. 2 S. 1 EStG · Zugleich die Kosten um bis zu 50 % kürzen: Die AfA-Basis sinkt. · § 7g Abs. 2 S. 3 EStG · Daneben bis zu 40 % Sonderabschreibung möglich. · § 7g Abs. 5 EStG · Dann kaufen."
+        },
+        {
+          "art": "text",
+          "titel": "Bilanzsteuerrecht",
+          "text": "Beispiel: Ofen für 50.000 € · § 7g Abs. 1, 2 EStG · 2026: Abzug · – 25.000 € · 2027: Hinzurechnung · + 25.000 € · 2027: Kosten kürzen · – 25.000 € · AfA-Basis · 25.000 € · Gewinn 2027 per Saldo: ± 0 €"
+        },
+        {
+          "art": "text",
+          "titel": "Bilanzsteuerrecht",
+          "text": "Hauptteil 3: Kein Kauf · Bis Ende des dritten Folgejahres nicht investiert: Der Abzug wird im Abzugsjahr rückgängig gemacht. · § 7g Abs. 3 S. 1 EStG · Auch ein bestandskräftiger Bescheid wird geändert. · § 7g Abs. 3 S. 2, 3 EStG · Nutzung verfehlt: ebenfalls rückgängig. · § 7g Abs. 4 S. 1 EStG · Rückwirkend!"
+        },
+        {
+          "art": "text",
+          "titel": "Bilanzsteuerrecht",
+          "text": "Typische Nachfragen · „Auch bei Einnahmenüberschussrechnung?“ Ja, alle Gewinnermittler. · § 7g Abs. 1 S. 2 Nr. 1 Buchst. a EStG · „Darf ein Verlust entstehen?“ Ja. · § 7g Abs. 1 S. 3 EStG · „Zinsen bei Rückgängigmachung?“ Ja, rückwirkend für das Abzugsjahr. · § 7g Abs. 3 S. 4 EStG · Bereit!"
+        },
+        {
+          "art": "text",
+          "titel": "Bilanzsteuerrecht",
+          "text": "Schlusssatz: vorziehen, hinzurechnen, kürzen · ohne Investition rückwirkend streichen · 50 % vorab abziehen, · hinzurechnen beim Kauf, · Kosten kürzen, · sonst rückwirkend. · Speichern für die Mündliche · Hältst du den Vortrag laut? · Weiterwischen: § 7g EStG markiert"
+        },
+        {
+          "art": "text",
+          "titel": "Bilanzsteuerrecht",
+          "text": "§ 7g EStG Investitionsabzugsbeträge (Auszug) · welches Gut? · Nutzung · Höhe · Gewinngrenze · Im Vortrag die Grenze nennen: · 200.000 € Gewinn ohne den Abzug"
+        }
+      ]
+    },
+    "b3": {
+      "format": "reel",
+      "fach": "ust",
+      "klausur": 1,
+      "fachLabel": "Umsatzsteuer",
+      "themaId": "ust-modul-ust-191",
+      "caption": "Innergemeinschaftliche Lieferung: nicht steuerbar oder steuerfrei? 🚚\n\n▸ Erst der Ort: Bei Beförderung oder Versendung gilt die Lieferung dort als ausgeführt, wo sie beginnt (§ 3 Abs. 6 S. 1 UStG). Köln → Lyon: Ort in Deutschland, steuerbar (§ 1 Abs. 1 Nr. 1 UStG).\n▸ Dann die Befreiung (§ 4 Nr. 1 Buchst. b UStG) mit den Voraussetzungen des § 6a Abs. 1 S. 1 UStG: Ware gelangt in das übrige Gemeinschaftsgebiet (Nr. 1), Abnehmer ist ein in einem anderen Mitgliedstaat erfasster Unternehmer, der für sein Unternehmen erwirbt (Nr. 2), der Erwerb unterliegt dort der Umsatzbesteuerung (Nr. 3), der Abnehmer verwendet eine gültige ausländische USt-IdNr. (Nr. 4).\n▸ Die Befreiung gilt nicht, wenn der Unternehmer seine Zusammenfassende Meldung (§ 18a UStG) für diese Lieferung nicht, unrichtig oder unvollständig abgegeben hat (§ 4 Nr. 1 Buchst. b UStG).\n▸ Nachweis der Voraussetzungen durch den Unternehmer (§ 6a Abs. 3 UStG).\n\nSpeichern für Klausur 1 📌",
+      "hashtags": [
+        "#steuerberaterexamen",
+        "#steuerberaterprüfung",
+        "#examensvorbereitung",
+        "#umsatzsteuer"
+      ],
+      "quellen": [
+        "§ 3 Abs. 6 S. 1 UStG",
+        "§ 1 Abs. 1 Nr. 1 UStG",
+        "§ 4 Nr. 1 Buchst. b UStG",
+        "§ 6a Abs. 1 S. 1 Nr. 1–4, Abs. 3 UStG",
+        "§ 18a UStG"
+      ],
+      "slug": "2026-11-24-b3",
+      "kurztitel": "Innergemeinschaftliche Lieferung: Ausgangsseite nach § 6a UStG",
+      "regelGeprueft": true,
+      "manuellGeprueft": false,
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "open-peeps-render",
+      "renderer": "open-peeps-v4",
+      "liveVorrangAktiv": true,
+      "bild": "op-cover",
+      "reelTyp": "gegensatz",
+      "hookStil": "kippen",
+      "coverBadge": "Reel",
+      "szenen": [
+        {
+          "art": "hook",
+          "titel": "EU-Lieferung: nicht steuerbar?"
+        },
+        {
+          "art": "schritt",
+          "titel": "Erst der Ort"
+        },
+        {
+          "art": "schritt",
+          "titel": "Dann die Befreiung"
+        },
+        {
+          "art": "schritt",
+          "titel": "Zwei Formalien"
+        }
+      ],
+      "sprecher": [
+        "Lieferung nach Frankreich ist nicht steuerbar? Falsch. Steuerbar, aber steuerfrei.",
+        "Aylin versendet eine Maschine von Köln nach Lyon. Der Ort liegt dort, wo die Versendung beginnt: steuerbar.",
+        "Steuerfrei wird es erst über Paragraf sechs a. Die Ware gelangt in einen anderen Mitgliedstaat, und der Kunde erwirbt dort steuerpflichtig.",
+        "Außerdem verwendet der Kunde eine gültige ausländische Identifikationsnummer. Ohne zusammenfassende Meldung keine Befreiung.",
+        "Merke: erst steuerbar, dann steuerfrei, mit Nummer und Meldung."
+      ],
+      "dauerS": 39.409,
+      "tempo": 1.0
+    },
+    "s4": {
+      "slot": "s4",
+      "art": "frage",
+      "fach": "erbst",
+      "klausur": 1,
+      "fachLabel": "Erbschaftsteuer",
+      "themaId": null,
+      "beitragSlot": null,
+      "quellen": null,
+      "frage": [
+        "Enkelin erbt,",
+        "Mutter lebt:",
+        "Freibetrag?"
+      ],
+      "optionen": [
+        "100.000 €",
+        "200.000 €",
+        "400.000 €"
+      ],
+      "sichtbareTexte": [
+        "Erbschaftsteuer",
+        "Prüfungsfrage",
+        "Enkelin erbt,",
+        "Mutter lebt:",
+        "Freibetrag?",
+        "100.000 €",
+        "200.000 €",
+        "400.000 €",
+        "Auflösung in der nächsten Story"
+      ],
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
+      "liveVorrangAktiv": true,
+      "regelGeprueft": true
+    },
+    "s5": {
+      "slot": "s5",
+      "art": "antwort",
+      "fach": "erbst",
+      "klausur": 1,
+      "fachLabel": "Erbschaftsteuer",
+      "themaId": null,
+      "beitragSlot": null,
+      "quellen": null,
+      "titel": [
+        "B: 200.000 €"
+      ],
+      "optionen": [
+        "100.000 €",
+        "200.000 €",
+        "400.000 €"
+      ],
+      "richtig": 1,
+      "text": "Enkel erhalten 200.000 €. Ist der Elternteil bereits verstorben, sind es 400.000 €.",
+      "norm": "§ 16 Abs. 1 Nr. 2, 3 ErbStG",
+      "sichtbareTexte": [
+        "Erbschaftsteuer",
+        "Auflösung",
+        "B: 200.000 €",
+        "100.000 €",
+        "200.000 €",
+        "400.000 €",
+        "Enkel erhalten 200.000 €. Ist der Elternteil bereits verstorben, sind es 400.000 €.",
+        "§ 16 Abs. 1 Nr. 2, 3 ErbStG"
+      ],
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
+      "liveVorrangAktiv": true,
+      "regelGeprueft": true
+    },
+    "s1": {
+      "slot": "s1",
+      "art": "teaser",
+      "fach": "kst",
+      "klausur": 2,
+      "fachLabel": "Körperschaftsteuer",
+      "themaId": null,
+      "beitragSlot": "b1",
+      "quellen": null,
+      "titel": [
+        "Vorteil im Dreieck"
+      ],
+      "unter": "Rechenweg + Markier-Guide · im Profil",
+      "sichtbareTexte": [
+        "Körperschaftsteuer",
+        "Neu im Feed",
+        "Vorteil im Dreieck",
+        "Rechenweg + Markier-Guide · im Profil"
+      ],
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
+      "liveVorrangAktiv": true,
+      "regelGeprueft": true
+    },
+    "s6": {
+      "slot": "s6",
+      "art": "norm",
+      "fach": "kst",
+      "klausur": 2,
+      "fachLabel": "Körperschaftsteuer",
+      "themaId": "kst-modul-kst-8",
+      "beitragSlot": null,
+      "quellen": null,
+      "titel": [
+        "Anteil verkauft:",
+        "steuerfrei?"
+      ],
+      "norm": "§ 8b Abs. 2 S. 1 KStG",
+      "punkte": [
+        [
+          "Gewinn bleibt außer Ansatz, ohne Mindestquote.",
+          "ok",
+          "§ 8b Abs. 2 S. 1 KStG"
+        ],
+        [
+          "5 % gelten als nicht abziehbar, Verluste zählen nicht.",
+          "warn",
+          "§ 8b Abs. 3 S. 1, 3 KStG"
+        ]
+      ],
+      "sichtbareTexte": [
+        "Körperschaftsteuer",
+        "Norm des Tages",
+        "Anteil verkauft:",
+        "steuerfrei?",
+        "§ 8b Abs. 2 S. 1 KStG",
+        "Gewinn bleibt außer Ansatz, ohne Mindestquote.",
+        "§ 8b Abs. 2 S. 1 KStG",
+        "5 % gelten als nicht abziehbar, Verluste zählen nicht.",
+        "§ 8b Abs. 3 S. 1, 3 KStG"
+      ],
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
+      "liveVorrangAktiv": true,
+      "regelGeprueft": true
+    },
+    "s2": {
+      "slot": "s2",
+      "art": "teaser",
+      "fach": "bilanz",
+      "klausur": 3,
+      "fachLabel": "Bilanzsteuerrecht",
+      "themaId": null,
+      "beitragSlot": "b2",
+      "quellen": null,
+      "titel": [
+        "Kurzvortrag: IAB"
+      ],
+      "unter": "Vortragsaufbau + Markier-Guide · im Profil",
+      "sichtbareTexte": [
+        "Bilanzsteuerrecht",
+        "Neu im Feed",
+        "Kurzvortrag: IAB",
+        "Vortragsaufbau + Markier-Guide · im Profil"
+      ],
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
+      "liveVorrangAktiv": true,
+      "regelGeprueft": true
+    },
+    "s7": {
+      "slot": "s7",
+      "art": "tipp",
+      "fach": null,
+      "klausur": 0,
+      "fachLabel": "Klausurtechnik",
+      "themaId": null,
+      "beitragSlot": null,
+      "quellen": null,
+      "titel": [
+        "Klausurstart:",
+        "Aufgabe zuerst"
+      ],
+      "punkte": [
+        [
+          "Erst die Aufgabenstellung lesen, dann den Sachverhalt.",
+          "ok",
+          null
+        ],
+        [
+          "Jede Zahl im Sachverhalt markieren.",
+          "ok",
+          null
+        ],
+        [
+          "Am Ende: Ist jede Angabe verwertet?",
+          "ok",
+          null
+        ]
+      ],
+      "icon": "tabler:list-check",
+      "iconFarbe": "GELB",
+      "sichtbareTexte": [
+        "Klausurtechnik",
+        "Klausurtipp",
+        "Klausurstart:",
+        "Aufgabe zuerst",
+        "Erst die Aufgabenstellung lesen, dann den Sachverhalt.",
+        "Jede Zahl im Sachverhalt markieren.",
+        "Am Ende: Ist jede Angabe verwertet?"
+      ],
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
+      "liveVorrangAktiv": true,
+      "regelGeprueft": true
+    },
+    "s8": {
+      "slot": "s8",
+      "art": "tipp",
+      "fach": "bilanz",
+      "klausur": 3,
+      "fachLabel": "Bilanzsteuerrecht",
+      "themaId": "bilanz-glossar-15",
+      "beitragSlot": null,
+      "quellen": null,
+      "titel": [
+        "Bauen auf dem",
+        "Grund des Partners?"
+      ],
+      "punkte": [
+        [
+          "Eigener Bauaufwand für den Anteil des Ehegatten: Aufwandsverteilungsposten.",
+          "ok",
+          "BMF vom 16.12.2016"
+        ],
+        [
+          "Kein Wirtschaftsgut, keine stillen Reserven.",
+          "warn",
+          null
+        ]
+      ],
+      "icon": "tabler:home",
+      "iconFarbe": "GELB",
+      "sichtbareTexte": [
+        "Bilanzsteuerrecht",
+        "Klausurtipp",
+        "Bauen auf dem",
+        "Grund des Partners?",
+        "Eigener Bauaufwand für den Anteil des Ehegatten: Aufwandsverteilungsposten.",
+        "BMF vom 16.12.2016",
+        "Kein Wirtschaftsgut, keine stillen Reserven."
+      ],
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
+      "liveVorrangAktiv": true,
+      "regelGeprueft": true
+    },
+    "s3": {
+      "slot": "s3",
+      "art": "teaser",
+      "fach": "ust",
+      "klausur": 1,
+      "fachLabel": "Umsatzsteuer",
+      "themaId": null,
+      "beitragSlot": "b3",
+      "quellen": null,
+      "titel": [
+        "EU-Lieferung: steuerbar?"
+      ],
+      "unter": "Neues Reel · im Profil",
+      "sichtbareTexte": [
+        "Umsatzsteuer",
+        "Neu im Feed",
+        "EU-Lieferung: steuerbar?",
+        "Neues Reel · im Profil"
+      ],
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
+      "liveVorrangAktiv": true,
+      "regelGeprueft": true
+    },
+    "s9": {
+      "slot": "s9",
+      "art": "merksatz",
+      "fach": "ao",
+      "klausur": 1,
+      "fachLabel": "Abgabenordnung",
+      "themaId": "ao-modul-ao-348",
+      "beitragSlot": null,
+      "quellen": null,
+      "titel": [
+        "Vorbehalt oder",
+        "vorläufig?"
+      ],
+      "zeilen": [
+        [
+          [
+            "Vorbehalt",
+            "a"
+          ],
+          [
+            " öffnet alles,",
+            null
+          ]
+        ],
+        [
+          [
+            "vorläufig",
+            "b"
+          ],
+          [
+            " nur den",
+            null
+          ]
+        ],
+        [
+          [
+            "Punkt im ",
+            null
+          ],
+          [
+            "Vermerk",
+            "c"
+          ],
+          [
+            ".",
+            null
+          ]
+        ]
+      ],
+      "norm": "§§ 164 Abs. 2, 165 Abs. 2 S. 1 AO",
+      "groesse": 70,
+      "sichtbareTexte": [
+        "Abgabenordnung",
+        "Merksatz",
+        "Vorbehalt oder",
+        "vorläufig?",
+        "Vorbehalt öffnet alles,",
+        "vorläufig nur den",
+        "Punkt im Vermerk.",
+        "§§ 164 Abs. 2, 165 Abs. 2 S. 1 AO"
+      ],
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
+      "liveVorrangAktiv": true,
+      "regelGeprueft": true
+    }
+  },
+  "renderVorschau": {
+    "status": "fertig",
+    "erzeugtAm": "2026-11-10T08:29:37Z",
+    "pfad": "vorproduktion/2026-11-24/fertig",
+    "providerKostenUsd": 0,
+    "coverbilder": false,
+    "coverIcons": false,
+    "renderer": "open-peeps-v4",
+    "layoutQuelle": "open-peeps-variante-c",
+    "reelStimme": "elevenlabs-laura",
+    "sfx": "freesound-cc0",
+    "freigabeBetreiber": true,
+    "liveVorrangAktiv": true,
+    "normalbetriebGesperrt": true,
+    "wartetLive": []
+  }
+}
