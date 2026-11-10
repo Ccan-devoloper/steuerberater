@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "stand": "2026-11-10T10:51:57.707Z",
+  "stand": "2026-11-10T11:55:36.368Z",
   "medien": {
     "18093399314208242": {
       "art": "beitrag",
@@ -71669,6 +71669,18 @@
           "total_interactions": 7,
           "follows": 0,
           "profile_visits": 2
+        },
+        {
+          "stand": "2026-11-10T11:55:33.938Z",
+          "alterStunden": 23.4,
+          "reach": 149,
+          "saved": 3,
+          "shares": 0,
+          "likes": 4,
+          "comments": 0,
+          "total_interactions": 7,
+          "follows": 1,
+          "profile_visits": 4
         }
       ]
     },
@@ -71751,6 +71763,23 @@
           "navigation_tap_forward": 90,
           "navigation_tap_back": 9,
           "navigation_swipe_forward": 9
+        },
+        {
+          "stand": "2026-11-10T11:55:29.895Z",
+          "alterStunden": 22.3,
+          "reach": 118,
+          "views": 147,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 138,
+          "navigation_swipe_forward": 10,
+          "navigation_tap_back": 10,
+          "navigation_tap_forward": 95,
+          "navigation_tap_exit": 23
         }
       ]
     },
@@ -72018,6 +72047,20 @@
           "ig_reels_avg_watch_time": 13866,
           "ig_reels_video_view_total_time": 8749922,
           "reels_skip_rate": 53.9
+        },
+        {
+          "stand": "2026-11-10T11:55:33.938Z",
+          "alterStunden": 17.9,
+          "reach": 789,
+          "saved": 9,
+          "shares": 5,
+          "likes": 6,
+          "comments": 0,
+          "total_interactions": 20,
+          "views": 996,
+          "ig_reels_avg_watch_time": 13172,
+          "ig_reels_video_view_total_time": 10353252,
+          "reels_skip_rate": 55.7
         }
       ]
     },
@@ -72058,6 +72101,20 @@
           "ig_reels_avg_watch_time": 8175,
           "ig_reels_video_view_total_time": 2681570,
           "reels_skip_rate": 61.6
+        },
+        {
+          "stand": "2026-11-10T11:55:33.938Z",
+          "alterStunden": 17.9,
+          "reach": 384,
+          "saved": 3,
+          "shares": 1,
+          "likes": 3,
+          "comments": 1,
+          "total_interactions": 8,
+          "views": 478,
+          "ig_reels_avg_watch_time": 7896,
+          "ig_reels_video_view_total_time": 3000716,
+          "reels_skip_rate": 63.1
         }
       ]
     },
@@ -72087,6 +72144,23 @@
           "navigation_tap_back": 1,
           "navigation_tap_forward": 22,
           "navigation_swipe_forward": 1
+        },
+        {
+          "stand": "2026-11-10T11:55:29.895Z",
+          "alterStunden": 5.8,
+          "reach": 61,
+          "views": 84,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 72,
+          "navigation_swipe_forward": 5,
+          "navigation_tap_forward": 53,
+          "navigation_tap_back": 4,
+          "navigation_tap_exit": 10
         }
       ]
     },
@@ -72119,6 +72193,23 @@
           "navigation_tap_exit": 2,
           "navigation_tap_back": 5,
           "navigation_swipe_forward": 1
+        },
+        {
+          "stand": "2026-11-10T11:55:29.895Z",
+          "alterStunden": 5.8,
+          "reach": 50,
+          "views": 85,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 71,
+          "navigation_tap_forward": 51,
+          "navigation_tap_exit": 2,
+          "navigation_tap_back": 13,
+          "navigation_swipe_forward": 5
         }
       ]
     },
@@ -75888,6 +75979,11 @@
     {
       "stand": "2026-11-10T10:51:57.707Z",
       "follower": 570,
+      "medien": 211
+    },
+    {
+      "stand": "2026-11-10T11:55:36.368Z",
+      "follower": 571,
       "medien": 211
     }
   ]
