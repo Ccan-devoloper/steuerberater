@@ -22214,21 +22214,22 @@
         "Anteile rein, Gewinn raus?"
       ],
       "insights": {
-        "reach": 15,
-        "views": 21,
+        "reach": 49,
+        "views": 73,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 19,
-        "navigation_tap_back": 3,
-        "navigation_tap_forward": 10,
-        "navigation_tap_exit": 6
+        "navigation": 64,
+        "navigation_swipe_forward": 2,
+        "navigation_tap_back": 9,
+        "navigation_tap_forward": 40,
+        "navigation_tap_exit": 13
       },
-      "insightsStand": "2026-11-10T08:45:06.799Z",
-      "insightsAlterStunden": 1.2
+      "insightsStand": "2026-11-10T12:51:21.357Z",
+      "insightsAlterStunden": 5.4
     },
     {
       "datum": "2026-11-10",
