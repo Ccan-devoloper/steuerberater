@@ -20959,8 +20959,8 @@
         "follows": 0,
         "profile_visits": 2
       },
-      "insightsStand": "2026-11-09T23:35:27.638Z",
-      "insightsAlterStunden": 59.1
+      "insightsStand": "2026-11-10T07:51:51.372Z",
+      "insightsAlterStunden": 67.4
     },
     {
       "datum": "2026-11-07",
@@ -21090,8 +21090,8 @@
         "ig_reels_video_view_total_time": 14258476,
         "reels_skip_rate": 49.5
       },
-      "insightsStand": "2026-11-09T23:35:27.638Z",
-      "insightsAlterStunden": 55.1
+      "insightsStand": "2026-11-10T07:51:51.372Z",
+      "insightsAlterStunden": 63.4
     },
     {
       "datum": "2026-11-07",
@@ -21117,19 +21117,19 @@
         "#steuerberater"
       ],
       "insights": {
-        "reach": 564,
+        "reach": 566,
         "saved": 2,
         "shares": 0,
         "likes": 1,
         "comments": 0,
         "total_interactions": 3,
-        "views": 675,
-        "ig_reels_avg_watch_time": 7771,
-        "ig_reels_video_view_total_time": 4398779,
-        "reels_skip_rate": 63.1
+        "views": 677,
+        "ig_reels_avg_watch_time": 7768,
+        "ig_reels_video_view_total_time": 4412332,
+        "reels_skip_rate": 62.9
       },
-      "insightsStand": "2026-11-09T23:35:27.638Z",
-      "insightsAlterStunden": 53.6
+      "insightsStand": "2026-11-10T07:51:51.372Z",
+      "insightsAlterStunden": 61.9
     },
     {
       "datum": "2026-11-07",
@@ -21308,7 +21308,7 @@
         "#steuerrecht"
       ],
       "insights": {
-        "reach": 125,
+        "reach": 126,
         "saved": 3,
         "shares": 0,
         "likes": 0,
@@ -21317,8 +21317,8 @@
         "follows": 0,
         "profile_visits": 2
       },
-      "insightsStand": "2026-11-09T23:35:27.638Z",
-      "insightsAlterStunden": 40.1
+      "insightsStand": "2026-11-10T07:51:51.372Z",
+      "insightsAlterStunden": 48.4
     },
     {
       "datum": "2026-11-08",
@@ -21822,22 +21822,22 @@
         "Niedrigsteuerland"
       ],
       "insights": {
-        "reach": 109,
-        "views": 139,
+        "reach": 120,
+        "views": 154,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 119,
-        "navigation_tap_back": 5,
-        "navigation_tap_exit": 16,
-        "navigation_tap_forward": 93,
-        "navigation_swipe_forward": 5
+        "navigation": 135,
+        "navigation_swipe_forward": 5,
+        "navigation_tap_forward": 104,
+        "navigation_tap_exit": 18,
+        "navigation_tap_back": 8
       },
-      "insightsStand": "2026-11-10T05:44:15.054Z",
-      "insightsAlterStunden": 18.5
+      "insightsStand": "2026-11-10T07:51:50.070Z",
+      "insightsAlterStunden": 20.6
     },
     {
       "datum": "2026-11-09",
