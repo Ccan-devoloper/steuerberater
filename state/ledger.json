@@ -22104,6 +22104,18 @@
       },
       "insightsStand": "2026-11-10T05:44:15.054Z",
       "insightsAlterStunden": 11.5
+    },
+    {
+      "datum": "2026-11-10",
+      "slot": "s4",
+      "medienId": "18111466751576880",
+      "veroeffentlicht": "2026-11-10T06:07:04.448Z",
+      "quelle": "vorproduktion",
+      "art": "story",
+      "storyArt": "frage",
+      "thema": null,
+      "fach": "kst",
+      "titel": ""
     }
   ],
   "fachZaehler": {

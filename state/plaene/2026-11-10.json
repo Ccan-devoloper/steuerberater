@@ -40,8 +40,9 @@
       "slot": "s4",
       "zeit": "07:07",
       "art": "frage",
-      "status": "sendet",
-      "sendeversuch": "2026-11-10T06:07:00.098Z"
+      "status": "veroeffentlicht",
+      "medienId": "18111466751576880",
+      "veroeffentlicht": "2026-11-10T06:07:04.448Z"
     },
     {
       "slot": "s5",
