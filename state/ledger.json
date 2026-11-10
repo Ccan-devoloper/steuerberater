@@ -22188,7 +22188,7 @@
         "#umwandlungssteuerrecht"
       ],
       "insights": {
-        "reach": 76,
+        "reach": 85,
         "saved": 0,
         "shares": 0,
         "likes": 2,
@@ -22197,8 +22197,8 @@
         "follows": 1,
         "profile_visits": 2
       },
-      "insightsStand": "2026-11-10T15:45:04.298Z",
-      "insightsAlterStunden": 8.2
+      "insightsStand": "2026-11-10T18:45:20.950Z",
+      "insightsAlterStunden": 11.3
     },
     {
       "datum": "2026-11-10",
@@ -22343,21 +22343,22 @@
         "dann der Fall"
       ],
       "insights": {
-        "reach": 19,
-        "views": 33,
+        "reach": 73,
+        "views": 92,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
-        "profile_visits": 0,
+        "profile_visits": 2,
         "profile_activity": 0,
-        "navigation": 20,
-        "navigation_tap_exit": 6,
-        "navigation_tap_forward": 13,
-        "navigation_tap_back": 1
+        "navigation": 77,
+        "navigation_tap_back": 4,
+        "navigation_tap_forward": 55,
+        "navigation_tap_exit": 15,
+        "navigation_swipe_forward": 3
       },
-      "insightsStand": "2026-11-10T14:44:56.278Z",
-      "insightsAlterStunden": 1.1
+      "insightsStand": "2026-11-10T18:45:19.800Z",
+      "insightsAlterStunden": 5.1
     },
     {
       "datum": "2026-11-10",
@@ -22411,7 +22412,21 @@
         "#steuerberaterprüfung",
         "#examensvorbereitung",
         "#körperschaftsteuer"
-      ]
+      ],
+      "insights": {
+        "reach": 70,
+        "saved": 1,
+        "shares": 0,
+        "likes": 0,
+        "comments": 0,
+        "total_interactions": 1,
+        "views": 169,
+        "ig_reels_avg_watch_time": 7484,
+        "ig_reels_video_view_total_time": 523922,
+        "reels_skip_rate": 30.1
+      },
+      "insightsStand": "2026-11-10T18:45:20.950Z",
+      "insightsAlterStunden": 0.8
     },
     {
       "datum": "2026-11-10",

@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "stand": "2026-11-10T18:00:33.622Z",
+  "stand": "2026-11-10T18:45:20.950Z",
   "medien": {
     "18093399314208242": {
       "art": "beitrag",
@@ -72640,6 +72640,18 @@
           "total_interactions": 2,
           "follows": 1,
           "profile_visits": 2
+        },
+        {
+          "stand": "2026-11-10T18:45:20.950Z",
+          "alterStunden": 11.3,
+          "reach": 85,
+          "saved": 0,
+          "shares": 0,
+          "likes": 2,
+          "comments": 0,
+          "total_interactions": 2,
+          "follows": 1,
+          "profile_visits": 2
         }
       ]
     },
@@ -72815,6 +72827,23 @@
           "navigation_tap_exit": 6,
           "navigation_tap_forward": 13,
           "navigation_tap_back": 1
+        },
+        {
+          "stand": "2026-11-10T18:45:19.800Z",
+          "alterStunden": 5.1,
+          "reach": 73,
+          "views": 92,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 2,
+          "profile_activity": 0,
+          "navigation": 77,
+          "navigation_tap_back": 4,
+          "navigation_tap_forward": 55,
+          "navigation_tap_exit": 15,
+          "navigation_swipe_forward": 3
         }
       ]
     },
@@ -72847,6 +72876,32 @@
           "navigation_tap_exit": 7,
           "navigation_tap_forward": 32,
           "navigation_tap_back": 2
+        }
+      ]
+    },
+    "18172871734463395": {
+      "art": "beitrag",
+      "datum": "2026-11-10",
+      "titel": "Darlehen an die Tochter fällt aus: Ist der Verlust abziehbar?",
+      "format": "reel",
+      "fach": "kst",
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-11-10T18:00:12.247Z",
+      "snapshots": [
+        {
+          "stand": "2026-11-10T18:45:20.950Z",
+          "alterStunden": 0.8,
+          "reach": 70,
+          "saved": 1,
+          "shares": 0,
+          "likes": 0,
+          "comments": 0,
+          "total_interactions": 1,
+          "views": 169,
+          "ig_reels_avg_watch_time": 7484,
+          "ig_reels_video_view_total_time": 523922,
+          "reels_skip_rate": 30.1
         }
       ]
     }
