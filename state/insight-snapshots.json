@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "stand": "2026-11-10T16:44:41.190Z",
+  "stand": "2026-11-10T18:00:33.622Z",
   "medien": {
     "18093399314208242": {
       "art": "beitrag",
@@ -72563,6 +72563,23 @@
           "navigation_tap_back": 9,
           "navigation_tap_forward": 40,
           "navigation_tap_exit": 13
+        },
+        {
+          "stand": "2026-11-10T18:00:29.776Z",
+          "alterStunden": 10.5,
+          "reach": 96,
+          "views": 126,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 114,
+          "navigation_swipe_forward": 6,
+          "navigation_tap_back": 12,
+          "navigation_tap_forward": 77,
+          "navigation_tap_exit": 19
         }
       ]
     },
@@ -72702,6 +72719,23 @@
           "navigation_tap_exit": 4,
           "navigation_tap_back": 2,
           "navigation_tap_forward": 16
+        },
+        {
+          "stand": "2026-11-10T18:00:29.776Z",
+          "alterStunden": 5.5,
+          "reach": 72,
+          "views": 88,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 75,
+          "navigation_tap_forward": 58,
+          "navigation_tap_back": 2,
+          "navigation_tap_exit": 13,
+          "navigation_swipe_forward": 2
         }
       ]
     },
@@ -72738,6 +72772,18 @@
           "total_interactions": 1,
           "follows": 0,
           "profile_visits": 0
+        },
+        {
+          "stand": "2026-11-10T18:00:33.105Z",
+          "alterStunden": 5.5,
+          "reach": 81,
+          "saved": 1,
+          "shares": 0,
+          "likes": 2,
+          "comments": 0,
+          "total_interactions": 3,
+          "follows": 0,
+          "profile_visits": 1
         }
       ]
     },
@@ -72769,6 +72815,38 @@
           "navigation_tap_exit": 6,
           "navigation_tap_forward": 13,
           "navigation_tap_back": 1
+        }
+      ]
+    },
+    "18102946895530722": {
+      "art": "story",
+      "datum": "2026-11-10",
+      "titel": [
+        "Vorsteuer",
+        "aufteilen"
+      ],
+      "format": null,
+      "fach": "ust",
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-11-10T16:04:04.047Z",
+      "snapshots": [
+        {
+          "stand": "2026-11-10T18:00:29.776Z",
+          "alterStunden": 1.9,
+          "reach": 39,
+          "views": 56,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 44,
+          "navigation_swipe_forward": 3,
+          "navigation_tap_exit": 7,
+          "navigation_tap_forward": 32,
+          "navigation_tap_back": 2
         }
       ]
     }
@@ -76503,6 +76581,11 @@
       "stand": "2026-11-10T16:44:41.190Z",
       "follower": 571,
       "medien": 212
+    },
+    {
+      "stand": "2026-11-10T18:00:33.622Z",
+      "follower": 570,
+      "medien": 213
     }
   ]
 }
