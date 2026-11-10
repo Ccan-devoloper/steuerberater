@@ -21951,22 +21951,22 @@
         "wann gedeckelt?"
       ],
       "insights": {
-        "reach": 104,
-        "views": 126,
+        "reach": 110,
+        "views": 137,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 118,
-        "navigation_tap_back": 8,
+        "navigation": 128,
+        "navigation_swipe_forward": 3,
+        "navigation_tap_forward": 105,
         "navigation_tap_exit": 11,
-        "navigation_tap_forward": 96,
-        "navigation_swipe_forward": 3
+        "navigation_tap_back": 9
       },
-      "insightsStand": "2026-11-10T09:51:51.967Z",
-      "insightsAlterStunden": 17.8
+      "insightsStand": "2026-11-10T12:30:21.713Z",
+      "insightsAlterStunden": 20.4
     },
     {
       "datum": "2026-11-09",
@@ -22188,17 +22188,17 @@
         "#umwandlungssteuerrecht"
       ],
       "insights": {
-        "reach": 65,
+        "reach": 71,
         "saved": 0,
         "shares": 0,
         "likes": 2,
         "comments": 0,
         "total_interactions": 2,
-        "follows": 0,
-        "profile_visits": 1
+        "follows": 1,
+        "profile_visits": 2
       },
-      "insightsStand": "2026-11-10T10:51:57.248Z",
-      "insightsAlterStunden": 3.4
+      "insightsStand": "2026-11-10T12:30:25.403Z",
+      "insightsAlterStunden": 5
     },
     {
       "datum": "2026-11-10",
@@ -22243,7 +22243,23 @@
       "titel": [
         "GmbH & Co. KG:",
         "geprägt?"
-      ]
+      ],
+      "insights": {
+        "reach": 23,
+        "views": 28,
+        "shares": 0,
+        "total_interactions": 0,
+        "replies": 0,
+        "follows": 0,
+        "profile_visits": 0,
+        "profile_activity": 0,
+        "navigation": 22,
+        "navigation_tap_forward": 16,
+        "navigation_tap_exit": 5,
+        "navigation_swipe_forward": 1
+      },
+      "insightsStand": "2026-11-10T12:30:21.713Z",
+      "insightsAlterStunden": 1.3
     },
     {
       "datum": "2026-11-10",
