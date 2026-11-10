@@ -22244,11 +22244,33 @@
         "GmbH & Co. KG:",
         "geprägt?"
       ]
+    },
+    {
+      "datum": "2026-11-10",
+      "slot": "b2",
+      "medienId": "17954892180273432",
+      "veroeffentlicht": "2026-11-10T12:30:06.147Z",
+      "quelle": "vorproduktion",
+      "art": "beitrag",
+      "zeit": "13:30",
+      "stunde": 13,
+      "format": "kurzvortrag",
+      "thema": "ust-aufb-ust-m-b08-2-38",
+      "fach": "ust",
+      "klausur": 1,
+      "titel": "Kurzvortrag",
+      "hookTyp": null,
+      "hashtags": [
+        "#steuerberaterexamen",
+        "#steuerberaterprüfung",
+        "#examensvorbereitung",
+        "#umsatzsteuer"
+      ]
     }
   ],
   "fachZaehler": {
     "persg": 22,
-    "ust": 18,
+    "ust": 19,
     "kst": 17,
     "ao": 29,
     "bilanz": 28,
