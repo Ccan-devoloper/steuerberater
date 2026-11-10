@@ -22357,6 +22357,21 @@
       },
       "insightsStand": "2026-11-10T14:44:56.278Z",
       "insightsAlterStunden": 1.1
+    },
+    {
+      "datum": "2026-11-10",
+      "slot": "s8",
+      "medienId": "18102946895530722",
+      "veroeffentlicht": "2026-11-10T16:04:04.047Z",
+      "quelle": "vorproduktion",
+      "art": "story",
+      "storyArt": "tipp",
+      "thema": "ust-aufb-ust-m-b11-30",
+      "fach": "ust",
+      "titel": [
+        "Vorsteuer",
+        "aufteilen"
+      ]
     }
   ],
   "fachZaehler": {
