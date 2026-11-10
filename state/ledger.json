@@ -22116,6 +22116,21 @@
       "thema": null,
       "fach": "kst",
       "titel": ""
+    },
+    {
+      "datum": "2026-11-10",
+      "slot": "s5",
+      "medienId": "18108418694626814",
+      "veroeffentlicht": "2026-11-10T06:09:03.368Z",
+      "quelle": "vorproduktion",
+      "art": "story",
+      "storyArt": "antwort",
+      "thema": null,
+      "fach": "kst",
+      "titel": [
+        "B: voll",
+        "steuerpflichtig"
+      ]
     }
   ],
   "fachZaehler": {
