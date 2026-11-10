@@ -116,7 +116,8 @@
       "zeit": "19:12",
       "art": "merksatz",
       "themaId": "kst-aufb-kst-ks-5-08",
-      "status": "geplant"
+      "status": "sendet",
+      "sendeversuch": "2026-11-10T18:12:00.089Z"
     }
   ]
 }
