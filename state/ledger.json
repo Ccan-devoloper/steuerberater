@@ -22131,6 +22131,28 @@
         "B: voll",
         "steuerpflichtig"
       ]
+    },
+    {
+      "datum": "2026-11-10",
+      "slot": "b1",
+      "medienId": "17928356457432447",
+      "veroeffentlicht": "2026-11-10T07:30:07.208Z",
+      "quelle": "vorproduktion",
+      "art": "beitrag",
+      "zeit": "08:30",
+      "stunde": 8,
+      "format": "rechenweg",
+      "thema": "umwst-aufb-umw-ks-6-c-15",
+      "fach": "umwst",
+      "klausur": 3,
+      "titel": "Rechenweg",
+      "hookTyp": null,
+      "hashtags": [
+        "#steuerberaterexamen",
+        "#steuerberaterprüfung",
+        "#examensvorbereitung",
+        "#umwandlungssteuerrecht"
+      ]
     }
   ],
   "fachZaehler": {
@@ -22143,7 +22165,7 @@
     "erbst": 15,
     "mindset": 2,
     "est": 10,
-    "umwst": 11,
+    "umwst": 12,
     "gewst": 5,
     "null": 21
   },
