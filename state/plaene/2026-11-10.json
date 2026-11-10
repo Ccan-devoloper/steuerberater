@@ -116,8 +116,9 @@
       "zeit": "19:12",
       "art": "merksatz",
       "themaId": "kst-aufb-kst-ks-5-08",
-      "status": "sendet",
-      "sendeversuch": "2026-11-10T18:12:00.089Z"
+      "status": "veroeffentlicht",
+      "medienId": "18128807632680749",
+      "veroeffentlicht": "2026-11-10T18:12:03.224Z"
     }
   ]
 }
