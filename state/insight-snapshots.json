@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "stand": "2026-11-10T18:45:20.950Z",
+  "stand": "2026-11-10T19:45:37.335Z",
   "medien": {
     "18093399314208242": {
       "art": "beitrag",
@@ -72904,6 +72904,67 @@
           "reels_skip_rate": 30.1
         }
       ]
+    },
+    "18107823035363575": {
+      "art": "story",
+      "datum": "2026-11-10",
+      "titel": [
+        "Tochter pleite: Verlust weg?"
+      ],
+      "format": null,
+      "fach": "kst",
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-11-10T18:00:27.787Z",
+      "snapshots": [
+        {
+          "stand": "2026-11-10T19:45:32.231Z",
+          "alterStunden": 1.8,
+          "reach": 38,
+          "views": 48,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 36,
+          "navigation_tap_exit": 3,
+          "navigation_swipe_forward": 2,
+          "navigation_tap_forward": 31
+        }
+      ]
+    },
+    "18128807632680749": {
+      "art": "story",
+      "datum": "2026-11-10",
+      "titel": [
+        "vGA an die",
+        "Schwester-GmbH"
+      ],
+      "format": null,
+      "fach": "kst",
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-11-10T18:12:03.225Z",
+      "snapshots": [
+        {
+          "stand": "2026-11-10T19:45:32.231Z",
+          "alterStunden": 1.6,
+          "reach": 37,
+          "views": 43,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 33,
+          "navigation_tap_back": 1,
+          "navigation_tap_forward": 28,
+          "navigation_tap_exit": 4
+        }
+      ]
     }
   },
   "konto": [
@@ -76640,6 +76701,11 @@
     {
       "stand": "2026-11-10T18:00:33.622Z",
       "follower": 570,
+      "medien": 213
+    },
+    {
+      "stand": "2026-11-10T19:45:37.335Z",
+      "follower": 569,
       "medien": 213
     }
   ]
