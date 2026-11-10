@@ -21861,7 +21861,7 @@
         "#personengesellschaften"
       ],
       "insights": {
-        "reach": 142,
+        "reach": 147,
         "saved": 3,
         "shares": 0,
         "likes": 4,
@@ -21870,8 +21870,8 @@
         "follows": 0,
         "profile_visits": 2
       },
-      "insightsStand": "2026-11-10T05:44:26.093Z",
-      "insightsAlterStunden": 17.2
+      "insightsStand": "2026-11-10T08:45:09.350Z",
+      "insightsAlterStunden": 20.3
     },
     {
       "datum": "2026-11-09",
@@ -21887,22 +21887,22 @@
         "Mitunternehmer in 3 Schritten"
       ],
       "insights": {
-        "reach": 100,
-        "views": 129,
+        "reach": 115,
+        "views": 147,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 1,
         "profile_activity": 0,
-        "navigation": 113,
-        "navigation_swipe_forward": 5,
-        "navigation_tap_exit": 11,
-        "navigation_tap_forward": 87,
-        "navigation_tap_back": 10
+        "navigation": 131,
+        "navigation_tap_back": 14,
+        "navigation_tap_forward": 100,
+        "navigation_tap_exit": 12,
+        "navigation_swipe_forward": 5
       },
-      "insightsStand": "2026-11-10T05:44:15.054Z",
-      "insightsAlterStunden": 17.2
+      "insightsStand": "2026-11-10T08:45:06.799Z",
+      "insightsAlterStunden": 20.2
     },
     {
       "datum": "2026-11-09",
@@ -21990,19 +21990,19 @@
         "#erbschaftsteuer"
       ],
       "insights": {
-        "reach": 373,
-        "saved": 4,
-        "shares": 3,
-        "likes": 4,
+        "reach": 633,
+        "saved": 8,
+        "shares": 4,
+        "likes": 5,
         "comments": 0,
-        "total_interactions": 11,
-        "views": 495,
-        "ig_reels_avg_watch_time": 12640,
-        "ig_reels_video_view_total_time": 4752824,
-        "reels_skip_rate": 59.5
+        "total_interactions": 17,
+        "views": 821,
+        "ig_reels_avg_watch_time": 13866,
+        "ig_reels_video_view_total_time": 8749922,
+        "reels_skip_rate": 53.9
       },
-      "insightsStand": "2026-11-10T05:44:26.093Z",
-      "insightsAlterStunden": 11.7
+      "insightsStand": "2026-11-10T08:45:09.350Z",
+      "insightsAlterStunden": 14.8
     },
     {
       "datum": "2026-11-09",
@@ -22028,19 +22028,19 @@
         "#steuerberater"
       ],
       "insights": {
-        "reach": 251,
-        "saved": 2,
-        "shares": 0,
-        "likes": 1,
+        "reach": 334,
+        "saved": 3,
+        "shares": 1,
+        "likes": 3,
         "comments": 1,
-        "total_interactions": 4,
-        "views": 328,
-        "ig_reels_avg_watch_time": 7863,
-        "ig_reels_video_view_total_time": 1965962,
-        "reels_skip_rate": 64.5
+        "total_interactions": 8,
+        "views": 424,
+        "ig_reels_avg_watch_time": 8175,
+        "ig_reels_video_view_total_time": 2681570,
+        "reels_skip_rate": 61.6
       },
-      "insightsStand": "2026-11-10T05:44:26.093Z",
-      "insightsAlterStunden": 11.7
+      "insightsStand": "2026-11-10T08:45:09.350Z",
+      "insightsAlterStunden": 14.7
     },
     {
       "datum": "2026-11-09",
@@ -22186,7 +22186,19 @@
         "#steuerberaterprüfung",
         "#examensvorbereitung",
         "#umwandlungssteuerrecht"
-      ]
+      ],
+      "insights": {
+        "reach": 44,
+        "saved": 0,
+        "shares": 0,
+        "likes": 1,
+        "comments": 0,
+        "total_interactions": 1,
+        "follows": 0,
+        "profile_visits": 1
+      },
+      "insightsStand": "2026-11-10T08:45:09.350Z",
+      "insightsAlterStunden": 1.3
     },
     {
       "datum": "2026-11-10",
@@ -22200,7 +22212,23 @@
       "fach": "umwst",
       "titel": [
         "Anteile rein, Gewinn raus?"
-      ]
+      ],
+      "insights": {
+        "reach": 15,
+        "views": 21,
+        "shares": 0,
+        "total_interactions": 0,
+        "replies": 0,
+        "follows": 0,
+        "profile_visits": 0,
+        "profile_activity": 0,
+        "navigation": 19,
+        "navigation_tap_back": 3,
+        "navigation_tap_forward": 10,
+        "navigation_tap_exit": 6
+      },
+      "insightsStand": "2026-11-10T08:45:06.799Z",
+      "insightsAlterStunden": 1.2
     }
   ],
   "fachZaehler": {
