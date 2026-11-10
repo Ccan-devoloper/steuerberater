@@ -22266,6 +22266,20 @@
         "#examensvorbereitung",
         "#umsatzsteuer"
       ]
+    },
+    {
+      "datum": "2026-11-10",
+      "slot": "s2",
+      "medienId": "17979261282159605",
+      "veroeffentlicht": "2026-11-10T12:30:20.298Z",
+      "quelle": "vorproduktion",
+      "art": "story",
+      "storyArt": "teaser",
+      "thema": null,
+      "fach": "ust",
+      "titel": [
+        "Kurzvortrag: Option § 9 UStG"
+      ]
     }
   ],
   "fachZaehler": {
