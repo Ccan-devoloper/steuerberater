@@ -22759,6 +22759,28 @@
         "§ 7 AStG:",
         "wann beherrscht?"
       ]
+    },
+    {
+      "datum": "2026-11-11",
+      "slot": "b3",
+      "medienId": "17990810496085442",
+      "veroeffentlicht": "2026-11-11T18:00:19.794Z",
+      "quelle": "vorproduktion",
+      "art": "beitrag",
+      "zeit": "19:00",
+      "stunde": 19,
+      "format": "reel",
+      "thema": "umwst-aufb-umw-4-02",
+      "fach": "umwst",
+      "klausur": 3,
+      "titel": "Unter welchen Voraussetzungen fällt eine Spaltung unter § 15 UmwStG?",
+      "hookTyp": null,
+      "hashtags": [
+        "#steuerberaterexamen",
+        "#steuerberaterprüfung",
+        "#examensvorbereitung",
+        "#umwandlungssteuerrecht"
+      ]
     }
   ],
   "fachZaehler": {
@@ -22771,7 +22793,7 @@
     "erbst": 16,
     "mindset": 2,
     "est": 10,
-    "umwst": 12,
+    "umwst": 13,
     "gewst": 5,
     "null": 21
   },
