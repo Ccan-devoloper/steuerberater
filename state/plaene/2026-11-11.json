@@ -24,7 +24,8 @@
       "themaTitel": "Verlustuntergang nach § 8c/§ 8d",
       "fach": "kst",
       "klausur": 2,
-      "status": "geplant"
+      "status": "sendet",
+      "sendeversuch": "2026-11-11T12:30:00.100Z"
     },
     {
       "slot": "b3",
