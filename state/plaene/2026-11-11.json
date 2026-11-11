@@ -50,7 +50,8 @@
       "zeit": "07:09",
       "art": "antwort",
       "themaId": "persg-quiz-k3-30",
-      "status": "geplant"
+      "status": "sendet",
+      "sendeversuch": "2026-11-11T06:09:00.096Z"
     },
     {
       "slot": "s1",
