@@ -22614,6 +22614,21 @@
       },
       "insightsStand": "2026-11-11T08:44:16.675Z",
       "insightsAlterStunden": 1.2
+    },
+    {
+      "datum": "2026-11-11",
+      "slot": "s6",
+      "medienId": "18028869947868476",
+      "veroeffentlicht": "2026-11-11T11:14:10.516Z",
+      "quelle": "vorproduktion",
+      "art": "story",
+      "storyArt": "norm",
+      "thema": "erbst-modul-erbst-542",
+      "fach": "erbst",
+      "titel": [
+        "Grundbesitzwert",
+        "zu hoch?"
+      ]
     }
   ],
   "fachZaehler": {
