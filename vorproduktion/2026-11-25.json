@@ -1,0 +1,701 @@
+{
+  "datum": "2026-11-25",
+  "status": "vorproduziert",
+  "freigabeBetreiber": true,
+  "liveVerknuepft": false,
+  "vorproduktionStatus": "live-freigegeben",
+  "layoutQuelle": "open-peeps-variante-c",
+  "semantikQuelle": "examenscampus",
+  "liveVorrangAktiv": true,
+  "normalbetriebGesperrt": true,
+  "bildStatus": "open-peeps-render",
+  "kostenPolicy": {
+    "textUndFaktencheckUsd": 0,
+    "bildgenerierungUsd": 0,
+    "providerKostenUsd": 0,
+    "coverbilder": false,
+    "bildgenerierungErlaubt": false,
+    "reelStimme": "elevenlabs-abo"
+  },
+  "plan": {
+    "beitraege": [
+      {
+        "slot": "b1",
+        "zeit": "08:30",
+        "format": "fehlerfalle",
+        "themaId": "bilanz-aufb-bil-melzer-6-01",
+        "themaTitel": "Beteiligung an KG oder GmbH: Wie wird sie bilanziert?",
+        "fach": "bilanz",
+        "klausur": 3
+      },
+      {
+        "slot": "b2",
+        "zeit": "13:30",
+        "format": "schema",
+        "themaId": "ust-modul-ust-208",
+        "themaTitel": "Differenzbesteuerung nach § 25a: Voraussetzungen, Marge und EU-Besonderheiten",
+        "fach": "ust",
+        "klausur": 1
+      },
+      {
+        "slot": "b3",
+        "zeit": "19:00",
+        "format": "reel",
+        "themaId": "kst-aufb-kst-schema-organschaft",
+        "themaTitel": "Wann rechnet der Organträger das Einkommen der Tochter zu?",
+        "fach": "kst",
+        "klausur": 2
+      }
+    ],
+    "stories": [
+      {
+        "slot": "s4",
+        "zeit": "07:07",
+        "art": "frage"
+      },
+      {
+        "slot": "s5",
+        "zeit": "07:09",
+        "art": "antwort"
+      },
+      {
+        "slot": "s1",
+        "zeit": "08:30",
+        "art": "teaser",
+        "beitragSlot": "b1"
+      },
+      {
+        "slot": "s6",
+        "zeit": "12:14",
+        "art": "norm",
+        "themaId": "bilanz-glossar-19"
+      },
+      {
+        "slot": "s2",
+        "zeit": "13:30",
+        "art": "teaser",
+        "beitragSlot": "b2"
+      },
+      {
+        "slot": "s7",
+        "zeit": "14:40",
+        "art": "tipp"
+      },
+      {
+        "slot": "s8",
+        "zeit": "17:04",
+        "art": "tipp",
+        "themaId": "ust-modul-ust-210"
+      },
+      {
+        "slot": "s3",
+        "zeit": "19:00",
+        "art": "teaser",
+        "beitragSlot": "b3"
+      },
+      {
+        "slot": "s9",
+        "zeit": "19:12",
+        "art": "merksatz",
+        "themaId": "kst-aufb-kst-t5-43"
+      }
+    ]
+  },
+  "inhalte": {
+    "b1": {
+      "format": "fehlerfalle",
+      "fach": "bilanz",
+      "klausur": 3,
+      "fachLabel": "Bilanzsteuerrecht",
+      "themaId": "bilanz-aufb-bil-melzer-6-01",
+      "caption": "Klausurfalle Beteiligungen: Gehört die Dividende schon ins alte Jahr? KG-Anteil und GmbH-Anteil werden steuerlich grundverschieden behandelt.\n\n▸ KG-Anteil: steuerlich kein eigenes Wirtschaftsgut, er folgt dem Kapitalkonto in der KG; keine Teilwertabschreibung. Der Gewinnanteil gehört zu den gewerblichen Einkünften des Jahres, für das er festgestellt wird (§ 15 Abs. 1 S. 1 Nr. 2 EStG; § 180 Abs. 1 S. 1 Nr. 2 Buchst. a AO).\n▸ GmbH-Anteil: Wirtschaftsgut mit Anschaffungskosten (§ 6 Abs. 1 Nr. 2 EStG). Den Dividendenanspruch darf die Steuerbilanz erst ab dem Gewinnverwendungsbeschluss aktivieren, nicht schon zum Stichtag des Geschäftsjahres (BFH vom 07.08.2000, GrS 2/99, BStBl II 2000, 632).\n▸ Im Einzelunternehmen sind Ausschüttungen zu 40 % steuerfrei (§ 3 Nr. 40 S. 1 Buchst. d, S. 2 EStG), zugehörige Aufwendungen nur zu 60 % abziehbar (§ 3c Abs. 2 S. 1 EStG). Die einbehaltene Kapitalertragsteuer wird als Entnahme gebucht.\n\nBeispiel 2027: 20.000 € Ausschüttung – 8.000 € steuerfrei – 600 € Zinsen (60 % von 1.000 €) = 11.400 €.\n\nZum Schluss: §§ 3 Nr. 40, 3c Abs. 2 EStG zum Markieren. Speichern für Klausur 3 📌",
+      "hashtags": [
+        "#steuerberaterexamen",
+        "#steuerberaterprüfung",
+        "#examensvorbereitung",
+        "#bilanzsteuerrecht"
+      ],
+      "quellen": [
+        "§ 15 Abs. 1 S. 1 Nr. 2 EStG",
+        "§ 180 Abs. 1 S. 1 Nr. 2 Buchst. a AO",
+        "§ 6 Abs. 1 Nr. 2 EStG",
+        "BFH vom 07.08.2000, GrS 2/99, BStBl II 2000, 632",
+        "§ 3 Nr. 40 S. 1 Buchst. d, S. 2 EStG",
+        "§ 3c Abs. 2 S. 1 EStG"
+      ],
+      "slug": "2026-11-25-b1",
+      "kurztitel": "Beteiligung an KG oder GmbH: Wie wird sie bilanziert?",
+      "regelGeprueft": true,
+      "manuellGeprueft": false,
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "open-peeps-render",
+      "renderer": "open-peeps-v4",
+      "liveVorrangAktiv": true,
+      "coverBadge": "Klausurfalle",
+      "folien": [
+        {
+          "art": "titel",
+          "titel": "Klausurfalle",
+          "text": "Klausurfalle · Dividende · schon 2026? · § 3 Nr. 40 S. 1 Buchst. d EStG · KG/GmbH · + Markier-Guide § 3 EStG · Bilanz 31.12. · 20.000 € · Forderung?",
+          "bild": "op-cover"
+        },
+        {
+          "art": "text",
+          "titel": "Bilanzsteuerrecht",
+          "text": "Der Fall · Ronja hält im Einzelunternehmen einen Anteil an der Feld KG und Anteile der Saat GmbH. · 2026 entfallen auf sie je 20.000 € Gewinn. Die GmbH beschließt erst im Mai 2027. · Was gehört ins Jahr 2026? · Ich bin Ronja."
+        },
+        {
+          "art": "text",
+          "titel": "Bilanzsteuerrecht",
+          "text": "Die Falle · Beide 20.000 € zum 31.12.2026 als Forderung buchen. · GmbH: Ein Anspruch entsteht erst mit dem Beschluss über die Gewinnverwendung. · BFH vom 07.08.2000, GrS 2/99, BStBl II 2000, 632 · KG: Der Anteil am Gewinn 2026 wird für 2026 festgestellt und versteuert. · § 15 Abs. 1 S. 1 Nr. 2 EStG · Nicht beide?"
+        },
+        {
+          "art": "text",
+          "titel": "Bilanzsteuerrecht",
+          "text": "KG oder GmbH? · KG-Anteil · Kein eigenes Wirtschaftsgut, folgt dem Kapitalkonto · Gewinn einheitlich festgestellt · § 180 Abs. 1 AO · Keine Teilwertabschreibung · GmbH-Anteil · Wirtschaftsgut mit Anschaffungskosten · § 6 Abs. 1 Nr. 2 EStG · Ertrag erst ab Beschluss · 40 % steuerfrei · § 3 Nr. 40 EStG · Zwei Welten."
+        },
+        {
+          "art": "text",
+          "titel": "Bilanzsteuerrecht",
+          "text": "Jetzt du · Mai 2027: Die Saat GmbH schüttet Ronja 20.000 € aus. · Für den Kauf der Anteile zahlt sie 1.000 € Zinsen im Jahr. · Wie wirkt das 2027 auf ihren Gewinn? · Teileinkünfte?"
+        },
+        {
+          "art": "text",
+          "titel": "Bilanzsteuerrecht",
+          "text": "Lösung 2027 · § 3 Nr. 40 S. 1 Buchst. d, S. 2 EStG · § 3c Abs. 2 S. 1 EStG · Ausschüttung · 20.000 € · – 40 % steuerfrei · – 8.000 € · – Zinsen zu 60 % · – 600 € · Steuerpflichtig · 11.400 € · Kapitalertragsteuer: als Entnahme buchen"
+        },
+        {
+          "art": "text",
+          "titel": "Bilanzsteuerrecht",
+          "text": "2026: nur der KG-Anteil · 2027: GmbH-Ausschüttung, davon 60 % steuerpflichtig · KG folgt dem Kapital, · GmbH ab Beschluss, · 60 % steuerpflichtig. · Speichern für Klausur 3 · Wärst du in die Falle getappt? · Weiterwischen: § 3 Nr. 40 markiert"
+        },
+        {
+          "art": "text",
+          "titel": "Bilanzsteuerrecht",
+          "text": "§§ 3, 3c EStG (Auszug) · Teileinkünfte · nur im Betrieb · Kosten 60 % · GmbH-Ertrag erst mit Beschluss · BFH GrS 2/99: keine phasengleiche Aktivierung"
+        }
+      ]
+    },
+    "b2": {
+      "format": "schema",
+      "fach": "ust",
+      "klausur": 1,
+      "fachLabel": "Umsatzsteuer",
+      "themaId": "ust-modul-ust-208",
+      "caption": "Differenzbesteuerung nach § 25a UStG: das Prüfschema für die Umsatzsteuer-Klausur.\n\n1. Wiederverkäufer: gewerbsmäßiger Handel mit beweglichen körperlichen Gegenständen oder Versteigerung im eigenen Namen (§ 25a Abs. 1 Nr. 1 UStG).\n2. Lieferung an den Wiederverkäufer im Gemeinschaftsgebiet, für die keine Umsatzsteuer geschuldet oder bereits differenzbesteuert wurde, etwa Kauf von Privatpersonen (§ 25a Abs. 1 Nr. 2 UStG).\n3. Keine Edelsteine oder Edelmetalle (§ 25a Abs. 1 Nr. 3 UStG).\n4. Bemessungsgrundlage ist die Marge zwischen Verkaufs- und Einkaufspreis; die Umsatzsteuer gehört nicht dazu (§ 25a Abs. 3 S. 1, 3 UStG).\n5. Allgemeiner Steuersatz (§ 25a Abs. 5 S. 1 UStG). In der Rechnung kein gesonderter Steuerausweis, dafür die Angabe „Gebrauchtgegenstände/Sonderregelung“ (§ 14a Abs. 6 UStG). Wer trotzdem Steuer ausweist, schuldet sie nach § 14c Abs. 2 UStG zusätzlich zur Steuer nach § 25a UStG (Abschn. 25a.1 Abs. 16 S. 2, 3 UStAE).\n\nBeispiel: Verkauf 10.380 € – Einkauf 8.000 € = 2.380 € Marge brutto; darin 19/119 = 380 € Umsatzsteuer, Bemessungsgrundlage 2.000 €.\n\nZum Schluss: § 25a UStG und Abschn. 25a.1 Abs. 16 UStAE zum Markieren. Speichern für Klausur 1 📌",
+      "hashtags": [
+        "#steuerberaterexamen",
+        "#steuerberaterprüfung",
+        "#examensvorbereitung",
+        "#umsatzsteuer"
+      ],
+      "quellen": [
+        "§ 25a Abs. 1 Nr. 1–3, Abs. 3 S. 1, 3, Abs. 5 S. 1 UStG",
+        "§ 14a Abs. 6 UStG",
+        "Abschn. 25a.1 Abs. 16 S. 2, 3 UStAE",
+        "§ 14c Abs. 2 UStG"
+      ],
+      "slug": "2026-11-25-b2",
+      "kurztitel": "Differenzbesteuerung nach § 25a: Voraussetzungen, Marge und EU-Besonderheiten",
+      "regelGeprueft": true,
+      "manuellGeprueft": false,
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "open-peeps-render",
+      "renderer": "open-peeps-v4",
+      "liveVorrangAktiv": true,
+      "coverBadge": "Prüfschema",
+      "folien": [
+        {
+          "art": "titel",
+          "titel": "Prüfschema",
+          "text": "Prüfschema · Differenz- · besteuerung · § 25a UStG · in 5 Schritten · + Markier-Guide § 25a + UStAE · Marge · 2.380 € · brutto",
+          "bild": "op-cover"
+        },
+        {
+          "art": "text",
+          "titel": "Umsatzsteuer",
+          "text": "§ 25a in 5 Schritten · Wiederverkäufer · § 25a Abs. 1 Nr. 1 UStG · Einkauf ohne geschuldete Steuer · § 25a Abs. 1 Nr. 2 UStG · Kein Edelstein, kein Edelmetall · § 25a Abs. 1 Nr. 3 UStG · Marge = Verkauf – Einkauf · § 25a Abs. 3 UStG · 19 %, kein Steuerausweis · § 25a Abs. 5 S. 1 UStG · Am Ende: § 25a + UStAE markiert"
+        },
+        {
+          "art": "text",
+          "titel": "Umsatzsteuer",
+          "text": "1 · Wer darf das? · Händler, die gewerbsmäßig mit beweglichen Sachen handeln, oder Versteigerer im eigenen Namen. · § 25a Abs. 1 Nr. 1 S. 2 UStG · Nur bewegliche körperliche Gegenstände, etwa Autos, Möbel, Bücher. · § 25a Abs. 1 UStG · Ich bin Emeka, Autohändler."
+        },
+        {
+          "art": "text",
+          "titel": "Umsatzsteuer",
+          "text": "2 · Woher kommt die Ware? · Geliefert im Gemeinschaftsgebiet. · § 25a Abs. 1 Nr. 2 S. 1 UStG · Der Verkäufer schuldete keine Umsatzsteuer, etwa als Privatperson. · § 25a Abs. 1 Nr. 2 S. 2 Buchst. a UStG · Gekauft mit Vorsteuer vom Unternehmer: kein § 25a. · Von wem gekauft?"
+        },
+        {
+          "art": "text",
+          "titel": "Umsatzsteuer",
+          "text": "3 · Marge berechnen · Bemessungsgrundlage: Verkaufspreis minus Einkaufspreis. · § 25a Abs. 3 S. 1 UStG · Die Umsatzsteuer steckt in der Marge und wird herausgerechnet. · § 25a Abs. 3 S. 3 UStG · Immer der allgemeine Steuersatz. · § 25a Abs. 5 S. 1 UStG · Nur die Marge!"
+        },
+        {
+          "art": "text",
+          "titel": "Umsatzsteuer",
+          "text": "Jetzt du · Emeka kauft ein Auto von einer Privatperson für 8.000 €. · Er verkauft es für 10.380 € an eine Kundin. · Wie viel Umsatzsteuer schuldet er? · Rechnest du mit?"
+        },
+        {
+          "art": "text",
+          "titel": "Umsatzsteuer",
+          "text": "Lösung · § 25a Abs. 3, 5 UStG · Verkaufspreis · 10.380 € · – Einkaufspreis · – 8.000 € · Marge brutto · 2.380 € · Umsatzsteuer 19/119 · 380 € · Bemessungsgrundlage: 2.000 €"
+        },
+        {
+          "art": "text",
+          "titel": "Umsatzsteuer",
+          "text": "Rechnung ohne Steuer · Keine Umsatzsteuer gesondert ausweisen. · § 14a Abs. 6 S. 2 UStG · Pflichtangabe: „Gebrauchtgegenstände/Sonderregelung“. · § 14a Abs. 6 S. 1 UStG · Weist er doch Steuer aus, schuldet er sie zusätzlich. · Abschn. 25a.1 Abs. 16 S. 2, 3 UStAE · Teurer Fehler!"
+        },
+        {
+          "art": "text",
+          "titel": "Umsatzsteuer",
+          "text": "Emeka schuldet 380 € · Marge 2.380 € brutto, Steuer herausgerechnet · Händler prüfen, · Einkauf ohne Steuer, · Marge brutto, · Steuer herausrechnen. · Speichern für Klausur 1 · Welcher Schritt fehlt dir oft? · Weiterwischen: § 25a + UStAE markiert"
+        },
+        {
+          "art": "text",
+          "titel": "Umsatzsteuer",
+          "text": "§ 25a UStG Differenzbesteuerung (Auszug) · Wer? · Einkauf · Marge · herausrechnen · Abschn. 25a.1 Abs. 16 UStAE (Auszug) · Ausweis kostet · doppelt! · Daneben: § 14a Abs. 6 UStG · kein gesonderter Steuerausweis in der Rechnung"
+        }
+      ]
+    },
+    "b3": {
+      "format": "reel",
+      "fach": "kst",
+      "klausur": 2,
+      "fachLabel": "Körperschaftsteuer",
+      "themaId": "kst-aufb-kst-schema-organschaft",
+      "caption": "Klausurfalle Organschaft: Abführung als Ertrag stehen lassen und das Organeinkommen zusätzlich zurechnen. Dann ist alles doppelt erfasst. ⚠️\n\n▸ Liegen die Voraussetzungen vor, wird das Einkommen der Organgesellschaft dem Organträger zugerechnet (§ 14 Abs. 1 S. 1 KStG).\n▸ Beim Organträger wird die handelsrechtlich gebuchte Gewinnabführung deshalb außerhalb der Bilanz abgezogen, an ihre Stelle tritt das zuzurechnende Einkommen der Organgesellschaft (R 14.6 Abs. 1 KStR).\n▸ Beispiel: Abführung 300.000 € heraus, Einkommen der Tochter 320.000 € hinein (darin 20.000 € nicht abziehbare Ausgaben).\n▸ Bei der Organgesellschaft ist kein Verlustabzug nach § 10d EStG zulässig (§ 15 S. 1 Nr. 1 KStG); § 8b KStG wird bei ihr nicht angewendet, sondern erst beim Organträger (§ 15 S. 1 Nr. 2 KStG).\n\nSpeichern für Klausur 2 📌",
+      "hashtags": [
+        "#steuerberaterexamen",
+        "#steuerberaterprüfung",
+        "#examensvorbereitung",
+        "#körperschaftsteuer"
+      ],
+      "quellen": [
+        "§ 14 Abs. 1 S. 1 KStG",
+        "R 14.6 Abs. 1 KStR",
+        "§ 15 S. 1 Nr. 1, 2 KStG",
+        "§ 10d EStG"
+      ],
+      "slug": "2026-11-25-b3",
+      "kurztitel": "Wann rechnet der Organträger das Einkommen der Tochter zu?",
+      "regelGeprueft": true,
+      "manuellGeprueft": false,
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "open-peeps-render",
+      "renderer": "open-peeps-v4",
+      "liveVorrangAktiv": true,
+      "bild": "op-cover",
+      "reelTyp": "klausurfalle",
+      "hookStil": "knall",
+      "coverBadge": "Reel",
+      "szenen": [
+        {
+          "art": "hook",
+          "titel": "Organschaft: doppelt gezählt?"
+        },
+        {
+          "art": "schritt",
+          "titel": "Abführung heraus"
+        },
+        {
+          "art": "schritt",
+          "titel": "Einkommen hinein"
+        },
+        {
+          "art": "schritt",
+          "titel": "Bei der Tochter"
+        }
+      ],
+      "sprecher": [
+        "Abführung als Ertrag lassen und das Einkommen der Tochter dazu? Doppelt gezählt, ein Klassiker.",
+        "Bei Hannes Mutter-AG steckt die Abführung von dreihunderttausend Euro im Bilanzgewinn. Die rechnest du außerhalb der Bilanz heraus.",
+        "Dafür kommt das Einkommen der Tochter hinzu, hier dreihundertzwanzigtausend, weil dort Ausgaben nicht abziehbar waren.",
+        "Und bei der Tochter gilt: kein alter Verlustvortrag, und Paragraf acht b prüft erst die Mutter.",
+        "Merke: Abführung raus, Einkommen rein."
+      ],
+      "dauerS": 34.208,
+      "tempo": 1.0
+    },
+    "s4": {
+      "slot": "s4",
+      "art": "frage",
+      "fach": "gewst",
+      "klausur": 2,
+      "fachLabel": "Gewerbesteuer",
+      "themaId": null,
+      "beitragSlot": null,
+      "quellen": null,
+      "frage": [
+        "Leasingraten",
+        "für Maschinen:",
+        "was zählt mit?"
+      ],
+      "optionen": [
+        "ein Fünftel der Raten",
+        "die Hälfte der Raten",
+        "alle Raten voll"
+      ],
+      "sichtbareTexte": [
+        "Gewerbesteuer",
+        "Prüfungsfrage",
+        "Leasingraten",
+        "für Maschinen:",
+        "was zählt mit?",
+        "ein Fünftel der Raten",
+        "die Hälfte der Raten",
+        "alle Raten voll",
+        "Auflösung in der nächsten Story"
+      ],
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
+      "liveVorrangAktiv": true,
+      "regelGeprueft": true
+    },
+    "s5": {
+      "slot": "s5",
+      "art": "antwort",
+      "fach": "gewst",
+      "klausur": 2,
+      "fachLabel": "Gewerbesteuer",
+      "themaId": null,
+      "beitragSlot": null,
+      "quellen": null,
+      "titel": [
+        "A: ein Fünftel"
+      ],
+      "optionen": [
+        "ein Fünftel der Raten",
+        "die Hälfte der Raten",
+        "alle Raten voll"
+      ],
+      "richtig": 0,
+      "text": "Die Summe aller Teile minus 200.000 € Freibetrag, davon ein Viertel hinzurechnen.",
+      "norm": "§ 8 Nr. 1 Buchst. d GewStG",
+      "sichtbareTexte": [
+        "Gewerbesteuer",
+        "Auflösung",
+        "A: ein Fünftel",
+        "ein Fünftel der Raten",
+        "die Hälfte der Raten",
+        "alle Raten voll",
+        "Die Summe aller Teile minus 200.000 € Freibetrag, davon ein Viertel hinzurechnen.",
+        "§ 8 Nr. 1 Buchst. d GewStG"
+      ],
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
+      "liveVorrangAktiv": true,
+      "regelGeprueft": true
+    },
+    "s1": {
+      "slot": "s1",
+      "art": "teaser",
+      "fach": "bilanz",
+      "klausur": 3,
+      "fachLabel": "Bilanzsteuerrecht",
+      "themaId": null,
+      "beitragSlot": "b1",
+      "quellen": null,
+      "titel": [
+        "Dividende schon 2026?"
+      ],
+      "unter": "Klausurfalle + Markier-Guide · im Profil",
+      "sichtbareTexte": [
+        "Bilanzsteuerrecht",
+        "Neu im Feed",
+        "Dividende schon 2026?",
+        "Klausurfalle + Markier-Guide · im Profil"
+      ],
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
+      "liveVorrangAktiv": true,
+      "regelGeprueft": true
+    },
+    "s6": {
+      "slot": "s6",
+      "art": "norm",
+      "fach": "bilanz",
+      "klausur": 3,
+      "fachLabel": "Bilanzsteuerrecht",
+      "themaId": "bilanz-glossar-19",
+      "beitragSlot": null,
+      "quellen": null,
+      "titel": [
+        "Streubesitz:",
+        "unter 10 %"
+      ],
+      "norm": "§ 8b Abs. 4 KStG",
+      "punkte": [
+        [
+          "Zu Jahresbeginn unter 10 %: Dividende voll steuerpflichtig.",
+          "warn",
+          "§ 8b Abs. 4 S. 1 KStG"
+        ],
+        [
+          "Erwerb von mindestens 10 % gilt als zu Jahresbeginn erfolgt.",
+          "ok",
+          "§ 8b Abs. 4 S. 6 KStG"
+        ]
+      ],
+      "sichtbareTexte": [
+        "Bilanzsteuerrecht",
+        "Norm des Tages",
+        "Streubesitz:",
+        "unter 10 %",
+        "§ 8b Abs. 4 KStG",
+        "Zu Jahresbeginn unter 10 %: Dividende voll steuerpflichtig.",
+        "§ 8b Abs. 4 S. 1 KStG",
+        "Erwerb von mindestens 10 % gilt als zu Jahresbeginn erfolgt.",
+        "§ 8b Abs. 4 S. 6 KStG"
+      ],
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
+      "liveVorrangAktiv": true,
+      "regelGeprueft": true
+    },
+    "s2": {
+      "slot": "s2",
+      "art": "teaser",
+      "fach": "ust",
+      "klausur": 1,
+      "fachLabel": "Umsatzsteuer",
+      "themaId": null,
+      "beitragSlot": "b2",
+      "quellen": null,
+      "titel": [
+        "Differenzbesteuerung"
+      ],
+      "unter": "Prüfschema + Markier-Guide · im Profil",
+      "sichtbareTexte": [
+        "Umsatzsteuer",
+        "Neu im Feed",
+        "Differenzbesteuerung",
+        "Prüfschema + Markier-Guide · im Profil"
+      ],
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
+      "liveVorrangAktiv": true,
+      "regelGeprueft": true
+    },
+    "s7": {
+      "slot": "s7",
+      "art": "tipp",
+      "fach": null,
+      "klausur": 0,
+      "fachLabel": "Klausurtechnik",
+      "themaId": null,
+      "beitragSlot": null,
+      "quellen": null,
+      "titel": [
+        "Zeit im Griff:",
+        "Uhrzeiten notieren"
+      ],
+      "punkte": [
+        [
+          "Punkte mal 3,6 ergibt die Minuten je Teil.",
+          "ok",
+          null
+        ],
+        [
+          "Endzeit jedes Teils an den Rand schreiben.",
+          "ok",
+          null
+        ],
+        [
+          "Zeit um? Lücke lassen, weiter.",
+          "ok",
+          null
+        ]
+      ],
+      "icon": "tabler:clock",
+      "iconFarbe": "GELB",
+      "sichtbareTexte": [
+        "Klausurtechnik",
+        "Klausurtipp",
+        "Zeit im Griff:",
+        "Uhrzeiten notieren",
+        "Punkte mal 3,6 ergibt die Minuten je Teil.",
+        "Endzeit jedes Teils an den Rand schreiben.",
+        "Zeit um? Lücke lassen, weiter."
+      ],
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
+      "liveVorrangAktiv": true,
+      "regelGeprueft": true
+    },
+    "s8": {
+      "slot": "s8",
+      "art": "tipp",
+      "fach": "ust",
+      "klausur": 1,
+      "fachLabel": "Umsatzsteuer",
+      "themaId": "ust-modul-ust-210",
+      "beitragSlot": null,
+      "quellen": null,
+      "titel": [
+        "Kunde zahlt nicht:",
+        "Steuer zurück?"
+      ],
+      "punkte": [
+        [
+          "Erst bei Uneinbringlichkeit berichtigen, nicht bei Verzug.",
+          "warn",
+          "§ 17 Abs. 2 Nr. 1 S. 1 UStG"
+        ],
+        [
+          "Im Zeitraum der Änderung buchen.",
+          "ok",
+          "§ 17 Abs. 1 S. 8 UStG"
+        ],
+        [
+          "Zahlt er doch, erneut berichtigen.",
+          "ok",
+          "§ 17 Abs. 2 Nr. 1 S. 2 UStG"
+        ]
+      ],
+      "icon": "tabler:receipt",
+      "iconFarbe": "GELB",
+      "sichtbareTexte": [
+        "Umsatzsteuer",
+        "Klausurtipp",
+        "Kunde zahlt nicht:",
+        "Steuer zurück?",
+        "Erst bei Uneinbringlichkeit berichtigen, nicht bei Verzug.",
+        "§ 17 Abs. 2 Nr. 1 S. 1 UStG",
+        "Im Zeitraum der Änderung buchen.",
+        "§ 17 Abs. 1 S. 8 UStG",
+        "Zahlt er doch, erneut berichtigen.",
+        "§ 17 Abs. 2 Nr. 1 S. 2 UStG"
+      ],
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
+      "liveVorrangAktiv": true,
+      "regelGeprueft": true
+    },
+    "s3": {
+      "slot": "s3",
+      "art": "teaser",
+      "fach": "kst",
+      "klausur": 2,
+      "fachLabel": "Körperschaftsteuer",
+      "themaId": null,
+      "beitragSlot": "b3",
+      "quellen": null,
+      "titel": [
+        "Organschaft: doppelt gezählt?"
+      ],
+      "unter": "Neues Reel · im Profil",
+      "sichtbareTexte": [
+        "Körperschaftsteuer",
+        "Neu im Feed",
+        "Organschaft: doppelt gezählt?",
+        "Neues Reel · im Profil"
+      ],
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
+      "liveVorrangAktiv": true,
+      "regelGeprueft": true
+    },
+    "s9": {
+      "slot": "s9",
+      "art": "merksatz",
+      "fach": "kst",
+      "klausur": 2,
+      "fachLabel": "Körperschaftsteuer",
+      "themaId": "kst-aufb-kst-t5-43",
+      "beitragSlot": null,
+      "quellen": null,
+      "titel": [
+        "GmbH still an GmbH:",
+        "Verlust?"
+      ],
+      "zeilen": [
+        [
+          [
+            "Nur mit ",
+            null
+          ],
+          [
+            "Gewinnen",
+            "a"
+          ]
+        ],
+        [
+          [
+            "derselben",
+            null
+          ]
+        ],
+        [
+          [
+            "Beteiligung",
+            "b"
+          ],
+          [
+            " verrechnen.",
+            null
+          ]
+        ]
+      ],
+      "norm": "§ 15 Abs. 4 S. 6, 7 EStG",
+      "groesse": 72,
+      "sichtbareTexte": [
+        "Körperschaftsteuer",
+        "Merksatz",
+        "GmbH still an GmbH:",
+        "Verlust?",
+        "Nur mit Gewinnen",
+        "derselben",
+        "Beteiligung verrechnen.",
+        "§ 15 Abs. 4 S. 6, 7 EStG"
+      ],
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
+      "liveVorrangAktiv": true,
+      "regelGeprueft": true
+    }
+  },
+  "renderVorschau": {
+    "status": "fertig",
+    "erzeugtAm": "2026-11-11T07:48:22Z",
+    "pfad": "vorproduktion/2026-11-25/fertig",
+    "providerKostenUsd": 0,
+    "coverbilder": false,
+    "coverIcons": false,
+    "renderer": "open-peeps-v4",
+    "layoutQuelle": "open-peeps-variante-c",
+    "reelStimme": "elevenlabs-laura",
+    "sfx": "freesound-cc0",
+    "freigabeBetreiber": true,
+    "liveVorrangAktiv": true,
+    "normalbetriebGesperrt": true,
+    "wartetLive": []
+  }
+}
