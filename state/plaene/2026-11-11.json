@@ -89,8 +89,9 @@
       "slot": "s7",
       "zeit": "14:40",
       "art": "tipp",
-      "status": "sendet",
-      "sendeversuch": "2026-11-11T13:40:00.095Z"
+      "status": "veroeffentlicht",
+      "medienId": "18132330736834145",
+      "veroeffentlicht": "2026-11-11T13:40:07.360Z"
     },
     {
       "slot": "s8",
