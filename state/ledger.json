@@ -22652,6 +22652,20 @@
         "#examensvorbereitung",
         "#körperschaftsteuer"
       ]
+    },
+    {
+      "datum": "2026-11-11",
+      "slot": "s2",
+      "medienId": "18119731220041056",
+      "veroeffentlicht": "2026-11-11T12:30:20.415Z",
+      "quelle": "vorproduktion",
+      "art": "story",
+      "storyArt": "teaser",
+      "thema": null,
+      "fach": "kst",
+      "titel": [
+        "Verlust weg nach Verkauf?"
+      ]
     }
   ],
   "fachZaehler": {
