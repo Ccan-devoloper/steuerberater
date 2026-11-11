@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "stand": "2026-11-11T11:45:29.625Z",
+  "stand": "2026-11-11T12:30:24.208Z",
   "medien": {
     "18093399314208242": {
       "art": "beitrag",
@@ -73453,6 +73453,23 @@
           "navigation_tap_exit": 15,
           "navigation_tap_forward": 106,
           "navigation_tap_back": 8
+        },
+        {
+          "stand": "2026-11-11T12:30:21.852Z",
+          "alterStunden": 20.4,
+          "reach": 126,
+          "views": 158,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 145,
+          "navigation_swipe_forward": 10,
+          "navigation_tap_exit": 16,
+          "navigation_tap_forward": 110,
+          "navigation_tap_back": 9
         }
       ]
     },
@@ -73810,6 +73827,49 @@
           "total_interactions": 3,
           "follows": 0,
           "profile_visits": 0
+        },
+        {
+          "stand": "2026-11-11T12:30:24.208Z",
+          "alterStunden": 5,
+          "reach": 69,
+          "saved": 1,
+          "shares": 0,
+          "likes": 2,
+          "comments": 0,
+          "total_interactions": 3,
+          "follows": 0,
+          "profile_visits": 0
+        }
+      ]
+    },
+    "18028869947868476": {
+      "art": "story",
+      "datum": "2026-11-11",
+      "titel": [
+        "Grundbesitzwert",
+        "zu hoch?"
+      ],
+      "format": null,
+      "fach": "erbst",
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-11-11T11:14:10.516Z",
+      "snapshots": [
+        {
+          "stand": "2026-11-11T12:30:21.852Z",
+          "alterStunden": 1.3,
+          "reach": 19,
+          "views": 22,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 17,
+          "navigation_tap_exit": 4,
+          "navigation_tap_forward": 12,
+          "navigation_swipe_forward": 1
         }
       ]
     }
