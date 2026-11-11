@@ -22285,7 +22285,7 @@
         "#umsatzsteuer"
       ],
       "insights": {
-        "reach": 110,
+        "reach": 112,
         "saved": 2,
         "shares": 1,
         "likes": 5,
@@ -22294,8 +22294,8 @@
         "follows": 0,
         "profile_visits": 2
       },
-      "insightsStand": "2026-11-11T06:09:06.770Z",
-      "insightsAlterStunden": 17.7
+      "insightsStand": "2026-11-11T09:45:10.741Z",
+      "insightsAlterStunden": 21.3
     },
     {
       "datum": "2026-11-10",
@@ -22343,22 +22343,22 @@
         "dann der Fall"
       ],
       "insights": {
-        "reach": 120,
-        "views": 148,
+        "reach": 132,
+        "views": 162,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 2,
         "profile_activity": 0,
-        "navigation": 132,
-        "navigation_tap_back": 10,
-        "navigation_tap_forward": 94,
+        "navigation": 146,
+        "navigation_swipe_forward": 8,
         "navigation_tap_exit": 22,
-        "navigation_swipe_forward": 6
+        "navigation_tap_forward": 105,
+        "navigation_tap_back": 11
       },
-      "insightsStand": "2026-11-11T05:45:00.017Z",
-      "insightsAlterStunden": 16.1
+      "insightsStand": "2026-11-11T09:45:06.087Z",
+      "insightsAlterStunden": 20.1
     },
     {
       "datum": "2026-11-10",
@@ -22375,22 +22375,22 @@
         "aufteilen"
       ],
       "insights": {
-        "reach": 109,
-        "views": 133,
+        "reach": 122,
+        "views": 152,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 121,
-        "navigation_swipe_forward": 8,
-        "navigation_tap_exit": 14,
-        "navigation_tap_forward": 93,
-        "navigation_tap_back": 6
+        "navigation": 139,
+        "navigation_swipe_forward": 10,
+        "navigation_tap_exit": 15,
+        "navigation_tap_forward": 106,
+        "navigation_tap_back": 8
       },
-      "insightsStand": "2026-11-11T05:45:00.017Z",
-      "insightsAlterStunden": 13.7
+      "insightsStand": "2026-11-11T09:45:06.087Z",
+      "insightsAlterStunden": 17.7
     },
     {
       "datum": "2026-11-10",
@@ -22414,19 +22414,19 @@
         "#körperschaftsteuer"
       ],
       "insights": {
-        "reach": 258,
-        "saved": 3,
+        "reach": 279,
+        "saved": 4,
         "shares": 1,
         "likes": 1,
         "comments": 0,
-        "total_interactions": 5,
-        "views": 330,
-        "ig_reels_avg_watch_time": 7627,
-        "ig_reels_video_view_total_time": 1968014,
-        "reels_skip_rate": 62.4
+        "total_interactions": 6,
+        "views": 350,
+        "ig_reels_avg_watch_time": 7712,
+        "ig_reels_video_view_total_time": 2105437,
+        "reels_skip_rate": 61.8
       },
-      "insightsStand": "2026-11-11T06:09:06.770Z",
-      "insightsAlterStunden": 12.1
+      "insightsStand": "2026-11-11T09:45:10.741Z",
+      "insightsAlterStunden": 15.7
     },
     {
       "datum": "2026-11-10",
@@ -22442,22 +22442,22 @@
         "Tochter pleite: Verlust weg?"
       ],
       "insights": {
-        "reach": 91,
-        "views": 99,
+        "reach": 108,
+        "views": 122,
         "shares": 0,
-        "total_interactions": 0,
+        "total_interactions": 1,
         "replies": 0,
         "follows": 0,
         "profile_visits": 1,
         "profile_activity": 0,
-        "navigation": 91,
-        "navigation_tap_exit": 7,
-        "navigation_swipe_forward": 6,
-        "navigation_tap_forward": 77,
-        "navigation_tap_back": 1
+        "navigation": 115,
+        "navigation_tap_exit": 10,
+        "navigation_swipe_forward": 10,
+        "navigation_tap_forward": 89,
+        "navigation_tap_back": 6
       },
-      "insightsStand": "2026-11-11T05:45:00.017Z",
-      "insightsAlterStunden": 11.7
+      "insightsStand": "2026-11-11T09:45:06.087Z",
+      "insightsAlterStunden": 15.7
     },
     {
       "datum": "2026-11-10",
@@ -22474,22 +22474,22 @@
         "Schwester-GmbH"
       ],
       "insights": {
-        "reach": 84,
-        "views": 91,
+        "reach": 100,
+        "views": 115,
         "shares": 0,
-        "total_interactions": 0,
+        "total_interactions": 1,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 84,
-        "navigation_swipe_forward": 5,
-        "navigation_tap_exit": 10,
-        "navigation_tap_forward": 67,
-        "navigation_tap_back": 2
+        "navigation": 106,
+        "navigation_swipe_forward": 7,
+        "navigation_tap_exit": 13,
+        "navigation_tap_forward": 82,
+        "navigation_tap_back": 4
       },
-      "insightsStand": "2026-11-11T05:45:00.017Z",
-      "insightsAlterStunden": 11.5
+      "insightsStand": "2026-11-11T09:45:06.087Z",
+      "insightsAlterStunden": 15.6
     },
     {
       "datum": "2026-11-11",
