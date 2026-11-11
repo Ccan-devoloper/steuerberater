@@ -22726,6 +22726,21 @@
         "Minuten nach",
         "Punkten verteilen"
       ]
+    },
+    {
+      "datum": "2026-11-11",
+      "slot": "s8",
+      "medienId": "18120912431000868",
+      "veroeffentlicht": "2026-11-11T17:02:14.787Z",
+      "quelle": "vorproduktion",
+      "art": "story",
+      "storyArt": "tipp",
+      "thema": "istr-modul-istr-istr4-02",
+      "fach": "istr",
+      "titel": [
+        "§ 7 AStG:",
+        "wann beherrscht?"
+      ]
     }
   ],
   "fachZaehler": {
