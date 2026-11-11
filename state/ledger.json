@@ -22796,6 +22796,21 @@
       "titel": [
         "Abspaltung zum Buchwert?"
       ]
+    },
+    {
+      "datum": "2026-11-11",
+      "slot": "s9",
+      "medienId": "18080085977448789",
+      "veroeffentlicht": "2026-11-11T18:12:04.279Z",
+      "quelle": "vorproduktion",
+      "art": "story",
+      "storyArt": "merksatz",
+      "thema": "umwst-aufb-umw-4-09",
+      "fach": "umwst",
+      "titel": [
+        "Fiktiver Teilbetrieb",
+        "kurz vorher gefüllt?"
+      ]
     }
   ],
   "fachZaehler": {
