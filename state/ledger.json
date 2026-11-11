@@ -22668,7 +22668,19 @@
         "#steuerberaterprüfung",
         "#examensvorbereitung",
         "#körperschaftsteuer"
-      ]
+      ],
+      "insights": {
+        "reach": 34,
+        "saved": 1,
+        "shares": 0,
+        "likes": 1,
+        "comments": 0,
+        "total_interactions": 2,
+        "follows": 0,
+        "profile_visits": 0
+      },
+      "insightsStand": "2026-11-11T13:40:11.299Z",
+      "insightsAlterStunden": 1.2
     },
     {
       "datum": "2026-11-11",
@@ -22682,7 +22694,23 @@
       "fach": "kst",
       "titel": [
         "Verlust weg nach Verkauf?"
-      ]
+      ],
+      "insights": {
+        "reach": 15,
+        "views": 17,
+        "shares": 0,
+        "total_interactions": 0,
+        "replies": 0,
+        "follows": 0,
+        "profile_visits": 0,
+        "profile_activity": 0,
+        "navigation": 15,
+        "navigation_tap_exit": 2,
+        "navigation_tap_forward": 12,
+        "navigation_swipe_forward": 1
+      },
+      "insightsStand": "2026-11-11T13:40:09.495Z",
+      "insightsAlterStunden": 1.2
     },
     {
       "datum": "2026-11-11",
