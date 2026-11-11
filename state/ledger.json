@@ -22517,6 +22517,28 @@
         "B: laufender",
         "Gewinn"
       ]
+    },
+    {
+      "datum": "2026-11-11",
+      "slot": "b1",
+      "medienId": "18566780626073125",
+      "veroeffentlicht": "2026-11-11T07:30:11.128Z",
+      "quelle": "vorproduktion",
+      "art": "beitrag",
+      "zeit": "08:30",
+      "stunde": 8,
+      "format": "fehlerfalle",
+      "thema": "erbst-modul-erbst-540",
+      "fach": "erbst",
+      "klausur": 1,
+      "titel": "Klausurfalle",
+      "hookTyp": null,
+      "hashtags": [
+        "#steuerberaterexamen",
+        "#steuerberaterprüfung",
+        "#examensvorbereitung",
+        "#erbschaftsteuer"
+      ]
     }
   ],
   "fachZaehler": {
@@ -22526,7 +22548,7 @@
     "ao": 29,
     "bilanz": 28,
     "istr": 24,
-    "erbst": 15,
+    "erbst": 16,
     "mindset": 2,
     "est": 10,
     "umwst": 12,
