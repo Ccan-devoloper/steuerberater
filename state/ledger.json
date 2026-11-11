@@ -22826,7 +22826,22 @@
       "fach": "umwst",
       "titel": [
         "Abspaltung zum Buchwert?"
-      ]
+      ],
+      "insights": {
+        "reach": 15,
+        "views": 22,
+        "shares": 0,
+        "total_interactions": 0,
+        "replies": 0,
+        "follows": 0,
+        "profile_visits": 0,
+        "profile_activity": 0,
+        "navigation": 16,
+        "navigation_tap_exit": 2,
+        "navigation_tap_forward": 14
+      },
+      "insightsStand": "2026-11-11T19:45:24.131Z",
+      "insightsAlterStunden": 1.7
     },
     {
       "datum": "2026-11-11",
@@ -22841,7 +22856,22 @@
       "titel": [
         "Fiktiver Teilbetrieb",
         "kurz vorher gefüllt?"
-      ]
+      ],
+      "insights": {
+        "reach": 12,
+        "views": 20,
+        "shares": 0,
+        "total_interactions": 0,
+        "replies": 0,
+        "follows": 0,
+        "profile_visits": 0,
+        "profile_activity": 0,
+        "navigation": 12,
+        "navigation_tap_forward": 8,
+        "navigation_tap_exit": 4
+      },
+      "insightsStand": "2026-11-11T19:45:24.131Z",
+      "insightsAlterStunden": 1.6
     }
   ],
   "fachZaehler": {
