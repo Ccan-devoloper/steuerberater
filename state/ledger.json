@@ -19486,7 +19486,7 @@
         "#personengesellschaften"
       ],
       "insights": {
-        "reach": 363,
+        "reach": 371,
         "saved": 8,
         "shares": 3,
         "likes": 10,
@@ -19495,8 +19495,8 @@
         "follows": 2,
         "profile_visits": 12
       },
-      "insightsStand": "2026-11-10T06:45:07.301Z",
-      "insightsAlterStunden": 143.2
+      "insightsStand": "2026-11-11T07:30:34.436Z",
+      "insightsAlterStunden": 168
     },
     {
       "datum": "2026-11-04",
@@ -19942,7 +19942,7 @@
         "#umsatzsteuer"
       ],
       "insights": {
-        "reach": 138,
+        "reach": 141,
         "saved": 5,
         "shares": 0,
         "likes": 4,
@@ -19951,8 +19951,8 @@
         "follows": 0,
         "profile_visits": 0
       },
-      "insightsStand": "2026-11-10T06:45:07.301Z",
-      "insightsAlterStunden": 119.3
+      "insightsStand": "2026-11-11T07:30:34.436Z",
+      "insightsAlterStunden": 144
     },
     {
       "datum": "2026-11-05",
@@ -20039,7 +20039,7 @@
         "#körperschaftsteuer"
       ],
       "insights": {
-        "reach": 137,
+        "reach": 141,
         "saved": 4,
         "shares": 0,
         "likes": 6,
@@ -20048,8 +20048,8 @@
         "follows": 0,
         "profile_visits": 1
       },
-      "insightsStand": "2026-11-10T06:45:07.301Z",
-      "insightsAlterStunden": 114.3
+      "insightsStand": "2026-11-11T07:30:34.436Z",
+      "insightsAlterStunden": 139
     },
     {
       "datum": "2026-11-05",
@@ -22501,7 +22501,23 @@
       "storyArt": "frage",
       "thema": "persg-quiz-k3-30",
       "fach": "persg",
-      "titel": ""
+      "titel": "",
+      "insights": {
+        "reach": 31,
+        "views": 45,
+        "shares": 0,
+        "total_interactions": 0,
+        "replies": 0,
+        "follows": 0,
+        "profile_visits": 0,
+        "profile_activity": 0,
+        "navigation": 40,
+        "navigation_swipe_forward": 5,
+        "navigation_tap_exit": 5,
+        "navigation_tap_forward": 30
+      },
+      "insightsStand": "2026-11-11T07:30:30.880Z",
+      "insightsAlterStunden": 1.4
     },
     {
       "datum": "2026-11-11",
@@ -22516,7 +22532,24 @@
       "titel": [
         "B: laufender",
         "Gewinn"
-      ]
+      ],
+      "insights": {
+        "reach": 30,
+        "views": 39,
+        "shares": 0,
+        "total_interactions": 0,
+        "replies": 0,
+        "follows": 0,
+        "profile_visits": 0,
+        "profile_activity": 0,
+        "navigation": 33,
+        "navigation_tap_exit": 6,
+        "navigation_tap_forward": 22,
+        "navigation_swipe_forward": 2,
+        "navigation_tap_back": 3
+      },
+      "insightsStand": "2026-11-11T07:30:30.880Z",
+      "insightsAlterStunden": 1.4
     },
     {
       "datum": "2026-11-11",
