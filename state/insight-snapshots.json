@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "stand": "2026-11-11T18:12:05.381Z",
+  "stand": "2026-11-11T18:46:27.522Z",
   "medien": {
     "18093399314208242": {
       "art": "beitrag",
@@ -74336,6 +74336,32 @@
           "navigation_swipe_forward": 1,
           "navigation_tap_forward": 11,
           "navigation_tap_exit": 2
+        }
+      ]
+    },
+    "17990810496085442": {
+      "art": "beitrag",
+      "datum": "2026-11-11",
+      "titel": "Unter welchen Voraussetzungen fällt eine Spaltung unter § 15 UmwStG?",
+      "format": "reel",
+      "fach": "umwst",
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-11-11T18:00:19.794Z",
+      "snapshots": [
+        {
+          "stand": "2026-11-11T18:46:27.522Z",
+          "alterStunden": 0.8,
+          "reach": 88,
+          "saved": 2,
+          "shares": 0,
+          "likes": 1,
+          "comments": 0,
+          "total_interactions": 3,
+          "views": 154,
+          "ig_reels_avg_watch_time": 4662,
+          "ig_reels_video_view_total_time": 410314,
+          "reels_skip_rate": 51.2
         }
       ]
     }
