@@ -22539,6 +22539,20 @@
         "#examensvorbereitung",
         "#erbschaftsteuer"
       ]
+    },
+    {
+      "datum": "2026-11-11",
+      "slot": "s1",
+      "medienId": "18133112797808630",
+      "veroeffentlicht": "2026-11-11T07:30:29.318Z",
+      "quelle": "vorproduktion",
+      "art": "story",
+      "storyArt": "teaser",
+      "thema": null,
+      "fach": "erbst",
+      "titel": [
+        "Geerbte Wohnung: Maklerwert?"
+      ]
     }
   ],
   "fachZaehler": {
