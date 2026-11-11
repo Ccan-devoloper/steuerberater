@@ -22630,12 +22630,34 @@
         "Grundbesitzwert",
         "zu hoch?"
       ]
+    },
+    {
+      "datum": "2026-11-11",
+      "slot": "b2",
+      "medienId": "18343845481277363",
+      "veroeffentlicht": "2026-11-11T12:30:06.685Z",
+      "quelle": "vorproduktion",
+      "art": "beitrag",
+      "zeit": "13:30",
+      "stunde": 13,
+      "format": "schema",
+      "thema": "kst-schema-4",
+      "fach": "kst",
+      "klausur": 2,
+      "titel": "Prüfschema",
+      "hookTyp": null,
+      "hashtags": [
+        "#steuerberaterexamen",
+        "#steuerberaterprüfung",
+        "#examensvorbereitung",
+        "#körperschaftsteuer"
+      ]
     }
   ],
   "fachZaehler": {
     "persg": 22,
     "ust": 19,
-    "kst": 18,
+    "kst": 19,
     "ao": 29,
     "bilanz": 28,
     "istr": 24,
