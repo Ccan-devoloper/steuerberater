@@ -21861,17 +21861,17 @@
         "#personengesellschaften"
       ],
       "insights": {
-        "reach": 160,
-        "saved": 3,
+        "reach": 163,
+        "saved": 4,
         "shares": 0,
         "likes": 5,
         "comments": 0,
-        "total_interactions": 8,
+        "total_interactions": 9,
         "follows": 1,
         "profile_visits": 4
       },
-      "insightsStand": "2026-11-11T05:45:15.736Z",
-      "insightsAlterStunden": 41.3
+      "insightsStand": "2026-11-11T18:00:39.477Z",
+      "insightsAlterStunden": 53.5
     },
     {
       "datum": "2026-11-09",
@@ -21990,19 +21990,19 @@
         "#erbschaftsteuer"
       ],
       "insights": {
-        "reach": 1116,
+        "reach": 1129,
         "saved": 15,
-        "shares": 9,
+        "shares": 10,
         "likes": 10,
         "comments": 0,
-        "total_interactions": 34,
-        "views": 1397,
-        "ig_reels_avg_watch_time": 13063,
-        "ig_reels_video_view_total_time": 14487430,
-        "reels_skip_rate": 55.6
+        "total_interactions": 35,
+        "views": 1413,
+        "ig_reels_avg_watch_time": 13037,
+        "ig_reels_video_view_total_time": 14627600,
+        "reels_skip_rate": 55.7
       },
-      "insightsStand": "2026-11-11T05:45:15.736Z",
-      "insightsAlterStunden": 35.8
+      "insightsStand": "2026-11-11T18:00:39.477Z",
+      "insightsAlterStunden": 48
     },
     {
       "datum": "2026-11-09",
@@ -22028,19 +22028,19 @@
         "#steuerberater"
       ],
       "insights": {
-        "reach": 484,
+        "reach": 488,
         "saved": 4,
         "shares": 1,
         "likes": 6,
         "comments": 1,
         "total_interactions": 12,
-        "views": 592,
-        "ig_reels_avg_watch_time": 7868,
-        "ig_reels_video_view_total_time": 3784585,
-        "reels_skip_rate": 63
+        "views": 598,
+        "ig_reels_avg_watch_time": 7815,
+        "ig_reels_video_view_total_time": 3813970,
+        "reels_skip_rate": 63.1
       },
-      "insightsStand": "2026-11-11T06:09:06.770Z",
-      "insightsAlterStunden": 36.1
+      "insightsStand": "2026-11-11T18:00:39.477Z",
+      "insightsAlterStunden": 48
     },
     {
       "datum": "2026-11-09",
@@ -22188,7 +22188,7 @@
         "#umwandlungssteuerrecht"
       ],
       "insights": {
-        "reach": 100,
+        "reach": 102,
         "saved": 1,
         "shares": 0,
         "likes": 3,
@@ -22197,8 +22197,8 @@
         "follows": 1,
         "profile_visits": 2
       },
-      "insightsStand": "2026-11-11T06:09:06.770Z",
-      "insightsAlterStunden": 22.6
+      "insightsStand": "2026-11-11T18:00:39.477Z",
+      "insightsAlterStunden": 34.5
     },
     {
       "datum": "2026-11-10",
@@ -22285,7 +22285,7 @@
         "#umsatzsteuer"
       ],
       "insights": {
-        "reach": 112,
+        "reach": 118,
         "saved": 2,
         "shares": 1,
         "likes": 5,
@@ -22294,8 +22294,8 @@
         "follows": 0,
         "profile_visits": 2
       },
-      "insightsStand": "2026-11-11T09:45:10.741Z",
-      "insightsAlterStunden": 21.3
+      "insightsStand": "2026-11-11T18:00:39.477Z",
+      "insightsAlterStunden": 29.5
     },
     {
       "datum": "2026-11-10",
@@ -22574,7 +22574,7 @@
         "#erbschaftsteuer"
       ],
       "insights": {
-        "reach": 69,
+        "reach": 84,
         "saved": 1,
         "shares": 0,
         "likes": 2,
@@ -22583,8 +22583,8 @@
         "follows": 0,
         "profile_visits": 0
       },
-      "insightsStand": "2026-11-11T12:30:24.208Z",
-      "insightsAlterStunden": 5
+      "insightsStand": "2026-11-11T18:00:39.477Z",
+      "insightsAlterStunden": 10.5
     },
     {
       "datum": "2026-11-11",
@@ -22671,17 +22671,17 @@
         "#körperschaftsteuer"
       ],
       "insights": {
-        "reach": 34,
+        "reach": 59,
         "saved": 1,
         "shares": 0,
-        "likes": 1,
+        "likes": 2,
         "comments": 0,
-        "total_interactions": 2,
+        "total_interactions": 3,
         "follows": 0,
         "profile_visits": 0
       },
-      "insightsStand": "2026-11-11T13:40:11.299Z",
-      "insightsAlterStunden": 1.2
+      "insightsStand": "2026-11-11T18:00:39.477Z",
+      "insightsAlterStunden": 5.5
     },
     {
       "datum": "2026-11-11",
@@ -22697,21 +22697,22 @@
         "Verlust weg nach Verkauf?"
       ],
       "insights": {
-        "reach": 15,
-        "views": 17,
+        "reach": 48,
+        "views": 55,
         "shares": 0,
-        "total_interactions": 0,
+        "total_interactions": 1,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 15,
-        "navigation_tap_exit": 2,
-        "navigation_tap_forward": 12,
-        "navigation_swipe_forward": 1
+        "navigation": 49,
+        "navigation_tap_exit": 10,
+        "navigation_tap_forward": 33,
+        "navigation_swipe_forward": 5,
+        "navigation_tap_back": 1
       },
-      "insightsStand": "2026-11-11T13:40:09.495Z",
-      "insightsAlterStunden": 1.2
+      "insightsStand": "2026-11-11T18:00:37.853Z",
+      "insightsAlterStunden": 5.5
     },
     {
       "datum": "2026-11-11",
