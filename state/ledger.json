@@ -22490,6 +22490,18 @@
       },
       "insightsStand": "2026-11-11T05:45:00.017Z",
       "insightsAlterStunden": 11.5
+    },
+    {
+      "datum": "2026-11-11",
+      "slot": "s4",
+      "medienId": "18164180920497971",
+      "veroeffentlicht": "2026-11-11T06:07:04.646Z",
+      "quelle": "vorproduktion",
+      "art": "story",
+      "storyArt": "frage",
+      "thema": "persg-quiz-k3-30",
+      "fach": "persg",
+      "titel": ""
     }
   ],
   "fachZaehler": {
