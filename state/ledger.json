@@ -22343,22 +22343,22 @@
         "dann der Fall"
       ],
       "insights": {
-        "reach": 132,
-        "views": 162,
+        "reach": 133,
+        "views": 165,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 2,
         "profile_activity": 0,
-        "navigation": 146,
-        "navigation_swipe_forward": 8,
+        "navigation": 147,
+        "navigation_tap_back": 11,
+        "navigation_tap_forward": 106,
         "navigation_tap_exit": 22,
-        "navigation_tap_forward": 105,
-        "navigation_tap_back": 11
+        "navigation_swipe_forward": 8
       },
-      "insightsStand": "2026-11-11T09:45:06.087Z",
-      "insightsAlterStunden": 20.1
+      "insightsStand": "2026-11-11T11:45:25.770Z",
+      "insightsAlterStunden": 22.1
     },
     {
       "datum": "2026-11-10",
@@ -22503,21 +22503,22 @@
       "fach": "persg",
       "titel": "",
       "insights": {
-        "reach": 31,
-        "views": 45,
+        "reach": 69,
+        "views": 85,
         "shares": 0,
-        "total_interactions": 0,
+        "total_interactions": 1,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 40,
-        "navigation_swipe_forward": 5,
-        "navigation_tap_exit": 5,
-        "navigation_tap_forward": 30
+        "navigation": 78,
+        "navigation_tap_back": 4,
+        "navigation_swipe_forward": 8,
+        "navigation_tap_exit": 10,
+        "navigation_tap_forward": 56
       },
-      "insightsStand": "2026-11-11T07:30:30.880Z",
-      "insightsAlterStunden": 1.4
+      "insightsStand": "2026-11-11T11:45:25.770Z",
+      "insightsAlterStunden": 5.6
     },
     {
       "datum": "2026-11-11",
@@ -22534,22 +22535,22 @@
         "Gewinn"
       ],
       "insights": {
-        "reach": 30,
-        "views": 39,
+        "reach": 63,
+        "views": 73,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 33,
-        "navigation_tap_exit": 6,
-        "navigation_tap_forward": 22,
-        "navigation_swipe_forward": 2,
-        "navigation_tap_back": 3
+        "navigation": 70,
+        "navigation_tap_exit": 11,
+        "navigation_tap_forward": 48,
+        "navigation_swipe_forward": 4,
+        "navigation_tap_back": 7
       },
-      "insightsStand": "2026-11-11T07:30:30.880Z",
-      "insightsAlterStunden": 1.4
+      "insightsStand": "2026-11-11T11:45:25.770Z",
+      "insightsAlterStunden": 5.6
     },
     {
       "datum": "2026-11-11",
