@@ -1,0 +1,51 @@
+{
+  "slot": "s8",
+  "art": "tipp",
+  "fach": "istr",
+  "klausur": 2,
+  "fachLabel": "Internationales Steuerrecht",
+  "themaId": "istr-modul-istr-istr4-02",
+  "beitragSlot": null,
+  "quellen": null,
+  "titel": [
+    "§ 7 AStG:",
+    "wann beherrscht?"
+  ],
+  "normImTitel": true,
+  "punkte": [
+    [
+      "Über die Hälfte der Stimmen, des Kapitals oder des Gewinns",
+      "ok",
+      "§ 7 Abs. 2 AStG"
+    ],
+    [
+      "Nahestehende zählen mit",
+      "ok",
+      "§ 7 Abs. 3 AStG"
+    ],
+    [
+      "Stichtag: Ende des Wirtschaftsjahres",
+      "warn",
+      null
+    ]
+  ],
+  "icon": "tabler:crown",
+  "iconFarbe": "GELB",
+  "sichtbareTexte": [
+    "Internationales Steuerrecht",
+    "Klausurtipp",
+    "§ 7 AStG:",
+    "wann beherrscht?",
+    "Über die Hälfte der Stimmen, des Kapitals oder des Gewinns",
+    "§ 7 Abs. 2 AStG",
+    "Nahestehende zählen mit",
+    "§ 7 Abs. 3 AStG",
+    "Stichtag: Ende des Wirtschaftsjahres"
+  ],
+  "renderer": "open-peeps-v4",
+  "bildStatus": "open-peeps-render",
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "liveVorrangAktiv": true,
+  "regelGeprueft": true
+}

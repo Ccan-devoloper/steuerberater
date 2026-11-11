@@ -1,0 +1,36 @@
+{
+  "slot": "s4",
+  "art": "frage",
+  "fach": "persg",
+  "klausur": 3,
+  "fachLabel": "Personengesellschaften",
+  "themaId": "persg-quiz-k3-30",
+  "beitragSlot": null,
+  "quellen": null,
+  "frage": [
+    "Realteilung mit",
+    "Spitzenausgleich?"
+  ],
+  "optionen": [
+    "Begünstigt nach § 34 EStG",
+    "Laufender Gewinn",
+    "Steuerfrei"
+  ],
+  "pairId": "persg-quiz-k3-30",
+  "sichtbareTexte": [
+    "Personengesellschaften",
+    "Prüfungsfrage",
+    "Realteilung mit",
+    "Spitzenausgleich?",
+    "Begünstigt nach § 34 EStG",
+    "Laufender Gewinn",
+    "Steuerfrei",
+    "Auflösung in der nächsten Story"
+  ],
+  "renderer": "open-peeps-v4",
+  "bildStatus": "open-peeps-render",
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "liveVorrangAktiv": true,
+  "regelGeprueft": true
+}

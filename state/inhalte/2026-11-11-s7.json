@@ -1,0 +1,48 @@
+{
+  "slot": "s7",
+  "art": "tipp",
+  "fach": null,
+  "klausur": 0,
+  "fachLabel": "Klausurtechnik",
+  "themaId": null,
+  "beitragSlot": null,
+  "quellen": null,
+  "titel": [
+    "Minuten nach",
+    "Punkten verteilen"
+  ],
+  "punkte": [
+    [
+      "Punktwerte der Teile zuerst notieren",
+      "ok",
+      null
+    ],
+    [
+      "Zeit danach aufteilen, Puffer einplanen",
+      "ok",
+      null
+    ],
+    [
+      "Zeit um? Weiter zum nächsten Teil",
+      "warn",
+      null
+    ]
+  ],
+  "icon": "tabler:clock-hour-4",
+  "iconFarbe": "GELB",
+  "sichtbareTexte": [
+    "Klausurtechnik",
+    "Klausurtipp",
+    "Minuten nach",
+    "Punkten verteilen",
+    "Punktwerte der Teile zuerst notieren",
+    "Zeit danach aufteilen, Puffer einplanen",
+    "Zeit um? Weiter zum nächsten Teil"
+  ],
+  "renderer": "open-peeps-v4",
+  "bildStatus": "open-peeps-render",
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "liveVorrangAktiv": true,
+  "regelGeprueft": true
+}

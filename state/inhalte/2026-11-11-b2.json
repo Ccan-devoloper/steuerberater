@@ -1,0 +1,85 @@
+{
+  "format": "schema",
+  "fach": "kst",
+  "klausur": 2,
+  "fachLabel": "Körperschaftsteuer",
+  "themaId": "kst-schema-4",
+  "caption": "Verlustuntergang beim Anteilskauf: das Prüfschema zu §§ 8c, 8d KStG für die Ertragsteuer-Klausur.\n\n1. Schädlicher Beteiligungserwerb: mehr als 50 % innerhalb von fünf Jahren an einen Erwerber oder nahestehende Personen, auch Erwerbergruppen und Kapitalerhöhungen (§ 8c Abs. 1 S. 1 bis 3 KStG). Folge: nicht genutzte Verluste sind vollständig nicht mehr abziehbar.\n2. Ausnahmen: Konzernklausel (§ 8c Abs. 1 S. 4 KStG), Sanierungsklausel (§ 8c Abs. 1a KStG).\n3. Stille-Reserven-Klausel: Abzug, soweit im Inland steuerpflichtige stille Reserven vorhanden sind (§ 8c Abs. 1 S. 5 bis 8 KStG).\n4. Fortführungsgebundener Verlustvortrag auf Antrag, wenn seit drei Veranlagungszeiträumen ausschließlich derselbe Geschäftsbetrieb besteht (§ 8d Abs. 1 S. 1, 5 KStG); ausgeschlossen u. a. bei Organträger- oder Mitunternehmerstellung (§ 8d Abs. 1 S. 2 Nr. 2 KStG).\n5. Schädliche Ereignisse danach, etwa Einstellung oder zusätzlicher Geschäftsbetrieb, lassen den Verlust untergehen, soweit keine stillen Reserven vorhanden sind (§ 8d Abs. 2 KStG).\n\nBeispiel: 800.000 € Verlust, 60 % verkauft, stille Reserven 300.000 € → 300.000 € bleiben, 500.000 € gehen unter.\n\nZum Schluss: § 8c KStG zum Markieren. Speichern für Klausur 2 📌",
+  "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#körperschaftsteuer"
+  ],
+  "quellen": [
+    "§ 8c Abs. 1 S. 1 bis 8 KStG",
+    "§ 8c Abs. 1a KStG",
+    "§ 8d Abs. 1 S. 1, 2, 5, 6 KStG",
+    "§ 8d Abs. 2 KStG"
+  ],
+  "slug": "2026-11-11-b2",
+  "kurztitel": "Verlustuntergang nach § 8c/§ 8d",
+  "regelGeprueft": true,
+  "manuellGeprueft": false,
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "textProviderKostenUsd": 0,
+  "faktencheckProviderKostenUsd": 0,
+  "bildStatus": "open-peeps-render",
+  "renderer": "open-peeps-v4",
+  "liveVorrangAktiv": true,
+  "coverBadge": "Prüfschema",
+  "folien": [
+    {
+      "art": "titel",
+      "titel": "Prüfschema",
+      "text": "Prüfschema · Verlust weg · nach Verkauf? · §§ 8c, 8d KStG · in 5 Schritten · + Markier-Guide § 8c KStG · Verlustvortrag · 800.000 € · noch da?",
+      "bild": "op-cover"
+    },
+    {
+      "art": "text",
+      "titel": "Körperschaftsteuer",
+      "text": "Das Schema · Über 50 % in fünf Jahren? · § 8c Abs. 1 S. 1 KStG · Konzern oder Sanierung? · § 8c Abs. 1 S. 4, Abs. 1a KStG · Stille Reserven? · § 8c Abs. 1 S. 5 KStG · Antrag nach § 8d? · § 8d Abs. 1 KStG · Später überwachen · § 8d Abs. 2 KStG · Am Ende: § 8c KStG markiert"
+    },
+    {
+      "art": "text",
+      "titel": "Körperschaftsteuer",
+      "text": "1 · Schädlicher Erwerb · Mehr als 50 % der Anteile oder Stimmrechte gehen innerhalb von fünf Jahren an einen Erwerber. · § 8c Abs. 1 S. 1 KStG · Nahestehende und Gruppen mit gleichgerichteten Interessen zählen zusammen. · § 8c Abs. 1 S. 1, 2 KStG · Folge: Nicht genutzte Verluste fallen vollständig weg. · Kein Anteil, alles!"
+    },
+    {
+      "art": "text",
+      "titel": "Körperschaftsteuer",
+      "text": "2–3 · Rettungswege · Konzernklausel: 100-%-Konzern unschädlich. · § 8c Abs. 1 S. 4 KStG · Sanierungsklausel: Sanierung ist unschädlich. · § 8c Abs. 1a S. 1 KStG · Stille Reserven decken den Verlust: Er bleibt insoweit abziehbar. · § 8c Abs. 1 S. 5 KStG · Rechnung: gemeiner Wert der Anteile minus steuerliches Eigenkapital. · § 8c Abs. 1 S. 6 KStG · Rechnen lohnt sich."
+    },
+    {
+      "art": "text",
+      "titel": "Körperschaftsteuer",
+      "text": "4 · Antrag nach § 8d · Seit drei Veranlagungszeiträumen nur derselbe Geschäftsbetrieb: § 8c entfällt auf Antrag. · § 8d Abs. 1 S. 1 KStG · Antrag in der Erklärung für das Jahr des Erwerbs. · § 8d Abs. 1 S. 5 KStG · Nicht bei Organträgern oder Mitunternehmern zu Beginn des Zeitraums. · § 8d Abs. 1 S. 2 Nr. 2 KStG · Frist im Blick!"
+    },
+    {
+      "art": "text",
+      "titel": "Körperschaftsteuer",
+      "text": "5 · Danach überwachen · Der Verlust ist jetzt fortführungsgebunden. · § 8d Abs. 1 S. 6 KStG · Einstellen, Ruhen, neuer Zweck, zusätzlicher Betrieb: Er geht unter, soweit keine stillen Reserven. · § 8d Abs. 2 KStG · Auch Jahre später?"
+    },
+    {
+      "art": "text",
+      "titel": "Körperschaftsteuer",
+      "text": "Jetzt du · Die Lumo GmbH hat 800.000 € Verlustvortrag, im Erwerbsjahr kein Gewinn. · Farid kauft 60 % der Anteile. Stille Reserven im Inland: 300.000 €. Kein Antrag nach § 8d. · Wie viel Verlust bleibt? · Was bleibt mir?"
+    },
+    {
+      "art": "text",
+      "titel": "Körperschaftsteuer",
+      "text": "Lösung · § 8c Abs. 1 S. 1, 5 KStG · 60 % an einen Erwerber · schädlich · Verlustvortrag · 800.000 € · stille Reserven · 300.000 € · Untergang · 500.000 € · 300.000 € gerettet."
+    },
+    {
+      "art": "text",
+      "titel": "Körperschaftsteuer",
+      "text": "Lumo GmbH: 300.000 € bleiben, 500.000 € weg · § 8d-Antrag immer mitprüfen · über 50 % in 5 Jahren, · Ausnahmen prüfen, · stille Reserven retten, · § 8d beantragen. · Speichern für Klausur 2 · Denkst du an den Antrag? · Weiterwischen: § 8c KStG markiert"
+    },
+    {
+      "art": "text",
+      "titel": "Körperschaftsteuer",
+      "text": "§ 8c KStG Verlustabzug (Auszug) · Zeitraum · Schwelle · Rechtsfolge · Rettung (S. 5) · Randnotiz: § 8d KStG · Antrag, wenn der Geschäftsbetrieb gleich bleibt"
+    }
+  ]
+}

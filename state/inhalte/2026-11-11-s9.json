@@ -1,0 +1,62 @@
+{
+  "slot": "s9",
+  "art": "merksatz",
+  "fach": "umwst",
+  "klausur": 3,
+  "fachLabel": "Umwandlungssteuerrecht",
+  "themaId": "umwst-aufb-umw-4-09",
+  "beitragSlot": null,
+  "quellen": null,
+  "titel": [
+    "Fiktiver Teilbetrieb",
+    "kurz vorher gefüllt?"
+  ],
+  "zeilen": [
+    [
+      [
+        "Binnen ",
+        null
+      ],
+      [
+        "3 Jahren",
+        "a"
+      ]
+    ],
+    [
+      [
+        "per Einzelwirtschaftsgut",
+        null
+      ]
+    ],
+    [
+      [
+        "aufgestockt:",
+        null
+      ]
+    ],
+    [
+      [
+        "kein Buchwert",
+        "b"
+      ]
+    ]
+  ],
+  "norm": "§ 15 Abs. 2 S. 1 UmwStG",
+  "sichtbareTexte": [
+    "Umwandlungssteuerrecht",
+    "Merksatz",
+    "Fiktiver Teilbetrieb",
+    "kurz vorher gefüllt?",
+    "Binnen 3 Jahren",
+    "per Einzelwirtschaftsgut",
+    "aufgestockt:",
+    "kein Buchwert",
+    "§ 15 Abs. 2 S. 1 UmwStG"
+  ],
+  "renderer": "open-peeps-v4",
+  "bildStatus": "open-peeps-render",
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "liveVorrangAktiv": true,
+  "regelGeprueft": true
+}

@@ -1,0 +1,26 @@
+{
+  "slot": "s1",
+  "art": "teaser",
+  "fach": "erbst",
+  "klausur": 1,
+  "fachLabel": "Erbschaftsteuer",
+  "themaId": null,
+  "beitragSlot": "b1",
+  "quellen": null,
+  "titel": [
+    "Geerbte Wohnung: Maklerwert?"
+  ],
+  "unter": "Klausurfalle + Markier-Guide · im Profil",
+  "sichtbareTexte": [
+    "Erbschaftsteuer",
+    "Neu im Feed",
+    "Geerbte Wohnung: Maklerwert?",
+    "Klausurfalle + Markier-Guide · im Profil"
+  ],
+  "renderer": "open-peeps-v4",
+  "bildStatus": "open-peeps-render",
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "liveVorrangAktiv": true,
+  "regelGeprueft": true
+}

@@ -1,0 +1,40 @@
+{
+  "slot": "s5",
+  "art": "antwort",
+  "fach": "persg",
+  "klausur": 3,
+  "fachLabel": "Personengesellschaften",
+  "themaId": "persg-quiz-k3-30",
+  "beitragSlot": null,
+  "quellen": null,
+  "titel": [
+    "B: laufender",
+    "Gewinn"
+  ],
+  "optionen": [
+    "Begünstigt nach § 34 EStG",
+    "Laufender Gewinn",
+    "Steuerfrei"
+  ],
+  "richtig": 1,
+  "text": "Soweit ausgeglichen wird, liegt eine Veräußerung vor, ohne Tarifbegünstigung.",
+  "norm": "§ 16 Abs. 3 S. 2 EStG",
+  "pairId": "persg-quiz-k3-30",
+  "sichtbareTexte": [
+    "Personengesellschaften",
+    "Auflösung",
+    "B: laufender",
+    "Gewinn",
+    "Begünstigt nach § 34 EStG",
+    "Laufender Gewinn",
+    "Steuerfrei",
+    "Soweit ausgeglichen wird, liegt eine Veräußerung vor, ohne Tarifbegünstigung.",
+    "§ 16 Abs. 3 S. 2 EStG"
+  ],
+  "renderer": "open-peeps-v4",
+  "bildStatus": "open-peeps-render",
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "liveVorrangAktiv": true,
+  "regelGeprueft": true
+}

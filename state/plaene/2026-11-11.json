@@ -1,0 +1,102 @@
+{
+  "datum": "2026-11-11",
+  "erzeugt": "2026-11-11T05:44:57.322Z",
+  "quelle": "vorproduktion",
+  "providerKostenUsd": 0,
+  "beitraege": [
+    {
+      "slot": "b1",
+      "zeit": "08:30",
+      "format": "fehlerfalle",
+      "themaId": "erbst-modul-erbst-540",
+      "themaTitel": "Grundstücksbewertung: § 12 Abs. 3 ErbStG: gesonderter Grundbesitzwert nach §§ 151, 157 BewG",
+      "fach": "erbst",
+      "klausur": 1,
+      "status": "geplant"
+    },
+    {
+      "slot": "b2",
+      "zeit": "13:30",
+      "format": "schema",
+      "themaId": "kst-schema-4",
+      "themaTitel": "Verlustuntergang nach § 8c/§ 8d",
+      "fach": "kst",
+      "klausur": 2,
+      "status": "geplant"
+    },
+    {
+      "slot": "b3",
+      "zeit": "19:00",
+      "format": "reel",
+      "themaId": "umwst-aufb-umw-4-02",
+      "themaTitel": "Unter welchen Voraussetzungen fällt eine Spaltung unter § 15 UmwStG?",
+      "fach": "umwst",
+      "klausur": 3,
+      "status": "geplant"
+    }
+  ],
+  "stories": [
+    {
+      "slot": "s4",
+      "zeit": "07:07",
+      "art": "frage",
+      "themaId": "persg-quiz-k3-30",
+      "status": "geplant"
+    },
+    {
+      "slot": "s5",
+      "zeit": "07:09",
+      "art": "antwort",
+      "themaId": "persg-quiz-k3-30",
+      "status": "geplant"
+    },
+    {
+      "slot": "s1",
+      "zeit": "08:30",
+      "art": "teaser",
+      "beitragSlot": "b1",
+      "status": "geplant"
+    },
+    {
+      "slot": "s6",
+      "zeit": "12:14",
+      "art": "norm",
+      "themaId": "erbst-modul-erbst-542",
+      "status": "geplant"
+    },
+    {
+      "slot": "s2",
+      "zeit": "13:30",
+      "art": "teaser",
+      "beitragSlot": "b2",
+      "status": "geplant"
+    },
+    {
+      "slot": "s7",
+      "zeit": "14:40",
+      "art": "tipp",
+      "status": "geplant"
+    },
+    {
+      "slot": "s8",
+      "zeit": "17:04",
+      "art": "tipp",
+      "themaId": "istr-modul-istr-istr4-02",
+      "status": "geplant"
+    },
+    {
+      "slot": "s3",
+      "zeit": "19:00",
+      "art": "teaser",
+      "beitragSlot": "b3",
+      "status": "geplant"
+    },
+    {
+      "slot": "s9",
+      "zeit": "19:12",
+      "art": "merksatz",
+      "themaId": "umwst-aufb-umw-4-09",
+      "status": "geplant"
+    }
+  ]
+}

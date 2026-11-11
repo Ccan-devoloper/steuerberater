@@ -1,0 +1,44 @@
+{
+  "slot": "s6",
+  "art": "norm",
+  "fach": "erbst",
+  "klausur": 1,
+  "fachLabel": "Erbschaftsteuer",
+  "themaId": "erbst-modul-erbst-542",
+  "beitragSlot": null,
+  "quellen": null,
+  "titel": [
+    "Grundbesitzwert",
+    "zu hoch?"
+  ],
+  "norm": "§ 198 BewG",
+  "punkte": [
+    [
+      "Niedrigeren Wert per Gutachten nachweisen.",
+      "ok",
+      "§ 198 Abs. 2 BewG"
+    ],
+    [
+      "Oder per Kaufpreis binnen eines Jahres um den Stichtag.",
+      "ok",
+      "§ 198 Abs. 3 BewG"
+    ]
+  ],
+  "sichtbareTexte": [
+    "Erbschaftsteuer",
+    "Norm des Tages",
+    "Grundbesitzwert",
+    "zu hoch?",
+    "§ 198 BewG",
+    "Niedrigeren Wert per Gutachten nachweisen.",
+    "§ 198 Abs. 2 BewG",
+    "Oder per Kaufpreis binnen eines Jahres um den Stichtag.",
+    "§ 198 Abs. 3 BewG"
+  ],
+  "renderer": "open-peeps-v4",
+  "bildStatus": "open-peeps-render",
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "liveVorrangAktiv": true,
+  "regelGeprueft": true
+}

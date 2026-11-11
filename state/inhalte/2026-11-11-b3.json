@@ -1,0 +1,64 @@
+{
+  "format": "reel",
+  "fach": "umwst",
+  "klausur": 3,
+  "fachLabel": "Umwandlungssteuerrecht",
+  "themaId": "umwst-aufb-umw-4-02",
+  "caption": "Abspaltung zum Buchwert – die Klausurfalle beim Teilbetrieb ✂️\n\n▸ § 15 UmwStG erfasst Aufspaltung, Abspaltung und Teilübertragung auf andere Körperschaften; die §§ 11 bis 13 UmwStG gelten entsprechend (§ 15 Abs. 1 S. 1 UmwStG). Die Ausgliederung fällt unter den Sechsten bis Achten Teil (§ 1 Abs. 3 Nr. 2 UmwStG), also z. B. § 20 UmwStG.\n▸ Buchwert bei der Gesellschaft (§ 11 Abs. 2 UmwStG) und beim Anteilseigner (§ 13 Abs. 2 UmwStG) nur, wenn ein Teilbetrieb übertragen wird und bei der Abspaltung auch ein Teilbetrieb zurückbleibt (§ 15 Abs. 1 S. 2 UmwStG).\n▸ Als Teilbetrieb gelten auch Mitunternehmeranteile und 100-%-Beteiligungen an Kapitalgesellschaften (§ 15 Abs. 1 S. 3 UmwStG) – aber Vorsicht bei Aufstockung in den letzten drei Jahren (§ 15 Abs. 2 S. 1 UmwStG).\n▸ Fehlt der Teilbetrieb, gilt der gemeine Wert als Wertansatz (§ 11 Abs. 1 UmwStG).\n\nSpeichern für Klausur 3 📌",
+  "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#umwandlungssteuerrecht"
+  ],
+  "quellen": [
+    "§ 1 Abs. 3 Nr. 2 UmwStG",
+    "§ 11 Abs. 1, 2 UmwStG",
+    "§ 13 Abs. 2 UmwStG",
+    "§ 15 Abs. 1 S. 1 bis 3 UmwStG",
+    "§ 15 Abs. 2 S. 1 UmwStG",
+    "§ 20 UmwStG"
+  ],
+  "slug": "2026-11-11-b3",
+  "kurztitel": "Unter welchen Voraussetzungen fällt eine Spaltung unter § 15 UmwStG?",
+  "regelGeprueft": true,
+  "manuellGeprueft": false,
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "textProviderKostenUsd": 0,
+  "faktencheckProviderKostenUsd": 0,
+  "bildStatus": "open-peeps-render",
+  "renderer": "open-peeps-v4",
+  "liveVorrangAktiv": true,
+  "bild": "op-cover",
+  "reelTyp": "klausurfalle",
+  "hookStil": "split",
+  "coverBadge": "Reel",
+  "szenen": [
+    {
+      "art": "hook",
+      "titel": "Abspaltung zum Buchwert?"
+    },
+    {
+      "art": "schritt",
+      "titel": "Nur Spaltungen"
+    },
+    {
+      "art": "schritt",
+      "titel": "Doppelt prüfen"
+    },
+    {
+      "art": "schritt",
+      "titel": "Klausurfalle"
+    }
+  ],
+  "sprecher": [
+    "Abspaltung zum Buchwert? Das übertragene Vermögen ist ein Teilbetrieb. Und was zurückbleibt? Muss auch einer sein.",
+    "Paragraf fünfzehn gilt nur für Aufspaltung, Abspaltung und Teilübertragung. Eine Ausgliederung läuft über Paragraf zwanzig.",
+    "Bei der Abspaltung prüfst du deshalb doppelt: abgespaltenes Vermögen und Restvermögen, beide müssen Teilbetrieb sein.",
+    "Fehlt einer, gibt es keinen Buchwert: gemeiner Wert, stille Reserven werden versteuert.",
+    "Merke: Abspaltung zum Buchwert nur mit Teilbetrieb auf beiden Seiten."
+  ],
+  "dauerS": 37.687,
+  "tempo": 1
+}
