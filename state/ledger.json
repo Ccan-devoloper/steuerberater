@@ -22781,6 +22781,20 @@
         "#examensvorbereitung",
         "#umwandlungssteuerrecht"
       ]
+    },
+    {
+      "datum": "2026-11-11",
+      "slot": "s3",
+      "medienId": "18171662929478641",
+      "veroeffentlicht": "2026-11-11T18:00:36.401Z",
+      "quelle": "vorproduktion",
+      "art": "story",
+      "storyArt": "teaser",
+      "thema": null,
+      "fach": "umwst",
+      "titel": [
+        "Abspaltung zum Buchwert?"
+      ]
     }
   ],
   "fachZaehler": {
