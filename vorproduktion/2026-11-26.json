@@ -1,0 +1,688 @@
+{
+  "datum": "2026-11-26",
+  "status": "vorproduziert",
+  "freigabeBetreiber": true,
+  "liveVerknuepft": false,
+  "vorproduktionStatus": "live-freigegeben",
+  "layoutQuelle": "open-peeps-variante-c",
+  "semantikQuelle": "examenscampus",
+  "liveVorrangAktiv": true,
+  "normalbetriebGesperrt": true,
+  "bildStatus": "open-peeps-render",
+  "kostenPolicy": {
+    "textUndFaktencheckUsd": 0,
+    "bildgenerierungUsd": 0,
+    "providerKostenUsd": 0,
+    "coverbilder": false,
+    "bildgenerierungErlaubt": false,
+    "reelStimme": "elevenlabs-abo"
+  },
+  "plan": {
+    "beitraege": [
+      {
+        "slot": "b1",
+        "zeit": "08:30",
+        "format": "spickzettel",
+        "themaId": "ao-modul-ao-349",
+        "themaTitel": "§ 165 AO: Fortbestand, Änderungsbescheid und Ablaufhemmung § 171 Abs. 8",
+        "fach": "ao",
+        "klausur": 1
+      },
+      {
+        "slot": "b2",
+        "zeit": "13:30",
+        "format": "schema",
+        "themaId": "kst-schema-6",
+        "themaTitel": "Vereinsbesteuerung",
+        "fach": "kst",
+        "klausur": 2
+      },
+      {
+        "slot": "b3",
+        "zeit": "19:00",
+        "format": "reel",
+        "themaId": "bilanz-aufb-bil-melzer-6-02",
+        "themaTitel": "Kapitalerhöhung bei der AG: Folgen für die Aktien im Betrieb",
+        "fach": "bilanz",
+        "klausur": 3
+      }
+    ],
+    "stories": [
+      {
+        "slot": "s4",
+        "zeit": "07:07",
+        "art": "frage",
+        "themaId": "bilanz-quiz-k3-35"
+      },
+      {
+        "slot": "s5",
+        "zeit": "07:09",
+        "art": "antwort",
+        "themaId": "bilanz-quiz-k3-35"
+      },
+      {
+        "slot": "s1",
+        "zeit": "08:30",
+        "art": "teaser",
+        "beitragSlot": "b1"
+      },
+      {
+        "slot": "s6",
+        "zeit": "12:14",
+        "art": "norm",
+        "themaId": "ao-modul-ao-350"
+      },
+      {
+        "slot": "s2",
+        "zeit": "13:30",
+        "art": "teaser",
+        "beitragSlot": "b2"
+      },
+      {
+        "slot": "s7",
+        "zeit": "14:40",
+        "art": "tipp"
+      },
+      {
+        "slot": "s8",
+        "zeit": "17:04",
+        "art": "tipp",
+        "themaId": "kst-aufb-kst-t5-9"
+      },
+      {
+        "slot": "s3",
+        "zeit": "19:00",
+        "art": "teaser",
+        "beitragSlot": "b3"
+      },
+      {
+        "slot": "s9",
+        "zeit": "19:12",
+        "art": "merksatz",
+        "themaId": "bilanz-glossar-2"
+      }
+    ]
+  },
+  "inhalte": {
+    "b1": {
+      "format": "spickzettel",
+      "fach": "ao",
+      "klausur": 1,
+      "fachLabel": "Abgabenordnung",
+      "themaId": "ao-modul-ao-349",
+      "caption": "Vorläufige Festsetzung: Wie lange bleibt sie offen? Der Spickzettel für Klausur 1.\n\n▸ Ein Vorläufigkeitsvermerk bleibt wirksam, auch wenn ein späterer Änderungsbescheid ihn nicht wiederholt (BFH vom 09.09.1988, III R 191/84, BStBl II 1989, 9). Enthält der Änderungsbescheid einen eigenen Vermerk, bestimmt dieser den Umfang neu (BFH vom 19.10.1999, IX R 23/98, BStBl II 2000, 282).\n▸ Ist die Ungewissheit beseitigt, wird die Festsetzung aufgehoben, geändert oder für endgültig erklärt (§ 165 Abs. 2 S. 2 AO). In den Katalogfällen nur auf Antrag, wenn nichts zu ändern ist (§ 165 Abs. 2 S. 4 AO).\n▸ Ablaufhemmung: Die Festsetzungsfrist endet frühestens ein Jahr, nachdem die Ungewissheit beseitigt ist und das Finanzamt davon Kenntnis erhalten hat (§ 171 Abs. 8 S. 1 AO); in den Fällen des § 165 Abs. 1 S. 2 AO frühestens nach zwei Jahren (§ 171 Abs. 8 S. 2 AO).\n▸ § 171 Abs. 8 AO regelt nur die Frist. Die Änderung selbst stützt sich auf § 165 Abs. 2 AO.\n\nBeispiel: Klärung am 10.03.2027, Kenntnis des Amts am 05.05.2027. Frühestes Fristende 05.05.2028, in Katalogfällen 05.05.2029.\n\nZum Schluss: § 171 Abs. 8 AO zum Markieren. Speichern für Klausur 1 📌",
+      "hashtags": [
+        "#steuerberaterexamen",
+        "#steuerberaterprüfung",
+        "#examensvorbereitung",
+        "#abgabenordnung"
+      ],
+      "quellen": [
+        "§ 165 Abs. 2 S. 2, 4 AO",
+        "§ 171 Abs. 8 S. 1, 2 AO",
+        "BFH vom 09.09.1988, III R 191/84, BStBl II 1989, 9",
+        "BFH vom 19.10.1999, IX R 23/98, BStBl II 2000, 282"
+      ],
+      "slug": "2026-11-26-b1",
+      "kurztitel": "§ 165 AO: Fortbestand, Änderungsbescheid und Ablaufhemmung § 171 Abs. 8",
+      "regelGeprueft": true,
+      "manuellGeprueft": false,
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "open-peeps-render",
+      "renderer": "open-peeps-v4",
+      "liveVorrangAktiv": true,
+      "coverBadge": "Spickzettel",
+      "folien": [
+        {
+          "art": "titel",
+          "titel": "Spickzettel",
+          "text": "Spickzettel · Vorläufig: · bis wann? · § 171 Abs. 8 AO · auf einer Karte · + Markier-Guide § 171 AO · Frist endet frühestens · +1 / +2 · Jahre",
+          "bild": "op-cover"
+        },
+        {
+          "art": "text",
+          "titel": "Abgabenordnung",
+          "text": "Die Karte · Änderungsbescheid · BFH, BStBl II 1989, 9 · Vermerk gilt fort, auch unwiederholt · Ende der Vorläufigkeit · § 165 Abs. 2 S. 2 AO · ändern oder für endgültig erklären · Frist bei Tatsachen · § 171 Abs. 8 S. 1 AO · frühestens 1 Jahr nach Kenntnis · Frist bei Rechtsfragen · § 171 Abs. 8 S. 2 AO · frühestens 2 Jahre nach Kenntnis · Am Ende: § 171 AO markiert"
+        },
+        {
+          "art": "text",
+          "titel": "Abgabenordnung",
+          "text": "Vermerk weg? · Änderungsbescheid ohne Vermerk: Die Vorläufigkeit bleibt bestehen. · BFH vom 09.09.1988, III R 191/84, BStBl II 1989, 9 · Enthält er einen neuen Vermerk, bestimmt dieser den Umfang neu. · BFH vom 19.10.1999, IX R 23/98, BStBl II 2000, 282 · Neu lesen!"
+        },
+        {
+          "art": "text",
+          "titel": "Abgabenordnung",
+          "text": "Die Frist in Zahlen · 10.03.2027 · Ungewissheit beseitigt · 05.05.2027 · Amt erfährt davon · 05.05.2028 · Ende frühestens · § 171 Abs. 8 S. 1 AO · 05.05.2029 · bei Katalogfällen · § 171 Abs. 8 S. 2 AO"
+        },
+        {
+          "art": "text",
+          "titel": "Abgabenordnung",
+          "text": "Start: Klärung und Kenntnis des Amts · Tatsachen +1 Jahr · Katalogfälle +2 Jahre · Vermerk bleibt, · neuer ersetzt ihn, · Kenntnis startet sie. · Speichern für Klausur 1 · Hättest du ab Klärung gerechnet? · Weiterwischen: § 171 AO markiert"
+        },
+        {
+          "art": "text",
+          "titel": "Abgabenordnung",
+          "text": "§ 171 AO Ablaufhemmung (Auszug) · +1 Jahr · Klärung · und Kenntnis! · Katalog: +2 · Korrekturnorm bleibt § 165 Abs. 2 AO · § 171 Abs. 8 AO regelt nur die Frist"
+        }
+      ]
+    },
+    "b2": {
+      "format": "schema",
+      "fach": "kst",
+      "klausur": 2,
+      "fachLabel": "Körperschaftsteuer",
+      "themaId": "kst-schema-6",
+      "caption": "Vereinsbesteuerung in fünf Schritten: das Prüfschema für die Körperschaftsteuer-Klausur.\n\n1. Steuerpflicht: eingetragener Verein (§ 1 Abs. 1 Nr. 4 KStG), nicht eingetragener Verein (§ 1 Abs. 1 Nr. 5 KStG).\n2. Gemeinnützige Vereine sind befreit, soweit kein wirtschaftlicher Geschäftsbetrieb unterhalten wird (§ 5 Abs. 1 Nr. 9 S. 1, 2 KStG).\n3. Bereiche trennen: ideeller Bereich, Vermögensverwaltung (§ 14 S. 3 AO), Zweckbetrieb (§ 65 AO) und steuerpflichtiger wirtschaftlicher Geschäftsbetrieb (§ 14 S. 1, 2 AO).\n4. Besteuerungsgrenze: Übersteigen die Einnahmen einschließlich Umsatzsteuer aus allen steuerpflichtigen wirtschaftlichen Geschäftsbetrieben nicht 50.000 € im Jahr, fallen keine Körperschaft- und Gewerbesteuer an (§ 64 Abs. 3 S. 1 AO; bis 2025: 45.000 €).\n5. Bleibt Steuerpflicht, Freibetrag 5.000 €, höchstens in Höhe des Einkommens (§ 24 S. 1 KStG).\n\nBeispiel: Vereinsheim 62.000 € Einnahmen, also über der Grenze. Gewinn 9.000 € – Freibetrag 5.000 € = Einkommen 4.000 €. Beiträge und Zinsen bleiben außen vor.\n\nZum Schluss: § 64 Abs. 3 AO und § 24 KStG zum Markieren. Speichern für Klausur 2 📌",
+      "hashtags": [
+        "#steuerberaterexamen",
+        "#steuerberaterprüfung",
+        "#examensvorbereitung",
+        "#körperschaftsteuer"
+      ],
+      "quellen": [
+        "§ 1 Abs. 1 Nr. 4, 5 KStG",
+        "§ 5 Abs. 1 Nr. 9 S. 1, 2 KStG",
+        "§ 14 AO",
+        "§ 65 AO",
+        "§ 64 Abs. 3 S. 1 AO",
+        "§ 24 S. 1 KStG"
+      ],
+      "slug": "2026-11-26-b2",
+      "kurztitel": "Vereinsbesteuerung",
+      "regelGeprueft": true,
+      "manuellGeprueft": false,
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "open-peeps-render",
+      "renderer": "open-peeps-v4",
+      "liveVorrangAktiv": true,
+      "coverBadge": "Prüfschema",
+      "folien": [
+        {
+          "art": "titel",
+          "titel": "Prüfschema",
+          "text": "Prüfschema · Verein · besteuern · § 5 Abs. 1 Nr. 9 KStG · in 5 Schritten · + Markier-Guide § 64 AO",
+          "bild": "op-cover"
+        },
+        {
+          "art": "text",
+          "titel": "Körperschaftsteuer",
+          "text": "Verein in 5 Schritten · Steuerpflicht · § 1 Abs. 1 Nr. 4, 5 KStG · Gemeinnützig befreit? · § 5 Abs. 1 Nr. 9 S. 1 KStG · Vier Bereiche trennen · §§ 14, 65 AO · 50.000-€-Grenze prüfen · § 64 Abs. 3 AO · Freibetrag 5.000 € · § 24 S. 1 KStG · Am Ende: § 64 AO markiert"
+        },
+        {
+          "art": "text",
+          "titel": "Körperschaftsteuer",
+          "text": "1 · Steuerpflicht und Befreiung · Eingetragener Verein: juristische Person des Privatrechts. · § 1 Abs. 1 Nr. 4 KStG · Nicht eingetragener Verein ebenso. · § 1 Abs. 1 Nr. 5 KStG · Gemeinnützig: befreit, außer beim wirtschaftlichen Geschäftsbetrieb. · § 5 Abs. 1 Nr. 9 S. 1, 2 KStG · Ich bin Joachim, Kassenwart."
+        },
+        {
+          "art": "text",
+          "titel": "Körperschaftsteuer",
+          "text": "2 · Vier Bereiche · Ideell: Beiträge, Spenden. · Vermögensverwaltung: Zinsen, Vermietung. · § 14 S. 3 AO · Zweckbetrieb: dient unmittelbar dem Satzungszweck. · § 65 AO · Wirtschaftlicher Geschäftsbetrieb, etwa Vereinsheim: steuerpflichtig. · § 14 S. 1 AO · Wohin damit?"
+        },
+        {
+          "art": "text",
+          "titel": "Körperschaftsteuer",
+          "text": "3 · Die Grenze · Einnahmen aller steuerpflichtigen Geschäftsbetriebe zusammen, mit Umsatzsteuer. · § 64 Abs. 3 S. 1 AO · Höchstens 50.000 € im Jahr: keine Körperschaft- und Gewerbesteuer. · Es zählen die Einnahmen, nicht der Gewinn. · Brutto zählt!"
+        },
+        {
+          "art": "text",
+          "titel": "Körperschaftsteuer",
+          "text": "Jetzt du · Der gemeinnützige FC Lindental e. V. nimmt 2026 im Vereinsheim brutto 62.000 € ein, Gewinn 9.000 €. · Dazu Beiträge 30.000 € und Zinsen 1.200 €. · Welches Einkommen versteuert der Verein? · Rechnest du mit?"
+        },
+        {
+          "art": "text",
+          "titel": "Körperschaftsteuer",
+          "text": "Lösung · § 64 Abs. 3 AO · § 24 S. 1 KStG · Einnahmen Vereinsheim · 62.000 € · Gewinn Vereinsheim · 9.000 € · – Freibetrag · – 5.000 € · Einkommen · 4.000 € · Über 50.000 €: steuerpflichtig"
+        },
+        {
+          "art": "text",
+          "titel": "Körperschaftsteuer",
+          "text": "FC Lindental: Einkommen 4.000 € · Beiträge und Zinsen bleiben außen vor · Bereich bestimmen, · Einnahmen prüfen, · dann Freibetrag. · Speichern für Klausur 2 · Hättest du den Gewinn verglichen? · Weiterwischen: § 64 AO markiert"
+        },
+        {
+          "art": "text",
+          "titel": "Körperschaftsteuer",
+          "text": "§ 64 AO, § 24 KStG (Auszug) · brutto! · Grenze · erst danach · Grenze seit 2026: 50.000 € · vorher 45.000 €"
+        }
+      ]
+    },
+    "b3": {
+      "format": "reel",
+      "fach": "bilanz",
+      "klausur": 3,
+      "fachLabel": "Bilanzsteuerrecht",
+      "themaId": "bilanz-aufb-bil-melzer-6-02",
+      "caption": "Gratisaktien im Betriebsvermögen: Ertrag oder nicht? 📈\n\n▸ Erhöht eine Kapitalgesellschaft ihr Nennkapital durch Umwandlung von Rücklagen, gehört der Wert der neuen Anteile beim Anteilseigner nicht zu den Einkünften (§ 1 KapErhStG).\n▸ Die Anschaffungskosten der Altaktien werden auf alte und neue Anteile nach dem Verhältnis der Anteile am Nennkapital verteilt (§ 3 KapErhStG).\n▸ Beispiel: 100 Aktien mit Buchwert 10.000 €, 50 Gratisaktien dazu. Neuer Buchwert je Aktie 10.000 € : 150 = 66,67 €; der Gesamtbuchwert bleibt 10.000 €.\n▸ Anders bei einer Kapitalerhöhung gegen Einlagen: Dort spaltet das Bezugsrecht einen Teil des Buchwerts der Altaktien ab.\n\nSpeichern für Klausur 3 📌",
+      "hashtags": [
+        "#steuerberaterexamen",
+        "#steuerberaterprüfung",
+        "#examensvorbereitung",
+        "#bilanzsteuerrecht"
+      ],
+      "quellen": [
+        "§ 1 KapErhStG",
+        "§ 3 KapErhStG"
+      ],
+      "slug": "2026-11-26-b3",
+      "kurztitel": "Kapitalerhöhung bei der AG: Folgen für die Aktien im Betrieb",
+      "regelGeprueft": true,
+      "manuellGeprueft": false,
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "open-peeps-render",
+      "renderer": "open-peeps-v4",
+      "liveVorrangAktiv": true,
+      "bild": "op-cover",
+      "reelTyp": "quizfrage",
+      "hookStil": "split",
+      "coverBadge": "Reel",
+      "szenen": [
+        {
+          "art": "hook",
+          "titel": "Gratisaktien: Ertrag?"
+        },
+        {
+          "art": "schritt",
+          "titel": "Nichts fließt zu"
+        },
+        {
+          "art": "schritt",
+          "titel": "Kosten verteilen"
+        },
+        {
+          "art": "schritt",
+          "titel": "Neuer Buchwert"
+        }
+      ],
+      "sprecher": [
+        "Hundert Aktien, Buchwert zehntausend Euro. Dann kommen fünfzig Gratisaktien. Ertrag? Nein, nur neu verteilt.",
+        "Bei einer Kapitalerhöhung aus Gesellschaftsmitteln fließt nichts zu. Die neuen Aktien sind kein Ertrag.",
+        "Die alten Anschaffungskosten verteilen sich nach Nennbeträgen auf alle hundertfünfzig Aktien.",
+        "Zehntausend durch hundertfünfzig: Jede Aktie steht jetzt mit gut sechsundsechzig Euro in den Büchern.",
+        "Merke: Gratisaktien verteilen nur die alten Kosten."
+      ],
+      "dauerS": 33.926,
+      "tempo": 1.0
+    },
+    "s4": {
+      "slot": "s4",
+      "art": "frage",
+      "fach": "bilanz",
+      "klausur": 3,
+      "fachLabel": "Bilanzsteuerrecht",
+      "themaId": "bilanz-quiz-k3-35",
+      "beitragSlot": null,
+      "quellen": null,
+      "frage": [
+        "§ 8b-Korrektur:",
+        "latente Steuern?"
+      ],
+      "optionen": [
+        "Ja, aktive",
+        "Ja, passive",
+        "Nein, keine"
+      ],
+      "pairId": "bilanz-quiz-k3-35",
+      "sichtbareTexte": [
+        "Bilanzsteuerrecht",
+        "Prüfungsfrage",
+        "§ 8b-Korrektur:",
+        "latente Steuern?",
+        "Ja, aktive",
+        "Ja, passive",
+        "Nein, keine",
+        "Auflösung in der nächsten Story"
+      ],
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
+      "liveVorrangAktiv": true,
+      "regelGeprueft": true
+    },
+    "s5": {
+      "slot": "s5",
+      "art": "antwort",
+      "fach": "bilanz",
+      "klausur": 3,
+      "fachLabel": "Bilanzsteuerrecht",
+      "themaId": "bilanz-quiz-k3-35",
+      "beitragSlot": null,
+      "quellen": null,
+      "titel": [
+        "C: keine latenten",
+        "Steuern"
+      ],
+      "optionen": [
+        "Ja, aktive",
+        "Ja, passive",
+        "Nein, keine"
+      ],
+      "richtig": 2,
+      "text": "Latente Steuern nur für Differenzen, die sich später abbauen. Außerbilanzielle § 8b-Korrekturen tun das nie.",
+      "norm": "§ 274 Abs. 1 S. 1 HGB",
+      "pairId": "bilanz-quiz-k3-35",
+      "sichtbareTexte": [
+        "Bilanzsteuerrecht",
+        "Auflösung",
+        "C: keine latenten",
+        "Steuern",
+        "Ja, aktive",
+        "Ja, passive",
+        "Nein, keine",
+        "Latente Steuern nur für Differenzen, die sich später abbauen. Außerbilanzielle § 8b-Korrekturen tun das nie.",
+        "§ 274 Abs. 1 S. 1 HGB"
+      ],
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
+      "liveVorrangAktiv": true,
+      "regelGeprueft": true
+    },
+    "s1": {
+      "slot": "s1",
+      "art": "teaser",
+      "fach": "ao",
+      "klausur": 1,
+      "fachLabel": "Abgabenordnung",
+      "themaId": null,
+      "beitragSlot": "b1",
+      "quellen": null,
+      "titel": [
+        "Vorläufig: bis wann?"
+      ],
+      "unter": "Spickzettel + Markier-Guide · im Profil",
+      "sichtbareTexte": [
+        "Abgabenordnung",
+        "Neu im Feed",
+        "Vorläufig: bis wann?",
+        "Spickzettel + Markier-Guide · im Profil"
+      ],
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
+      "liveVorrangAktiv": true,
+      "regelGeprueft": true
+    },
+    "s6": {
+      "slot": "s6",
+      "art": "norm",
+      "fach": "ao",
+      "klausur": 1,
+      "fachLabel": "Abgabenordnung",
+      "themaId": "ao-modul-ao-350",
+      "beitragSlot": null,
+      "quellen": null,
+      "titel": [
+        "Frist und Korrektur",
+        "trennen"
+      ],
+      "norm": "§ 171 Abs. 8 AO",
+      "punkte": [
+        [
+          "Ändern darf das Amt nach der Korrekturnorm.",
+          "ok",
+          "§ 165 Abs. 2 S. 1 AO"
+        ],
+        [
+          "Wie lange, regelt nur die Ablaufhemmung.",
+          "warn",
+          "§ 171 Abs. 8 S. 1, 2 AO"
+        ]
+      ],
+      "sichtbareTexte": [
+        "Abgabenordnung",
+        "Norm des Tages",
+        "Frist und Korrektur",
+        "trennen",
+        "§ 171 Abs. 8 AO",
+        "Ändern darf das Amt nach der Korrekturnorm.",
+        "§ 165 Abs. 2 S. 1 AO",
+        "Wie lange, regelt nur die Ablaufhemmung.",
+        "§ 171 Abs. 8 S. 1, 2 AO"
+      ],
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
+      "liveVorrangAktiv": true,
+      "regelGeprueft": true
+    },
+    "s2": {
+      "slot": "s2",
+      "art": "teaser",
+      "fach": "kst",
+      "klausur": 2,
+      "fachLabel": "Körperschaftsteuer",
+      "themaId": null,
+      "beitragSlot": "b2",
+      "quellen": null,
+      "titel": [
+        "Verein besteuern"
+      ],
+      "unter": "Prüfschema + Markier-Guide · im Profil",
+      "sichtbareTexte": [
+        "Körperschaftsteuer",
+        "Neu im Feed",
+        "Verein besteuern",
+        "Prüfschema + Markier-Guide · im Profil"
+      ],
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
+      "liveVorrangAktiv": true,
+      "regelGeprueft": true
+    },
+    "s7": {
+      "slot": "s7",
+      "art": "tipp",
+      "fach": null,
+      "klausur": 0,
+      "fachLabel": "Klausurtechnik",
+      "themaId": null,
+      "beitragSlot": null,
+      "quellen": null,
+      "titel": [
+        "Darstellung:",
+        "Ergebnis zuerst"
+      ],
+      "punkte": [
+        [
+          "Je Problem: Ergebnis, Norm, kurzer Grund.",
+          "ok",
+          null
+        ],
+        [
+          "Zahlen als Tabelle statt Fließtext.",
+          "ok",
+          null
+        ],
+        [
+          "Unstreitiges in einem Satz.",
+          "ok",
+          null
+        ]
+      ],
+      "icon": "tabler:list-numbers",
+      "iconFarbe": "GELB",
+      "sichtbareTexte": [
+        "Klausurtechnik",
+        "Klausurtipp",
+        "Darstellung:",
+        "Ergebnis zuerst",
+        "Je Problem: Ergebnis, Norm, kurzer Grund.",
+        "Zahlen als Tabelle statt Fließtext.",
+        "Unstreitiges in einem Satz."
+      ],
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
+      "liveVorrangAktiv": true,
+      "regelGeprueft": true
+    },
+    "s8": {
+      "slot": "s8",
+      "art": "tipp",
+      "fach": "kst",
+      "klausur": 2,
+      "fachLabel": "Körperschaftsteuer",
+      "themaId": "kst-aufb-kst-t5-9",
+      "beitragSlot": null,
+      "quellen": null,
+      "titel": [
+        "Verlust im Konzern",
+        "gerettet?"
+      ],
+      "punkte": [
+        [
+          "Erwerber hält 100 % am Veräußerer.",
+          "ok",
+          "§ 8c Abs. 1 S. 4 Nr. 1 KStG"
+        ],
+        [
+          "Veräußerer hält 100 % am Erwerber.",
+          "ok",
+          "§ 8c Abs. 1 S. 4 Nr. 2 KStG"
+        ],
+        [
+          "Dieselbe Person hält beide ganz.",
+          "ok",
+          "§ 8c Abs. 1 S. 4 Nr. 3 KStG"
+        ]
+      ],
+      "icon": "tabler:hierarchy-2",
+      "iconFarbe": "GELB",
+      "sichtbareTexte": [
+        "Körperschaftsteuer",
+        "Klausurtipp",
+        "Verlust im Konzern",
+        "gerettet?",
+        "Erwerber hält 100 % am Veräußerer.",
+        "§ 8c Abs. 1 S. 4 Nr. 1 KStG",
+        "Veräußerer hält 100 % am Erwerber.",
+        "§ 8c Abs. 1 S. 4 Nr. 2 KStG",
+        "Dieselbe Person hält beide ganz.",
+        "§ 8c Abs. 1 S. 4 Nr. 3 KStG"
+      ],
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
+      "liveVorrangAktiv": true,
+      "regelGeprueft": true
+    },
+    "s3": {
+      "slot": "s3",
+      "art": "teaser",
+      "fach": "bilanz",
+      "klausur": 3,
+      "fachLabel": "Bilanzsteuerrecht",
+      "themaId": null,
+      "beitragSlot": "b3",
+      "quellen": null,
+      "titel": [
+        "Gratisaktien: Ertrag?"
+      ],
+      "unter": "Neues Reel · im Profil",
+      "sichtbareTexte": [
+        "Bilanzsteuerrecht",
+        "Neu im Feed",
+        "Gratisaktien: Ertrag?",
+        "Neues Reel · im Profil"
+      ],
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
+      "liveVorrangAktiv": true,
+      "regelGeprueft": true
+    },
+    "s9": {
+      "slot": "s9",
+      "art": "merksatz",
+      "fach": "bilanz",
+      "klausur": 3,
+      "fachLabel": "Bilanzsteuerrecht",
+      "themaId": "bilanz-glossar-2",
+      "beitragSlot": null,
+      "quellen": null,
+      "titel": [
+        "Bewertungs-",
+        "vorbehalt"
+      ],
+      "zeilen": [
+        [
+          [
+            "Steuerliche",
+            null
+          ]
+        ],
+        [
+          [
+            "Bewertung",
+            "a"
+          ],
+          [
+            " geht der",
+            null
+          ]
+        ],
+        [
+          [
+            "Handelsbilanz",
+            "b"
+          ],
+          [
+            " vor.",
+            null
+          ]
+        ]
+      ],
+      "norm": "§ 5 Abs. 6 EStG",
+      "groesse": 80,
+      "sichtbareTexte": [
+        "Bilanzsteuerrecht",
+        "Merksatz",
+        "Bewertungs-",
+        "vorbehalt",
+        "Steuerliche",
+        "Bewertung geht der",
+        "Handelsbilanz vor.",
+        "§ 5 Abs. 6 EStG"
+      ],
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
+      "liveVorrangAktiv": true,
+      "regelGeprueft": true
+    }
+  },
+  "renderVorschau": {
+    "status": "fertig",
+    "erzeugtAm": "2026-11-12T08:25:12Z",
+    "pfad": "vorproduktion/2026-11-26/fertig",
+    "providerKostenUsd": 0,
+    "coverbilder": false,
+    "coverIcons": false,
+    "renderer": "open-peeps-v4",
+    "layoutQuelle": "open-peeps-variante-c",
+    "reelStimme": "elevenlabs-laura",
+    "sfx": "freesound-cc0",
+    "freigabeBetreiber": true,
+    "liveVorrangAktiv": true,
+    "normalbetriebGesperrt": true,
+    "wartetLive": []
+  }
+}
