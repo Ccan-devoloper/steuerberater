@@ -109,8 +109,9 @@
       "zeit": "19:00",
       "art": "teaser",
       "beitragSlot": "b3",
-      "status": "sendet",
-      "sendeversuch": "2026-11-12T18:00:27.029Z"
+      "status": "veroeffentlicht",
+      "medienId": "18059748827803371",
+      "veroeffentlicht": "2026-11-12T18:00:30.906Z"
     },
     {
       "slot": "s9",
