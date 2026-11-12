@@ -22972,6 +22972,20 @@
         "#examensvorbereitung",
         "#bilanzsteuerrecht"
       ]
+    },
+    {
+      "datum": "2026-11-12",
+      "slot": "s2",
+      "medienId": "18147092119608464",
+      "veroeffentlicht": "2026-11-12T14:02:44.665Z",
+      "quelle": "vorproduktion",
+      "art": "story",
+      "storyArt": "teaser",
+      "thema": null,
+      "fach": "bilanz",
+      "titel": [
+        "Rückstellung steuerlich bewerten"
+      ]
     }
   ],
   "fachZaehler": {
