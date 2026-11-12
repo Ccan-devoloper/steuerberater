@@ -70,7 +70,8 @@
       "zeit": "12:14",
       "art": "norm",
       "themaId": "kst-aufb-kst-ks-5-10",
-      "status": "geplant"
+      "status": "sendet",
+      "sendeversuch": "2026-11-12T14:01:28.873Z"
     },
     {
       "slot": "s2",
