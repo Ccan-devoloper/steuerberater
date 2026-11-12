@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "stand": "2026-11-12T18:12:08.450Z",
+  "stand": "2026-11-12T18:45:36.067Z",
   "medien": {
     "18093399314208242": {
       "art": "beitrag",
@@ -75108,6 +75108,32 @@
           "navigation": 15,
           "navigation_tap_exit": 2,
           "navigation_tap_forward": 13
+        }
+      ]
+    },
+    "17990963883097405": {
+      "art": "beitrag",
+      "datum": "2026-11-12",
+      "titel": "§ 173 AO vertieft: Ermittlungsfehler, grobes Verschulden und Zusammenhangsklausel",
+      "format": "reel",
+      "fach": "ao",
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-11-12T18:00:14.714Z",
+      "snapshots": [
+        {
+          "stand": "2026-11-12T18:45:36.067Z",
+          "alterStunden": 0.8,
+          "reach": 104,
+          "saved": 1,
+          "shares": 3,
+          "likes": 1,
+          "comments": 0,
+          "total_interactions": 5,
+          "views": 150,
+          "ig_reels_avg_watch_time": 6085,
+          "ig_reels_video_view_total_time": 632861,
+          "reels_skip_rate": 60.7
         }
       ]
     }
