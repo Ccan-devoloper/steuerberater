@@ -22761,22 +22761,22 @@
         "wann beherrscht?"
       ],
       "insights": {
-        "reach": 60,
-        "views": 72,
+        "reach": 67,
+        "views": 87,
         "shares": 0,
         "total_interactions": 1,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 67,
-        "navigation_tap_back": 2,
+        "navigation": 77,
+        "navigation_tap_exit": 11,
+        "navigation_tap_forward": 59,
         "navigation_swipe_forward": 5,
-        "navigation_tap_forward": 50,
-        "navigation_tap_exit": 10
+        "navigation_tap_back": 2
       },
-      "insightsStand": "2026-11-12T14:02:57.974Z",
-      "insightsAlterStunden": 21
+      "insightsStand": "2026-11-12T16:04:11.876Z",
+      "insightsAlterStunden": 23
     },
     {
       "datum": "2026-11-11",
@@ -22828,22 +22828,22 @@
         "Abspaltung zum Buchwert?"
       ],
       "insights": {
-        "reach": 52,
-        "views": 62,
+        "reach": 60,
+        "views": 76,
         "shares": 0,
         "total_interactions": 1,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 58,
-        "navigation_swipe_forward": 3,
-        "navigation_tap_back": 5,
-        "navigation_tap_forward": 43,
+        "navigation": 72,
+        "navigation_swipe_forward": 4,
+        "navigation_tap_back": 8,
+        "navigation_tap_forward": 53,
         "navigation_tap_exit": 7
       },
-      "insightsStand": "2026-11-12T14:02:57.974Z",
-      "insightsAlterStunden": 20
+      "insightsStand": "2026-11-12T16:04:11.876Z",
+      "insightsAlterStunden": 22.1
     },
     {
       "datum": "2026-11-11",
@@ -22860,22 +22860,22 @@
         "kurz vorher gefüllt?"
       ],
       "insights": {
-        "reach": 48,
-        "views": 53,
+        "reach": 57,
+        "views": 68,
         "shares": 0,
         "total_interactions": 1,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 50,
-        "navigation_tap_back": 3,
-        "navigation_swipe_forward": 1,
-        "navigation_tap_forward": 36,
-        "navigation_tap_exit": 10
+        "navigation": 65,
+        "navigation_tap_exit": 13,
+        "navigation_tap_forward": 43,
+        "navigation_swipe_forward": 2,
+        "navigation_tap_back": 7
       },
-      "insightsStand": "2026-11-12T14:02:57.974Z",
-      "insightsAlterStunden": 19.8
+      "insightsStand": "2026-11-12T16:04:11.876Z",
+      "insightsAlterStunden": 21.9
     },
     {
       "datum": "2026-11-12",
