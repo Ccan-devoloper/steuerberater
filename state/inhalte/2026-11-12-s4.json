@@ -1,0 +1,36 @@
+{
+  "slot": "s4",
+  "art": "frage",
+  "fach": "ust",
+  "klausur": 1,
+  "fachLabel": "Umsatzsteuer",
+  "themaId": "ust-quiz-ust-6",
+  "beitragSlot": null,
+  "quellen": null,
+  "frage": [
+    "Firmenwagen privat:",
+    "Bemessungsgrundlage?"
+  ],
+  "optionen": [
+    "Halber Listenpreis wie im EStG",
+    "Ausgaben mit Vorsteuerabzug",
+    "Alle Kfz-Kosten"
+  ],
+  "pairId": "ust-quiz-ust-6",
+  "sichtbareTexte": [
+    "Umsatzsteuer",
+    "Prüfungsfrage",
+    "Firmenwagen privat:",
+    "Bemessungsgrundlage?",
+    "Halber Listenpreis wie im EStG",
+    "Ausgaben mit Vorsteuerabzug",
+    "Alle Kfz-Kosten",
+    "Auflösung in der nächsten Story"
+  ],
+  "renderer": "open-peeps-v4",
+  "bildStatus": "open-peeps-render",
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "liveVorrangAktiv": true,
+  "regelGeprueft": true
+}

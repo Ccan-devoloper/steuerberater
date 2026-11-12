@@ -1,0 +1,63 @@
+{
+  "format": "spickzettel",
+  "fach": "istr",
+  "klausur": 2,
+  "fachLabel": "Internationales Steuerrecht",
+  "themaId": "istr-modul-istr-istr4-05",
+  "caption": "Motivtest im Außensteuerrecht – der Spickzettel zu § 8 Abs. 2 bis 4 AStG für die Ertragsteuer-Klausur.\n\n▸ Keine Zwischengesellschaft für Einkünfte, für die eine wesentliche wirtschaftliche Tätigkeit im Sitz- oder Geschäftsleitungsstaat nachgewiesen wird (§ 8 Abs. 2 S. 1 AStG): sachliche und personelle Ausstattung, qualifiziertes Personal, selbständig und eigenverantwortlich (§ 8 Abs. 2 S. 2, 3 AStG).\n▸ Zuzuordnen sind nur Einkünfte aus dieser Tätigkeit, soweit fremdüblich (§ 8 Abs. 2 S. 4 AStG); lässt die Gesellschaft die Tätigkeit überwiegend von Dritten erledigen, scheidet der Nachweis aus (§ 8 Abs. 2 S. 5 AStG).\n▸ Der Nachweis steht nur offen, wenn Sitz oder Geschäftsleitung in einem EU- bzw. EWR-Staat liegen (§ 8 Abs. 3 AStG) und nur bei Auskunftsaustausch (§ 8 Abs. 4 AStG).\n▸ Vorher prüfen: passive Einkünfte nach dem Katalog und Niedrigbesteuerung unter 15 % (§ 8 Abs. 1, 5 AStG); Folge der Zwischengesellschaft ist die Hinzurechnung (§ 7 Abs. 1 AStG).\n\nZum Schluss: § 8 AStG zum Markieren. Speichern für Klausur 2 📌",
+  "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#internationalessteuerrecht"
+  ],
+  "quellen": [
+    "§ 8 Abs. 1 bis 5 AStG",
+    "§ 7 Abs. 1 AStG"
+  ],
+  "slug": "2026-11-12-b1",
+  "kurztitel": "§ 8 Abs. 2 bis 4 AStG: Motivtest nur für EU-/EWR-Gesellschaften",
+  "regelGeprueft": true,
+  "manuellGeprueft": false,
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "textProviderKostenUsd": 0,
+  "faktencheckProviderKostenUsd": 0,
+  "bildStatus": "open-peeps-render",
+  "renderer": "open-peeps-v4",
+  "liveVorrangAktiv": true,
+  "coverBadge": "Spickzettel",
+  "folien": [
+    {
+      "art": "titel",
+      "titel": "Spickzettel",
+      "text": "Spickzettel · Motivtest · nur für EU? · § 8 Abs. 2 bis 4 AStG · auf einer Karte · + Markier-Guide § 8 AStG",
+      "bild": "op-cover"
+    },
+    {
+      "art": "text",
+      "titel": "Internationales Steuerrecht",
+      "text": "Die Karte · Substanz nachweisen · § 8 Abs. 2 S. 1 bis 3 AStG · Personal, Ausstattung, eigenverantwortlich · Nur eigene Einkünfte · § 8 Abs. 2 S. 4, 5 AStG · fremdüblich, nicht von Dritten erledigt · Nur EU und EWR · § 8 Abs. 3 AStG · Drittstaat: Test gesperrt · Auskunft nötig · § 8 Abs. 4 AStG · sonst kein Test · Am Ende: § 8 AStG markiert"
+    },
+    {
+      "art": "text",
+      "titel": "Internationales Steuerrecht",
+      "text": "Drittstaat: kein Ausweg · Passive, niedrig besteuerte Einkünfte einer Gesellschaft außerhalb von EU und EWR: Test gesperrt. · § 8 Abs. 3 AStG · Auch echte Büros und Personal helfen nicht. · Erst Katalog und Belastung unter 15 % prüfen. · § 8 Abs. 1, 5 AStG · Trotz echter Firma?"
+    },
+    {
+      "art": "text",
+      "titel": "Internationales Steuerrecht",
+      "text": "EU-Tochter oder Drittstaat? · Sitz in der EU · Substanz nachgewiesen: keine Zwischengesellschaft · § 8 Abs. 2 S. 1 AStG · Auskunftsaustausch nötig · § 8 Abs. 4 AStG · Sitz im Drittstaat · Kein Motivtest möglich · § 8 Abs. 3 AStG · Hinzurechnung beim Inländer · § 7 Abs. 1 AStG · Der Sitz entscheidet."
+    },
+    {
+      "art": "text",
+      "titel": "Internationales Steuerrecht",
+      "text": "Erst Zwischengesellschaft prüfen, · dann Substanz, Sitzstaat, Auskunft · Substanz nachweisen, · Einkünfte zuordnen, · nur EU/EWR, · Auskunft vorhanden. · Speichern für Klausur 2 · Kanntest du die Sperre? · Weiterwischen: § 8 AStG markiert"
+    },
+    {
+      "art": "text",
+      "titel": "Internationales Steuerrecht",
+      "text": "§ 8 AStG (Auszug) · Substanz · Outsourcing schadet · räumliche Grenze · Auskunftsklausel · Abs. 2 S. 2, 3: · Ausstattung, Personal, eigenverantwortlich"
+    }
+  ]
+}

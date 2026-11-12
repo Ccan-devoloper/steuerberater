@@ -1,0 +1,43 @@
+{
+  "slot": "s6",
+  "art": "norm",
+  "fach": "kst",
+  "klausur": 2,
+  "fachLabel": "Körperschaftsteuer",
+  "themaId": "kst-aufb-kst-ks-5-10",
+  "beitragSlot": null,
+  "quellen": null,
+  "titel": [
+    "Beherrschender",
+    "Gesellschafter"
+  ],
+  "norm": "R 8.5 Abs. 2 KStR",
+  "punkte": [
+    [
+      "Im Voraus, klar, wirksam vereinbart und so durchgeführt.",
+      "ok",
+      null
+    ],
+    [
+      "Fehlt das: vGA trotz angemessener Höhe.",
+      "nein",
+      "§ 8 Abs. 3 S. 2 KStG"
+    ]
+  ],
+  "sichtbareTexte": [
+    "Körperschaftsteuer",
+    "Norm des Tages",
+    "Beherrschender",
+    "Gesellschafter",
+    "R 8.5 Abs. 2 KStR",
+    "Im Voraus, klar, wirksam vereinbart und so durchgeführt.",
+    "Fehlt das: vGA trotz angemessener Höhe.",
+    "§ 8 Abs. 3 S. 2 KStG"
+  ],
+  "renderer": "open-peeps-v4",
+  "bildStatus": "open-peeps-render",
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "liveVorrangAktiv": true,
+  "regelGeprueft": true
+}

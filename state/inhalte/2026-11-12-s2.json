@@ -1,0 +1,26 @@
+{
+  "slot": "s2",
+  "art": "teaser",
+  "fach": "bilanz",
+  "klausur": 3,
+  "fachLabel": "Bilanzsteuerrecht",
+  "themaId": null,
+  "beitragSlot": "b2",
+  "quellen": null,
+  "titel": [
+    "Rückstellung steuerlich bewerten"
+  ],
+  "unter": "Prüfschema + Markier-Guide · im Profil",
+  "sichtbareTexte": [
+    "Bilanzsteuerrecht",
+    "Neu im Feed",
+    "Rückstellung steuerlich bewerten",
+    "Prüfschema + Markier-Guide · im Profil"
+  ],
+  "renderer": "open-peeps-v4",
+  "bildStatus": "open-peeps-render",
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "liveVorrangAktiv": true,
+  "regelGeprueft": true
+}

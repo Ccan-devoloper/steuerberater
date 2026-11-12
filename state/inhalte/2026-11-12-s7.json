@@ -1,0 +1,48 @@
+{
+  "slot": "s7",
+  "art": "tipp",
+  "fach": null,
+  "klausur": 0,
+  "fachLabel": "Klausurtechnik",
+  "themaId": null,
+  "beitragSlot": null,
+  "quellen": null,
+  "titel": [
+    "Ergebnis",
+    "nach vorn"
+  ],
+  "punkte": [
+    [
+      "Erst das Ergebnis, dann die Begründung",
+      "ok",
+      null
+    ],
+    [
+      "Jede Aussage mit genauer Norm",
+      "ok",
+      null
+    ],
+    [
+      "Rechnungen als Tabelle, nicht als Text",
+      "ok",
+      null
+    ]
+  ],
+  "icon": "tabler:target",
+  "iconFarbe": "GELB",
+  "sichtbareTexte": [
+    "Klausurtechnik",
+    "Klausurtipp",
+    "Ergebnis",
+    "nach vorn",
+    "Erst das Ergebnis, dann die Begründung",
+    "Jede Aussage mit genauer Norm",
+    "Rechnungen als Tabelle, nicht als Text"
+  ],
+  "renderer": "open-peeps-v4",
+  "bildStatus": "open-peeps-render",
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "liveVorrangAktiv": true,
+  "regelGeprueft": true
+}

@@ -1,0 +1,44 @@
+{
+  "slot": "s8",
+  "art": "tipp",
+  "fach": "bilanz",
+  "klausur": 3,
+  "fachLabel": "Bilanzsteuerrecht",
+  "themaId": "bilanz-karte-k3-16",
+  "beitragSlot": null,
+  "quellen": null,
+  "titel": [
+    "Firmenwert",
+    "abschreiben"
+  ],
+  "punkte": [
+    [
+      "Handelsbilanz: Nutzungsdauer, notfalls 10 Jahre",
+      "ok",
+      "§ 253 Abs. 3 S. 3, 4 HGB"
+    ],
+    [
+      "Steuerbilanz: immer 15 Jahre",
+      "warn",
+      "§ 7 Abs. 1 S. 3 EStG"
+    ]
+  ],
+  "icon": "tabler:calendar-stats",
+  "iconFarbe": "GELB",
+  "sichtbareTexte": [
+    "Bilanzsteuerrecht",
+    "Klausurtipp",
+    "Firmenwert",
+    "abschreiben",
+    "Handelsbilanz: Nutzungsdauer, notfalls 10 Jahre",
+    "§ 253 Abs. 3 S. 3, 4 HGB",
+    "Steuerbilanz: immer 15 Jahre",
+    "§ 7 Abs. 1 S. 3 EStG"
+  ],
+  "renderer": "open-peeps-v4",
+  "bildStatus": "open-peeps-render",
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "liveVorrangAktiv": true,
+  "regelGeprueft": true
+}

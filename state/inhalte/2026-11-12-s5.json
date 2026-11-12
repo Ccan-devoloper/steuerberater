@@ -1,0 +1,40 @@
+{
+  "slot": "s5",
+  "art": "antwort",
+  "fach": "ust",
+  "klausur": 1,
+  "fachLabel": "Umsatzsteuer",
+  "themaId": "ust-quiz-ust-6",
+  "beitragSlot": null,
+  "quellen": null,
+  "titel": [
+    "B: Ausgaben mit",
+    "Vorsteuerabzug"
+  ],
+  "optionen": [
+    "Halber Listenpreis wie im EStG",
+    "Ausgaben mit Vorsteuerabzug",
+    "Alle Kfz-Kosten"
+  ],
+  "richtig": 1,
+  "text": "Kosten ohne Vorsteuer, etwa Versicherung, bleiben draußen.",
+  "norm": "§ 10 Abs. 4 S. 1 Nr. 2 UStG",
+  "pairId": "ust-quiz-ust-6",
+  "sichtbareTexte": [
+    "Umsatzsteuer",
+    "Auflösung",
+    "B: Ausgaben mit",
+    "Vorsteuerabzug",
+    "Halber Listenpreis wie im EStG",
+    "Ausgaben mit Vorsteuerabzug",
+    "Alle Kfz-Kosten",
+    "Kosten ohne Vorsteuer, etwa Versicherung, bleiben draußen.",
+    "§ 10 Abs. 4 S. 1 Nr. 2 UStG"
+  ],
+  "renderer": "open-peeps-v4",
+  "bildStatus": "open-peeps-render",
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "liveVorrangAktiv": true,
+  "regelGeprueft": true
+}

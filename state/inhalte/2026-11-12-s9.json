@@ -1,0 +1,59 @@
+{
+  "slot": "s9",
+  "art": "merksatz",
+  "fach": "ao",
+  "klausur": 1,
+  "fachLabel": "Abgabenordnung",
+  "themaId": "ao-modul-ao-361",
+  "beitragSlot": null,
+  "quellen": null,
+  "titel": [
+    "Grundlagenbescheid",
+    "geändert?"
+  ],
+  "zeilen": [
+    [
+      [
+        "Folgebescheid ",
+        null
+      ],
+      [
+        "muss",
+        "a"
+      ]
+    ],
+    [
+      [
+        "angepasst werden,",
+        null
+      ]
+    ],
+    [
+      [
+        "ohne Ermessen",
+        "b"
+      ],
+      [
+        ".",
+        null
+      ]
+    ]
+  ],
+  "norm": "§ 175 Abs. 1 S. 1 Nr. 1 AO",
+  "sichtbareTexte": [
+    "Abgabenordnung",
+    "Merksatz",
+    "Grundlagenbescheid",
+    "geändert?",
+    "Folgebescheid muss",
+    "angepasst werden,",
+    "ohne Ermessen.",
+    "§ 175 Abs. 1 S. 1 Nr. 1 AO"
+  ],
+  "renderer": "open-peeps-v4",
+  "bildStatus": "open-peeps-render",
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "liveVorrangAktiv": true,
+  "regelGeprueft": true
+}

@@ -1,0 +1,85 @@
+{
+  "format": "schema",
+  "fach": "bilanz",
+  "klausur": 3,
+  "fachLabel": "Bilanzsteuerrecht",
+  "themaId": "bilanz-aufb-bil-melzer-12-04",
+  "caption": "Rückstellungen in der Steuerbilanz bewerten – das Prüfschema für die Bilanzklausur.\n\n1. Stichtagsprinzip: Wertverhältnisse am Bilanzstichtag, keine künftigen Preis- und Kostensteigerungen (§ 6 Abs. 1 Nr. 3a Buchst. f EStG); handelsrechtlich dagegen notwendiger Erfüllungsbetrag (§ 253 Abs. 1 S. 2 HGB).\n2. Kosten und Vorteile: Sachleistungsverpflichtungen mit Einzelkosten und angemessenen Teilen der notwendigen Gemeinkosten (§ 6 Abs. 1 Nr. 3a Buchst. b EStG); künftige Vorteile mindern, soweit nicht als Forderung zu aktivieren (Buchst. c); gleichartige Verpflichtungen nach Erfahrungswerten (Buchst. a).\n3. Ansammlung in gleichen Raten (Buchst. d); Abzinsung mit 5,5 %, nicht bei Laufzeit unter zwölf Monaten, Verzinslichkeit oder Anzahlung/Vorausleistung; bei Sachleistungen bis zum Beginn der Erfüllung (Buchst. e S. 1, 2).\n4. Obergrenze: höchstens der Handelsbilanzwert, außer bei Pensionsrückstellungen (R 6.11 Abs. 3 S. 1 EStR; BFH vom 20.11.2019, XI R 46/17, BStBl II 2020, 195).\n\nBeispiel: 30.000 € + 6.000 € – 10.000 € = 26.000 €; Lohnerhöhung bleibt außer Ansatz, keine Abzinsung, HB-Wert 40.000 € liegt darüber.\n\nZum Schluss: § 6 Abs. 1 Nr. 3a EStG und R 6.11 Abs. 3 EStR zum Markieren. Speichern für Klausur 3 📌",
+  "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#bilanzsteuerrecht"
+  ],
+  "quellen": [
+    "§ 6 Abs. 1 Nr. 3a Buchst. a bis f EStG",
+    "§ 253 Abs. 1 S. 2 HGB",
+    "R 6.11 Abs. 3 S. 1 EStR",
+    "BFH vom 20.11.2019, XI R 46/17, BStBl II 2020, 195"
+  ],
+  "slug": "2026-11-12-b2",
+  "kurztitel": "Welche Sonderregeln gelten für Rückstellungen in der Steuerbilanz?",
+  "regelGeprueft": true,
+  "manuellGeprueft": false,
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "textProviderKostenUsd": 0,
+  "faktencheckProviderKostenUsd": 0,
+  "bildStatus": "open-peeps-render",
+  "renderer": "open-peeps-v4",
+  "liveVorrangAktiv": true,
+  "coverBadge": "Prüfschema",
+  "folien": [
+    {
+      "art": "titel",
+      "titel": "Prüfschema",
+      "text": "Prüfschema · Rückstellung · steuerlich bewerten · § 6 Abs. 1 Nr. 3a EStG · in 4 Schritten · + Markier-Guide § 6 + R 6.11",
+      "bild": "op-cover"
+    },
+    {
+      "art": "text",
+      "titel": "Bilanzsteuerrecht",
+      "text": "Das Schema · Stichtagswerte · § 6 Abs. 1 Nr. 3a Buchst. f EStG · keine künftigen Preissteigerungen · Kosten minus Vorteile · § 6 Abs. 1 Nr. 3a Buchst. b, c EStG · Einzel- und Gemeinkosten, Vorteile ab · Ansammeln, abzinsen · § 6 Abs. 1 Nr. 3a Buchst. d, e EStG · Raten; 5,5 % ab zwölf Monaten · Deckel Handelsbilanz · R 6.11 Abs. 3 EStR · nie mehr als der HB-Wert · Am Ende: § 6 EStG + R 6.11 markiert"
+    },
+    {
+      "art": "text",
+      "titel": "Bilanzsteuerrecht",
+      "text": "1 · Stichtagswerte · Steuerlich zählen die Wertverhältnisse am Bilanzstichtag. · § 6 Abs. 1 Nr. 3a Buchst. f EStG · Künftige Preis- und Kostensteigerungen bleiben draußen. · § 6 Abs. 1 Nr. 3a Buchst. f EStG · Anders die Handelsbilanz: notwendiger Erfüllungsbetrag. · § 253 Abs. 1 S. 2 HGB · Heutige Preise!"
+    },
+    {
+      "art": "text",
+      "titel": "Bilanzsteuerrecht",
+      "text": "2 · Kosten minus Vorteile · Sachleistungen: Einzelkosten plus angemessene Teile der notwendigen Gemeinkosten. · § 6 Abs. 1 Nr. 3a Buchst. b EStG · Künftige Vorteile mindern, soweit keine Forderung aktiviert ist, etwa ein Rückgriff. · § 6 Abs. 1 Nr. 3a Buchst. c EStG · Viele gleichartige Pflichten: Erfahrungswerte nutzen. · § 6 Abs. 1 Nr. 3a Buchst. a EStG · Auch Gemeinkosten?"
+    },
+    {
+      "art": "text",
+      "titel": "Bilanzsteuerrecht",
+      "text": "3 · Ansammeln, abzinsen · Verursacht der laufende Betrieb die Pflicht: in gleichen Raten ansammeln. · § 6 Abs. 1 Nr. 3a Buchst. d EStG · Mit 5,5 % abzinsen, außer Laufzeit unter zwölf Monaten, verzinslich oder Anzahlung. · § 6 Abs. 1 Nr. 3a Buchst. e S. 1 EStG · Sachleistung: Zeit bis zum Beginn der Erfüllung. · § 6 Abs. 1 Nr. 3a Buchst. e S. 2 EStG · Laufzeit prüfen!"
+    },
+    {
+      "art": "text",
+      "titel": "Bilanzsteuerrecht",
+      "text": "4 · Deckel Handelsbilanz · Außer bei Pensionen: Die Steuerbilanz darf nie mehr ansetzen als die Handelsbilanz. · R 6.11 Abs. 3 S. 1 EStR · Bestätigt vom BFH. · BFH vom 20.11.2019, XI R 46/17, BStBl II 2020, 195 · Also beide Werte rechnen, den niedrigeren nehmen. · Der kleinere gewinnt?"
+    },
+    {
+      "art": "text",
+      "titel": "Bilanzsteuerrecht",
+      "text": "Jetzt du · Die Lindner Haustechnik KG muss im Januar eine Gewährleistungsreparatur ausführen. · Einzelkosten 30.000 €, Gemeinkosten 6.000 €, erwartete Lohnerhöhung 2.000 €. Der Lieferant ersetzt sicher 10.000 €. HB-Wert: 40.000 €. · Steuerbilanzwert? · Rechne mit!"
+    },
+    {
+      "art": "text",
+      "titel": "Bilanzsteuerrecht",
+      "text": "Lösung · § 6 Abs. 1 Nr. 3a Buchst. b, c, e, f EStG · Einzelkosten · 30.000 € · + Gemeinkosten · 6.000 € · + Lohnerhöhung · 0 € · – Rückgriff Lieferant · 10.000 € · Steuerbilanz · 26.000 € · HB 40.000 € liegt darüber: 26.000 € bleiben"
+    },
+    {
+      "art": "text",
+      "titel": "Bilanzsteuerrecht",
+      "text": "Lindner KG: Steuerbilanz 26.000 € statt 40.000 € · Ohne Steigerung, mit Rückgriff, ohne Abzinsung · Stichtag statt Zukunft, · Gemeinkosten rein, · Vorteile ab, · Handelsbilanz als Deckel. · Speichern für Klausur 3 · Welchen Schritt vergisst du? · Weiterwischen: § 6 + R 6.11 markiert"
+    },
+    {
+      "art": "text",
+      "titel": "Bilanzsteuerrecht",
+      "text": "§ 6 Abs. 1 Nr. 3a EStG (Auszug) · Obergrenze · Buchst. b · Buchst. c · Januar: nicht abzinsen · Buchst. f · R 6.11 Abs. 3 EStR (Auszug) · nicht bei Pensionen · Deckel · Lindner KG: 26.000 € · unter dem HB-Wert von 40.000 €"
+    }
+  ]
+}
