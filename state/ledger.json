@@ -22950,6 +22950,28 @@
         "Beherrschender",
         "Gesellschafter"
       ]
+    },
+    {
+      "datum": "2026-11-12",
+      "slot": "b2",
+      "medienId": "18067758857617042",
+      "veroeffentlicht": "2026-11-12T14:02:31.068Z",
+      "quelle": "vorproduktion",
+      "art": "beitrag",
+      "zeit": "13:30",
+      "stunde": 15,
+      "format": "schema",
+      "thema": "bilanz-aufb-bil-melzer-12-04",
+      "fach": "bilanz",
+      "klausur": 3,
+      "titel": "Prüfschema",
+      "hookTyp": null,
+      "hashtags": [
+        "#steuerberaterexamen",
+        "#steuerberaterprüfung",
+        "#examensvorbereitung",
+        "#bilanzsteuerrecht"
+      ]
     }
   ],
   "fachZaehler": {
@@ -22957,7 +22979,7 @@
     "ust": 19,
     "kst": 19,
     "ao": 29,
-    "bilanz": 28,
+    "bilanz": 29,
     "istr": 25,
     "erbst": 16,
     "mindset": 2,
