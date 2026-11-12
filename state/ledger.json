@@ -22899,6 +22899,28 @@
         "B: Ausgaben mit",
         "Vorsteuerabzug"
       ]
+    },
+    {
+      "datum": "2026-11-12",
+      "slot": "b1",
+      "medienId": "18147719656581324",
+      "veroeffentlicht": "2026-11-12T14:01:05.258Z",
+      "quelle": "vorproduktion",
+      "art": "beitrag",
+      "zeit": "08:30",
+      "stunde": 15,
+      "format": "spickzettel",
+      "thema": "istr-modul-istr-istr4-05",
+      "fach": "istr",
+      "klausur": 2,
+      "titel": "Spickzettel",
+      "hookTyp": null,
+      "hashtags": [
+        "#steuerberaterexamen",
+        "#steuerberaterprüfung",
+        "#examensvorbereitung",
+        "#internationalessteuerrecht"
+      ]
     }
   ],
   "fachZaehler": {
@@ -22907,7 +22929,7 @@
     "kst": 19,
     "ao": 29,
     "bilanz": 28,
-    "istr": 24,
+    "istr": 25,
     "erbst": 16,
     "mindset": 2,
     "est": 10,
