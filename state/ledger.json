@@ -23144,13 +23144,35 @@
         "Firmenwert",
         "abschreiben"
       ]
+    },
+    {
+      "datum": "2026-11-12",
+      "slot": "b3",
+      "medienId": "17990963883097405",
+      "veroeffentlicht": "2026-11-12T18:00:14.714Z",
+      "quelle": "vorproduktion",
+      "art": "beitrag",
+      "zeit": "19:00",
+      "stunde": 19,
+      "format": "reel",
+      "thema": "ao-modul-ao-358",
+      "fach": "ao",
+      "klausur": 1,
+      "titel": "§ 173 AO vertieft: Ermittlungsfehler, grobes Verschulden und Zusammenhangsklausel",
+      "hookTyp": null,
+      "hashtags": [
+        "#steuerberaterexamen",
+        "#steuerberaterprüfung",
+        "#examensvorbereitung",
+        "#abgabenordnung"
+      ]
     }
   ],
   "fachZaehler": {
     "persg": 22,
     "ust": 19,
     "kst": 19,
-    "ao": 29,
+    "ao": 30,
     "bilanz": 29,
     "istr": 25,
     "erbst": 16,
