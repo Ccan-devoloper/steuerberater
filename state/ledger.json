@@ -22884,6 +22884,21 @@
       "thema": "ust-quiz-ust-6",
       "fach": "ust",
       "titel": ""
+    },
+    {
+      "datum": "2026-11-12",
+      "slot": "s5",
+      "medienId": "18120855130950326",
+      "veroeffentlicht": "2026-11-12T14:00:12.033Z",
+      "quelle": "vorproduktion",
+      "art": "story",
+      "storyArt": "antwort",
+      "thema": "ust-quiz-ust-6",
+      "fach": "ust",
+      "titel": [
+        "B: Ausgaben mit",
+        "Vorsteuerabzug"
+      ]
     }
   ],
   "fachZaehler": {
