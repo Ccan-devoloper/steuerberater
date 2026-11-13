@@ -1,0 +1,85 @@
+{
+  "format": "minifall",
+  "fach": "persg",
+  "klausur": 3,
+  "fachLabel": "Personengesellschaften",
+  "themaId": "persg-aufb-persg-melzer-2-2",
+  "caption": "Mini-Fall Personengesellschaften: Maschine in die KG – Buchwert oder Gewinn?\n\n▸ Überführung: Das Wirtschaftsgut bleibt beim selben Steuerpflichtigen, auch zwischen eigenem Betriebsvermögen und Sonderbetriebsvermögen (§ 6 Abs. 5 S. 1, 2 EStG).\n▸ Übertragung: Der Rechtsträger wechselt, z. B. in das Gesamthandsvermögen der KG. Buchwert nur, soweit keine Gegenleistung fließt oder allein Gesellschaftsrechte gewährt bzw. gemindert werden (§ 6 Abs. 5 S. 3 Nr. 1 EStG) und die stillen Reserven steuerverhaftet bleiben (§ 6 Abs. 5 S. 1 EStG).\n▸ Lösung: Gutschrift auf dem Kapitalkonto I = Gesellschaftsrechte → Buchwert 20.000 €, kein Gewinn.\n▸ Sperrfrist: Veräußerung oder Entnahme innerhalb von drei Jahren nach Abgabe der Erklärung des Übertragenden für das Übertragungsjahr führt rückwirkend zum Teilwert, außer eine Ergänzungsbilanz ordnet die stillen Reserven dem Übertragenden zu (§ 6 Abs. 5 S. 4 EStG).\n▸ Variante Schuldübernahme: teilentgeltlich, nach Verwaltungsauffassung Aufteilung im Verhältnis Entgelt zu Verkehrswert (BMF vom 08.12.2011, Rn. 15): 50 % entgeltlich → 25.000 € – 10.000 € = 15.000 € laufender Gewinn, Rest zum Buchwert. Abweichend BFH vom 19.09.2012, IV R 11/12 (nicht im BStBl II veröffentlicht, Verwaltung folgt nicht) und BFH vom 11.12.2025, IV R 17/23 (noch nicht im BStBl II): modifizierte Trennungstheorie, Gewinn nur, soweit das Entgelt den gesamten Buchwert übersteigt – hier 25.000 € − 20.000 € = 5.000 €. Klausurlösung bleibt Rn. 15.\n\nZum Schluss: § 6 Abs. 5 EStG und BMF vom 08.12.2011, Rn. 15 zum Markieren. Speichern für Klausur 3 📌",
+  "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#personengesellschaften"
+  ],
+  "quellen": [
+    "§ 6 Abs. 5 S. 1 bis 4 EStG",
+    "BMF vom 08.12.2011, Rn. 15",
+    "BFH vom 19.09.2012, IV R 11/12",
+    "BFH vom 11.12.2025, IV R 17/23"
+  ],
+  "slug": "2026-11-13-b1",
+  "kurztitel": "Überführung oder Übertragung nach § 6 Abs. 5 EStG?",
+  "regelGeprueft": true,
+  "manuellGeprueft": false,
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "textProviderKostenUsd": 0,
+  "faktencheckProviderKostenUsd": 0,
+  "bildStatus": "open-peeps-render",
+  "renderer": "open-peeps-v4",
+  "liveVorrangAktiv": true,
+  "coverBadge": "Mini-Fall",
+  "folien": [
+    {
+      "art": "titel",
+      "titel": "Mini-Fall",
+      "text": "Mini-Fall · Maschine in die KG: · Buchwert? · § 6 Abs. 5 EStG · Ein Fall · + Markier-Guide § 6 + BMF · Hobelmaschine · 20.000 € · Teilwert 50.000 €",
+      "bild": "op-cover"
+    },
+    {
+      "art": "text",
+      "titel": "Personengesellschaften",
+      "text": "Der Fall · Ronja führt eine Tischlerei und ist Kommanditistin der Holzhandel KG. · Sie bringt eine Hobelmaschine in die Gesamthand der KG ein: Buchwert 20.000 €, Teilwert 50.000 €, Kapitalkonto I plus 50.000 €. · Muss sie 30.000 € versteuern? · Ohne Geld?"
+    },
+    {
+      "art": "text",
+      "titel": "Personengesellschaften",
+      "text": "Überführung oder Übertragung? · Überführung · Wirtschaftsgut bleibt bei derselben Person, etwa im Sonderbetriebsvermögen · § 6 Abs. 5 S. 1, 2 EStG · Übertragung · Rechtsträger wechselt, etwa in die Gesamthand der KG · § 6 Abs. 5 S. 3 EStG · Wer ist Eigentümer?"
+    },
+    {
+      "art": "text",
+      "titel": "Personengesellschaften",
+      "text": "Lösung · Die KG wird Eigentümerin: Übertragung aus Ronjas Betriebsvermögen in die Gesamthand. · § 6 Abs. 5 S. 3 Nr. 1 EStG · Gegenleistung sind Gesellschaftsrechte: Kapitalkonto I. · Buchwert 20.000 € ist zwingend, die Besteuerung bleibt gesichert. Kein Gewinn. · § 6 Abs. 5 S. 1 EStG · Also steuerneutral!"
+    },
+    {
+      "art": "text",
+      "titel": "Personengesellschaften",
+      "text": "Die Sperrfrist · Verkauft die KG die Maschine innerhalb der Sperrfrist, gilt rückwirkend der Teilwert. · § 6 Abs. 5 S. 4 EStG · Frist: drei Jahre nach Abgabe von Ronjas Erklärung für das Übertragungsjahr. · § 6 Abs. 5 S. 4 EStG · Ausweg: Ergänzungsbilanz für Ronja. · Nicht ab Übertragung zählen!"
+    },
+    {
+      "art": "text",
+      "titel": "Personengesellschaften",
+      "text": "Jetzt du · Variante: Die KG übernimmt zusätzlich ein Darlehen von 25.000 €, mit dem Ronja die Maschine finanziert hat. · Der Rest von 25.000 € wird ihrem Kapitalkonto I gutgeschrieben. · Was ändert sich? · Schulden zählen mit?"
+    },
+    {
+      "art": "text",
+      "titel": "Personengesellschaften",
+      "text": "Lösung der Variante · BMF vom 08.12.2011, Rn. 15 · Entgelt 25.000 € von 50.000 € · 50 % · Erlös (Schuldübernahme) · 25.000 € · – anteiliger Buchwert · 10.000 € · laufender Gewinn · 15.000 € · übrige Hälfte zum Buchwert · 10.000 € · Schuldübernahme ist Entgelt"
+    },
+    {
+      "art": "text",
+      "titel": "Personengesellschaften",
+      "text": "Grundfall: Buchwert, kein Gewinn · Variante: 15.000 € Gewinn, Rest zum Buchwert · Rechtsträger wechselt? · Gegenleistung prüfen, · Schulden sind Entgelt, · Sperrfrist merken. · Speichern für Klausur 3 · Hättest du das Darlehen gesehen? · Weiterwischen: § 6 Abs. 5 + BMF markiert"
+    },
+    {
+      "art": "text",
+      "titel": "Personengesellschaften",
+      "text": "§ 6 Abs. 5 EStG (Auszug) · nur diese Gegenleistung · neuer Träger · Sperrfrist · Rettung · S. 4 a. E.: Fristende · drei Jahre nach Abgabe der Erklärung"
+    },
+    {
+      "art": "text",
+      "titel": "Personengesellschaften",
+      "text": "BMF vom 08.12.2011, Rn. 15 (Auszug) · Darlehen = Entgelt · 50 % entgeltlich · Rest zum Buchwert · 15.000 € Gewinn · BFH IV R 11/12, IV R 17/23: nicht im BStBl II · Verwaltung folgt nicht, Klausur: Rn. 15"
+    }
+  ]
+}

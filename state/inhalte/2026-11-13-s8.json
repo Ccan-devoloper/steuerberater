@@ -1,0 +1,44 @@
+{
+  "slot": "s8",
+  "art": "tipp",
+  "fach": "ust",
+  "klausur": 1,
+  "fachLabel": "Umsatzsteuer",
+  "themaId": "ust-aufb-ust-m-b11-8",
+  "beitragSlot": null,
+  "quellen": null,
+  "titel": [
+    "Gemischt genutzt:",
+    "zuordnen?"
+  ],
+  "punkte": [
+    [
+      "Unter 10 % unternehmerisch: keine Zuordnung",
+      "nein",
+      "§ 15 Abs. 1 S. 2 UStG"
+    ],
+    [
+      "Ganz zugeordnet (kein Gebäude): voller Vorsteuerabzug, Privatnutzung versteuern",
+      "warn",
+      "§ 3 Abs. 9a Nr. 1 UStG"
+    ]
+  ],
+  "icon": "tabler:car",
+  "iconFarbe": "GELB",
+  "sichtbareTexte": [
+    "Umsatzsteuer",
+    "Klausurtipp",
+    "Gemischt genutzt:",
+    "zuordnen?",
+    "Unter 10 % unternehmerisch: keine Zuordnung",
+    "§ 15 Abs. 1 S. 2 UStG",
+    "Ganz zugeordnet (kein Gebäude): voller Vorsteuerabzug, Privatnutzung versteuern",
+    "§ 3 Abs. 9a Nr. 1 UStG"
+  ],
+  "renderer": "open-peeps-v4",
+  "bildStatus": "open-peeps-render",
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "liveVorrangAktiv": true,
+  "regelGeprueft": true
+}

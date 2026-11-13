@@ -1,0 +1,83 @@
+{
+  "format": "kurzvortrag",
+  "fach": "ao",
+  "klausur": 1,
+  "fachLabel": "Abgabenordnung",
+  "themaId": "ao-modul-ao-362",
+  "caption": "Kurzvortrag für die mündliche Prüfung: das rückwirkende Ereignis nach § 175 Abs. 1 S. 1 Nr. 2 AO – in 10 Minuten.\n\nGliederung: Einstieg (1 Min.) · Tatbestand (4 Min.) · Grenzfälle (3 Min.) · Frist und Fazit (2 Min.).\n\n1. Einstieg: Bestandskräftige Bescheide sind nur zu ändern, soweit es gesetzlich zugelassen ist (§ 172 Abs. 1 S. 1 Nr. 2 Buchst. d AO).\n2. Tatbestand: Ereignis nach Erlass des Bescheids mit steuerlicher Wirkung für die Vergangenheit (§ 175 Abs. 1 S. 1 Nr. 2 AO); ob es zurückwirkt, richtet sich nach dem jeweiligen Steuergesetz (BFH vom 19.07.1993, GrS 2/92, BStBl II 1993, 897).\n3. Abgrenzung: War die Tatsache schon bei Bescheiderlass vorhanden, gilt § 173 AO.\n4. Grenzfälle: Wegfall einer zeitgebundenen Voraussetzung einer Steuervergünstigung gilt als rückwirkendes Ereignis (§ 175 Abs. 2 S. 1 AO); die nachträgliche Vorlage einer Bescheinigung nicht (§ 175 Abs. 2 S. 2 AO).\n5. Frist: Beginn mit Ablauf des Kalenderjahrs des Ereignisses (§ 175 Abs. 1 S. 2 AO), Dauer regelmäßig vier Jahre (§ 169 Abs. 2 S. 1 Nr. 2 AO).\n\nTypische Nachfrage: übermittelte Daten Dritter nicht oder falsch berücksichtigt → § 175b Abs. 1 AO.\n\nSpeichern für die Mündliche 📌",
+  "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#abgabenordnung"
+  ],
+  "quellen": [
+    "§ 172 Abs. 1 S. 1 Nr. 2 Buchst. d AO",
+    "§ 173 Abs. 1 AO",
+    "§ 175 Abs. 1 S. 1 Nr. 2, S. 2 AO",
+    "§ 175 Abs. 2 S. 1, 2 AO",
+    "§ 175b Abs. 1 AO",
+    "§ 169 Abs. 2 S. 1 Nr. 2 AO",
+    "BFH vom 19.07.1993, GrS 2/92, BStBl II 1993, 897"
+  ],
+  "slug": "2026-11-13-b2",
+  "kurztitel": "§ 175 Abs. 1 Nr. 2 AO: rückwirkendes Ereignis, punktuelle Frist und eDaten-Pärchen",
+  "regelGeprueft": true,
+  "manuellGeprueft": false,
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "textProviderKostenUsd": 0,
+  "faktencheckProviderKostenUsd": 0,
+  "bildStatus": "open-peeps-render",
+  "renderer": "open-peeps-v4",
+  "liveVorrangAktiv": true,
+  "coverBadge": "Kurzvortrag",
+  "folien": [
+    {
+      "art": "titel",
+      "titel": "Kurzvortrag",
+      "text": "Kurzvortrag · Rückwirkendes · Ereignis · § 175 Abs. 1 S. 1 Nr. 2 AO · in 10 Minuten · + Markier-Guide § 175 AO",
+      "bild": "op-cover"
+    },
+    {
+      "art": "text",
+      "titel": "Abgabenordnung",
+      "text": "Gliederung: 10 Minuten · Einstieg (1 Min.) · § 172 Abs. 1 S. 1 Nr. 2 Buchst. d AO · Bestandskraft und Korrektur · Tatbestand (4 Min.) · § 175 Abs. 1 S. 1 Nr. 2 AO · nach dem Bescheid, Wirkung zurück · Grenzfälle (3 Min.) · § 175 Abs. 2 AO · Vergünstigung, Bescheinigung · Frist, Fazit (2 Min.) · § 175 Abs. 1 S. 2 AO · eigener Fristbeginn · Am Ende: § 175 AO markiert"
+    },
+    {
+      "art": "text",
+      "titel": "Abgabenordnung",
+      "text": "Kern: der Tatbestand · Ein Ereignis tritt erst nach Erlass des Bescheids ein. · § 175 Abs. 1 S. 1 Nr. 2 AO · Es wirkt steuerlich auf die Vergangenheit zurück. Ob es das tut, sagt das jeweilige Steuergesetz. · BFH vom 19.07.1993, GrS 2/92 · Änderung zugunsten und zuungunsten, aber nur „soweit“. · Zeitpunkt zuerst!"
+    },
+    {
+      "art": "text",
+      "titel": "Abgabenordnung",
+      "text": "Abgrenzung zu § 173 AO · Schon vorher da · Tatsache lag bei Bescheiderlass vor, war nur unbekannt · § 173 Abs. 1 AO · Erst danach · Ereignis entsteht nach dem Bescheid und wirkt zurück · § 175 Abs. 1 S. 1 Nr. 2 AO · Vorher oder nachher?"
+    },
+    {
+      "art": "text",
+      "titel": "Abgabenordnung",
+      "text": "Beispiele und Grenzfälle · Kaufpreis für einen verkauften Betrieb fällt später aus: Der Veräußerungsgewinn sinkt rückwirkend. · BFH vom 19.07.1993, GrS 2/92 · Eine zeitgebundene Voraussetzung einer Vergünstigung fällt weg. · § 175 Abs. 2 S. 1 AO · Nicht: eine Bescheinigung wird nachgereicht. · § 175 Abs. 2 S. 2 AO · Ein Beispiel parat haben!"
+    },
+    {
+      "art": "text",
+      "titel": "Abgabenordnung",
+      "text": "Eigene Festsetzungsfrist · Die Frist beginnt mit Ablauf des Jahres, in dem das Ereignis eintritt. · § 175 Abs. 1 S. 2 AO · Beispiel: Ereignis im Mai 2029, Frist beginnt mit Ablauf 2029, endet am 31.12.2033. · § 169 Abs. 2 S. 1 Nr. 2 AO · Daher kein Fristproblem."
+    },
+    {
+      "art": "text",
+      "titel": "Abgabenordnung",
+      "text": "Nachfragen der Prüfer · „Gilt das auch zugunsten?“ Ja, die Norm wirkt in beide Richtungen. · § 175 Abs. 1 S. 1 AO · „Und falsch übernommene Daten Dritter, etwa vom Arbeitgeber?“ Dafür gibt es eine eigene Korrektur. · § 175b Abs. 1 AO · Und eDaten?"
+    },
+    {
+      "art": "text",
+      "titel": "Abgabenordnung",
+      "text": "Zeitplan: 1 · 4 · 3 · 2 Minuten · Kern: Ereignis nach dem Bescheid mit Rückwirkung · nach dem Bescheid, · Rückwirkung aus dem · Steuergesetz, · Frist ab Ereignisjahr. · Speichern für die Mündliche · Welche Nachfrage käme bei dir? · Weiterwischen: § 175 AO markiert"
+    },
+    {
+      "art": "text",
+      "titel": "Abgabenordnung",
+      "text": "§ 175 AO (Auszug) · nach dem Bescheid · Rückwirkung · eigener Fristbeginn · kein Ereignis · In der Mündlichen nur das Gesetz · Richtlinien und Erlasse sind dort nicht dabei"
+    }
+  ]
+}

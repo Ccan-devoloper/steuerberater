@@ -1,0 +1,66 @@
+{
+  "slot": "s9",
+  "art": "merksatz",
+  "fach": "istr",
+  "klausur": 2,
+  "fachLabel": "Internationales Steuerrecht",
+  "themaId": "istr-modul-istr-istr4-08",
+  "beitragSlot": null,
+  "quellen": null,
+  "titel": [
+    "Doppelt belastet?",
+    "Zwei Entlastungen"
+  ],
+  "zeilen": [
+    [
+      [
+        "§ 12",
+        "a"
+      ],
+      [
+        ": Auslandssteuer",
+        null
+      ]
+    ],
+    [
+      [
+        "sofort anrechnen,",
+        null
+      ]
+    ],
+    [
+      [
+        "§ 11",
+        "b"
+      ],
+      [
+        ": bei Ausschüttung",
+        null
+      ]
+    ],
+    [
+      [
+        "später kürzen.",
+        null
+      ]
+    ]
+  ],
+  "norm": "§§ 11, 12 AStG",
+  "sichtbareTexte": [
+    "Internationales Steuerrecht",
+    "Merksatz",
+    "Doppelt belastet?",
+    "Zwei Entlastungen",
+    "§ 12: Auslandssteuer",
+    "sofort anrechnen,",
+    "§ 11: bei Ausschüttung",
+    "später kürzen.",
+    "§§ 11, 12 AStG"
+  ],
+  "renderer": "open-peeps-v4",
+  "bildStatus": "open-peeps-render",
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "liveVorrangAktiv": true,
+  "regelGeprueft": true
+}

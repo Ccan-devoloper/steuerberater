@@ -1,0 +1,42 @@
+{
+  "slot": "s6",
+  "art": "norm",
+  "fach": "persg",
+  "klausur": 3,
+  "fachLabel": "Personengesellschaften",
+  "themaId": "persg-aufb-persg-melzer-2-4",
+  "beitragSlot": null,
+  "quellen": null,
+  "titel": [
+    "Buchwert",
+    "und bald verkauft?"
+  ],
+  "norm": "§ 6 Abs. 5 S. 4 EStG",
+  "punkte": [
+    [
+      "Verkauf in der Sperrfrist: rückwirkend Teilwert.",
+      "warn",
+      null
+    ],
+    [
+      "Nicht bei Ergänzungsbilanz für den Übertragenden.",
+      "ok",
+      null
+    ]
+  ],
+  "sichtbareTexte": [
+    "Personengesellschaften",
+    "Norm des Tages",
+    "Buchwert",
+    "und bald verkauft?",
+    "§ 6 Abs. 5 S. 4 EStG",
+    "Verkauf in der Sperrfrist: rückwirkend Teilwert.",
+    "Nicht bei Ergänzungsbilanz für den Übertragenden."
+  ],
+  "renderer": "open-peeps-v4",
+  "bildStatus": "open-peeps-render",
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "liveVorrangAktiv": true,
+  "regelGeprueft": true
+}

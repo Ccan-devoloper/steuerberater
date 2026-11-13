@@ -1,0 +1,61 @@
+{
+  "format": "reel",
+  "fach": "istr",
+  "klausur": 2,
+  "fachLabel": "Internationales Steuerrecht",
+  "themaId": "istr-modul-istr-istr4-06",
+  "caption": "Hinzurechnungsbesteuerung: Wann bleiben passive Auslandseinkünfte außer Ansatz? 🌍\n\n▸ Bagatellgrenze: Die Zwischeneinkünfte dürfen höchstens ein Drittel aller Einkünfte der Auslandsgesellschaft ausmachen und zusammen 100.000 € nicht überschreiten – dann bleiben sie unberücksichtigt (§ 9 AStG).\n▸ Diese Fassung gilt für Zwischeneinkünfte aus Wirtschaftsjahren, die nach dem 31.12.2025 beginnen (§ 21 Abs. 9 S. 1 AStG); zuvor galten 10 % und 80.000 €.\n▸ Beispiel: 90.000 € von 300.000 € = 30 % und unter 100.000 € → keine Hinzurechnung.\n▸ Achtung, Freigrenze: Schon ein Euro zu viel, und die gesamten Zwischeneinkünfte fallen unter § 7 Abs. 1 AStG.\n\nSpeichern für Klausur 2 📌",
+  "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#internationalessteuerrecht"
+  ],
+  "quellen": [
+    "§ 9 AStG",
+    "§ 21 Abs. 9 S. 1 AStG",
+    "§ 7 Abs. 1 AStG"
+  ],
+  "slug": "2026-11-13-b3",
+  "kurztitel": "§ 9 AStG: relative und absolute Freigrenze",
+  "regelGeprueft": true,
+  "manuellGeprueft": false,
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "textProviderKostenUsd": 0,
+  "faktencheckProviderKostenUsd": 0,
+  "bildStatus": "open-peeps-render",
+  "renderer": "open-peeps-v4",
+  "liveVorrangAktiv": true,
+  "bild": "op-cover",
+  "reelTyp": "rechnung",
+  "hookStil": "split",
+  "coverBadge": "Reel",
+  "szenen": [
+    {
+      "art": "hook",
+      "titel": "90.000 € passiv: Hinzurechnung?"
+    },
+    {
+      "art": "schritt",
+      "titel": "Die Zahlen"
+    },
+    {
+      "art": "schritt",
+      "titel": "Die Rechnung"
+    },
+    {
+      "art": "schritt",
+      "titel": "Die Falle"
+    }
+  ],
+  "sprecher": [
+    "Neunzigtausend Euro passive Einkünfte im Ausland: Hinzurechnung? Zwei Grenzen entscheiden.",
+    "Die Auslandsgesellschaft erzielt dreihunderttausend Euro Einkünfte, davon neunzigtausend passiv und niedrig besteuert.",
+    "Das sind dreißig Prozent, also unter einem Drittel. Und unter hunderttausend Euro. Beide Grenzen gehalten: keine Hinzurechnung.",
+    "Bei hundertzwanzigtausend wird alles hinzugerechnet. Freigrenze, kein Freibetrag.",
+    "Merke: ein Drittel und hunderttausend Euro, beide einhalten."
+  ],
+  "dauerS": 37.169,
+  "tempo": 1
+}

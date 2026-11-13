@@ -1,0 +1,35 @@
+{
+  "slot": "s4",
+  "art": "frage",
+  "fach": "gewst",
+  "klausur": 2,
+  "fachLabel": "Gewerbesteuer",
+  "themaId": null,
+  "beitragSlot": null,
+  "quellen": null,
+  "frage": [
+    "Büromiete 120.000 €:",
+    "Was wird hinzugerechnet?"
+  ],
+  "optionen": [
+    "Die Hälfte, also 60.000 €",
+    "Ein Fünftel, also 24.000 €",
+    "Die volle Miete"
+  ],
+  "sichtbareTexte": [
+    "Gewerbesteuer",
+    "Prüfungsfrage",
+    "Büromiete 120.000 €:",
+    "Was wird hinzugerechnet?",
+    "Die Hälfte, also 60.000 €",
+    "Ein Fünftel, also 24.000 €",
+    "Die volle Miete",
+    "Auflösung in der nächsten Story"
+  ],
+  "renderer": "open-peeps-v4",
+  "bildStatus": "open-peeps-render",
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "liveVorrangAktiv": true,
+  "regelGeprueft": true
+}

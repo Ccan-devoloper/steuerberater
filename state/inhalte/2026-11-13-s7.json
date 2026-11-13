@@ -1,0 +1,48 @@
+{
+  "slot": "s7",
+  "art": "tipp",
+  "fach": null,
+  "klausur": 0,
+  "fachLabel": "Klausurtechnik",
+  "themaId": null,
+  "beitragSlot": null,
+  "quellen": null,
+  "titel": [
+    "Gesetz offen,",
+    "nicht im Kopf"
+  ],
+  "punkte": [
+    [
+      "Jede Norm aufschlagen, nicht zitieren aus dem Gedächtnis",
+      "ok",
+      null
+    ],
+    [
+      "Absatz, Satz, Nummer genau angeben",
+      "ok",
+      null
+    ],
+    [
+      "Tatbestand am Wortlaut prüfen",
+      "ok",
+      null
+    ]
+  ],
+  "icon": "tabler:book",
+  "iconFarbe": "GELB",
+  "sichtbareTexte": [
+    "Klausurtechnik",
+    "Klausurtipp",
+    "Gesetz offen,",
+    "nicht im Kopf",
+    "Jede Norm aufschlagen, nicht zitieren aus dem Gedächtnis",
+    "Absatz, Satz, Nummer genau angeben",
+    "Tatbestand am Wortlaut prüfen"
+  ],
+  "renderer": "open-peeps-v4",
+  "bildStatus": "open-peeps-render",
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "liveVorrangAktiv": true,
+  "regelGeprueft": true
+}
