@@ -23510,6 +23510,21 @@
       },
       "insightsStand": "2026-11-13T14:45:01.044Z",
       "insightsAlterStunden": 1.1
+    },
+    {
+      "datum": "2026-11-13",
+      "slot": "s8",
+      "medienId": "17866371603696458",
+      "veroeffentlicht": "2026-11-13T16:04:05.416Z",
+      "quelle": "vorproduktion",
+      "art": "story",
+      "storyArt": "tipp",
+      "thema": "ust-aufb-ust-m-b11-8",
+      "fach": "ust",
+      "titel": [
+        "Gemischt genutzt:",
+        "zuordnen?"
+      ]
     }
   ],
   "fachZaehler": {
