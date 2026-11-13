@@ -23402,13 +23402,35 @@
         "Buchwert",
         "und bald verkauft?"
       ]
+    },
+    {
+      "datum": "2026-11-13",
+      "slot": "b2",
+      "medienId": "18119209112520104",
+      "veroeffentlicht": "2026-11-13T12:30:06.196Z",
+      "quelle": "vorproduktion",
+      "art": "beitrag",
+      "zeit": "13:30",
+      "stunde": 13,
+      "format": "kurzvortrag",
+      "thema": "ao-modul-ao-362",
+      "fach": "ao",
+      "klausur": 1,
+      "titel": "Kurzvortrag",
+      "hookTyp": null,
+      "hashtags": [
+        "#steuerberaterexamen",
+        "#steuerberaterprüfung",
+        "#examensvorbereitung",
+        "#abgabenordnung"
+      ]
     }
   ],
   "fachZaehler": {
     "persg": 23,
     "ust": 19,
     "kst": 19,
-    "ao": 30,
+    "ao": 31,
     "bilanz": 29,
     "istr": 25,
     "erbst": 16,
