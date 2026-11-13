@@ -21861,7 +21861,7 @@
         "#personengesellschaften"
       ],
       "insights": {
-        "reach": 170,
+        "reach": 181,
         "saved": 4,
         "shares": 0,
         "likes": 5,
@@ -21870,8 +21870,8 @@
         "follows": 1,
         "profile_visits": 4
       },
-      "insightsStand": "2026-11-12T18:12:08.450Z",
-      "insightsAlterStunden": 77.7
+      "insightsStand": "2026-11-13T18:45:51.496Z",
+      "insightsAlterStunden": 102.3
     },
     {
       "datum": "2026-11-09",
@@ -23346,7 +23346,7 @@
         "#personengesellschaften"
       ],
       "insights": {
-        "reach": 85,
+        "reach": 97,
         "saved": 1,
         "shares": 1,
         "likes": 1,
@@ -23355,8 +23355,8 @@
         "follows": 0,
         "profile_visits": 0
       },
-      "insightsStand": "2026-11-13T15:44:29.400Z",
-      "insightsAlterStunden": 8.2
+      "insightsStand": "2026-11-13T18:45:51.496Z",
+      "insightsAlterStunden": 11.3
     },
     {
       "datum": "2026-11-13",
@@ -23501,20 +23501,22 @@
         "nicht im Kopf"
       ],
       "insights": {
-        "reach": 8,
-        "views": 16,
+        "reach": 42,
+        "views": 54,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
-        "profile_visits": 0,
+        "profile_visits": 1,
         "profile_activity": 0,
-        "navigation": 10,
-        "navigation_tap_forward": 7,
-        "navigation_tap_exit": 3
+        "navigation": 48,
+        "navigation_tap_exit": 6,
+        "navigation_tap_forward": 39,
+        "navigation_tap_back": 2,
+        "navigation_swipe_forward": 1
       },
-      "insightsStand": "2026-11-13T14:45:01.044Z",
-      "insightsAlterStunden": 1.1
+      "insightsStand": "2026-11-13T18:45:50.018Z",
+      "insightsAlterStunden": 5.1
     },
     {
       "datum": "2026-11-13",
@@ -23567,7 +23569,21 @@
         "#steuerberaterprüfung",
         "#examensvorbereitung",
         "#internationalessteuerrecht"
-      ]
+      ],
+      "insights": {
+        "reach": 49,
+        "saved": 2,
+        "shares": 0,
+        "likes": 1,
+        "comments": 0,
+        "total_interactions": 3,
+        "views": 132,
+        "ig_reels_avg_watch_time": 8814,
+        "ig_reels_video_view_total_time": 414287,
+        "reels_skip_rate": 29.5
+      },
+      "insightsStand": "2026-11-13T18:45:51.496Z",
+      "insightsAlterStunden": 0.8
     },
     {
       "datum": "2026-11-13",
