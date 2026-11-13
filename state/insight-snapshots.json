@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "stand": "2026-11-13T11:46:13.174Z",
+  "stand": "2026-11-13T12:30:24.180Z",
   "medien": {
     "18093399314208242": {
       "art": "beitrag",
@@ -75719,6 +75719,23 @@
           "navigation_tap_back": 4,
           "navigation_tap_forward": 52,
           "navigation_tap_exit": 7
+        },
+        {
+          "stand": "2026-11-13T12:30:20.598Z",
+          "alterStunden": 20.4,
+          "reach": 63,
+          "views": 79,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 69,
+          "navigation_swipe_forward": 2,
+          "navigation_tap_back": 4,
+          "navigation_tap_forward": 56,
+          "navigation_tap_exit": 7
         }
       ]
     },
@@ -76075,6 +76092,48 @@
           "total_interactions": 1,
           "follows": 0,
           "profile_visits": 0
+        },
+        {
+          "stand": "2026-11-13T12:30:24.180Z",
+          "alterStunden": 5,
+          "reach": 73,
+          "saved": 0,
+          "shares": 0,
+          "likes": 1,
+          "comments": 0,
+          "total_interactions": 1,
+          "follows": 0,
+          "profile_visits": 0
+        }
+      ]
+    },
+    "18130196273512763": {
+      "art": "story",
+      "datum": "2026-11-13",
+      "titel": [
+        "Buchwert",
+        "und bald verkauft?"
+      ],
+      "format": null,
+      "fach": "persg",
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-11-13T11:14:06.753Z",
+      "snapshots": [
+        {
+          "stand": "2026-11-13T12:30:20.598Z",
+          "alterStunden": 1.3,
+          "reach": 12,
+          "views": 14,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 12,
+          "navigation_tap_exit": 3,
+          "navigation_tap_forward": 9
         }
       ]
     }
