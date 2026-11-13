@@ -23546,6 +23546,28 @@
       },
       "insightsStand": "2026-11-13T17:44:25.620Z",
       "insightsAlterStunden": 1.7
+    },
+    {
+      "datum": "2026-11-13",
+      "slot": "b3",
+      "medienId": "17904773832607840",
+      "veroeffentlicht": "2026-11-13T18:00:10.053Z",
+      "quelle": "vorproduktion",
+      "art": "beitrag",
+      "zeit": "19:00",
+      "stunde": 19,
+      "format": "reel",
+      "thema": "istr-modul-istr-istr4-06",
+      "fach": "istr",
+      "klausur": 2,
+      "titel": "§ 9 AStG: relative und absolute Freigrenze",
+      "hookTyp": null,
+      "hashtags": [
+        "#steuerberaterexamen",
+        "#steuerberaterprüfung",
+        "#examensvorbereitung",
+        "#internationalessteuerrecht"
+      ]
     }
   ],
   "fachZaehler": {
@@ -23554,7 +23576,7 @@
     "kst": 19,
     "ao": 31,
     "bilanz": 29,
-    "istr": 25,
+    "istr": 26,
     "erbst": 16,
     "mindset": 2,
     "est": 10,
