@@ -23271,7 +23271,23 @@
       "storyArt": "frage",
       "thema": null,
       "fach": "gewst",
-      "titel": ""
+      "titel": "",
+      "insights": {
+        "reach": 21,
+        "views": 28,
+        "shares": 0,
+        "total_interactions": 0,
+        "replies": 0,
+        "follows": 0,
+        "profile_visits": 0,
+        "profile_activity": 0,
+        "navigation": 25,
+        "navigation_tap_forward": 21,
+        "navigation_tap_back": 2,
+        "navigation_tap_exit": 2
+      },
+      "insightsStand": "2026-11-13T07:30:19.887Z",
+      "insightsAlterStunden": 1.4
     },
     {
       "datum": "2026-11-13",
@@ -23286,7 +23302,23 @@
       "titel": [
         "A: die Hälfte",
         "der Miete"
-      ]
+      ],
+      "insights": {
+        "reach": 20,
+        "views": 26,
+        "shares": 0,
+        "total_interactions": 0,
+        "replies": 0,
+        "follows": 0,
+        "profile_visits": 0,
+        "profile_activity": 0,
+        "navigation": 23,
+        "navigation_swipe_forward": 1,
+        "navigation_tap_back": 3,
+        "navigation_tap_forward": 19
+      },
+      "insightsStand": "2026-11-13T07:30:19.887Z",
+      "insightsAlterStunden": 1.4
     },
     {
       "datum": "2026-11-13",
