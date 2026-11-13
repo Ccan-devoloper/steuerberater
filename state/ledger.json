@@ -22960,17 +22960,17 @@
         "#internationalessteuerrecht"
       ],
       "insights": {
-        "reach": 99,
-        "saved": 2,
+        "reach": 111,
+        "saved": 3,
         "shares": 0,
         "likes": 1,
         "comments": 0,
-        "total_interactions": 3,
+        "total_interactions": 4,
         "follows": 0,
         "profile_visits": 0
       },
-      "insightsStand": "2026-11-13T11:46:12.214Z",
-      "insightsAlterStunden": 21.8
+      "insightsStand": "2026-11-13T20:40:44.675Z",
+      "insightsAlterStunden": 30.7
     },
     {
       "datum": "2026-11-12",
@@ -23057,7 +23057,7 @@
         "#bilanzsteuerrecht"
       ],
       "insights": {
-        "reach": 91,
+        "reach": 101,
         "saved": 1,
         "shares": 0,
         "likes": 1,
@@ -23066,8 +23066,8 @@
         "follows": 0,
         "profile_visits": 0
       },
-      "insightsStand": "2026-11-13T11:46:12.214Z",
-      "insightsAlterStunden": 21.7
+      "insightsStand": "2026-11-13T20:40:44.675Z",
+      "insightsAlterStunden": 30.6
     },
     {
       "datum": "2026-11-12",
@@ -23275,22 +23275,22 @@
       "fach": "gewst",
       "titel": "",
       "insights": {
-        "reach": 53,
-        "views": 77,
+        "reach": 86,
+        "views": 119,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 68,
-        "navigation_swipe_forward": 1,
-        "navigation_tap_forward": 58,
+        "navigation": 100,
+        "navigation_swipe_forward": 5,
+        "navigation_tap_forward": 80,
         "navigation_tap_back": 5,
-        "navigation_tap_exit": 4
+        "navigation_tap_exit": 10
       },
-      "insightsStand": "2026-11-13T16:04:06.661Z",
-      "insightsAlterStunden": 10
+      "insightsStand": "2026-11-13T20:40:41.361Z",
+      "insightsAlterStunden": 14.6
     },
     {
       "datum": "2026-11-13",
@@ -23307,22 +23307,22 @@
         "der Miete"
       ],
       "insights": {
-        "reach": 52,
-        "views": 80,
+        "reach": 78,
+        "views": 112,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 70,
-        "navigation_tap_forward": 52,
-        "navigation_tap_back": 13,
-        "navigation_swipe_forward": 1,
-        "navigation_tap_exit": 4
+        "navigation": 98,
+        "navigation_tap_exit": 8,
+        "navigation_swipe_forward": 5,
+        "navigation_tap_back": 14,
+        "navigation_tap_forward": 71
       },
-      "insightsStand": "2026-11-13T16:04:06.661Z",
-      "insightsAlterStunden": 9.9
+      "insightsStand": "2026-11-13T20:40:41.361Z",
+      "insightsAlterStunden": 14.5
     },
     {
       "datum": "2026-11-13",
@@ -23571,19 +23571,19 @@
         "#internationalessteuerrecht"
       ],
       "insights": {
-        "reach": 49,
+        "reach": 183,
         "saved": 2,
         "shares": 0,
-        "likes": 1,
+        "likes": 2,
         "comments": 0,
-        "total_interactions": 3,
-        "views": 132,
-        "ig_reels_avg_watch_time": 8814,
-        "ig_reels_video_view_total_time": 414287,
-        "reels_skip_rate": 29.5
+        "total_interactions": 4,
+        "views": 240,
+        "ig_reels_avg_watch_time": 6879,
+        "ig_reels_video_view_total_time": 1258997,
+        "reels_skip_rate": 60.3
       },
-      "insightsStand": "2026-11-13T18:45:51.496Z",
-      "insightsAlterStunden": 0.8
+      "insightsStand": "2026-11-13T20:40:44.675Z",
+      "insightsAlterStunden": 2.7
     },
     {
       "datum": "2026-11-13",
