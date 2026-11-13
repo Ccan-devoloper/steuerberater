@@ -23424,6 +23424,20 @@
         "#examensvorbereitung",
         "#abgabenordnung"
       ]
+    },
+    {
+      "datum": "2026-11-13",
+      "slot": "s2",
+      "medienId": "18171249871466412",
+      "veroeffentlicht": "2026-11-13T12:30:19.394Z",
+      "quelle": "vorproduktion",
+      "art": "story",
+      "storyArt": "teaser",
+      "thema": null,
+      "fach": "ao",
+      "titel": [
+        "Kurzvortrag: § 175 AO"
+      ]
     }
   ],
   "fachZaehler": {
