@@ -23272,6 +23272,21 @@
       "thema": null,
       "fach": "gewst",
       "titel": ""
+    },
+    {
+      "datum": "2026-11-13",
+      "slot": "s5",
+      "medienId": "18646002940061851",
+      "veroeffentlicht": "2026-11-13T06:09:03.958Z",
+      "quelle": "vorproduktion",
+      "art": "story",
+      "storyArt": "antwort",
+      "thema": null,
+      "fach": "gewst",
+      "titel": [
+        "A: die Hälfte",
+        "der Miete"
+      ]
     }
   ],
   "fachZaehler": {

@@ -48,8 +48,9 @@
       "slot": "s5",
       "zeit": "07:09",
       "art": "antwort",
-      "status": "sendet",
-      "sendeversuch": "2026-11-13T06:09:00.043Z"
+      "status": "veroeffentlicht",
+      "medienId": "18646002940061851",
+      "veroeffentlicht": "2026-11-13T06:09:03.958Z"
     },
     {
       "slot": "s1",
