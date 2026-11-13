@@ -23186,19 +23186,19 @@
         "#abgabenordnung"
       ],
       "insights": {
-        "reach": 860,
-        "saved": 4,
+        "reach": 928,
+        "saved": 5,
         "shares": 3,
         "likes": 7,
         "comments": 0,
-        "total_interactions": 14,
-        "views": 1059,
-        "ig_reels_avg_watch_time": 9232,
-        "ig_reels_video_view_total_time": 7875004,
+        "total_interactions": 15,
+        "views": 1151,
+        "ig_reels_avg_watch_time": 9216,
+        "ig_reels_video_view_total_time": 8488691,
         "reels_skip_rate": 54.2
       },
-      "insightsStand": "2026-11-13T09:45:49.208Z",
-      "insightsAlterStunden": 15.8
+      "insightsStand": "2026-11-13T13:40:08.769Z",
+      "insightsAlterStunden": 19.7
     },
     {
       "datum": "2026-11-12",
@@ -23438,7 +23438,19 @@
         "#steuerberaterprüfung",
         "#examensvorbereitung",
         "#abgabenordnung"
-      ]
+      ],
+      "insights": {
+        "reach": 39,
+        "saved": 3,
+        "shares": 0,
+        "likes": 0,
+        "comments": 0,
+        "total_interactions": 3,
+        "follows": 0,
+        "profile_visits": 0
+      },
+      "insightsStand": "2026-11-13T13:40:08.769Z",
+      "insightsAlterStunden": 1.2
     },
     {
       "datum": "2026-11-13",
@@ -23452,7 +23464,22 @@
       "fach": "ao",
       "titel": [
         "Kurzvortrag: § 175 AO"
-      ]
+      ],
+      "insights": {
+        "reach": 13,
+        "views": 17,
+        "shares": 0,
+        "total_interactions": 0,
+        "replies": 0,
+        "follows": 0,
+        "profile_visits": 0,
+        "profile_activity": 0,
+        "navigation": 14,
+        "navigation_tap_forward": 13,
+        "navigation_tap_exit": 1
+      },
+      "insightsStand": "2026-11-13T13:40:07.034Z",
+      "insightsAlterStunden": 1.2
     },
     {
       "datum": "2026-11-13",

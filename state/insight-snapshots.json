@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "stand": "2026-11-13T12:45:06.270Z",
+  "stand": "2026-11-13T13:40:10.789Z",
   "medien": {
     "18093399314208242": {
       "art": "beitrag",
@@ -75804,6 +75804,20 @@
           "ig_reels_avg_watch_time": 9232,
           "ig_reels_video_view_total_time": 7875004,
           "reels_skip_rate": 54.2
+        },
+        {
+          "stand": "2026-11-13T13:40:08.769Z",
+          "alterStunden": 19.7,
+          "reach": 928,
+          "saved": 5,
+          "shares": 3,
+          "likes": 7,
+          "comments": 0,
+          "total_interactions": 15,
+          "views": 1151,
+          "ig_reels_avg_watch_time": 9216,
+          "ig_reels_video_view_total_time": 8488691,
+          "reels_skip_rate": 54.2
         }
       ]
     },
@@ -76151,6 +76165,59 @@
           "navigation": 12,
           "navigation_tap_exit": 3,
           "navigation_tap_forward": 9
+        }
+      ]
+    },
+    "18171249871466412": {
+      "art": "story",
+      "datum": "2026-11-13",
+      "titel": [
+        "Kurzvortrag: § 175 AO"
+      ],
+      "format": null,
+      "fach": "ao",
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-11-13T12:30:19.394Z",
+      "snapshots": [
+        {
+          "stand": "2026-11-13T13:40:07.034Z",
+          "alterStunden": 1.2,
+          "reach": 13,
+          "views": 17,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 14,
+          "navigation_tap_forward": 13,
+          "navigation_tap_exit": 1
+        }
+      ]
+    },
+    "18119209112520104": {
+      "art": "beitrag",
+      "datum": "2026-11-13",
+      "titel": "Kurzvortrag",
+      "format": "kurzvortrag",
+      "fach": "ao",
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-11-13T12:30:06.196Z",
+      "snapshots": [
+        {
+          "stand": "2026-11-13T13:40:08.769Z",
+          "alterStunden": 1.2,
+          "reach": 39,
+          "saved": 3,
+          "shares": 0,
+          "likes": 0,
+          "comments": 0,
+          "total_interactions": 3,
+          "follows": 0,
+          "profile_visits": 0
         }
       ]
     }
@@ -80034,6 +80101,11 @@
     {
       "stand": "2026-11-13T12:45:06.270Z",
       "follower": 586,
+      "medien": 221
+    },
+    {
+      "stand": "2026-11-13T13:40:10.789Z",
+      "follower": 585,
       "medien": 221
     }
   ]
