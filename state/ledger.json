@@ -23260,6 +23260,18 @@
       },
       "insightsStand": "2026-11-13T05:44:26.391Z",
       "insightsAlterStunden": 11.5
+    },
+    {
+      "datum": "2026-11-13",
+      "slot": "s4",
+      "medienId": "17887879455625029",
+      "veroeffentlicht": "2026-11-13T06:07:03.896Z",
+      "quelle": "vorproduktion",
+      "art": "story",
+      "storyArt": "frage",
+      "thema": null,
+      "fach": "gewst",
+      "titel": ""
     }
   ],
   "fachZaehler": {
