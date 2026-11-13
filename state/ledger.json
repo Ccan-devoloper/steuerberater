@@ -22960,7 +22960,7 @@
         "#internationalessteuerrecht"
       ],
       "insights": {
-        "reach": 89,
+        "reach": 97,
         "saved": 2,
         "shares": 0,
         "likes": 1,
@@ -22969,8 +22969,8 @@
         "follows": 0,
         "profile_visits": 0
       },
-      "insightsStand": "2026-11-13T05:44:36.010Z",
-      "insightsAlterStunden": 15.7
+      "insightsStand": "2026-11-13T08:44:36.416Z",
+      "insightsAlterStunden": 18.7
     },
     {
       "datum": "2026-11-12",
@@ -23057,7 +23057,7 @@
         "#bilanzsteuerrecht"
       ],
       "insights": {
-        "reach": 86,
+        "reach": 89,
         "saved": 1,
         "shares": 0,
         "likes": 1,
@@ -23066,8 +23066,8 @@
         "follows": 0,
         "profile_visits": 0
       },
-      "insightsStand": "2026-11-13T05:44:36.010Z",
-      "insightsAlterStunden": 15.7
+      "insightsStand": "2026-11-13T08:44:36.416Z",
+      "insightsAlterStunden": 18.7
     },
     {
       "datum": "2026-11-12",
@@ -23340,7 +23340,19 @@
         "#steuerberaterprüfung",
         "#examensvorbereitung",
         "#personengesellschaften"
-      ]
+      ],
+      "insights": {
+        "reach": 47,
+        "saved": 0,
+        "shares": 0,
+        "likes": 1,
+        "comments": 0,
+        "total_interactions": 1,
+        "follows": 0,
+        "profile_visits": 0
+      },
+      "insightsStand": "2026-11-13T08:44:36.416Z",
+      "insightsAlterStunden": 1.2
     },
     {
       "datum": "2026-11-13",
@@ -23354,7 +23366,24 @@
       "fach": "persg",
       "titel": [
         "Maschine in die KG: Buchwert?"
-      ]
+      ],
+      "insights": {
+        "reach": 10,
+        "views": 16,
+        "shares": 0,
+        "total_interactions": 0,
+        "replies": 0,
+        "follows": 0,
+        "profile_visits": 1,
+        "profile_activity": 0,
+        "navigation": 12,
+        "navigation_swipe_forward": 1,
+        "navigation_tap_exit": 2,
+        "navigation_tap_forward": 8,
+        "navigation_tap_back": 1
+      },
+      "insightsStand": "2026-11-13T08:44:34.780Z",
+      "insightsAlterStunden": 1.2
     }
   ],
   "fachZaehler": {

@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "stand": "2026-11-13T07:45:51.847Z",
+  "stand": "2026-11-13T08:44:37.726Z",
   "medien": {
     "18093399314208242": {
       "art": "beitrag",
@@ -75344,6 +75344,18 @@
           "total_interactions": 3,
           "follows": 0,
           "profile_visits": 0
+        },
+        {
+          "stand": "2026-11-13T08:44:36.416Z",
+          "alterStunden": 18.7,
+          "reach": 97,
+          "saved": 2,
+          "shares": 0,
+          "likes": 1,
+          "comments": 0,
+          "total_interactions": 3,
+          "follows": 0,
+          "profile_visits": 0
         }
       ]
     },
@@ -75397,6 +75409,18 @@
           "stand": "2026-11-13T05:44:36.010Z",
           "alterStunden": 15.7,
           "reach": 86,
+          "saved": 1,
+          "shares": 0,
+          "likes": 1,
+          "comments": 0,
+          "total_interactions": 2,
+          "follows": 0,
+          "profile_visits": 0
+        },
+        {
+          "stand": "2026-11-13T08:44:36.416Z",
+          "alterStunden": 18.7,
+          "reach": 89,
           "saved": 1,
           "shares": 0,
           "likes": 1,
@@ -75658,6 +75682,61 @@
           "navigation_swipe_forward": 1,
           "navigation_tap_back": 3,
           "navigation_tap_forward": 19
+        }
+      ]
+    },
+    "17969975358228147": {
+      "art": "story",
+      "datum": "2026-11-13",
+      "titel": [
+        "Maschine in die KG: Buchwert?"
+      ],
+      "format": null,
+      "fach": "persg",
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-11-13T07:30:18.723Z",
+      "snapshots": [
+        {
+          "stand": "2026-11-13T08:44:34.780Z",
+          "alterStunden": 1.2,
+          "reach": 10,
+          "views": 16,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 1,
+          "profile_activity": 0,
+          "navigation": 12,
+          "navigation_swipe_forward": 1,
+          "navigation_tap_exit": 2,
+          "navigation_tap_forward": 8,
+          "navigation_tap_back": 1
+        }
+      ]
+    },
+    "18080975861721545": {
+      "art": "beitrag",
+      "datum": "2026-11-13",
+      "titel": "Mini-Fall",
+      "format": "minifall",
+      "fach": "persg",
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-11-13T07:30:05.373Z",
+      "snapshots": [
+        {
+          "stand": "2026-11-13T08:44:36.416Z",
+          "alterStunden": 1.2,
+          "reach": 47,
+          "saved": 0,
+          "shares": 0,
+          "likes": 1,
+          "comments": 0,
+          "total_interactions": 1,
+          "follows": 0,
+          "profile_visits": 0
         }
       ]
     }
@@ -79516,6 +79595,11 @@
     {
       "stand": "2026-11-13T07:45:51.847Z",
       "follower": 585,
+      "medien": 220
+    },
+    {
+      "stand": "2026-11-13T08:44:37.726Z",
+      "follower": 586,
       "medien": 220
     }
   ]
