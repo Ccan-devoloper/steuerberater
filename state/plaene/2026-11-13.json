@@ -12,7 +12,8 @@
       "themaTitel": "Überführung oder Übertragung nach § 6 Abs. 5 EStG?",
       "fach": "persg",
       "klausur": 3,
-      "status": "geplant"
+      "status": "sendet",
+      "sendeversuch": "2026-11-13T07:30:00.100Z"
     },
     {
       "slot": "b2",
