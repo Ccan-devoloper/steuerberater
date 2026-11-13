@@ -23371,22 +23371,22 @@
         "Maschine in die KG: Buchwert?"
       ],
       "insights": {
-        "reach": 10,
-        "views": 16,
+        "reach": 30,
+        "views": 37,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 1,
         "profile_activity": 0,
-        "navigation": 12,
-        "navigation_swipe_forward": 1,
-        "navigation_tap_exit": 2,
-        "navigation_tap_forward": 8,
+        "navigation": 32,
+        "navigation_swipe_forward": 2,
+        "navigation_tap_exit": 4,
+        "navigation_tap_forward": 25,
         "navigation_tap_back": 1
       },
-      "insightsStand": "2026-11-13T08:44:34.780Z",
-      "insightsAlterStunden": 1.2
+      "insightsStand": "2026-11-13T12:45:04.958Z",
+      "insightsAlterStunden": 5.2
     },
     {
       "datum": "2026-11-13",
