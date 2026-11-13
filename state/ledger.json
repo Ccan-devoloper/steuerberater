@@ -23287,10 +23287,32 @@
         "A: die Hälfte",
         "der Miete"
       ]
+    },
+    {
+      "datum": "2026-11-13",
+      "slot": "b1",
+      "medienId": "18080975861721545",
+      "veroeffentlicht": "2026-11-13T07:30:05.373Z",
+      "quelle": "vorproduktion",
+      "art": "beitrag",
+      "zeit": "08:30",
+      "stunde": 8,
+      "format": "minifall",
+      "thema": "persg-aufb-persg-melzer-2-2",
+      "fach": "persg",
+      "klausur": 3,
+      "titel": "Mini-Fall",
+      "hookTyp": null,
+      "hashtags": [
+        "#steuerberaterexamen",
+        "#steuerberaterprüfung",
+        "#examensvorbereitung",
+        "#personengesellschaften"
+      ]
     }
   ],
   "fachZaehler": {
-    "persg": 22,
+    "persg": 23,
     "ust": 19,
     "kst": 19,
     "ao": 30,
