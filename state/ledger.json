@@ -23309,6 +23309,20 @@
         "#examensvorbereitung",
         "#personengesellschaften"
       ]
+    },
+    {
+      "datum": "2026-11-13",
+      "slot": "s1",
+      "medienId": "17969975358228147",
+      "veroeffentlicht": "2026-11-13T07:30:18.723Z",
+      "quelle": "vorproduktion",
+      "art": "story",
+      "storyArt": "teaser",
+      "thema": null,
+      "fach": "persg",
+      "titel": [
+        "Maschine in die KG: Buchwert?"
+      ]
     }
   ],
   "fachZaehler": {
