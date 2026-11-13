@@ -23568,6 +23568,20 @@
         "#examensvorbereitung",
         "#internationalessteuerrecht"
       ]
+    },
+    {
+      "datum": "2026-11-13",
+      "slot": "s3",
+      "medienId": "17893801896618348",
+      "veroeffentlicht": "2026-11-13T18:00:22.824Z",
+      "quelle": "vorproduktion",
+      "art": "story",
+      "storyArt": "teaser",
+      "thema": null,
+      "fach": "istr",
+      "titel": [
+        "90.000 € passiv: Hinzurechnung?"
+      ]
     }
   ],
   "fachZaehler": {
