@@ -1,0 +1,60 @@
+{
+  "format": "reel",
+  "fach": "bilanz",
+  "klausur": 3,
+  "fachLabel": "Bilanzsteuerrecht",
+  "themaId": "bilanz-karte-k3-2",
+  "caption": "Gemietet und genutzt – muss der Mieter das Wirtschaftsgut bilanzieren? 🏭\n\n▸ Grundsatz: Wirtschaftsgüter werden dem Eigentümer zugerechnet (§ 39 Abs. 1 AO). Beim gewöhnlichen Miet- oder Pachtvertrag bilanziert der Vermieter, der Mieter erfasst Mietaufwand.\n▸ Ausnahme: Hat ein anderer die Sachherrschaft so inne, dass dem Eigentümer während der gesamten üblichen Nutzungszeit kein wirtschaftlicher Einfluss bleibt, wird das Wirtschaftsgut diesem anderen zugerechnet (§ 39 Abs. 2 Nr. 1 S. 1 AO).\n▸ Ob das so ist, entscheidet der konkrete Vertrag, etwa Laufzeit im Verhältnis zur Nutzungsdauer und Optionen am Ende.\n▸ Sonderfälle im Gesetz: Treuhand, Sicherungseigentum, Eigenbesitz (§ 39 Abs. 2 Nr. 1 S. 2 AO).\n\nSpeichern für Klausur 3 📌",
+  "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#bilanzsteuerrecht"
+  ],
+  "quellen": [
+    "§ 39 Abs. 1 AO",
+    "§ 39 Abs. 2 Nr. 1 S. 1, 2 AO"
+  ],
+  "slug": "2026-11-14-b3",
+  "kurztitel": "Begründet ein Mietverhältnis wirtschaftliches Eigentum?",
+  "regelGeprueft": true,
+  "manuellGeprueft": false,
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "textProviderKostenUsd": 0,
+  "faktencheckProviderKostenUsd": 0,
+  "bildStatus": "open-peeps-render",
+  "renderer": "open-peeps-v4",
+  "liveVorrangAktiv": true,
+  "bild": "op-cover",
+  "reelTyp": "gegensatz",
+  "hookStil": "kippen",
+  "coverBadge": "Reel",
+  "szenen": [
+    {
+      "art": "hook",
+      "titel": "Gemietet, genutzt: selbst bilanzieren?"
+    },
+    {
+      "art": "schritt",
+      "titel": "Normale Miete"
+    },
+    {
+      "art": "schritt",
+      "titel": "Die Ausnahme"
+    },
+    {
+      "art": "schritt",
+      "titel": "Typische Signale"
+    }
+  ],
+  "sprecher": [
+    "Gemietet und genutzt, also selbst bilanzieren? Falsch! Der Mieter bilanziert nur ausnahmsweise.",
+    "Bei normaler Miete bleibt die Maschine beim Vermieter. Er ist Eigentümer, er bilanziert. Der Mieter bucht nur Mietaufwand.",
+    "Anders, wenn dem Eigentümer über die ganze übliche Nutzungszeit wirtschaftlich nichts mehr bleibt. Dann bilanziert der Mieter.",
+    "Typische Signale: Miete über die ganze Nutzungsdauer oder eine Kaufoption zum Spottpreis.",
+    "Merke: Miete heißt Vermieter bilanziert, außer er ist ausgeschlossen."
+  ],
+  "dauerS": 38.855,
+  "tempo": 1
+}

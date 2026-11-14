@@ -1,0 +1,36 @@
+{
+  "slot": "s4",
+  "art": "frage",
+  "fach": "bilanz",
+  "klausur": 3,
+  "fachLabel": "Bilanzsteuerrecht",
+  "themaId": "bilanz-quiz-k3-14",
+  "beitragSlot": null,
+  "quellen": null,
+  "frage": [
+    "Disagio beim",
+    "Fälligkeitsdarlehen?"
+  ],
+  "optionen": [
+    "Nach Zinsstaffel auflösen",
+    "Linear über die Laufzeit",
+    "Sofort als Aufwand"
+  ],
+  "pairId": "bilanz-quiz-k3-14",
+  "sichtbareTexte": [
+    "Bilanzsteuerrecht",
+    "Prüfungsfrage",
+    "Disagio beim",
+    "Fälligkeitsdarlehen?",
+    "Nach Zinsstaffel auflösen",
+    "Linear über die Laufzeit",
+    "Sofort als Aufwand",
+    "Auflösung in der nächsten Story"
+  ],
+  "renderer": "open-peeps-v4",
+  "bildStatus": "open-peeps-render",
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "liveVorrangAktiv": true,
+  "regelGeprueft": true
+}

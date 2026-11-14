@@ -1,0 +1,50 @@
+{
+  "slot": "s8",
+  "art": "tipp",
+  "fach": "kst",
+  "klausur": 2,
+  "fachLabel": "Körperschaftsteuer",
+  "themaId": "kst-aufb-kst-schema-vga",
+  "beitragSlot": null,
+  "quellen": null,
+  "titel": [
+    "vGA:",
+    "beide Ebenen lösen"
+  ],
+  "punkte": [
+    [
+      "GmbH: außerbilanziell hinzurechnen",
+      "ok",
+      "§ 8 Abs. 3 S. 2 KStG"
+    ],
+    [
+      "Gesellschafter: Einnahme aus Kapitalvermögen",
+      "ok",
+      "§ 20 Abs. 1 Nr. 1 S. 2 EStG"
+    ],
+    [
+      "Umsatzsteuer mitdenken",
+      "warn",
+      null
+    ]
+  ],
+  "icon": "tabler:arrows-up-down",
+  "iconFarbe": "GELB",
+  "sichtbareTexte": [
+    "Körperschaftsteuer",
+    "Klausurtipp",
+    "vGA:",
+    "beide Ebenen lösen",
+    "GmbH: außerbilanziell hinzurechnen",
+    "§ 8 Abs. 3 S. 2 KStG",
+    "Gesellschafter: Einnahme aus Kapitalvermögen",
+    "§ 20 Abs. 1 Nr. 1 S. 2 EStG",
+    "Umsatzsteuer mitdenken"
+  ],
+  "renderer": "open-peeps-v4",
+  "bildStatus": "open-peeps-render",
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "liveVorrangAktiv": true,
+  "regelGeprueft": true
+}

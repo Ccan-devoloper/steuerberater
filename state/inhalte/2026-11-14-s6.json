@@ -1,0 +1,44 @@
+{
+  "slot": "s6",
+  "art": "norm",
+  "fach": "erbst",
+  "klausur": 1,
+  "fachLabel": "Erbschaftsteuer",
+  "themaId": "erbst-modul-erbst-543",
+  "beitragSlot": null,
+  "quellen": null,
+  "titel": [
+    "Bebautes",
+    "Grundstück?"
+  ],
+  "norm": "§ 182 BewG",
+  "punkte": [
+    [
+      "Erst die Grundstücksart bestimmen.",
+      "ok",
+      "§ 181 Abs. 1 BewG"
+    ],
+    [
+      "Dann Vergleichs-, Ertrags- oder Sachwert.",
+      "ok",
+      "§ 182 Abs. 2 bis 4 BewG"
+    ]
+  ],
+  "sichtbareTexte": [
+    "Erbschaftsteuer",
+    "Norm des Tages",
+    "Bebautes",
+    "Grundstück?",
+    "§ 182 BewG",
+    "Erst die Grundstücksart bestimmen.",
+    "§ 181 Abs. 1 BewG",
+    "Dann Vergleichs-, Ertrags- oder Sachwert.",
+    "§ 182 Abs. 2 bis 4 BewG"
+  ],
+  "renderer": "open-peeps-v4",
+  "bildStatus": "open-peeps-render",
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "liveVorrangAktiv": true,
+  "regelGeprueft": true
+}

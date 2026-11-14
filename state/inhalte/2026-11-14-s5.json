@@ -1,0 +1,40 @@
+{
+  "slot": "s5",
+  "art": "antwort",
+  "fach": "bilanz",
+  "klausur": 3,
+  "fachLabel": "Bilanzsteuerrecht",
+  "themaId": "bilanz-quiz-k3-14",
+  "beitragSlot": null,
+  "quellen": null,
+  "titel": [
+    "B: linear",
+    "auflösen"
+  ],
+  "optionen": [
+    "Nach Zinsstaffel auflösen",
+    "Linear über die Laufzeit",
+    "Sofort als Aufwand"
+  ],
+  "richtig": 1,
+  "text": "Das Kapital bleibt bis zur Fälligkeit gleich hoch, also gleiche Raten.",
+  "norm": "§ 5 Abs. 5 S. 1 Nr. 1 EStG",
+  "pairId": "bilanz-quiz-k3-14",
+  "sichtbareTexte": [
+    "Bilanzsteuerrecht",
+    "Auflösung",
+    "B: linear",
+    "auflösen",
+    "Nach Zinsstaffel auflösen",
+    "Linear über die Laufzeit",
+    "Sofort als Aufwand",
+    "Das Kapital bleibt bis zur Fälligkeit gleich hoch, also gleiche Raten.",
+    "§ 5 Abs. 5 S. 1 Nr. 1 EStG"
+  ],
+  "renderer": "open-peeps-v4",
+  "bildStatus": "open-peeps-render",
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "liveVorrangAktiv": true,
+  "regelGeprueft": true
+}

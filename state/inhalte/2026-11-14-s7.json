@@ -1,0 +1,48 @@
+{
+  "slot": "s7",
+  "art": "tipp",
+  "fach": null,
+  "klausur": 0,
+  "fachLabel": "Klausurtechnik",
+  "themaId": null,
+  "beitragSlot": null,
+  "quellen": null,
+  "titel": [
+    "Sechs Stunden",
+    "durchhalten"
+  ],
+  "punkte": [
+    [
+      "Wasser und Snack griffbereit",
+      "ok",
+      null
+    ],
+    [
+      "Nach jedem Teil kurz durchatmen",
+      "ok",
+      null
+    ],
+    [
+      "Letzte Minuten: Lücken mit Ergebnis und Norm füllen",
+      "ok",
+      null
+    ]
+  ],
+  "icon": "tabler:battery-charging",
+  "iconFarbe": "GELB",
+  "sichtbareTexte": [
+    "Klausurtechnik",
+    "Klausurtipp",
+    "Sechs Stunden",
+    "durchhalten",
+    "Wasser und Snack griffbereit",
+    "Nach jedem Teil kurz durchatmen",
+    "Letzte Minuten: Lücken mit Ergebnis und Norm füllen"
+  ],
+  "renderer": "open-peeps-v4",
+  "bildStatus": "open-peeps-render",
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "liveVorrangAktiv": true,
+  "regelGeprueft": true
+}

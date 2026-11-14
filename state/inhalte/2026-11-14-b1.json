@@ -1,0 +1,79 @@
+{
+  "format": "klausurtechnik",
+  "fach": "ust",
+  "klausur": 1,
+  "fachLabel": "Umsatzsteuer",
+  "themaId": "ust-technik-2026-11-14",
+  "caption": "Klausurtechnik für den Umsatzsteuer-Teil der Klausur 1: so sicherst du die Punkte.\n\n1. Erst sortieren: alle Vorgänge nummerieren, je Vorgang Beteiligte, Leistung, Zeitpunkt und Ort notieren.\n2. Ein Block je Umsatz, immer gleich: Leistungsart (§ 3 UStG), Ort (§§ 3, 3a UStG), Steuerbarkeit (§ 1 Abs. 1 Nr. 1 UStG), Steuerbefreiung (§ 4 UStG), Bemessungsgrundlage (§ 10 UStG), Steuersatz (§ 12 UStG), Entstehung (§ 13 UStG), Steuerschuldner (§§ 13a, 13b UStG).\n3. Tiefe dosieren: Unproblematisches mit Ergebnis und Norm in einem Satz, ausführlich nur bei den eingebauten Problemen.\n4. Vorsteuer gesammelt am Ende (§ 15 Abs. 1, 2, 4 UStG), dann Übersicht je Zeitraum.\n\nZeitfalle: Lieber alle Umsätze kurz lösen als einen perfekt und den Rest gar nicht.\n\nZum Schluss: § 1 UStG zum Markieren. Speichern für Klausur 1 📌",
+  "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#umsatzsteuer"
+  ],
+  "quellen": [
+    "§ 1 Abs. 1 Nr. 1, 4, 5, Abs. 1a UStG",
+    "§§ 3, 3a, 4, 10, 12, 13, 13a, 13b UStG",
+    "§ 15 Abs. 1, 2, 4 UStG"
+  ],
+  "slug": "2026-11-14-b1",
+  "kurztitel": "USt-Teil in Klausur 1: Aufbau je Umsatz und Zeitplan",
+  "regelGeprueft": true,
+  "manuellGeprueft": false,
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "textProviderKostenUsd": 0,
+  "faktencheckProviderKostenUsd": 0,
+  "bildStatus": "open-peeps-render",
+  "renderer": "open-peeps-v4",
+  "liveVorrangAktiv": true,
+  "coverBadge": "Klausurtechnik",
+  "folien": [
+    {
+      "art": "titel",
+      "titel": "Klausurtechnik",
+      "text": "Klausurtechnik · USt-Teil: · Punkte sichern · Strategie Tag 1 · + Markier-Guide § 1 UStG",
+      "bild": "op-cover"
+    },
+    {
+      "art": "text",
+      "titel": "Umsatzsteuer",
+      "text": "Der Plan · Erst sortieren · alle Vorgänge nummerieren · Je Umsatz ein Block · § 1 Abs. 1 Nr. 1 UStG · immer dieselbe Reihenfolge · Kurz, wo es klar ist · Tiefe nur bei den Problemen · Vorsteuer getrennt · § 15 Abs. 1 UStG · eigener Abschnitt am Ende · Am Ende: § 1 UStG markiert"
+    },
+    {
+      "art": "text",
+      "titel": "Umsatzsteuer",
+      "text": "1 · Erst sortieren · Alle Vorgänge des Aufgabentexts durchnummerieren. · Zu jedem notieren: wer an wen, was, wann, wo. · Erst dann schreiben, nichts doppelt prüfen. · Erst die Liste."
+    },
+    {
+      "art": "text",
+      "titel": "Umsatzsteuer",
+      "text": "2 · Ein Block je Umsatz · Leistungsart, Ort, Steuerbarkeit, Steuerbefreiung. · §§ 3, 3a, 1, 4 UStG · Bemessungsgrundlage, Steuersatz, Steuer. · §§ 10, 12 UStG · Entstehung und Steuerschuldner. · §§ 13, 13a, 13b UStG · Jedes Mal gleich: Der Korrektor findet die Punkte. · Immer gleich!"
+    },
+    {
+      "art": "text",
+      "titel": "Umsatzsteuer",
+      "text": "3 · Kurz, wo es klar ist · Unproblematisches: Ergebnis plus Norm in einem Satz. · Ausführlich nur dort, wo der Fall ein Problem einbaut. · Normen genau: Absatz, Satz, Nummer. · Tiefe dosieren!"
+    },
+    {
+      "art": "text",
+      "titel": "Umsatzsteuer",
+      "text": "4 · Vorsteuer am Ende · Eingangsleistungen gesammelt prüfen, nicht in jeden Umsatz streuen. · § 15 Abs. 1 UStG · Aufteilung und Ausschluss im selben Abschnitt. · § 15 Abs. 2, 4 UStG · Zum Schluss Steuer und Vorsteuer je Zeitraum in einer Tabelle. · Übersicht zählt."
+    },
+    {
+      "art": "text",
+      "titel": "Umsatzsteuer",
+      "text": "Die Zeitfalle · Ein Umsatz perfekt, drei ausgelassen: Das kostet mehr als drei kurze Lösungen. · Zeit knapp? Ergebnis und Norm hinschreiben, Begründung in Stichworten. · Lieber alles anreißen."
+    },
+    {
+      "art": "text",
+      "titel": "Umsatzsteuer",
+      "text": "Klausur 1: AO, USt und ErbSt · Der USt-Teil lebt vom festen Aufbau · Sortieren vor Schreiben, · Block je Umsatz, · Tiefe nur bei Problemen, · Vorsteuer am Ende. · Speichern für Klausur 1 · Wie startest du in die USt? · Weiterwischen: § 1 UStG markiert"
+    },
+    {
+      "art": "text",
+      "titel": "Umsatzsteuer",
+      "text": "§ 1 UStG Steuerbare Umsätze (Auszug) · Leistungsart · wer, wo, wofür? · eigener Block · vorab prüfen! · Jeder Block startet hier · danach § 4, § 10, § 12, § 13"
+    }
+  ]
+}

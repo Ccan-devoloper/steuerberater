@@ -1,0 +1,87 @@
+{
+  "format": "rechenweg",
+  "fach": "kst",
+  "klausur": 2,
+  "fachLabel": "Körperschaftsteuer",
+  "themaId": "kst-aufb-kst-ks-5-11",
+  "caption": "Pensionszusage an die Gesellschafter-Geschäftsführerin: der Rechenweg über zwei Ebenen für die Ertragsteuer-Klausur.\n\nEbene 1 – Steuerbilanz: Pensionsrückstellung nur, wenn und soweit ein Rechtsanspruch besteht, kein schädlicher Vorbehalt vorliegt und die Zusage schriftlich mit eindeutigen Angaben erteilt ist (§ 6a Abs. 1 Nr. 1 bis 3 EStG). Überversorgung, wenn die Versorgung 75 % der letzten Aktivbezüge übersteigt: Kürzung in der Steuerbilanz (H 6a (17) EStH; BMF vom 03.11.2004, BStBl I 2004, 1045, und vom 13.12.2012, BStBl I 2013, 35).\n\nEbene 2 – außerbilanziell: Soweit der zulässige Aufwand gesellschaftlich veranlasst ist, liegt eine vGA vor (§ 8 Abs. 3 S. 2 KStG). Beim beherrschenden Gesellschafter-Geschäftsführer müssen zwischen Zusage und Ruhestand mindestens zehn Jahre liegen; eine Zusage nach dem 60. Lebensjahr ist regelmäßig nicht erdienbar (H 8.7 KStH).\n\nBeispiel: Zusage mit 62 → Zuführung 30.000 € vGA → Einkommen 200.000 € + 30.000 € = 230.000 €.\nVariante: Zusage mit 52, Rente 80 % der Bezüge → erdienbar, aber Überversorgung: Korrektur bereits in der Steuerbilanz.\n\nZum Schluss: § 6a EStG und H 8.7 KStH zum Markieren. Speichern für Klausur 2 📌",
+  "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#körperschaftsteuer"
+  ],
+  "quellen": [
+    "§ 6a Abs. 1 Nr. 1 bis 3 EStG",
+    "H 6a (17) EStH",
+    "BMF vom 03.11.2004, BStBl I 2004, 1045",
+    "BMF vom 13.12.2012, BStBl I 2013, 35",
+    "§ 8 Abs. 3 S. 2 KStG",
+    "H 8.7 KStH"
+  ],
+  "slug": "2026-11-14-b2",
+  "kurztitel": "Pensionszusage an Gesellschafter-GF: zwei Prüfebenen",
+  "regelGeprueft": true,
+  "manuellGeprueft": false,
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "textProviderKostenUsd": 0,
+  "faktencheckProviderKostenUsd": 0,
+  "bildStatus": "open-peeps-render",
+  "renderer": "open-peeps-v4",
+  "liveVorrangAktiv": true,
+  "coverBadge": "Rechenweg",
+  "folien": [
+    {
+      "art": "titel",
+      "titel": "Rechenweg",
+      "text": "Rechenweg · Pension für · die Chefin? · § 6a EStG, § 8 Abs. 3 KStG · Zwei Ebenen · + Markier-Guide § 6a + H 8.7 · Zuführung · 30.000 € · abziehbar?",
+      "bild": "op-cover"
+    },
+    {
+      "art": "text",
+      "titel": "Körperschaftsteuer",
+      "text": "Der Fall · Dörte, 62, ist alleinige Gesellschafterin und Geschäftsführerin einer GmbH. Gehalt 120.000 €. · 2026 erhält sie erstmals schriftlich eine Pensionszusage: ab 67 jährlich 72.000 €. · Zuführung 2026: 30.000 €, Jahresüberschuss 200.000 €. Einkommen? · Ist das okay?"
+    },
+    {
+      "art": "text",
+      "titel": "Körperschaftsteuer",
+      "text": "Zwei Ebenen · Ebene 1: Steuerbilanz · § 6a EStG · Rückstellung dem Grunde und der Höhe nach · Ebene 2: außerbilanziell · § 8 Abs. 3 S. 2 KStG · verdeckte Gewinnausschüttung? · Ergebnis · Einkommen der GmbH · Am Ende: § 6a EStG + H 8.7 markiert"
+    },
+    {
+      "art": "text",
+      "titel": "Körperschaftsteuer",
+      "text": "Ebene 1: Überversorgung? · § 6a Abs. 1 Nr. 3 EStG · H 6a (17) EStH · Aktivbezüge · 120.000 € · Grenze 75 % · 90.000 € · zugesagte Rente · 72.000 € · Quote · 60 % · Überversorgung? · nein · Schriftlich zugesagt: Rückstellung bleibt"
+    },
+    {
+      "art": "text",
+      "titel": "Körperschaftsteuer",
+      "text": "Ebene 2: Erdienbarkeit · Beherrschende Geschäftsführer: mindestens zehn Jahre zwischen Zusage und Ruhestand. · H 8.7 KStH · Zusage nach dem 60. Geburtstag: regelmäßig nicht mehr erdienbar. · H 8.7 KStH · Dörte: 62 bei Zusage, nur fünf Jahre bis 67. · Zu spät zugesagt?"
+    },
+    {
+      "art": "text",
+      "titel": "Körperschaftsteuer",
+      "text": "Ergebnis 2026 · § 8 Abs. 3 S. 2 KStG · Jahresüberschuss · 200.000 € · Rückstellung in der Bilanz · bleibt · + vGA außerbilanziell · 30.000 € · Einkommen · 230.000 € · Erst Bilanz, dann vGA."
+    },
+    {
+      "art": "text",
+      "titel": "Körperschaftsteuer",
+      "text": "Jetzt du · Variante: Dörte ist bei der Zusage 52, Ruhestand mit 67. · Gehalt 120.000 €, zugesagte Rente 96.000 €. · Welche Ebene greift? · Jetzt erdienbar?"
+    },
+    {
+      "art": "text",
+      "titel": "Körperschaftsteuer",
+      "text": "Lösung · H 6a (17) EStH · H 8.7 KStH · 15 Jahre bis zum Ruhestand · erdienbar · Rente 96.000 € : 120.000 € · 80 % · Grenze 75 % · 90.000 € · Überversorgung · kürzen · Korrektur in der Steuerbilanz, nicht als vGA"
+    },
+    {
+      "art": "text",
+      "titel": "Körperschaftsteuer",
+      "text": "Grundfall: Einkommen 230.000 € · Variante: Kürzung schon in der Steuerbilanz · Erst § 6a in der Bilanz, · Überversorgung über 75 %, · dann vGA außerhalb, · zehn Jahre erdienen. · Speichern für Klausur 2 · Welche Ebene prüfst du zuerst? · Weiterwischen: § 6a + H 8.7 markiert"
+    },
+    {
+      "art": "text",
+      "titel": "Körperschaftsteuer",
+      "text": "§ 6a EStG Pensionsrückstellung (Auszug) · Ebene 1 zuerst · Nr. 1 · Nr. 3 · Bestimmtheit · H 8.7 KStH (Auszug) · Dörte: 100 % · nur 5 Jahre · Zusage mit 62 · Überversorgung: H 6a (17) EStH · über 75 % der Aktivbezüge kürzen"
+    }
+  ]
+}

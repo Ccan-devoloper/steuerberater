@@ -1,0 +1,62 @@
+{
+  "slot": "s9",
+  "art": "merksatz",
+  "fach": "bilanz",
+  "klausur": 3,
+  "fachLabel": "Bilanzsteuerrecht",
+  "themaId": "bilanz-karte-k3-33",
+  "beitragSlot": null,
+  "quellen": null,
+  "titel": [
+    "Einbau des Mieters:",
+    "was zuerst?"
+  ],
+  "zeilen": [
+    [
+      [
+        "Nur vorübergehend?",
+        "a"
+      ]
+    ],
+    [
+      [
+        "Betriebsvorrichtung?",
+        "b"
+      ]
+    ],
+    [
+      [
+        "Sonst: eigenes",
+        null
+      ]
+    ],
+    [
+      [
+        "Wirtschaftsgut",
+        "c"
+      ],
+      [
+        " prüfen",
+        null
+      ]
+    ]
+  ],
+  "norm": "§ 95 Abs. 1 BGB, § 68 Abs. 2 BewG",
+  "sichtbareTexte": [
+    "Bilanzsteuerrecht",
+    "Merksatz",
+    "Einbau des Mieters:",
+    "was zuerst?",
+    "Nur vorübergehend?",
+    "Betriebsvorrichtung?",
+    "Sonst: eigenes",
+    "Wirtschaftsgut prüfen",
+    "§ 95 Abs. 1 BGB, § 68 Abs. 2 BewG"
+  ],
+  "renderer": "open-peeps-v4",
+  "bildStatus": "open-peeps-render",
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "liveVorrangAktiv": true,
+  "regelGeprueft": true
+}
