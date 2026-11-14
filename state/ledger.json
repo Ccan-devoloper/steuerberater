@@ -23660,6 +23660,21 @@
       "thema": "bilanz-quiz-k3-14",
       "fach": "bilanz",
       "titel": ""
+    },
+    {
+      "datum": "2026-11-14",
+      "slot": "s5",
+      "medienId": "17989259165886670",
+      "veroeffentlicht": "2026-11-14T06:09:06.698Z",
+      "quelle": "vorproduktion",
+      "art": "story",
+      "storyArt": "antwort",
+      "thema": "bilanz-quiz-k3-14",
+      "fach": "bilanz",
+      "titel": [
+        "B: linear",
+        "auflösen"
+      ]
     }
   ],
   "fachZaehler": {
