@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "stand": "2026-11-14T06:45:29.559Z",
+  "stand": "2026-11-14T07:30:30.741Z",
   "medien": {
     "18093399314208242": {
       "art": "beitrag",
@@ -77201,6 +77201,65 @@
           "navigation_swipe_forward": 3,
           "navigation_tap_forward": 46,
           "navigation_tap_back": 4
+        }
+      ]
+    },
+    "17956675791299469": {
+      "art": "story",
+      "datum": "2026-11-14",
+      "titel": null,
+      "format": null,
+      "fach": "bilanz",
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-11-14T06:07:09.008Z",
+      "snapshots": [
+        {
+          "stand": "2026-11-14T07:30:30.741Z",
+          "alterStunden": 1.4,
+          "reach": 17,
+          "views": 27,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 20,
+          "navigation_tap_exit": 1,
+          "navigation_tap_forward": 18,
+          "navigation_swipe_forward": 1
+        }
+      ]
+    },
+    "17989259165886670": {
+      "art": "story",
+      "datum": "2026-11-14",
+      "titel": [
+        "B: linear",
+        "auflösen"
+      ],
+      "format": null,
+      "fach": "bilanz",
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-11-14T06:09:06.698Z",
+      "snapshots": [
+        {
+          "stand": "2026-11-14T07:30:30.741Z",
+          "alterStunden": 1.4,
+          "reach": 16,
+          "views": 27,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 21,
+          "navigation_tap_forward": 16,
+          "navigation_tap_back": 4,
+          "navigation_swipe_forward": 1
         }
       ]
     }
