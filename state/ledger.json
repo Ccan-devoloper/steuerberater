@@ -23648,6 +23648,18 @@
       },
       "insightsStand": "2026-11-14T05:44:22.332Z",
       "insightsAlterStunden": 11.5
+    },
+    {
+      "datum": "2026-11-14",
+      "slot": "s4",
+      "medienId": "17956675791299469",
+      "veroeffentlicht": "2026-11-14T06:07:09.008Z",
+      "quelle": "vorproduktion",
+      "art": "story",
+      "storyArt": "frage",
+      "thema": "bilanz-quiz-k3-14",
+      "fach": "bilanz",
+      "titel": ""
     }
   ],
   "fachZaehler": {
