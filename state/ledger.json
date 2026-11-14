@@ -23501,22 +23501,22 @@
         "nicht im Kopf"
       ],
       "insights": {
-        "reach": 70,
-        "views": 89,
+        "reach": 90,
+        "views": 116,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 1,
         "profile_activity": 0,
-        "navigation": 82,
-        "navigation_swipe_forward": 3,
-        "navigation_tap_back": 5,
-        "navigation_tap_forward": 65,
-        "navigation_tap_exit": 9
+        "navigation": 109,
+        "navigation_swipe_forward": 6,
+        "navigation_tap_back": 8,
+        "navigation_tap_forward": 84,
+        "navigation_tap_exit": 11
       },
-      "insightsStand": "2026-11-14T05:44:22.332Z",
-      "insightsAlterStunden": 16.1
+      "insightsStand": "2026-11-14T09:45:19.082Z",
+      "insightsAlterStunden": 20.1
     },
     {
       "datum": "2026-11-13",
@@ -23533,22 +23533,22 @@
         "zuordnen?"
       ],
       "insights": {
-        "reach": 66,
-        "views": 88,
+        "reach": 86,
+        "views": 112,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 72,
-        "navigation_swipe_forward": 6,
-        "navigation_tap_forward": 53,
-        "navigation_tap_exit": 8,
-        "navigation_tap_back": 5
+        "navigation": 94,
+        "navigation_swipe_forward": 9,
+        "navigation_tap_forward": 68,
+        "navigation_tap_exit": 9,
+        "navigation_tap_back": 8
       },
-      "insightsStand": "2026-11-14T05:44:22.332Z",
-      "insightsAlterStunden": 13.7
+      "insightsStand": "2026-11-14T09:45:19.082Z",
+      "insightsAlterStunden": 17.7
     },
     {
       "datum": "2026-11-13",
@@ -23572,19 +23572,19 @@
         "#internationalessteuerrecht"
       ],
       "insights": {
-        "reach": 302,
+        "reach": 362,
         "saved": 6,
-        "shares": 0,
+        "shares": 1,
         "likes": 2,
         "comments": 0,
-        "total_interactions": 8,
-        "views": 380,
-        "ig_reels_avg_watch_time": 7582,
-        "ig_reels_video_view_total_time": 2327939,
-        "reels_skip_rate": 60.9
+        "total_interactions": 9,
+        "views": 453,
+        "ig_reels_avg_watch_time": 7687,
+        "ig_reels_video_view_total_time": 2852131,
+        "reels_skip_rate": 60.6
       },
-      "insightsStand": "2026-11-14T06:09:08.831Z",
-      "insightsAlterStunden": 12.1
+      "insightsStand": "2026-11-14T09:45:23.929Z",
+      "insightsAlterStunden": 15.8
     },
     {
       "datum": "2026-11-13",
@@ -23600,22 +23600,22 @@
         "90.000 € passiv: Hinzurechnung?"
       ],
       "insights": {
-        "reach": 57,
-        "views": 75,
+        "reach": 81,
+        "views": 101,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 71,
-        "navigation_tap_exit": 1,
-        "navigation_tap_forward": 56,
+        "navigation": 95,
+        "navigation_swipe_forward": 8,
         "navigation_tap_back": 9,
-        "navigation_swipe_forward": 5
+        "navigation_tap_forward": 74,
+        "navigation_tap_exit": 4
       },
-      "insightsStand": "2026-11-14T05:44:22.332Z",
-      "insightsAlterStunden": 11.7
+      "insightsStand": "2026-11-14T09:45:19.082Z",
+      "insightsAlterStunden": 15.7
     },
     {
       "datum": "2026-11-13",
@@ -23632,22 +23632,22 @@
         "Zwei Entlastungen"
       ],
       "insights": {
-        "reach": 54,
-        "views": 63,
+        "reach": 74,
+        "views": 87,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 60,
-        "navigation_tap_exit": 7,
+        "navigation": 81,
+        "navigation_tap_back": 5,
+        "navigation_tap_forward": 65,
         "navigation_swipe_forward": 3,
-        "navigation_tap_forward": 46,
-        "navigation_tap_back": 4
+        "navigation_tap_exit": 8
       },
-      "insightsStand": "2026-11-14T05:44:22.332Z",
-      "insightsAlterStunden": 11.5
+      "insightsStand": "2026-11-14T09:45:19.082Z",
+      "insightsAlterStunden": 15.6
     },
     {
       "datum": "2026-11-14",
