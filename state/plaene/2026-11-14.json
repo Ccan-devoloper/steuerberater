@@ -12,7 +12,8 @@
       "themaTitel": "USt-Teil in Klausur 1: Aufbau je Umsatz und Zeitplan",
       "fach": "ust",
       "klausur": 1,
-      "status": "geplant"
+      "status": "sendet",
+      "sendeversuch": "2026-11-14T07:30:00.066Z"
     },
     {
       "slot": "b2",
