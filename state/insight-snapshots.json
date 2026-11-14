@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "stand": "2026-11-14T09:45:25.143Z",
+  "stand": "2026-11-14T10:44:56.713Z",
   "medien": {
     "18093399314208242": {
       "art": "beitrag",
@@ -76833,6 +76833,23 @@
           "navigation_tap_back": 6,
           "navigation_tap_exit": 12,
           "navigation_tap_forward": 78
+        },
+        {
+          "stand": "2026-11-14T10:44:53.779Z",
+          "alterStunden": 23.5,
+          "reach": 120,
+          "views": 149,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 1,
+          "profile_activity": 0,
+          "navigation": 126,
+          "navigation_swipe_forward": 13,
+          "navigation_tap_back": 6,
+          "navigation_tap_exit": 16,
+          "navigation_tap_forward": 91
         }
       ]
     },
@@ -76913,6 +76930,23 @@
           "navigation_tap_exit": 10,
           "navigation_tap_forward": 89,
           "navigation_swipe_forward": 4
+        },
+        {
+          "stand": "2026-11-14T10:44:53.779Z",
+          "alterStunden": 22.2,
+          "reach": 108,
+          "views": 137,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 123,
+          "navigation_tap_back": 10,
+          "navigation_tap_exit": 13,
+          "navigation_tap_forward": 94,
+          "navigation_swipe_forward": 6
         }
       ]
     },
@@ -77440,6 +77474,18 @@
           "likes": 0,
           "comments": 0,
           "total_interactions": 0,
+          "follows": 0,
+          "profile_visits": 0
+        },
+        {
+          "stand": "2026-11-14T10:44:56.211Z",
+          "alterStunden": 3.2,
+          "reach": 69,
+          "saved": 3,
+          "shares": 0,
+          "likes": 1,
+          "comments": 0,
+          "total_interactions": 4,
           "follows": 0,
           "profile_visits": 0
         }
@@ -81389,6 +81435,11 @@
     },
     {
       "stand": "2026-11-14T09:45:25.143Z",
+      "follower": 583,
+      "medien": 223
+    },
+    {
+      "stand": "2026-11-14T10:44:56.713Z",
       "follower": 583,
       "medien": 223
     }

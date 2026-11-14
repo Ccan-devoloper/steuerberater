@@ -23404,22 +23404,22 @@
         "und bald verkauft?"
       ],
       "insights": {
-        "reach": 93,
-        "views": 125,
+        "reach": 120,
+        "views": 149,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
-        "profile_visits": 0,
+        "profile_visits": 1,
         "profile_activity": 0,
-        "navigation": 102,
-        "navigation_swipe_forward": 6,
+        "navigation": 126,
+        "navigation_swipe_forward": 13,
         "navigation_tap_back": 6,
-        "navigation_tap_exit": 12,
-        "navigation_tap_forward": 78
+        "navigation_tap_exit": 16,
+        "navigation_tap_forward": 91
       },
-      "insightsStand": "2026-11-14T07:45:47.321Z",
-      "insightsAlterStunden": 20.5
+      "insightsStand": "2026-11-14T10:44:53.779Z",
+      "insightsAlterStunden": 23.5
     },
     {
       "datum": "2026-11-13",
@@ -23469,22 +23469,22 @@
         "Kurzvortrag: § 175 AO"
       ],
       "insights": {
-        "reach": 97,
-        "views": 126,
+        "reach": 108,
+        "views": 137,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 112,
-        "navigation_tap_back": 9,
-        "navigation_tap_exit": 10,
-        "navigation_tap_forward": 89,
-        "navigation_swipe_forward": 4
+        "navigation": 123,
+        "navigation_tap_back": 10,
+        "navigation_tap_exit": 13,
+        "navigation_tap_forward": 94,
+        "navigation_swipe_forward": 6
       },
-      "insightsStand": "2026-11-14T08:44:49.733Z",
-      "insightsAlterStunden": 20.2
+      "insightsStand": "2026-11-14T10:44:53.779Z",
+      "insightsAlterStunden": 22.2
     },
     {
       "datum": "2026-11-13",
@@ -23730,17 +23730,17 @@
         "#umsatzsteuer"
       ],
       "insights": {
-        "reach": 35,
-        "saved": 0,
+        "reach": 69,
+        "saved": 3,
         "shares": 0,
-        "likes": 0,
+        "likes": 1,
         "comments": 0,
-        "total_interactions": 0,
+        "total_interactions": 4,
         "follows": 0,
         "profile_visits": 0
       },
-      "insightsStand": "2026-11-14T08:44:52.977Z",
-      "insightsAlterStunden": 1.2
+      "insightsStand": "2026-11-14T10:44:56.211Z",
+      "insightsAlterStunden": 3.2
     },
     {
       "datum": "2026-11-14",
