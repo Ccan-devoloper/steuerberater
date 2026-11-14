@@ -23675,11 +23675,33 @@
         "B: linear",
         "auflösen"
       ]
+    },
+    {
+      "datum": "2026-11-14",
+      "slot": "b1",
+      "medienId": "18134922571668174",
+      "veroeffentlicht": "2026-11-14T07:30:10.699Z",
+      "quelle": "vorproduktion",
+      "art": "beitrag",
+      "zeit": "08:30",
+      "stunde": 8,
+      "format": "klausurtechnik",
+      "thema": "ust-technik-2026-11-14",
+      "fach": "ust",
+      "klausur": 1,
+      "titel": "Klausurtechnik",
+      "hookTyp": null,
+      "hashtags": [
+        "#steuerberaterexamen",
+        "#steuerberaterprüfung",
+        "#examensvorbereitung",
+        "#umsatzsteuer"
+      ]
     }
   ],
   "fachZaehler": {
     "persg": 23,
-    "ust": 19,
+    "ust": 20,
     "kst": 19,
     "ao": 31,
     "bilanz": 29,
