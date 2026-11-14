@@ -23404,22 +23404,22 @@
         "und bald verkauft?"
       ],
       "insights": {
-        "reach": 84,
-        "views": 105,
+        "reach": 93,
+        "views": 125,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 90,
-        "navigation_swipe_forward": 4,
+        "navigation": 102,
+        "navigation_swipe_forward": 6,
         "navigation_tap_back": 6,
-        "navigation_tap_exit": 10,
-        "navigation_tap_forward": 70
+        "navigation_tap_exit": 12,
+        "navigation_tap_forward": 78
       },
-      "insightsStand": "2026-11-14T05:44:22.332Z",
-      "insightsAlterStunden": 18.5
+      "insightsStand": "2026-11-14T07:45:47.321Z",
+      "insightsAlterStunden": 20.5
     },
     {
       "datum": "2026-11-13",
