@@ -23697,6 +23697,20 @@
         "#examensvorbereitung",
         "#umsatzsteuer"
       ]
+    },
+    {
+      "datum": "2026-11-14",
+      "slot": "s1",
+      "medienId": "17901125433610819",
+      "veroeffentlicht": "2026-11-14T07:30:28.193Z",
+      "quelle": "vorproduktion",
+      "art": "story",
+      "storyArt": "teaser",
+      "thema": null,
+      "fach": "ust",
+      "titel": [
+        "USt-Teil: Punkte sichern"
+      ]
     }
   ],
   "fachZaehler": {
