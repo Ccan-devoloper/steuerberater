@@ -1,0 +1,102 @@
+{
+  "datum": "2026-11-16",
+  "erzeugt": "2026-11-15T23:31:48.139Z",
+  "quelle": "vorproduktion",
+  "providerKostenUsd": 0,
+  "beitraege": [
+    {
+      "slot": "b1",
+      "zeit": "08:30",
+      "format": "pruefungsfrage",
+      "themaId": "persg-aufb-persg-melzer-3-4",
+      "themaTitel": "Ausscheiden zum Buchwert: Veräußerung oder Schenkung?",
+      "fach": "persg",
+      "klausur": 3,
+      "status": "geplant"
+    },
+    {
+      "slot": "b2",
+      "zeit": "13:30",
+      "format": "schema",
+      "themaId": "erbst-modul-erbst-544",
+      "themaTitel": "Unbebautes Grundstück: § 178/§ 179 BewG, Bodenrichtwert und abweichende Grundstücksmerkmale",
+      "fach": "erbst",
+      "klausur": 1,
+      "status": "geplant"
+    },
+    {
+      "slot": "b3",
+      "zeit": "19:00",
+      "format": "reel",
+      "themaId": "kst-aufb-kst-t1-03",
+      "themaTitel": "Ab wann zahlt eine neu gegründete GmbH Körperschaftsteuer?",
+      "fach": "kst",
+      "klausur": 2,
+      "status": "geplant"
+    }
+  ],
+  "stories": [
+    {
+      "slot": "s4",
+      "zeit": "07:07",
+      "art": "frage",
+      "themaId": "istr-quiz-aufenthalt-9-ao",
+      "status": "geplant"
+    },
+    {
+      "slot": "s5",
+      "zeit": "07:09",
+      "art": "antwort",
+      "themaId": "istr-quiz-aufenthalt-9-ao",
+      "status": "geplant"
+    },
+    {
+      "slot": "s1",
+      "zeit": "08:30",
+      "art": "teaser",
+      "beitragSlot": "b1",
+      "status": "geplant"
+    },
+    {
+      "slot": "s6",
+      "zeit": "12:14",
+      "art": "norm",
+      "themaId": "bilanz-karte-k3-34",
+      "status": "geplant"
+    },
+    {
+      "slot": "s2",
+      "zeit": "13:30",
+      "art": "teaser",
+      "beitragSlot": "b2",
+      "status": "geplant"
+    },
+    {
+      "slot": "s7",
+      "zeit": "14:40",
+      "art": "tipp",
+      "status": "geplant"
+    },
+    {
+      "slot": "s8",
+      "zeit": "17:04",
+      "art": "tipp",
+      "themaId": "ust-aufb-ust-m-b12-8",
+      "status": "geplant"
+    },
+    {
+      "slot": "s3",
+      "zeit": "19:00",
+      "art": "teaser",
+      "beitragSlot": "b3",
+      "status": "geplant"
+    },
+    {
+      "slot": "s9",
+      "zeit": "19:12",
+      "art": "merksatz",
+      "themaId": "kst-aufb-kst-t1-18",
+      "status": "geplant"
+    }
+  ]
+}

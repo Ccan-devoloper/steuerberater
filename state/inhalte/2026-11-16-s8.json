@@ -1,0 +1,45 @@
+{
+  "slot": "s8",
+  "art": "tipp",
+  "fach": "ust",
+  "klausur": 1,
+  "fachLabel": "Umsatzsteuer",
+  "themaId": "ust-aufb-ust-m-b12-8",
+  "beitragSlot": null,
+  "quellen": null,
+  "titel": [
+    "§ 15a UStG:",
+    "was zählt?"
+  ],
+  "normImTitel": true,
+  "punkte": [
+    [
+      "Nutzung weicht vom Vorsteuerabzug ab, etwa steuerfrei statt steuerpflichtig.",
+      "ok",
+      "§ 15a Abs. 1 UStG"
+    ],
+    [
+      "Verkauf wirkt bis zum Ende des Zeitraums.",
+      "warn",
+      "§ 15a Abs. 8, 9 UStG"
+    ]
+  ],
+  "icon": "tabler:scale",
+  "iconFarbe": "GELB",
+  "sichtbareTexte": [
+    "Umsatzsteuer",
+    "Klausurtipp",
+    "§ 15a UStG:",
+    "was zählt?",
+    "Nutzung weicht vom Vorsteuerabzug ab, etwa steuerfrei statt steuerpflichtig.",
+    "§ 15a Abs. 1 UStG",
+    "Verkauf wirkt bis zum Ende des Zeitraums.",
+    "§ 15a Abs. 8, 9 UStG"
+  ],
+  "renderer": "open-peeps-v4",
+  "bildStatus": "open-peeps-render",
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "liveVorrangAktiv": true,
+  "regelGeprueft": true
+}

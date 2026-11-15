@@ -1,0 +1,40 @@
+{
+  "slot": "s5",
+  "art": "antwort",
+  "fach": "istr",
+  "klausur": 2,
+  "fachLabel": "Internationales Steuerrecht",
+  "themaId": "istr-quiz-aufenthalt-9-ao",
+  "beitragSlot": null,
+  "quellen": null,
+  "titel": [
+    "A: mehr als",
+    "sechs Monate"
+  ],
+  "optionen": [
+    "Mehr als sechs Monate am Stück",
+    "Ab 183 Tagen im Kalenderjahr",
+    "Ab dem ersten Arbeitstag"
+  ],
+  "richtig": 0,
+  "text": "Kurze Unterbrechungen schaden nicht. 183 Tage stammen aus dem DBA, nicht aus der AO.",
+  "norm": "§ 9 S. 2 AO",
+  "pairId": "istr-quiz-aufenthalt-9-ao",
+  "sichtbareTexte": [
+    "Internationales Steuerrecht",
+    "Auflösung",
+    "A: mehr als",
+    "sechs Monate",
+    "Mehr als sechs Monate am Stück",
+    "Ab 183 Tagen im Kalenderjahr",
+    "Ab dem ersten Arbeitstag",
+    "Kurze Unterbrechungen schaden nicht. 183 Tage stammen aus dem DBA, nicht aus der AO.",
+    "§ 9 S. 2 AO"
+  ],
+  "renderer": "open-peeps-v4",
+  "bildStatus": "open-peeps-render",
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "liveVorrangAktiv": true,
+  "regelGeprueft": true
+}

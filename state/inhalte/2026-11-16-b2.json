@@ -1,0 +1,86 @@
+{
+  "format": "schema",
+  "fach": "erbst",
+  "klausur": 1,
+  "fachLabel": "Erbschaftsteuer",
+  "themaId": "erbst-modul-erbst-544",
+  "caption": "Unbebautes Grundstück bewerten: das Prüfschema für die Erbschaftsteuer-Klausur und für die Mündliche.\n\n1. Unbebaut ist ein Grundstück ohne benutzbares Gebäude; benutzbar ab Bezugsfertigkeit, die Bauabnahme entscheidet nicht; dauerhaft unnutzbare Gebäude und Ruinen zählen als unbebaut (§ 178 Abs. 1, 2 BewG).\n2. Wert = Fläche × Bodenrichtwert (§ 179 S. 1 BewG). Anzusetzen ist der Bodenrichtwert, der zuletzt vor dem Bewertungsstichtag zu ermitteln war (§ 179 S. 3 BewG); ermittelt wird er in der Regel zu Beginn jedes zweiten Kalenderjahres (§ 196 Abs. 1 S. 5 BauGB). Fehlt ein Richtwert, wird aus vergleichbaren Flächen abgeleitet (§ 179 S. 4 BewG).\n3. Abweichende Merkmale wie Grundstückstiefe oder Geschossflächenzahl werden nach den Vorgaben des Gutachterausschusses berücksichtigt, Tiefenzonen getrennt bewertet (R B 179.2 Abs. 1 S. 9, Abs. 4 ErbStR).\n4. Niedrigerer gemeiner Wert nur per Nachweis, regelmäßig Gutachten (§ 198 BewG).\n\nBeispiel: 400 m² × 380 € + 240 m² × 190 € = 197.600 €.\n\nZum Schluss: § 179 BewG und R B 179.2 ErbStR zum Markieren. Speichern für Klausur 1 📌",
+  "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#erbschaftsteuer"
+  ],
+  "quellen": [
+    "§ 178 Abs. 1, 2 BewG",
+    "§ 179 BewG",
+    "§ 196 Abs. 1 S. 5 BauGB",
+    "R B 179.2 ErbStR",
+    "§ 198 BewG"
+  ],
+  "slug": "2026-11-16-b2",
+  "kurztitel": "Unbebautes Grundstück: § 178/§ 179 BewG, Bodenrichtwert und abweichende Grundstücksmerkmale",
+  "regelGeprueft": true,
+  "manuellGeprueft": false,
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "textProviderKostenUsd": 0,
+  "faktencheckProviderKostenUsd": 0,
+  "bildStatus": "open-peeps-render",
+  "renderer": "open-peeps-v4",
+  "liveVorrangAktiv": true,
+  "coverBadge": "Prüfschema",
+  "folien": [
+    {
+      "art": "titel",
+      "titel": "Prüfschema",
+      "text": "Prüfschema · Unbebautes · Grundstück · §§ 178, 179 BewG · in 4 Schritten · + Markier-Guide + R B 179.2 · 640 m² × 380 € · 243.200 € · Grundbesitzwert",
+      "bild": "op-cover"
+    },
+    {
+      "art": "text",
+      "titel": "Erbschaftsteuer",
+      "text": "Unbebaut bewerten · Ist es unbebaut? · § 178 BewG · kein benutzbares Gebäude · Bodenrichtwert wählen · § 179 S. 3 BewG · zuletzt vor dem Stichtag ermittelt · Abweichungen anpassen · R B 179.2 ErbStR · Tiefe, Geschossfläche · Fläche × Bodenrichtwert · § 179 S. 1 BewG · Am Ende: § 179 + R B 179.2 markiert"
+    },
+    {
+      "art": "text",
+      "titel": "Erbschaftsteuer",
+      "text": "1 · Wann unbebaut? · Auf dem Grundstück steht kein benutzbares Gebäude. · § 178 Abs. 1 S. 1 BewG · Benutzbar ab Bezugsfertigkeit, die Bauabnahme ist egal. · § 178 Abs. 1 S. 2, 3 BewG · Ruine oder dauerhaft unnutzbares Gebäude: gilt als unbebaut. · § 178 Abs. 2 BewG · Erst die Art!"
+    },
+    {
+      "art": "text",
+      "titel": "Erbschaftsteuer",
+      "text": "2 · Welcher Bodenrichtwert? · Maßgeblich ist der Wert, der zuletzt vor dem Stichtag zu ermitteln war. · § 179 S. 3 BewG · Gutachterausschüsse ermitteln meist alle zwei Jahre zum Jahresbeginn. · § 196 Abs. 1 S. 5 BauGB · Kein Richtwert: aus vergleichbaren Flächen ableiten. · § 179 S. 4 BewG · Welches Jahr?"
+    },
+    {
+      "art": "text",
+      "titel": "Erbschaftsteuer",
+      "text": "3 · Grundstück weicht ab · Weicht es vom Richtwertgrundstück ab, etwa bei Tiefe oder Geschossfläche, wird nach den Vorgaben des Gutachterausschusses angepasst. · R B 179.2 ErbStR · Tiefenzonen: Teilflächen getrennt bewerten, dann addieren. · R B 179.2 ErbStR · Vorne teurer?"
+    },
+    {
+      "art": "text",
+      "titel": "Erbschaftsteuer",
+      "text": "Henrike erbt einen Bauplatz · § 179 S. 1 BewG · Fläche · 640 m² · Bodenrichtwert · 380 €/m² · Grundbesitzwert · 243.200 € · Einfach gerechnet!"
+    },
+    {
+      "art": "text",
+      "titel": "Erbschaftsteuer",
+      "text": "Jetzt du · Variante: vorne 400 m² zu 380 € je m². · Hinten 240 m², Tiefenzone: 190 € je m². · Wie hoch ist der Grundbesitzwert? · Rechnest du mit?"
+    },
+    {
+      "art": "text",
+      "titel": "Erbschaftsteuer",
+      "text": "Lösung · R B 179.2 ErbStR · Vorne 400 m² × 380 € · 152.000 € · Hinten 240 m² × 190 € · 45.600 € · Grundbesitzwert · 197.600 € · Niedriger? Gutachten nach § 198 BewG · Zonen getrennt!"
+    },
+    {
+      "art": "text",
+      "titel": "Erbschaftsteuer",
+      "text": "Fläche × Bodenrichtwert · Richtwert vor dem Stichtag, Abweichungen anpassen · Unbebaut prüfen, · Richtwert vor Stichtag, · Zonen getrennt, · dann multiplizieren. · Speichern für Klausur 1 · Welcher Schritt kostet dich Punkte? · Weiterwischen: § 179 + R B 179.2 markiert"
+    },
+    {
+      "art": "text",
+      "titel": "Erbschaftsteuer",
+      "text": "§ 179 BewG Unbebaute Grundstücke · Formel · Zeitpunkt! · Notlösung · R B 179.2 ErbStR (Auszug) · Tiefe, GFZ · laut Gutachter · Fläche teilen · vorne / hinten · Randnotiz: § 198 BewG · Niedrigerer gemeiner Wert per Gutachten"
+    }
+  ]
+}

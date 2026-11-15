@@ -1,0 +1,44 @@
+{
+  "slot": "s6",
+  "art": "norm",
+  "fach": "bilanz",
+  "klausur": 3,
+  "fachLabel": "Bilanzsteuerrecht",
+  "themaId": "bilanz-karte-k3-34",
+  "beitragSlot": null,
+  "quellen": null,
+  "titel": [
+    "Mietereinbau:",
+    "welche AfA?"
+  ],
+  "norm": "§ 7 Abs. 4 EStG",
+  "punkte": [
+    [
+      "Grundfall: Gebäude-AfA mit festem Satz.",
+      "ok",
+      "§ 7 Abs. 4 S. 1 EStG"
+    ],
+    [
+      "Kürzer nur bei kürzerer tatsächlicher Nutzungsdauer, nicht automatisch nach Mietdauer.",
+      "warn",
+      "§ 7 Abs. 4 S. 2 EStG"
+    ]
+  ],
+  "sichtbareTexte": [
+    "Bilanzsteuerrecht",
+    "Norm des Tages",
+    "Mietereinbau:",
+    "welche AfA?",
+    "§ 7 Abs. 4 EStG",
+    "Grundfall: Gebäude-AfA mit festem Satz.",
+    "§ 7 Abs. 4 S. 1 EStG",
+    "Kürzer nur bei kürzerer tatsächlicher Nutzungsdauer, nicht automatisch nach Mietdauer.",
+    "§ 7 Abs. 4 S. 2 EStG"
+  ],
+  "renderer": "open-peeps-v4",
+  "bildStatus": "open-peeps-render",
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "liveVorrangAktiv": true,
+  "regelGeprueft": true
+}

@@ -1,0 +1,36 @@
+{
+  "slot": "s4",
+  "art": "frage",
+  "fach": "istr",
+  "klausur": 2,
+  "fachLabel": "Internationales Steuerrecht",
+  "themaId": "istr-quiz-aufenthalt-9-ao",
+  "beitragSlot": null,
+  "quellen": null,
+  "frage": [
+    "Gewöhnlicher Aufenthalt:",
+    "ab wann stets?"
+  ],
+  "optionen": [
+    "Mehr als sechs Monate am Stück",
+    "Ab 183 Tagen im Kalenderjahr",
+    "Ab dem ersten Arbeitstag"
+  ],
+  "pairId": "istr-quiz-aufenthalt-9-ao",
+  "sichtbareTexte": [
+    "Internationales Steuerrecht",
+    "Prüfungsfrage",
+    "Gewöhnlicher Aufenthalt:",
+    "ab wann stets?",
+    "Mehr als sechs Monate am Stück",
+    "Ab 183 Tagen im Kalenderjahr",
+    "Ab dem ersten Arbeitstag",
+    "Auflösung in der nächsten Story"
+  ],
+  "renderer": "open-peeps-v4",
+  "bildStatus": "open-peeps-render",
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "liveVorrangAktiv": true,
+  "regelGeprueft": true
+}

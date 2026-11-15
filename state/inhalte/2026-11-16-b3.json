@@ -1,0 +1,62 @@
+{
+  "format": "reel",
+  "fach": "kst",
+  "klausur": 2,
+  "fachLabel": "Körperschaftsteuer",
+  "themaId": "kst-aufb-kst-t1-03",
+  "caption": "Ab wann zahlt eine neu gegründete GmbH Körperschaftsteuer? 🏢\n\n▸ Vor dem notariellen Gesellschaftsvertrag: Vorgründungsgesellschaft, regelmäßig eine Personengesellschaft der Gründer. Ihre Einkünfte werden gesondert und einheitlich festgestellt und den Gründern zugerechnet (§ 180 Abs. 1 S. 1 Nr. 2 Buchst. a AO; H 1.1 KStH).\n▸ Ab dem Notartermin: Vorgesellschaft. Sie ist bereits körperschaftsteuerpflichtig und bildet mit der späteren GmbH ein Steuersubjekt, wenn die Eintragung tatsächlich folgt (§ 1 Abs. 1 Nr. 1 KStG; H 1.1 KStH).\n▸ Zivilrechtlich besteht die GmbH als solche erst mit der Eintragung (§ 11 Abs. 1 GmbHG). Steuerlich bestätigt die Eintragung nur die schon bestehende Steuerpflicht.\n\nBeispiel: 12.000 € vor dem Notartermin gehören den Gründern, 40.000 € danach versteuert die GmbH.\n\nSpeichern für Klausur 2 📌",
+  "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#körperschaftsteuer"
+  ],
+  "quellen": [
+    "§ 1 Abs. 1 Nr. 1 KStG",
+    "H 1.1 KStH",
+    "§ 180 Abs. 1 S. 1 Nr. 2 Buchst. a AO",
+    "§ 11 Abs. 1 GmbHG"
+  ],
+  "slug": "2026-11-16-b3",
+  "kurztitel": "Ab wann zahlt eine neu gegründete GmbH Körperschaftsteuer?",
+  "regelGeprueft": true,
+  "manuellGeprueft": false,
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "textProviderKostenUsd": 0,
+  "faktencheckProviderKostenUsd": 0,
+  "bildStatus": "open-peeps-render",
+  "renderer": "open-peeps-v4",
+  "liveVorrangAktiv": true,
+  "bild": "op-cover",
+  "reelTyp": "rechnung",
+  "hookStil": "split",
+  "coverBadge": "Reel",
+  "szenen": [
+    {
+      "art": "hook",
+      "titel": "Neue GmbH: Wer versteuert?"
+    },
+    {
+      "art": "schritt",
+      "titel": "Vorgründung"
+    },
+    {
+      "art": "schritt",
+      "titel": "Vorgesellschaft"
+    },
+    {
+      "art": "schritt",
+      "titel": "Klausurfalle"
+    }
+  ],
+  "sprecher": [
+    "Neue GmbH: zwölftausend Euro Gewinn vor dem Notar, vierzigtausend danach. Wer versteuert was?",
+    "Vor dem Notartermin gibt es nur die Gründer, meist als Personengesellschaft. Die zwölftausend Euro werden ihnen per Feststellung zugerechnet.",
+    "Ab dem Notartermin besteht die Vorgesellschaft. Sie ist schon körperschaftsteuerpflichtig, wenn die Eintragung folgt. Die vierzigtausend versteuert die GmbH.",
+    "Die Eintragung ist nur die Bestätigung, nicht der Startschuss.",
+    "Merke: Vor dem Notar zahlen die Gründer, ab dem Notar die GmbH."
+  ],
+  "dauerS": 38.98,
+  "tempo": 1
+}

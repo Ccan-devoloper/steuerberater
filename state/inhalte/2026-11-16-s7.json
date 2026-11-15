@@ -1,0 +1,49 @@
+{
+  "slot": "s7",
+  "art": "tipp",
+  "fach": null,
+  "klausur": 0,
+  "fachLabel": "Zweiter Anlauf",
+  "themaId": null,
+  "beitragSlot": null,
+  "quellen": null,
+  "ueberzeile": "Lernstrategie",
+  "titel": [
+    "Zweiter Anlauf:",
+    "erst sortieren"
+  ],
+  "punkte": [
+    [
+      "Jede Klausur nach verlorenen Punkten durchgehen.",
+      "ok",
+      null
+    ],
+    [
+      "Lücke, Zeitnot oder Leichtsinn trennen.",
+      "ok",
+      null
+    ],
+    [
+      "Die größte Baustelle zuerst angehen.",
+      "ok",
+      null
+    ]
+  ],
+  "icon": "tabler:list-check",
+  "iconFarbe": "GELB",
+  "sichtbareTexte": [
+    "Zweiter Anlauf",
+    "Lernstrategie",
+    "Zweiter Anlauf:",
+    "erst sortieren",
+    "Jede Klausur nach verlorenen Punkten durchgehen.",
+    "Lücke, Zeitnot oder Leichtsinn trennen.",
+    "Die größte Baustelle zuerst angehen."
+  ],
+  "renderer": "open-peeps-v4",
+  "bildStatus": "open-peeps-render",
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "liveVorrangAktiv": true,
+  "regelGeprueft": true
+}

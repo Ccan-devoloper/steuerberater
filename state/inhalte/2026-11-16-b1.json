@@ -1,0 +1,89 @@
+{
+  "format": "pruefungsfrage",
+  "fach": "persg",
+  "klausur": 3,
+  "fachLabel": "Personengesellschaften",
+  "themaId": "persg-aufb-persg-melzer-3-4",
+  "caption": "Ausscheiden aus der KG mit Abfindung zum Buchwert: Veräußerung oder Schenkung? Eine typische Prüfungsfrage für den zweiten Anlauf.\n\n▸ Zivilrecht: Der Anteil wächst den übrigen Gesellschaftern zu, der Ausscheidende erhält einen Abfindungsanspruch (§ 712 Abs. 1 BGB i. V. m. § 105 Abs. 3, § 161 Abs. 2 HGB; § 135 Abs. 1 HGB).\n▸ Steuerlich ist das Ausscheiden grundsätzlich eine Veräußerung des Mitunternehmeranteils (§ 16 Abs. 1 S. 1 Nr. 2, Abs. 2 S. 1 EStG).\n▸ Abfindung genau zum Buchwert: Bei betrieblichem Grund (Buchwertklausel für alle) entgeltlich mit Veräußerungsgewinn 0 €; bei privatem Grund (Zuwendung an Angehörige) unentgeltlich mit Buchwertfortführung (§ 6 Abs. 3 S. 1, 3 EStG).\n▸ Entgeltlicher Erwerb: Für den hinzuerworbenen Gebäudeanteil läuft eine neue AfA nach den Regeln im Erwerbszeitpunkt (§ 7 Abs. 4 S. 1 EStG).\n▸ Klausurfalle: Schenkungsteuer daneben prüfen. Als Schenkung gilt der Übergang, soweit der Steuerwert des Anteils die Abfindung übersteigt (§ 7 Abs. 7 S. 1 ErbStG).\n\nZum Schluss: § 16 Abs. 1, 2 EStG und § 7 Abs. 7 ErbStG zum Markieren. Speichern für Klausur 3 📌",
+  "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#personengesellschaften"
+  ],
+  "quellen": [
+    "§ 712 Abs. 1 BGB",
+    "§ 105 Abs. 3 HGB",
+    "§ 161 Abs. 2 HGB",
+    "§ 135 Abs. 1 HGB",
+    "§ 16 Abs. 1 S. 1 Nr. 2, Abs. 2 S. 1 EStG",
+    "§ 6 Abs. 3 S. 1, 3 EStG",
+    "§ 7 Abs. 4 S. 1 EStG",
+    "§ 7 Abs. 7 S. 1 ErbStG"
+  ],
+  "slug": "2026-11-16-b1",
+  "kurztitel": "Ausscheiden zum Buchwert: Veräußerung oder Schenkung?",
+  "regelGeprueft": true,
+  "manuellGeprueft": false,
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "textProviderKostenUsd": 0,
+  "faktencheckProviderKostenUsd": 0,
+  "bildStatus": "open-peeps-render",
+  "renderer": "open-peeps-v4",
+  "liveVorrangAktiv": true,
+  "coverBadge": "Prüfungsfrage",
+  "folien": [
+    {
+      "art": "titel",
+      "titel": "Prüfungsfrage",
+      "text": "Prüfungsfrage · Abfindung zum · Buchwert · § 16 Abs. 1 S. 1 Nr. 2 EStG · Die Frage · + Markier-Guide § 16 EStG, § 7 ErbStG · Kapitalkonto · 80.000 € · = Abfindung",
+      "bild": "op-cover"
+    },
+    {
+      "art": "text",
+      "titel": "Personengesellschaften",
+      "text": "Die Klausurfrage · Selin scheidet zum 31.12. aus der Lindhof KG aus. · Kapitalkonto 80.000 €, Abfindung laut Vertrag ebenfalls 80.000 €. Ihr Anteil an den stillen Reserven: 50.000 €. · Veräußerung oder unentgeltliche Übertragung? · Ich bin Selin."
+    },
+    {
+      "art": "text",
+      "titel": "Personengesellschaften",
+      "text": "Zivilrecht zuerst · Selins Anteil wächst den übrigen Gesellschaftern zu. · § 712 Abs. 1 BGB i. V. m. §§ 105 Abs. 3, 161 Abs. 2 HGB · Sie erhält dafür einen Abfindungsanspruch. · § 135 Abs. 1 HGB · Steuerlich: Grundsätzlich veräußert sie ihren Mitunternehmeranteil. · § 16 Abs. 1 S. 1 Nr. 2 EStG · Anwachsung!"
+    },
+    {
+      "art": "text",
+      "titel": "Personengesellschaften",
+      "text": "Warum nur der Buchwert? · Betrieblicher Grund · Buchwertklausel gilt für alle Gesellschafter · Entgeltlich, Gewinn 0 € · § 16 Abs. 2 S. 1 EStG · Privater Grund · Reserven sollen Angehörigen zufließen · Unentgeltlich, Buchwerte fortführen · § 6 Abs. 3 S. 1 EStG · Das Motiv entscheidet."
+    },
+    {
+      "art": "text",
+      "titel": "Personengesellschaften",
+      "text": "Folgen bei den Verbleibenden · Entgeltlich: Für den hinzuerworbenen Anteil entstehen Anschaffungskosten. · Gebäude: Für diesen Teil läuft eine neue AfA nach den Regeln im Erwerbszeitpunkt. · § 7 Abs. 4 S. 1 EStG · Unentgeltlich: Buchwerte und AfA laufen einfach weiter. · § 6 Abs. 3 S. 3 EStG · Zwei AfA-Reihen?"
+    },
+    {
+      "art": "text",
+      "titel": "Personengesellschaften",
+      "text": "Jetzt du · Variante: Die beiden Verbleibenden sind Selins Brüder. · Selin will ihnen die Reserven bewusst zukommen lassen. · Wie lautet die Lösung, und welche Steuer fehlt noch? · Familie zählt."
+    },
+    {
+      "art": "text",
+      "titel": "Personengesellschaften",
+      "text": "Lösung · Privat motiviert: unentgeltliche Übertragung, kein Veräußerungsgewinn. · § 6 Abs. 3 S. 1 EStG · Die Brüder führen Buchwerte und AfA fort. · § 6 Abs. 3 S. 3 EStG · Und: Schenkungsteuer prüfen · Klingt fair."
+    },
+    {
+      "art": "text",
+      "titel": "Personengesellschaften",
+      "text": "Die zweite Steuer · Als Schenkung gilt, soweit der Steuerwert des Anteils die Abfindung übersteigt. · § 7 Abs. 7 S. 1 ErbStG · Das greift auch bei einer betrieblich gemeinten Buchwertklausel. · Auch noch Schenkungsteuer?"
+    },
+    {
+      "art": "text",
+      "titel": "Personengesellschaften",
+      "text": "Abfindung = Buchwert: erst das Motiv klären · betrieblich: Veräußerung · privat: Buchwerte · Betrieblich = entgeltlich, · privat = Buchwerte, · Schenkungsteuer extra. · Speichern für Klausur 3 · An § 7 Abs. 7 ErbStG gedacht? · Weiterwischen: § 16 EStG, § 7 ErbStG markiert"
+    },
+    {
+      "art": "text",
+      "titel": "Personengesellschaften",
+      "text": "§ 16 EStG Veräußerung des Betriebs (Auszug) · Ausscheiden · Abfindung · Kapitalkonto · § 7 ErbStG (Auszug) · Steuerwert über Abfindung · Brüder führen Buchwerte fort · Schenkungsteuer auf den Mehrwert"
+    }
+  ]
+}

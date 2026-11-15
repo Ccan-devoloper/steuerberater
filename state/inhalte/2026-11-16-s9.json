@@ -1,0 +1,74 @@
+{
+  "slot": "s9",
+  "art": "merksatz",
+  "fach": "kst",
+  "klausur": 2,
+  "fachLabel": "Körperschaftsteuer",
+  "themaId": "kst-aufb-kst-t1-18",
+  "beitragSlot": null,
+  "quellen": null,
+  "titel": [
+    "Verdeckte Einlage:",
+    "welcher Wert?"
+  ],
+  "zeilen": [
+    [
+      [
+        "Teilwert",
+        "a"
+      ],
+      [
+        " als Regel;",
+        null
+      ]
+    ],
+    [
+      [
+        "AK-Grenze",
+        "b"
+      ],
+      [
+        " (3 Jahre)",
+        null
+      ]
+    ],
+    [
+      [
+        "nur ohne ",
+        null
+      ],
+      [
+        "§ 23-Fall",
+        "c"
+      ],
+      [
+        ";",
+        null
+      ]
+    ],
+    [
+      [
+        "Grundstück: Teilwert.",
+        null
+      ]
+    ]
+  ],
+  "norm": "R 8.9 Abs. 4 KStR",
+  "sichtbareTexte": [
+    "Körperschaftsteuer",
+    "Merksatz",
+    "Verdeckte Einlage:",
+    "welcher Wert?",
+    "Teilwert als Regel;",
+    "AK-Grenze (3 Jahre)",
+    "nur ohne § 23-Fall;",
+    "Grundstück: Teilwert.",
+    "R 8.9 Abs. 4 KStR"
+  ],
+  "renderer": "open-peeps-v4",
+  "bildStatus": "open-peeps-render",
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "liveVorrangAktiv": true,
+  "regelGeprueft": true
+}
