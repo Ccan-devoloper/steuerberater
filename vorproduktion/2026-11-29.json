@@ -1,0 +1,705 @@
+{
+  "datum": "2026-11-29",
+  "status": "vorproduziert",
+  "freigabeBetreiber": true,
+  "liveVerknuepft": false,
+  "vorproduktionStatus": "live-freigegeben",
+  "layoutQuelle": "open-peeps-variante-c",
+  "semantikQuelle": "examenscampus",
+  "liveVorrangAktiv": true,
+  "normalbetriebGesperrt": true,
+  "bildStatus": "open-peeps-render",
+  "kostenPolicy": {
+    "textUndFaktencheckUsd": 0,
+    "bildgenerierungUsd": 0,
+    "providerKostenUsd": 0,
+    "coverbilder": false,
+    "bildgenerierungErlaubt": false,
+    "reelStimme": "elevenlabs-abo"
+  },
+  "plan": {
+    "beitraege": [
+      {
+        "slot": "b1",
+        "zeit": "08:30",
+        "format": "wochenrueckblick",
+        "themaId": "wochenrueckblick-alle-2026-48",
+        "themaTitel": "Alle Klausuren: sechs Themen der Woche 48",
+        "fach": null,
+        "klausur": 0
+      },
+      {
+        "slot": "b2",
+        "zeit": "13:30",
+        "format": "pruefungsfrage",
+        "themaId": "kst-aufb-kst-t7-9",
+        "themaTitel": "Liquidation: Wie lang ist der Besteuerungszeitraum?",
+        "fach": "kst",
+        "klausur": 2
+      },
+      {
+        "slot": "b3",
+        "zeit": "19:00",
+        "format": "reel",
+        "themaId": "bilanz-aufb-bil-melzer-8-03",
+        "themaTitel": "Wie werden zweifelhafte und normale Forderungen bewertet?",
+        "fach": "bilanz",
+        "klausur": 3
+      }
+    ],
+    "stories": [
+      {
+        "slot": "s4",
+        "zeit": "07:07",
+        "art": "frage",
+        "themaId": "bilanz-quiz-k3-37"
+      },
+      {
+        "slot": "s5",
+        "zeit": "07:09",
+        "art": "antwort",
+        "themaId": "bilanz-quiz-k3-37"
+      },
+      {
+        "slot": "s1",
+        "zeit": "08:30",
+        "art": "teaser",
+        "beitragSlot": "b1"
+      },
+      {
+        "slot": "s6",
+        "zeit": "12:14",
+        "art": "norm",
+        "themaId": "ust-modul-ust-234"
+      },
+      {
+        "slot": "s2",
+        "zeit": "13:30",
+        "art": "teaser",
+        "beitragSlot": "b2"
+      },
+      {
+        "slot": "s7",
+        "zeit": "14:40",
+        "art": "tipp"
+      },
+      {
+        "slot": "s8",
+        "zeit": "17:04",
+        "art": "tipp",
+        "themaId": "kst-modul-kst-12"
+      },
+      {
+        "slot": "s3",
+        "zeit": "19:00",
+        "art": "teaser",
+        "beitragSlot": "b3"
+      },
+      {
+        "slot": "s9",
+        "zeit": "19:12",
+        "art": "merksatz",
+        "themaId": "bilanz-glossar-4"
+      }
+    ]
+  },
+  "inhalte": {
+    "b1": {
+      "format": "wochenrueckblick",
+      "fach": null,
+      "klausur": 0,
+      "fachLabel": "Alle Klausuren",
+      "themaId": "wochenrueckblick-alle-2026-48",
+      "caption": "Wochenrückblick KW 48: je Klausur die Themen der Woche.\n\nKlausur 1 (AO, USt, ErbSt)\n1. Vorläufig festgesetzt wird, soweit ungewiss ist, ob die Voraussetzungen der Steuerentstehung eingetreten sind; rechtliche Zweifel genügen nur in den Katalogfällen; Umfang und Grund sind anzugeben (§ 165 Abs. 1 S. 1–3 AO). Geändert werden darf nur, soweit die Vorläufigkeit reicht (§ 165 Abs. 2 S. 1 AO); die Festsetzungsfrist endet nicht vor Ablauf eines Jahres, nachdem die Ungewissheit beseitigt ist und das Finanzamt davon weiß (§ 171 Abs. 8 S. 1 AO).\n2. Innergemeinschaftliche Lieferung: steuerfrei unter den Voraussetzungen des § 6a Abs. 1 UStG, aber nicht, wenn die Zusammenfassende Meldung fehlt oder fehlerhaft ist (§ 4 Nr. 1 Buchst. b UStG).\n\nKlausur 2 (Ertragsteuern)\n3. Organschaft: Mehrheit der Stimmrechte ununterbrochen ab Beginn des Wirtschaftsjahres der Organgesellschaft; mittelbare Beteiligungen zählen nur, wenn jede vermittelnde Beteiligung die Stimmenmehrheit gewährt (§ 14 Abs. 1 S. 1 Nr. 1 KStG). Das Einkommen der Organgesellschaft, auch ein negatives, wird dem Organträger zugerechnet (§ 14 Abs. 1 S. 1 KStG).\n4. Steuerpflichtige wirtschaftliche Geschäftsbetriebe eines gemeinnützigen Vereins: keine Körperschaft- und Gewerbesteuer, solange die Einnahmen einschließlich Umsatzsteuer insgesamt 50.000 € im Jahr nicht übersteigen (§ 64 Abs. 3 S. 1 AO).\n\nKlausur 3 (Buchführung und Bilanzwesen)\n5. Den Dividendenanspruch gegen eine Tochter-GmbH darf die Steuerbilanz erst mit dem Gewinnverwendungsbeschluss aktivieren (BFH vom 07.08.2000, GrS 2/99, BStBl II 2000, 632).\n6. Als Verbrauchsfolge erlaubt die Steuerbilanz nur Lifo, für gleichartige Vorräte und Bilanzierer nach § 5 EStG (§ 6 Abs. 1 Nr. 2a S. 1 EStG).\n\nZum Schluss: § 165 Abs. 1, 2 und § 171 Abs. 8 AO zum Markieren. Speichern für alle drei Klausuren 📌",
+      "hashtags": [
+        "#steuerberaterexamen",
+        "#steuerberaterprüfung",
+        "#examensvorbereitung",
+        "#steuerrecht"
+      ],
+      "quellen": [
+        "§ 165 Abs. 1 S. 1, 3, Abs. 2 S. 1 AO",
+        "§ 171 Abs. 8 S. 1 AO",
+        "§ 4 Nr. 1 Buchst. b UStG",
+        "§ 6a Abs. 1 UStG",
+        "§ 14 Abs. 1 S. 1 Nr. 1 KStG",
+        "§ 64 Abs. 3 S. 1 AO",
+        "BFH vom 07.08.2000, GrS 2/99, BStBl II 2000, 632",
+        "§ 6 Abs. 1 Nr. 2a S. 1 EStG"
+      ],
+      "slug": "2026-11-29-b1",
+      "kurztitel": "Alle Klausuren: sechs Themen der Woche 48",
+      "regelGeprueft": true,
+      "manuellGeprueft": false,
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "open-peeps-render",
+      "renderer": "open-peeps-v4",
+      "liveVorrangAktiv": true,
+      "coverBadge": "Wochenrückblick",
+      "folien": [
+        {
+          "art": "titel",
+          "titel": "Wochenrückblick",
+          "text": "Wochenrückblick · Woche · kompakt · 6 Themen · + Markier-Guide §§ 165, 171 AO · NOVEMBER · 29 · KW 48",
+          "bild": "op-cover"
+        },
+        {
+          "art": "text",
+          "titel": "Alle Klausuren",
+          "text": "Die Woche in 3 Klausuren · Klausur 1 · AO und USt · §§ 165, 171 AO · § 6a UStG · Vorläufigkeit und EU-Lieferung · Klausur 2 · Körperschaftsteuer · § 14 KStG · § 64 AO · Organschaft und Verein · Klausur 3 · Bilanz · § 6 Abs. 1 Nr. 2a EStG · GrS 2/99 · Dividendenanspruch und Lifo · Am Ende: §§ 165, 171 AO markiert"
+        },
+        {
+          "art": "text",
+          "titel": "Alle Klausuren",
+          "text": "Klausur 1 · AO und USt · Vorläufig bei ungewissen Tatsachen, Rechtsfragen nur im Katalog; Änderung nur, soweit der Vermerk reicht. · § 165 Abs. 1 S. 1, 2, Abs. 2 S. 1 AO · Frist endet frühestens ein Jahr nach Klärung und Kenntnis. · § 171 Abs. 8 S. 1 AO · EU-Lieferung steuerfrei nur mit richtiger Zusammenfassender Meldung. · § 4 Nr. 1 Buchst. b, § 6a UStG"
+        },
+        {
+          "art": "text",
+          "titel": "Alle Klausuren",
+          "text": "Klausur 2 · Körperschaftsteuer · Organschaft: Stimmenmehrheit ab Beginn des Wirtschaftsjahres; mittelbar nur über Mehrheitsbeteiligungen. · § 14 Abs. 1 S. 1 Nr. 1 KStG · Das Einkommen der Tochter wird dem Organträger zugerechnet, auch ein Verlust. · § 14 Abs. 1 S. 1 KStG · Gemeinnütziger Verein: Geschäftsbetriebe bis 50.000 € Einnahmen ohne Körperschaftsteuer. · § 64 Abs. 3 S. 1 AO · Mehrheit?"
+        },
+        {
+          "art": "text",
+          "titel": "Alle Klausuren",
+          "text": "Klausur 3 · Bilanz · Dividende der Tochter-GmbH: steuerlich erst ab Gewinnverwendungsbeschluss aktivieren. · BFH vom 07.08.2000, GrS 2/99, BStBl II 2000, 632 · Verbrauchsfolge in der Steuerbilanz: nur Lifo, bei gleichartigen Vorräten. · § 6 Abs. 1 Nr. 2a S. 1 EStG · Welches Jahr?"
+        },
+        {
+          "art": "text",
+          "titel": "Alle Klausuren",
+          "text": "Die Woche in allen 3 Klausuren · Verfahren · Ertragsteuern · Bilanz · Vorläufig nur so weit, · Stimmen ab Jahresbeginn, · Beschluss vor Forderung, · Lifo nur steuerlich. · Speichern für alle 3 Klausuren · Welche Klausur wackelt noch? · Weiterwischen: §§ 165, 171 AO markiert"
+        },
+        {
+          "art": "text",
+          "titel": "Alle Klausuren",
+          "text": "§§ 165, 171 AO (Auszug) · nur Tatsachen · Vermerk · nur so weit · Frist + 1 Jahr · Vorbehalt der Nachprüfung: ganzer Bescheid offen · Vorläufigkeit: nur der Vermerk"
+        }
+      ]
+    },
+    "b2": {
+      "format": "pruefungsfrage",
+      "fach": "kst",
+      "klausur": 2,
+      "fachLabel": "Körperschaftsteuer",
+      "themaId": "kst-aufb-kst-t7-9",
+      "caption": "Prüfungsfrage Liquidation: Wie lang ist der Besteuerungszeitraum der GmbH in der Abwicklung?\n\n▸ Wird eine Kapitalgesellschaft nach der Auflösung abgewickelt, wird der im Abwicklungszeitraum erzielte Gewinn besteuert; der Besteuerungszeitraum soll drei Jahre nicht übersteigen (§ 11 Abs. 1 S. 1, 2 KStG). Gewinn = Abwicklungs-Endvermögen minus Abwicklungs-Anfangsvermögen (§ 11 Abs. 2 KStG).\n▸ Startpunkt ist das Wirtschaftsjahr der Auflösung. Wird mitten im Jahr aufgelöst, darf die GmbH für die Monate davor ein eigenes Rumpfjahr bilden; es zählt dann nicht zur Abwicklung. Im Insolvenzverfahren gibt es diese Wahl nicht (R 11 Abs. 1 S. 2–6 KStR).\n▸ Nach Ablauf der drei Jahre sind die weiteren Besteuerungszeiträume grundsätzlich auf je ein Jahr begrenzt (R 11 Abs. 1 S. 7 KStR).\n▸ Fall mit Rumpfjahr: 01–06/2026 normale Veranlagung, 07/2026–06/2029, 07/2029–06/2030, 07–09/2030. Ohne Rumpfjahr: 2026–2028, 2029, 01–09/2030.\n▸ Verluste zwischen den Zeiträumen: Verlustabzug mit Mindestbesteuerung (§ 8 Abs. 1 KStG, § 10d Abs. 2 EStG).\n\nZum Schluss: § 11 KStG und R 11 KStR zum Markieren. Speichern für Klausur 2 📌",
+      "hashtags": [
+        "#steuerberaterexamen",
+        "#steuerberaterprüfung",
+        "#examensvorbereitung",
+        "#körperschaftsteuer"
+      ],
+      "quellen": [
+        "§ 11 Abs. 1 S. 1, 2, Abs. 2 KStG",
+        "R 11 Abs. 1 S. 2–7 KStR",
+        "§ 8 Abs. 1 KStG",
+        "§ 10d Abs. 2 EStG"
+      ],
+      "slug": "2026-11-29-b2",
+      "kurztitel": "Liquidation: Wie lang ist der Besteuerungszeitraum?",
+      "regelGeprueft": true,
+      "manuellGeprueft": false,
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "open-peeps-render",
+      "renderer": "open-peeps-v4",
+      "liveVorrangAktiv": true,
+      "coverBadge": "Prüfungsfrage",
+      "folien": [
+        {
+          "art": "titel",
+          "titel": "Prüfungsfrage",
+          "text": "Prüfungsfrage · Liquidation: · wie lange? · § 11 Abs. 1 KStG · Die Frage · + Markier-Guide § 11 + R 11 KStR · JUNI · 30 · Auflösung",
+          "bild": "op-cover"
+        },
+        {
+          "art": "text",
+          "titel": "Körperschaftsteuer",
+          "text": "Die Klausurfrage · Die Brix GmbH, Wirtschaftsjahr gleich Kalenderjahr, wird am 30.06.2026 aufgelöst. · Die Abwicklung dauert bis zum 30.09.2030. · Welche Besteuerungszeiträume gibt es? · Ich bin Oskar, Liquidator."
+        },
+        {
+          "art": "text",
+          "titel": "Körperschaftsteuer",
+          "text": "Die Regeln · Besteuert wird der Gewinn des ganzen Abwicklungszeitraums. · § 11 Abs. 1 S. 1 KStG · Ein Besteuerungszeitraum soll höchstens drei Jahre dauern. · § 11 Abs. 1 S. 2 KStG · Danach grundsätzlich je ein Jahr. · R 11 Abs. 1 S. 7 KStR · Drei Jahre max."
+        },
+        {
+          "art": "text",
+          "titel": "Körperschaftsteuer",
+          "text": "Rumpfjahr: ja oder nein? · Mit Rumpfjahr · Januar bis Juni 2026 normal veranlagen · R 11 Abs. 1 S. 3, 6 KStR · Abwicklung ab Juli 2026 · Ohne Rumpfjahr · Zeitraum beginnt im Januar 2026 · R 11 Abs. 1 S. 2 KStR · In der Insolvenz kein Wahlrecht · R 11 Abs. 1 S. 4 KStR · Wahlrecht!"
+        },
+        {
+          "art": "text",
+          "titel": "Körperschaftsteuer",
+          "text": "Lösung mit Rumpfjahr · 01–06/2026 · Rumpfjahr, normal · R 11 Abs. 1 S. 5 KStR · ab 07/2026 · drei Jahre · § 11 Abs. 1 S. 2 KStG · ab 07/2029 · ein Jahr · R 11 Abs. 1 S. 7 KStR · ab 07/2030 · Rest bis Ende 09/2030"
+        },
+        {
+          "art": "text",
+          "titel": "Körperschaftsteuer",
+          "text": "Jetzt du · Variante: Die Brix GmbH bildet kein Rumpfwirtschaftsjahr. · Wie sehen die Besteuerungszeiträume jetzt aus? · Rechnest du mit?"
+        },
+        {
+          "art": "text",
+          "titel": "Körperschaftsteuer",
+          "text": "Lösung ohne Rumpfjahr · ab 01/2026 · drei Jahre bis 12/2028 · R 11 Abs. 1 S. 2 KStR · 2029 · ein Jahr · R 11 Abs. 1 S. 7 KStR · 2030 · Rest bis Ende 09/2030 · Kürzer!"
+        },
+        {
+          "art": "text",
+          "titel": "Körperschaftsteuer",
+          "text": "Verluste im Blick · Zwischen den Zeiträumen gilt der Verlustabzug mit Mindestbesteuerung. · § 8 Abs. 1 KStG, § 10d Abs. 2 EStG · Innerhalb eines Zeitraums wird alles saldiert. · Darum kann der Verzicht aufs Rumpfjahr im Verlustfall helfen. · Saldo zählt!"
+        },
+        {
+          "art": "text",
+          "titel": "Körperschaftsteuer",
+          "text": "Mit Rumpfjahr: Abwicklung ab Juli 2026 · drei Jahre, dann je ein Jahr · Auflösung bestimmt Start, · drei Jahre höchstens, · danach jährlich. · Speichern für Klausur 2 · Hättest du jedes Jahr veranlagt? · Weiterwischen: § 11 + R 11 markiert"
+        },
+        {
+          "art": "text",
+          "titel": "Körperschaftsteuer",
+          "text": "§ 11 KStG Auflösung und Abwicklung (Auszug) · ein Zeitraum · Grenze · Vergleich · R 11 KStR (Auszug) · Start · Wahlrecht · nicht in der Insolvenz · danach jährlich · Daneben: § 8 Abs. 1 KStG, § 10d Abs. 2 EStG · Verlustabzug zwischen den Zeiträumen"
+        }
+      ]
+    },
+    "b3": {
+      "format": "reel",
+      "fach": "bilanz",
+      "klausur": 3,
+      "fachLabel": "Bilanzsteuerrecht",
+      "themaId": "bilanz-aufb-bil-melzer-8-03",
+      "caption": "Zweifelhafte Forderung: brutto oder netto abschreiben? 📄\n\n▸ Ist eine Forderung nur teilweise einbringlich, wird sie einzeln auf den voraussichtlich eingehenden Betrag berichtigt; Grundlage ist der Nettobetrag ohne Umsatzsteuer. Steuerlich erfordert der niedrigere Teilwert eine voraussichtlich dauernde Wertminderung (§ 6 Abs. 1 Nr. 2 S. 2 EStG; handelsrechtlich § 253 Abs. 4 HGB).\n▸ Beispiel: 11.900 € brutto, 10.000 € netto, erwarteter Eingang 50 %: Einzelwertberichtigung 5.000 €. Die Umsatzsteuer von 1.900 € bleibt unverändert.\n▸ Die Umsatzsteuer wird erst berichtigt, wenn das Entgelt uneinbringlich geworden ist (§ 17 Abs. 2 Nr. 1 S. 1 UStG); geht später doch Geld ein, wird erneut berichtigt (§ 17 Abs. 2 Nr. 1 S. 2 UStG).\n\nSpeichern für Klausur 3 📌",
+      "hashtags": [
+        "#steuerberaterexamen",
+        "#steuerberaterprüfung",
+        "#examensvorbereitung",
+        "#bilanzsteuerrecht"
+      ],
+      "quellen": [
+        "§ 6 Abs. 1 Nr. 2 S. 2 EStG",
+        "§ 253 Abs. 4 HGB",
+        "§ 17 Abs. 2 Nr. 1 S. 1, 2 UStG"
+      ],
+      "slug": "2026-11-29-b3",
+      "kurztitel": "Wie werden zweifelhafte und normale Forderungen bewertet?",
+      "regelGeprueft": true,
+      "manuellGeprueft": false,
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "open-peeps-render",
+      "renderer": "open-peeps-v4",
+      "liveVorrangAktiv": true,
+      "bild": "op-cover",
+      "reelTyp": "merksatz",
+      "hookStil": "kippen",
+      "coverBadge": "Reel",
+      "szenen": [
+        {
+          "art": "hook",
+          "titel": "Forderung wackelt: alles abschreiben?"
+        },
+        {
+          "art": "schritt",
+          "titel": "Die Forderung"
+        },
+        {
+          "art": "schritt",
+          "titel": "Wertberichtigung"
+        },
+        {
+          "art": "schritt",
+          "titel": "Erst bei Ausfall"
+        }
+      ],
+      "sprecher": [
+        "Kunde wackelt, also Forderung samt Umsatzsteuer abschreiben? Falsch. Wertberichtigt wird nur netto.",
+        "Fenjas Forderung: elftausendneunhundert Euro brutto, davon zehntausend netto. Sie rechnet mit der Hälfte.",
+        "Die Einzelwertberichtigung beträgt fünftausend Euro, gerechnet vom Nettobetrag. Die Umsatzsteuer bleibt stehen.",
+        "Erst wenn die Forderung uneinbringlich ist, wird auch die Umsatzsteuer berichtigt.",
+        "Merke: zweifelhaft netto abschreiben, uneinbringlich auch die Steuer."
+      ],
+      "dauerS": 33.851,
+      "tempo": 1.0
+    },
+    "s4": {
+      "slot": "s4",
+      "art": "frage",
+      "fach": "bilanz",
+      "klausur": 3,
+      "fachLabel": "Bilanzsteuerrecht",
+      "themaId": "bilanz-quiz-k3-37",
+      "beitragSlot": null,
+      "quellen": null,
+      "frage": [
+        "§ 8b Abs. 5 KStG:",
+        "5 % worauf?"
+      ],
+      "optionen": [
+        "auf den Beteiligungsbuchwert",
+        "auf den steuerfreien Bezug",
+        "auf die tatsächlichen Kosten"
+      ],
+      "pairId": "bilanz-quiz-k3-37",
+      "sichtbareTexte": [
+        "Bilanzsteuerrecht",
+        "Prüfungsfrage",
+        "§ 8b Abs. 5 KStG:",
+        "5 % worauf?",
+        "auf den Beteiligungsbuchwert",
+        "auf den steuerfreien Bezug",
+        "auf die tatsächlichen Kosten",
+        "Auflösung in der nächsten Story"
+      ],
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
+      "liveVorrangAktiv": true,
+      "regelGeprueft": true
+    },
+    "s5": {
+      "slot": "s5",
+      "art": "antwort",
+      "fach": "bilanz",
+      "klausur": 3,
+      "fachLabel": "Bilanzsteuerrecht",
+      "themaId": "bilanz-quiz-k3-37",
+      "beitragSlot": null,
+      "quellen": null,
+      "titel": [
+        "B: auf den",
+        "Bezug"
+      ],
+      "optionen": [
+        "auf den Beteiligungsbuchwert",
+        "auf den steuerfreien Bezug",
+        "auf die tatsächlichen Kosten"
+      ],
+      "richtig": 1,
+      "text": "5 % der steuerfreien Bezüge gelten als nicht abziehbar, egal wie hoch die Kosten wirklich sind.",
+      "norm": "§ 8b Abs. 5 S. 1, 2 KStG",
+      "pairId": "bilanz-quiz-k3-37",
+      "sichtbareTexte": [
+        "Bilanzsteuerrecht",
+        "Auflösung",
+        "B: auf den",
+        "Bezug",
+        "auf den Beteiligungsbuchwert",
+        "auf den steuerfreien Bezug",
+        "auf die tatsächlichen Kosten",
+        "5 % der steuerfreien Bezüge gelten als nicht abziehbar, egal wie hoch die Kosten wirklich sind.",
+        "§ 8b Abs. 5 S. 1, 2 KStG"
+      ],
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
+      "liveVorrangAktiv": true,
+      "regelGeprueft": true
+    },
+    "s1": {
+      "slot": "s1",
+      "art": "teaser",
+      "fach": null,
+      "klausur": 0,
+      "fachLabel": "Alle Klausuren",
+      "themaId": null,
+      "beitragSlot": "b1",
+      "quellen": null,
+      "titel": [
+        "Woche kompakt: alle 3 Klausuren"
+      ],
+      "unter": "Wochenrückblick + Markier-Guide · im Profil",
+      "sichtbareTexte": [
+        "Alle Klausuren",
+        "Neu im Feed",
+        "Woche kompakt: alle 3 Klausuren",
+        "Wochenrückblick + Markier-Guide · im Profil"
+      ],
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
+      "liveVorrangAktiv": true,
+      "regelGeprueft": true
+    },
+    "s6": {
+      "slot": "s6",
+      "art": "norm",
+      "fach": "ust",
+      "klausur": 1,
+      "fachLabel": "Umsatzsteuer",
+      "themaId": "ust-modul-ust-234",
+      "beitragSlot": null,
+      "quellen": null,
+      "titel": [
+        "USt-Organschaft:",
+        "drei Kriterien"
+      ],
+      "norm": "§ 2 Abs. 2 Nr. 2 UStG",
+      "punkte": [
+        [
+          "Finanziell, wirtschaftlich und organisatorisch eingegliedert.",
+          "ok",
+          "§ 2 Abs. 2 Nr. 2 S. 1 UStG"
+        ],
+        [
+          "Innenleistungen im Inland: ein Unternehmen, nicht steuerbar.",
+          "warn",
+          "§ 2 Abs. 2 Nr. 2 S. 2, 3 UStG"
+        ]
+      ],
+      "sichtbareTexte": [
+        "Umsatzsteuer",
+        "Norm des Tages",
+        "USt-Organschaft:",
+        "drei Kriterien",
+        "§ 2 Abs. 2 Nr. 2 UStG",
+        "Finanziell, wirtschaftlich und organisatorisch eingegliedert.",
+        "§ 2 Abs. 2 Nr. 2 S. 1 UStG",
+        "Innenleistungen im Inland: ein Unternehmen, nicht steuerbar.",
+        "§ 2 Abs. 2 Nr. 2 S. 2, 3 UStG"
+      ],
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
+      "liveVorrangAktiv": true,
+      "regelGeprueft": true
+    },
+    "s2": {
+      "slot": "s2",
+      "art": "teaser",
+      "fach": "kst",
+      "klausur": 2,
+      "fachLabel": "Körperschaftsteuer",
+      "themaId": null,
+      "beitragSlot": "b2",
+      "quellen": null,
+      "titel": [
+        "Liquidation: wie lange?"
+      ],
+      "unter": "Prüfungsfrage + Markier-Guide · im Profil",
+      "sichtbareTexte": [
+        "Körperschaftsteuer",
+        "Neu im Feed",
+        "Liquidation: wie lange?",
+        "Prüfungsfrage + Markier-Guide · im Profil"
+      ],
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
+      "liveVorrangAktiv": true,
+      "regelGeprueft": true
+    },
+    "s7": {
+      "slot": "s7",
+      "art": "tipp",
+      "fach": null,
+      "klausur": 0,
+      "fachLabel": "Klausurtechnik",
+      "themaId": null,
+      "beitragSlot": null,
+      "quellen": null,
+      "titel": [
+        "Sonntag:",
+        "Woche planen"
+      ],
+      "punkte": [
+        [
+          "Feste Termine für Übungsklausuren.",
+          "ok",
+          null
+        ],
+        [
+          "Ein Tag nur zum Wiederholen.",
+          "ok",
+          null
+        ],
+        [
+          "Ein Abend ganz frei.",
+          "ok",
+          null
+        ]
+      ],
+      "icon": "tabler:calendar-repeat",
+      "iconFarbe": "GELB",
+      "sichtbareTexte": [
+        "Klausurtechnik",
+        "Klausurtipp",
+        "Sonntag:",
+        "Woche planen",
+        "Feste Termine für Übungsklausuren.",
+        "Ein Tag nur zum Wiederholen.",
+        "Ein Abend ganz frei."
+      ],
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
+      "liveVorrangAktiv": true,
+      "regelGeprueft": true
+    },
+    "s8": {
+      "slot": "s8",
+      "art": "tipp",
+      "fach": "kst",
+      "klausur": 2,
+      "fachLabel": "Körperschaftsteuer",
+      "themaId": "kst-modul-kst-12",
+      "beitragSlot": null,
+      "quellen": null,
+      "titel": [
+        "Verein:",
+        "die Reihenfolge"
+      ],
+      "punkte": [
+        [
+          "Bereich bestimmen.",
+          "ok",
+          "§§ 14, 65 AO"
+        ],
+        [
+          "Einnahmen bis 50.000 €: keine KSt und GewSt.",
+          "ok",
+          "§ 64 Abs. 3 AO"
+        ],
+        [
+          "Erst dann Freibetrag 5.000 €.",
+          "ok",
+          "§ 24 S. 1 KStG"
+        ]
+      ],
+      "icon": "tabler:ball-football",
+      "iconFarbe": "GELB",
+      "sichtbareTexte": [
+        "Körperschaftsteuer",
+        "Klausurtipp",
+        "Verein:",
+        "die Reihenfolge",
+        "Bereich bestimmen.",
+        "§§ 14, 65 AO",
+        "Einnahmen bis 50.000 €: keine KSt und GewSt.",
+        "§ 64 Abs. 3 AO",
+        "Erst dann Freibetrag 5.000 €.",
+        "§ 24 S. 1 KStG"
+      ],
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
+      "liveVorrangAktiv": true,
+      "regelGeprueft": true
+    },
+    "s3": {
+      "slot": "s3",
+      "art": "teaser",
+      "fach": "bilanz",
+      "klausur": 3,
+      "fachLabel": "Bilanzsteuerrecht",
+      "themaId": null,
+      "beitragSlot": "b3",
+      "quellen": null,
+      "titel": [
+        "Forderung wackelt"
+      ],
+      "unter": "Neues Reel · im Profil",
+      "sichtbareTexte": [
+        "Bilanzsteuerrecht",
+        "Neu im Feed",
+        "Forderung wackelt",
+        "Neues Reel · im Profil"
+      ],
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
+      "liveVorrangAktiv": true,
+      "regelGeprueft": true
+    },
+    "s9": {
+      "slot": "s9",
+      "art": "merksatz",
+      "fach": "bilanz",
+      "klausur": 3,
+      "fachLabel": "Bilanzsteuerrecht",
+      "themaId": "bilanz-glossar-4",
+      "beitragSlot": null,
+      "quellen": null,
+      "titel": [
+        "Teilwert:",
+        "was ist das?"
+      ],
+      "zeilen": [
+        [
+          [
+            "Was ein ",
+            null
+          ],
+          [
+            "Erwerber",
+            "a"
+          ]
+        ],
+        [
+          [
+            "des ganzen Betriebs",
+            null
+          ]
+        ],
+        [
+          [
+            "dafür ",
+            null
+          ],
+          [
+            "zahlen",
+            "b"
+          ],
+          [
+            " würde.",
+            null
+          ]
+        ]
+      ],
+      "norm": "§ 6 Abs. 1 Nr. 1 S. 3 EStG",
+      "groesse": 80,
+      "sichtbareTexte": [
+        "Bilanzsteuerrecht",
+        "Merksatz",
+        "Teilwert:",
+        "was ist das?",
+        "Was ein Erwerber",
+        "des ganzen Betriebs",
+        "dafür zahlen würde.",
+        "§ 6 Abs. 1 Nr. 1 S. 3 EStG"
+      ],
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
+      "liveVorrangAktiv": true,
+      "regelGeprueft": true
+    }
+  },
+  "renderVorschau": {
+    "status": "fertig",
+    "erzeugtAm": "2026-11-15T07:56:41Z",
+    "pfad": "vorproduktion/2026-11-29/fertig",
+    "providerKostenUsd": 0,
+    "coverbilder": false,
+    "coverIcons": false,
+    "renderer": "open-peeps-v4",
+    "layoutQuelle": "open-peeps-variante-c",
+    "reelStimme": "elevenlabs-laura",
+    "sfx": "freesound-cc0",
+    "freigabeBetreiber": true,
+    "liveVorrangAktiv": true,
+    "normalbetriebGesperrt": true,
+    "wartetLive": []
+  }
+}
