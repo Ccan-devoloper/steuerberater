@@ -1,0 +1,87 @@
+{
+  "format": "pruefungsfrage",
+  "fach": "bilanz",
+  "klausur": 3,
+  "fachLabel": "Bilanzsteuerrecht",
+  "themaId": "bilanz-aufb-bil-melzer-12-05",
+  "caption": "Garantierückstellung: einzeln oder pauschal – und wie bewertet? Die Prüfungsfrage für die Bilanzklausur.\n\n1. Ansatz: Gewährleistungen aus erbrachten Leistungen sind ungewisse Verbindlichkeiten (§ 249 Abs. 1 S. 1 HGB), über die Maßgeblichkeit auch steuerlich (§ 5 Abs. 1 S. 1 EStG). Kulanzleistungen ohne Rechtspflicht: § 249 Abs. 1 S. 2 Nr. 2 HGB.\n2. Einzel- und Pauschalrückstellung: bis zur Bilanzaufstellung bekannte Fälle einzeln, für den übrigen Bestand pauschal nach betrieblichen oder branchentypischen Erfahrungen (H 5.7 (5) EStH).\n3. Bewertung als Sachleistung mit Einzel- und angemessenen Gemeinkosten, ohne künftige Preissteigerungen (§ 6 Abs. 1 Nr. 3a Buchst. b, f EStG); höchstens der Handelsbilanzwert (R 6.11 Abs. 3 EStR).\n4. Abzinsung: nicht bei Laufzeit unter zwölf Monaten (§ 6 Abs. 1 Nr. 3a Buchst. e S. 1 EStG); bei Pauschalrückstellungen verzichtet die Verwaltung darauf (BMF vom 26.05.2005, BStBl I 2005, 699, Rn. 27).\n\nBeispiel: 25.000 € einzeln + 1 % von 1,9 Mio. € = 19.000 € pauschal → 44.000 €.\n\nZum Schluss: § 249 HGB, § 6 Abs. 1 Nr. 3a EStG, H 5.7 (5) EStH und BMF vom 26.05.2005, Rn. 27 zum Markieren. Speichern für Klausur 3 📌",
+  "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#bilanzsteuerrecht"
+  ],
+  "quellen": [
+    "§ 249 Abs. 1 S. 1, S. 2 Nr. 2, Abs. 2 HGB",
+    "§ 5 Abs. 1 S. 1 EStG",
+    "§ 6 Abs. 1 Nr. 3a Buchst. b, e, f EStG",
+    "H 5.7 (5) EStH",
+    "R 6.11 Abs. 3 EStR",
+    "BMF vom 26.05.2005, Rn. 27"
+  ],
+  "slug": "2026-11-15-b2",
+  "kurztitel": "Garantierückstellungen: einzeln, pauschal und richtig bewertet",
+  "regelGeprueft": true,
+  "manuellGeprueft": false,
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "textProviderKostenUsd": 0,
+  "faktencheckProviderKostenUsd": 0,
+  "bildStatus": "open-peeps-render",
+  "renderer": "open-peeps-v4",
+  "liveVorrangAktiv": true,
+  "coverBadge": "Prüfungsfrage",
+  "folien": [
+    {
+      "art": "titel",
+      "titel": "Prüfungsfrage",
+      "text": "Prüfungsfrage · Garantie: · einzeln, pauschal? · § 249 Abs. 1 S. 1 HGB · Klausurfrage · + Markier-Guide §§ 249, 6 + H 5.7 · Umsatz 2026 · 2 Mio. € · Rückstellung?",
+      "bild": "op-cover"
+    },
+    {
+      "art": "text",
+      "titel": "Bilanzsteuerrecht",
+      "text": "Die Frage · Paulinas Fensterbau GmbH gibt zwei Jahre Gewährleistung. Umsatz 2026: 2 Mio. €. · Großauftrag (100.000 €) mit bekanntem Mangel: Reparatur im März 2027, 25.000 €. Sonst erfahrungsgemäß 1 % vom Umsatz. · Ansatz zum 31.12.2026? · Wie viel?"
+    },
+    {
+      "art": "text",
+      "titel": "Bilanzsteuerrecht",
+      "text": "Lösung in 4 Schritten · Ansatz · § 249 Abs. 1 S. 1 HGB, § 5 Abs. 1 S. 1 EStG · ungewisse Verbindlichkeit · Einzeln oder pauschal · H 5.7 (5) EStH · Bekanntes einzeln, Rest pauschal · Bewerten · § 6 Abs. 1 Nr. 3a Buchst. b, f EStG · Sachleistung zu Stichtagskosten · Abzinsen? · § 6 Abs. 1 Nr. 3a Buchst. e EStG · Laufzeit prüfen · Am Ende: § 249 HGB, § 6 EStG + H 5.7 markiert"
+    },
+    {
+      "art": "text",
+      "titel": "Bilanzsteuerrecht",
+      "text": "1 · Ansatz · Gewährleistung für erbrachte Leistungen: ungewisse Verbindlichkeit, Pflicht in der Handelsbilanz. · § 249 Abs. 1 S. 1 HGB · Gilt über die Maßgeblichkeit auch steuerlich. · § 5 Abs. 1 S. 1 EStG · Kulanz ohne Rechtspflicht: in der Handelsbilanz ebenfalls. · § 249 Abs. 1 S. 2 Nr. 2 HGB · Pflicht, kein Wahlrecht."
+    },
+    {
+      "art": "text",
+      "titel": "Bilanzsteuerrecht",
+      "text": "2 · Einzeln und pauschal · Bis zur Bilanzaufstellung bekannte Fälle: Einzelrückstellung. · H 5.7 (5) EStH · Für den Rest: Pauschale nach eigenen oder branchentypischen Erfahrungen. · H 5.7 (5) EStH · Die bloße Möglichkeit von Mängeln reicht nicht. · Beides nebeneinander?"
+    },
+    {
+      "art": "text",
+      "titel": "Bilanzsteuerrecht",
+      "text": "3 · Richtig bewerten · Nachbesserung ist eine Sachleistung: Einzel- und angemessene Gemeinkosten. · § 6 Abs. 1 Nr. 3a Buchst. b EStG · Keine künftigen Preissteigerungen in der Steuerbilanz. · § 6 Abs. 1 Nr. 3a Buchst. f EStG · Nie mehr als der Handelsbilanzwert. · R 6.11 Abs. 3 EStR · Heutige Kosten!"
+    },
+    {
+      "art": "text",
+      "titel": "Bilanzsteuerrecht",
+      "text": "4 · Abzinsen? · Einzelfall: Reparatur im März 2027, Laufzeit unter zwölf Monaten, keine Abzinsung. · § 6 Abs. 1 Nr. 3a Buchst. e S. 1 EStG · Pauschalrückstellung: Die Verwaltung verzichtet auf die Abzinsung. · BMF vom 26.05.2005, Rn. 27 · Das spart Rechnerei."
+    },
+    {
+      "art": "text",
+      "titel": "Bilanzsteuerrecht",
+      "text": "Ergebnis 31.12.2026 · H 5.7 (5) EStH · § 6 Abs. 1 Nr. 3a EStG · Einzelrückstellung · 25.000 € · Pauschale 1 % von 1,9 Mio. € · 19.000 € · Abzinsung · 0 € · Rückstellung gesamt · 44.000 € · Großauftrag nicht doppelt erfassen"
+    },
+    {
+      "art": "text",
+      "titel": "Bilanzsteuerrecht",
+      "text": "Paulinas GmbH: 25.000 € + 19.000 € = 44.000 € · Einzelfall raus aus der Pauschalbasis · Bekanntes einzeln, · Rest pauschal, · Stichtagskosten ansetzen, · Laufzeit prüfen. · Speichern für Klausur 3 · Hättest du doppelt gezählt? · Weiterwischen: §§ 249, 6 + H 5.7 markiert"
+    },
+    {
+      "art": "text",
+      "titel": "Bilanzsteuerrecht",
+      "text": "§ 249 HGB, § 6 EStG (Auszug) · Garantie: Pflicht · Kulanz · März 2027: nicht abzinsen · H 5.7 (5) EStH, BMF vom 26.05.2005 (Auszug) · 25.000 € · 1 % vom Rest · nicht abzinsen · Paulina: 25.000 € + 19.000 € · keine Abzinsung: 44.000 €"
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "format": "reel",
+  "fach": "ust",
+  "klausur": 1,
+  "fachLabel": "Umsatzsteuer",
+  "themaId": "ust-aufb-ust-m-b12-7",
+  "caption": "Vorsteuerberichtigung: Ab wann läuft der Berichtigungszeitraum? 🏗️\n\n▸ Dauer: fünf Jahre, bei Grundstücken einschließlich wesentlicher Bestandteile und Gebäuden auf fremdem Grund zehn Jahre (§ 15a Abs. 1 S. 1, 2 UStG).\n▸ Beginn: ab dem Zeitpunkt der erstmaligen Verwendung (§ 15a Abs. 1 S. 1 UStG) – nicht ab Fertigstellung, Anschaffung oder Rechnung.\n▸ Je Kalenderjahr der Änderung wird von einem Fünftel bzw. einem Zehntel der Vorsteuer ausgegangen; eine kürzere Verwendungsdauer ist zu berücksichtigen (§ 15a Abs. 5 S. 1, 2 UStG).\n▸ Ende vor dem 16. eines Monats: Monat bleibt unberücksichtigt; danach zählt er voll (§ 45 UStDV).\n\nSpeichern für Klausur 1 📌",
+  "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#umsatzsteuer"
+  ],
+  "quellen": [
+    "§ 15a Abs. 1 S. 1, 2 UStG",
+    "§ 15a Abs. 5 S. 1, 2 UStG",
+    "§ 45 UStDV"
+  ],
+  "slug": "2026-11-15-b3",
+  "kurztitel": "Berichtigungszeitraum nach § 15a UStG richtig bestimmen",
+  "regelGeprueft": true,
+  "manuellGeprueft": false,
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "textProviderKostenUsd": 0,
+  "faktencheckProviderKostenUsd": 0,
+  "bildStatus": "open-peeps-render",
+  "renderer": "open-peeps-v4",
+  "liveVorrangAktiv": true,
+  "bild": "op-cover",
+  "reelTyp": "merksatz",
+  "hookStil": "knall",
+  "coverBadge": "Reel",
+  "szenen": [
+    {
+      "art": "hook",
+      "titel": "Gebäude fertig: Frist läuft?"
+    },
+    {
+      "art": "schritt",
+      "titel": "Wie lange?"
+    },
+    {
+      "art": "schritt",
+      "titel": "Ab wann?"
+    },
+    {
+      "art": "schritt",
+      "titel": "Kürzer und genau"
+    }
+  ],
+  "sprecher": [
+    "Gebäude fertig, also läuft die Frist? Nein! Der Berichtigungszeitraum startet erst mit der ersten Verwendung.",
+    "Fünf Jahre für bewegliche Wirtschaftsgüter, zehn Jahre für Grundstücke und Gebäude.",
+    "Beginn ist die erstmalige tatsächliche Verwendung. Steht das Gebäude nach Fertigstellung leer, wartet die Frist.",
+    "Endet die Nutzung früher, etwa durch Zerstörung, gilt die kürzere Dauer. Gerechnet wird in vollen Monaten.",
+    "Merke: fünf oder zehn Jahre, ab der ersten Verwendung."
+  ],
+  "dauerS": 34.306,
+  "tempo": 1
+}

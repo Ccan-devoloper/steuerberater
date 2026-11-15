@@ -1,0 +1,51 @@
+{
+  "slot": "s8",
+  "art": "tipp",
+  "fach": "persg",
+  "klausur": 3,
+  "fachLabel": "Personengesellschaften",
+  "themaId": "persg-aufb-persg-melzer-2-4-b",
+  "beitragSlot": null,
+  "quellen": null,
+  "titel": [
+    "§ 6 Abs. 5 EStG:",
+    "GmbH beteiligt?"
+  ],
+  "normImTitel": true,
+  "punkte": [
+    [
+      "Teilwert, soweit eine Körperschaft am Wirtschaftsgut beteiligt wird",
+      "warn",
+      "§ 6 Abs. 5 S. 5 EStG"
+    ],
+    [
+      "GmbH ohne Vermögensanteil: unschädlich",
+      "ok",
+      null
+    ],
+    [
+      "Sieben Jahre nachwirkend",
+      "warn",
+      "§ 6 Abs. 5 S. 6 EStG"
+    ]
+  ],
+  "icon": "tabler:building-community",
+  "iconFarbe": "GELB",
+  "sichtbareTexte": [
+    "Personengesellschaften",
+    "Klausurtipp",
+    "§ 6 Abs. 5 EStG:",
+    "GmbH beteiligt?",
+    "Teilwert, soweit eine Körperschaft am Wirtschaftsgut beteiligt wird",
+    "§ 6 Abs. 5 S. 5 EStG",
+    "GmbH ohne Vermögensanteil: unschädlich",
+    "Sieben Jahre nachwirkend",
+    "§ 6 Abs. 5 S. 6 EStG"
+  ],
+  "renderer": "open-peeps-v4",
+  "bildStatus": "open-peeps-render",
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "liveVorrangAktiv": true,
+  "regelGeprueft": true
+}

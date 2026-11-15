@@ -1,0 +1,48 @@
+{
+  "slot": "s7",
+  "art": "tipp",
+  "fach": null,
+  "klausur": 0,
+  "fachLabel": "Klausurtechnik",
+  "themaId": null,
+  "beitragSlot": null,
+  "quellen": null,
+  "titel": [
+    "Sonntag:",
+    "Woche auswerten"
+  ],
+  "punkte": [
+    [
+      "Drei Themen der Woche frei erklären",
+      "ok",
+      null
+    ],
+    [
+      "Lücken auf eine Karte schreiben",
+      "ok",
+      null
+    ],
+    [
+      "Montag mit der größten Lücke starten",
+      "ok",
+      null
+    ]
+  ],
+  "icon": "tabler:checklist",
+  "iconFarbe": "GELB",
+  "sichtbareTexte": [
+    "Klausurtechnik",
+    "Klausurtipp",
+    "Sonntag:",
+    "Woche auswerten",
+    "Drei Themen der Woche frei erklären",
+    "Lücken auf eine Karte schreiben",
+    "Montag mit der größten Lücke starten"
+  ],
+  "renderer": "open-peeps-v4",
+  "bildStatus": "open-peeps-render",
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "liveVorrangAktiv": true,
+  "regelGeprueft": true
+}

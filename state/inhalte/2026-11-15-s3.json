@@ -1,0 +1,26 @@
+{
+  "slot": "s3",
+  "art": "teaser",
+  "fach": "ust",
+  "klausur": 1,
+  "fachLabel": "Umsatzsteuer",
+  "themaId": null,
+  "beitragSlot": "b3",
+  "quellen": null,
+  "titel": [
+    "Gebäude fertig: Frist läuft?"
+  ],
+  "unter": "Neues Reel · im Profil",
+  "sichtbareTexte": [
+    "Umsatzsteuer",
+    "Neu im Feed",
+    "Gebäude fertig: Frist läuft?",
+    "Neues Reel · im Profil"
+  ],
+  "renderer": "open-peeps-v4",
+  "bildStatus": "open-peeps-render",
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "liveVorrangAktiv": true,
+  "regelGeprueft": true
+}

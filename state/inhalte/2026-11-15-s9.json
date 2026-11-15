@@ -1,0 +1,66 @@
+{
+  "slot": "s9",
+  "art": "merksatz",
+  "fach": "ao",
+  "klausur": 1,
+  "fachLabel": "Abgabenordnung",
+  "themaId": "ao-modul-ao-369",
+  "beitragSlot": null,
+  "quellen": null,
+  "titel": [
+    "Änderungsbescheid",
+    "angefochten?"
+  ],
+  "zeilen": [
+    [
+      [
+        "Nur so weit, wie die",
+        null
+      ]
+    ],
+    [
+      [
+        "Änderung reicht",
+        "a"
+      ],
+      [
+        ",",
+        null
+      ]
+    ],
+    [
+      [
+        "außer eine",
+        null
+      ]
+    ],
+    [
+      [
+        "Korrekturnorm",
+        "b"
+      ],
+      [
+        " hilft.",
+        null
+      ]
+    ]
+  ],
+  "norm": "§ 351 Abs. 1 AO",
+  "sichtbareTexte": [
+    "Abgabenordnung",
+    "Merksatz",
+    "Änderungsbescheid",
+    "angefochten?",
+    "Nur so weit, wie die",
+    "Änderung reicht,",
+    "außer eine",
+    "Korrekturnorm hilft.",
+    "§ 351 Abs. 1 AO"
+  ],
+  "renderer": "open-peeps-v4",
+  "bildStatus": "open-peeps-render",
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "liveVorrangAktiv": true,
+  "regelGeprueft": true
+}

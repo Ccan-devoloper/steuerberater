@@ -1,0 +1,37 @@
+{
+  "slot": "s5",
+  "art": "antwort",
+  "fach": "erbst",
+  "klausur": 1,
+  "fachLabel": "Erbschaftsteuer",
+  "themaId": null,
+  "beitragSlot": null,
+  "quellen": null,
+  "titel": [
+    "B: 200.000 €"
+  ],
+  "optionen": [
+    "400.000 €",
+    "200.000 €",
+    "100.000 €"
+  ],
+  "richtig": 1,
+  "text": "400.000 € gibt es für Enkel nur, wenn ihr Elternteil schon verstorben ist.",
+  "norm": "§ 16 Abs. 1 Nr. 2, 3 ErbStG",
+  "sichtbareTexte": [
+    "Erbschaftsteuer",
+    "Auflösung",
+    "B: 200.000 €",
+    "400.000 €",
+    "200.000 €",
+    "100.000 €",
+    "400.000 € gibt es für Enkel nur, wenn ihr Elternteil schon verstorben ist.",
+    "§ 16 Abs. 1 Nr. 2, 3 ErbStG"
+  ],
+  "renderer": "open-peeps-v4",
+  "bildStatus": "open-peeps-render",
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "liveVorrangAktiv": true,
+  "regelGeprueft": true
+}
