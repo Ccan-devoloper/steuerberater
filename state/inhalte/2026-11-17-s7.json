@@ -1,0 +1,48 @@
+{
+  "slot": "s7",
+  "art": "tipp",
+  "fach": null,
+  "klausur": 0,
+  "fachLabel": "Klausurtechnik",
+  "themaId": null,
+  "beitragSlot": null,
+  "quellen": null,
+  "titel": [
+    "Jede Zahl",
+    "hat einen Job"
+  ],
+  "punkte": [
+    [
+      "Alle Zahlen im Sachverhalt markieren.",
+      "ok",
+      null
+    ],
+    [
+      "Beim Lösen abhaken, was verbraucht ist.",
+      "ok",
+      null
+    ],
+    [
+      "Bleibt eine übrig, fehlt ein Punkt.",
+      "warn",
+      null
+    ]
+  ],
+  "icon": "tabler:checkbox",
+  "iconFarbe": "GELB",
+  "sichtbareTexte": [
+    "Klausurtechnik",
+    "Klausurtipp",
+    "Jede Zahl",
+    "hat einen Job",
+    "Alle Zahlen im Sachverhalt markieren.",
+    "Beim Lösen abhaken, was verbraucht ist.",
+    "Bleibt eine übrig, fehlt ein Punkt."
+  ],
+  "renderer": "open-peeps-v4",
+  "bildStatus": "open-peeps-render",
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "liveVorrangAktiv": true,
+  "regelGeprueft": true
+}

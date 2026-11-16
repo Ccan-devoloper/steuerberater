@@ -1,0 +1,70 @@
+{
+  "slot": "s9",
+  "art": "merksatz",
+  "fach": "persg",
+  "klausur": 3,
+  "fachLabel": "Personengesellschaften",
+  "themaId": "persg-aufb-persg-melzer-3-6",
+  "beitragSlot": null,
+  "quellen": null,
+  "titel": [
+    "Abfindung",
+    "in Sachwerten?"
+  ],
+  "zeilen": [
+    [
+      [
+        "Privat",
+        "a"
+      ],
+      [
+        ": Anteil verkauft,",
+        null
+      ]
+    ],
+    [
+      [
+        "dann Sachwert hingegeben;",
+        null
+      ]
+    ],
+    [
+      [
+        "betrieblich",
+        "b"
+      ],
+      [
+        ": unechte",
+        null
+      ]
+    ],
+    [
+      [
+        "Realteilung",
+        "c"
+      ],
+      [
+        ".",
+        null
+      ]
+    ]
+  ],
+  "norm": "BMF vom 19.12.2018, Rn. 2",
+  "sichtbareTexte": [
+    "Personengesellschaften",
+    "Merksatz",
+    "Abfindung",
+    "in Sachwerten?",
+    "Privat: Anteil verkauft,",
+    "dann Sachwert hingegeben;",
+    "betrieblich: unechte",
+    "Realteilung.",
+    "BMF vom 19.12.2018, Rn. 2"
+  ],
+  "renderer": "open-peeps-v4",
+  "bildStatus": "open-peeps-render",
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "liveVorrangAktiv": true,
+  "regelGeprueft": true
+}

@@ -1,0 +1,86 @@
+{
+  "format": "kurzvortrag",
+  "fach": "istr",
+  "klausur": 2,
+  "fachLabel": "Internationales Steuerrecht",
+  "themaId": "istr-modul-istr-istr3-14",
+  "caption": "Kurzvortrag für die mündliche Steuerberaterprüfung: Entstrickung bei Kapitalgesellschaften in 10 Minuten.\n\nGliederung: Einstieg (1 Min.), Tatbestand (3 Min.), Rechtsfolge und Ausgleichsposten (3 Min.), Beispiel und Fazit (2 Min.), eine Minute Puffer.\n\n▸ Tatbestand: Das deutsche Besteuerungsrecht hinsichtlich des Gewinns aus Veräußerung oder Nutzung eines Wirtschaftsguts wird ausgeschlossen oder beschränkt (§ 12 Abs. 1 S. 1 KStG), insbesondere durch Zuordnung zu einer ausländischen Betriebsstätte (§ 12 Abs. 1 S. 2 KStG).\n▸ Rechtsfolge: fiktive Veräußerung oder Überlassung zum gemeinen Wert (§ 12 Abs. 1 S. 1 Hs. 1 KStG).\n▸ Ausgleichsposten auf Antrag, wenn das Besteuerungsrecht zugunsten eines EU-/EWR-Staats im Sinne des § 36 Abs. 5 S. 1 EStG beschränkt wird; Auflösung zu je einem Fünftel im Jahr der Bildung und den vier Folgejahren (§ 12 Abs. 1 S. 1 Hs. 2 KStG i. V. m. § 4g Abs. 1, 2 EStG).\n▸ Beispiel: gemeiner Wert 95.000 €, Buchwert 60.000 €, Gewinn 35.000 €, mit Ausgleichsposten 7.000 € je Jahr.\n▸ Nachfragen: Einzelunternehmer (§ 4 Abs. 1 S. 3 EStG), Verstrickung als Einlage zum gemeinen Wert (§ 4 Abs. 1 S. 8 Hs. 2, § 6 Abs. 1 Nr. 5a EStG), Drittstaat ohne Ausgleichsposten.\n\nZum Schluss: § 12 KStG zum Markieren. Speichern für Klausur 2 📌",
+  "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#internationalessteuerrecht"
+  ],
+  "quellen": [
+    "§ 12 Abs. 1 KStG",
+    "§ 4g Abs. 1, 2 EStG",
+    "§ 36 Abs. 5 S. 1 EStG",
+    "§ 4 Abs. 1 S. 3, S. 8 Hs. 2 EStG",
+    "§ 6 Abs. 1 Nr. 5a EStG"
+  ],
+  "slug": "2026-11-17-b2",
+  "kurztitel": "Entstrickung bei Kapitalgesellschaften: § 12 KStG",
+  "regelGeprueft": true,
+  "manuellGeprueft": false,
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "textProviderKostenUsd": 0,
+  "faktencheckProviderKostenUsd": 0,
+  "bildStatus": "open-peeps-render",
+  "renderer": "open-peeps-v4",
+  "liveVorrangAktiv": true,
+  "coverBadge": "Kurzvortrag",
+  "folien": [
+    {
+      "art": "titel",
+      "titel": "Kurzvortrag",
+      "text": "Kurzvortrag · Entstrickung · bei der GmbH · § 12 Abs. 1 KStG · 10 Minuten · + Markier-Guide § 12 KStG · Mündliche Prüfung · 10 Min. · in 4 Teilen",
+      "bild": "op-cover"
+    },
+    {
+      "art": "text",
+      "titel": "Internationales Steuerrecht",
+      "text": "Die Gliederung · Einstieg: Worum geht es? · 1 Minute · Tatbestand · § 12 Abs. 1 S. 1, 2 KStG · 3 Minuten · Rechtsfolge, Ausgleichsposten · § 4g EStG · 3 Minuten · Beispiel und Fazit · 2 Minuten · Am Ende: § 12 KStG markiert"
+    },
+    {
+      "art": "text",
+      "titel": "Internationales Steuerrecht",
+      "text": "Jetzt du · Stoppuhr an: Formuliere den ersten Satz deines Vortrags. · Er soll das Problem nennen, nicht die Norm vorlesen. · Danach die Gliederung in einem Satz ansagen. · Zehn Sekunden!"
+    },
+    {
+      "art": "text",
+      "titel": "Internationales Steuerrecht",
+      "text": "1 · Einstieg · „Wann muss eine GmbH stille Reserven versteuern, obwohl sie nichts verkauft?“ · Warum: Hier entstandene Reserven will Deutschland besteuern, bevor der Zugriff verloren geht. · Antwort des Gesetzes: eine fiktive Veräußerung. · § 12 Abs. 1 S. 1 KStG · Das sitzt."
+    },
+    {
+      "art": "text",
+      "titel": "Internationales Steuerrecht",
+      "text": "2 · Tatbestand · Körperschaft: keine Entnahme, sondern § 12 KStG. · Deutsches Besteuerungsrecht an Veräußerung oder Nutzung wird ausgeschlossen oder beschränkt. · § 12 Abs. 1 S. 1 KStG · Regelfall: Zuordnung zu einer ausländischen Betriebsstätte. · § 12 Abs. 1 S. 2 KStG · Wer darf besteuern?"
+    },
+    {
+      "art": "text",
+      "titel": "Internationales Steuerrecht",
+      "text": "3 · Rechtsfolge · Veräußerung oder Überlassung zum gemeinen Wert gilt als erfolgt. · § 12 Abs. 1 S. 1 Hs. 1 KStG · Gewinn: gemeiner Wert minus Buchwert. · EU- oder EWR-Betriebsstätte: auf Antrag Ausgleichsposten, verteilt auf fünf Jahre. · § 4g Abs. 1, 2 EStG · Fünf Jahre Zeit."
+    },
+    {
+      "art": "text",
+      "titel": "Internationales Steuerrecht",
+      "text": "4 · Beispiel · § 12 Abs. 1 KStG · § 4g Abs. 2 S. 1 EStG · Gemeiner Wert Maschine · 95.000 € · Buchwert · – 60.000 € · Entstrickungsgewinn · 35.000 € · Mit Ausgleichsposten je Jahr · 7.000 € · Maschine wandert in die Betriebsstätte in Wien"
+    },
+    {
+      "art": "text",
+      "titel": "Internationales Steuerrecht",
+      "text": "Typische Nachfragen · Und beim Einzelunternehmer? Entnahme kraft Gesetzes. · § 4 Abs. 1 S. 3 EStG · Und der Rückweg? Gilt als Einlage zum gemeinen Wert. · § 4 Abs. 1 S. 8 Hs. 2, § 6 Abs. 1 Nr. 5a EStG · Und bei der Schweiz? Kein Ausgleichsposten, Gewinn sofort. · § 4g Abs. 1 S. 1 EStG · Nachfrage?"
+    },
+    {
+      "art": "text",
+      "titel": "Internationales Steuerrecht",
+      "text": "1 · 3 · 3 · 2 Minuten · plus eine Minute Puffer · Recht weg = Veräußerung · zum gemeinen Wert, · EU: auf fünf Jahre · verteilen möglich. · Speichern für Klausur 2 · Welches Thema als Nächstes? · Weiterwischen: § 12 KStG markiert"
+    },
+    {
+      "art": "text",
+      "titel": "Internationales Steuerrecht",
+      "text": "§ 12 KStG Entstrickung (Auszug) · Wessen Recht? · Auslöser · Wert · Ausgleichsposten · Mündliche Prüfung · Nur Gesetzestexte, keine Richtlinien"
+    }
+  ]
+}

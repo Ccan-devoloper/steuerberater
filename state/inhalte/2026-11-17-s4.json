@@ -1,0 +1,36 @@
+{
+  "slot": "s4",
+  "art": "frage",
+  "fach": "persg",
+  "klausur": 3,
+  "fachLabel": "Personengesellschaften",
+  "themaId": "persg-quiz-k3-4",
+  "beitragSlot": null,
+  "quellen": null,
+  "frage": [
+    "Gewinn aus Grundstück",
+    "übertragen: welche Norm?"
+  ],
+  "optionen": [
+    "§ 6b EStG",
+    "R 6.6 EStR",
+    "§ 16 Abs. 3 EStG"
+  ],
+  "pairId": "persg-quiz-k3-4",
+  "sichtbareTexte": [
+    "Personengesellschaften",
+    "Prüfungsfrage",
+    "Gewinn aus Grundstück",
+    "übertragen: welche Norm?",
+    "§ 6b EStG",
+    "R 6.6 EStR",
+    "§ 16 Abs. 3 EStG",
+    "Auflösung in der nächsten Story"
+  ],
+  "renderer": "open-peeps-v4",
+  "bildStatus": "open-peeps-render",
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "liveVorrangAktiv": true,
+  "regelGeprueft": true
+}

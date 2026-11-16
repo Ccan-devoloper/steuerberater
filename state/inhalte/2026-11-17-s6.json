@@ -1,0 +1,44 @@
+{
+  "slot": "s6",
+  "art": "norm",
+  "fach": "erbst",
+  "klausur": 1,
+  "fachLabel": "Erbschaftsteuer",
+  "themaId": "erbst-modul-erbst-545",
+  "beitragSlot": null,
+  "quellen": null,
+  "titel": [
+    "Bebautes Grundstück:",
+    "erst die Art"
+  ],
+  "norm": "§ 181 Abs. 1 BewG",
+  "punkte": [
+    [
+      "Grundstücksart bestimmen, etwa Mietwohngrundstück oder Geschäftsgrundstück.",
+      "ok",
+      "§ 181 Abs. 1 BewG"
+    ],
+    [
+      "Erst danach das Verfahren wählen.",
+      "warn",
+      "§ 182 BewG"
+    ]
+  ],
+  "sichtbareTexte": [
+    "Erbschaftsteuer",
+    "Norm des Tages",
+    "Bebautes Grundstück:",
+    "erst die Art",
+    "§ 181 Abs. 1 BewG",
+    "Grundstücksart bestimmen, etwa Mietwohngrundstück oder Geschäftsgrundstück.",
+    "§ 181 Abs. 1 BewG",
+    "Erst danach das Verfahren wählen.",
+    "§ 182 BewG"
+  ],
+  "renderer": "open-peeps-v4",
+  "bildStatus": "open-peeps-render",
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "liveVorrangAktiv": true,
+  "regelGeprueft": true
+}

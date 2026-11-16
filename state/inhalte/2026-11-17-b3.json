@@ -1,0 +1,63 @@
+{
+  "format": "reel",
+  "fach": "persg",
+  "klausur": 3,
+  "fachLabel": "Personengesellschaften",
+  "themaId": "persg-aufb-persg-melzer-3-5",
+  "caption": "Hohe Abfindung beim Ausscheiden aus der Personengesellschaft: Was aktivieren die Verbleibenden? 💶\n\n▸ Für den Ausscheidenden ist die Abfindung Veräußerungspreis (§ 16 Abs. 1 S. 1 Nr. 2, Abs. 2 EStG), für die Verbleibenden sind es Anschaffungskosten.\n▸ Der Mehrbetrag über dem Kapitalkonto wird zuerst auf die anteiligen stillen Reserven der Wirtschaftsgüter verteilt, ein Rest ist Geschäfts- oder Firmenwert (§ 5 Abs. 2 EStG; handelsrechtlich § 246 Abs. 1 S. 4 HGB). Steuerliche Nutzungsdauer des Firmenwerts: 15 Jahre (§ 7 Abs. 1 S. 3 EStG).\n▸ Beispiel: Kapitalkonto 100.000 €, Abfindung 160.000 €, davon 40.000 € stille Reserven im Grundstück, 20.000 € Firmenwert.\n▸ Ausnahme: Ein Aufschlag über den vollen Anteilswert, um einen lästigen Gesellschafter loszuwerden, ist sofort abziehbare Betriebsausgabe (BFH vom 14.06.1994, VIII R 37/93, BStBl II 1995, 246).\n\nSpeichern für Klausur 3 📌",
+  "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#personengesellschaften"
+  ],
+  "quellen": [
+    "§ 16 Abs. 1 S. 1 Nr. 2, Abs. 2 EStG",
+    "§ 5 Abs. 2 EStG",
+    "§ 246 Abs. 1 S. 4 HGB",
+    "§ 7 Abs. 1 S. 3 EStG",
+    "BFH vom 14.06.1994, VIII R 37/93, BStBl II 1995, 246"
+  ],
+  "slug": "2026-11-17-b3",
+  "kurztitel": "Was aktivieren die Verbleibenden bei einer hohen Abfindung?",
+  "regelGeprueft": true,
+  "manuellGeprueft": false,
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "textProviderKostenUsd": 0,
+  "faktencheckProviderKostenUsd": 0,
+  "bildStatus": "open-peeps-render",
+  "renderer": "open-peeps-v4",
+  "liveVorrangAktiv": true,
+  "bild": "op-cover",
+  "reelTyp": "gegensatz",
+  "hookStil": "kippen",
+  "coverBadge": "Reel",
+  "szenen": [
+    {
+      "art": "hook",
+      "titel": "Mehrabfindung = Aufwand?"
+    },
+    {
+      "art": "schritt",
+      "titel": "Der Mehrbetrag"
+    },
+    {
+      "art": "schritt",
+      "titel": "Die Reihenfolge"
+    },
+    {
+      "art": "schritt",
+      "titel": "Die Ausnahme"
+    }
+  ],
+  "sprecher": [
+    "Mehr Abfindung als Kapitalkonto ist Aufwand? Falsch. Damit kauft man stille Reserven und Firmenwert.",
+    "Kapitalkonto hunderttausend Euro, Abfindung hundertsechzigtausend. Die sechzigtausend sind Anschaffungskosten.",
+    "Zuerst die anteiligen stillen Reserven, etwa vierzigtausend im Grundstück. Der Rest von zwanzigtausend ist Firmenwert, steuerlich fünfzehn Jahre.",
+    "Sofort abziehbar ist nur ein Aufschlag, um einen lästigen Gesellschafter loszuwerden.",
+    "Merke: erst stille Reserven, dann Firmenwert, Aufwand nur bei Lästigkeit."
+  ],
+  "dauerS": 38.654,
+  "tempo": 1
+}
