@@ -33,3 +33,4 @@ bleiben. Die Medien sind in der Git-Historie vollständig erhalten:
 | 2026-11-10–2026-11-10 | `30355abf90e45304c4540432833f298d1dad255c` | `git checkout 30355abf90e45304c4540432833f298d1dad255c -- vorproduktion/<datum>` |
 | 2026-11-11–2026-11-11 | `16f859181affb401904ac2d2eb7e7080fd0d7449` | `git checkout 16f859181affb401904ac2d2eb7e7080fd0d7449 -- vorproduktion/<datum>` |
 | 2026-11-12–2026-11-12 | `2a53fcdc24893b357f03b286ca3f2816469564de` | `git checkout 2a53fcdc24893b357f03b286ca3f2816469564de -- vorproduktion/<datum>` |
+| 2026-11-13–2026-11-13 | `8dca01d1bcc1211077ec658b460864f04e7ab3c9` | `git checkout 8dca01d1bcc1211077ec658b460864f04e7ab3c9 -- vorproduktion/<datum>` |
