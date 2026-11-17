@@ -1,0 +1,102 @@
+{
+  "datum": "2026-11-18",
+  "erzeugt": "2026-11-17T23:11:02.643Z",
+  "quelle": "vorproduktion",
+  "providerKostenUsd": 0,
+  "beitraege": [
+    {
+      "slot": "b1",
+      "zeit": "08:30",
+      "format": "fehlerfalle",
+      "themaId": "kst-aufb-kst-t2-07",
+      "themaTitel": "Streubesitz: Welche Anteile zählen für die 10-%-Grenze?",
+      "fach": "kst",
+      "klausur": 2,
+      "status": "geplant"
+    },
+    {
+      "slot": "b2",
+      "zeit": "13:30",
+      "format": "schema",
+      "themaId": "bilanz-aufb-bil-melzer-4-01",
+      "themaTitel": "Was gehört zu den Anschaffungskosten und was nicht?",
+      "fach": "bilanz",
+      "klausur": 3,
+      "status": "geplant"
+    },
+    {
+      "slot": "b3",
+      "zeit": "19:00",
+      "format": "reel",
+      "themaId": "erbst-modul-erbst-548",
+      "themaTitel": "Ertragswertverfahren §§ 184–188 BewG: Bodenwert + Gebäudeertragswert",
+      "fach": "erbst",
+      "klausur": 1,
+      "status": "geplant"
+    }
+  ],
+  "stories": [
+    {
+      "slot": "s4",
+      "zeit": "07:07",
+      "art": "frage",
+      "themaId": "ao-quiz-rechtsbehelfsbelehrung",
+      "status": "geplant"
+    },
+    {
+      "slot": "s5",
+      "zeit": "07:09",
+      "art": "antwort",
+      "themaId": "ao-quiz-rechtsbehelfsbelehrung",
+      "status": "geplant"
+    },
+    {
+      "slot": "s1",
+      "zeit": "08:30",
+      "art": "teaser",
+      "beitragSlot": "b1",
+      "status": "geplant"
+    },
+    {
+      "slot": "s6",
+      "zeit": "12:14",
+      "art": "norm",
+      "themaId": "kst-aufb-kst-t2-38",
+      "status": "geplant"
+    },
+    {
+      "slot": "s2",
+      "zeit": "13:30",
+      "art": "teaser",
+      "beitragSlot": "b2",
+      "status": "geplant"
+    },
+    {
+      "slot": "s7",
+      "zeit": "14:40",
+      "art": "tipp",
+      "status": "geplant"
+    },
+    {
+      "slot": "s8",
+      "zeit": "17:04",
+      "art": "tipp",
+      "themaId": "bilanz-karte-k3-4",
+      "status": "geplant"
+    },
+    {
+      "slot": "s3",
+      "zeit": "19:00",
+      "art": "teaser",
+      "beitragSlot": "b3",
+      "status": "geplant"
+    },
+    {
+      "slot": "s9",
+      "zeit": "19:12",
+      "art": "merksatz",
+      "themaId": "ao-aufb-ao-jacobs-5-2",
+      "status": "geplant"
+    }
+  ]
+}

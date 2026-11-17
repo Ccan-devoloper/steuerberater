@@ -1,0 +1,48 @@
+{
+  "slot": "s7",
+  "art": "tipp",
+  "fach": null,
+  "klausur": 0,
+  "fachLabel": "Klausurtechnik",
+  "themaId": null,
+  "beitragSlot": null,
+  "quellen": null,
+  "titel": [
+    "Erst Gerüst,",
+    "dann Text"
+  ],
+  "punkte": [
+    [
+      "Für jeden Teil des Sachverhalts eine Überschrift setzen.",
+      "ok",
+      null
+    ],
+    [
+      "Zeit je Teil am Rand notieren.",
+      "ok",
+      null
+    ],
+    [
+      "Hängst du fest, spring zum nächsten Teil.",
+      "warn",
+      null
+    ]
+  ],
+  "icon": "tabler:layout-list",
+  "iconFarbe": "GELB",
+  "sichtbareTexte": [
+    "Klausurtechnik",
+    "Klausurtipp",
+    "Erst Gerüst,",
+    "dann Text",
+    "Für jeden Teil des Sachverhalts eine Überschrift setzen.",
+    "Zeit je Teil am Rand notieren.",
+    "Hängst du fest, spring zum nächsten Teil."
+  ],
+  "renderer": "open-peeps-v4",
+  "bildStatus": "open-peeps-render",
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "liveVorrangAktiv": true,
+  "regelGeprueft": true
+}

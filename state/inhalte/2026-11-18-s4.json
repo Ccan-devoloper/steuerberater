@@ -1,0 +1,36 @@
+{
+  "slot": "s4",
+  "art": "frage",
+  "fach": "ao",
+  "klausur": 1,
+  "fachLabel": "Abgabenordnung",
+  "themaId": "ao-quiz-rechtsbehelfsbelehrung",
+  "beitragSlot": null,
+  "quellen": null,
+  "frage": [
+    "Belehrung fehlt:",
+    "wie lange Einspruch?"
+  ],
+  "optionen": [
+    "Ein Monat",
+    "Ein Jahr ab Bekanntgabe",
+    "Unbegrenzt"
+  ],
+  "pairId": "ao-quiz-rechtsbehelfsbelehrung",
+  "sichtbareTexte": [
+    "Abgabenordnung",
+    "Prüfungsfrage",
+    "Belehrung fehlt:",
+    "wie lange Einspruch?",
+    "Ein Monat",
+    "Ein Jahr ab Bekanntgabe",
+    "Unbegrenzt",
+    "Auflösung in der nächsten Story"
+  ],
+  "renderer": "open-peeps-v4",
+  "bildStatus": "open-peeps-render",
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "liveVorrangAktiv": true,
+  "regelGeprueft": true
+}

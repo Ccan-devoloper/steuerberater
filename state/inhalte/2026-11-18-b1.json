@@ -1,0 +1,80 @@
+{
+  "format": "fehlerfalle",
+  "fach": "kst",
+  "klausur": 2,
+  "fachLabel": "Körperschaftsteuer",
+  "themaId": "kst-aufb-kst-t2-07",
+  "caption": "Klausurfalle Streubesitz: Welche Anteile zählen für die 10-%-Grenze des § 8b Abs. 4 KStG?\n\n▸ Dividenden bleiben nur außer Ansatz, wenn die Beteiligung zu Beginn des Kalenderjahres unmittelbar mindestens 10 % des Grund- oder Stammkapitals beträgt (§ 8b Abs. 1 S. 1, Abs. 4 S. 1 KStG). Über eine Tochter-Kapitalgesellschaft gehaltene Anteile zählen nicht, Stimmrechte ebenso wenig.\n▸ Beteiligungen über eine Mitunternehmerschaft werden anteilig zugerechnet und gelten als unmittelbar (§ 8b Abs. 4 S. 4, 5 KStG).\n▸ Überlassene (verliehene) Anteile werden dem Überlassenden zugerechnet (§ 8b Abs. 4 S. 3 KStG).\n▸ Der Erwerb einer Beteiligung von mindestens 10 % gilt als zu Beginn des Kalenderjahres erfolgt (§ 8b Abs. 4 S. 6 KStG).\n▸ Bei Streubesitz ist die Dividende voll steuerpflichtig, die 5-%-Pauschale entfällt (§ 8b Abs. 4 S. 7 KStG). Für Veräußerungsgewinne gibt es keine Mindestquote (§ 8b Abs. 2 KStG).\n\nBeispiel: 6 % direkt + 50 % von 8 % über eine KG = 10 %: frei. Bei 25 % an der KG nur 8 %: steuerpflichtig.\n\nZum Schluss: § 8b Abs. 4 KStG zum Markieren. Speichern für Klausur 2 📌",
+  "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#körperschaftsteuer"
+  ],
+  "quellen": [
+    "§ 8b Abs. 1 S. 1 KStG",
+    "§ 8b Abs. 2 KStG",
+    "§ 8b Abs. 4 S. 1, 3–7 KStG",
+    "§ 8b Abs. 5 KStG"
+  ],
+  "slug": "2026-11-18-b1",
+  "kurztitel": "Streubesitz: Welche Anteile zählen für die 10-%-Grenze?",
+  "regelGeprueft": true,
+  "manuellGeprueft": false,
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "textProviderKostenUsd": 0,
+  "faktencheckProviderKostenUsd": 0,
+  "bildStatus": "open-peeps-render",
+  "renderer": "open-peeps-v4",
+  "liveVorrangAktiv": true,
+  "coverBadge": "Klausurfalle",
+  "folien": [
+    {
+      "art": "titel",
+      "titel": "Klausurfalle",
+      "text": "Klausurfalle · Streubesitz: · falsch gezählt · § 8b Abs. 4 KStG · 10 %? · + Markier-Guide § 8b KStG · 6 % direkt + 5 % über GmbH · = 6 % · nicht 11 %",
+      "bild": "op-cover"
+    },
+    {
+      "art": "text",
+      "titel": "Körperschaftsteuer",
+      "text": "Mittelbar zählt nicht · Maßgeblich ist nur die unmittelbare Beteiligung am Grund- oder Stammkapital. · § 8b Abs. 4 S. 1 KStG · Anteile, die eine Tochter-GmbH hält, bleiben außen vor. · Auch Stimmrechte heben eine kleine Quote nicht an. · Ich bin Kemal. 11 % weg?"
+    },
+    {
+      "art": "text",
+      "titel": "Körperschaftsteuer",
+      "text": "Die Grundregel · Dividenden sind nur frei, wenn zu Beginn des Kalenderjahres mindestens 10 % gehalten werden. · § 8b Abs. 1 S. 1, Abs. 4 S. 1 KStG · Darunter: Die Dividende ist voll steuerpflichtig. · § 8b Abs. 4 S. 1 KStG · Veräußerungsgewinne kennen keine Mindestquote. · § 8b Abs. 2 S. 1 KStG · Nur Dividenden."
+    },
+    {
+      "art": "text",
+      "titel": "Körperschaftsteuer",
+      "text": "Was doch zählt · Anteile über eine Mitunternehmerschaft: anteilig, gelten als unmittelbar. · § 8b Abs. 4 S. 4, 5 KStG · Verliehene Anteile zählen beim Verleiher. · § 8b Abs. 4 S. 3 KStG · Erwerb von mindestens 10 % im Jahr gilt als zu Jahresbeginn erfolgt. · § 8b Abs. 4 S. 6 KStG · Die KG schon!"
+    },
+    {
+      "art": "text",
+      "titel": "Körperschaftsteuer",
+      "text": "Kemals Falkner GmbH · § 8b Abs. 4 S. 1, 4, 5 KStG · Direkt gehalten · 6 % · Über KG: 50 % von 8 % · 4 % · Über Tochter-GmbH · 0 % · Quote · 10 % · Dividende frei, 5 % nicht abziehbar"
+    },
+    {
+      "art": "text",
+      "titel": "Körperschaftsteuer",
+      "text": "Jetzt du · Variante: Die Falkner GmbH ist an der KG nur zu 25 % beteiligt. · Alles andere bleibt gleich. · Bleibt die Dividende steuerfrei? · Knapp, oder?"
+    },
+    {
+      "art": "text",
+      "titel": "Körperschaftsteuer",
+      "text": "Lösung · § 8b Abs. 4 S. 1, 7 KStG · Direkt gehalten · 6 % · Über KG: 25 % von 8 % · 2 % · Quote · 8 % · Streubesitz: Dividende voll steuerpflichtig · Zwei Prozent fehlen."
+    },
+    {
+      "art": "text",
+      "titel": "Körperschaftsteuer",
+      "text": "Zählen: direkt + über Mitunternehmerschaft · Nicht zählen: über Kapitalgesellschaft, Stimmrechte · Unmittelbar am Kapital, · zu Jahresbeginn, · KG anteilig dazu, · Tochter-GmbH nie. · Speichern für Klausur 2 · Wärst du reingefallen? · Weiterwischen: § 8b KStG markiert"
+    },
+    {
+      "art": "text",
+      "titel": "Körperschaftsteuer",
+      "text": "§ 8b Abs. 4 KStG (Auszug) · Stichtag · Grenze · KG zählt · Erwerb im Jahr · Randnotiz: § 8b Abs. 4 S. 7 KStG · Bei Streubesitz keine 5-%-Pauschale"
+    }
+  ]
+}

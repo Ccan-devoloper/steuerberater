@@ -1,0 +1,38 @@
+{
+  "slot": "s5",
+  "art": "antwort",
+  "fach": "ao",
+  "klausur": 1,
+  "fachLabel": "Abgabenordnung",
+  "themaId": "ao-quiz-rechtsbehelfsbelehrung",
+  "beitragSlot": null,
+  "quellen": null,
+  "titel": [
+    "B: ein Jahr"
+  ],
+  "optionen": [
+    "Ein Monat",
+    "Ein Jahr ab Bekanntgabe",
+    "Unbegrenzt"
+  ],
+  "richtig": 1,
+  "text": "Ohne richtige Belehrung beginnt die Monatsfrist nicht. Es gilt die Jahresfrist.",
+  "norm": "§ 356 Abs. 1, 2 AO",
+  "pairId": "ao-quiz-rechtsbehelfsbelehrung",
+  "sichtbareTexte": [
+    "Abgabenordnung",
+    "Auflösung",
+    "B: ein Jahr",
+    "Ein Monat",
+    "Ein Jahr ab Bekanntgabe",
+    "Unbegrenzt",
+    "Ohne richtige Belehrung beginnt die Monatsfrist nicht. Es gilt die Jahresfrist.",
+    "§ 356 Abs. 1, 2 AO"
+  ],
+  "renderer": "open-peeps-v4",
+  "bildStatus": "open-peeps-render",
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "liveVorrangAktiv": true,
+  "regelGeprueft": true
+}

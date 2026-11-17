@@ -1,0 +1,44 @@
+{
+  "slot": "s8",
+  "art": "tipp",
+  "fach": "bilanz",
+  "klausur": 3,
+  "fachLabel": "Bilanzsteuerrecht",
+  "themaId": "bilanz-karte-k3-4",
+  "beitragSlot": null,
+  "quellen": null,
+  "titel": [
+    "Selbst geschaffen",
+    "und immateriell?"
+  ],
+  "punkte": [
+    [
+      "Handelsbilanz: Wahlrecht, nicht für Marken oder Kundenlisten.",
+      "ok",
+      "§ 248 Abs. 2 HGB"
+    ],
+    [
+      "Steuerbilanz: Verbot, nur entgeltlich Erworbenes.",
+      "nein",
+      "§ 5 Abs. 2 EStG"
+    ]
+  ],
+  "icon": "tabler:bulb",
+  "iconFarbe": "GELB",
+  "sichtbareTexte": [
+    "Bilanzsteuerrecht",
+    "Klausurtipp",
+    "Selbst geschaffen",
+    "und immateriell?",
+    "Handelsbilanz: Wahlrecht, nicht für Marken oder Kundenlisten.",
+    "§ 248 Abs. 2 HGB",
+    "Steuerbilanz: Verbot, nur entgeltlich Erworbenes.",
+    "§ 5 Abs. 2 EStG"
+  ],
+  "renderer": "open-peeps-v4",
+  "bildStatus": "open-peeps-render",
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "liveVorrangAktiv": true,
+  "regelGeprueft": true
+}

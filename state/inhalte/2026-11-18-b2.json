@@ -1,0 +1,84 @@
+{
+  "format": "schema",
+  "fach": "bilanz",
+  "klausur": 3,
+  "fachLabel": "Bilanzsteuerrecht",
+  "themaId": "bilanz-aufb-bil-melzer-4-01",
+  "caption": "Anschaffungskosten sauber ermitteln: das Prüfschema für die Bilanzklausur.\n\n1. Preis ohne abziehbare Vorsteuer (§ 9b Abs. 1 EStG); nicht abziehbare Vorsteuer erhöht die Anschaffungskosten.\n2. Einzeln zurechenbare Nebenkosten und Kosten der Betriebsbereitschaft hinzurechnen (§ 255 Abs. 1 S. 1, 2 HGB; steuerlich maßgeblich nach H 6.2 EStH).\n3. Einzeln zurechenbare Preisminderungen wie Rabatte und genutzte Skonti abziehen (§ 255 Abs. 1 S. 3 HGB).\n4. Finanzierungskosten (Zinsen, Grundschuld) und Gemeinkosten gehören nicht dazu.\n\nBeispiel Maschine: 50.000 € – 5.000 € Rabatt – 900 € Skonto + 3.500 € Fracht und Fundament = 47.600 €.\nBeispiel Grundstück: 300.000 € + 18.000 € Grunderwerbsteuer + 2.400 € Notar Kaufvertrag + 10.000 € Makler = 330.400 €; Notarkosten der Grundschuld sind Aufwand.\n\nZum Schluss: § 255 Abs. 1 HGB zum Markieren. Speichern für Klausur 3 📌",
+  "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#bilanzsteuerrecht"
+  ],
+  "quellen": [
+    "§ 255 Abs. 1 HGB",
+    "§ 9b Abs. 1 EStG",
+    "H 6.2 EStH"
+  ],
+  "slug": "2026-11-18-b2",
+  "kurztitel": "Was gehört zu den Anschaffungskosten und was nicht?",
+  "regelGeprueft": true,
+  "manuellGeprueft": false,
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "textProviderKostenUsd": 0,
+  "faktencheckProviderKostenUsd": 0,
+  "bildStatus": "open-peeps-render",
+  "renderer": "open-peeps-v4",
+  "liveVorrangAktiv": true,
+  "coverBadge": "Prüfschema",
+  "folien": [
+    {
+      "art": "titel",
+      "titel": "Prüfschema",
+      "text": "Prüfschema · Anschaffungskosten · sauber ermitteln · § 255 Abs. 1 HGB · in 4 Schritten · + Markier-Guide § 255 HGB · Maschine · 47.600 € · statt 50.000 €",
+      "bild": "op-cover"
+    },
+    {
+      "art": "text",
+      "titel": "Bilanzsteuerrecht",
+      "text": "Anschaffungskosten prüfen · Preis netto · § 9b Abs. 1 EStG · ohne abziehbare Vorsteuer · Nebenkosten dazu · § 255 Abs. 1 S. 1, 2 HGB · auch Betriebsbereitschaft · Preisminderungen ab · § 255 Abs. 1 S. 3 HGB · Rabatt, Skonto · Finanzierung raus · § 255 Abs. 1 S. 1 HGB · auch Gemeinkosten · Am Ende: § 255 HGB markiert"
+    },
+    {
+      "art": "text",
+      "titel": "Bilanzsteuerrecht",
+      "text": "1 · Preis und Vorsteuer · Ausgangspunkt ist der vereinbarte Preis. · Abziehbare Vorsteuer gehört nicht dazu. · § 9b Abs. 1 EStG · Nicht abziehbare Vorsteuer erhöht die Anschaffungskosten. · § 9b Abs. 1 EStG · Netto denken."
+    },
+    {
+      "art": "text",
+      "titel": "Bilanzsteuerrecht",
+      "text": "2 · Was dazukommt · Einzeln zurechenbare Nebenkosten, etwa Fracht, Notar und Grunderwerbsteuer. · § 255 Abs. 1 S. 2 HGB · Kosten, um den Gegenstand betriebsbereit zu machen, etwa Fundament oder Montage. · § 255 Abs. 1 S. 1 HGB · Bis er läuft."
+    },
+    {
+      "art": "text",
+      "titel": "Bilanzsteuerrecht",
+      "text": "3 + 4 · Was abgeht · Rabatte und genutzte Skonti mindern die Anschaffungskosten. · § 255 Abs. 1 S. 3 HGB · Zinsen und Kosten der Grundschuld sind Finanzierung, kein Erwerb. · Gemeinkosten, etwa der eigene Einkauf, sind Aufwand. · § 255 Abs. 1 S. 1 HGB · Skonto ist kein Ertrag."
+    },
+    {
+      "art": "text",
+      "titel": "Bilanzsteuerrecht",
+      "text": "Yukis neue Maschine · § 255 Abs. 1 HGB · H 6.2 EStH · Listenpreis netto · 50.000 € · – 10 % Rabatt, – 2 % Skonto · – 5.900 € · + Fracht und Fundament · 3.500 € · Finanzierungszinsen · 0 € · Anschaffungskosten · 47.600 € · Zinsen sind Aufwand, keine Anschaffungskosten"
+    },
+    {
+      "art": "text",
+      "titel": "Bilanzsteuerrecht",
+      "text": "Jetzt du · Yuki kauft ein unbebautes Grundstück für 300.000 €. · Dazu: Grunderwerbsteuer 18.000 €, Notar für den Kaufvertrag 2.400 €, Notar für die Grundschuld 900 €, Makler 10.000 €. · Anschaffungskosten? · Was zählt dazu?"
+    },
+    {
+      "art": "text",
+      "titel": "Bilanzsteuerrecht",
+      "text": "Lösung · § 255 Abs. 1 S. 2 HGB · Kaufpreis · 300.000 € · + Grunderwerbsteuer · 18.000 € · + Notar Kaufvertrag, Makler · 12.400 € · Notar Grundschuld · Aufwand · Anschaffungskosten · 330.400 €"
+    },
+    {
+      "art": "text",
+      "titel": "Bilanzsteuerrecht",
+      "text": "Preis netto + Nebenkosten + Betriebsbereitschaft · abzüglich Preisminderungen, ohne Finanzierung · Netto ansetzen, · Nebenkosten dazu, · Skonto ab, · Zinsen bleiben draußen. · Speichern für Klausur 3 · Grundschuld erkannt? · Weiterwischen: § 255 HGB markiert"
+    },
+    {
+      "art": "text",
+      "titel": "Bilanzsteuerrecht",
+      "text": "§ 255 HGB Bewertungsmaßstäbe (Auszug) · Erwerb · Fundament, Montage · keine Gemeinkosten · Notar, GrESt · Randnotiz: § 9b Abs. 1 EStG · Abziehbare Vorsteuer gehört nicht dazu"
+    }
+  ]
+}

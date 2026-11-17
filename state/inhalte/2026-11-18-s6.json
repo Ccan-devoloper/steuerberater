@@ -1,0 +1,44 @@
+{
+  "slot": "s6",
+  "art": "norm",
+  "fach": "kst",
+  "klausur": 2,
+  "fachLabel": "Körperschaftsteuer",
+  "themaId": "kst-aufb-kst-t2-38",
+  "beitragSlot": null,
+  "quellen": null,
+  "titel": [
+    "Dividende",
+    "über die KG?"
+  ],
+  "norm": "§ 8b Abs. 6 S. 1 KStG",
+  "punkte": [
+    [
+      "Gewerbliche KG: Die GmbH wird gestellt, als hätte sie selbst bezogen.",
+      "ok",
+      "§ 8b Abs. 6 S. 1 KStG"
+    ],
+    [
+      "Vermögensverwaltende KG: anteilige Zurechnung ohnehin.",
+      "ok",
+      "§ 39 Abs. 2 Nr. 2 AO"
+    ]
+  ],
+  "sichtbareTexte": [
+    "Körperschaftsteuer",
+    "Norm des Tages",
+    "Dividende",
+    "über die KG?",
+    "§ 8b Abs. 6 S. 1 KStG",
+    "Gewerbliche KG: Die GmbH wird gestellt, als hätte sie selbst bezogen.",
+    "§ 8b Abs. 6 S. 1 KStG",
+    "Vermögensverwaltende KG: anteilige Zurechnung ohnehin.",
+    "§ 39 Abs. 2 Nr. 2 AO"
+  ],
+  "renderer": "open-peeps-v4",
+  "bildStatus": "open-peeps-render",
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "liveVorrangAktiv": true,
+  "regelGeprueft": true
+}
