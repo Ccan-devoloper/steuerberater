@@ -1,0 +1,705 @@
+{
+  "datum": "2026-12-01",
+  "status": "vorproduziert",
+  "freigabeBetreiber": true,
+  "liveVerknuepft": false,
+  "vorproduktionStatus": "live-freigegeben",
+  "layoutQuelle": "open-peeps-variante-c",
+  "semantikQuelle": "examenscampus",
+  "liveVorrangAktiv": true,
+  "normalbetriebGesperrt": true,
+  "bildStatus": "open-peeps-render",
+  "kostenPolicy": {
+    "textUndFaktencheckUsd": 0,
+    "bildgenerierungUsd": 0,
+    "providerKostenUsd": 0,
+    "coverbilder": false,
+    "bildgenerierungErlaubt": false,
+    "reelStimme": "elevenlabs-abo"
+  },
+  "plan": {
+    "beitraege": [
+      {
+        "slot": "b1",
+        "zeit": "08:30",
+        "format": "rechenweg",
+        "themaId": "bilanz-aufb-bil-melzer-ue-16",
+        "themaTitel": "Bauen auf fremdem Grundstück: Was wird bilanziert?",
+        "fach": "bilanz",
+        "klausur": 3
+      },
+      {
+        "slot": "b2",
+        "zeit": "13:30",
+        "format": "kurzvortrag",
+        "themaId": "ao-modul-ao-385",
+        "themaTitel": "Steuerhinterziehung § 370 AO: objektiver Tatbestand und Taterfolg",
+        "fach": "ao",
+        "klausur": 1
+      },
+      {
+        "slot": "b3",
+        "zeit": "19:00",
+        "format": "reel",
+        "themaId": "gewst-frei-spenden-9-nr-5",
+        "themaTitel": "Spenden in der Gewerbesteuer: GmbH oder Einzelunternehmer?",
+        "fach": "gewst",
+        "klausur": 2
+      }
+    ],
+    "stories": [
+      {
+        "slot": "s4",
+        "zeit": "07:07",
+        "art": "frage",
+        "themaId": "est-frei-quiz-sparer-pauschbetrag"
+      },
+      {
+        "slot": "s5",
+        "zeit": "07:09",
+        "art": "antwort",
+        "themaId": "est-frei-quiz-sparer-pauschbetrag"
+      },
+      {
+        "slot": "s1",
+        "zeit": "08:30",
+        "art": "teaser",
+        "beitragSlot": "b1"
+      },
+      {
+        "slot": "s6",
+        "zeit": "12:14",
+        "art": "norm",
+        "themaId": "bilanz-glossar-7"
+      },
+      {
+        "slot": "s2",
+        "zeit": "13:30",
+        "art": "teaser",
+        "beitragSlot": "b2"
+      },
+      {
+        "slot": "s7",
+        "zeit": "14:40",
+        "art": "tipp"
+      },
+      {
+        "slot": "s8",
+        "zeit": "17:04",
+        "art": "tipp",
+        "themaId": "ust-modul-ust-244"
+      },
+      {
+        "slot": "s3",
+        "zeit": "19:00",
+        "art": "teaser",
+        "beitragSlot": "b3"
+      },
+      {
+        "slot": "s9",
+        "zeit": "19:12",
+        "art": "merksatz",
+        "themaId": "istr-frei-betriebstaette-12-ao"
+      }
+    ]
+  },
+  "inhalte": {
+    "b1": {
+      "format": "rechenweg",
+      "fach": "bilanz",
+      "klausur": 3,
+      "fachLabel": "Bilanzsteuerrecht",
+      "themaId": "bilanz-aufb-bil-melzer-ue-16",
+      "caption": "Lagerhalle auf gepachtetem Grund mit Abrisspflicht: Was wird bilanziert, und wie hoch ist die AfA? Der Rechenweg für die Bilanzklausur.\n\n1. Ein fest verbundenes Gebäude wird grundsätzlich wesentlicher Bestandteil des Grundstücks und gehört dem Grundstückseigentümer (§§ 94 Abs. 1, 946 BGB).\n2. Ausnahme Scheinbestandteil: Verbindung nur zu einem vorübergehenden Zweck (§ 95 Abs. 1 S. 1 BGB). Eine Abrisspflicht zum Pachtende spricht dafür; der Erbauer bleibt Eigentümer und aktiviert das Gebäude.\n3. AfA: Regel 3 % für Betriebsgebäude, die nicht Wohnzwecken dienen (§ 7 Abs. 4 S. 1 Nr. 1 EStG); bei tatsächlicher Nutzungsdauer unter 33 Jahren nach dieser Dauer (§ 7 Abs. 4 S. 2 EStG).\n4. Im Jahr der Fertigstellung zeitanteilig (R 7.4 Abs. 2 S. 1 EStR; § 7 Abs. 1 S. 4 EStG).\n\nRechnung: 450.000 € ÷ 15 Jahre = 30.000 €, davon 6/12 = 15.000 € für 2026. Variante: Fertigstellung 15.3., Restpacht 12 Jahre: 37.500 € × 10/12 = 31.250 €.\n\nZum Schluss: § 7 Abs. 4 EStG und § 95 Abs. 1 BGB zum Markieren. Speichern für Klausur 3 📌",
+      "hashtags": [
+        "#steuerberaterexamen",
+        "#steuerberaterprüfung",
+        "#examensvorbereitung",
+        "#bilanzsteuerrecht"
+      ],
+      "quellen": [
+        "§§ 94 Abs. 1, 946 BGB",
+        "§ 95 Abs. 1 S. 1 BGB",
+        "§ 7 Abs. 4 S. 1 Nr. 1, S. 2 EStG",
+        "§ 7 Abs. 1 S. 4 EStG",
+        "R 7.4 Abs. 2 S. 1 EStR"
+      ],
+      "slug": "2026-12-01-b1",
+      "kurztitel": "Bauen auf fremdem Grundstück: Was wird bilanziert?",
+      "regelGeprueft": true,
+      "manuellGeprueft": false,
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "open-peeps-render",
+      "renderer": "open-peeps-v4",
+      "liveVorrangAktiv": true,
+      "coverBadge": "Rechenweg",
+      "folien": [
+        {
+          "art": "titel",
+          "titel": "Rechenweg",
+          "text": "Rechenweg · Halle auf · fremdem Grund · § 95 Abs. 1 BGB · AfA in 4 Schritten · + Markier-Guide EStG + BGB · Baukosten · 450.000 € · AfA 2026?",
+          "bild": "op-cover"
+        },
+        {
+          "art": "text",
+          "titel": "Bilanzsteuerrecht",
+          "text": "Der Rechenweg · Wem gehört die Halle? · §§ 94 Abs. 1, 946 BGB · Grundsatz: dem Grundstückseigentümer · Scheinbestandteil? · § 95 Abs. 1 S. 1 BGB · nur vorübergehend verbunden · Nutzungsdauer wählen · § 7 Abs. 4 S. 2 EStG · kürzer als 33 Jahre? · Zeitanteilig rechnen · R 7.4 Abs. 2 S. 1 EStR · Monate ab Fertigstellung · Am Ende: § 7 EStG, § 95 BGB markiert"
+        },
+        {
+          "art": "text",
+          "titel": "Bilanzsteuerrecht",
+          "text": "Der Fall · Kemal pachtet für 15 Jahre ein Grundstück und baut darauf eine Lagerhalle für seinen Großhandel. · 450.000 € Herstellungskosten, fertig am 1.7.2026. Zum Pachtende muss er die Halle abreißen. · Wie hoch ist die AfA 2026? · Ich bin Kemal."
+        },
+        {
+          "art": "text",
+          "titel": "Bilanzsteuerrecht",
+          "text": "1 · Wem gehört die Halle? · Ein fest verbundenes Gebäude wird wesentlicher Bestandteil des Grundstücks. · §§ 94 Abs. 1, 946 BGB · Ausnahme: nur zu einem vorübergehenden Zweck verbunden. · § 95 Abs. 1 S. 1 BGB · Die Abrisspflicht zeigt genau das: Scheinbestandteil. · Also meine Halle!"
+        },
+        {
+          "art": "text",
+          "titel": "Bilanzsteuerrecht",
+          "text": "2 · Was folgt daraus? · Kemal bleibt Eigentümer: Halle als Gebäude aktivieren. · Regel: 3 % für Betriebsgebäude ohne Wohnzwecke. · § 7 Abs. 4 S. 1 Nr. 1 EStG · Unter 33 Jahren tatsächlicher Nutzung: nach dieser Dauer abschreiben. · § 7 Abs. 4 S. 2 EStG · 15 Jahre, dann Abriss."
+        },
+        {
+          "art": "text",
+          "titel": "Bilanzsteuerrecht",
+          "text": "AfA 2026 · § 7 Abs. 4 S. 2 EStG · R 7.4 Abs. 2 S. 1 EStR · Herstellungskosten · 450.000 € · ÷ 15 Jahre = Jahres-AfA · 30.000 € · × 6/12 ab Juli · 15.000 € · Mit 3 % wären es nur 6.750 €"
+        },
+        {
+          "art": "text",
+          "titel": "Bilanzsteuerrecht",
+          "text": "Jetzt du · Variante: Die Halle wird am 15.3.2026 fertig. · Ab dann läuft die Pacht noch genau 12 Jahre, Abrisspflicht wie gehabt. · Welche AfA setzt Kemal 2026 an? · Rechnest du mit?"
+        },
+        {
+          "art": "text",
+          "titel": "Bilanzsteuerrecht",
+          "text": "Lösung · § 7 Abs. 4 S. 2 EStG · R 7.4 Abs. 2 S. 1 EStR · Herstellungskosten · 450.000 € · ÷ 12 Jahre = Jahres-AfA · 37.500 € · × 10/12 ab März · 31.250 € · März zählt voll!"
+        },
+        {
+          "art": "text",
+          "titel": "Bilanzsteuerrecht",
+          "text": "Scheinbestandteil mit Abrisspflicht · 450.000 € ÷ 15 Jahre × 6/12 = 15.000 € · Abriss zum Pachtende: · eigenes Gebäude, · Pachtdauer als · Nutzungsdauer. · Speichern für Klausur 3 · Hättest du mit 3 % gerechnet? · Weiterwischen: § 7 EStG, § 95 BGB markiert"
+        },
+        {
+          "art": "text",
+          "titel": "Bilanzsteuerrecht",
+          "text": "§ 7 EStG, § 95 BGB (Auszug) · Regelsatz · Abriss = Ende · Grenze · Abrisspflicht · Kemal: 450.000 € : 15 × 6/12 · AfA 2026: 15.000 €"
+        }
+      ]
+    },
+    "b2": {
+      "format": "kurzvortrag",
+      "fach": "ao",
+      "klausur": 1,
+      "fachLabel": "Abgabenordnung",
+      "themaId": "ao-modul-ao-385",
+      "caption": "Kurzvortrag für die mündliche Prüfung: Steuerhinterziehung nach § 370 AO – objektiver Tatbestand und Taterfolg in 10 Minuten.\n\nEinleitung (1 Min.): Steuerstraftat (§ 369 Abs. 1 Nr. 1 AO), Strafrahmen bis fünf Jahre oder Geldstrafe (§ 370 Abs. 1 AO).\nTathandlung (3 Min.): falsche oder lückenhafte Angaben zu steuerlich relevanten Tatsachen (§ 370 Abs. 1 Nr. 1 AO) oder pflichtwidriges In-Unkenntnis-Lassen (§ 370 Abs. 1 Nr. 2 AO).\nTaterfolg (4 Min.): Steuer gar nicht, zu niedrig oder zu spät festgesetzt; auch bei vorläufiger Festsetzung, unter Vorbehalt der Nachprüfung oder per Steueranmeldung (§ 370 Abs. 4 S. 1 AO; § 168 S. 1 AO). Nicht gerechtfertigte Steuervorteile, auch Steuervergütungen (§ 370 Abs. 4 S. 2 AO). Kompensationsverbot (§ 370 Abs. 4 S. 3 AO).\nSchluss (2 Min.): Vorsatz (§ 369 Abs. 2 AO, § 15 StGB), Versuch strafbar (§ 370 Abs. 2 AO), Fazit.\n\nKlausurfalle: Bloße Nichtzahlung bei richtiger Erklärung ist keine Verkürzung; bei Steuerabzugsbeträgen kommt § 380 Abs. 1 AO in Betracht. Besonders schwerer Fall bei Verkürzung in großem Ausmaß (§ 370 Abs. 3 S. 2 Nr. 1 AO).\n\nZum Schluss: § 370 AO zum Markieren. Speichern für Klausur 1 📌",
+      "hashtags": [
+        "#steuerberaterexamen",
+        "#steuerberaterprüfung",
+        "#examensvorbereitung",
+        "#abgabenordnung"
+      ],
+      "quellen": [
+        "§ 369 Abs. 1 Nr. 1, Abs. 2 AO",
+        "§ 370 Abs. 1 Nr. 1, 2, Abs. 2, Abs. 3 S. 2 Nr. 1, Abs. 4 S. 1–3 AO",
+        "§ 168 S. 1 AO",
+        "§ 380 Abs. 1 AO",
+        "§ 15 StGB"
+      ],
+      "slug": "2026-12-01-b2",
+      "kurztitel": "Steuerhinterziehung § 370 AO: objektiver Tatbestand und Taterfolg",
+      "regelGeprueft": true,
+      "manuellGeprueft": false,
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "open-peeps-render",
+      "renderer": "open-peeps-v4",
+      "liveVorrangAktiv": true,
+      "coverBadge": "Kurzvortrag",
+      "folien": [
+        {
+          "art": "titel",
+          "titel": "Kurzvortrag",
+          "text": "Kurzvortrag · § 370 AO in · 10 Minuten · Mündliche · + Markier-Guide § 370 AO",
+          "bild": "op-cover"
+        },
+        {
+          "art": "text",
+          "titel": "Abgabenordnung",
+          "text": "Deine Gliederung · Einleitung · 1 Min. · § 369 Abs. 1 Nr. 1 AO · Einordnung und Strafrahmen · Tathandlung · 3 Min. · § 370 Abs. 1 Nr. 1, 2 AO · Tun oder Unterlassen · Taterfolg · 4 Min. · § 370 Abs. 4 AO · Verkürzung oder Vorteil · Schluss · 2 Min. · § 370 Abs. 2 AO · Vorsatz, Versuch, Fazit · Am Ende: § 370 AO markiert"
+        },
+        {
+          "art": "text",
+          "titel": "Abgabenordnung",
+          "text": "Einleitung · Steuerhinterziehung ist eine Steuerstraftat. · § 369 Abs. 1 Nr. 1 AO · Strafrahmen: Freiheitsstrafe bis zu fünf Jahren oder Geldstrafe. · § 370 Abs. 1 AO · Ankündigen: Ich prüfe Tathandlung, Taterfolg und Kausalität. · Erst der Fahrplan."
+        },
+        {
+          "art": "text",
+          "titel": "Abgabenordnung",
+          "text": "Hauptteil 1 · Tathandlung · Falsche oder lückenhafte Angaben zu Tatsachen, die steuerlich zählen. · § 370 Abs. 1 Nr. 1 AO · Oder: Finanzbehörde pflichtwidrig in Unkenntnis lassen, etwa keine Erklärung trotz Pflicht. · § 370 Abs. 1 Nr. 2 AO · Nr. 2 braucht eine Offenbarungspflicht · Tun oder Unterlassen."
+        },
+        {
+          "art": "text",
+          "titel": "Abgabenordnung",
+          "text": "Hauptteil 2 · Taterfolg · Verkürzt: Steuer gar nicht, zu niedrig oder zu spät festgesetzt. · § 370 Abs. 4 S. 1 Hs. 1 AO · Auch vorläufig, unter Vorbehalt oder per Steueranmeldung. · § 370 Abs. 4 S. 1 Hs. 2 AO · Oder ein nicht gerechtfertigter Steuervorteil, etwa eine Erstattung. · § 370 Abs. 4 S. 2 AO · Und dadurch!"
+        },
+        {
+          "art": "text",
+          "titel": "Abgabenordnung",
+          "text": "Nicht zahlen ≠ hinterziehen · Wer richtig erklärt und nur nicht zahlt, verkürzt keine Steuer. · § 370 Abs. 4 S. 1 AO · Bei Lohnsteuer kann eine Ordnungswidrigkeit vorliegen. · § 380 Abs. 1 AO · Erfolg = Festsetzung."
+        },
+        {
+          "art": "text",
+          "titel": "Abgabenordnung",
+          "text": "Schluss · Subjektiv: Vorsatz nach allgemeinem Strafrecht. · § 369 Abs. 2 AO, § 15 StGB · Schon der Versuch ist strafbar. · § 370 Abs. 2 AO · Fazit in einem Satz: Falsche Angabe, zu niedrige Festsetzung, Kausalität. · Punktlandung."
+        },
+        {
+          "art": "text",
+          "titel": "Abgabenordnung",
+          "text": "Typische Nachfragen · Gilt eine Steueranmeldung als Festsetzung? Ja, wie unter Vorbehalt. · § 168 S. 1 AO · Darf der Täter vergessene Betriebsausgaben gegenrechnen? Nein. · § 370 Abs. 4 S. 3 AO · Ab welcher Größe besonders schwer? Bei großem Ausmaß. · § 370 Abs. 3 S. 2 Nr. 1 AO · Und was noch?"
+        },
+        {
+          "art": "text",
+          "titel": "Abgabenordnung",
+          "text": "Tathandlung · Taterfolg · Kausalität · Nichtzahlung allein ist keine Verkürzung · Falsch angeben · oder schweigen, · zu niedrig festgesetzt, · dadurch verkürzt. · Speichern für Klausur 1 · Welche Nachfrage fürchtest du? · Weiterwischen: § 370 AO markiert"
+        },
+        {
+          "art": "text",
+          "titel": "Abgabenordnung",
+          "text": "§ 370 AO Steuerhinterziehung (Auszug) · Tun · Unterlassen · Kausalität · Erfolg · Daneben: § 370 Abs. 4 S. 3 AO · Kompensationsverbot"
+        }
+      ]
+    },
+    "b3": {
+      "format": "reel",
+      "fach": "gewst",
+      "klausur": 2,
+      "fachLabel": "Gewerbesteuer",
+      "themaId": "gewst-frei-spenden-9-nr-5",
+      "caption": "Spende aus dem Betrieb: Warum rechnet die GmbH sie in der Gewerbesteuer erst hinzu und der Einzelunternehmer nicht? 🤝\n\n▸ Einzelunternehmer: Eine Spende aus Betriebsmitteln ist keine Betriebsausgabe, sondern eine Entnahme (§ 4 Abs. 1 S. 2 EStG); einkommensteuerlich bleibt der Sonderausgabenabzug (§ 10b EStG). Der Gewinn nach § 7 GewStG enthält sie daher nicht.\n▸ GmbH: Die Spende mindert das Einkommen über § 9 Abs. 1 Nr. 2 KStG und wird deshalb hinzugerechnet (§ 8 Nr. 9 GewStG).\n▸ Danach Kürzung für beide: Zuwendungen aus Mitteln des Gewerbebetriebs bis 20 % des um die Hinzurechnung nach § 8 Nr. 9 erhöhten Gewinns oder 4 ‰ der Summe aus Umsätzen und Löhnen (§ 9 Nr. 5 S. 1 GewStG).\n\nSpeichern für Klausur 2 📌",
+      "hashtags": [
+        "#steuerberaterexamen",
+        "#steuerberaterprüfung",
+        "#examensvorbereitung",
+        "#gewerbesteuer"
+      ],
+      "quellen": [
+        "§ 4 Abs. 1 S. 2 EStG",
+        "§ 10b EStG",
+        "§ 9 Abs. 1 Nr. 2 KStG",
+        "§ 7 GewStG",
+        "§ 8 Nr. 9 GewStG",
+        "§ 9 Nr. 5 S. 1 GewStG"
+      ],
+      "slug": "2026-12-01-b3",
+      "kurztitel": "Spenden in der Gewerbesteuer: GmbH oder Einzelunternehmer?",
+      "regelGeprueft": true,
+      "manuellGeprueft": false,
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "open-peeps-render",
+      "renderer": "open-peeps-v4",
+      "liveVorrangAktiv": true,
+      "bild": "op-cover",
+      "reelTyp": "gegensatz",
+      "hookStil": "split",
+      "coverBadge": "Reel",
+      "szenen": [
+        {
+          "art": "hook",
+          "titel": "Spende aus dem Betrieb"
+        },
+        {
+          "art": "schritt",
+          "titel": "Einzelunternehmer"
+        },
+        {
+          "art": "schritt",
+          "titel": "GmbH"
+        },
+        {
+          "art": "schritt",
+          "titel": "Beide kürzen"
+        }
+      ],
+      "sprecher": [
+        "Zehntausend Euro Spende aus dem Betrieb. Bei der GmbH erst hinzurechnen, beim Einzelunternehmer nicht. Warum?",
+        "Beim Einzelunternehmer ist die Spende keine Betriebsausgabe, sondern eine Entnahme. Sie mindert den Gewinn gar nicht.",
+        "Bei der GmbH mindert sie über den Spendenabzug das Einkommen. Paragraf acht Nummer neun rechnet sie deshalb wieder hinzu.",
+        "Danach kürzen beide nach Paragraf neun Nummer fünf. Höchstens zwanzig Prozent des Gewinns.",
+        "Merke: GmbH hinzurechnen und kürzen. Einzelunternehmer nur kürzen."
+      ],
+      "dauerS": 38.75,
+      "tempo": 1.0
+    },
+    "s4": {
+      "slot": "s4",
+      "art": "frage",
+      "fach": "est",
+      "klausur": 2,
+      "fachLabel": "Einkommensteuer",
+      "themaId": "est-frei-quiz-sparer-pauschbetrag",
+      "beitragSlot": null,
+      "quellen": null,
+      "frage": [
+        "Sparer-Pauschbetrag:",
+        "wie hoch?"
+      ],
+      "optionen": [
+        "801 €",
+        "1.000 €",
+        "Tatsächliche Werbungskosten"
+      ],
+      "pairId": "est-frei-quiz-sparer-pauschbetrag",
+      "sichtbareTexte": [
+        "Einkommensteuer",
+        "Prüfungsfrage",
+        "Sparer-Pauschbetrag:",
+        "wie hoch?",
+        "801 €",
+        "1.000 €",
+        "Tatsächliche Werbungskosten",
+        "Auflösung in der nächsten Story"
+      ],
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
+      "liveVorrangAktiv": true,
+      "regelGeprueft": true
+    },
+    "s5": {
+      "slot": "s5",
+      "art": "antwort",
+      "fach": "est",
+      "klausur": 2,
+      "fachLabel": "Einkommensteuer",
+      "themaId": "est-frei-quiz-sparer-pauschbetrag",
+      "beitragSlot": null,
+      "quellen": null,
+      "titel": [
+        "B: 1.000 €"
+      ],
+      "optionen": [
+        "801 €",
+        "1.000 €",
+        "Tatsächliche Werbungskosten"
+      ],
+      "richtig": 1,
+      "text": "Zusammenveranlagt: 2.000 €. Tatsächliche Werbungskosten sind ausgeschlossen.",
+      "norm": "§ 20 Abs. 9 S. 1, 2 EStG",
+      "pairId": "est-frei-quiz-sparer-pauschbetrag",
+      "sichtbareTexte": [
+        "Einkommensteuer",
+        "Auflösung",
+        "B: 1.000 €",
+        "801 €",
+        "1.000 €",
+        "Tatsächliche Werbungskosten",
+        "Zusammenveranlagt: 2.000 €. Tatsächliche Werbungskosten sind ausgeschlossen.",
+        "§ 20 Abs. 9 S. 1, 2 EStG"
+      ],
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
+      "liveVorrangAktiv": true,
+      "regelGeprueft": true
+    },
+    "s1": {
+      "slot": "s1",
+      "art": "teaser",
+      "fach": "bilanz",
+      "klausur": 3,
+      "fachLabel": "Bilanzsteuerrecht",
+      "themaId": null,
+      "beitragSlot": "b1",
+      "quellen": null,
+      "titel": [
+        "Halle auf fremdem Grund"
+      ],
+      "unter": "Rechenweg + Markier-Guide · im Profil",
+      "sichtbareTexte": [
+        "Bilanzsteuerrecht",
+        "Neu im Feed",
+        "Halle auf fremdem Grund",
+        "Rechenweg + Markier-Guide · im Profil"
+      ],
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
+      "liveVorrangAktiv": true,
+      "regelGeprueft": true
+    },
+    "s6": {
+      "slot": "s6",
+      "art": "norm",
+      "fach": "bilanz",
+      "klausur": 3,
+      "fachLabel": "Bilanzsteuerrecht",
+      "themaId": "bilanz-glossar-7",
+      "beitragSlot": null,
+      "quellen": null,
+      "titel": [
+        "Bilanzen-",
+        "zusammenhang"
+      ],
+      "norm": "§ 252 Abs. 1 Nr. 1 HGB",
+      "punkte": [
+        [
+          "Eröffnungsbilanz = Schlussbilanz des Vorjahres.",
+          "ok",
+          "§ 4 Abs. 1 S. 1 EStG"
+        ],
+        [
+          "Alter Fehler, Jahr bestandskräftig: im ersten änderbaren Jahr erfolgswirksam korrigieren.",
+          "warn",
+          "R 4.4 Abs. 1 S. 9 EStR"
+        ]
+      ],
+      "sichtbareTexte": [
+        "Bilanzsteuerrecht",
+        "Norm des Tages",
+        "Bilanzen-",
+        "zusammenhang",
+        "§ 252 Abs. 1 Nr. 1 HGB",
+        "Eröffnungsbilanz = Schlussbilanz des Vorjahres.",
+        "§ 4 Abs. 1 S. 1 EStG",
+        "Alter Fehler, Jahr bestandskräftig: im ersten änderbaren Jahr erfolgswirksam korrigieren.",
+        "R 4.4 Abs. 1 S. 9 EStR"
+      ],
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
+      "liveVorrangAktiv": true,
+      "regelGeprueft": true
+    },
+    "s2": {
+      "slot": "s2",
+      "art": "teaser",
+      "fach": "ao",
+      "klausur": 1,
+      "fachLabel": "Abgabenordnung",
+      "themaId": null,
+      "beitragSlot": "b2",
+      "quellen": null,
+      "titel": [
+        "§ 370 AO in 10 Minuten"
+      ],
+      "unter": "Kurzvortrag + Markier-Guide · im Profil",
+      "sichtbareTexte": [
+        "Abgabenordnung",
+        "Neu im Feed",
+        "§ 370 AO in 10 Minuten",
+        "Kurzvortrag + Markier-Guide · im Profil"
+      ],
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
+      "liveVorrangAktiv": true,
+      "regelGeprueft": true
+    },
+    "s7": {
+      "slot": "s7",
+      "art": "tipp",
+      "fach": null,
+      "klausur": 0,
+      "fachLabel": "Klausurtechnik",
+      "themaId": null,
+      "beitragSlot": null,
+      "quellen": null,
+      "titel": [
+        "Erst die Fragen,",
+        "dann der Fall"
+      ],
+      "punkte": [
+        [
+          "Aufgabenstellung am Ende zuerst lesen.",
+          "ok",
+          null
+        ],
+        [
+          "Nur beantworten, was gefragt ist.",
+          "warn",
+          null
+        ]
+      ],
+      "icon": "tabler:list-search",
+      "iconFarbe": "GELB",
+      "sichtbareTexte": [
+        "Klausurtechnik",
+        "Klausurtipp",
+        "Erst die Fragen,",
+        "dann der Fall",
+        "Aufgabenstellung am Ende zuerst lesen.",
+        "Nur beantworten, was gefragt ist."
+      ],
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
+      "liveVorrangAktiv": true,
+      "regelGeprueft": true
+    },
+    "s8": {
+      "slot": "s8",
+      "art": "tipp",
+      "fach": "ust",
+      "klausur": 1,
+      "fachLabel": "Umsatzsteuer",
+      "themaId": "ust-modul-ust-244",
+      "beitragSlot": null,
+      "quellen": null,
+      "titel": [
+        "Kleinunternehmer",
+        "seit 2025"
+      ],
+      "punkte": [
+        [
+          "Vorjahr bis 25.000 €, laufendes Jahr bis 100.000 €.",
+          "ok",
+          "§ 19 Abs. 1 S. 1 UStG"
+        ],
+        [
+          "Gerechnet nach vereinnahmten Entgelten, ohne Anlagevermögen.",
+          "warn",
+          "§ 19 Abs. 2 UStG"
+        ]
+      ],
+      "icon": "tabler:receipt-tax",
+      "iconFarbe": "GELB",
+      "sichtbareTexte": [
+        "Umsatzsteuer",
+        "Klausurtipp",
+        "Kleinunternehmer",
+        "seit 2025",
+        "Vorjahr bis 25.000 €, laufendes Jahr bis 100.000 €.",
+        "§ 19 Abs. 1 S. 1 UStG",
+        "Gerechnet nach vereinnahmten Entgelten, ohne Anlagevermögen.",
+        "§ 19 Abs. 2 UStG"
+      ],
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
+      "liveVorrangAktiv": true,
+      "regelGeprueft": true
+    },
+    "s3": {
+      "slot": "s3",
+      "art": "teaser",
+      "fach": "gewst",
+      "klausur": 2,
+      "fachLabel": "Gewerbesteuer",
+      "themaId": null,
+      "beitragSlot": "b3",
+      "quellen": null,
+      "titel": [
+        "Spende: GmbH oder Einzelunternehmer?"
+      ],
+      "unter": "Neues Reel · im Profil",
+      "sichtbareTexte": [
+        "Gewerbesteuer",
+        "Neu im Feed",
+        "Spende: GmbH oder Einzelunternehmer?",
+        "Neues Reel · im Profil"
+      ],
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
+      "liveVorrangAktiv": true,
+      "regelGeprueft": true
+    },
+    "s9": {
+      "slot": "s9",
+      "art": "merksatz",
+      "fach": "istr",
+      "klausur": 2,
+      "fachLabel": "Internationales Steuerrecht",
+      "themaId": "istr-frei-betriebstaette-12-ao",
+      "beitragSlot": null,
+      "quellen": null,
+      "titel": [
+        "Was ist eine",
+        "Betriebstätte?"
+      ],
+      "zeilen": [
+        [
+          [
+            "Feste",
+            "a"
+          ],
+          [
+            " Einrichtung,",
+            null
+          ]
+        ],
+        [
+          [
+            "die dem",
+            null
+          ]
+        ],
+        [
+          [
+            "Unternehmen",
+            "b"
+          ],
+          [
+            " dient",
+            "c"
+          ],
+          [
+            ".",
+            null
+          ]
+        ]
+      ],
+      "norm": "§ 12 S. 1 AO",
+      "sichtbareTexte": [
+        "Internationales Steuerrecht",
+        "Merksatz",
+        "Was ist eine",
+        "Betriebstätte?",
+        "Feste Einrichtung,",
+        "die dem",
+        "Unternehmen dient.",
+        "§ 12 S. 1 AO"
+      ],
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
+      "liveVorrangAktiv": true,
+      "regelGeprueft": true
+    }
+  },
+  "renderVorschau": {
+    "status": "fertig",
+    "erzeugtAm": "2026-11-17T09:18:03Z",
+    "pfad": "vorproduktion/2026-12-01/fertig",
+    "providerKostenUsd": 0,
+    "coverbilder": false,
+    "coverIcons": false,
+    "renderer": "open-peeps-v4",
+    "layoutQuelle": "open-peeps-variante-c",
+    "reelStimme": "elevenlabs-laura",
+    "sfx": "freesound-cc0",
+    "freigabeBetreiber": true,
+    "liveVorrangAktiv": true,
+    "normalbetriebGesperrt": true,
+    "wartetLive": []
+  }
+}
