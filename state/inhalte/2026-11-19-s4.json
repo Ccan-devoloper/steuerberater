@@ -1,0 +1,36 @@
+{
+  "slot": "s4",
+  "art": "frage",
+  "fach": "est",
+  "klausur": 2,
+  "fachLabel": "Einkommensteuer",
+  "themaId": "est-quiz-sparer-pauschbetrag",
+  "beitragSlot": null,
+  "quellen": null,
+  "frage": [
+    "Sparer-Pauschbetrag",
+    "für Ledige?"
+  ],
+  "optionen": [
+    "801 €",
+    "1.000 €",
+    "2.000 €"
+  ],
+  "pairId": "est-quiz-sparer-pauschbetrag",
+  "sichtbareTexte": [
+    "Einkommensteuer",
+    "Prüfungsfrage",
+    "Sparer-Pauschbetrag",
+    "für Ledige?",
+    "801 €",
+    "1.000 €",
+    "2.000 €",
+    "Auflösung in der nächsten Story"
+  ],
+  "renderer": "open-peeps-v4",
+  "bildStatus": "open-peeps-render",
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "liveVorrangAktiv": true,
+  "regelGeprueft": true
+}

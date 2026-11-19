@@ -1,0 +1,48 @@
+{
+  "slot": "s7",
+  "art": "tipp",
+  "fach": null,
+  "klausur": 0,
+  "fachLabel": "Klausurtechnik",
+  "themaId": null,
+  "beitragSlot": null,
+  "quellen": null,
+  "titel": [
+    "Ergebnis zuerst,",
+    "dann begründen"
+  ],
+  "punkte": [
+    [
+      "Erster Satz: das Ergebnis.",
+      "ok",
+      null
+    ],
+    [
+      "Dann Norm und Subsumtion.",
+      "ok",
+      null
+    ],
+    [
+      "So findet die Korrektur deine Punkte schneller.",
+      "ok",
+      null
+    ]
+  ],
+  "icon": "tabler:target-arrow",
+  "iconFarbe": "GELB",
+  "sichtbareTexte": [
+    "Klausurtechnik",
+    "Klausurtipp",
+    "Ergebnis zuerst,",
+    "dann begründen",
+    "Erster Satz: das Ergebnis.",
+    "Dann Norm und Subsumtion.",
+    "So findet die Korrektur deine Punkte schneller."
+  ],
+  "renderer": "open-peeps-v4",
+  "bildStatus": "open-peeps-render",
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "liveVorrangAktiv": true,
+  "regelGeprueft": true
+}

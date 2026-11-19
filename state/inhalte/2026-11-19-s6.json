@@ -1,0 +1,42 @@
+{
+  "slot": "s6",
+  "art": "norm",
+  "fach": "persg",
+  "klausur": 3,
+  "fachLabel": "Personengesellschaften",
+  "themaId": "persg-aufb-persg-melzer-4-4",
+  "beitragSlot": null,
+  "quellen": null,
+  "titel": [
+    "Realteilung:",
+    "drei Jahre Sperre"
+  ],
+  "norm": "§ 16 Abs. 3 S. 3 EStG",
+  "punkte": [
+    [
+      "Grund und Boden, Gebäude, wesentliche Betriebsgrundlagen nicht verkaufen oder entnehmen.",
+      "warn",
+      null
+    ],
+    [
+      "Frist endet drei Jahre nach Abgabe der Feststellungserklärung.",
+      "ok",
+      null
+    ]
+  ],
+  "sichtbareTexte": [
+    "Personengesellschaften",
+    "Norm des Tages",
+    "Realteilung:",
+    "drei Jahre Sperre",
+    "§ 16 Abs. 3 S. 3 EStG",
+    "Grund und Boden, Gebäude, wesentliche Betriebsgrundlagen nicht verkaufen oder entnehmen.",
+    "Frist endet drei Jahre nach Abgabe der Feststellungserklärung."
+  ],
+  "renderer": "open-peeps-v4",
+  "bildStatus": "open-peeps-render",
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "liveVorrangAktiv": true,
+  "regelGeprueft": true
+}

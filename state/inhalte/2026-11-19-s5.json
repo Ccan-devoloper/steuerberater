@@ -1,0 +1,38 @@
+{
+  "slot": "s5",
+  "art": "antwort",
+  "fach": "est",
+  "klausur": 2,
+  "fachLabel": "Einkommensteuer",
+  "themaId": "est-quiz-sparer-pauschbetrag",
+  "beitragSlot": null,
+  "quellen": null,
+  "titel": [
+    "B: 1.000 €"
+  ],
+  "optionen": [
+    "801 €",
+    "1.000 €",
+    "2.000 €"
+  ],
+  "richtig": 1,
+  "text": "Zusammenveranlagte bekommen 2.000 €. Tatsächliche Werbungskosten zählen nicht.",
+  "norm": "§ 20 Abs. 9 S. 1, 2 EStG",
+  "pairId": "est-quiz-sparer-pauschbetrag",
+  "sichtbareTexte": [
+    "Einkommensteuer",
+    "Auflösung",
+    "B: 1.000 €",
+    "801 €",
+    "1.000 €",
+    "2.000 €",
+    "Zusammenveranlagte bekommen 2.000 €. Tatsächliche Werbungskosten zählen nicht.",
+    "§ 20 Abs. 9 S. 1, 2 EStG"
+  ],
+  "renderer": "open-peeps-v4",
+  "bildStatus": "open-peeps-render",
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "liveVorrangAktiv": true,
+  "regelGeprueft": true
+}

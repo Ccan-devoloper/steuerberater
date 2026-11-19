@@ -1,0 +1,51 @@
+{
+  "slot": "s8",
+  "art": "tipp",
+  "fach": "ust",
+  "klausur": 1,
+  "fachLabel": "Umsatzsteuer",
+  "themaId": "ust-modul-ust-161",
+  "beitragSlot": null,
+  "quellen": null,
+  "titel": [
+    "0 %, 7 %",
+    "oder 19 %?"
+  ],
+  "punkte": [
+    [
+      "Erst 0 %, etwa Photovoltaik.",
+      "ok",
+      "§ 12 Abs. 3 UStG"
+    ],
+    [
+      "Dann 7 %: Restaurantspeisen, ohne Getränke.",
+      "ok",
+      "§ 12 Abs. 2 Nr. 15 UStG"
+    ],
+    [
+      "Sonst 19 %.",
+      "ok",
+      "§ 12 Abs. 1 UStG"
+    ]
+  ],
+  "icon": "tabler:receipt-tax",
+  "iconFarbe": "GELB",
+  "sichtbareTexte": [
+    "Umsatzsteuer",
+    "Klausurtipp",
+    "0 %, 7 %",
+    "oder 19 %?",
+    "Erst 0 %, etwa Photovoltaik.",
+    "§ 12 Abs. 3 UStG",
+    "Dann 7 %: Restaurantspeisen, ohne Getränke.",
+    "§ 12 Abs. 2 Nr. 15 UStG",
+    "Sonst 19 %.",
+    "§ 12 Abs. 1 UStG"
+  ],
+  "renderer": "open-peeps-v4",
+  "bildStatus": "open-peeps-render",
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "liveVorrangAktiv": true,
+  "regelGeprueft": true
+}

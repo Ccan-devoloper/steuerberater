@@ -1,0 +1,69 @@
+{
+  "format": "spickzettel",
+  "fach": "persg",
+  "klausur": 3,
+  "fachLabel": "Personengesellschaften",
+  "themaId": "persg-aufb-persg-melzer-4-1",
+  "caption": "Echte oder unechte Realteilung? Der Spickzettel für die Klausur Personengesellschaften.\n\n▸ Echte Realteilung: Die Mitunternehmerschaft wird aufgelöst und ihr Vermögen verteilt, auch wenn ein Realteiler den Betrieb allein fortführt (BMF vom 19.12.2018, IV C 6 - S 2242/07/10002, Rn. 1).\n▸ Unechte Realteilung: Ein Mitunternehmer scheidet mit Wirtschaftsgütern aus, die bei ihm zumindest teilweise Betriebsvermögen werden; die übrigen führen die Gesellschaft fort (BMF vom 19.12.2018, Rn. 2), auch mit Einzelwirtschaftsgütern.\n▸ Buchwertfortführung, wenn die Wirtschaftsgüter in ein Betriebsvermögen des Realteilers gelangen und die Besteuerung der stillen Reserven gesichert ist (§ 16 Abs. 3 S. 2 EStG); nicht, soweit Einzelwirtschaftsgüter auf eine Körperschaft übergehen (§ 16 Abs. 3 S. 4 EStG).\n▸ Klausurfalle: Ausscheiden gegen reine Geldabfindung ist keine Realteilung, sondern Veräußerung des Mitunternehmeranteils (§ 16 Abs. 1 S. 1 Nr. 2 EStG).\n▸ Sperrfrist bei Einzelwirtschaftsgütern: drei Jahre nach Abgabe der Erklärung der Mitunternehmerschaft für das Jahr der Realteilung (§ 16 Abs. 3 S. 3 EStG).\n\nZum Schluss: § 16 Abs. 3 EStG und das BMF-Schreiben zum Markieren. Speichern für Klausur 3 📌",
+  "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#personengesellschaften"
+  ],
+  "quellen": [
+    "§ 16 Abs. 1 S. 1 Nr. 2 EStG",
+    "§ 16 Abs. 3 S. 2–4 EStG",
+    "BMF vom 19.12.2018, IV C 6 - S 2242/07/10002, BStBl I 2019, 6, Rn. 1, 2"
+  ],
+  "slug": "2026-11-19-b1",
+  "kurztitel": "Echte oder unechte Realteilung: Worauf kommt es an?",
+  "regelGeprueft": true,
+  "manuellGeprueft": false,
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "textProviderKostenUsd": 0,
+  "faktencheckProviderKostenUsd": 0,
+  "bildStatus": "open-peeps-render",
+  "renderer": "open-peeps-v4",
+  "liveVorrangAktiv": true,
+  "coverBadge": "Spickzettel",
+  "folien": [
+    {
+      "art": "titel",
+      "titel": "Spickzettel",
+      "text": "Spickzettel · Echte oder · unechte Realteilung? · § 16 Abs. 3 S. 2 EStG · auf einer Karte · + Markier-Guide § 16 + BMF",
+      "bild": "op-cover"
+    },
+    {
+      "art": "text",
+      "titel": "Personengesellschaften",
+      "text": "Echt oder unecht? · Echte Realteilung · Gesellschaft wird aufgelöst, Vermögen verteilt · BMF vom 19.12.2018, Rn. 1 · Auch wenn einer allein weitermacht · Unechte Realteilung · Einer geht mit Sachwerten, die bei ihm Betriebsvermögen werden · BMF vom 19.12.2018, Rn. 2 · Die anderen machen weiter · Matteo hier: Läuft sie weiter?"
+    },
+    {
+      "art": "text",
+      "titel": "Personengesellschaften",
+      "text": "Buchwert nur, wenn … · Die Wirtschaftsgüter landen in einem Betriebsvermögen des Realteilers. · § 16 Abs. 3 S. 2 EStG · Die Besteuerung der stillen Reserven bleibt gesichert. · § 16 Abs. 3 S. 2 EStG · Einzelwirtschaftsgüter gehen nicht auf eine Körperschaft über. · § 16 Abs. 3 S. 4 EStG · Drei Haken."
+    },
+    {
+      "art": "text",
+      "titel": "Personengesellschaften",
+      "text": "Geld ist keine Realteilung · Abfindung nur in Geld: Veräußerung des Mitunternehmeranteils. · § 16 Abs. 1 S. 1 Nr. 2 EStG · Sachwert ganz ins Privatvermögen: ebenfalls kein Buchwert. · Bargeld zählt nicht?"
+    },
+    {
+      "art": "text",
+      "titel": "Personengesellschaften",
+      "text": "Gesellschaft endet: echt · läuft weiter: unecht · Buchwert nur bei Betriebsvermögen des Realteilers · Endet sie: echt, · läuft sie: unecht, · Geld allein: nie · Realteilung. · Speichern für Klausur 3 · Echt oder unecht: sicher? · Weiterwischen: § 16 + BMF markiert"
+    },
+    {
+      "art": "text",
+      "titel": "Personengesellschaften",
+      "text": "§ 16 Abs. 3 EStG (Auszug) · echt + unecht · Betriebsvermögen! · Sicherung · Sperrfrist: § 16 Abs. 3 S. 3 EStG · Drei Jahre nach Abgabe der Feststellungserklärung"
+    },
+    {
+      "art": "text",
+      "titel": "Personengesellschaften",
+      "text": "BMF vom 19.12.2018, Rn. 1, 2 (Auszug) · Gesellschaft endet · bleibt im BV · Rest macht weiter · auch Einzel-WG · Nur Geld: § 16 Abs. 1 S. 1 Nr. 2 EStG · Veräußerung, keine Realteilung"
+    }
+  ]
+}
