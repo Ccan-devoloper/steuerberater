@@ -1,0 +1,44 @@
+{
+  "slot": "s6",
+  "art": "norm",
+  "fach": "ao",
+  "klausur": 1,
+  "fachLabel": "Abgabenordnung",
+  "themaId": "ao-modul-ao-346",
+  "beitragSlot": null,
+  "quellen": null,
+  "titel": [
+    "Vorbehalt der",
+    "Nachprüfung"
+  ],
+  "norm": "§ 164 AO",
+  "punkte": [
+    [
+      "Ohne Begründung, solange nicht abschließend geprüft.",
+      "ok",
+      "§ 164 Abs. 1 S. 1 AO"
+    ],
+    [
+      "Solange er wirkt: jederzeit änderbar, nach oben und unten.",
+      "ok",
+      "§ 164 Abs. 2 S. 1 AO"
+    ]
+  ],
+  "sichtbareTexte": [
+    "Abgabenordnung",
+    "Norm des Tages",
+    "Vorbehalt der",
+    "Nachprüfung",
+    "§ 164 AO",
+    "Ohne Begründung, solange nicht abschließend geprüft.",
+    "§ 164 Abs. 1 S. 1 AO",
+    "Solange er wirkt: jederzeit änderbar, nach oben und unten.",
+    "§ 164 Abs. 2 S. 1 AO"
+  ],
+  "renderer": "open-peeps-v4",
+  "bildStatus": "open-peeps-render",
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "liveVorrangAktiv": true,
+  "regelGeprueft": true
+}

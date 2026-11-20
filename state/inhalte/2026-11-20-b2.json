@@ -1,0 +1,83 @@
+{
+  "format": "kurzvortrag",
+  "fach": "kst",
+  "klausur": 2,
+  "fachLabel": "Körperschaftsteuer",
+  "themaId": "kst-aufb-kst-t3-7",
+  "caption": "Kurzvortrag für die mündliche Prüfung: Kommt die Ausschüttung aus dem Einlagekonto? Gliederung für 10 Minuten.\n\nEinstieg (1 Min.), Einlagekonto (2 Min.), Verwendungsrechnung (4 Min.), Beispiel und Fazit (2 Min.), eine Minute Puffer.\n\n▸ Gewinnausschüttung ist Kapitalertrag (§ 20 Abs. 1 Nr. 1 S. 1 EStG); Bezüge, für die Beträge aus dem Einlagekonto als verwendet gelten, gehören nicht zu den Einnahmen (§ 20 Abs. 1 Nr. 1 S. 3 EStG).\n▸ Nicht ins Nennkapital geleistete Einlagen werden auf dem steuerlichen Einlagekonto erfasst, fortgeschrieben und gesondert festgestellt (§ 27 Abs. 1 S. 1, 2, Abs. 2 S. 1 KStG).\n▸ Leistungen mindern das Einlagekonto unabhängig von ihrer handelsrechtlichen Einordnung nur, soweit sie den ausschüttbaren Gewinn zum Schluss des Vorjahres übersteigen (§ 27 Abs. 1 S. 3 KStG).\n▸ Ausschüttbarer Gewinn = Eigenkapital laut Steuerbilanz − gezeichnetes Kapital − Einlagekonto (§ 27 Abs. 1 S. 5 KStG).\n\nBeispiel: 500.000 € − 100.000 € − 250.000 € = 150.000 €; Ausschüttung 200.000 €, davon 50.000 € aus dem Einlagekonto. Bei 120.000 € nichts.\n\nZum Schluss: § 27 Abs. 1 KStG zum Markieren. Speichern für Klausur 2 📌",
+  "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#körperschaftsteuer"
+  ],
+  "quellen": [
+    "§ 27 Abs. 1 S. 1–3, 5, Abs. 2 S. 1 KStG",
+    "§ 20 Abs. 1 Nr. 1 S. 1, 3 EStG"
+  ],
+  "slug": "2026-11-20-b2",
+  "kurztitel": "Kommt die Ausschüttung aus dem Einlagekonto? Die Rechenlogik",
+  "regelGeprueft": true,
+  "manuellGeprueft": false,
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "textProviderKostenUsd": 0,
+  "faktencheckProviderKostenUsd": 0,
+  "bildStatus": "open-peeps-render",
+  "renderer": "open-peeps-v4",
+  "liveVorrangAktiv": true,
+  "coverBadge": "Kurzvortrag",
+  "folien": [
+    {
+      "art": "titel",
+      "titel": "Kurzvortrag",
+      "text": "Kurzvortrag · Aus dem · Einlagekonto? · § 27 Abs. 1 S. 3 KStG · 10 Minuten · + Markier-Guide § 27 KStG · Mündliche Prüfung · 10 Min. · in 4 Teilen",
+      "bild": "op-cover"
+    },
+    {
+      "art": "text",
+      "titel": "Körperschaftsteuer",
+      "text": "Die Gliederung · Einstieg: Gewinn oder Einlage? · 1 Minute · Das Einlagekonto · § 27 Abs. 1 S. 1, Abs. 2 KStG · 2 Minuten · Die Verwendungsrechnung · § 27 Abs. 1 S. 3, 5 KStG · 4 Minuten · Beispiel und Fazit · 2 Minuten · Am Ende: § 27 KStG markiert"
+    },
+    {
+      "art": "text",
+      "titel": "Körperschaftsteuer",
+      "text": "1–2 · Gewinn oder Einlage? · Die GmbH zahlt an ihre Gesellschafter. · Gewinn: Kapitalertrag beim Gesellschafter. · § 20 Abs. 1 Nr. 1 S. 1 EStG · Einlagenrückgewähr: keine Einnahme, mindert die Anschaffungskosten. · § 20 Abs. 1 Nr. 1 S. 3 EStG · Einlagen außerhalb des Nennkapitals: steuerliches Einlagekonto, fortgeschrieben und jährlich festgestellt. · § 27 Abs. 1 S. 1, 2, Abs. 2 S. 1 KStG · Das ist die Frage."
+    },
+    {
+      "art": "text",
+      "titel": "Körperschaftsteuer",
+      "text": "3 · Verwendungsrechnung · Leistungen mindern das Konto nur, soweit sie den ausschüttbaren Gewinn übersteigen. · § 27 Abs. 1 S. 3 KStG · Ausschüttbarer Gewinn: Eigenkapital laut Steuerbilanz minus gezeichnetes Kapital minus Einlagekonto. · § 27 Abs. 1 S. 5 KStG · Maßgeblich ist der Schluss des Vorjahres. · Vorjahr zählt!"
+    },
+    {
+      "art": "text",
+      "titel": "Körperschaftsteuer",
+      "text": "4 · Beispiel · § 27 Abs. 1 S. 3, 5 KStG · Eigenkapital 31.12.2025 · 500.000 € · – Stammkapital · – 100.000 € · – Einlagekonto · – 250.000 € · Ausschüttbarer Gewinn · 150.000 € · Ausschüttung 2026 · 200.000 € · Aus dem Einlagekonto · 50.000 €"
+    },
+    {
+      "art": "text",
+      "titel": "Körperschaftsteuer",
+      "text": "Typische Nachfragen · Zählt eine vGA mit? Ja, alle Leistungen des Jahres zusammen. · Und wenn die Zahlung „Rückzahlung Kapitalrücklage“ heißt? Egal, nur die Rechnung zählt. · § 27 Abs. 1 S. 3 KStG · Einlage im selben Jahr? Hilft erst im Folgejahr. · Und wenn …?"
+    },
+    {
+      "art": "text",
+      "titel": "Körperschaftsteuer",
+      "text": "Jetzt du · Gleiche Zahlen, aber die GmbH schüttet 2026 nur 120.000 € aus. · Wie viel stammt aus dem Einlagekonto? · Kurz rechnen."
+    },
+    {
+      "art": "text",
+      "titel": "Körperschaftsteuer",
+      "text": "Lösung · Nichts: 120.000 € liegen unter dem ausschüttbaren Gewinn von 150.000 €. · § 27 Abs. 1 S. 3 KStG · Alles ist Gewinnausschüttung mit Kapitalertragsteuer. · Null aus dem Konto."
+    },
+    {
+      "art": "text",
+      "titel": "Körperschaftsteuer",
+      "text": "Ausschüttbarer Gewinn = EK − Nennkapital − Einlagekonto · Alles aus dem Vorjahr, Mehrbetrag = Einlagenrückgewähr · Vorjahr zählt, · erst Gewinn, · dann Einlagekonto, · Name egal. · Speichern für Klausur 2 · Welche Nachfrage fürchtest du? · Weiterwischen: § 27 KStG markiert"
+    },
+    {
+      "art": "text",
+      "titel": "Körperschaftsteuer",
+      "text": "§ 27 Abs. 1 KStG (Auszug) · Name egal · Vorjahr · Formel · Mündliche Prüfung · Formel aus Satz 5 einmal laut vorrechnen"
+    }
+  ]
+}

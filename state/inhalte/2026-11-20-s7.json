@@ -1,0 +1,48 @@
+{
+  "slot": "s7",
+  "art": "tipp",
+  "fach": null,
+  "klausur": 0,
+  "fachLabel": "Klausurtechnik",
+  "themaId": null,
+  "beitragSlot": null,
+  "quellen": null,
+  "titel": [
+    "Bearbeitungshinweis",
+    "zuerst lesen"
+  ],
+  "punkte": [
+    [
+      "Er sagt, was gefragt ist und was nicht.",
+      "ok",
+      null
+    ],
+    [
+      "Ausgeschlossenes nicht prüfen.",
+      "warn",
+      null
+    ],
+    [
+      "Gefragte Steuerarten abhaken.",
+      "ok",
+      null
+    ]
+  ],
+  "icon": "tabler:clipboard-list",
+  "iconFarbe": "GELB",
+  "sichtbareTexte": [
+    "Klausurtechnik",
+    "Klausurtipp",
+    "Bearbeitungshinweis",
+    "zuerst lesen",
+    "Er sagt, was gefragt ist und was nicht.",
+    "Ausgeschlossenes nicht prüfen.",
+    "Gefragte Steuerarten abhaken."
+  ],
+  "renderer": "open-peeps-v4",
+  "bildStatus": "open-peeps-render",
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "liveVorrangAktiv": true,
+  "regelGeprueft": true
+}

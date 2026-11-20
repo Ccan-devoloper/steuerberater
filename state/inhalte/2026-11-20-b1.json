@@ -1,0 +1,81 @@
+{
+  "format": "minifall",
+  "fach": "ao",
+  "klausur": 1,
+  "fachLabel": "Abgabenordnung",
+  "themaId": "ao-aufb-ao-jacobs-7-2",
+  "caption": "Mini-Fall zu § 129 AO: Tippfehler im Bescheid. Darf das Finanzamt nach Bestandskraft noch berichtigen?\n\n▸ Schreibfehler, Rechenfehler und ähnliche offenbare Unrichtigkeiten beim Erlass eines Verwaltungsakts kann die Finanzbehörde jederzeit berichtigen; bei berechtigtem Interesse des Beteiligten muss sie es (§ 129 S. 1, 2 AO).\n▸ Voraussetzung: ein mechanisches Versehen. Kommt ein Rechts- oder Tatsachenirrtum ernsthaft in Betracht, scheidet § 129 AO aus.\n▸ Bei Steuerbescheiden endet die Festsetzungsfrist insoweit nicht vor Ablauf eines Jahres nach Bekanntgabe (§ 171 Abs. 2 S. 1 AO).\n▸ Variante: Bewusste Kürzung auf den Arbeitnehmer-Pauschbetrag von 1.230 € (§ 9a S. 1 Nr. 1 Buchst. a EStG) ist rechtliche Würdigung, keine offenbare Unrichtigkeit. Hilfe nur über den fristgerechten Einspruch (§ 355 Abs. 1 S. 1 AO).\n▸ Schreib- oder Rechenfehler des Steuerpflichtigen in der Erklärung, die das Finanzamt nicht erkennen konnte: § 173a AO.\n\nZum Schluss: § 129 AO zum Markieren. Speichern für Klausur 1 📌",
+  "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#abgabenordnung"
+  ],
+  "quellen": [
+    "§ 129 S. 1, 2 AO",
+    "§ 171 Abs. 2 S. 1 AO",
+    "§ 173a AO",
+    "§ 355 Abs. 1 S. 1 AO",
+    "§ 9a S. 1 Nr. 1 Buchst. a EStG"
+  ],
+  "slug": "2026-11-20-b1",
+  "kurztitel": "Wann darf das Finanzamt nach § 129 AO berichtigen?",
+  "regelGeprueft": true,
+  "manuellGeprueft": false,
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "textProviderKostenUsd": 0,
+  "faktencheckProviderKostenUsd": 0,
+  "bildStatus": "open-peeps-render",
+  "renderer": "open-peeps-v4",
+  "liveVorrangAktiv": true,
+  "coverBadge": "Mini-Fall",
+  "folien": [
+    {
+      "art": "titel",
+      "titel": "Mini-Fall",
+      "text": "Mini-Fall · Tippfehler im · Bescheid · § 129 AO · Der Fall · + Markier-Guide § 129 AO · erklärt 4.850 € · 48.500 € · im Bescheid",
+      "bild": "op-cover"
+    },
+    {
+      "art": "text",
+      "titel": "Abgabenordnung",
+      "text": "Der Fall · Ida erklärt Werbungskosten von 4.850 €. · Im Bescheid stehen 48.500 €, weil die Sachbearbeitung eine Null zu viel eingetippt hat. Der Bescheid wird bestandskräftig. · Darf das Finanzamt noch berichtigen? · Ich bin Ida. Pech?"
+    },
+    {
+      "art": "text",
+      "titel": "Abgabenordnung",
+      "text": "Was § 129 AO erfasst · Schreibfehler, Rechenfehler und ähnliche offenbare Unrichtigkeiten beim Erlass. · § 129 S. 1 AO · Gilt für jeden Verwaltungsakt, auch nach Bestandskraft: „jederzeit“. · § 129 S. 1 AO · Ein Rechts- oder Tatsachenirrtum darf nicht ernsthaft in Betracht kommen. · Nur Tippfehler?"
+    },
+    {
+      "art": "text",
+      "titel": "Abgabenordnung",
+      "text": "Lösung · Die Null zu viel ist ein mechanisches Versehen, für jeden in der Akte erkennbar. · Das Finanzamt darf auf 4.850 € berichtigen. · § 129 S. 1 AO · Die Festsetzungsfrist endet insoweit nicht vor einem Jahr nach Bekanntgabe. · § 171 Abs. 2 S. 1 AO · Dann eben 4.850 €."
+    },
+    {
+      "art": "text",
+      "titel": "Abgabenordnung",
+      "text": "Jetzt du · Variante: Die Sachbearbeitung setzt bewusst nur den Pauschbetrag von 1.230 € an, weil sie die Kosten für privat hält. · Kann Ida nach Bestandskraft über § 129 AO mehr verlangen? · Bewusst gekürzt?"
+    },
+    {
+      "art": "text",
+      "titel": "Abgabenordnung",
+      "text": "Lösung: nein · Hier wurde rechtlich gewürdigt, nicht vertippt. · Ein Rechtsirrtum sperrt § 129 AO. · § 129 S. 1 AO · Ida hätte fristgerecht Einspruch einlegen müssen. · § 355 Abs. 1 S. 1 AO · Zu spät."
+    },
+    {
+      "art": "text",
+      "titel": "Abgabenordnung",
+      "text": "Fehler aus der Erklärung · Übernimmt das Finanzamt einen erkennbaren Tippfehler aus der Erklärung, kann § 129 AO greifen. · War der Fehler nicht erkennbar: Änderung bei Schreib- oder Rechenfehlern des Steuerpflichtigen. · § 173a AO · Zweiter Weg."
+    },
+    {
+      "art": "text",
+      "titel": "Abgabenordnung",
+      "text": "Tippfehler = berichtigen, Denkfehler = nicht · § 129 AO jederzeit, aber nur mechanische Fehler · Vertippt: § 129 AO, · gedacht: Einspruch, · Erklärung falsch: · § 173a AO. · Speichern für Klausur 1 · Tippfehler oder Denkfehler? · Weiterwischen: § 129 AO markiert"
+    },
+    {
+      "art": "text",
+      "titel": "Abgabenordnung",
+      "text": "§ 129 AO Offenbare Unrichtigkeiten · nur mechanisch · Fehler der Behörde · Grenze: § 171 Abs. 2 · Anspruch · Randnotiz: § 171 Abs. 2 S. 1 AO · Frist endet nicht vor einem Jahr nach Bekanntgabe"
+    }
+  ]
+}

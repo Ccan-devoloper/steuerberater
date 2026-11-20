@@ -1,0 +1,78 @@
+{
+  "slot": "s9",
+  "art": "merksatz",
+  "fach": "bilanz",
+  "klausur": 3,
+  "fachLabel": "Bilanzsteuerrecht",
+  "themaId": "bilanz-karte-k3-6",
+  "beitragSlot": null,
+  "quellen": null,
+  "titel": [
+    "Passive latente",
+    "Steuern?"
+  ],
+  "zeilen": [
+    [
+      [
+        "Aktivposten",
+        "a"
+      ],
+      [
+        " in HB höher",
+        null
+      ]
+    ],
+    [
+      [
+        "oder",
+        null
+      ],
+      [
+        " Passivposten",
+        "b"
+      ],
+      [
+        " tiefer:",
+        null
+      ]
+    ],
+    [
+      [
+        "passive Latenz",
+        "c"
+      ]
+    ],
+    [
+      [
+        "ansetzen: ",
+        null
+      ],
+      [
+        "Pflicht",
+        "c"
+      ],
+      [
+        ".",
+        null
+      ]
+    ]
+  ],
+  "norm": "§ 274 Abs. 1 S. 1 HGB",
+  "sichtbareTexte": [
+    "Bilanzsteuerrecht",
+    "Merksatz",
+    "Passive latente",
+    "Steuern?",
+    "Aktivposten in HB höher",
+    "oder Passivposten tiefer:",
+    "passive Latenz",
+    "ansetzen: Pflicht.",
+    "§ 274 Abs. 1 S. 1 HGB"
+  ],
+  "renderer": "open-peeps-v4",
+  "bildStatus": "open-peeps-render",
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "liveVorrangAktiv": true,
+  "regelGeprueft": true
+}

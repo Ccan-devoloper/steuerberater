@@ -1,0 +1,38 @@
+{
+  "slot": "s5",
+  "art": "antwort",
+  "fach": "bilanz",
+  "klausur": 3,
+  "fachLabel": "Bilanzsteuerrecht",
+  "themaId": "bilanz-quiz-k3-18",
+  "beitragSlot": null,
+  "quellen": null,
+  "titel": [
+    "C: nicht mehr"
+  ],
+  "optionen": [
+    "Ja, mit 5,5 %",
+    "Nur bei Laufzeit ab zwölf Monaten",
+    "Nein, nicht mehr"
+  ],
+  "richtig": 2,
+  "text": "Für Wirtschaftsjahre, die nach dem 31.12.2022 enden, entfällt die Abzinsung.",
+  "norm": "§ 52 Abs. 12 S. 2 EStG",
+  "pairId": "bilanz-quiz-k3-18",
+  "sichtbareTexte": [
+    "Bilanzsteuerrecht",
+    "Auflösung",
+    "C: nicht mehr",
+    "Ja, mit 5,5 %",
+    "Nur bei Laufzeit ab zwölf Monaten",
+    "Nein, nicht mehr",
+    "Für Wirtschaftsjahre, die nach dem 31.12.2022 enden, entfällt die Abzinsung.",
+    "§ 52 Abs. 12 S. 2 EStG"
+  ],
+  "renderer": "open-peeps-v4",
+  "bildStatus": "open-peeps-render",
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "liveVorrangAktiv": true,
+  "regelGeprueft": true
+}

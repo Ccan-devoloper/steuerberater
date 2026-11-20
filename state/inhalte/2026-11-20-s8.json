@@ -1,0 +1,43 @@
+{
+  "slot": "s8",
+  "art": "tipp",
+  "fach": "kst",
+  "klausur": 2,
+  "fachLabel": "Körperschaftsteuer",
+  "themaId": "kst-aufb-kst-t4-15",
+  "beitragSlot": null,
+  "quellen": null,
+  "titel": [
+    "vGA durch",
+    "Gegengeschäft weg?"
+  ],
+  "punkte": [
+    [
+      "Nur wenn vorab vereinbart und rechtlich verknüpft.",
+      "warn",
+      null
+    ],
+    [
+      "Gleichwertig muss es sein, der Rest bleibt vGA.",
+      "ok",
+      "H 8.5 KStH"
+    ]
+  ],
+  "icon": "tabler:arrows-exchange",
+  "iconFarbe": "GELB",
+  "sichtbareTexte": [
+    "Körperschaftsteuer",
+    "Klausurtipp",
+    "vGA durch",
+    "Gegengeschäft weg?",
+    "Nur wenn vorab vereinbart und rechtlich verknüpft.",
+    "Gleichwertig muss es sein, der Rest bleibt vGA.",
+    "H 8.5 KStH"
+  ],
+  "renderer": "open-peeps-v4",
+  "bildStatus": "open-peeps-render",
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "liveVorrangAktiv": true,
+  "regelGeprueft": true
+}

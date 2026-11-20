@@ -1,0 +1,61 @@
+{
+  "format": "reel",
+  "fach": "bilanz",
+  "klausur": 3,
+  "fachLabel": "Bilanzsteuerrecht",
+  "themaId": "bilanz-karte-k3-5",
+  "caption": "Forschung oder Entwicklung: Was darf aktiviert werden? 🧪\n\n▸ Forschung ist die eigenständige und planmäßige Suche nach neuen Erkenntnissen; Forschungskosten dürfen nicht in die Herstellungskosten einbezogen werden (§ 255 Abs. 2 S. 4, Abs. 2a S. 3 HGB).\n▸ Entwicklung ist die Anwendung von Forschungsergebnissen oder anderem Wissen; ihre Aufwendungen sind Herstellungskosten eines selbst geschaffenen immateriellen Vermögensgegenstands (§ 255 Abs. 2a S. 1, 2 HGB).\n▸ Handelsbilanz: Aktivierungswahlrecht für selbst geschaffene immaterielle Vermögensgegenstände des Anlagevermögens (§ 248 Abs. 2 S. 1 HGB), nicht für Marken, Drucktitel, Verlagsrechte, Kundenlisten (§ 248 Abs. 2 S. 2 HGB).\n▸ Lassen sich Forschung und Entwicklung nicht verlässlich unterscheiden, ist eine Aktivierung ausgeschlossen (§ 255 Abs. 2a S. 4 HGB).\n▸ Steuerbilanz: Ansatz nur bei entgeltlichem Erwerb (§ 5 Abs. 2 EStG).\n\nBeispiel: 80.000 € Forschung = Aufwand, 120.000 € Entwicklung = Wahlrecht in der Handelsbilanz, steuerlich 0 €.\n\nSpeichern für Klausur 3 📌",
+  "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#bilanzsteuerrecht"
+  ],
+  "quellen": [
+    "§ 255 Abs. 2 S. 4, Abs. 2a HGB",
+    "§ 248 Abs. 2 HGB",
+    "§ 5 Abs. 2 EStG"
+  ],
+  "slug": "2026-11-20-b3",
+  "kurztitel": "Forschung oder Entwicklung – was ist aktivierbar?",
+  "regelGeprueft": true,
+  "manuellGeprueft": false,
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "textProviderKostenUsd": 0,
+  "faktencheckProviderKostenUsd": 0,
+  "bildStatus": "open-peeps-render",
+  "renderer": "open-peeps-v4",
+  "liveVorrangAktiv": true,
+  "bild": "op-cover",
+  "reelTyp": "rechnung",
+  "hookStil": "knall",
+  "coverBadge": "Reel",
+  "szenen": [
+    {
+      "art": "hook",
+      "titel": "200.000 € alles aktivieren?"
+    },
+    {
+      "art": "schritt",
+      "titel": "Forschung"
+    },
+    {
+      "art": "schritt",
+      "titel": "Entwicklung"
+    },
+    {
+      "art": "schritt",
+      "titel": "Zwei Sperren"
+    }
+  ],
+  "sprecher": [
+    "Zweihunderttausend Euro für ein neues Produkt. Alles aktivieren? Nein.",
+    "Achtzigtausend davon sind Forschung, also die Suche nach neuem Wissen. Forschung ist immer Aufwand.",
+    "Hundertzwanzigtausend sind Entwicklung, also die Anwendung des Wissens. Die darf die Handelsbilanz aktivieren, freiwillig.",
+    "Lässt sich beides nicht trennen, wird gar nichts aktiviert. Und die Steuerbilanz aktiviert selbst Geschaffenes nie.",
+    "Merke: Forschung nie, Entwicklung nur in der Handelsbilanz."
+  ],
+  "dauerS": 34.649,
+  "tempo": 1
+}
