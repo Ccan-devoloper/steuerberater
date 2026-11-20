@@ -1,0 +1,722 @@
+{
+  "datum": "2026-12-04",
+  "status": "vorproduziert",
+  "freigabeBetreiber": true,
+  "liveVerknuepft": false,
+  "vorproduktionStatus": "live-freigegeben",
+  "layoutQuelle": "open-peeps-variante-c",
+  "semantikQuelle": "examenscampus",
+  "liveVorrangAktiv": true,
+  "normalbetriebGesperrt": true,
+  "bildStatus": "open-peeps-render",
+  "kostenPolicy": {
+    "textUndFaktencheckUsd": 0,
+    "bildgenerierungUsd": 0,
+    "providerKostenUsd": 0,
+    "coverbilder": false,
+    "bildgenerierungErlaubt": false,
+    "reelStimme": "elevenlabs-abo"
+  },
+  "plan": {
+    "beitraege": [
+      {
+        "slot": "b1",
+        "zeit": "08:30",
+        "format": "minifall",
+        "themaId": "umwst-aufb-umw-5-13",
+        "themaTitel": "Welche Anteile nehmen am Übernahmeergebnis teil?",
+        "fach": "umwst",
+        "klausur": 3
+      },
+      {
+        "slot": "b2",
+        "zeit": "13:30",
+        "format": "kurzvortrag",
+        "themaId": "erbst-modul-erbst-505",
+        "themaTitel": "Nicht direkt zuordenbare Schulden und Lasten anteilig verteilen",
+        "fach": "erbst",
+        "klausur": 1
+      },
+      {
+        "slot": "b3",
+        "zeit": "19:00",
+        "format": "reel",
+        "themaId": "istr-aufb-istr-gh-3-06",
+        "themaTitel": "Grenzpendler: Wann lohnt die fiktive unbeschränkte Steuerpflicht?",
+        "fach": "istr",
+        "klausur": 2
+      }
+    ],
+    "stories": [
+      {
+        "slot": "s4",
+        "zeit": "07:07",
+        "art": "frage",
+        "themaId": "kst-quiz-kst-0"
+      },
+      {
+        "slot": "s5",
+        "zeit": "07:09",
+        "art": "antwort",
+        "themaId": "kst-quiz-kst-0"
+      },
+      {
+        "slot": "s1",
+        "zeit": "08:30",
+        "art": "teaser",
+        "beitragSlot": "b1"
+      },
+      {
+        "slot": "s6",
+        "zeit": "12:14",
+        "art": "norm",
+        "themaId": "bilanz-karte-k3-0"
+      },
+      {
+        "slot": "s2",
+        "zeit": "13:30",
+        "art": "teaser",
+        "beitragSlot": "b2"
+      },
+      {
+        "slot": "s7",
+        "zeit": "14:40",
+        "art": "tipp"
+      },
+      {
+        "slot": "s8",
+        "zeit": "17:04",
+        "art": "tipp",
+        "themaId": "ust-karte-ust-0"
+      },
+      {
+        "slot": "s3",
+        "zeit": "19:00",
+        "art": "teaser",
+        "beitragSlot": "b3"
+      },
+      {
+        "slot": "s9",
+        "zeit": "19:12",
+        "art": "merksatz",
+        "themaId": "gewst-aufb-gewst-ks-03"
+      }
+    ]
+  },
+  "inhalte": {
+    "b1": {
+      "format": "minifall",
+      "fach": "umwst",
+      "klausur": 3,
+      "fachLabel": "Umwandlungssteuerrecht",
+      "themaId": "umwst-aufb-umw-5-13",
+      "caption": "Mini-Fall Verschmelzung GmbH auf KG: Welche Anteile nehmen am Übernahmeergebnis teil? Mit der Änderung, die im zweiten Anlauf gern übersehen wird.\n\n▸ Übernahmeergebnis: Wert der übergegangenen Wirtschaftsgüter abzüglich Kosten und Wert der Anteile (§ 4 Abs. 4 S. 1 UmwStG), nur für Anteile, die nach § 5 UmwStG der Übernehmerin zugerechnet werden.\n▸ Anteile im Betriebsvermögen eines Anteilseigners: als zum Buchwert überführt, erhöht um frühere steuerwirksame Abschreibungen, höchstens gemeiner Wert (§ 5 Abs. 3 S. 1 UmwStG).\n▸ Private Anteile im Sinne des § 17 EStG: als mit den Anschaffungskosten eingelegt (§ 5 Abs. 2 UmwStG).\n▸ Neu: § 5 Abs. 2 UmwStG erfasst auch Anteile im Sinne des § 20 Abs. 2 S. 1 Nr. 1 EStG, erstmals für Umwandlungen mit steuerlichem Übertragungsstichtag nach dem 5.12.2024 (§ 27 Abs. 21 UmwStG).\n▸ Unabhängig davon werden die offenen Rücklagen jedem Anteilseigner als Bezüge zugerechnet (§ 7 UmwStG).\n\nFall: Stichtag 31.12.2025 – Selma (70 %, Betriebsvermögen), Timo (29,5 %, privat) und Uwe (0,5 %, privat, gekauft 2019) haben ein Übernahmeergebnis. Variante Stichtag 31.12.2023: Uwe nur Bezüge nach § 7 UmwStG.\n\nZum Schluss: § 5 Abs. 2, 3 und § 27 Abs. 21 UmwStG zum Markieren. Speichern für Klausur 3 📌",
+      "hashtags": [
+        "#steuerberaterexamen",
+        "#steuerberaterprüfung",
+        "#examensvorbereitung",
+        "#umwandlungssteuerrecht"
+      ],
+      "quellen": [
+        "§ 4 Abs. 4 S. 1 UmwStG",
+        "§ 5 Abs. 2, 3 UmwStG",
+        "§ 7 UmwStG",
+        "§ 27 Abs. 21 UmwStG",
+        "§ 17 Abs. 1 S. 1 EStG",
+        "§ 20 Abs. 2 S. 1 Nr. 1 EStG"
+      ],
+      "slug": "2026-12-04-b1",
+      "kurztitel": "Welche Anteile nehmen am Übernahmeergebnis teil?",
+      "regelGeprueft": true,
+      "manuellGeprueft": false,
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "open-peeps-render",
+      "renderer": "open-peeps-v4",
+      "liveVorrangAktiv": true,
+      "coverBadge": "Mini-Fall",
+      "folien": [
+        {
+          "art": "titel",
+          "titel": "Mini-Fall",
+          "text": "Mini-Fall · Übernahme: · Wer ist dabei? · § 5 Abs. 2, 3 UmwStG · Der Fall · + Markier-Guide §§ 5, 27 UmwStG · Kleinanleger · 0,5 % · dabei?",
+          "bild": "op-cover"
+        },
+        {
+          "art": "text",
+          "titel": "Umwandlungssteuerrecht",
+          "text": "Sachverhalt · Die Lind-GmbH wird zum 31.12.2025 auf eine KG verschmolzen. · Selma hält 70 % im Betriebsvermögen ihres Einzelunternehmens, Timo 29,5 % privat, Uwe 0,5 % privat, gekauft 2019. · Für wen gibt es ein Übernahmeergebnis? · Ich bin Selma."
+        },
+        {
+          "art": "text",
+          "titel": "Umwandlungssteuerrecht",
+          "text": "Die Grundregel · Übernahmeergebnis: übernommene Wirtschaftsgüter minus Kosten minus Wert der Anteile. · § 4 Abs. 4 S. 1 UmwStG · Es entsteht nur für Anteile, die der KG zugerechnet werden. · § 5 UmwStG · Ermittelt wird es für jeden Anteilseigner einzeln. · Wer ist drin?"
+        },
+        {
+          "art": "text",
+          "titel": "Umwandlungssteuerrecht",
+          "text": "Selma und Timo sind dabei · Selma, Betriebsvermögen: gilt als zum Buchwert in die KG überführt. · § 5 Abs. 3 S. 1 UmwStG · Erhöht um frühere steuerwirksame Abschreibungen, höchstens gemeiner Wert. · Timo, privat ab 1 %: gilt als mit den Anschaffungskosten eingelegt. · § 5 Abs. 2 UmwStG, § 17 Abs. 1 S. 1 EStG · Und der Kleine?"
+        },
+        {
+          "art": "text",
+          "titel": "Umwandlungssteuerrecht",
+          "text": "Uwe: 0,5 % privat · Früher: unter 1 % nur Bezüge, kein Übernahmeergebnis. · § 5 Abs. 2 UmwStG a. F. · Heute erfasst § 5 Abs. 2 auch Anteile nach § 20 Abs. 2 S. 1 Nr. 1 EStG. · § 5 Abs. 2 UmwStG · Für Übertragungsstichtage nach dem 5.12.2024. · § 27 Abs. 21 UmwStG · Auch Uwe!"
+        },
+        {
+          "art": "text",
+          "titel": "Umwandlungssteuerrecht",
+          "text": "Und für alle: § 7 · Die offenen Rücklagen gelten bei jedem Anteilseigner als Kapitalertrag. · § 7 S. 1 UmwStG · Das gilt unabhängig davon, ob ein Übernahmeergebnis ermittelt wird. · § 7 S. 2 UmwStG · Zwei Ebenen!"
+        },
+        {
+          "art": "text",
+          "titel": "Umwandlungssteuerrecht",
+          "text": "Jetzt du · Variante: Steuerlicher Übertragungsstichtag ist der 31.12.2023. · Sonst alles gleich. · Was ändert sich für Uwe? · Nur das Datum?"
+        },
+        {
+          "art": "text",
+          "titel": "Umwandlungssteuerrecht",
+          "text": "Lösung · Alte Fassung: Nur Anteile im Sinne des § 17 EStG gelten als eingelegt. · § 27 Abs. 21 UmwStG · Uwe hat kein Übernahmeergebnis, nur Bezüge nach § 7. · § 7 UmwStG · Für Selma und Timo bleibt alles gleich. · Datum prüfen!"
+        },
+        {
+          "art": "text",
+          "titel": "Umwandlungssteuerrecht",
+          "text": "Betriebsvermögen: § 5 Abs. 3 · privat: § 5 Abs. 2 · seit Stichtagen nach dem 5.12.2024 auch unter 1 % · Stichtag prüfen, · dann § 5 zuordnen, · § 7 gilt immer. · Speichern für Klausur 3 · Hattest du Uwe ausgeschlossen? · Weiterwischen: §§ 5, 27 UmwStG markiert"
+        },
+        {
+          "art": "text",
+          "titel": "Umwandlungssteuerrecht",
+          "text": "§§ 5, 27 UmwStG (Auszug) · Neu: § 20! · Wert privat · Wert BV · Stichtag 2023: alt · Variante 31.12.2023: alte Fassung · Uwe: nur Bezüge, kein Übernahmeergebnis"
+        }
+      ]
+    },
+    "b2": {
+      "format": "kurzvortrag",
+      "fach": "erbst",
+      "klausur": 1,
+      "fachLabel": "Erbschaftsteuer",
+      "themaId": "erbst-modul-erbst-505",
+      "caption": "Kurzvortrag für die mündliche Prüfung: Wie werden Schulden ohne Zuordnung bei der Erbschaftsteuer verteilt?\n\nEinleitung (1 Min.): Besteuert wird die Bereicherung, soweit sie nicht steuerfrei ist (§ 10 Abs. 1 S. 1 ErbStG); abziehbar sind u. a. die Schulden des Erblassers (§ 10 Abs. 5 Nr. 1 ErbStG).\nHauptteil 1 (3 Min.): Zuordenbare Schulden folgen dem Gegenstand; sie sind nicht abzugsfähig, soweit dieser steuerbefreit ist (§ 10 Abs. 6a S. 1 ErbStG). Beispiel: Darlehen für eine zu Wohnzwecken vermietete Wohnung nur zu 90 % (§ 13d Abs. 1 ErbStG).\nHauptteil 2 (4 Min.): Nicht zuordenbare Schulden werden anteilig allen Gegenständen zugerechnet (§ 10 Abs. 6a S. 3 ErbStG), Schlüssel sind die Nettowerte (§ 10 Abs. 6a S. 5 ErbStG); der auf befreite Gegenstände entfallende Anteil ist nicht abzugsfähig (§ 10 Abs. 6a S. 7 ErbStG).\nSchluss (2 Min.): Die Kosten nach § 10 Abs. 5 Nr. 3 ErbStG – Pauschbetrag 15.000 € – werden nicht verteilt (§ 10 Abs. 6a S. 4 ErbStG). Fazit.\n\nNachfragen: Bei §§ 13a, 13c ErbStG zählt die Summe des begünstigten Vermögens (§ 10 Abs. 6a S. 6 ErbStG); bei beschränkter Steuerpflicht anteiliger Abzug (§ 10 Abs. 6 S. 3, 4 ErbStG).\n\nBeispiel: 50.000 € Steuerschuld des Erblassers, Nettowerte Familienheim (befreit) 400.000 € und Depot 600.000 €: abziehbar 30.000 €.\n\nZum Schluss: § 10 Abs. 6a ErbStG zum Markieren. Speichern für Klausur 1 📌",
+      "hashtags": [
+        "#steuerberaterexamen",
+        "#steuerberaterprüfung",
+        "#examensvorbereitung",
+        "#erbschaftsteuer"
+      ],
+      "quellen": [
+        "§ 10 Abs. 1 S. 1 ErbStG",
+        "§ 10 Abs. 5 Nr. 1, Nr. 3 S. 2 ErbStG",
+        "§ 10 Abs. 6 S. 3, 4 ErbStG",
+        "§ 10 Abs. 6a S. 1, 3–7 ErbStG",
+        "§ 13d Abs. 1 ErbStG"
+      ],
+      "slug": "2026-12-04-b2",
+      "kurztitel": "Nicht direkt zuordenbare Schulden und Lasten anteilig verteilen",
+      "regelGeprueft": true,
+      "manuellGeprueft": false,
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "open-peeps-render",
+      "renderer": "open-peeps-v4",
+      "liveVorrangAktiv": true,
+      "coverBadge": "Kurzvortrag",
+      "folien": [
+        {
+          "art": "titel",
+          "titel": "Kurzvortrag",
+          "text": "Kurzvortrag · Schulden ohne · Zuordnung · § 10 Abs. 6a ErbStG · Mündliche · + Markier-Guide § 10 ErbStG",
+          "bild": "op-cover"
+        },
+        {
+          "art": "text",
+          "titel": "Erbschaftsteuer",
+          "text": "Deine Gliederung · Einleitung · 1 Min. · § 10 Abs. 1 S. 1 ErbStG · Bereicherung als Ausgangspunkt · Zuordenbare Schulden · 3 Min. · § 10 Abs. 6a S. 1 ErbStG · folgen dem Gegenstand · Der Rest · 4 Min. · § 10 Abs. 6a S. 3, 5 ErbStG · anteilig verteilen · Schluss · 2 Min. · § 10 Abs. 6a S. 4 ErbStG · Ausnahme Pauschbetrag, Fazit · Am Ende: § 10 Abs. 6a markiert"
+        },
+        {
+          "art": "text",
+          "titel": "Erbschaftsteuer",
+          "text": "Einleitung · Besteuert wird die Bereicherung, soweit sie nicht steuerfrei ist. · § 10 Abs. 1 S. 1 ErbStG · Abziehbar sind unter anderem die Schulden des Erblassers. · § 10 Abs. 5 Nr. 1 ErbStG · Leitfrage: Wohin gehört eine Schuld, die zu keinem Gegenstand passt? · Erst die Frage."
+        },
+        {
+          "art": "text",
+          "titel": "Erbschaftsteuer",
+          "text": "Hauptteil 1 · Zuordenbar · Schulden folgen dem Gegenstand, mit dem sie wirtschaftlich zusammenhängen. · Ist er steuerbefreit, sind sie insoweit nicht abzugsfähig. · § 10 Abs. 6a S. 1 ErbStG · Beispiel: Darlehen für eine zu Wohnzwecken vermietete Wohnung nur zu 90 %. · § 13d Abs. 1 ErbStG · Schuld folgt Sache."
+        },
+        {
+          "art": "text",
+          "titel": "Erbschaftsteuer",
+          "text": "Hauptteil 2 · Der Rest · Nicht zuordenbare Schulden werden anteilig allen Gegenständen zugerechnet. · § 10 Abs. 6a S. 3 ErbStG · Schlüssel: Nettowert des Gegenstands zum Nettowert aller Gegenstände. · § 10 Abs. 6a S. 5 ErbStG · Der Anteil eines befreiten Gegenstands ist nicht abzugsfähig. · § 10 Abs. 6a S. 7 ErbStG · Verteilen, dann streichen."
+        },
+        {
+          "art": "text",
+          "titel": "Erbschaftsteuer",
+          "text": "Beispiel für den Vortrag · § 10 Abs. 6a S. 3, 5, 7 ErbStG · Steuerschuld Erblasser · 50.000 € · 40 % Familienheim, befreit · 0 € · 60 % Depot, abziehbar · 30.000 € · Nettowerte 400.000 € zu 600.000 €"
+        },
+        {
+          "art": "text",
+          "titel": "Erbschaftsteuer",
+          "text": "Schluss · Ausnahme: Der Pauschbetrag für Erbfallkosten von 15.000 € wird nicht verteilt. · § 10 Abs. 6a S. 4, Abs. 5 Nr. 3 S. 2 ErbStG · Fazit: zuordnen, Rest verteilen, befreite Anteile streichen. · Punktlandung."
+        },
+        {
+          "art": "text",
+          "titel": "Erbschaftsteuer",
+          "text": "Typische Nachfragen · Was gilt bei begünstigtem Betriebsvermögen? Summe des begünstigten Vermögens statt einzelner Gegenstand. · § 10 Abs. 6a S. 6 ErbStG · Und bei beschränkter Steuerpflicht? Nicht zuordenbare Schulden nur anteilig. · § 10 Abs. 6 S. 3, 4 ErbStG · Noch Fragen?"
+        },
+        {
+          "art": "text",
+          "titel": "Erbschaftsteuer",
+          "text": "Zuordnen · Rest verteilen · befreiten Anteil streichen · Pauschbetrag wird nicht verteilt · Schuld folgt Sache, · Rest nach Nettowert, · befreit heißt: · kein Abzug. · Speichern für Klausur 1 · Schaffst du das in 10 Minuten? · Weiterwischen: § 10 Abs. 6a markiert"
+        },
+        {
+          "art": "text",
+          "titel": "Erbschaftsteuer",
+          "text": "§ 10 ErbStG (Auszug) · Befreit = weg · Verteilen · Pauschbetrag · Schlüssel · In der Mündlichen: frei erklären · Richtlinien und Erlasse sind dort nicht zur Hand"
+        }
+      ]
+    },
+    "b3": {
+      "format": "reel",
+      "fach": "istr",
+      "klausur": 2,
+      "fachLabel": "Int. Steuerrecht",
+      "themaId": "istr-aufb-istr-gh-3-06",
+      "caption": "Grenzpendlerin: Wann wird man ohne Wohnsitz in Deutschland wie unbeschränkt steuerpflichtig behandelt? 🚌\n\n▸ Auf Antrag werden Personen ohne Wohnsitz und gewöhnlichen Aufenthalt im Inland als unbeschränkt steuerpflichtig behandelt, soweit sie inländische Einkünfte nach § 49 EStG haben (§ 1 Abs. 3 S. 1 EStG).\n▸ Voraussetzung: Die Einkünfte unterliegen mindestens zu 90 % der deutschen Einkommensteuer, oder die übrigen Einkünfte übersteigen den – ggf. nach Wohnsitzstaat gekürzten – Grundfreibetrag nicht (§ 1 Abs. 3 S. 2 EStG).\n▸ Die ausländischen Einkünfte sind durch eine Bescheinigung der ausländischen Steuerbehörde nachzuweisen (§ 1 Abs. 3 S. 5 EStG).\n\nRechnung: 45.000 € Lohn in Deutschland, 4.000 € Mieteinkünfte in Polen: 45.000 ÷ 49.000 = 91,8 % – Antrag möglich.\n\nSpeichern für Klausur 2 📌",
+      "hashtags": [
+        "#steuerberaterexamen",
+        "#steuerberaterprüfung",
+        "#examensvorbereitung",
+        "#internationalessteuerrecht"
+      ],
+      "quellen": [
+        "§ 1 Abs. 3 S. 1, 2, 5 EStG",
+        "§ 49 EStG"
+      ],
+      "slug": "2026-12-04-b3",
+      "kurztitel": "Grenzpendler: Wann lohnt die fiktive unbeschränkte Steuerpflicht?",
+      "regelGeprueft": true,
+      "manuellGeprueft": false,
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "open-peeps-render",
+      "renderer": "open-peeps-v4",
+      "liveVorrangAktiv": true,
+      "bild": "op-cover",
+      "reelTyp": "rechnung",
+      "hookStil": "kippen",
+      "coverBadge": "Reel",
+      "szenen": [
+        {
+          "art": "hook",
+          "titel": "Nur beschränkt steuerpflichtig?"
+        },
+        {
+          "art": "schritt",
+          "titel": "Die Einkünfte"
+        },
+        {
+          "art": "schritt",
+          "titel": "Die 90-%-Grenze"
+        },
+        {
+          "art": "schritt",
+          "titel": "Die Folge"
+        }
+      ],
+      "sprecher": [
+        "Kasia wohnt in Polen und arbeitet in Görlitz. Nur beschränkt steuerpflichtig? Falsch, auf Antrag geht mehr.",
+        "Lohn in Deutschland: fünfundvierzigtausend Euro. Mieteinkünfte in Polen: viertausend Euro.",
+        "Fünfundvierzig von neunundvierzig sind knapp zweiundneunzig Prozent. Mehr als neunzig, Grenze geschafft.",
+        "Auf Antrag gilt sie als unbeschränkt steuerpflichtig, aber nur mit den deutschen Einkünften. Nachweis aus Polen nötig.",
+        "Merke: Mindestens neunzig Prozent in Deutschland, dann Antrag stellen."
+      ],
+      "dauerS": 37.02,
+      "tempo": 1.0
+    },
+    "s4": {
+      "slot": "s4",
+      "art": "frage",
+      "fach": "kst",
+      "klausur": 2,
+      "fachLabel": "Körperschaftsteuer",
+      "themaId": "kst-quiz-kst-0",
+      "beitragSlot": null,
+      "quellen": null,
+      "frage": [
+        "Neue GmbH: ab wann",
+        "körperschaftsteuerpflichtig?"
+      ],
+      "optionen": [
+        "Mit dem Gründungsbeschluss",
+        "Mit dem Notarvertrag",
+        "Mit der Eintragung"
+      ],
+      "pairId": "kst-quiz-kst-0",
+      "sichtbareTexte": [
+        "Körperschaftsteuer",
+        "Prüfungsfrage",
+        "Neue GmbH: ab wann",
+        "körperschaftsteuerpflichtig?",
+        "Mit dem Gründungsbeschluss",
+        "Mit dem Notarvertrag",
+        "Mit der Eintragung",
+        "Auflösung in der nächsten Story"
+      ],
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
+      "liveVorrangAktiv": true,
+      "regelGeprueft": true
+    },
+    "s5": {
+      "slot": "s5",
+      "art": "antwort",
+      "fach": "kst",
+      "klausur": 2,
+      "fachLabel": "Körperschaftsteuer",
+      "themaId": "kst-quiz-kst-0",
+      "beitragSlot": null,
+      "quellen": null,
+      "titel": [
+        "B: ab dem",
+        "Notarvertrag"
+      ],
+      "optionen": [
+        "Mit dem Gründungsbeschluss",
+        "Mit dem Notarvertrag",
+        "Mit der Eintragung"
+      ],
+      "richtig": 1,
+      "text": "Vorgesellschaft und GmbH sind ein Steuersubjekt, wenn die Eintragung folgt.",
+      "norm": "H 1.1 KStH",
+      "pairId": "kst-quiz-kst-0",
+      "sichtbareTexte": [
+        "Körperschaftsteuer",
+        "Auflösung",
+        "B: ab dem",
+        "Notarvertrag",
+        "Mit dem Gründungsbeschluss",
+        "Mit dem Notarvertrag",
+        "Mit der Eintragung",
+        "Vorgesellschaft und GmbH sind ein Steuersubjekt, wenn die Eintragung folgt.",
+        "H 1.1 KStH"
+      ],
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
+      "liveVorrangAktiv": true,
+      "regelGeprueft": true
+    },
+    "s1": {
+      "slot": "s1",
+      "art": "teaser",
+      "fach": "umwst",
+      "klausur": 3,
+      "fachLabel": "Umwandlungssteuerrecht",
+      "themaId": null,
+      "beitragSlot": "b1",
+      "quellen": null,
+      "titel": [
+        "Übernahme: Wer ist dabei?"
+      ],
+      "unter": "Mini-Fall + Markier-Guide · im Profil",
+      "sichtbareTexte": [
+        "Umwandlungssteuerrecht",
+        "Neu im Feed",
+        "Übernahme: Wer ist dabei?",
+        "Mini-Fall + Markier-Guide · im Profil"
+      ],
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
+      "liveVorrangAktiv": true,
+      "regelGeprueft": true
+    },
+    "s6": {
+      "slot": "s6",
+      "art": "norm",
+      "fach": "bilanz",
+      "klausur": 3,
+      "fachLabel": "Bilanzsteuerrecht",
+      "themaId": "bilanz-karte-k3-0",
+      "beitragSlot": null,
+      "quellen": null,
+      "titel": [
+        "Bilanzfall:",
+        "erst der Ansatz"
+      ],
+      "norm": "§ 5 Abs. 1 S. 1 EStG",
+      "punkte": [
+        [
+          "Wem ist es zuzurechnen, gehört es zum Betrieb?",
+          "ok",
+          "§ 39 Abs. 2 Nr. 1 AO"
+        ],
+        [
+          "Erst danach bewerten.",
+          "warn",
+          "§ 6 Abs. 1 EStG"
+        ]
+      ],
+      "sichtbareTexte": [
+        "Bilanzsteuerrecht",
+        "Norm des Tages",
+        "Bilanzfall:",
+        "erst der Ansatz",
+        "§ 5 Abs. 1 S. 1 EStG",
+        "Wem ist es zuzurechnen, gehört es zum Betrieb?",
+        "§ 39 Abs. 2 Nr. 1 AO",
+        "Erst danach bewerten.",
+        "§ 6 Abs. 1 EStG"
+      ],
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
+      "liveVorrangAktiv": true,
+      "regelGeprueft": true
+    },
+    "s2": {
+      "slot": "s2",
+      "art": "teaser",
+      "fach": "erbst",
+      "klausur": 1,
+      "fachLabel": "Erbschaftsteuer",
+      "themaId": null,
+      "beitragSlot": "b2",
+      "quellen": null,
+      "titel": [
+        "Schulden ohne Zuordnung"
+      ],
+      "unter": "Kurzvortrag + Markier-Guide · im Profil",
+      "sichtbareTexte": [
+        "Erbschaftsteuer",
+        "Neu im Feed",
+        "Schulden ohne Zuordnung",
+        "Kurzvortrag + Markier-Guide · im Profil"
+      ],
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
+      "liveVorrangAktiv": true,
+      "regelGeprueft": true
+    },
+    "s7": {
+      "slot": "s7",
+      "art": "tipp",
+      "fach": null,
+      "klausur": 0,
+      "fachLabel": "Klausurtechnik",
+      "themaId": null,
+      "beitragSlot": null,
+      "quellen": null,
+      "titel": [
+        "Festgefahren?",
+        "Weiter!"
+      ],
+      "punkte": [
+        [
+          "Lücke lassen und den nächsten Teil lösen.",
+          "ok",
+          null
+        ],
+        [
+          "Am Ende zurückkommen.",
+          "ok",
+          null
+        ]
+      ],
+      "icon": "tabler:player-skip-forward",
+      "iconFarbe": "GELB",
+      "sichtbareTexte": [
+        "Klausurtechnik",
+        "Klausurtipp",
+        "Festgefahren?",
+        "Weiter!",
+        "Lücke lassen und den nächsten Teil lösen.",
+        "Am Ende zurückkommen."
+      ],
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
+      "liveVorrangAktiv": true,
+      "regelGeprueft": true
+    },
+    "s8": {
+      "slot": "s8",
+      "art": "tipp",
+      "fach": "ust",
+      "klausur": 1,
+      "fachLabel": "Umsatzsteuer",
+      "themaId": "ust-karte-ust-0",
+      "beitragSlot": null,
+      "quellen": null,
+      "titel": [
+        "USt-Fall:",
+        "die Reihenfolge"
+      ],
+      "punkte": [
+        [
+          "Steuerbar? Dann steuerfrei?",
+          "ok",
+          "§§ 1, 4 UStG"
+        ],
+        [
+          "Bemessung, Satz, Schuldner, Entstehung.",
+          "ok",
+          "§§ 10, 12, 13, 13a UStG"
+        ],
+        [
+          "Zum Schluss die Vorsteuer.",
+          "ok",
+          "§ 15 UStG"
+        ]
+      ],
+      "icon": "tabler:list-numbers",
+      "iconFarbe": "GELB",
+      "sichtbareTexte": [
+        "Umsatzsteuer",
+        "Klausurtipp",
+        "USt-Fall:",
+        "die Reihenfolge",
+        "Steuerbar? Dann steuerfrei?",
+        "§§ 1, 4 UStG",
+        "Bemessung, Satz, Schuldner, Entstehung.",
+        "§§ 10, 12, 13, 13a UStG",
+        "Zum Schluss die Vorsteuer.",
+        "§ 15 UStG"
+      ],
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
+      "liveVorrangAktiv": true,
+      "regelGeprueft": true
+    },
+    "s3": {
+      "slot": "s3",
+      "art": "teaser",
+      "fach": "istr",
+      "klausur": 2,
+      "fachLabel": "Int. Steuerrecht",
+      "themaId": null,
+      "beitragSlot": "b3",
+      "quellen": null,
+      "titel": [
+        "Grenzpendlerin: nur beschränkt?"
+      ],
+      "unter": "Neues Reel · im Profil",
+      "sichtbareTexte": [
+        "Int. Steuerrecht",
+        "Neu im Feed",
+        "Grenzpendlerin: nur beschränkt?",
+        "Neues Reel · im Profil"
+      ],
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
+      "liveVorrangAktiv": true,
+      "regelGeprueft": true
+    },
+    "s9": {
+      "slot": "s9",
+      "art": "merksatz",
+      "fach": "gewst",
+      "klausur": 2,
+      "fachLabel": "Gewerbesteuer",
+      "themaId": "gewst-aufb-gewst-ks-03",
+      "beitragSlot": null,
+      "quellen": null,
+      "titel": [
+        "KG-Anteil verkauft:",
+        "Gewerbesteuer?"
+      ],
+      "zeilen": [
+        [
+          [
+            "Mensch",
+            "a"
+          ],
+          [
+            " direkt beteiligt:",
+            null
+          ]
+        ],
+        [
+          [
+            "frei",
+            "b"
+          ],
+          [
+            ".",
+            null
+          ]
+        ],
+        [
+          [
+            "GmbH",
+            "c"
+          ],
+          [
+            " beteiligt:",
+            null
+          ]
+        ],
+        [
+          [
+            "steuerpflichtig",
+            "c"
+          ],
+          [
+            ".",
+            null
+          ]
+        ]
+      ],
+      "norm": "§ 7 S. 2 Nr. 2 GewStG",
+      "sichtbareTexte": [
+        "Gewerbesteuer",
+        "Merksatz",
+        "KG-Anteil verkauft:",
+        "Gewerbesteuer?",
+        "Mensch direkt beteiligt:",
+        "frei.",
+        "GmbH beteiligt:",
+        "steuerpflichtig.",
+        "§ 7 S. 2 Nr. 2 GewStG"
+      ],
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
+      "liveVorrangAktiv": true,
+      "regelGeprueft": true
+    }
+  },
+  "renderVorschau": {
+    "status": "fertig",
+    "erzeugtAm": "2026-11-20T08:38:54Z",
+    "pfad": "vorproduktion/2026-12-04/fertig",
+    "providerKostenUsd": 0,
+    "coverbilder": false,
+    "coverIcons": false,
+    "renderer": "open-peeps-v4",
+    "layoutQuelle": "open-peeps-variante-c",
+    "reelStimme": "elevenlabs-laura",
+    "sfx": "freesound-cc0",
+    "freigabeBetreiber": true,
+    "liveVorrangAktiv": true,
+    "normalbetriebGesperrt": true,
+    "wartetLive": []
+  }
+}
