@@ -1,0 +1,61 @@
+{
+  "format": "reel",
+  "fach": "ao",
+  "klausur": 1,
+  "fachLabel": "Abgabenordnung",
+  "themaId": "ao-modul-ao-352",
+  "caption": "Fehler aus der Steuererklärung übernommen: § 129 AO oder § 173a AO? 🔍\n\n▸ § 129 AO erfasst offenbare Unrichtigkeiten, die beim Erlass des Verwaltungsakts unterlaufen sind (§ 129 S. 1 AO). Übernimmt das Finanzamt einen Fehler aus der Erklärung, der für es erkennbar war, macht es ihn sich zu eigen.\n▸ War der Schreib- oder Rechenfehler des Steuerpflichtigen für das Finanzamt nicht erkennbar, ist der Bescheid nach § 173a AO zu ändern, soweit dadurch rechtserhebliche Tatsachen unzutreffend mitgeteilt wurden.\n▸ In beiden Fällen endet die Festsetzungsfrist insoweit nicht vor Ablauf eines Jahres nach Bekanntgabe des Bescheids (§ 171 Abs. 2 S. 1, 2 AO).\n\nSpeichern für Klausur 1 📌",
+  "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#abgabenordnung"
+  ],
+  "quellen": [
+    "§ 129 S. 1 AO",
+    "§ 173a AO",
+    "§ 171 Abs. 2 S. 1, 2 AO"
+  ],
+  "slug": "2026-11-21-b3",
+  "kurztitel": "§ 129 AO: offenbare Unrichtigkeit – Schreib-/Rechenfehler und Übernahmefehler",
+  "regelGeprueft": true,
+  "manuellGeprueft": false,
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "textProviderKostenUsd": 0,
+  "faktencheckProviderKostenUsd": 0,
+  "bildStatus": "open-peeps-render",
+  "renderer": "open-peeps-v4",
+  "liveVorrangAktiv": true,
+  "bild": "op-cover",
+  "reelTyp": "gegensatz",
+  "hookStil": "split",
+  "coverBadge": "Reel",
+  "szenen": [
+    {
+      "art": "hook",
+      "titel": "Fehler übernommen: 129 oder 173a?"
+    },
+    {
+      "art": "schritt",
+      "titel": "Erkennbar"
+    },
+    {
+      "art": "schritt",
+      "titel": "Nicht erkennbar"
+    },
+    {
+      "art": "schritt",
+      "titel": "Die Frist"
+    }
+  ],
+  "sprecher": [
+    "Zahlendreher in der Erklärung, das Amt übernimmt ihn. Wer hilft: hundertneunundzwanzig oder hundertdreiundsiebzig a?",
+    "War der Fehler für das Amt erkennbar, etwa aus der Anlage, macht es ihn sich zu eigen. Dann greift hundertneunundzwanzig.",
+    "War er nicht erkennbar, weil die richtige Zahl nur in deinen Unterlagen stand, hilft hundertdreiundsiebzig a.",
+    "In beiden Fällen endet die Festsetzungsfrist nicht vor einem Jahr nach Bekanntgabe.",
+    "Merke: erkennbar, hundertneunundzwanzig. Nicht erkennbar, hundertdreiundsiebzig a."
+  ],
+  "dauerS": 36.49,
+  "tempo": 1
+}

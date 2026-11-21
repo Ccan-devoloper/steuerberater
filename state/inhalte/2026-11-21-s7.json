@@ -1,0 +1,48 @@
+{
+  "slot": "s7",
+  "art": "tipp",
+  "fach": null,
+  "klausur": 0,
+  "fachLabel": "Klausurtechnik",
+  "themaId": null,
+  "beitragSlot": null,
+  "quellen": null,
+  "titel": [
+    "Die letzten",
+    "15 Minuten"
+  ],
+  "punkte": [
+    [
+      "Offene Teile mit Ergebnis und Norm retten.",
+      "ok",
+      null
+    ],
+    [
+      "Keinen neuen Teil ohne Plan beginnen.",
+      "warn",
+      null
+    ],
+    [
+      "Kennziffer auf jedem Blatt prüfen.",
+      "ok",
+      null
+    ]
+  ],
+  "icon": "tabler:hourglass",
+  "iconFarbe": "GELB",
+  "sichtbareTexte": [
+    "Klausurtechnik",
+    "Klausurtipp",
+    "Die letzten",
+    "15 Minuten",
+    "Offene Teile mit Ergebnis und Norm retten.",
+    "Keinen neuen Teil ohne Plan beginnen.",
+    "Kennziffer auf jedem Blatt prüfen."
+  ],
+  "renderer": "open-peeps-v4",
+  "bildStatus": "open-peeps-render",
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "liveVorrangAktiv": true,
+  "regelGeprueft": true
+}

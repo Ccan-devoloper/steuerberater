@@ -1,0 +1,79 @@
+{
+  "format": "rechenweg",
+  "fach": "bilanz",
+  "klausur": 3,
+  "fachLabel": "Bilanzsteuerrecht",
+  "themaId": "bilanz-aufb-bil-melzer-4-02",
+  "caption": "Einlagen und Entnahmen bewerten: der Rechenweg für die Bilanzklausur.\n\n▸ Entnahmen und Einlagen: § 4 Abs. 1 S. 2, 8 EStG.\n▸ Entnahmen sind mit dem Teilwert anzusetzen (§ 6 Abs. 1 Nr. 4 S. 1 EStG); Nutzungsentnahmen mit den darauf entfallenden Kosten; private Kfz-Nutzung nach § 6 Abs. 1 Nr. 4 S. 2 EStG.\n▸ Einlagen sind mit dem Teilwert für den Zeitpunkt der Zuführung anzusetzen, höchstens mit den Anschaffungs- oder Herstellungskosten, wenn das Wirtschaftsgut innerhalb der letzten drei Jahre vor der Zuführung aus dem Privatvermögen angeschafft oder hergestellt wurde (§ 6 Abs. 1 Nr. 5 S. 1 Buchst. a EStG).\n▸ Bei abnutzbaren Wirtschaftsgütern sind diese Kosten um die AfA bis zur Einlage zu kürzen (§ 6 Abs. 1 Nr. 5 S. 2 EStG).\n\nBeispiel: Kauf 01.07.2024 für 36.000 €, Nutzungsdauer 6 Jahre, Einlage 01.07.2026: 36.000 € − 12.000 € = 24.000 € statt Teilwert 30.000 €. Kauf schon am 01.03.2023: mehr als drei Jahre, Einlage zum Teilwert 30.000 €.\n\nZum Schluss: § 6 Abs. 1 Nr. 5 EStG zum Markieren. Speichern für Klausur 3 📌",
+  "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#bilanzsteuerrecht"
+  ],
+  "quellen": [
+    "§ 4 Abs. 1 S. 2, 8 EStG",
+    "§ 6 Abs. 1 Nr. 4 S. 1, 2 EStG",
+    "§ 6 Abs. 1 Nr. 5 S. 1 Buchst. a, S. 2 EStG"
+  ],
+  "slug": "2026-11-21-b2",
+  "kurztitel": "Mit welchem Wert werden Einlagen und Entnahmen angesetzt?",
+  "regelGeprueft": true,
+  "manuellGeprueft": false,
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "textProviderKostenUsd": 0,
+  "faktencheckProviderKostenUsd": 0,
+  "bildStatus": "open-peeps-render",
+  "renderer": "open-peeps-v4",
+  "liveVorrangAktiv": true,
+  "coverBadge": "Rechenweg",
+  "folien": [
+    {
+      "art": "titel",
+      "titel": "Rechenweg",
+      "text": "Rechenweg · Einlage richtig · bewerten · § 6 Abs. 1 Nr. 4, 5 EStG · Rechenweg · + Markier-Guide § 6 EStG · Teilwert 30.000 € · 24.000 € · Einlagewert",
+      "bild": "op-cover"
+    },
+    {
+      "art": "text",
+      "titel": "Bilanzsteuerrecht",
+      "text": "Der Rechenweg · Was wechselt die Seite? · § 4 Abs. 1 S. 2, 8 EStG · Wirtschaftsgut, Nutzung, Leistung · Entnahme: Teilwert · § 6 Abs. 1 Nr. 4 S. 1 EStG · Einlage: Teilwert, Deckel prüfen · § 6 Abs. 1 Nr. 5 S. 1 EStG · binnen drei Jahren angeschafft? · Abnutzbar: AfA abziehen · § 6 Abs. 1 Nr. 5 S. 2 EStG · Am Ende: § 6 EStG markiert"
+    },
+    {
+      "art": "text",
+      "titel": "Bilanzsteuerrecht",
+      "text": "Entnahmen · Wirtschaftsgüter gehen mit dem Teilwert hinaus. · § 6 Abs. 1 Nr. 4 S. 1 EStG · Nutzungen werden mit den darauf entfallenden Kosten bewertet, nicht mit dem Marktpreis. · Firmenwagen privat: eigene Pauschale. · § 6 Abs. 1 Nr. 4 S. 2 EStG · Raus: Teilwert."
+    },
+    {
+      "art": "text",
+      "titel": "Bilanzsteuerrecht",
+      "text": "Einlagen · Grundsatz: Teilwert im Zeitpunkt der Zuführung. · § 6 Abs. 1 Nr. 5 S. 1 EStG · In den letzten drei Jahren privat angeschafft: höchstens die Anschaffungskosten. · § 6 Abs. 1 Nr. 5 S. 1 Buchst. a EStG · Abnutzbar: Anschaffungskosten um die AfA bis zur Einlage kürzen. · § 6 Abs. 1 Nr. 5 S. 2 EStG · Rein: mit Deckel?"
+    },
+    {
+      "art": "text",
+      "titel": "Bilanzsteuerrecht",
+      "text": "Linas Lieferwagen · § 6 Abs. 1 Nr. 5 S. 1 Buchst. a, S. 2 EStG · Privat gekauft 01.07.2024 · 36.000 € · – AfA 2 von 6 Jahren · – 12.000 € · Fortgeführte Kosten · 24.000 € · Teilwert bei Einlage · 30.000 € · Einlagewert · 24.000 € · Einlage am 01.07.2026: noch keine drei Jahre"
+    },
+    {
+      "art": "text",
+      "titel": "Bilanzsteuerrecht",
+      "text": "Jetzt du · Variante: Lina hat den Wagen schon am 01.03.2023 gekauft. · Einlage wieder am 01.07.2026, Teilwert 30.000 €. · Mit welchem Wert legt sie ein? · MÄRZ · 1 · 2023 gekauft · JULI · 1 · 2026 eingelegt"
+    },
+    {
+      "art": "text",
+      "titel": "Bilanzsteuerrecht",
+      "text": "Lösung · Zwischen Kauf und Einlage liegen mehr als drei Jahre. · § 6 Abs. 1 Nr. 5 S. 1 Buchst. a EStG · Der Deckel greift nicht: Einlage zum Teilwert von 30.000 €. · § 6 Abs. 1 Nr. 5 S. 1 EStG · Drei Jahre genau nachzählen · 30.000 €!"
+    },
+    {
+      "art": "text",
+      "titel": "Bilanzsteuerrecht",
+      "text": "Binnen drei Jahren: Kosten minus AfA · 24.000 € statt Teilwert 30.000 € · Entnahme: Teilwert, · Einlage: Teilwert, · drei Jahre: Deckel, · AfA abziehen. · Speichern für Klausur 3 · Deckel schon mal vergessen? · Weiterwischen: § 6 EStG markiert"
+    },
+    {
+      "art": "text",
+      "titel": "Bilanzsteuerrecht",
+      "text": "§ 6 Abs. 1 Nr. 5 EStG (Auszug) · Grundsatz · Deckel · Frist · AfA weg · Randnotiz: § 6 Abs. 1 Nr. 4 EStG · Entnahmen zum Teilwert"
+    }
+  ]
+}

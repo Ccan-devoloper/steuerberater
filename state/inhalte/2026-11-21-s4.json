@@ -1,0 +1,36 @@
+{
+  "slot": "s4",
+  "art": "frage",
+  "fach": "ust",
+  "klausur": 1,
+  "fachLabel": "Umsatzsteuer",
+  "themaId": "ust-quiz-ig-lieferung",
+  "beitragSlot": null,
+  "quellen": null,
+  "frage": [
+    "Innergemeinschaftliche",
+    "Lieferung: steuerfrei nach?"
+  ],
+  "optionen": [
+    "§ 4 Nr. 1 Buchst. b UStG",
+    "§ 4 Nr. 8 UStG",
+    "§ 13b UStG"
+  ],
+  "pairId": "ust-quiz-ig-lieferung",
+  "sichtbareTexte": [
+    "Umsatzsteuer",
+    "Prüfungsfrage",
+    "Innergemeinschaftliche",
+    "Lieferung: steuerfrei nach?",
+    "§ 4 Nr. 1 Buchst. b UStG",
+    "§ 4 Nr. 8 UStG",
+    "§ 13b UStG",
+    "Auflösung in der nächsten Story"
+  ],
+  "renderer": "open-peeps-v4",
+  "bildStatus": "open-peeps-render",
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "liveVorrangAktiv": true,
+  "regelGeprueft": true
+}

@@ -1,0 +1,40 @@
+{
+  "slot": "s5",
+  "art": "antwort",
+  "fach": "ust",
+  "klausur": 1,
+  "fachLabel": "Umsatzsteuer",
+  "themaId": "ust-quiz-ig-lieferung",
+  "beitragSlot": null,
+  "quellen": null,
+  "titel": [
+    "A: § 4 Nr. 1",
+    "Buchst. b UStG"
+  ],
+  "optionen": [
+    "§ 4 Nr. 1 Buchst. b UStG",
+    "§ 4 Nr. 8 UStG",
+    "§ 13b UStG"
+  ],
+  "richtig": 0,
+  "text": "Die Voraussetzungen stehen in § 6a. Ohne Zusammenfassende Meldung keine Befreiung.",
+  "norm": "§ 4 Nr. 1 Buchst. b, § 6a UStG",
+  "pairId": "ust-quiz-ig-lieferung",
+  "sichtbareTexte": [
+    "Umsatzsteuer",
+    "Auflösung",
+    "A: § 4 Nr. 1",
+    "Buchst. b UStG",
+    "§ 4 Nr. 1 Buchst. b UStG",
+    "§ 4 Nr. 8 UStG",
+    "§ 13b UStG",
+    "Die Voraussetzungen stehen in § 6a. Ohne Zusammenfassende Meldung keine Befreiung.",
+    "§ 4 Nr. 1 Buchst. b, § 6a UStG"
+  ],
+  "renderer": "open-peeps-v4",
+  "bildStatus": "open-peeps-render",
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "liveVorrangAktiv": true,
+  "regelGeprueft": true
+}

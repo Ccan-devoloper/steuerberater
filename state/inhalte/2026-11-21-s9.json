@@ -1,0 +1,67 @@
+{
+  "slot": "s9",
+  "art": "merksatz",
+  "fach": "ust",
+  "klausur": 1,
+  "fachLabel": "Umsatzsteuer",
+  "themaId": "ust-modul-ust-178",
+  "beitragSlot": null,
+  "quellen": null,
+  "titel": [
+    "Reihengeschäft:",
+    "nur eine bewegt"
+  ],
+  "zeilen": [
+    [
+      [
+        "Eine",
+        null
+      ],
+      [
+        " bewegte",
+        "a"
+      ],
+      [
+        " Lieferung,",
+        null
+      ]
+    ],
+    [
+      [
+        "davor",
+        "b"
+      ],
+      [
+        ": Abgangsort,",
+        null
+      ]
+    ],
+    [
+      [
+        "danach",
+        "c"
+      ],
+      [
+        ": Ankunftsort.",
+        null
+      ]
+    ]
+  ],
+  "norm": "§ 3 Abs. 6a S. 1, Abs. 7 S. 2 UStG",
+  "sichtbareTexte": [
+    "Umsatzsteuer",
+    "Merksatz",
+    "Reihengeschäft:",
+    "nur eine bewegt",
+    "Eine bewegte Lieferung,",
+    "davor: Abgangsort,",
+    "danach: Ankunftsort.",
+    "§ 3 Abs. 6a S. 1, Abs. 7 S. 2 UStG"
+  ],
+  "renderer": "open-peeps-v4",
+  "bildStatus": "open-peeps-render",
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "liveVorrangAktiv": true,
+  "regelGeprueft": true
+}

@@ -1,0 +1,102 @@
+{
+  "datum": "2026-11-21",
+  "erzeugt": "2026-11-21T05:46:08.354Z",
+  "quelle": "vorproduktion",
+  "providerKostenUsd": 0,
+  "beitraege": [
+    {
+      "slot": "b1",
+      "zeit": "08:30",
+      "format": "klausurtechnik",
+      "themaId": "gewst-technik-gewerbesteuerteil",
+      "themaTitel": "Der Gewerbesteuer-Teil der Ertragsteuerklausur: Zeit, Gerüst, Darstellung",
+      "fach": "gewst",
+      "klausur": 2,
+      "status": "geplant"
+    },
+    {
+      "slot": "b2",
+      "zeit": "13:30",
+      "format": "rechenweg",
+      "themaId": "bilanz-aufb-bil-melzer-4-02",
+      "themaTitel": "Mit welchem Wert werden Einlagen und Entnahmen angesetzt?",
+      "fach": "bilanz",
+      "klausur": 3,
+      "status": "geplant"
+    },
+    {
+      "slot": "b3",
+      "zeit": "19:00",
+      "format": "reel",
+      "themaId": "ao-modul-ao-352",
+      "themaTitel": "§ 129 AO: offenbare Unrichtigkeit – Schreib-/Rechenfehler und Übernahmefehler",
+      "fach": "ao",
+      "klausur": 1,
+      "status": "geplant"
+    }
+  ],
+  "stories": [
+    {
+      "slot": "s4",
+      "zeit": "07:07",
+      "art": "frage",
+      "themaId": "ust-quiz-ig-lieferung",
+      "status": "geplant"
+    },
+    {
+      "slot": "s5",
+      "zeit": "07:09",
+      "art": "antwort",
+      "themaId": "ust-quiz-ig-lieferung",
+      "status": "geplant"
+    },
+    {
+      "slot": "s1",
+      "zeit": "08:30",
+      "art": "teaser",
+      "beitragSlot": "b1",
+      "status": "geplant"
+    },
+    {
+      "slot": "s6",
+      "zeit": "12:14",
+      "art": "norm",
+      "themaId": "kst-aufb-kst-t4-56",
+      "status": "geplant"
+    },
+    {
+      "slot": "s2",
+      "zeit": "13:30",
+      "art": "teaser",
+      "beitragSlot": "b2",
+      "status": "geplant"
+    },
+    {
+      "slot": "s7",
+      "zeit": "14:40",
+      "art": "tipp",
+      "status": "geplant"
+    },
+    {
+      "slot": "s8",
+      "zeit": "17:04",
+      "art": "tipp",
+      "themaId": "bilanz-karte-k3-9",
+      "status": "geplant"
+    },
+    {
+      "slot": "s3",
+      "zeit": "19:00",
+      "art": "teaser",
+      "beitragSlot": "b3",
+      "status": "geplant"
+    },
+    {
+      "slot": "s9",
+      "zeit": "19:12",
+      "art": "merksatz",
+      "themaId": "ust-modul-ust-178",
+      "status": "geplant"
+    }
+  ]
+}

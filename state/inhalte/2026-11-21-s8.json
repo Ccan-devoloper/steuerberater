@@ -1,0 +1,50 @@
+{
+  "slot": "s8",
+  "art": "tipp",
+  "fach": "bilanz",
+  "klausur": 3,
+  "fachLabel": "Bilanzsteuerrecht",
+  "themaId": "bilanz-karte-k3-9",
+  "beitragSlot": null,
+  "quellen": null,
+  "titel": [
+    "Aktiver RAP:",
+    "die Merkmale"
+  ],
+  "punkte": [
+    [
+      "Ausgabe vor dem Stichtag",
+      "ok",
+      null
+    ],
+    [
+      "Aufwand für eine bestimmte Zeit danach",
+      "ok",
+      "§ 5 Abs. 5 S. 1 Nr. 1 EStG"
+    ],
+    [
+      "Bis 800 €: Wahlrecht, darauf verzichten",
+      "warn",
+      "§ 5 Abs. 5 S. 2 EStG"
+    ]
+  ],
+  "icon": "tabler:calendar-time",
+  "iconFarbe": "GELB",
+  "sichtbareTexte": [
+    "Bilanzsteuerrecht",
+    "Klausurtipp",
+    "Aktiver RAP:",
+    "die Merkmale",
+    "Ausgabe vor dem Stichtag",
+    "Aufwand für eine bestimmte Zeit danach",
+    "§ 5 Abs. 5 S. 1 Nr. 1 EStG",
+    "Bis 800 €: Wahlrecht, darauf verzichten",
+    "§ 5 Abs. 5 S. 2 EStG"
+  ],
+  "renderer": "open-peeps-v4",
+  "bildStatus": "open-peeps-render",
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "liveVorrangAktiv": true,
+  "regelGeprueft": true
+}
