@@ -1,0 +1,705 @@
+{
+  "datum": "2026-12-05",
+  "status": "vorproduziert",
+  "freigabeBetreiber": true,
+  "liveVerknuepft": false,
+  "vorproduktionStatus": "live-freigegeben",
+  "layoutQuelle": "open-peeps-variante-c",
+  "semantikQuelle": "examenscampus",
+  "liveVorrangAktiv": true,
+  "normalbetriebGesperrt": true,
+  "bildStatus": "open-peeps-render",
+  "kostenPolicy": {
+    "textUndFaktencheckUsd": 0,
+    "bildgenerierungUsd": 0,
+    "providerKostenUsd": 0,
+    "coverbilder": false,
+    "bildgenerierungErlaubt": false,
+    "reelStimme": "elevenlabs-abo"
+  },
+  "plan": {
+    "beitraege": [
+      {
+        "slot": "b1",
+        "zeit": "08:30",
+        "format": "klausurtechnik",
+        "themaId": "ao-frei-klausurtechnik-einspruch",
+        "themaTitel": "AO-Teil der Klausur 1: Einspruchsfall aufbauen, Fristen sichtbar rechnen",
+        "fach": "ao",
+        "klausur": 1
+      },
+      {
+        "slot": "b2",
+        "zeit": "13:30",
+        "format": "rechenweg",
+        "themaId": "kst-aufb-kst-ks-6-02",
+        "themaTitel": "Mehr als die Hälfte übertragen: Wann gehen Verluste unter?",
+        "fach": "kst",
+        "klausur": 2
+      },
+      {
+        "slot": "b3",
+        "zeit": "19:00",
+        "format": "reel",
+        "themaId": "bilanz-formel-abzinsung",
+        "themaTitel": "Auf- und Abzinsung",
+        "fach": "bilanz",
+        "klausur": 3
+      }
+    ],
+    "stories": [
+      {
+        "slot": "s4",
+        "zeit": "07:07",
+        "art": "frage",
+        "themaId": "bilanz-quiz-k3-17"
+      },
+      {
+        "slot": "s5",
+        "zeit": "07:09",
+        "art": "antwort",
+        "themaId": "bilanz-quiz-k3-17"
+      },
+      {
+        "slot": "s1",
+        "zeit": "08:30",
+        "art": "teaser",
+        "beitragSlot": "b1"
+      },
+      {
+        "slot": "s6",
+        "zeit": "12:14",
+        "art": "norm",
+        "themaId": "erbst-modul-erbst-506"
+      },
+      {
+        "slot": "s2",
+        "zeit": "13:30",
+        "art": "teaser",
+        "beitragSlot": "b2"
+      },
+      {
+        "slot": "s7",
+        "zeit": "14:40",
+        "art": "tipp"
+      },
+      {
+        "slot": "s8",
+        "zeit": "17:04",
+        "art": "tipp",
+        "themaId": "istr-aufb-istr-gh-3-09"
+      },
+      {
+        "slot": "s3",
+        "zeit": "19:00",
+        "art": "teaser",
+        "beitragSlot": "b3"
+      },
+      {
+        "slot": "s9",
+        "zeit": "19:12",
+        "art": "merksatz",
+        "themaId": "persg-karte-k3-20"
+      }
+    ]
+  },
+  "inhalte": {
+    "b1": {
+      "format": "klausurtechnik",
+      "fach": "ao",
+      "klausur": 1,
+      "fachLabel": "Abgabenordnung",
+      "themaId": "ao-frei-klausurtechnik-einspruch",
+      "caption": "Klausurtechnik für den AO-Teil in Klausur 1: Fahrplan, Zeit und Fristen, die man sehen kann.\n\n1. Erst die Aufgabenstellung lesen: Was genau ist gefragt?\n2. Zulässigkeit knapp prüfen, je Punkt ein Satz mit Norm (§ 358 S. 1 AO).\n3. Begründetheit ausführlich, dort liegen die meisten Punkte.\n4. Ergebnis hinschreiben.\n\nZeit: Die Bearbeitungszeit beträgt höchstens sechs Stunden (§ 18 Abs. 1 S. 3 DVStB); am Ende wird abgegeben, auch wenn die Arbeit unvollendet ist (§ 20 Abs. 2 S. 1 DVStB).\n\nFristen als Kette: Aufgabe zur Post Montag, 2.11.2026; Bekanntgabe am vierten Tag, 6.11.2026 (§ 122 Abs. 2 Nr. 1 AO); Einspruchsfrist ein Monat (§ 355 Abs. 1 S. 1 AO), rechnerisches Ende Sonntag, 6.12.2026; Fristende Montag, 7.12.2026 (§ 108 Abs. 3 AO).\n\nPunktefresser: drei statt vier Tage, Wochenende am Fristende übersehen, keine Änderungsnorm genannt.\n\nZum Schluss: §§ 108, 122, 355 AO zum Markieren. Speichern für Klausur 1 📌",
+      "hashtags": [
+        "#steuerberaterexamen",
+        "#steuerberaterprüfung",
+        "#examensvorbereitung",
+        "#abgabenordnung"
+      ],
+      "quellen": [
+        "§ 358 S. 1 AO",
+        "§ 122 Abs. 2 Nr. 1 AO",
+        "§ 355 Abs. 1 S. 1 AO",
+        "§ 108 Abs. 3 AO",
+        "§ 18 Abs. 1 S. 3 DVStB",
+        "§ 20 Abs. 2 S. 1 DVStB",
+        "§ 108 Abs. 1 AO"
+      ],
+      "slug": "2026-12-05-b1",
+      "kurztitel": "AO-Teil der Klausur 1: Einspruchsfall aufbauen, Fristen sichtbar rechnen",
+      "regelGeprueft": true,
+      "manuellGeprueft": false,
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "open-peeps-render",
+      "renderer": "open-peeps-v4",
+      "liveVorrangAktiv": true,
+      "coverBadge": "Klausurtechnik",
+      "folien": [
+        {
+          "art": "titel",
+          "titel": "Klausurtechnik",
+          "text": "Klausurtechnik · AO-Teil: · der Fahrplan · für Klausur 1 · + Markier-Guide § 108 AO",
+          "bild": "op-cover"
+        },
+        {
+          "art": "text",
+          "titel": "Abgabenordnung",
+          "text": "Der Fahrplan · Frage zuerst · Was genau ist gefragt? · Zulässigkeit kurz · § 358 S. 1 AO · je Punkt ein Satz · Begründetheit ausführlich · hier liegen die Punkte · Ergebnis hinschreiben · Erfolg ja oder nein · Am Ende: § 108 AO markiert"
+        },
+        {
+          "art": "text",
+          "titel": "Abgabenordnung",
+          "text": "Zeit einteilen · Die Bearbeitungszeit beträgt höchstens sechs Stunden für die ganze Klausur. · § 18 Abs. 1 S. 3 DVStB · AO-Teil nach seinen Punkten gewichten, Endzeit an den Rand schreiben. · Am Ende wird abgegeben, auch unvollendet. · § 20 Abs. 2 S. 1 DVStB · Uhr im Blick!"
+        },
+        {
+          "art": "text",
+          "titel": "Abgabenordnung",
+          "text": "Fristen als Kette · 2.11. · Bescheid zur Post (Mo) · 6.11. · gilt als bekannt gegeben · § 122 Abs. 2 Nr. 1 AO · 6.12. · Monatsende: Sonntag · § 355 Abs. 1 S. 1 AO · 7.12. · Fristende am Montag · § 108 Abs. 3 AO · Jeder Schritt zählt."
+        },
+        {
+          "art": "text",
+          "titel": "Abgabenordnung",
+          "text": "Sauber darstellen · Zulässigkeit: Statthaftigkeit, Form, Frist, Beschwer, je Punkt Ergebnis und Norm. · Ausführlich nur, wo der Sachverhalt ein Problem einbaut. · Jedes Datum mit Wochentag notieren. · Wo steckt das Problem?"
+        },
+        {
+          "art": "text",
+          "titel": "Abgabenordnung",
+          "text": "Drei Punktefresser · Mit drei statt vier Tagen gerechnet: Seit 2025 gilt der vierte Tag. · § 122 Abs. 2 Nr. 1 AO · Wochenende am Fristende übersehen. · § 108 Abs. 3 AO · Begründetheit geprüft, aber keine Änderungsnorm genannt. · Alle drei schon erlebt?"
+        },
+        {
+          "art": "text",
+          "titel": "Abgabenordnung",
+          "text": "Frage lesen · Zulässigkeit kurz · Begründetheit tief · Fristen als Kette mit Wochentag · Frage zuerst, · Zulässigkeit knapp, · Fristen als Kette, · Ergebnis hinschreiben. · Speichern für Klausur 1 · Wo verlierst du im AO-Teil Zeit? · Weiterwischen: § 108 AO markiert"
+        },
+        {
+          "art": "text",
+          "titel": "Abgabenordnung",
+          "text": "§§ 108, 122, 355 AO (Auszug) · Monatsende nach BGB · Wochenende: Montag · Vier Tage · Ein Monat · Post Mo 2.11., bekannt Fr 6.11. · 6.12. ist Sonntag: Fristende Mo 7.12."
+        }
+      ]
+    },
+    "b2": {
+      "format": "rechenweg",
+      "fach": "kst",
+      "klausur": 2,
+      "fachLabel": "Körperschaftsteuer",
+      "themaId": "kst-aufb-kst-ks-6-02",
+      "caption": "Mehr als die Hälfte der GmbH-Anteile verkauft: Was bleibt vom Verlustvortrag? Der Rechenweg zu § 8c KStG.\n\n1. Schädlicher Beteiligungserwerb: innerhalb von fünf Jahren mehr als 50 % an einen Erwerber oder ihm nahestehende Personen; eine Gruppe mit gleichgerichteten Interessen gilt als ein Erwerber (§ 8c Abs. 1 S. 1, 2 KStG).\n2. Ausnahmen: Konzernklausel (§ 8c Abs. 1 S. 4 KStG) und Verlust bis zur Höhe der stillen Reserven (§ 8c Abs. 1 S. 5 KStG).\n3. Nicht mehr abziehbar sind nur die bis zum schädlichen Erwerb nicht genutzten Verluste – ein bis dahin erzielter Gewinn kann noch verrechnet werden (§ 8c Abs. 1 S. 1 KStG).\n4. Der Untergang gilt auch für Gewerbeverluste (§ 10a S. 10 GewStG).\n\nRechnung: 300.000 € Verlustvortrag − 80.000 € Gewinn bis zum Erwerb = 220.000 € gehen unter; 40.000 € Einkommen im zweiten Halbjahr. Variante mit 150.000 € stillen Reserven: 150.000 € bleiben, davon 40.000 € verrechnet, Verlustvortrag 110.000 €, Untergang 70.000 €.\n\nZum Schluss: § 8c KStG zum Markieren. Speichern für Klausur 2 📌",
+      "hashtags": [
+        "#steuerberaterexamen",
+        "#steuerberaterprüfung",
+        "#examensvorbereitung",
+        "#körperschaftsteuer"
+      ],
+      "quellen": [
+        "§ 8c Abs. 1 S. 1, 2, 4, 5 KStG",
+        "§ 10a S. 10 GewStG"
+      ],
+      "slug": "2026-12-05-b2",
+      "kurztitel": "Mehr als die Hälfte übertragen: Wann gehen Verluste unter?",
+      "regelGeprueft": true,
+      "manuellGeprueft": false,
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "open-peeps-render",
+      "renderer": "open-peeps-v4",
+      "liveVorrangAktiv": true,
+      "coverBadge": "Rechenweg",
+      "folien": [
+        {
+          "art": "titel",
+          "titel": "Rechenweg",
+          "text": "Rechenweg · 60 % verkauft: · Verlust weg? · § 8c Abs. 1 KStG · in 4 Schritten · + Markier-Guide § 8c KStG · Verlustvortrag · 300.000 € · was bleibt?",
+          "bild": "op-cover"
+        },
+        {
+          "art": "text",
+          "titel": "Körperschaftsteuer",
+          "text": "Der Rechenweg · Quote prüfen · § 8c Abs. 1 S. 1 KStG · mehr als 50 % in fünf Jahren · Ausnahmen prüfen · § 8c Abs. 1 S. 4, 5 KStG · Konzern, stille Reserven · Gewinn bis Erwerb · § 8c Abs. 1 S. 1 KStG · noch mit Altverlust verrechnen · Rest streichen · § 10a S. 10 GewStG · auch bei der Gewerbesteuer · Am Ende: § 8c KStG markiert"
+        },
+        {
+          "art": "text",
+          "titel": "Körperschaftsteuer",
+          "text": "Der Fall · 300.000 € Verlustvortrag hat die Wellenbrecher-GmbH zum 31.12.2025. · Am 1.7.2026 kauft Bea 60 % der Anteile. Gewinn bis 30.6.: 80.000 €, danach 40.000 €. Keine stillen Reserven. · Was bleibt vom Verlust? · Ich bin Bea."
+        },
+        {
+          "art": "text",
+          "titel": "Körperschaftsteuer",
+          "text": "1 · Schädlicher Erwerb? · 60 % an eine Erwerberin, also mehr als die Hälfte. · § 8c Abs. 1 S. 1 KStG · Mehrere Erwerber zählen nur zusammen, wenn sie gleichgerichtete Interessen haben. · § 8c Abs. 1 S. 2 KStG · Folge: nicht genutzte Verluste fallen vollständig weg. · Alles oder nichts."
+        },
+        {
+          "art": "text",
+          "titel": "Körperschaftsteuer",
+          "text": "2 · Gewinn bis zum Erwerb · Weg sind nur Verluste, die bis zum Erwerb nicht genutzt sind. · § 8c Abs. 1 S. 1 KStG · Den Gewinn bis 30.6. darf die GmbH noch mit dem Altverlust verrechnen. · Stille Reserven retten Verlust · § 8c Abs. 1 S. 5 KStG · Erst verrechnen!"
+        },
+        {
+          "art": "text",
+          "titel": "Körperschaftsteuer",
+          "text": "Rechenweg 2026 · § 8c Abs. 1 S. 1 KStG · Verlustvortrag · 300.000 € · − Gewinn bis 30.6. · 80.000 € · Verlust geht unter · 220.000 € · Einkommen 2. Halbjahr · 40.000 €"
+        },
+        {
+          "art": "text",
+          "titel": "Körperschaftsteuer",
+          "text": "Jetzt du · Variante: Zum 1.7.2026 hat die GmbH stille Reserven von insgesamt 150.000 €. · Wie viel Verlust bleibt, und was versteuert sie 2026? · Rechnest du mit?"
+        },
+        {
+          "art": "text",
+          "titel": "Körperschaftsteuer",
+          "text": "Lösung · § 8c Abs. 1 S. 5 KStG · Nicht genutzter Verlust · 220.000 € · Durch Reserven gedeckt · 150.000 € · Verrechnet, 2. Halbjahr · − 40.000 € · Vortrag 31.12.2026 · 110.000 € · Einkommen 2026: 0 €, Untergang 70.000 €"
+        },
+        {
+          "art": "text",
+          "titel": "Körperschaftsteuer",
+          "text": "Über 50 % an eine Erwerberin: Verlust weg · Gewinn bis Erwerb und Reserven retten · Quote über 50 %, · erst verrechnen, · Reserven retten, · Rest ist weg. · Speichern für Klausur 2 · 80.000 € verrechnet? · Weiterwischen: § 8c KStG markiert"
+        },
+        {
+          "art": "text",
+          "titel": "Körperschaftsteuer",
+          "text": "§ 8c KStG Verlustabzug (Auszug) · Quote · Zeitpunkt · Rettung · Daneben: § 10a S. 10 GewStG · Gilt auch für den Gewerbeverlust"
+        }
+      ]
+    },
+    "b3": {
+      "format": "reel",
+      "fach": "bilanz",
+      "klausur": 3,
+      "fachLabel": "Bilanzsteuerrecht",
+      "themaId": "bilanz-formel-abzinsung",
+      "caption": "Abzinsung in der Steuerbilanz: Schulden oder Rückstellungen? ⏳\n\n▸ Verbindlichkeiten: Ansatz mit dem Rückzahlungsbetrag (§ 6 Abs. 1 Nr. 3 EStG). Die frühere Abzinsung unverzinslicher Verbindlichkeiten mit 5,5 % entfällt für Wirtschaftsjahre, die nach dem 31.12.2022 enden, auf Antrag auch früher (§ 52 Abs. 12 S. 2, 3 EStG).\n▸ Rückstellungen: weiterhin mit 5,5 % abzuzinsen; ausgenommen sind Laufzeiten unter zwölf Monaten sowie verzinsliche oder auf Anzahlungen beruhende Verpflichtungen (§ 6 Abs. 1 Nr. 3a Buchst. e EStG).\n▸ Handelsbilanz: Rückstellungen mit Restlaufzeit über einem Jahr mit dem durchschnittlichen Marktzinssatz der vergangenen sieben Geschäftsjahre, Altersversorgung zehn Jahre (§ 253 Abs. 2 S. 1 HGB).\n\nSpeichern für Klausur 3 📌",
+      "hashtags": [
+        "#steuerberaterexamen",
+        "#steuerberaterprüfung",
+        "#examensvorbereitung",
+        "#bilanzsteuerrecht"
+      ],
+      "quellen": [
+        "§ 6 Abs. 1 Nr. 3 EStG",
+        "§ 52 Abs. 12 S. 2, 3 EStG",
+        "§ 6 Abs. 1 Nr. 3a Buchst. e EStG",
+        "§ 253 Abs. 2 S. 1 HGB"
+      ],
+      "slug": "2026-12-05-b3",
+      "kurztitel": "Auf- und Abzinsung",
+      "regelGeprueft": true,
+      "manuellGeprueft": false,
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "open-peeps-render",
+      "renderer": "open-peeps-v4",
+      "liveVorrangAktiv": true,
+      "bild": "op-cover",
+      "reelTyp": "gegensatz",
+      "hookStil": "knall",
+      "coverBadge": "Reel",
+      "szenen": [
+        {
+          "art": "hook",
+          "titel": "5,5 % Abzinsung für Schulden?"
+        },
+        {
+          "art": "schritt",
+          "titel": "Verbindlichkeit"
+        },
+        {
+          "art": "schritt",
+          "titel": "Rückstellung"
+        },
+        {
+          "art": "schritt",
+          "titel": "Handelsbilanz"
+        }
+      ],
+      "sprecher": [
+        "Fünfeinhalb Prozent Abzinsung in der Steuerbilanz, auch für Schulden? Falsch. Nur noch für Rückstellungen.",
+        "Unverzinsliche Schuld: immer der Rückzahlungsbetrag. Die Abzinsung ist weg für Wirtschaftsjahre, die nach zweitausendzweiundzwanzig enden.",
+        "Rückstellung mit Laufzeit ab zwölf Monaten: weiter mit fünfeinhalb Prozent abzinsen, wenn sie unverzinslich ist.",
+        "Handelsbilanz: Rückstellungen über ein Jahr mit dem Durchschnittszins der letzten sieben Jahre.",
+        "Merke: Schulden nicht abzinsen, Rückstellungen schon."
+      ],
+      "dauerS": 35.8,
+      "tempo": 1.0
+    },
+    "s4": {
+      "slot": "s4",
+      "art": "frage",
+      "fach": "bilanz",
+      "klausur": 3,
+      "fachLabel": "Bilanzsteuerrecht",
+      "themaId": "bilanz-quiz-k3-17",
+      "beitragSlot": null,
+      "quellen": null,
+      "frage": [
+        "Steuerlich erlaubte",
+        "Verbrauchsfolge?"
+      ],
+      "optionen": [
+        "Fifo",
+        "Lifo",
+        "Hifo"
+      ],
+      "pairId": "bilanz-quiz-k3-17",
+      "sichtbareTexte": [
+        "Bilanzsteuerrecht",
+        "Prüfungsfrage",
+        "Steuerlich erlaubte",
+        "Verbrauchsfolge?",
+        "Fifo",
+        "Lifo",
+        "Hifo",
+        "Auflösung in der nächsten Story"
+      ],
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
+      "liveVorrangAktiv": true,
+      "regelGeprueft": true
+    },
+    "s5": {
+      "slot": "s5",
+      "art": "antwort",
+      "fach": "bilanz",
+      "klausur": 3,
+      "fachLabel": "Bilanzsteuerrecht",
+      "themaId": "bilanz-quiz-k3-17",
+      "beitragSlot": null,
+      "quellen": null,
+      "titel": [
+        "B: Lifo"
+      ],
+      "optionen": [
+        "Fifo",
+        "Lifo",
+        "Hifo"
+      ],
+      "richtig": 1,
+      "text": "Nur für Bilanzierer und nur, wenn es den GoB entspricht.",
+      "norm": "§ 6 Abs. 1 Nr. 2a S. 1 EStG",
+      "pairId": "bilanz-quiz-k3-17",
+      "sichtbareTexte": [
+        "Bilanzsteuerrecht",
+        "Auflösung",
+        "B: Lifo",
+        "Fifo",
+        "Lifo",
+        "Hifo",
+        "Nur für Bilanzierer und nur, wenn es den GoB entspricht.",
+        "§ 6 Abs. 1 Nr. 2a S. 1 EStG"
+      ],
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
+      "liveVorrangAktiv": true,
+      "regelGeprueft": true
+    },
+    "s1": {
+      "slot": "s1",
+      "art": "teaser",
+      "fach": "ao",
+      "klausur": 1,
+      "fachLabel": "Abgabenordnung",
+      "themaId": null,
+      "beitragSlot": "b1",
+      "quellen": null,
+      "titel": [
+        "AO-Teil: der Fahrplan"
+      ],
+      "unter": "Klausurtechnik + Markier-Guide · im Profil",
+      "sichtbareTexte": [
+        "Abgabenordnung",
+        "Neu im Feed",
+        "AO-Teil: der Fahrplan",
+        "Klausurtechnik + Markier-Guide · im Profil"
+      ],
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
+      "liveVorrangAktiv": true,
+      "regelGeprueft": true
+    },
+    "s6": {
+      "slot": "s6",
+      "art": "norm",
+      "fach": "erbst",
+      "klausur": 1,
+      "fachLabel": "Erbschaftsteuer",
+      "themaId": "erbst-modul-erbst-506",
+      "beitragSlot": null,
+      "quellen": null,
+      "titel": [
+        "Bereicherung,",
+        "dann abrunden"
+      ],
+      "norm": "§ 10 Abs. 1 S. 6 ErbStG",
+      "punkte": [
+        [
+          "Erbfallkosten: 15.000 € ohne Nachweis.",
+          "ok",
+          "§ 10 Abs. 5 Nr. 3 S. 2 ErbStG"
+        ],
+        [
+          "Nach dem Freibetrag auf volle Hundert abrunden.",
+          "warn",
+          "§ 16 ErbStG"
+        ]
+      ],
+      "sichtbareTexte": [
+        "Erbschaftsteuer",
+        "Norm des Tages",
+        "Bereicherung,",
+        "dann abrunden",
+        "§ 10 Abs. 1 S. 6 ErbStG",
+        "Erbfallkosten: 15.000 € ohne Nachweis.",
+        "§ 10 Abs. 5 Nr. 3 S. 2 ErbStG",
+        "Nach dem Freibetrag auf volle Hundert abrunden.",
+        "§ 16 ErbStG"
+      ],
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
+      "liveVorrangAktiv": true,
+      "regelGeprueft": true
+    },
+    "s2": {
+      "slot": "s2",
+      "art": "teaser",
+      "fach": "kst",
+      "klausur": 2,
+      "fachLabel": "Körperschaftsteuer",
+      "themaId": null,
+      "beitragSlot": "b2",
+      "quellen": null,
+      "titel": [
+        "60 % verkauft: Verlust weg?"
+      ],
+      "unter": "Rechenweg + Markier-Guide · im Profil",
+      "sichtbareTexte": [
+        "Körperschaftsteuer",
+        "Neu im Feed",
+        "60 % verkauft: Verlust weg?",
+        "Rechenweg + Markier-Guide · im Profil"
+      ],
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
+      "liveVorrangAktiv": true,
+      "regelGeprueft": true
+    },
+    "s7": {
+      "slot": "s7",
+      "art": "tipp",
+      "fach": null,
+      "klausur": 0,
+      "fachLabel": "Klausurtechnik",
+      "themaId": null,
+      "beitragSlot": null,
+      "quellen": null,
+      "titel": [
+        "Wert fehlt?",
+        "Annahme notieren"
+      ],
+      "punkte": [
+        [
+          "Plausiblen Wert ansetzen und als Annahme kennzeichnen.",
+          "ok",
+          null
+        ],
+        [
+          "So bleiben dir die Folgepunkte.",
+          "ok",
+          null
+        ]
+      ],
+      "icon": "tabler:notes",
+      "iconFarbe": "GELB",
+      "sichtbareTexte": [
+        "Klausurtechnik",
+        "Klausurtipp",
+        "Wert fehlt?",
+        "Annahme notieren",
+        "Plausiblen Wert ansetzen und als Annahme kennzeichnen.",
+        "So bleiben dir die Folgepunkte."
+      ],
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
+      "liveVorrangAktiv": true,
+      "regelGeprueft": true
+    },
+    "s8": {
+      "slot": "s8",
+      "art": "tipp",
+      "fach": "istr",
+      "klausur": 2,
+      "fachLabel": "Internationales Steuerrecht",
+      "themaId": "istr-aufb-istr-gh-3-09",
+      "beitragSlot": null,
+      "quellen": null,
+      "titel": [
+        "Beschränkt",
+        "steuerpflichtig?"
+      ],
+      "punkte": [
+        [
+          "Kein Wohnsitz, kein gewöhnlicher Aufenthalt, aber inländische Einkünfte.",
+          "ok",
+          "§ 1 Abs. 4 EStG"
+        ],
+        [
+          "Besteuert wird nur, was § 49 EStG erfasst.",
+          "warn",
+          "§ 49 Abs. 1 EStG"
+        ]
+      ],
+      "icon": "tabler:world",
+      "iconFarbe": "GELB",
+      "sichtbareTexte": [
+        "Internationales Steuerrecht",
+        "Klausurtipp",
+        "Beschränkt",
+        "steuerpflichtig?",
+        "Kein Wohnsitz, kein gewöhnlicher Aufenthalt, aber inländische Einkünfte.",
+        "§ 1 Abs. 4 EStG",
+        "Besteuert wird nur, was § 49 EStG erfasst.",
+        "§ 49 Abs. 1 EStG"
+      ],
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
+      "liveVorrangAktiv": true,
+      "regelGeprueft": true
+    },
+    "s3": {
+      "slot": "s3",
+      "art": "teaser",
+      "fach": "bilanz",
+      "klausur": 3,
+      "fachLabel": "Bilanzsteuerrecht",
+      "themaId": null,
+      "beitragSlot": "b3",
+      "quellen": null,
+      "titel": [
+        "Abzinsung: Schulden?"
+      ],
+      "unter": "Neues Reel · im Profil",
+      "sichtbareTexte": [
+        "Bilanzsteuerrecht",
+        "Neu im Feed",
+        "Abzinsung: Schulden?",
+        "Neues Reel · im Profil"
+      ],
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
+      "liveVorrangAktiv": true,
+      "regelGeprueft": true
+    },
+    "s9": {
+      "slot": "s9",
+      "art": "merksatz",
+      "fach": "persg",
+      "klausur": 3,
+      "fachLabel": "Personengesellschaften",
+      "themaId": "persg-karte-k3-20",
+      "beitragSlot": null,
+      "quellen": null,
+      "titel": [
+        "SBV I oder",
+        "SBV II?"
+      ],
+      "zeilen": [
+        [
+          [
+            "SBV I",
+            "a"
+          ],
+          [
+            ": dient dem Betrieb,",
+            null
+          ]
+        ],
+        [
+          [
+            "SBV II",
+            "b"
+          ],
+          [
+            ": der Beteiligung;",
+            null
+          ]
+        ],
+        [
+          [
+            "beides ",
+            null
+          ],
+          [
+            "notwendig",
+            "c"
+          ],
+          [
+            " oder",
+            null
+          ]
+        ],
+        [
+          [
+            "gewillkürt",
+            "c"
+          ],
+          [
+            ".",
+            null
+          ]
+        ]
+      ],
+      "sichtbareTexte": [
+        "Personengesellschaften",
+        "Merksatz",
+        "SBV I oder",
+        "SBV II?",
+        "SBV I: dient dem Betrieb,",
+        "SBV II: der Beteiligung;",
+        "beides notwendig oder",
+        "gewillkürt."
+      ],
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
+      "liveVorrangAktiv": true,
+      "regelGeprueft": true
+    }
+  },
+  "renderVorschau": {
+    "status": "fertig",
+    "erzeugtAm": "2026-11-21T08:22:20Z",
+    "pfad": "vorproduktion/2026-12-05/fertig",
+    "providerKostenUsd": 0,
+    "coverbilder": false,
+    "coverIcons": false,
+    "renderer": "open-peeps-v4",
+    "layoutQuelle": "open-peeps-variante-c",
+    "reelStimme": "elevenlabs-laura",
+    "sfx": "freesound-cc0",
+    "freigabeBetreiber": true,
+    "liveVorrangAktiv": true,
+    "normalbetriebGesperrt": true,
+    "wartetLive": []
+  }
+}
