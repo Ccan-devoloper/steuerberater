@@ -1,0 +1,699 @@
+{
+  "datum": "2026-12-06",
+  "status": "vorproduziert",
+  "freigabeBetreiber": true,
+  "liveVerknuepft": false,
+  "vorproduktionStatus": "live-freigegeben",
+  "layoutQuelle": "open-peeps-variante-c",
+  "semantikQuelle": "examenscampus",
+  "liveVorrangAktiv": true,
+  "normalbetriebGesperrt": true,
+  "bildStatus": "open-peeps-render",
+  "kostenPolicy": {
+    "textUndFaktencheckUsd": 0,
+    "bildgenerierungUsd": 0,
+    "providerKostenUsd": 0,
+    "coverbilder": false,
+    "bildgenerierungErlaubt": false,
+    "reelStimme": "elevenlabs-abo"
+  },
+  "plan": {
+    "beitraege": [
+      {
+        "slot": "b1",
+        "zeit": "08:30",
+        "format": "wochenrueckblick",
+        "themaId": "wochenrueckblick-alle-2026-49",
+        "themaTitel": "Alle Klausuren: sechs Themen der Woche 49",
+        "fach": null,
+        "klausur": 0
+      },
+      {
+        "slot": "b2",
+        "zeit": "13:30",
+        "format": "pruefungsfrage",
+        "themaId": "bilanz-aufb-bil-melzer-10-02",
+        "themaTitel": "Verbindlichkeiten bewerten: Rückzahlungsbetrag statt Barwert?",
+        "fach": "bilanz",
+        "klausur": 3
+      },
+      {
+        "slot": "b3",
+        "zeit": "19:00",
+        "format": "reel",
+        "themaId": "ao-aufb-ao-jacobs-13-5",
+        "themaTitel": "Geschäftsführerhaftung nach § 69 AO: Verschulden und Zeitraum",
+        "fach": "ao",
+        "klausur": 1
+      }
+    ],
+    "stories": [
+      {
+        "slot": "s4",
+        "zeit": "07:07",
+        "art": "frage",
+        "themaId": "ust-quiz-ust-8"
+      },
+      {
+        "slot": "s5",
+        "zeit": "07:09",
+        "art": "antwort",
+        "themaId": "ust-quiz-ust-8"
+      },
+      {
+        "slot": "s1",
+        "zeit": "08:30",
+        "art": "teaser",
+        "beitragSlot": "b1"
+      },
+      {
+        "slot": "s6",
+        "zeit": "12:14",
+        "art": "norm",
+        "themaId": "est-aufb-est-ks1-vv-02"
+      },
+      {
+        "slot": "s2",
+        "zeit": "13:30",
+        "art": "teaser",
+        "beitragSlot": "b2"
+      },
+      {
+        "slot": "s7",
+        "zeit": "14:40",
+        "art": "tipp"
+      },
+      {
+        "slot": "s8",
+        "zeit": "17:04",
+        "art": "tipp",
+        "themaId": "bilanz-karte-k3-10"
+      },
+      {
+        "slot": "s3",
+        "zeit": "19:00",
+        "art": "teaser",
+        "beitragSlot": "b3"
+      },
+      {
+        "slot": "s9",
+        "zeit": "19:12",
+        "art": "merksatz",
+        "themaId": "ao-aufb-ao-jacobs-3-11"
+      }
+    ]
+  },
+  "inhalte": {
+    "b1": {
+      "format": "wochenrueckblick",
+      "fach": null,
+      "klausur": 0,
+      "fachLabel": "Alle Klausuren",
+      "themaId": "wochenrueckblick-alle-2026-49",
+      "caption": "Wochenrückblick KW 49: je Klausur die Themen der Woche.\n\nKlausur 1 (AO, USt, ErbSt)\n1. Verwendet der Erwerber die USt-IdNr. eines anderen Mitgliedstaats als des Bestimmungslands, gilt der innergemeinschaftliche Erwerb auch dort als bewirkt, bis die Besteuerung im Bestimmungsland nachgewiesen ist (§ 3d S. 2 UStG); Vorsteuer gibt es dafür nicht (§ 15 Abs. 1 S. 1 Nr. 3 UStG).\n2. Wird eine zu Wohnzwecken vermietete Wohnung nur mit 90 % angesetzt (§ 13d Abs. 1 ErbStG), ist auch das zugehörige Darlehen nur zu 90 % abzugsfähig (§ 10 Abs. 6a S. 1 ErbStG).\n\nKlausur 2 (Ertragsteuern)\n3. Seit dem Erhebungszeitraum 2025 kürzt die einfache Grundstückskürzung die im Erhebungszeitraum als Betriebsausgabe erfasste Grundsteuer (§ 9 Nr. 1 S. 1, § 36 Abs. 4b S. 1 GewStG).\n4. Grenzpendler werden auf Antrag als unbeschränkt steuerpflichtig behandelt, wenn mindestens 90 % ihrer Einkünfte der deutschen Einkommensteuer unterliegen oder die übrigen Einkünfte den Grundfreibetrag nicht übersteigen (§ 1 Abs. 3 S. 1, 2 EStG).\n\nKlausur 3 (Buchführung und Bilanzwesen)\n5. Unentgeltliche Übertragung eines Wirtschaftsguts zwischen Schwester-Personengesellschaften mit identisch beteiligten Mitunternehmern: Buchwert (§ 6 Abs. 5 S. 3 Nr. 4 EStG, in allen offenen Fällen, § 52 Abs. 12 S. 15 EStG); Sperrfrist nach § 6 Abs. 5 S. 4 EStG.\n6. Ein nur zu einem vorübergehenden Zweck errichtetes Gebäude auf Pachtgrund ist Scheinbestandteil (§ 95 Abs. 1 S. 1 BGB) und wird vom Erbauer aktiviert; AfA nach der kürzeren tatsächlichen Nutzungsdauer (§ 7 Abs. 4 S. 2 EStG).\n\nZum Schluss: § 6 Abs. 5 S. 3, 4 EStG zum Markieren. Speichern für alle drei Klausuren 📌",
+      "hashtags": [
+        "#steuerberaterexamen",
+        "#steuerberaterprüfung",
+        "#examensvorbereitung",
+        "#steuerrecht"
+      ],
+      "quellen": [
+        "§ 3d S. 2 UStG",
+        "§ 15 Abs. 1 S. 1 Nr. 3 UStG",
+        "§ 13d Abs. 1 ErbStG",
+        "§ 10 Abs. 6a S. 1 ErbStG",
+        "§ 9 Nr. 1 S. 1 GewStG",
+        "§ 36 Abs. 4b S. 1 GewStG",
+        "§ 1 Abs. 3 S. 1, 2 EStG",
+        "§ 6 Abs. 5 S. 3 Nr. 4, S. 4 EStG",
+        "§ 52 Abs. 12 S. 15 EStG",
+        "§ 95 Abs. 1 S. 1 BGB",
+        "§ 7 Abs. 4 S. 2 EStG"
+      ],
+      "slug": "2026-12-06-b1",
+      "kurztitel": "Alle Klausuren: sechs Themen der Woche 49",
+      "regelGeprueft": true,
+      "manuellGeprueft": false,
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "open-peeps-render",
+      "renderer": "open-peeps-v4",
+      "liveVorrangAktiv": true,
+      "coverBadge": "Wochenrückblick",
+      "folien": [
+        {
+          "art": "titel",
+          "titel": "Wochenrückblick",
+          "text": "Wochenrückblick · Woche · kompakt · 6 Themen · + Markier-Guide § 6 Abs. 5 EStG · DEZEMBER · 6 · So · Rückblick",
+          "bild": "op-cover"
+        },
+        {
+          "art": "text",
+          "titel": "Alle Klausuren",
+          "text": "Die Woche in 3 Klausuren · Klausur 1 · USt und ErbSt · § 3d UStG · § 10 Abs. 6a ErbStG · Erwerbsteuer, Schuldenabzug · Klausur 2 · GewSt und ESt · § 9 Nr. 1 GewStG · § 1 Abs. 3 EStG · Grundsteuer und Grenzpendler · Klausur 3 · PersG und Bilanz · § 6 Abs. 5 EStG · § 95 BGB · Schwester-KG, fremder Grund · Am Ende: § 6 Abs. 5 EStG markiert"
+        },
+        {
+          "art": "text",
+          "titel": "Alle Klausuren",
+          "text": "Klausur 1 · USt und ErbSt · Erwerb mit USt-IdNr. eines anderen Staats: Erwerbsteuer auch dort, ohne Vorsteuer. · § 3d S. 2, § 15 Abs. 1 S. 1 Nr. 3 UStG · Vermietete Wohnung mit 90 % angesetzt: Darlehen auch nur zu 90 % abziehbar. · § 13d Abs. 1, § 10 Abs. 6a S. 1 ErbStG · Welche Nummer?"
+        },
+        {
+          "art": "text",
+          "titel": "Alle Klausuren",
+          "text": "Klausur 2 · GewSt und ESt · Grundstückskürzung seit 2025: die als Betriebsausgabe erfasste Grundsteuer. · § 9 Nr. 1 S. 1 GewStG · Grenzpendler: auf Antrag unbeschränkt, wenn mindestens 90 % der Einkünfte der deutschen Steuer unterliegen. · § 1 Abs. 3 S. 1, 2 EStG · Nicht mehr 1,2 %?"
+        },
+        {
+          "art": "text",
+          "titel": "Alle Klausuren",
+          "text": "Klausur 3 · PersG und Bilanz · Wirtschaftsgut zur Schwester-KG mit identischen Gesellschaftern: unentgeltlich zum Buchwert. · § 6 Abs. 5 S. 3 Nr. 4 EStG · Halle auf Pachtgrund mit Abrisspflicht: Scheinbestandteil, AfA über die kürzere Pachtzeit. · § 95 Abs. 1 S. 1 BGB, § 7 Abs. 4 S. 2 EStG · Neu seit 2024!"
+        },
+        {
+          "art": "text",
+          "titel": "Alle Klausuren",
+          "text": "Die Woche in allen 3 Klausuren · Verfahren · Ertragsteuern · Bilanz · Fremde USt-IdNr. kostet, · 90 % auch bei Schulden, · Grundsteuer wird gekürzt, · Schwester-KG zum Buchwert. · Speichern für alle 3 Klausuren · Welche Klausur wackelt noch? · Weiterwischen: § 6 Abs. 5 EStG markiert"
+        },
+        {
+          "art": "text",
+          "titel": "Alle Klausuren",
+          "text": "§ 6 Abs. 5 EStG (Auszug) · nur unentgeltlich · Schwester-KG · identisch beteiligt · Sperrfrist verletzt · Fristende · Nr. 4 neu durch das JStG 2024 · Anwendbar in allen offenen Fällen"
+        }
+      ]
+    },
+    "b2": {
+      "format": "pruefungsfrage",
+      "fach": "bilanz",
+      "klausur": 3,
+      "fachLabel": "Bilanzsteuerrecht",
+      "themaId": "bilanz-aufb-bil-melzer-10-02",
+      "caption": "Darlehen mit Disagio: Was steht zum Bilanzstichtag in der Steuerbilanz? Eine Prüfungsfrage zur Bewertung von Verbindlichkeiten.\n\n▸ Verbindlichkeit: Rückzahlungsbetrag, Bewertung unter sinngemäßer Anwendung von Nr. 2 (§ 6 Abs. 1 Nr. 3 S. 1 EStG); keine Abzinsung für Wirtschaftsjahre, die nach dem 31.12.2022 enden (§ 52 Abs. 12 S. 2 EStG). Handelsbilanz: Erfüllungsbetrag (§ 253 Abs. 1 S. 2 HGB).\n▸ Disagio: steuerlich aktiver Rechnungsabgrenzungsposten (§ 5 Abs. 5 S. 1 Nr. 1 EStG), beim Fälligkeitsdarlehen gleichmäßig über die Laufzeit aufzulösen. Handelsrechtlich Wahlrecht (§ 250 Abs. 3 S. 1 HGB).\n▸ Verzicht auf die Abgrenzung nur, wenn der Betrag die Grenze des § 6 Abs. 2 S. 1 EStG nicht übersteigt (§ 5 Abs. 5 S. 2 EStG).\n\nFall: 200.000 € Darlehen ab 1.7.2026, vier Jahre, Auszahlung 192.000 €: Verbindlichkeit 200.000 €, aktiver Posten 8.000 € − 1.000 € = 7.000 €. Wird das Disagio in der Handelsbilanz sofort abgezogen, ist der steuerliche Gewinn 2026 um 7.000 € höher.\n\nZum Schluss: § 5 Abs. 5 EStG und § 250 Abs. 3 HGB zum Markieren. Speichern für Klausur 3 📌",
+      "hashtags": [
+        "#steuerberaterexamen",
+        "#steuerberaterprüfung",
+        "#examensvorbereitung",
+        "#bilanzsteuerrecht"
+      ],
+      "quellen": [
+        "§ 6 Abs. 1 Nr. 3 S. 1 EStG",
+        "§ 52 Abs. 12 S. 2 EStG",
+        "§ 253 Abs. 1 S. 2 HGB",
+        "§ 5 Abs. 5 S. 1 Nr. 1, S. 2 EStG",
+        "§ 6 Abs. 2 S. 1 EStG",
+        "§ 250 Abs. 3 S. 1 HGB"
+      ],
+      "slug": "2026-12-06-b2",
+      "kurztitel": "Verbindlichkeiten bewerten: Rückzahlungsbetrag statt Barwert?",
+      "regelGeprueft": true,
+      "manuellGeprueft": false,
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "open-peeps-render",
+      "renderer": "open-peeps-v4",
+      "liveVorrangAktiv": true,
+      "coverBadge": "Prüfungsfrage",
+      "folien": [
+        {
+          "art": "titel",
+          "titel": "Prüfungsfrage",
+          "text": "Prüfungsfrage · Darlehen mit · Disagio · § 6 Abs. 1 Nr. 3 EStG · Die Frage · + Markier-Guide § 5 EStG, § 250 HGB · ausgezahlt 96 % · 192.000 € · Ansatz?",
+          "bild": "op-cover"
+        },
+        {
+          "art": "text",
+          "titel": "Bilanzsteuerrecht",
+          "text": "Die Klausurfrage · Malte bilanziert und nimmt am 1.7.2026 ein Fälligkeitsdarlehen auf: 200.000 €, Laufzeit vier Jahre. · Ausgezahlt werden 96 %, also 192.000 €. · Was steht zum 31.12.2026 in der Steuerbilanz? · Ich bin Malte."
+        },
+        {
+          "art": "text",
+          "titel": "Bilanzsteuerrecht",
+          "text": "Die Schuld · 200.000 € Rückzahlungsbetrag werden passiviert. · § 6 Abs. 1 Nr. 3 S. 1 EStG · Keine Abzinsung, auch nicht bei Unverzinslichkeit. · § 52 Abs. 12 S. 2 EStG · 200.000 € Erfüllungsbetrag auch in der Handelsbilanz. · § 253 Abs. 1 S. 2 HGB · Voller Betrag!"
+        },
+        {
+          "art": "text",
+          "titel": "Bilanzsteuerrecht",
+          "text": "Das Disagio · 8.000 € Unterschied sind Zins für die Laufzeit. · Steuerlich Pflicht: aktiver Rechnungsabgrenzungsposten. · § 5 Abs. 5 S. 1 Nr. 1 EStG · Fälligkeitsdarlehen: gleichmäßig über die Laufzeit auflösen. · Zins im Voraus."
+        },
+        {
+          "art": "text",
+          "titel": "Bilanzsteuerrecht",
+          "text": "Lösung zum 31.12.2026 · § 5 Abs. 5 S. 1 Nr. 1 EStG · Disagio · 8.000 € · Auflösung 6 von 48 Monaten · − 1.000 € · Aktiver Posten · 7.000 € · Verbindlichkeit · 200.000 €"
+        },
+        {
+          "art": "text",
+          "titel": "Bilanzsteuerrecht",
+          "text": "Jetzt du · Variante: In der Handelsbilanz bucht Malte das Disagio sofort als Aufwand. · Darf er das, und was gilt dann in der Steuerbilanz? · Einfacher, oder?"
+        },
+        {
+          "art": "text",
+          "titel": "Bilanzsteuerrecht",
+          "text": "Lösung · Handelsbilanz: Wahlrecht, das Disagio darf aktiviert werden, muss aber nicht. · § 250 Abs. 3 S. 1 HGB · Steuerbilanz: trotzdem 7.000 € aktiver Posten. · § 5 Abs. 5 S. 1 Nr. 1 EStG · Steuerlicher Gewinn 2026 also 7.000 € höher. · Wahlrecht nur im HGB."
+        },
+        {
+          "art": "text",
+          "titel": "Bilanzsteuerrecht",
+          "text": "Kleinbetrag? · Auf den Posten darf nur verzichtet werden, wenn der Betrag die GWG-Grenze nicht übersteigt. · § 5 Abs. 5 S. 2 EStG · 8.000 € liegen weit darüber: Abgrenzung bleibt Pflicht. · § 6 Abs. 2 S. 1 EStG · Weit drüber!"
+        },
+        {
+          "art": "text",
+          "titel": "Bilanzsteuerrecht",
+          "text": "Schuld 200.000 €, aktiver Posten 7.000 € · Steuerlich Pflicht, im HGB Wahlrecht · Rückzahlung passivieren, · Disagio abgrenzen, · linear auflösen. · Speichern für Klausur 3 · Hättest du das Disagio gebucht? · Weiterwischen: § 5 EStG, § 250 HGB markiert"
+        },
+        {
+          "art": "text",
+          "titel": "Bilanzsteuerrecht",
+          "text": "§ 5 EStG, § 250 HGB (Auszug) · Disagio · Laufzeit · nur Kleinbetrag · HB: Wahlrecht · Malte: Steuerbilanz 7.000 € aktiv · auch wenn die HB sofort Aufwand bucht"
+        }
+      ]
+    },
+    "b3": {
+      "format": "reel",
+      "fach": "ao",
+      "klausur": 1,
+      "fachLabel": "Abgabenordnung",
+      "themaId": "ao-aufb-ao-jacobs-13-5",
+      "caption": "Haftet die Geschäftsführerin, wenn die GmbH ihre Steuern nicht zahlt? ⚖️\n\n▸ Gesetzliche Vertreter haben die steuerlichen Pflichten der GmbH zu erfüllen (§ 34 Abs. 1 AO).\n▸ Sie haften, wenn Steuern wegen einer vorsätzlichen oder grob fahrlässigen Pflichtverletzung zu spät oder gar nicht festgesetzt oder bezahlt werden (§ 69 S. 1 AO); leichte Fahrlässigkeit genügt nicht.\n▸ Die Haftung umfasst auch die Säumniszuschläge (§ 69 S. 2 AO).\n▸ Maßgeblich ist die Zeit, in der sie wirksam zur Geschäftsführerin bestellt ist; die Eintragung im Handelsregister wirkt nur deklaratorisch. Wer ohne Bestellung wie eine Geschäftsführerin auftritt, kann als Verfügungsberechtigte haften (§ 35 AO).\n\nSpeichern für Klausur 1 📌",
+      "hashtags": [
+        "#steuerberaterexamen",
+        "#steuerberaterprüfung",
+        "#examensvorbereitung",
+        "#abgabenordnung"
+      ],
+      "quellen": [
+        "§ 34 Abs. 1 AO",
+        "§ 69 S. 1, 2 AO",
+        "§ 35 AO"
+      ],
+      "slug": "2026-12-06-b3",
+      "kurztitel": "Geschäftsführerhaftung nach § 69 AO: Verschulden und Zeitraum",
+      "regelGeprueft": true,
+      "manuellGeprueft": false,
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "open-peeps-render",
+      "renderer": "open-peeps-v4",
+      "liveVorrangAktiv": true,
+      "bild": "op-cover",
+      "reelTyp": "merksatz",
+      "hookStil": "split",
+      "coverBadge": "Reel",
+      "szenen": [
+        {
+          "art": "hook",
+          "titel": "Haftet die Geschäftsführerin?"
+        },
+        {
+          "art": "schritt",
+          "titel": "Verschulden"
+        },
+        {
+          "art": "schritt",
+          "titel": "Typischer Fall"
+        },
+        {
+          "art": "schritt",
+          "titel": "Zeitraum"
+        }
+      ],
+      "sprecher": [
+        "Die GmbH zahlt ihre Umsatzsteuer nicht. Haftet Nadia als Geschäftsführerin? Leicht fahrlässig: nein. Grob fahrlässig: ja.",
+        "Paragraf neunundsechzig verlangt eine vorsätzliche oder grob fahrlässige Pflichtverletzung.",
+        "Etwa wenn sie fällige Steuern nicht zahlt, obwohl Geld da ist. Die Säumniszuschläge kommen dazu.",
+        "Und nur für die Zeit ihrer Bestellung zur Geschäftsführerin. Die Eintragung im Handelsregister entscheidet nicht.",
+        "Merke: Grob fahrlässig in der Amtszeit, dann haftet sie persönlich."
+      ],
+      "dauerS": 35.783,
+      "tempo": 1.0
+    },
+    "s4": {
+      "slot": "s4",
+      "art": "frage",
+      "fach": "ust",
+      "klausur": 1,
+      "fachLabel": "Umsatzsteuer",
+      "themaId": "ust-quiz-ust-8",
+      "beitragSlot": null,
+      "quellen": null,
+      "frage": [
+        "Soll-Versteuerung:",
+        "wann entsteht die Steuer?"
+      ],
+      "optionen": [
+        "Mit der Rechnung",
+        "Ende des Voranmeldungszeitraums der Leistung",
+        "Mit der Zahlung"
+      ],
+      "pairId": "ust-quiz-ust-8",
+      "sichtbareTexte": [
+        "Umsatzsteuer",
+        "Prüfungsfrage",
+        "Soll-Versteuerung:",
+        "wann entsteht die Steuer?",
+        "Mit der Rechnung",
+        "Ende des Voranmeldungszeitraums der Leistung",
+        "Mit der Zahlung",
+        "Auflösung in der nächsten Story"
+      ],
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
+      "liveVorrangAktiv": true,
+      "regelGeprueft": true
+    },
+    "s5": {
+      "slot": "s5",
+      "art": "antwort",
+      "fach": "ust",
+      "klausur": 1,
+      "fachLabel": "Umsatzsteuer",
+      "themaId": "ust-quiz-ust-8",
+      "beitragSlot": null,
+      "quellen": null,
+      "titel": [
+        "B: mit der",
+        "Leistung"
+      ],
+      "optionen": [
+        "Mit der Rechnung",
+        "Ende des Voranmeldungszeitraums der Leistung",
+        "Mit der Zahlung"
+      ],
+      "richtig": 1,
+      "text": "Anzahlung vorher? Dann entsteht die Steuer schon mit Ablauf des Zeitraums der Zahlung.",
+      "norm": "§ 13 Abs. 1 Nr. 1 Buchst. a S. 1, 4 UStG",
+      "pairId": "ust-quiz-ust-8",
+      "sichtbareTexte": [
+        "Umsatzsteuer",
+        "Auflösung",
+        "B: mit der",
+        "Leistung",
+        "Mit der Rechnung",
+        "Ende des Voranmeldungszeitraums der Leistung",
+        "Mit der Zahlung",
+        "Anzahlung vorher? Dann entsteht die Steuer schon mit Ablauf des Zeitraums der Zahlung.",
+        "§ 13 Abs. 1 Nr. 1 Buchst. a S. 1, 4 UStG"
+      ],
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
+      "liveVorrangAktiv": true,
+      "regelGeprueft": true
+    },
+    "s1": {
+      "slot": "s1",
+      "art": "teaser",
+      "fach": null,
+      "klausur": 0,
+      "fachLabel": "Alle Klausuren",
+      "themaId": null,
+      "beitragSlot": "b1",
+      "quellen": null,
+      "titel": [
+        "Woche kompakt: alle 3 Klausuren"
+      ],
+      "unter": "Wochenrückblick + Markier-Guide · im Profil",
+      "sichtbareTexte": [
+        "Alle Klausuren",
+        "Neu im Feed",
+        "Woche kompakt: alle 3 Klausuren",
+        "Wochenrückblick + Markier-Guide · im Profil"
+      ],
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
+      "liveVorrangAktiv": true,
+      "regelGeprueft": true
+    },
+    "s6": {
+      "slot": "s6",
+      "art": "norm",
+      "fach": "est",
+      "klausur": 2,
+      "fachLabel": "Einkommensteuer",
+      "themaId": "est-aufb-est-ks1-vv-02",
+      "beitragSlot": null,
+      "quellen": null,
+      "titel": [
+        "Miete, aber",
+        "kein § 21?"
+      ],
+      "norm": "§ 21 Abs. 3 EStG",
+      "punkte": [
+        [
+          "Halle an die eigene Betriebs-GmbH: Betriebsaufspaltung, gewerblich.",
+          "warn",
+          "§ 15 Abs. 1 S. 1 Nr. 1 EStG, H 15.7 (4) EStH"
+        ],
+        [
+          "Einzelner beweglicher Gegenstand: sonstige Einkünfte.",
+          "warn",
+          "§ 22 Nr. 3 S. 1 EStG"
+        ]
+      ],
+      "sichtbareTexte": [
+        "Einkommensteuer",
+        "Norm des Tages",
+        "Miete, aber",
+        "kein § 21?",
+        "§ 21 Abs. 3 EStG",
+        "Halle an die eigene Betriebs-GmbH: Betriebsaufspaltung, gewerblich.",
+        "§ 15 Abs. 1 S. 1 Nr. 1 EStG, H 15.7 (4) EStH",
+        "Einzelner beweglicher Gegenstand: sonstige Einkünfte.",
+        "§ 22 Nr. 3 S. 1 EStG"
+      ],
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
+      "liveVorrangAktiv": true,
+      "regelGeprueft": true
+    },
+    "s2": {
+      "slot": "s2",
+      "art": "teaser",
+      "fach": "bilanz",
+      "klausur": 3,
+      "fachLabel": "Bilanzsteuerrecht",
+      "themaId": null,
+      "beitragSlot": "b2",
+      "quellen": null,
+      "titel": [
+        "Darlehen mit Disagio"
+      ],
+      "unter": "Prüfungsfrage + Markier-Guide · im Profil",
+      "sichtbareTexte": [
+        "Bilanzsteuerrecht",
+        "Neu im Feed",
+        "Darlehen mit Disagio",
+        "Prüfungsfrage + Markier-Guide · im Profil"
+      ],
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
+      "liveVorrangAktiv": true,
+      "regelGeprueft": true
+    },
+    "s7": {
+      "slot": "s7",
+      "art": "tipp",
+      "fach": null,
+      "klausur": 0,
+      "fachLabel": "Klausurtechnik",
+      "themaId": null,
+      "beitragSlot": null,
+      "quellen": null,
+      "titel": [
+        "Die letzten",
+        "15 Minuten"
+      ],
+      "punkte": [
+        [
+          "Offene Teile mit Ergebnis und Norm anreißen.",
+          "ok",
+          null
+        ],
+        [
+          "Seiten nummerieren, Lesbarkeit prüfen.",
+          "ok",
+          null
+        ]
+      ],
+      "icon": "tabler:clock",
+      "iconFarbe": "GELB",
+      "sichtbareTexte": [
+        "Klausurtechnik",
+        "Klausurtipp",
+        "Die letzten",
+        "15 Minuten",
+        "Offene Teile mit Ergebnis und Norm anreißen.",
+        "Seiten nummerieren, Lesbarkeit prüfen."
+      ],
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
+      "liveVorrangAktiv": true,
+      "regelGeprueft": true
+    },
+    "s8": {
+      "slot": "s8",
+      "art": "tipp",
+      "fach": "bilanz",
+      "klausur": 3,
+      "fachLabel": "Bilanzsteuerrecht",
+      "themaId": "bilanz-karte-k3-10",
+      "beitragSlot": null,
+      "quellen": null,
+      "titel": [
+        "Disagio:",
+        "linear oder fallend?"
+      ],
+      "punkte": [
+        [
+          "Fälligkeitsdarlehen: gleichmäßig über die Laufzeit.",
+          "ok",
+          "§ 5 Abs. 5 S. 1 Nr. 1 EStG"
+        ],
+        [
+          "Tilgungsdarlehen: fallend nach der Zinsstaffel.",
+          "warn",
+          null
+        ]
+      ],
+      "icon": "tabler:chart-line",
+      "iconFarbe": "GELB",
+      "sichtbareTexte": [
+        "Bilanzsteuerrecht",
+        "Klausurtipp",
+        "Disagio:",
+        "linear oder fallend?",
+        "Fälligkeitsdarlehen: gleichmäßig über die Laufzeit.",
+        "§ 5 Abs. 5 S. 1 Nr. 1 EStG",
+        "Tilgungsdarlehen: fallend nach der Zinsstaffel."
+      ],
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
+      "liveVorrangAktiv": true,
+      "regelGeprueft": true
+    },
+    "s3": {
+      "slot": "s3",
+      "art": "teaser",
+      "fach": "ao",
+      "klausur": 1,
+      "fachLabel": "Abgabenordnung",
+      "themaId": null,
+      "beitragSlot": "b3",
+      "quellen": null,
+      "titel": [
+        "Haftet die Geschäftsführerin?"
+      ],
+      "unter": "Neues Reel · im Profil",
+      "sichtbareTexte": [
+        "Abgabenordnung",
+        "Neu im Feed",
+        "Haftet die Geschäftsführerin?",
+        "Neues Reel · im Profil"
+      ],
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
+      "liveVorrangAktiv": true,
+      "regelGeprueft": true
+    },
+    "s9": {
+      "slot": "s9",
+      "art": "merksatz",
+      "fach": "ao",
+      "klausur": 1,
+      "fachLabel": "Abgabenordnung",
+      "themaId": "ao-aufb-ao-jacobs-3-11",
+      "beitragSlot": null,
+      "quellen": null,
+      "titel": [
+        "Bescheid per Post:",
+        "wann bekannt?"
+      ],
+      "zeilen": [
+        [
+          [
+            "Vierter Tag",
+            "a"
+          ],
+          [
+            " nach Aufgabe,",
+            null
+          ]
+        ],
+        [
+          [
+            "später",
+            "b"
+          ],
+          [
+            " zugegangen:",
+            null
+          ]
+        ],
+        [
+          [
+            "dann ",
+            null
+          ],
+          [
+            "später",
+            "b"
+          ],
+          [
+            ".",
+            null
+          ]
+        ]
+      ],
+      "norm": "§ 122 Abs. 2 Nr. 1 AO",
+      "sichtbareTexte": [
+        "Abgabenordnung",
+        "Merksatz",
+        "Bescheid per Post:",
+        "wann bekannt?",
+        "Vierter Tag nach Aufgabe,",
+        "später zugegangen:",
+        "dann später.",
+        "§ 122 Abs. 2 Nr. 1 AO"
+      ],
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
+      "liveVorrangAktiv": true,
+      "regelGeprueft": true
+    }
+  },
+  "renderVorschau": {
+    "status": "fertig",
+    "erzeugtAm": "2026-11-22T08:04:18Z",
+    "pfad": "vorproduktion/2026-12-06/fertig",
+    "providerKostenUsd": 0,
+    "coverbilder": false,
+    "coverIcons": false,
+    "renderer": "open-peeps-v4",
+    "layoutQuelle": "open-peeps-variante-c",
+    "reelStimme": "elevenlabs-laura",
+    "sfx": "freesound-cc0",
+    "freigabeBetreiber": true,
+    "liveVorrangAktiv": true,
+    "normalbetriebGesperrt": true,
+    "wartetLive": []
+  }
+}
