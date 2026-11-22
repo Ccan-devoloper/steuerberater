@@ -1,0 +1,38 @@
+{
+  "slot": "s5",
+  "art": "antwort",
+  "fach": "kst",
+  "klausur": 2,
+  "fachLabel": "Körperschaftsteuer",
+  "themaId": "kst-quiz-steuersatz-2026",
+  "beitragSlot": null,
+  "quellen": null,
+  "titel": [
+    "A: 15 %"
+  ],
+  "optionen": [
+    "15 %",
+    "14 %",
+    "10 %"
+  ],
+  "richtig": 0,
+  "text": "Bis 2027 bleibt es bei 15 %. Ab 2028 sinkt der Satz jedes Jahr um einen Punkt.",
+  "norm": "§ 23 Abs. 1 KStG",
+  "pairId": "kst-quiz-steuersatz-2026",
+  "sichtbareTexte": [
+    "Körperschaftsteuer",
+    "Auflösung",
+    "A: 15 %",
+    "15 %",
+    "14 %",
+    "10 %",
+    "Bis 2027 bleibt es bei 15 %. Ab 2028 sinkt der Satz jedes Jahr um einen Punkt.",
+    "§ 23 Abs. 1 KStG"
+  ],
+  "renderer": "open-peeps-v4",
+  "bildStatus": "open-peeps-render",
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "liveVorrangAktiv": true,
+  "regelGeprueft": true
+}

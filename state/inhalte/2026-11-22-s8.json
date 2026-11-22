@@ -1,0 +1,51 @@
+{
+  "slot": "s8",
+  "art": "tipp",
+  "fach": "ao",
+  "klausur": 1,
+  "fachLabel": "Abgabenordnung",
+  "themaId": "ao-modul-ao-377",
+  "beitragSlot": null,
+  "quellen": null,
+  "titel": [
+    "Sonstiger VA:",
+    "welche Korrektur?"
+  ],
+  "punkte": [
+    [
+      "Offenbarer Fehler: berichtigen.",
+      "ok",
+      "§ 129 AO"
+    ],
+    [
+      "Rechtswidrig: Rücknahme.",
+      "ok",
+      "§ 130 AO"
+    ],
+    [
+      "Rechtmäßig: Widerruf.",
+      "ok",
+      "§ 131 AO"
+    ]
+  ],
+  "icon": "tabler:git-branch",
+  "iconFarbe": "GELB",
+  "sichtbareTexte": [
+    "Abgabenordnung",
+    "Klausurtipp",
+    "Sonstiger VA:",
+    "welche Korrektur?",
+    "Offenbarer Fehler: berichtigen.",
+    "§ 129 AO",
+    "Rechtswidrig: Rücknahme.",
+    "§ 130 AO",
+    "Rechtmäßig: Widerruf.",
+    "§ 131 AO"
+  ],
+  "renderer": "open-peeps-v4",
+  "bildStatus": "open-peeps-render",
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "liveVorrangAktiv": true,
+  "regelGeprueft": true
+}

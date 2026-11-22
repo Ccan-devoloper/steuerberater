@@ -1,0 +1,36 @@
+{
+  "slot": "s4",
+  "art": "frage",
+  "fach": "kst",
+  "klausur": 2,
+  "fachLabel": "Körperschaftsteuer",
+  "themaId": "kst-quiz-steuersatz-2026",
+  "beitragSlot": null,
+  "quellen": null,
+  "frage": [
+    "Körperschaftsteuer:",
+    "Satz für 2026?"
+  ],
+  "optionen": [
+    "15 %",
+    "14 %",
+    "10 %"
+  ],
+  "pairId": "kst-quiz-steuersatz-2026",
+  "sichtbareTexte": [
+    "Körperschaftsteuer",
+    "Prüfungsfrage",
+    "Körperschaftsteuer:",
+    "Satz für 2026?",
+    "15 %",
+    "14 %",
+    "10 %",
+    "Auflösung in der nächsten Story"
+  ],
+  "renderer": "open-peeps-v4",
+  "bildStatus": "open-peeps-render",
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "liveVorrangAktiv": true,
+  "regelGeprueft": true
+}

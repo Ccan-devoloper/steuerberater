@@ -1,0 +1,44 @@
+{
+  "slot": "s6",
+  "art": "norm",
+  "fach": "bilanz",
+  "klausur": 3,
+  "fachLabel": "Bilanzsteuerrecht",
+  "themaId": "bilanz-glossar-1",
+  "beitragSlot": null,
+  "quellen": null,
+  "titel": [
+    "Maßgeblichkeit:",
+    "HGB als Start"
+  ],
+  "norm": "§ 5 Abs. 1 S. 1 EStG",
+  "punkte": [
+    [
+      "Die Steuerbilanz folgt den Grundsätzen ordnungsmäßiger Buchführung.",
+      "ok",
+      "§ 5 Abs. 1 S. 1 Hs. 1 EStG"
+    ],
+    [
+      "Steuerliche Sonderregeln gehen vor, etwa zur Bewertung.",
+      "warn",
+      "§ 5 Abs. 6 EStG"
+    ]
+  ],
+  "sichtbareTexte": [
+    "Bilanzsteuerrecht",
+    "Norm des Tages",
+    "Maßgeblichkeit:",
+    "HGB als Start",
+    "§ 5 Abs. 1 S. 1 EStG",
+    "Die Steuerbilanz folgt den Grundsätzen ordnungsmäßiger Buchführung.",
+    "§ 5 Abs. 1 S. 1 Hs. 1 EStG",
+    "Steuerliche Sonderregeln gehen vor, etwa zur Bewertung.",
+    "§ 5 Abs. 6 EStG"
+  ],
+  "renderer": "open-peeps-v4",
+  "bildStatus": "open-peeps-render",
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "liveVorrangAktiv": true,
+  "regelGeprueft": true
+}

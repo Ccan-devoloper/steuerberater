@@ -1,0 +1,61 @@
+{
+  "format": "reel",
+  "fach": "kst",
+  "klausur": 2,
+  "fachLabel": "Körperschaftsteuer",
+  "themaId": "kst-aufb-kst-t6-22",
+  "caption": "Dividende an die Organgesellschaft: Wer wendet § 8b KStG an? 🏢\n\n▸ Bei der Organgesellschaft sind § 8b Abs. 1 bis 6 KStG nicht anzuwenden; die Dividende geht brutto in das dem Organträger zugerechnete Einkommen ein (§ 15 S. 1 Nr. 2 S. 1 KStG).\n▸ Erst bei der Ermittlung des Einkommens des Organträgers sind § 8b KStG bzw. § 3 Nr. 40 und § 3c Abs. 2 EStG anzuwenden (§ 15 S. 1 Nr. 2 S. 2 KStG): Kapitalgesellschaft als Organträger § 8b KStG, natürliche Person Teileinkünfteverfahren.\n▸ Für die 10-%-Grenze des § 8b Abs. 4 KStG werden Beteiligungen von Organgesellschaft und Organträger getrennt betrachtet (§ 15 S. 1 Nr. 2 S. 4 KStG).\n\nSpeichern für Klausur 2 📌",
+  "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#körperschaftsteuer"
+  ],
+  "quellen": [
+    "§ 15 S. 1 Nr. 2 S. 1, 2, 4 KStG",
+    "§ 8b Abs. 1–6 KStG",
+    "§ 3 Nr. 40, § 3c Abs. 2 EStG"
+  ],
+  "slug": "2026-11-22-b3",
+  "kurztitel": "Dividenden der Organgesellschaft: Wer wendet § 8b KStG an?",
+  "regelGeprueft": true,
+  "manuellGeprueft": false,
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "textProviderKostenUsd": 0,
+  "faktencheckProviderKostenUsd": 0,
+  "bildStatus": "open-peeps-render",
+  "renderer": "open-peeps-v4",
+  "liveVorrangAktiv": true,
+  "bild": "op-cover",
+  "reelTyp": "merksatz",
+  "hookStil": "kippen",
+  "coverBadge": "Reel",
+  "szenen": [
+    {
+      "art": "hook",
+      "titel": "Organgesellschaft stellt frei?"
+    },
+    {
+      "art": "schritt",
+      "titel": "Organgesellschaft"
+    },
+    {
+      "art": "schritt",
+      "titel": "Organträger"
+    },
+    {
+      "art": "schritt",
+      "titel": "Die 10-%-Grenze"
+    }
+  ],
+  "sprecher": [
+    "Die Organgesellschaft bekommt eine Dividende und stellt sie selbst frei? Falsch. Das macht erst der Organträger.",
+    "Bei der Organgesellschaft bleibt Paragraf acht b außen vor. Die Dividende geht brutto ins zugerechnete Einkommen.",
+    "Erst beim Organträger wird entschieden: Ist er eine GmbH, gilt Paragraf acht b. Ist er ein Mensch, das Teileinkünfteverfahren.",
+    "Die Zehn-Prozent-Grenze prüft jede Gesellschaft für ihre eigenen Anteile.",
+    "Merke: brutto zurechnen, erst beim Organträger freistellen."
+  ],
+  "dauerS": 35.783,
+  "tempo": 1
+}

@@ -1,0 +1,48 @@
+{
+  "slot": "s7",
+  "art": "tipp",
+  "fach": null,
+  "klausur": 0,
+  "fachLabel": "Klausurtechnik",
+  "themaId": null,
+  "beitragSlot": null,
+  "quellen": null,
+  "titel": [
+    "Sonntag:",
+    "Fehlerliste"
+  ],
+  "punkte": [
+    [
+      "Drei Fehler der Woche aufschreiben.",
+      "ok",
+      null
+    ],
+    [
+      "Zu jedem Fehler die richtige Norm.",
+      "ok",
+      null
+    ],
+    [
+      "Montag zuerst diese Liste lesen.",
+      "ok",
+      null
+    ]
+  ],
+  "icon": "tabler:list-details",
+  "iconFarbe": "GELB",
+  "sichtbareTexte": [
+    "Klausurtechnik",
+    "Klausurtipp",
+    "Sonntag:",
+    "Fehlerliste",
+    "Drei Fehler der Woche aufschreiben.",
+    "Zu jedem Fehler die richtige Norm.",
+    "Montag zuerst diese Liste lesen."
+  ],
+  "renderer": "open-peeps-v4",
+  "bildStatus": "open-peeps-render",
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "liveVorrangAktiv": true,
+  "regelGeprueft": true
+}

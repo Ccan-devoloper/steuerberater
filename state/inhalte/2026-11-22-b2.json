@@ -1,0 +1,84 @@
+{
+  "format": "pruefungsfrage",
+  "fach": "ust",
+  "klausur": 1,
+  "fachLabel": "Umsatzsteuer",
+  "themaId": "ust-aufb-ust-m-b10-29",
+  "caption": "Prüfungsfrage zur Kleinunternehmerregelung seit 2025: Welche Grenzen gelten nach § 19 UStG?\n\n▸ Umsätze sind steuerfrei, wenn der Gesamtumsatz im Vorjahr 25.000 € nicht überschritten hat und im laufenden Jahr 100.000 € nicht überschreitet (§ 19 Abs. 1 S. 1 UStG). Kein Vorsteuerabzug für steuerfreie Umsätze (§ 15 Abs. 2 S. 1 Nr. 1 UStG).\n▸ Gesamtumsatz nach vereinnahmten Entgelten; bestimmte steuerfreie Umsätze und Umsätze mit Anlagevermögen bleiben außer Ansatz (§ 19 Abs. 2 UStG).\n▸ Bereits der Umsatz, mit dem die 100.000-€-Grenze überschritten wird, unterliegt der Regelbesteuerung; frühere Umsätze bleiben steuerfrei (Abschn. 19.1 Abs. 2 S. 4 UStAE i. d. F. des BMF-Schreibens vom 18.03.2025).\n▸ Bei Neuaufnahme der Tätigkeit zählt allein der Umsatz des laufenden Jahres, Grenze 25.000 € (Abschn. 19.1 Abs. 3 UStAE).\n\nBeispiel: 96.000 € steuerfrei, der Auftrag über 7.000 € (Summe 103.000 €) ist steuerpflichtig, 2027 Regelbesteuerung.\n\nZum Schluss: § 19 UStG und Abschn. 19.1 UStAE zum Markieren. Speichern für Klausur 1 📌",
+  "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#umsatzsteuer"
+  ],
+  "quellen": [
+    "§ 19 Abs. 1 S. 1, Abs. 2 UStG",
+    "§ 15 Abs. 2 S. 1 Nr. 1 UStG",
+    "Abschn. 19.1 UStAE (BMF vom 18.03.2025)"
+  ],
+  "slug": "2026-11-22-b2",
+  "kurztitel": "Kleinunternehmer ab 2025: Die Grenzen des § 19 UStG",
+  "regelGeprueft": true,
+  "manuellGeprueft": false,
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "textProviderKostenUsd": 0,
+  "faktencheckProviderKostenUsd": 0,
+  "bildStatus": "open-peeps-render",
+  "renderer": "open-peeps-v4",
+  "liveVorrangAktiv": true,
+  "coverBadge": "Prüfungsfrage",
+  "folien": [
+    {
+      "art": "titel",
+      "titel": "Prüfungsfrage",
+      "text": "Prüfungsfrage · Kleinunternehmer: · die Grenzen · § 19 Abs. 1 UStG · Die Frage · + Markier-Guide § 19 + UStAE · Vorjahr · 25.000 € · laufend 100.000 €",
+      "bild": "op-cover"
+    },
+    {
+      "art": "text",
+      "titel": "Umsatzsteuer",
+      "text": "Die Klausurfrage · Smilla gestaltet Logos. Gesamtumsatz 2025: 23.000 €. · 2026 hat sie bis zum 10.11. schon 96.000 € vereinnahmt. Am 12.11. folgt ein Auftrag über 7.000 €. · Wie sind die Umsätze 2026 und 2027 zu behandeln? · Ich bin Smilla."
+    },
+    {
+      "art": "text",
+      "titel": "Umsatzsteuer",
+      "text": "Die zwei Grenzen · Vorjahr: Gesamtumsatz höchstens 25.000 €. · § 19 Abs. 1 S. 1 UStG · Laufendes Jahr: höchstens 100.000 €. · § 19 Abs. 1 S. 1 UStG · Folge: Umsätze steuerfrei, dafür kein Vorsteuerabzug. · § 15 Abs. 2 S. 1 Nr. 1 UStG · Zwei Hürden."
+    },
+    {
+      "art": "text",
+      "titel": "Umsatzsteuer",
+      "text": "Grenze im Jahr gerissen · Schon der Umsatz, mit dem 100.000 € überschritten werden, ist regulär zu versteuern. · Abschn. 19.1 Abs. 2 S. 4 UStAE · Frühere Umsätze desselben Jahres bleiben steuerfrei. · Sofort?"
+    },
+    {
+      "art": "text",
+      "titel": "Umsatzsteuer",
+      "text": "Lösung · Bis 10.11.: 96.000 €, steuerfrei. · § 19 Abs. 1 S. 1 UStG · Auftrag über 7.000 €: Summe 103.000 €, dieser Umsatz ist schon steuerpflichtig. · Abschn. 19.1 Abs. 2 S. 4 UStAE · 2027: Regelbesteuerung, weil 2026 über 25.000 € lag. · § 19 Abs. 1 S. 1 UStG · Ab jetzt mit 19 %."
+    },
+    {
+      "art": "text",
+      "titel": "Umsatzsteuer",
+      "text": "Jetzt du · Variante: Smilla gründet erst am 01.07.2026. · Welche Grenze gilt im Gründungsjahr? · Neustart?"
+    },
+    {
+      "art": "text",
+      "titel": "Umsatzsteuer",
+      "text": "Lösung · Im Jahr der Aufnahme zählt allein der Umsatz dieses Jahres. · Abschn. 19.1 Abs. 3 UStAE · Grenze dann: 25.000 €, nicht 100.000 €. · Abschn. 19.1 Abs. 3 UStAE · Gut zu wissen."
+    },
+    {
+      "art": "text",
+      "titel": "Umsatzsteuer",
+      "text": "Was zum Gesamtumsatz zählt · Gerechnet wird nach vereinnahmten Entgelten. · § 19 Abs. 2 S. 1 UStG · Bestimmte steuerfreie Umsätze und Verkäufe von Anlagevermögen bleiben außen vor. · § 19 Abs. 2 S. 1 Nr. 1, 2, S. 2 UStG · Nicht alles zählt."
+    },
+    {
+      "art": "text",
+      "titel": "Umsatzsteuer",
+      "text": "Vorjahr ≤ 25.000 € und laufendes Jahr ≤ 100.000 € · Gründungsjahr: 25.000 € · Vorjahr 25.000 €, · laufend 100.000 €, · der Umsatz drüber · ist schon steuerpflichtig. · Speichern für Klausur 1 · Hättest du den 7.000-€-Auftrag erkannt? · Weiterwischen: § 19 + UStAE markiert"
+    },
+    {
+      "art": "text",
+      "titel": "Umsatzsteuer",
+      "text": "§ 19 UStG Kleinunternehmer (Auszug) · seit 2025: frei · Vorjahr · laufend · Ist-Prinzip · Abschn. 19.1 UStAE (Auszug) · schon dieser! · Gründungsjahr · 25.000 € · Daneben: § 15 Abs. 2 S. 1 Nr. 1 UStG · Steuerfrei heißt: kein Vorsteuerabzug"
+    }
+  ]
+}
