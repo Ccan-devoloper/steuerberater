@@ -1,0 +1,36 @@
+{
+  "slot": "s4",
+  "art": "frage",
+  "fach": "bilanz",
+  "klausur": 3,
+  "fachLabel": "Bilanzsteuerrecht",
+  "themaId": "bilanz-quiz-k3-2",
+  "beitragSlot": null,
+  "quellen": null,
+  "frage": [
+    "25 Punkte:",
+    "wie viel Zeit?"
+  ],
+  "optionen": [
+    "75 Minuten",
+    "90 Minuten",
+    "100 Minuten"
+  ],
+  "pairId": "bilanz-quiz-k3-2",
+  "sichtbareTexte": [
+    "Bilanzsteuerrecht",
+    "Prüfungsfrage",
+    "25 Punkte:",
+    "wie viel Zeit?",
+    "75 Minuten",
+    "90 Minuten",
+    "100 Minuten",
+    "Auflösung in der nächsten Story"
+  ],
+  "renderer": "open-peeps-v4",
+  "bildStatus": "open-peeps-render",
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "liveVorrangAktiv": true,
+  "regelGeprueft": true
+}

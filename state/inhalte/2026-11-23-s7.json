@@ -1,0 +1,49 @@
+{
+  "slot": "s7",
+  "art": "tipp",
+  "fach": null,
+  "klausur": 0,
+  "fachLabel": "Zweiter Anlauf",
+  "themaId": null,
+  "beitragSlot": null,
+  "quellen": null,
+  "ueberzeile": "Lernstrategie",
+  "titel": [
+    "Zweiter Anlauf:",
+    "Takt statt Marathon"
+  ],
+  "punkte": [
+    [
+      "Jede Woche eine Klausur in Echtzeit schreiben.",
+      "ok",
+      null
+    ],
+    [
+      "Selbst korrigieren, Fehler in eine Liste.",
+      "ok",
+      null
+    ],
+    [
+      "Die Liste vor der nächsten Klausur lesen.",
+      "ok",
+      null
+    ]
+  ],
+  "icon": "tabler:calendar-repeat",
+  "iconFarbe": "GELB",
+  "sichtbareTexte": [
+    "Zweiter Anlauf",
+    "Lernstrategie",
+    "Zweiter Anlauf:",
+    "Takt statt Marathon",
+    "Jede Woche eine Klausur in Echtzeit schreiben.",
+    "Selbst korrigieren, Fehler in eine Liste.",
+    "Die Liste vor der nächsten Klausur lesen."
+  ],
+  "renderer": "open-peeps-v4",
+  "bildStatus": "open-peeps-render",
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "liveVorrangAktiv": true,
+  "regelGeprueft": true
+}

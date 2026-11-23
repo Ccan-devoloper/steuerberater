@@ -1,0 +1,44 @@
+{
+  "slot": "s6",
+  "art": "norm",
+  "fach": "ust",
+  "klausur": 1,
+  "fachLabel": "Umsatzsteuer",
+  "themaId": "ust-aufb-ust-m-b13-9",
+  "beitragSlot": null,
+  "quellen": null,
+  "titel": [
+    "Werbegeschenk:",
+    "Umsatzsteuer?"
+  ],
+  "norm": "§ 3 Abs. 1b S. 1 Nr. 3 UStG",
+  "punkte": [
+    [
+      "Gilt als Lieferung, wenn der Gegenstand zum Vorsteuerabzug berechtigt hat.",
+      "ok",
+      "§ 3 Abs. 1b S. 2 UStG"
+    ],
+    [
+      "Ausnahme: Geschenke bis 50 € netto je Empfänger und Jahr.",
+      "warn",
+      "Abschn. 3.3 Abs. 11 UStAE"
+    ]
+  ],
+  "sichtbareTexte": [
+    "Umsatzsteuer",
+    "Norm des Tages",
+    "Werbegeschenk:",
+    "Umsatzsteuer?",
+    "§ 3 Abs. 1b S. 1 Nr. 3 UStG",
+    "Gilt als Lieferung, wenn der Gegenstand zum Vorsteuerabzug berechtigt hat.",
+    "§ 3 Abs. 1b S. 2 UStG",
+    "Ausnahme: Geschenke bis 50 € netto je Empfänger und Jahr.",
+    "Abschn. 3.3 Abs. 11 UStAE"
+  ],
+  "renderer": "open-peeps-v4",
+  "bildStatus": "open-peeps-render",
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "liveVorrangAktiv": true,
+  "regelGeprueft": true
+}

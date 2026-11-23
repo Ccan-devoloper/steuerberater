@@ -1,0 +1,62 @@
+{
+  "format": "reel",
+  "fach": "bilanz",
+  "klausur": 3,
+  "fachLabel": "Bilanzsteuerrecht",
+  "themaId": "bilanz-aufb-bil-melzer-4-04",
+  "caption": "Teilwert unter Buchwert: Wann darf die Steuerbilanz abschreiben? 📉\n\n▸ Abnutzbares Anlagevermögen: Der niedrigere Teilwert darf nur bei voraussichtlich dauernder Wertminderung angesetzt werden (§ 6 Abs. 1 Nr. 1 S. 2 EStG). Das steuerliche Wahlrecht kann unabhängig von der Handelsbilanz ausgeübt werden (§ 5 Abs. 1 S. 1 Hs. 2 EStG).\n▸ Dauernd ist die Minderung, wenn der Wert am Stichtag mindestens für die halbe Restnutzungsdauer unter dem planmäßigen Restbuchwert liegt (BMF vom 02.09.2016, Rn. 8).\n▸ Beispiel: Anschaffung 120.000 €, Nutzungsdauer 8 Jahre, AfA 15.000 € (§ 7 Abs. 1 S. 1, 2 EStG). Nach 2 Jahren Buchwert 90.000 €, Restnutzung 6 Jahre. Nach der Hälfte (3 Jahre) planmäßig 45.000 €. Teilwert 50.000 € liegt darüber: keine Teilwertabschreibung. Läge er bei 40.000 €, wäre die Minderung dauerhaft.\n▸ Fällt der Grund später weg, ist zuzuschreiben, höchstens bis zum fortgeführten Wert (§ 6 Abs. 1 Nr. 1 S. 4 EStG).\n\nSpeichern für Klausur 3 📌",
+  "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#bilanzsteuerrecht"
+  ],
+  "quellen": [
+    "§ 6 Abs. 1 Nr. 1 S. 2, 4 EStG",
+    "§ 5 Abs. 1 S. 1 EStG",
+    "§ 7 Abs. 1 S. 1, 2 EStG",
+    "BMF vom 02.09.2016, Rn. 8"
+  ],
+  "slug": "2026-11-23-b3",
+  "kurztitel": "Wann ist eine Teilwertabschreibung steuerlich zulässig?",
+  "regelGeprueft": true,
+  "manuellGeprueft": false,
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "textProviderKostenUsd": 0,
+  "faktencheckProviderKostenUsd": 0,
+  "bildStatus": "open-peeps-render",
+  "renderer": "open-peeps-v4",
+  "liveVorrangAktiv": true,
+  "bild": "op-cover",
+  "reelTyp": "rechnung",
+  "hookStil": "split",
+  "coverBadge": "Reel",
+  "szenen": [
+    {
+      "art": "hook",
+      "titel": "Teilwert sinkt: abschreiben?"
+    },
+    {
+      "art": "schritt",
+      "titel": "Die Maschine"
+    },
+    {
+      "art": "schritt",
+      "titel": "Halbe Restnutzung"
+    },
+    {
+      "art": "schritt",
+      "titel": "Der Vergleich"
+    }
+  ],
+  "sprecher": [
+    "Buchwert neunzigtausend, Teilwert fünfzigtausend. Sofort abschreiben? Noch nicht.",
+    "Mira kaufte die Maschine für hundertzwanzigtausend Euro, Nutzungsdauer acht Jahre. Nach zwei Jahren: neunzigtausend Buchwert, sechs Jahre Rest.",
+    "Rechne die halbe Restnutzung weiter, also drei Jahre. Planmäßig sinkt der Buchwert auf fünfundvierzigtausend.",
+    "Der Teilwert liegt mit fünfzigtausend darüber. Also nicht dauerhaft gemindert, keine Teilwertabschreibung.",
+    "Merke: halbe Restnutzung rechnen, dann vergleichen."
+  ],
+  "dauerS": 38.253,
+  "tempo": 1
+}

@@ -1,0 +1,38 @@
+{
+  "slot": "s5",
+  "art": "antwort",
+  "fach": "bilanz",
+  "klausur": 3,
+  "fachLabel": "Bilanzsteuerrecht",
+  "themaId": "bilanz-quiz-k3-2",
+  "beitragSlot": null,
+  "quellen": null,
+  "titel": [
+    "B: 90 Minuten"
+  ],
+  "optionen": [
+    "75 Minuten",
+    "90 Minuten",
+    "100 Minuten"
+  ],
+  "richtig": 1,
+  "text": "Sechs Stunden für 100 Punkte: 3,6 Minuten je Punkt. 25 mal 3,6 ergibt 90.",
+  "norm": "§ 18 Abs. 1 S. 3 DVStB",
+  "pairId": "bilanz-quiz-k3-2",
+  "sichtbareTexte": [
+    "Bilanzsteuerrecht",
+    "Auflösung",
+    "B: 90 Minuten",
+    "75 Minuten",
+    "90 Minuten",
+    "100 Minuten",
+    "Sechs Stunden für 100 Punkte: 3,6 Minuten je Punkt. 25 mal 3,6 ergibt 90.",
+    "§ 18 Abs. 1 S. 3 DVStB"
+  ],
+  "renderer": "open-peeps-v4",
+  "bildStatus": "open-peeps-render",
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "liveVorrangAktiv": true,
+  "regelGeprueft": true
+}

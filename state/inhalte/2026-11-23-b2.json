@@ -1,0 +1,84 @@
+{
+  "format": "schema",
+  "fach": "kst",
+  "klausur": 2,
+  "fachLabel": "Körperschaftsteuer",
+  "themaId": "kst-schema-5",
+  "caption": "Ertragsteuerliche Organschaft in fünf Schritten: das Prüfschema für die Körperschaftsteuer-Klausur.\n\n1. Taugliche Organgesellschaft: SE, AG oder KGaA mit Geschäftsleitung im Inland und Sitz in EU/EWR (§ 14 Abs. 1 S. 1 KStG); andere Kapitalgesellschaften wie die GmbH entsprechend, wenn die Verlustübernahme durch Verweis auf § 302 AktG in seiner jeweils gültigen Fassung vereinbart ist (§ 17 Abs. 1 S. 1, S. 2 Nr. 2 KStG).\n2. Tauglicher Organträger: gewerbliches Unternehmen einer natürlichen Person oder nicht steuerbefreiten Körperschaft; Personengesellschaft nur mit eigener gewerblicher Tätigkeit; die Beteiligung muss einer inländischen Betriebsstätte zuzuordnen sein (§ 14 Abs. 1 S. 1 Nr. 2 S. 1, 2, 4 KStG).\n3. Finanzielle Eingliederung: Mehrheit der Stimmrechte ununterbrochen vom Beginn des Wirtschaftsjahres der Organgesellschaft an (§ 14 Abs. 1 S. 1 Nr. 1 KStG).\n4. Gewinnabführungsvertrag auf mindestens fünf Jahre, während der gesamten Geltungsdauer durchgeführt (§ 14 Abs. 1 S. 1 Nr. 3 S. 1 KStG).\n5. Rechtsfolge: Das Einkommen der Organgesellschaft wird dem Organträger zugerechnet, zum ersten Mal für das Jahr, in dem ihr erstes Wirtschaftsjahr mit wirksamem Vertrag abläuft (§ 14 Abs. 1 S. 1, 2 KStG).\n\nBeispiel: Gewinn der AG 650.000 € – Gewinnabführung 400.000 € + Einkommen der GmbH 420.000 € = 670.000 €.\n\nZum Schluss: §§ 14, 17 KStG zum Markieren. Speichern für Klausur 2 📌",
+  "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#körperschaftsteuer"
+  ],
+  "quellen": [
+    "§ 14 Abs. 1 S. 1 Nr. 1–3, S. 2 KStG",
+    "§ 17 Abs. 1 S. 1, S. 2 Nr. 2 KStG",
+    "§ 302 AktG"
+  ],
+  "slug": "2026-11-23-b2",
+  "kurztitel": "Ertragsteuerliche Organschaft",
+  "regelGeprueft": true,
+  "manuellGeprueft": false,
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "textProviderKostenUsd": 0,
+  "faktencheckProviderKostenUsd": 0,
+  "bildStatus": "open-peeps-render",
+  "renderer": "open-peeps-v4",
+  "liveVorrangAktiv": true,
+  "coverBadge": "Prüfschema",
+  "folien": [
+    {
+      "art": "titel",
+      "titel": "Prüfschema",
+      "text": "Prüfschema · Organschaft · prüfen · §§ 14, 17 KStG · in 5 Schritten · + Markier-Guide §§ 14, 17 KStG",
+      "bild": "op-cover"
+    },
+    {
+      "art": "text",
+      "titel": "Körperschaftsteuer",
+      "text": "Organschaft in 5 Schritten · Taugliche Tochter · § 14 Abs. 1 S. 1, § 17 Abs. 1 KStG · Tauglicher Träger · § 14 Abs. 1 S. 1 Nr. 2 KStG · Stimmenmehrheit ab WJ-Beginn · § 14 Abs. 1 S. 1 Nr. 1 KStG · Vertrag: 5 Jahre, gelebt · § 14 Abs. 1 S. 1 Nr. 3 KStG · Einkommen zurechnen · § 14 Abs. 1 S. 1, 2 KStG · Am Ende: §§ 14, 17 KStG markiert"
+    },
+    {
+      "art": "text",
+      "titel": "Körperschaftsteuer",
+      "text": "1 · Wer kann Tochter sein? · AG, KGaA oder SE, Leitung im Inland, Sitz in EU oder EWR. · § 14 Abs. 1 S. 1 KStG · Andere Kapitalgesellschaften wie die GmbH entsprechend. · § 17 Abs. 1 S. 1 KStG · GmbH: Die Verlustübernahme muss dynamisch auf das Aktienrecht verweisen. · § 17 Abs. 1 S. 2 Nr. 2 KStG · Ich bin Ingrid."
+    },
+    {
+      "art": "text",
+      "titel": "Körperschaftsteuer",
+      "text": "2 · Wer kann Mutter sein? · Gewerbliches Unternehmen einer natürlichen Person oder einer nicht befreiten Körperschaft. · § 14 Abs. 1 S. 1 Nr. 2 S. 1 KStG · Personengesellschaft nur mit eigener gewerblicher Tätigkeit. · § 14 Abs. 1 S. 1 Nr. 2 S. 2 KStG · Beteiligung gehört zu einer inländischen Betriebsstätte. · § 14 Abs. 1 S. 1 Nr. 2 S. 4 KStG · Auch eine KG?"
+    },
+    {
+      "art": "text",
+      "titel": "Körperschaftsteuer",
+      "text": "3 · Stimmen und Vertrag · Mehrheit der Stimmrechte, ununterbrochen ab Beginn des Wirtschaftsjahres der Tochter. · § 14 Abs. 1 S. 1 Nr. 1 S. 1 KStG · Gewinnabführungsvertrag auf mindestens fünf Jahre. · § 14 Abs. 1 S. 1 Nr. 3 S. 1 KStG · Und während der ganzen Laufzeit tatsächlich durchgeführt. · Auch gelebt?"
+    },
+    {
+      "art": "text",
+      "titel": "Körperschaftsteuer",
+      "text": "Jetzt du · Ingrid prüft die Nordwerk AG. Sie hält alle Anteile der Spindel GmbH, alle Voraussetzungen passen. · Bilanzgewinn der AG: 650.000 €, darin 400.000 € abgeführter Gewinn. Einkommen der GmbH: 420.000 €. · Was versteuert die AG? · Mitrechnen!"
+    },
+    {
+      "art": "text",
+      "titel": "Körperschaftsteuer",
+      "text": "Lösung · § 14 Abs. 1 S. 1 KStG · Gewinn der AG · 650.000 € · – Gewinnabführung · – 400.000 € · + Einkommen GmbH · + 420.000 € · Einkommen der AG · 670.000 € · Die GmbH selbst versteuert 0 €"
+    },
+    {
+      "art": "text",
+      "titel": "Körperschaftsteuer",
+      "text": "Nordwerk AG: Einkommen 670.000 € · Abführung heraus, Einkommen der GmbH hinein · Tochter tauglich, · Mutter gewerblich, · Stimmen ab Jahresbeginn, · Vertrag gelebt. · Speichern für Klausur 2 · Welcher Schritt fehlt dir oft? · Weiterwischen: §§ 14, 17 KStG markiert"
+    },
+    {
+      "art": "text",
+      "titel": "Körperschaftsteuer",
+      "text": "§ 14 KStG Organgesellschaft (Auszug) · Rechtsfolge · Zeitpunkt! · Stimmen, nicht Kapital · Laufzeit · Weiterwischen: § 17 KStG · GmbH als Tochter: Verlustübernahme"
+    },
+    {
+      "art": "text",
+      "titel": "Körperschaftsteuer",
+      "text": "§ 17 KStG (Auszug) · Spindel GmbH · dynamischer Verweis · Nordwerk: 650.000 € − 400.000 € · + 420.000 € = 670.000 € Einkommen"
+    }
+  ]
+}
