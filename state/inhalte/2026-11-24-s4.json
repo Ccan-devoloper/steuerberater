@@ -1,0 +1,37 @@
+{
+  "slot": "s4",
+  "art": "frage",
+  "fach": "erbst",
+  "klausur": 1,
+  "fachLabel": "Erbschaftsteuer",
+  "themaId": null,
+  "beitragSlot": null,
+  "quellen": null,
+  "frage": [
+    "Enkelin erbt,",
+    "Mutter lebt:",
+    "Freibetrag?"
+  ],
+  "optionen": [
+    "100.000 €",
+    "200.000 €",
+    "400.000 €"
+  ],
+  "sichtbareTexte": [
+    "Erbschaftsteuer",
+    "Prüfungsfrage",
+    "Enkelin erbt,",
+    "Mutter lebt:",
+    "Freibetrag?",
+    "100.000 €",
+    "200.000 €",
+    "400.000 €",
+    "Auflösung in der nächsten Story"
+  ],
+  "renderer": "open-peeps-v4",
+  "bildStatus": "open-peeps-render",
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "liveVorrangAktiv": true,
+  "regelGeprueft": true
+}

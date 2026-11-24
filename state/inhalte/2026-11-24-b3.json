@@ -1,0 +1,63 @@
+{
+  "format": "reel",
+  "fach": "ust",
+  "klausur": 1,
+  "fachLabel": "Umsatzsteuer",
+  "themaId": "ust-modul-ust-191",
+  "caption": "Innergemeinschaftliche Lieferung: nicht steuerbar oder steuerfrei? 🚚\n\n▸ Erst der Ort: Bei Beförderung oder Versendung gilt die Lieferung dort als ausgeführt, wo sie beginnt (§ 3 Abs. 6 S. 1 UStG). Köln → Lyon: Ort in Deutschland, steuerbar (§ 1 Abs. 1 Nr. 1 UStG).\n▸ Dann die Befreiung (§ 4 Nr. 1 Buchst. b UStG) mit den Voraussetzungen des § 6a Abs. 1 S. 1 UStG: Ware gelangt in das übrige Gemeinschaftsgebiet (Nr. 1), Abnehmer ist ein in einem anderen Mitgliedstaat erfasster Unternehmer, der für sein Unternehmen erwirbt (Nr. 2), der Erwerb unterliegt dort der Umsatzbesteuerung (Nr. 3), der Abnehmer verwendet eine gültige ausländische USt-IdNr. (Nr. 4).\n▸ Die Befreiung gilt nicht, wenn der Unternehmer seine Zusammenfassende Meldung (§ 18a UStG) für diese Lieferung nicht, unrichtig oder unvollständig abgegeben hat (§ 4 Nr. 1 Buchst. b UStG).\n▸ Nachweis der Voraussetzungen durch den Unternehmer (§ 6a Abs. 3 UStG).\n\nSpeichern für Klausur 1 📌",
+  "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#umsatzsteuer"
+  ],
+  "quellen": [
+    "§ 3 Abs. 6 S. 1 UStG",
+    "§ 1 Abs. 1 Nr. 1 UStG",
+    "§ 4 Nr. 1 Buchst. b UStG",
+    "§ 6a Abs. 1 S. 1 Nr. 1–4, Abs. 3 UStG",
+    "§ 18a UStG"
+  ],
+  "slug": "2026-11-24-b3",
+  "kurztitel": "Innergemeinschaftliche Lieferung: Ausgangsseite nach § 6a UStG",
+  "regelGeprueft": true,
+  "manuellGeprueft": false,
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "textProviderKostenUsd": 0,
+  "faktencheckProviderKostenUsd": 0,
+  "bildStatus": "open-peeps-render",
+  "renderer": "open-peeps-v4",
+  "liveVorrangAktiv": true,
+  "bild": "op-cover",
+  "reelTyp": "gegensatz",
+  "hookStil": "kippen",
+  "coverBadge": "Reel",
+  "szenen": [
+    {
+      "art": "hook",
+      "titel": "EU-Lieferung: nicht steuerbar?"
+    },
+    {
+      "art": "schritt",
+      "titel": "Erst der Ort"
+    },
+    {
+      "art": "schritt",
+      "titel": "Dann die Befreiung"
+    },
+    {
+      "art": "schritt",
+      "titel": "Zwei Formalien"
+    }
+  ],
+  "sprecher": [
+    "Lieferung nach Frankreich ist nicht steuerbar? Falsch. Steuerbar, aber steuerfrei.",
+    "Aylin versendet eine Maschine von Köln nach Lyon. Der Ort liegt dort, wo die Versendung beginnt: steuerbar.",
+    "Steuerfrei wird es erst über Paragraf sechs a. Die Ware gelangt in einen anderen Mitgliedstaat, und der Kunde erwirbt dort steuerpflichtig.",
+    "Außerdem verwendet der Kunde eine gültige ausländische Identifikationsnummer. Ohne zusammenfassende Meldung keine Befreiung.",
+    "Merke: erst steuerbar, dann steuerfrei, mit Nummer und Meldung."
+  ],
+  "dauerS": 39.409,
+  "tempo": 1
+}

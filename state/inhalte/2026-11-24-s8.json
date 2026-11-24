@@ -1,0 +1,43 @@
+{
+  "slot": "s8",
+  "art": "tipp",
+  "fach": "bilanz",
+  "klausur": 3,
+  "fachLabel": "Bilanzsteuerrecht",
+  "themaId": "bilanz-glossar-15",
+  "beitragSlot": null,
+  "quellen": null,
+  "titel": [
+    "Bauen auf dem",
+    "Grund des Partners?"
+  ],
+  "punkte": [
+    [
+      "Eigener Bauaufwand für den Anteil des Ehegatten: Aufwandsverteilungsposten.",
+      "ok",
+      "BMF vom 16.12.2016"
+    ],
+    [
+      "Kein Wirtschaftsgut, keine stillen Reserven.",
+      "warn",
+      null
+    ]
+  ],
+  "icon": "tabler:home",
+  "iconFarbe": "GELB",
+  "sichtbareTexte": [
+    "Bilanzsteuerrecht",
+    "Klausurtipp",
+    "Bauen auf dem",
+    "Grund des Partners?",
+    "Eigener Bauaufwand für den Anteil des Ehegatten: Aufwandsverteilungsposten.",
+    "BMF vom 16.12.2016",
+    "Kein Wirtschaftsgut, keine stillen Reserven."
+  ],
+  "renderer": "open-peeps-v4",
+  "bildStatus": "open-peeps-render",
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "liveVorrangAktiv": true,
+  "regelGeprueft": true
+}

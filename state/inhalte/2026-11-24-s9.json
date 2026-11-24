@@ -1,0 +1,68 @@
+{
+  "slot": "s9",
+  "art": "merksatz",
+  "fach": "ao",
+  "klausur": 1,
+  "fachLabel": "Abgabenordnung",
+  "themaId": "ao-modul-ao-348",
+  "beitragSlot": null,
+  "quellen": null,
+  "titel": [
+    "Vorbehalt oder",
+    "vorläufig?"
+  ],
+  "zeilen": [
+    [
+      [
+        "Vorbehalt",
+        "a"
+      ],
+      [
+        " öffnet alles,",
+        null
+      ]
+    ],
+    [
+      [
+        "vorläufig",
+        "b"
+      ],
+      [
+        " nur den",
+        null
+      ]
+    ],
+    [
+      [
+        "Punkt im ",
+        null
+      ],
+      [
+        "Vermerk",
+        "c"
+      ],
+      [
+        ".",
+        null
+      ]
+    ]
+  ],
+  "norm": "§§ 164 Abs. 2, 165 Abs. 2 S. 1 AO",
+  "groesse": 70,
+  "sichtbareTexte": [
+    "Abgabenordnung",
+    "Merksatz",
+    "Vorbehalt oder",
+    "vorläufig?",
+    "Vorbehalt öffnet alles,",
+    "vorläufig nur den",
+    "Punkt im Vermerk.",
+    "§§ 164 Abs. 2, 165 Abs. 2 S. 1 AO"
+  ],
+  "renderer": "open-peeps-v4",
+  "bildStatus": "open-peeps-render",
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "liveVorrangAktiv": true,
+  "regelGeprueft": true
+}

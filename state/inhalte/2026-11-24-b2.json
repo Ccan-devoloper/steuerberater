@@ -1,0 +1,84 @@
+{
+  "format": "kurzvortrag",
+  "fach": "bilanz",
+  "klausur": 3,
+  "fachLabel": "Bilanzsteuerrecht",
+  "themaId": "bilanz-aufb-bil-melzer-5-02",
+  "caption": "Kurzvortrag für die mündliche Steuerberaterprüfung: Wann darf ein Investitionsabzugsbetrag gebildet werden? 🎤\n\nIn der Mündlichen erhältst du eine halbe Stunde vor Beginn drei Themen zur Wahl (§ 26 Abs. 6 DVStB). So baust du rund zehn Minuten auf:\n\n▸ Einstieg: Künftige AfA vorziehen, bis zu 50 % der voraussichtlichen Kosten gewinnmindernd abziehen, außerhalb der Bilanz (§ 7g Abs. 1 S. 1 EStG).\n▸ Voraussetzungen: abnutzbares bewegliches Anlagegut; Vermietung oder (fast) ausschließlich betriebliche Nutzung in einer inländischen Betriebsstätte bis zum Ende des Folgejahres; Gewinn nach § 4 oder § 5 EStG, im Abzugsjahr ohne Abzug höchstens 200.000 €; elektronische Übermittlung; je Betrieb höchstens 200.000 € (§ 7g Abs. 1 S. 1, S. 2 Nr. 1, 2, S. 4 EStG). Ein Verlust darf entstehen (§ 7g Abs. 1 S. 3 EStG).\n▸ Investitionsjahr: Hinzurechnung bis 50 % der Kosten, höchstens der Abzug; Kürzung der Kosten um bis zu 50 %, die AfA-Basis sinkt (§ 7g Abs. 2 S. 1, 3 EStG); daneben Sonderabschreibung bis 40 % (§ 7g Abs. 5, 6 EStG).\n▸ Ohne Investition bis zum Ende des dritten Folgejahres: Rückgängigmachung im Abzugsjahr, auch bei Bestandskraft; § 233a Abs. 2a AO gilt nicht (§ 7g Abs. 3 EStG). Nutzung verfehlt: ebenfalls rückgängig (§ 7g Abs. 4 EStG).\n\nBeispiel: Ofen 50.000 €. 2026 Abzug 25.000 €, 2027 Hinzurechnung 25.000 € und Kürzung 25.000 €, AfA-Basis 25.000 €.\n\nZum Schluss: § 7g Abs. 1 EStG zum Markieren. Speichern für die Mündliche 📌",
+  "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#bilanzsteuerrecht"
+  ],
+  "quellen": [
+    "§ 7g Abs. 1–6 EStG",
+    "§ 233a Abs. 2a AO",
+    "§ 26 Abs. 6 DVStB"
+  ],
+  "slug": "2026-11-24-b2",
+  "kurztitel": "Wann darf ein Investitionsabzugsbetrag gebildet werden?",
+  "regelGeprueft": true,
+  "manuellGeprueft": false,
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "textProviderKostenUsd": 0,
+  "faktencheckProviderKostenUsd": 0,
+  "bildStatus": "open-peeps-render",
+  "renderer": "open-peeps-v4",
+  "liveVorrangAktiv": true,
+  "coverBadge": "Kurzvortrag",
+  "folien": [
+    {
+      "art": "titel",
+      "titel": "Kurzvortrag",
+      "text": "Kurzvortrag · Wann IAB · bilden? · § 7g Abs. 1 EStG · 10 Minuten · + Markier-Guide § 7g EStG · Vortrag · 10 Min. · drei Teile",
+      "bild": "op-cover"
+    },
+    {
+      "art": "text",
+      "titel": "Bilanzsteuerrecht",
+      "text": "Dein Aufbau · Einstieg · 1 Min. · Zweck: AfA vorziehen · Voraussetzungen · 4 Min. · § 7g Abs. 1 EStG · Investitionsjahr · 3 Min. · § 7g Abs. 2, 5 EStG · Ohne Investition · 1 Min. · § 7g Abs. 3, 4 EStG · Schluss · 1 Min. · Kernsatz und Beispiel · Am Ende: § 7g EStG markiert"
+    },
+    {
+      "art": "text",
+      "titel": "Bilanzsteuerrecht",
+      "text": "Einstieg · Kleine Betriebe ziehen künftige AfA vor: bis zu 50 % der geplanten Kosten mindern schon heute den Gewinn. · § 7g Abs. 1 S. 1 EStG · Der Abzug läuft außerhalb der Bilanz, es gibt keine Rücklage. · Ziel: Liquidität vor der Investition. · Ich bin Tomasz."
+    },
+    {
+      "art": "text",
+      "titel": "Bilanzsteuerrecht",
+      "text": "Hauptteil 1: Voraussetzungen · Abnutzbares bewegliches Anlagegut, auch gebraucht. · § 7g Abs. 1 S. 1 EStG · Vermietet oder fast nur betrieblich im Inland genutzt, bis Ende des Folgejahres. · § 7g Abs. 1 S. 1 EStG · Gewinn ohne Abzug höchstens 200.000 €, Summe je Betrieb ebenso. · § 7g Abs. 1 S. 2 Nr. 1 Buchst. b, S. 4 EStG · Vier Minuten."
+    },
+    {
+      "art": "text",
+      "titel": "Bilanzsteuerrecht",
+      "text": "Hauptteil 2: Investitionsjahr · Hinzurechnung bis 50 % der tatsächlichen Kosten, höchstens der Abzug. · § 7g Abs. 2 S. 1 EStG · Zugleich die Kosten um bis zu 50 % kürzen: Die AfA-Basis sinkt. · § 7g Abs. 2 S. 3 EStG · Daneben bis zu 40 % Sonderabschreibung möglich. · § 7g Abs. 5 EStG · Dann kaufen."
+    },
+    {
+      "art": "text",
+      "titel": "Bilanzsteuerrecht",
+      "text": "Beispiel: Ofen für 50.000 € · § 7g Abs. 1, 2 EStG · 2026: Abzug · – 25.000 € · 2027: Hinzurechnung · + 25.000 € · 2027: Kosten kürzen · – 25.000 € · AfA-Basis · 25.000 € · Gewinn 2027 per Saldo: ± 0 €"
+    },
+    {
+      "art": "text",
+      "titel": "Bilanzsteuerrecht",
+      "text": "Hauptteil 3: Kein Kauf · Bis Ende des dritten Folgejahres nicht investiert: Der Abzug wird im Abzugsjahr rückgängig gemacht. · § 7g Abs. 3 S. 1 EStG · Auch ein bestandskräftiger Bescheid wird geändert. · § 7g Abs. 3 S. 2, 3 EStG · Nutzung verfehlt: ebenfalls rückgängig. · § 7g Abs. 4 S. 1 EStG · Rückwirkend!"
+    },
+    {
+      "art": "text",
+      "titel": "Bilanzsteuerrecht",
+      "text": "Typische Nachfragen · „Auch bei Einnahmenüberschussrechnung?“ Ja, alle Gewinnermittler. · § 7g Abs. 1 S. 2 Nr. 1 Buchst. a EStG · „Darf ein Verlust entstehen?“ Ja. · § 7g Abs. 1 S. 3 EStG · „Zinsen bei Rückgängigmachung?“ Ja, rückwirkend für das Abzugsjahr. · § 7g Abs. 3 S. 4 EStG · Bereit!"
+    },
+    {
+      "art": "text",
+      "titel": "Bilanzsteuerrecht",
+      "text": "Schlusssatz: vorziehen, hinzurechnen, kürzen · ohne Investition rückwirkend streichen · 50 % vorab abziehen, · hinzurechnen beim Kauf, · Kosten kürzen, · sonst rückwirkend. · Speichern für die Mündliche · Hältst du den Vortrag laut? · Weiterwischen: § 7g EStG markiert"
+    },
+    {
+      "art": "text",
+      "titel": "Bilanzsteuerrecht",
+      "text": "§ 7g EStG Investitionsabzugsbeträge (Auszug) · welches Gut? · Nutzung · Höhe · Gewinngrenze · Im Vortrag die Grenze nennen: · 200.000 € Gewinn ohne den Abzug"
+    }
+  ]
+}

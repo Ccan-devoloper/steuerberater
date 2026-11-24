@@ -1,0 +1,81 @@
+{
+  "format": "rechenweg",
+  "fach": "kst",
+  "klausur": 2,
+  "fachLabel": "Körperschaftsteuer",
+  "themaId": "kst-modul-kst-6",
+  "caption": "Vorteil unter Schwestergesellschaften: der Rechenweg im Dreieck für die Körperschaftsteuer-Klausur.\n\nFall: Die Holding hält je 100 % an Aro und Bex. Aro verkauft Bex eine Maschine im Wert von 100.000 € für 60.000 €, weil beide derselben Mutter gehören.\n\n1. Aro: verdeckte Gewinnausschüttung an die Holding, außerbilanziell + 40.000 € (§ 8 Abs. 3 S. 2 KStG).\n2. Holding: Beteiligungsertrag 40.000 € (§ 20 Abs. 1 Nr. 1 S. 2 EStG), außer Ansatz (§ 8b Abs. 1 S. 1 KStG), 5 % = 2.000 € gelten als nicht abziehbare Betriebsausgaben (§ 8b Abs. 5 S. 1 KStG). Der Vorteil wird in Bex eingelegt, die Anschaffungskosten der Bex-Anteile steigen um 40.000 € (§ 6 Abs. 6 S. 2 EStG).\n3. Bex: verdeckte Einlage, das Einkommen erhöht sich nicht (§ 8 Abs. 3 S. 3 KStG).\nErgebnis: insgesamt 42.000 € mehr Einkommen.\n\nKlausurfalle materielle Korrespondenz: Freigestellt wird nur, soweit die vGA bei der ausschüttenden Gesellschaft das Einkommen nicht verringert hat (§ 8b Abs. 1 S. 2 KStG). Ist die vGA bei Aro nicht erfasst, versteuert die Holding die 40.000 € voll. Wird Aros Bescheid hinsichtlich der vGA erlassen, aufgehoben oder geändert, kann der Bescheid der Holding angepasst werden (§ 32a Abs. 1 S. 1 KStG).\n\nZum Schluss: § 8 Abs. 3, § 8b Abs. 1, 5 KStG zum Markieren. Speichern für Klausur 2 📌",
+  "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#körperschaftsteuer"
+  ],
+  "quellen": [
+    "§ 8 Abs. 3 S. 2, 3 KStG",
+    "§ 8b Abs. 1 S. 1, 2, Abs. 5 S. 1 KStG",
+    "§ 20 Abs. 1 Nr. 1 S. 2 EStG",
+    "§ 6 Abs. 6 S. 2 EStG",
+    "§ 32a Abs. 1 S. 1 KStG"
+  ],
+  "slug": "2026-11-24-b1",
+  "kurztitel": "Dreiecksfälle und materielle Korrespondenz",
+  "regelGeprueft": true,
+  "manuellGeprueft": false,
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "textProviderKostenUsd": 0,
+  "faktencheckProviderKostenUsd": 0,
+  "bildStatus": "open-peeps-render",
+  "renderer": "open-peeps-v4",
+  "liveVorrangAktiv": true,
+  "coverBadge": "Rechenweg",
+  "folien": [
+    {
+      "art": "titel",
+      "titel": "Rechenweg",
+      "text": "Rechenweg · Vorteil im · Dreieck · § 8 Abs. 3 S. 2, 3 KStG · mit Zahlen · + Markier-Guide § 8b KStG · Preisvorteil · 40.000 € · wer versteuert?",
+      "bild": "op-cover"
+    },
+    {
+      "art": "text",
+      "titel": "Körperschaftsteuer",
+      "text": "Der Fall · Die Holm Holding GmbH hält je 100 % an der Aro GmbH und der Bex GmbH. · Aro verkauft Bex eine Maschine für 60.000 €. Wert: 100.000 €. · Der Grund: Beide gehören derselben Mutter. · Ich leite die Holding."
+    },
+    {
+      "art": "text",
+      "titel": "Körperschaftsteuer",
+      "text": "Den Vorteil verfolgen · 1. · vGA: Aro an Holding · § 8 Abs. 3 S. 2 KStG · 2. · Einlage: Holding in Bex · § 8 Abs. 3 S. 3 KStG · 3. · Bex-Anteile werden teurer · § 6 Abs. 6 S. 2 EStG · Pfeile zeichnen!"
+    },
+    {
+      "art": "text",
+      "titel": "Körperschaftsteuer",
+      "text": "Bei der Holding · Die vGA ist für sie ein Beteiligungsertrag von 40.000 €. · § 20 Abs. 1 Nr. 1 S. 2 EStG · Er bleibt außer Ansatz, 5 % gelten als nicht abziehbar. · § 8b Abs. 1 S. 1, Abs. 5 S. 1 KStG · Zugleich steigen die Anschaffungskosten der Bex-Anteile um 40.000 €. · § 6 Abs. 6 S. 2 EStG · Fast steuerfrei."
+    },
+    {
+      "art": "text",
+      "titel": "Körperschaftsteuer",
+      "text": "Der Rechenweg · § 8 Abs. 3 KStG · § 8b Abs. 1, 5 KStG · Aro: vGA hinzu · + 40.000 € · Holding: Ertrag · + 40.000 € · Holding: außer Ansatz · – 40.000 € · Holding: 5 % hinzu · + 2.000 € · Bex: Einlage · ± 0 € · Mehr Einkommen gesamt · 42.000 €"
+    },
+    {
+      "art": "text",
+      "titel": "Körperschaftsteuer",
+      "text": "Jetzt du · Variante: Aros Bescheid ist bestandskräftig, die vGA wurde dort nie erfasst. · Was gilt jetzt für die 40.000 € bei der Holding? · Und nun?"
+    },
+    {
+      "art": "text",
+      "titel": "Körperschaftsteuer",
+      "text": "Lösung: Korrespondenz · Steuerfrei nur, soweit die vGA das Einkommen von Aro nicht gemindert hat. · § 8b Abs. 1 S. 2 KStG · Hier gemindert: Die Holding versteuert 40.000 € voll. · Ändert das Amt Aros Bescheid wegen der vGA, kann der Holding-Bescheid folgen. · § 32a Abs. 1 S. 1 KStG · Achtung!"
+    },
+    {
+      "art": "text",
+      "titel": "Körperschaftsteuer",
+      "text": "Grundfall: 42.000 € mehr Einkommen · Ohne vGA bei Aro: 40.000 € voll bei der Holding · Pfeile zeichnen, · vGA nach oben, · Einlage nach unten, · Korrespondenz prüfen. · Speichern für Klausur 2 · Zeichnest du Dreiecke schon? · Weiterwischen: § 8b KStG markiert"
+    },
+    {
+      "art": "text",
+      "titel": "Körperschaftsteuer",
+      "text": "§§ 8, 8b KStG (Auszug) · Ebene Aro · Ebene Bex · Holding: frei · Korrespondenz! · + 2.000 € · Grundfall: + 42.000 € Einkommen · 40.000 € bei Aro, 2.000 € bei der Holding"
+    }
+  ]
+}

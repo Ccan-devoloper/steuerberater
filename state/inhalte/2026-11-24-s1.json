@@ -1,0 +1,26 @@
+{
+  "slot": "s1",
+  "art": "teaser",
+  "fach": "kst",
+  "klausur": 2,
+  "fachLabel": "Körperschaftsteuer",
+  "themaId": null,
+  "beitragSlot": "b1",
+  "quellen": null,
+  "titel": [
+    "Vorteil im Dreieck"
+  ],
+  "unter": "Rechenweg + Markier-Guide · im Profil",
+  "sichtbareTexte": [
+    "Körperschaftsteuer",
+    "Neu im Feed",
+    "Vorteil im Dreieck",
+    "Rechenweg + Markier-Guide · im Profil"
+  ],
+  "renderer": "open-peeps-v4",
+  "bildStatus": "open-peeps-render",
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "liveVorrangAktiv": true,
+  "regelGeprueft": true
+}
