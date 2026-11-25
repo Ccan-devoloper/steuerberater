@@ -1,0 +1,727 @@
+{
+  "datum": "2026-12-09",
+  "status": "vorproduziert",
+  "freigabeBetreiber": true,
+  "liveVerknuepft": false,
+  "vorproduktionStatus": "live-freigegeben",
+  "layoutQuelle": "open-peeps-variante-c",
+  "semantikQuelle": "examenscampus",
+  "liveVorrangAktiv": true,
+  "normalbetriebGesperrt": true,
+  "bildStatus": "open-peeps-render",
+  "kostenPolicy": {
+    "textUndFaktencheckUsd": 0,
+    "bildgenerierungUsd": 0,
+    "providerKostenUsd": 0,
+    "coverbilder": false,
+    "bildgenerierungErlaubt": false,
+    "reelStimme": "elevenlabs-abo"
+  },
+  "plan": {
+    "beitraege": [
+      {
+        "slot": "b1",
+        "zeit": "08:30",
+        "format": "fehlerfalle",
+        "themaId": "kst-karte-kst-11",
+        "themaTitel": "CS-GmbH Ergebnis",
+        "fach": "kst",
+        "klausur": 2
+      },
+      {
+        "slot": "b2",
+        "zeit": "13:30",
+        "format": "schema",
+        "themaId": "umwst-aufb-umw-2-12",
+        "themaTitel": "Wie bringt man einen Mitunternehmeranteil in eine GmbH ein?",
+        "fach": "umwst",
+        "klausur": 3
+      },
+      {
+        "slot": "b3",
+        "zeit": "19:00",
+        "format": "reel",
+        "themaId": "ust-karte-ust-1",
+        "themaTitel": "Unternehmer (§ 2 Abs. 1 UStG)",
+        "fach": "ust",
+        "klausur": 1
+      }
+    ],
+    "stories": [
+      {
+        "slot": "s4",
+        "zeit": "07:07",
+        "art": "frage",
+        "themaId": "ust-quiz-ust-1"
+      },
+      {
+        "slot": "s5",
+        "zeit": "07:09",
+        "art": "antwort",
+        "themaId": "ust-quiz-ust-1"
+      },
+      {
+        "slot": "s1",
+        "zeit": "08:30",
+        "art": "teaser",
+        "beitragSlot": "b1"
+      },
+      {
+        "slot": "s6",
+        "zeit": "12:14",
+        "art": "norm",
+        "themaId": "istr-aufb-istr-gh-3-05"
+      },
+      {
+        "slot": "s2",
+        "zeit": "13:30",
+        "art": "teaser",
+        "beitragSlot": "b2"
+      },
+      {
+        "slot": "s7",
+        "zeit": "14:40",
+        "art": "tipp"
+      },
+      {
+        "slot": "s8",
+        "zeit": "17:04",
+        "art": "tipp",
+        "themaId": "bilanz-karte-k3-1"
+      },
+      {
+        "slot": "s3",
+        "zeit": "19:00",
+        "art": "teaser",
+        "beitragSlot": "b3"
+      },
+      {
+        "slot": "s9",
+        "zeit": "19:12",
+        "art": "merksatz",
+        "themaId": "ao-aufb-ao-jacobs-6-10"
+      }
+    ]
+  },
+  "inhalte": {
+    "b1": {
+      "format": "fehlerfalle",
+      "fach": "kst",
+      "klausur": 2,
+      "fachLabel": "Körperschaftsteuer",
+      "themaId": "kst-karte-kst-11",
+      "caption": "Klausurfalle Körperschaftsteuer: Steuern als Aufwand gebucht. Ist der Jahresüberschuss schon das Einkommen?\n\n▸ Der Jahresüberschuss ist nur der Ausgangswert; für das Einkommen gelten die Regeln des Einkommensteuergesetzes entsprechend (§ 8 Abs. 1 KStG).\n▸ Steuern vom Einkommen und ihre Nebenleistungen sind nicht abziehbar: Körperschaftsteuer und Solidaritätszuschlag außerhalb der Bilanz hinzurechnen (§ 10 Nr. 2 KStG).\n▸ Die Gewerbesteuer und die darauf entfallenden Nebenleistungen sind keine Betriebsausgaben (§ 4 Abs. 5b EStG).\n▸ Kommt Körperschaftsteuer zurück und steht sie im Ertrag, ziehst du sie spiegelbildlich ab.\n▸ Ebenfalls nicht abziehbar: die Hälfte der Aufsichtsratsvergütungen (§ 10 Nr. 4 KStG).\n\nBeispiel: 80.000 € + 15.825 € + 12.000 € = 107.825 €. Variante mit 3.000 € KSt-Erstattung: 83.000 € + 27.825 € − 3.000 € = 107.825 €.\n\nZum Schluss: § 10 Nr. 2 KStG, § 4 Abs. 4, 5b EStG und § 8 Abs. 1 KStG zum Markieren. Speichern für Klausur 2 📌",
+      "hashtags": [
+        "#steuerberaterexamen",
+        "#steuerberaterprüfung",
+        "#examensvorbereitung",
+        "#körperschaftsteuer"
+      ],
+      "quellen": [
+        "§ 8 Abs. 1 KStG",
+        "§ 10 Nr. 2, 4 KStG",
+        "§ 4 Abs. 5b EStG"
+      ],
+      "slug": "2026-12-09-b1",
+      "kurztitel": "CS-GmbH Ergebnis",
+      "regelGeprueft": true,
+      "manuellGeprueft": false,
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "open-peeps-render",
+      "renderer": "open-peeps-v4",
+      "liveVorrangAktiv": true,
+      "coverBadge": "Klausurfalle",
+      "folien": [
+        {
+          "art": "titel",
+          "titel": "Klausurfalle",
+          "text": "Klausurfalle · Steuern als · Aufwand gebucht? · § 10 Nr. 2 KStG · Die Falle · + Markier-Guide KStG + EStG · Jahresüberschuss · 80.000 € · = Einkommen?",
+          "bild": "op-cover"
+        },
+        {
+          "art": "text",
+          "titel": "Körperschaftsteuer",
+          "text": "Der Fall · Wellenreiter GmbH, Jahresabschluss · Jahresüberschuss · 80.000 € · Aufwand KSt · 15.000 € · Aufwand SolZ · 825 € · Aufwand GewSt · 12.000 € · Ist das Einkommen 80.000 €?"
+        },
+        {
+          "art": "text",
+          "titel": "Körperschaftsteuer",
+          "text": "Die Falle · Der Jahresüberschuss ist nur der Startwert. · § 8 Abs. 1 KStG · Steuern vom Einkommen dürfen das Einkommen nicht mindern. · § 10 Nr. 2 KStG · Die Gewerbesteuer ist keine Betriebsausgabe. · § 4 Abs. 5b EStG · Auch die Gewerbesteuer?"
+        },
+        {
+          "art": "text",
+          "titel": "Körperschaftsteuer",
+          "text": "Was zurück muss · Körperschaftsteuer und Solidaritätszuschlag außerhalb der Bilanz hinzurechnen. · § 10 Nr. 2 KStG · Gewerbesteuer ebenso, samt Nebenleistungen. · § 4 Abs. 5b EStG · Erstattungen dieser Steuern, als Ertrag gebucht: wieder abziehen. · Beide Richtungen!"
+        },
+        {
+          "art": "text",
+          "titel": "Körperschaftsteuer",
+          "text": "Die Korrektur · § 10 Nr. 2 KStG, § 4 Abs. 5b EStG · Jahresüberschuss · 80.000 € · + KSt, SolZ, GewSt · 27.825 € · Einkommen · 107.825 € · Das sind 27.825 € mehr."
+        },
+        {
+          "art": "text",
+          "titel": "Körperschaftsteuer",
+          "text": "Jetzt du · Variante: Die GmbH hat zusätzlich 3.000 € erstattete Körperschaftsteuer eines Vorjahres als Ertrag gebucht. · Der Jahresüberschuss steigt dadurch auf 83.000 €. · Wie hoch ist das Einkommen jetzt? · Mehr Gewinn?"
+        },
+        {
+          "art": "text",
+          "titel": "Körperschaftsteuer",
+          "text": "Lösung · § 10 Nr. 2 KStG · 83.000 € + 27.825 € Steuern · 110.825 € · − KSt-Erstattung · 3.000 € · Einkommen · 107.825 € · Gleiches Ergebnis!"
+        },
+        {
+          "art": "text",
+          "titel": "Körperschaftsteuer",
+          "text": "Jahresüberschuss + KSt, SolZ, GewSt − Erstattungen · danach die übrigen Korrekturen · Startwert Jahresüberschuss, · Steuern wieder dazu, · Erstattungen wieder raus. · Speichern für Klausur 2 · Hättest du die Erstattung abgezogen? · Weiterwischen: § 10 KStG + § 4 EStG markiert"
+        },
+        {
+          "art": "text",
+          "titel": "Körperschaftsteuer",
+          "text": "§ 10 KStG Nichtabziehbare Aufwendungen · KSt, SolZ · USt auf vGA · Zuschläge · Aufsichtsrat · Weiterwischen: § 4 Abs. 5b EStG · Gewerbesteuer ist keine Betriebsausgabe"
+        },
+        {
+          "art": "text",
+          "titel": "Körperschaftsteuer",
+          "text": "§ 4 EStG, § 8 KStG (Auszug) · Grundsatz · Ausnahme · außerhalb der Bilanz dazu · gilt auch für die GmbH · Wellenreiter: + 12.000 € GewSt · außerhalb der Bilanz wieder dazu"
+        }
+      ]
+    },
+    "b2": {
+      "format": "schema",
+      "fach": "umwst",
+      "klausur": 3,
+      "fachLabel": "Umwandlungssteuerrecht",
+      "themaId": "umwst-aufb-umw-2-12",
+      "caption": "Mitunternehmeranteil in eine GmbH einbringen: das Prüfschema für Klausur 3.\n\n1. Mitunternehmeranteil: Beteiligung an einer Personengesellschaft mit Gewinneinkünften (§ 15 Abs. 1 S. 1 Nr. 2 EStG), auch einer gewerblich geprägten (§ 15 Abs. 3 Nr. 2 EStG); eine rein vermögensverwaltende Gesellschaft genügt nicht.\n2. Zum Anteil gehört funktional wesentliches Sonderbetriebsvermögen; es muss mit eingebracht werden (BMF vom 02.01.2025, UmwStE Rn. 20.06, 20.10).\n3. Teilanteil: begünstigt, wenn wesentliches Sonderbetriebsvermögen mindestens in derselben Quote mit übergeht (UmwStE Rn. 20.11). Kein Freibetrag nach § 16 Abs. 4 EStG und keine Tarifermäßigung (§ 20 Abs. 4 UmwStG). Ohne § 20 UmwStG ist der Gewinn aus dem Teilanteil laufender Gewinn (§ 16 Abs. 1 S. 2 EStG).\n4. Wertansatz: grundsätzlich gemeiner Wert; auf Antrag Buch- oder Zwischenwert (§ 20 Abs. 2 S. 1, 2 UmwStG). Antrag der übernehmenden Gesellschaft spätestens bis zur erstmaligen Abgabe der steuerlichen Schlussbilanz bei ihrem Finanzamt (§ 20 Abs. 2 S. 3 UmwStG).\n\nZum Schluss: § 20 UmwStG und der UmwStE zum Markieren. Speichern für Klausur 3 📌",
+      "hashtags": [
+        "#steuerberaterexamen",
+        "#steuerberaterprüfung",
+        "#examensvorbereitung",
+        "#umwandlungssteuerrecht"
+      ],
+      "quellen": [
+        "§ 20 Abs. 1, 2, 4 UmwStG",
+        "§ 15 Abs. 1 S. 1 Nr. 2, Abs. 3 Nr. 2 EStG",
+        "§ 16 Abs. 1 S. 2 EStG",
+        "BMF vom 02.01.2025 (UmwStE), BStBl I 2025, 92, Rn. 20.06, 20.10, 20.11"
+      ],
+      "slug": "2026-12-09-b2",
+      "kurztitel": "Wie bringt man einen Mitunternehmeranteil in eine GmbH ein?",
+      "regelGeprueft": true,
+      "manuellGeprueft": false,
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "open-peeps-render",
+      "renderer": "open-peeps-v4",
+      "liveVorrangAktiv": true,
+      "coverBadge": "Prüfschema",
+      "folien": [
+        {
+          "art": "titel",
+          "titel": "Prüfschema",
+          "text": "Prüfschema · KG-Anteil in · die GmbH · § 20 UmwStG · in 4 Schritten · + Markier-Guide § 20 + UmwStE",
+          "bild": "op-cover"
+        },
+        {
+          "art": "text",
+          "titel": "Umwandlungssteuerrecht",
+          "text": "Mitunternehmeranteil einbringen · Mitunternehmeranteil? · § 15 Abs. 1 S. 1 Nr. 2 EStG · Gewinneinkünfte, auch geprägt · Was gehört dazu? · UmwStE Rn. 20.06, 20.10 · Anteil plus wesentliches SBV · Nur ein Teil? · UmwStE Rn. 20.11 · SBV mindestens in gleicher Quote · Wertansatz · § 20 Abs. 2 UmwStG · Antrag der GmbH · Am Ende: § 20 UmwStG + UmwStE markiert"
+        },
+        {
+          "art": "text",
+          "titel": "Umwandlungssteuerrecht",
+          "text": "1 · Mitunternehmeranteil? · Beteiligung an einer Personengesellschaft mit Gewinneinkünften. · § 15 Abs. 1 S. 1 Nr. 2 EStG · Auch die gewerblich geprägte GmbH & Co. KG zählt. · § 15 Abs. 3 Nr. 2 EStG · Rein vermögensverwaltende KG ohne Prägung: kein Mitunternehmeranteil. · Erst der Gegenstand!"
+        },
+        {
+          "art": "text",
+          "titel": "Umwandlungssteuerrecht",
+          "text": "2 · Was gehört dazu? · Der Anteil am Gesellschaftsvermögen. · § 20 Abs. 1 UmwStG · Funktional wesentliches Sonderbetriebsvermögen muss mit in die GmbH. · UmwStE Rn. 20.06, 20.10 · Bleibt es zurück, scheidet § 20 UmwStG aus. · Auch mein Grundstück?"
+        },
+        {
+          "art": "text",
+          "titel": "Umwandlungssteuerrecht",
+          "text": "3 · Nur ein Teil? · Auch ein Bruchteil des Anteils ist begünstigt. · UmwStE Rn. 20.11 · Wesentliches Sonderbetriebsvermögen muss mindestens in derselben Quote mit; mehr schadet nicht. · UmwStE Rn. 20.11 · Kein Freibetrag und keine Tarifermäßigung beim Teilanteil. · § 20 Abs. 4 UmwStG · Quote vergleichen!"
+        },
+        {
+          "art": "text",
+          "titel": "Umwandlungssteuerrecht",
+          "text": "4 · Wertansatz · Grundsatz: gemeiner Wert. · § 20 Abs. 2 S. 1 UmwStG · Auf Antrag Buch- oder Zwischenwert, wenn die Bedingungen erfüllt sind. · § 20 Abs. 2 S. 2 UmwStG · Den Antrag stellt die GmbH bei ihrem Finanzamt. · § 20 Abs. 2 S. 3 UmwStG · Nicht ich?"
+        },
+        {
+          "art": "text",
+          "titel": "Umwandlungssteuerrecht",
+          "text": "Jetzt du · Carla hält 50 % an der Seeblick KG. Ihr eigenes Grundstück nutzt die KG als Betriebsgelände. · In eine GmbH bringt sie die Hälfte ihres KG-Anteils und 30 % des Grundstücks ein. · Greift § 20 UmwStG? · Ich bin Carla."
+        },
+        {
+          "art": "text",
+          "titel": "Umwandlungssteuerrecht",
+          "text": "Lösung · Anteil zu 50 %, Grundstück nur zu 30 %: unter der Quote. · UmwStE Rn. 20.11 · § 20 UmwStG greift nicht; der Gewinn aus dem Teilanteil ist laufender Gewinn. · § 16 Abs. 1 S. 2 EStG · Mit mindestens 50 % des Grundstücks wäre es gegangen. · Knapp daneben."
+        },
+        {
+          "art": "text",
+          "titel": "Umwandlungssteuerrecht",
+          "text": "Mitunternehmeranteil = Gesellschaftsanteil + wesentliches SBV · Teilanteil: SBV mindestens in gleicher Quote · Anteil prüfen, · SBV mitnehmen, · Quote vergleichen, · Antrag der GmbH. · Speichern für Klausur 3 · Wie viel Grundstück hätte gereicht? · Weiterwischen: § 20 + UmwStE markiert"
+        },
+        {
+          "art": "text",
+          "titel": "Umwandlungssteuerrecht",
+          "text": "§ 20 UmwStG (Auszug) · Gegenstand · Gegenleistung · Grundsatz · Wahlrecht GmbH · UmwStE 2025 (Auszug) · Nutzung reicht nicht · SBV mit! · gilt auch hier · Quote! · Antrag: § 20 Abs. 2 S. 3 UmwStG · spätestens mit der steuerlichen Schlussbilanz"
+        }
+      ]
+    },
+    "b3": {
+      "format": "reel",
+      "fach": "ust",
+      "klausur": 1,
+      "fachLabel": "Umsatzsteuer",
+      "themaId": "ust-karte-ust-1",
+      "caption": "Klausurfalle Umsatzsteuer: kein Gewinn, also kein Unternehmer? 🏖️\n\n▸ Unternehmer ist, wer eine gewerbliche oder berufliche Tätigkeit selbstständig ausübt (§ 2 Abs. 1 S. 1 UStG).\n▸ Gewerblich oder beruflich ist jede nachhaltige Tätigkeit zur Erzielung von Einnahmen, auch wenn die Absicht, Gewinn zu erzielen, fehlt oder eine Personenvereinigung nur gegenüber ihren Mitgliedern tätig wird (§ 2 Abs. 1 S. 3 UStG).\n▸ Die tageweise Vermietung einer Ferienwohnung ist zudem nicht steuerfrei, weil sie der kurzfristigen Beherbergung dient (§ 4 Nr. 12 S. 2 UStG).\n\nSpeichern für Klausur 1 📌",
+      "hashtags": [
+        "#steuerberaterexamen",
+        "#steuerberaterprüfung",
+        "#examensvorbereitung",
+        "#umsatzsteuer"
+      ],
+      "quellen": [
+        "§ 2 Abs. 1 S. 1, 3 UStG",
+        "§ 4 Nr. 12 S. 2 UStG"
+      ],
+      "slug": "2026-12-09-b3",
+      "kurztitel": "Unternehmer (§ 2 Abs. 1 UStG)",
+      "regelGeprueft": true,
+      "manuellGeprueft": false,
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "open-peeps-render",
+      "renderer": "open-peeps-v4",
+      "liveVorrangAktiv": true,
+      "bild": "op-cover",
+      "reelTyp": "klausurfalle",
+      "hookStil": "kippen",
+      "coverBadge": "Reel",
+      "szenen": [
+        {
+          "art": "hook",
+          "titel": "Kein Gewinn, kein Unternehmer?"
+        },
+        {
+          "art": "schritt",
+          "titel": "Der Fall"
+        },
+        {
+          "art": "schritt",
+          "titel": "Trotzdem Unternehmerin"
+        },
+        {
+          "art": "schritt",
+          "titel": "Sogar der Verein"
+        }
+      ],
+      "sprecher": [
+        "Kein Gewinn, kein Unternehmer? Falsch. Einnahmen reichen völlig aus.",
+        "Nele vermietet ihre Ferienwohnung tageweise an Gäste. Die Kosten fressen die Mieten auf, Gewinn bleibt nie.",
+        "Trotzdem ist sie Unternehmerin: selbstständig und nachhaltig, um Einnahmen zu erzielen. Eine Gewinnabsicht verlangt das Gesetz ausdrücklich nicht.",
+        "Das gilt sogar für einen Verein, der nur gegenüber seinen Mitgliedern tätig wird.",
+        "Merke: Die Umsatzsteuer fragt nach Einnahmen, nicht nach Gewinn."
+      ],
+      "dauerS": 33.83,
+      "tempo": 1.0
+    },
+    "s4": {
+      "slot": "s4",
+      "art": "frage",
+      "fach": "ust",
+      "klausur": 1,
+      "fachLabel": "Umsatzsteuer",
+      "themaId": "ust-quiz-ust-1",
+      "beitragSlot": null,
+      "quellen": null,
+      "frage": [
+        "Bewegte Lieferung:",
+        "Wo ist der Ort?"
+      ],
+      "optionen": [
+        "Am Ende der Beförderung",
+        "Wo die Beförderung beginnt",
+        "Am Sitz des Abnehmers"
+      ],
+      "pairId": "ust-quiz-ust-1",
+      "sichtbareTexte": [
+        "Umsatzsteuer",
+        "Prüfungsfrage",
+        "Bewegte Lieferung:",
+        "Wo ist der Ort?",
+        "Am Ende der Beförderung",
+        "Wo die Beförderung beginnt",
+        "Am Sitz des Abnehmers",
+        "Auflösung in der nächsten Story"
+      ],
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
+      "liveVorrangAktiv": true,
+      "regelGeprueft": true
+    },
+    "s5": {
+      "slot": "s5",
+      "art": "antwort",
+      "fach": "ust",
+      "klausur": 1,
+      "fachLabel": "Umsatzsteuer",
+      "themaId": "ust-quiz-ust-1",
+      "beitragSlot": null,
+      "quellen": null,
+      "titel": [
+        "B: am Beginn"
+      ],
+      "optionen": [
+        "Am Ende der Beförderung",
+        "Wo die Beförderung beginnt",
+        "Am Sitz des Abnehmers"
+      ],
+      "richtig": 1,
+      "text": "Maßgeblich ist, wo Beförderung oder Versendung zum Abnehmer beginnt.",
+      "norm": "§ 3 Abs. 6 S. 1 UStG",
+      "pairId": "ust-quiz-ust-1",
+      "sichtbareTexte": [
+        "Umsatzsteuer",
+        "Auflösung",
+        "B: am Beginn",
+        "Am Ende der Beförderung",
+        "Wo die Beförderung beginnt",
+        "Am Sitz des Abnehmers",
+        "Maßgeblich ist, wo Beförderung oder Versendung zum Abnehmer beginnt.",
+        "§ 3 Abs. 6 S. 1 UStG"
+      ],
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
+      "liveVorrangAktiv": true,
+      "regelGeprueft": true
+    },
+    "s1": {
+      "slot": "s1",
+      "art": "teaser",
+      "fach": "kst",
+      "klausur": 2,
+      "fachLabel": "Körperschaftsteuer",
+      "themaId": null,
+      "beitragSlot": "b1",
+      "quellen": null,
+      "titel": [
+        "Steuern als Aufwand?"
+      ],
+      "unter": "Klausurfalle + Markier-Guide · im Profil",
+      "sichtbareTexte": [
+        "Körperschaftsteuer",
+        "Neu im Feed",
+        "Steuern als Aufwand?",
+        "Klausurfalle + Markier-Guide · im Profil"
+      ],
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
+      "liveVorrangAktiv": true,
+      "regelGeprueft": true
+    },
+    "s6": {
+      "slot": "s6",
+      "art": "norm",
+      "fach": "istr",
+      "klausur": 2,
+      "fachLabel": "Internationales Steuerrecht",
+      "themaId": "istr-aufb-istr-gh-3-05",
+      "beitragSlot": null,
+      "quellen": null,
+      "titel": [
+        "Ohne Wohnung",
+        "steuerpflichtig?"
+      ],
+      "norm": "§ 9 AO",
+      "punkte": [
+        [
+          "Über sechs Monate im Inland: gewöhnlicher Aufenthalt ab Tag eins.",
+          "warn",
+          "§ 9 S. 2 AO"
+        ],
+        [
+          "Nur Besuch, Erholung, Kur: bis ein Jahr unschädlich.",
+          "ok",
+          "§ 9 S. 3 AO"
+        ]
+      ],
+      "sichtbareTexte": [
+        "Internationales Steuerrecht",
+        "Norm des Tages",
+        "Ohne Wohnung",
+        "steuerpflichtig?",
+        "§ 9 AO",
+        "Über sechs Monate im Inland: gewöhnlicher Aufenthalt ab Tag eins.",
+        "§ 9 S. 2 AO",
+        "Nur Besuch, Erholung, Kur: bis ein Jahr unschädlich.",
+        "§ 9 S. 3 AO"
+      ],
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
+      "liveVorrangAktiv": true,
+      "regelGeprueft": true
+    },
+    "s2": {
+      "slot": "s2",
+      "art": "teaser",
+      "fach": "umwst",
+      "klausur": 3,
+      "fachLabel": "Umwandlungssteuerrecht",
+      "themaId": null,
+      "beitragSlot": "b2",
+      "quellen": null,
+      "titel": [
+        "KG-Anteil in die GmbH"
+      ],
+      "unter": "Prüfschema + Markier-Guide · im Profil",
+      "sichtbareTexte": [
+        "Umwandlungssteuerrecht",
+        "Neu im Feed",
+        "KG-Anteil in die GmbH",
+        "Prüfschema + Markier-Guide · im Profil"
+      ],
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
+      "liveVorrangAktiv": true,
+      "regelGeprueft": true
+    },
+    "s7": {
+      "slot": "s7",
+      "art": "tipp",
+      "fach": null,
+      "klausur": 0,
+      "fachLabel": "Klausurtechnik",
+      "themaId": null,
+      "beitragSlot": null,
+      "quellen": null,
+      "titel": [
+        "Zeit je Teil",
+        "festlegen"
+      ],
+      "punkte": [
+        [
+          "Punkte eines Teils ins Verhältnis setzen.",
+          "ok",
+          null
+        ],
+        [
+          "Daraus Minuten ableiten.",
+          "ok",
+          null
+        ],
+        [
+          "Zeit um? Weiter zum nächsten Teil.",
+          "warn",
+          null
+        ]
+      ],
+      "icon": "tabler:clock",
+      "iconFarbe": "GELB",
+      "sichtbareTexte": [
+        "Klausurtechnik",
+        "Klausurtipp",
+        "Zeit je Teil",
+        "festlegen",
+        "Punkte eines Teils ins Verhältnis setzen.",
+        "Daraus Minuten ableiten.",
+        "Zeit um? Weiter zum nächsten Teil."
+      ],
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
+      "liveVorrangAktiv": true,
+      "regelGeprueft": true
+    },
+    "s8": {
+      "slot": "s8",
+      "art": "tipp",
+      "fach": "bilanz",
+      "klausur": 3,
+      "fachLabel": "Bilanzsteuerrecht",
+      "themaId": "bilanz-karte-k3-1",
+      "beitragSlot": null,
+      "quellen": null,
+      "titel": [
+        "Wirtschaftliches",
+        "Eigentum"
+      ],
+      "punkte": [
+        [
+          "Wer den Eigentümer auf Dauer ausschließt.",
+          "ok",
+          "§ 39 Abs. 2 Nr. 1 S. 1 AO"
+        ],
+        [
+          "Treuhand: der Treugeber.",
+          "ok",
+          "§ 39 Abs. 2 Nr. 1 S. 2 AO"
+        ]
+      ],
+      "icon": "tabler:key",
+      "iconFarbe": "GELB",
+      "sichtbareTexte": [
+        "Bilanzsteuerrecht",
+        "Klausurtipp",
+        "Wirtschaftliches",
+        "Eigentum",
+        "Wer den Eigentümer auf Dauer ausschließt.",
+        "§ 39 Abs. 2 Nr. 1 S. 1 AO",
+        "Treuhand: der Treugeber.",
+        "§ 39 Abs. 2 Nr. 1 S. 2 AO"
+      ],
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
+      "liveVorrangAktiv": true,
+      "regelGeprueft": true
+    },
+    "s3": {
+      "slot": "s3",
+      "art": "teaser",
+      "fach": "ust",
+      "klausur": 1,
+      "fachLabel": "Umsatzsteuer",
+      "themaId": null,
+      "beitragSlot": "b3",
+      "quellen": null,
+      "titel": [
+        "Kein Gewinn, kein Unternehmer?"
+      ],
+      "unter": "Neues Reel · im Profil",
+      "sichtbareTexte": [
+        "Umsatzsteuer",
+        "Neu im Feed",
+        "Kein Gewinn, kein Unternehmer?",
+        "Neues Reel · im Profil"
+      ],
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
+      "liveVorrangAktiv": true,
+      "regelGeprueft": true
+    },
+    "s9": {
+      "slot": "s9",
+      "art": "merksatz",
+      "fach": "ao",
+      "klausur": 1,
+      "fachLabel": "Abgabenordnung",
+      "themaId": "ao-aufb-ao-jacobs-6-10",
+      "beitragSlot": null,
+      "quellen": null,
+      "titel": [
+        "Außenprüfung",
+        "hemmt die Frist?"
+      ],
+      "zeilen": [
+        [
+          [
+            "Echter ",
+            null
+          ],
+          [
+            "Beginn",
+            "a"
+          ],
+          [
+            " hemmt,",
+            null
+          ]
+        ],
+        [
+          [
+            "vor ",
+            null
+          ],
+          [
+            "Fristablauf",
+            "b"
+          ],
+          [
+            ",",
+            null
+          ]
+        ],
+        [
+          [
+            "auch ",
+            null
+          ],
+          [
+            "Aufschub",
+            "d"
+          ],
+          [
+            " auf Antrag.",
+            null
+          ]
+        ],
+        [
+          [
+            "Anordnung",
+            "c"
+          ],
+          [
+            " reicht nicht.",
+            null
+          ]
+        ]
+      ],
+      "norm": "§ 171 Abs. 4 S. 1 AO",
+      "sichtbareTexte": [
+        "Abgabenordnung",
+        "Merksatz",
+        "Außenprüfung",
+        "hemmt die Frist?",
+        "Echter Beginn hemmt,",
+        "vor Fristablauf,",
+        "auch Aufschub auf Antrag.",
+        "Anordnung reicht nicht.",
+        "§ 171 Abs. 4 S. 1 AO"
+      ],
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
+      "liveVorrangAktiv": true,
+      "regelGeprueft": true
+    }
+  },
+  "renderVorschau": {
+    "status": "fertig",
+    "erzeugtAm": "2026-11-25T09:55:21Z",
+    "pfad": "vorproduktion/2026-12-09/fertig",
+    "providerKostenUsd": 0,
+    "coverbilder": false,
+    "coverIcons": false,
+    "renderer": "open-peeps-v4",
+    "layoutQuelle": "open-peeps-variante-c",
+    "reelStimme": "elevenlabs-laura",
+    "sfx": "freesound-cc0",
+    "freigabeBetreiber": true,
+    "liveVorrangAktiv": true,
+    "normalbetriebGesperrt": true,
+    "wartetLive": []
+  }
+}
