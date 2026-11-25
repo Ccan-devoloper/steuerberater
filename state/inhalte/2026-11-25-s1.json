@@ -1,0 +1,26 @@
+{
+  "slot": "s1",
+  "art": "teaser",
+  "fach": "bilanz",
+  "klausur": 3,
+  "fachLabel": "Bilanzsteuerrecht",
+  "themaId": null,
+  "beitragSlot": "b1",
+  "quellen": null,
+  "titel": [
+    "Dividende schon 2026?"
+  ],
+  "unter": "Klausurfalle + Markier-Guide · im Profil",
+  "sichtbareTexte": [
+    "Bilanzsteuerrecht",
+    "Neu im Feed",
+    "Dividende schon 2026?",
+    "Klausurfalle + Markier-Guide · im Profil"
+  ],
+  "renderer": "open-peeps-v4",
+  "bildStatus": "open-peeps-render",
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "liveVorrangAktiv": true,
+  "regelGeprueft": true
+}

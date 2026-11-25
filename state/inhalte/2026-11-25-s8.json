@@ -1,0 +1,51 @@
+{
+  "slot": "s8",
+  "art": "tipp",
+  "fach": "ust",
+  "klausur": 1,
+  "fachLabel": "Umsatzsteuer",
+  "themaId": "ust-modul-ust-210",
+  "beitragSlot": null,
+  "quellen": null,
+  "titel": [
+    "Kunde zahlt nicht:",
+    "Steuer zurück?"
+  ],
+  "punkte": [
+    [
+      "Erst bei Uneinbringlichkeit berichtigen, nicht bei Verzug.",
+      "warn",
+      "§ 17 Abs. 2 Nr. 1 S. 1 UStG"
+    ],
+    [
+      "Im Zeitraum der Änderung buchen.",
+      "ok",
+      "§ 17 Abs. 1 S. 8 UStG"
+    ],
+    [
+      "Zahlt er doch, erneut berichtigen.",
+      "ok",
+      "§ 17 Abs. 2 Nr. 1 S. 2 UStG"
+    ]
+  ],
+  "icon": "tabler:receipt",
+  "iconFarbe": "GELB",
+  "sichtbareTexte": [
+    "Umsatzsteuer",
+    "Klausurtipp",
+    "Kunde zahlt nicht:",
+    "Steuer zurück?",
+    "Erst bei Uneinbringlichkeit berichtigen, nicht bei Verzug.",
+    "§ 17 Abs. 2 Nr. 1 S. 1 UStG",
+    "Im Zeitraum der Änderung buchen.",
+    "§ 17 Abs. 1 S. 8 UStG",
+    "Zahlt er doch, erneut berichtigen.",
+    "§ 17 Abs. 2 Nr. 1 S. 2 UStG"
+  ],
+  "renderer": "open-peeps-v4",
+  "bildStatus": "open-peeps-render",
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "liveVorrangAktiv": true,
+  "regelGeprueft": true
+}

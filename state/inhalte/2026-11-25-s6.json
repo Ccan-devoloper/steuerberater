@@ -1,0 +1,44 @@
+{
+  "slot": "s6",
+  "art": "norm",
+  "fach": "bilanz",
+  "klausur": 3,
+  "fachLabel": "Bilanzsteuerrecht",
+  "themaId": "bilanz-glossar-19",
+  "beitragSlot": null,
+  "quellen": null,
+  "titel": [
+    "Streubesitz:",
+    "unter 10 %"
+  ],
+  "norm": "§ 8b Abs. 4 KStG",
+  "punkte": [
+    [
+      "Zu Jahresbeginn unter 10 %: Dividende voll steuerpflichtig.",
+      "warn",
+      "§ 8b Abs. 4 S. 1 KStG"
+    ],
+    [
+      "Erwerb von mindestens 10 % gilt als zu Jahresbeginn erfolgt.",
+      "ok",
+      "§ 8b Abs. 4 S. 6 KStG"
+    ]
+  ],
+  "sichtbareTexte": [
+    "Bilanzsteuerrecht",
+    "Norm des Tages",
+    "Streubesitz:",
+    "unter 10 %",
+    "§ 8b Abs. 4 KStG",
+    "Zu Jahresbeginn unter 10 %: Dividende voll steuerpflichtig.",
+    "§ 8b Abs. 4 S. 1 KStG",
+    "Erwerb von mindestens 10 % gilt als zu Jahresbeginn erfolgt.",
+    "§ 8b Abs. 4 S. 6 KStG"
+  ],
+  "renderer": "open-peeps-v4",
+  "bildStatus": "open-peeps-render",
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "liveVorrangAktiv": true,
+  "regelGeprueft": true
+}

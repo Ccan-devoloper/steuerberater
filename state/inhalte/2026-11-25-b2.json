@@ -1,0 +1,85 @@
+{
+  "format": "schema",
+  "fach": "ust",
+  "klausur": 1,
+  "fachLabel": "Umsatzsteuer",
+  "themaId": "ust-modul-ust-208",
+  "caption": "Differenzbesteuerung nach § 25a UStG: das Prüfschema für die Umsatzsteuer-Klausur.\n\n1. Wiederverkäufer: gewerbsmäßiger Handel mit beweglichen körperlichen Gegenständen oder Versteigerung im eigenen Namen (§ 25a Abs. 1 Nr. 1 UStG).\n2. Lieferung an den Wiederverkäufer im Gemeinschaftsgebiet, für die keine Umsatzsteuer geschuldet oder bereits differenzbesteuert wurde, etwa Kauf von Privatpersonen (§ 25a Abs. 1 Nr. 2 UStG).\n3. Keine Edelsteine oder Edelmetalle (§ 25a Abs. 1 Nr. 3 UStG).\n4. Bemessungsgrundlage ist die Marge zwischen Verkaufs- und Einkaufspreis; die Umsatzsteuer gehört nicht dazu (§ 25a Abs. 3 S. 1, 3 UStG).\n5. Allgemeiner Steuersatz (§ 25a Abs. 5 S. 1 UStG). In der Rechnung kein gesonderter Steuerausweis, dafür die Angabe „Gebrauchtgegenstände/Sonderregelung“ (§ 14a Abs. 6 UStG). Wer trotzdem Steuer ausweist, schuldet sie nach § 14c Abs. 2 UStG zusätzlich zur Steuer nach § 25a UStG (Abschn. 25a.1 Abs. 16 S. 2, 3 UStAE).\n\nBeispiel: Verkauf 10.380 € – Einkauf 8.000 € = 2.380 € Marge brutto; darin 19/119 = 380 € Umsatzsteuer, Bemessungsgrundlage 2.000 €.\n\nZum Schluss: § 25a UStG und Abschn. 25a.1 Abs. 16 UStAE zum Markieren. Speichern für Klausur 1 📌",
+  "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#umsatzsteuer"
+  ],
+  "quellen": [
+    "§ 25a Abs. 1 Nr. 1–3, Abs. 3 S. 1, 3, Abs. 5 S. 1 UStG",
+    "§ 14a Abs. 6 UStG",
+    "Abschn. 25a.1 Abs. 16 S. 2, 3 UStAE",
+    "§ 14c Abs. 2 UStG"
+  ],
+  "slug": "2026-11-25-b2",
+  "kurztitel": "Differenzbesteuerung nach § 25a: Voraussetzungen, Marge und EU-Besonderheiten",
+  "regelGeprueft": true,
+  "manuellGeprueft": false,
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "textProviderKostenUsd": 0,
+  "faktencheckProviderKostenUsd": 0,
+  "bildStatus": "open-peeps-render",
+  "renderer": "open-peeps-v4",
+  "liveVorrangAktiv": true,
+  "coverBadge": "Prüfschema",
+  "folien": [
+    {
+      "art": "titel",
+      "titel": "Prüfschema",
+      "text": "Prüfschema · Differenz- · besteuerung · § 25a UStG · in 5 Schritten · + Markier-Guide § 25a + UStAE · Marge · 2.380 € · brutto",
+      "bild": "op-cover"
+    },
+    {
+      "art": "text",
+      "titel": "Umsatzsteuer",
+      "text": "§ 25a in 5 Schritten · Wiederverkäufer · § 25a Abs. 1 Nr. 1 UStG · Einkauf ohne geschuldete Steuer · § 25a Abs. 1 Nr. 2 UStG · Kein Edelstein, kein Edelmetall · § 25a Abs. 1 Nr. 3 UStG · Marge = Verkauf – Einkauf · § 25a Abs. 3 UStG · 19 %, kein Steuerausweis · § 25a Abs. 5 S. 1 UStG · Am Ende: § 25a + UStAE markiert"
+    },
+    {
+      "art": "text",
+      "titel": "Umsatzsteuer",
+      "text": "1 · Wer darf das? · Händler, die gewerbsmäßig mit beweglichen Sachen handeln, oder Versteigerer im eigenen Namen. · § 25a Abs. 1 Nr. 1 S. 2 UStG · Nur bewegliche körperliche Gegenstände, etwa Autos, Möbel, Bücher. · § 25a Abs. 1 UStG · Ich bin Emeka, Autohändler."
+    },
+    {
+      "art": "text",
+      "titel": "Umsatzsteuer",
+      "text": "2 · Woher kommt die Ware? · Geliefert im Gemeinschaftsgebiet. · § 25a Abs. 1 Nr. 2 S. 1 UStG · Der Verkäufer schuldete keine Umsatzsteuer, etwa als Privatperson. · § 25a Abs. 1 Nr. 2 S. 2 Buchst. a UStG · Gekauft mit Vorsteuer vom Unternehmer: kein § 25a. · Von wem gekauft?"
+    },
+    {
+      "art": "text",
+      "titel": "Umsatzsteuer",
+      "text": "3 · Marge berechnen · Bemessungsgrundlage: Verkaufspreis minus Einkaufspreis. · § 25a Abs. 3 S. 1 UStG · Die Umsatzsteuer steckt in der Marge und wird herausgerechnet. · § 25a Abs. 3 S. 3 UStG · Immer der allgemeine Steuersatz. · § 25a Abs. 5 S. 1 UStG · Nur die Marge!"
+    },
+    {
+      "art": "text",
+      "titel": "Umsatzsteuer",
+      "text": "Jetzt du · Emeka kauft ein Auto von einer Privatperson für 8.000 €. · Er verkauft es für 10.380 € an eine Kundin. · Wie viel Umsatzsteuer schuldet er? · Rechnest du mit?"
+    },
+    {
+      "art": "text",
+      "titel": "Umsatzsteuer",
+      "text": "Lösung · § 25a Abs. 3, 5 UStG · Verkaufspreis · 10.380 € · – Einkaufspreis · – 8.000 € · Marge brutto · 2.380 € · Umsatzsteuer 19/119 · 380 € · Bemessungsgrundlage: 2.000 €"
+    },
+    {
+      "art": "text",
+      "titel": "Umsatzsteuer",
+      "text": "Rechnung ohne Steuer · Keine Umsatzsteuer gesondert ausweisen. · § 14a Abs. 6 S. 2 UStG · Pflichtangabe: „Gebrauchtgegenstände/Sonderregelung“. · § 14a Abs. 6 S. 1 UStG · Weist er doch Steuer aus, schuldet er sie zusätzlich. · Abschn. 25a.1 Abs. 16 S. 2, 3 UStAE · Teurer Fehler!"
+    },
+    {
+      "art": "text",
+      "titel": "Umsatzsteuer",
+      "text": "Emeka schuldet 380 € · Marge 2.380 € brutto, Steuer herausgerechnet · Händler prüfen, · Einkauf ohne Steuer, · Marge brutto, · Steuer herausrechnen. · Speichern für Klausur 1 · Welcher Schritt fehlt dir oft? · Weiterwischen: § 25a + UStAE markiert"
+    },
+    {
+      "art": "text",
+      "titel": "Umsatzsteuer",
+      "text": "§ 25a UStG Differenzbesteuerung (Auszug) · Wer? · Einkauf · Marge · herausrechnen · Abschn. 25a.1 Abs. 16 UStAE (Auszug) · Ausweis kostet · doppelt! · Daneben: § 14a Abs. 6 UStG · kein gesonderter Steuerausweis in der Rechnung"
+    }
+  ]
+}

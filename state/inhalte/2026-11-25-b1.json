@@ -1,0 +1,77 @@
+{
+  "format": "fehlerfalle",
+  "fach": "bilanz",
+  "klausur": 3,
+  "fachLabel": "Bilanzsteuerrecht",
+  "themaId": "bilanz-aufb-bil-melzer-6-01",
+  "caption": "Klausurfalle Beteiligungen: Gehört die Dividende schon ins alte Jahr? KG-Anteil und GmbH-Anteil werden steuerlich grundverschieden behandelt.\n\n▸ KG-Anteil: steuerlich kein eigenes Wirtschaftsgut, er folgt dem Kapitalkonto in der KG; keine Teilwertabschreibung. Der Gewinnanteil gehört zu den gewerblichen Einkünften des Jahres, für das er festgestellt wird (§ 15 Abs. 1 S. 1 Nr. 2 EStG; § 180 Abs. 1 S. 1 Nr. 2 Buchst. a AO).\n▸ GmbH-Anteil: Wirtschaftsgut mit Anschaffungskosten (§ 6 Abs. 1 Nr. 2 EStG). Den Dividendenanspruch darf die Steuerbilanz erst ab dem Gewinnverwendungsbeschluss aktivieren, nicht schon zum Stichtag des Geschäftsjahres (BFH vom 07.08.2000, GrS 2/99, BStBl II 2000, 632).\n▸ Im Einzelunternehmen sind Ausschüttungen zu 40 % steuerfrei (§ 3 Nr. 40 S. 1 Buchst. d, S. 2 EStG), zugehörige Aufwendungen nur zu 60 % abziehbar (§ 3c Abs. 2 S. 1 EStG). Die einbehaltene Kapitalertragsteuer wird als Entnahme gebucht.\n\nBeispiel 2027: 20.000 € Ausschüttung – 8.000 € steuerfrei – 600 € Zinsen (60 % von 1.000 €) = 11.400 €.\n\nZum Schluss: §§ 3 Nr. 40, 3c Abs. 2 EStG zum Markieren. Speichern für Klausur 3 📌",
+  "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#bilanzsteuerrecht"
+  ],
+  "quellen": [
+    "§ 15 Abs. 1 S. 1 Nr. 2 EStG",
+    "§ 180 Abs. 1 S. 1 Nr. 2 Buchst. a AO",
+    "§ 6 Abs. 1 Nr. 2 EStG",
+    "BFH vom 07.08.2000, GrS 2/99, BStBl II 2000, 632",
+    "§ 3 Nr. 40 S. 1 Buchst. d, S. 2 EStG",
+    "§ 3c Abs. 2 S. 1 EStG"
+  ],
+  "slug": "2026-11-25-b1",
+  "kurztitel": "Beteiligung an KG oder GmbH: Wie wird sie bilanziert?",
+  "regelGeprueft": true,
+  "manuellGeprueft": false,
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "textProviderKostenUsd": 0,
+  "faktencheckProviderKostenUsd": 0,
+  "bildStatus": "open-peeps-render",
+  "renderer": "open-peeps-v4",
+  "liveVorrangAktiv": true,
+  "coverBadge": "Klausurfalle",
+  "folien": [
+    {
+      "art": "titel",
+      "titel": "Klausurfalle",
+      "text": "Klausurfalle · Dividende · schon 2026? · § 3 Nr. 40 S. 1 Buchst. d EStG · KG/GmbH · + Markier-Guide § 3 EStG · Bilanz 31.12. · 20.000 € · Forderung?",
+      "bild": "op-cover"
+    },
+    {
+      "art": "text",
+      "titel": "Bilanzsteuerrecht",
+      "text": "Der Fall · Ronja hält im Einzelunternehmen einen Anteil an der Feld KG und Anteile der Saat GmbH. · 2026 entfallen auf sie je 20.000 € Gewinn. Die GmbH beschließt erst im Mai 2027. · Was gehört ins Jahr 2026? · Ich bin Ronja."
+    },
+    {
+      "art": "text",
+      "titel": "Bilanzsteuerrecht",
+      "text": "Die Falle · Beide 20.000 € zum 31.12.2026 als Forderung buchen. · GmbH: Ein Anspruch entsteht erst mit dem Beschluss über die Gewinnverwendung. · BFH vom 07.08.2000, GrS 2/99, BStBl II 2000, 632 · KG: Der Anteil am Gewinn 2026 wird für 2026 festgestellt und versteuert. · § 15 Abs. 1 S. 1 Nr. 2 EStG · Nicht beide?"
+    },
+    {
+      "art": "text",
+      "titel": "Bilanzsteuerrecht",
+      "text": "KG oder GmbH? · KG-Anteil · Kein eigenes Wirtschaftsgut, folgt dem Kapitalkonto · Gewinn einheitlich festgestellt · § 180 Abs. 1 AO · Keine Teilwertabschreibung · GmbH-Anteil · Wirtschaftsgut mit Anschaffungskosten · § 6 Abs. 1 Nr. 2 EStG · Ertrag erst ab Beschluss · 40 % steuerfrei · § 3 Nr. 40 EStG · Zwei Welten."
+    },
+    {
+      "art": "text",
+      "titel": "Bilanzsteuerrecht",
+      "text": "Jetzt du · Mai 2027: Die Saat GmbH schüttet Ronja 20.000 € aus. · Für den Kauf der Anteile zahlt sie 1.000 € Zinsen im Jahr. · Wie wirkt das 2027 auf ihren Gewinn? · Teileinkünfte?"
+    },
+    {
+      "art": "text",
+      "titel": "Bilanzsteuerrecht",
+      "text": "Lösung 2027 · § 3 Nr. 40 S. 1 Buchst. d, S. 2 EStG · § 3c Abs. 2 S. 1 EStG · Ausschüttung · 20.000 € · – 40 % steuerfrei · – 8.000 € · – Zinsen zu 60 % · – 600 € · Steuerpflichtig · 11.400 € · Kapitalertragsteuer: als Entnahme buchen"
+    },
+    {
+      "art": "text",
+      "titel": "Bilanzsteuerrecht",
+      "text": "2026: nur der KG-Anteil · 2027: GmbH-Ausschüttung, davon 60 % steuerpflichtig · KG folgt dem Kapital, · GmbH ab Beschluss, · 60 % steuerpflichtig. · Speichern für Klausur 3 · Wärst du in die Falle getappt? · Weiterwischen: § 3 Nr. 40 markiert"
+    },
+    {
+      "art": "text",
+      "titel": "Bilanzsteuerrecht",
+      "text": "§§ 3, 3c EStG (Auszug) · Teileinkünfte · nur im Betrieb · Kosten 60 % · GmbH-Ertrag erst mit Beschluss · BFH GrS 2/99: keine phasengleiche Aktivierung"
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "format": "reel",
+  "fach": "kst",
+  "klausur": 2,
+  "fachLabel": "Körperschaftsteuer",
+  "themaId": "kst-aufb-kst-schema-organschaft",
+  "caption": "Klausurfalle Organschaft: Abführung als Ertrag stehen lassen und das Organeinkommen zusätzlich zurechnen. Dann ist alles doppelt erfasst. ⚠️\n\n▸ Liegen die Voraussetzungen vor, wird das Einkommen der Organgesellschaft dem Organträger zugerechnet (§ 14 Abs. 1 S. 1 KStG).\n▸ Beim Organträger wird die handelsrechtlich gebuchte Gewinnabführung deshalb außerhalb der Bilanz abgezogen, an ihre Stelle tritt das zuzurechnende Einkommen der Organgesellschaft (R 14.6 Abs. 1 KStR).\n▸ Beispiel: Abführung 300.000 € heraus, Einkommen der Tochter 320.000 € hinein (darin 20.000 € nicht abziehbare Ausgaben).\n▸ Bei der Organgesellschaft ist kein Verlustabzug nach § 10d EStG zulässig (§ 15 S. 1 Nr. 1 KStG); § 8b KStG wird bei ihr nicht angewendet, sondern erst beim Organträger (§ 15 S. 1 Nr. 2 KStG).\n\nSpeichern für Klausur 2 📌",
+  "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#körperschaftsteuer"
+  ],
+  "quellen": [
+    "§ 14 Abs. 1 S. 1 KStG",
+    "R 14.6 Abs. 1 KStR",
+    "§ 15 S. 1 Nr. 1, 2 KStG",
+    "§ 10d EStG"
+  ],
+  "slug": "2026-11-25-b3",
+  "kurztitel": "Wann rechnet der Organträger das Einkommen der Tochter zu?",
+  "regelGeprueft": true,
+  "manuellGeprueft": false,
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "textProviderKostenUsd": 0,
+  "faktencheckProviderKostenUsd": 0,
+  "bildStatus": "open-peeps-render",
+  "renderer": "open-peeps-v4",
+  "liveVorrangAktiv": true,
+  "bild": "op-cover",
+  "reelTyp": "klausurfalle",
+  "hookStil": "knall",
+  "coverBadge": "Reel",
+  "szenen": [
+    {
+      "art": "hook",
+      "titel": "Organschaft: doppelt gezählt?"
+    },
+    {
+      "art": "schritt",
+      "titel": "Abführung heraus"
+    },
+    {
+      "art": "schritt",
+      "titel": "Einkommen hinein"
+    },
+    {
+      "art": "schritt",
+      "titel": "Bei der Tochter"
+    }
+  ],
+  "sprecher": [
+    "Abführung als Ertrag lassen und das Einkommen der Tochter dazu? Doppelt gezählt, ein Klassiker.",
+    "Bei Hannes Mutter-AG steckt die Abführung von dreihunderttausend Euro im Bilanzgewinn. Die rechnest du außerhalb der Bilanz heraus.",
+    "Dafür kommt das Einkommen der Tochter hinzu, hier dreihundertzwanzigtausend, weil dort Ausgaben nicht abziehbar waren.",
+    "Und bei der Tochter gilt: kein alter Verlustvortrag, und Paragraf acht b prüft erst die Mutter.",
+    "Merke: Abführung raus, Einkommen rein."
+  ],
+  "dauerS": 34.208,
+  "tempo": 1
+}

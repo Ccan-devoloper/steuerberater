@@ -1,0 +1,48 @@
+{
+  "slot": "s7",
+  "art": "tipp",
+  "fach": null,
+  "klausur": 0,
+  "fachLabel": "Klausurtechnik",
+  "themaId": null,
+  "beitragSlot": null,
+  "quellen": null,
+  "titel": [
+    "Zeit im Griff:",
+    "Uhrzeiten notieren"
+  ],
+  "punkte": [
+    [
+      "Punkte mal 3,6 ergibt die Minuten je Teil.",
+      "ok",
+      null
+    ],
+    [
+      "Endzeit jedes Teils an den Rand schreiben.",
+      "ok",
+      null
+    ],
+    [
+      "Zeit um? Lücke lassen, weiter.",
+      "ok",
+      null
+    ]
+  ],
+  "icon": "tabler:clock",
+  "iconFarbe": "GELB",
+  "sichtbareTexte": [
+    "Klausurtechnik",
+    "Klausurtipp",
+    "Zeit im Griff:",
+    "Uhrzeiten notieren",
+    "Punkte mal 3,6 ergibt die Minuten je Teil.",
+    "Endzeit jedes Teils an den Rand schreiben.",
+    "Zeit um? Lücke lassen, weiter."
+  ],
+  "renderer": "open-peeps-v4",
+  "bildStatus": "open-peeps-render",
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "liveVorrangAktiv": true,
+  "regelGeprueft": true
+}
