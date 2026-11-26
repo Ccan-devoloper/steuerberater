@@ -1,0 +1,48 @@
+{
+  "slot": "s7",
+  "art": "tipp",
+  "fach": null,
+  "klausur": 0,
+  "fachLabel": "Klausurtechnik",
+  "themaId": null,
+  "beitragSlot": null,
+  "quellen": null,
+  "titel": [
+    "Darstellung:",
+    "Ergebnis zuerst"
+  ],
+  "punkte": [
+    [
+      "Je Problem: Ergebnis, Norm, kurzer Grund.",
+      "ok",
+      null
+    ],
+    [
+      "Zahlen als Tabelle statt Fließtext.",
+      "ok",
+      null
+    ],
+    [
+      "Unstreitiges in einem Satz.",
+      "ok",
+      null
+    ]
+  ],
+  "icon": "tabler:list-numbers",
+  "iconFarbe": "GELB",
+  "sichtbareTexte": [
+    "Klausurtechnik",
+    "Klausurtipp",
+    "Darstellung:",
+    "Ergebnis zuerst",
+    "Je Problem: Ergebnis, Norm, kurzer Grund.",
+    "Zahlen als Tabelle statt Fließtext.",
+    "Unstreitiges in einem Satz."
+  ],
+  "renderer": "open-peeps-v4",
+  "bildStatus": "open-peeps-render",
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "liveVorrangAktiv": true,
+  "regelGeprueft": true
+}

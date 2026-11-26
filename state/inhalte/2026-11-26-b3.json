@@ -1,0 +1,60 @@
+{
+  "format": "reel",
+  "fach": "bilanz",
+  "klausur": 3,
+  "fachLabel": "Bilanzsteuerrecht",
+  "themaId": "bilanz-aufb-bil-melzer-6-02",
+  "caption": "Gratisaktien im Betriebsvermögen: Ertrag oder nicht? 📈\n\n▸ Erhöht eine Kapitalgesellschaft ihr Nennkapital durch Umwandlung von Rücklagen, gehört der Wert der neuen Anteile beim Anteilseigner nicht zu den Einkünften (§ 1 KapErhStG).\n▸ Die Anschaffungskosten der Altaktien werden auf alte und neue Anteile nach dem Verhältnis der Anteile am Nennkapital verteilt (§ 3 KapErhStG).\n▸ Beispiel: 100 Aktien mit Buchwert 10.000 €, 50 Gratisaktien dazu. Neuer Buchwert je Aktie 10.000 € : 150 = 66,67 €; der Gesamtbuchwert bleibt 10.000 €.\n▸ Anders bei einer Kapitalerhöhung gegen Einlagen: Dort spaltet das Bezugsrecht einen Teil des Buchwerts der Altaktien ab.\n\nSpeichern für Klausur 3 📌",
+  "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#bilanzsteuerrecht"
+  ],
+  "quellen": [
+    "§ 1 KapErhStG",
+    "§ 3 KapErhStG"
+  ],
+  "slug": "2026-11-26-b3",
+  "kurztitel": "Kapitalerhöhung bei der AG: Folgen für die Aktien im Betrieb",
+  "regelGeprueft": true,
+  "manuellGeprueft": false,
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "textProviderKostenUsd": 0,
+  "faktencheckProviderKostenUsd": 0,
+  "bildStatus": "open-peeps-render",
+  "renderer": "open-peeps-v4",
+  "liveVorrangAktiv": true,
+  "bild": "op-cover",
+  "reelTyp": "quizfrage",
+  "hookStil": "split",
+  "coverBadge": "Reel",
+  "szenen": [
+    {
+      "art": "hook",
+      "titel": "Gratisaktien: Ertrag?"
+    },
+    {
+      "art": "schritt",
+      "titel": "Nichts fließt zu"
+    },
+    {
+      "art": "schritt",
+      "titel": "Kosten verteilen"
+    },
+    {
+      "art": "schritt",
+      "titel": "Neuer Buchwert"
+    }
+  ],
+  "sprecher": [
+    "Hundert Aktien, Buchwert zehntausend Euro. Dann kommen fünfzig Gratisaktien. Ertrag? Nein, nur neu verteilt.",
+    "Bei einer Kapitalerhöhung aus Gesellschaftsmitteln fließt nichts zu. Die neuen Aktien sind kein Ertrag.",
+    "Die alten Anschaffungskosten verteilen sich nach Nennbeträgen auf alle hundertfünfzig Aktien.",
+    "Zehntausend durch hundertfünfzig: Jede Aktie steht jetzt mit gut sechsundsechzig Euro in den Büchern.",
+    "Merke: Gratisaktien verteilen nur die alten Kosten."
+  ],
+  "dauerS": 33.926,
+  "tempo": 1
+}

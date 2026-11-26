@@ -1,0 +1,102 @@
+{
+  "datum": "2026-11-26",
+  "erzeugt": "2026-11-26T00:40:31.704Z",
+  "quelle": "vorproduktion",
+  "providerKostenUsd": 0,
+  "beitraege": [
+    {
+      "slot": "b1",
+      "zeit": "08:30",
+      "format": "spickzettel",
+      "themaId": "ao-modul-ao-349",
+      "themaTitel": "§ 165 AO: Fortbestand, Änderungsbescheid und Ablaufhemmung § 171 Abs. 8",
+      "fach": "ao",
+      "klausur": 1,
+      "status": "geplant"
+    },
+    {
+      "slot": "b2",
+      "zeit": "13:30",
+      "format": "schema",
+      "themaId": "kst-schema-6",
+      "themaTitel": "Vereinsbesteuerung",
+      "fach": "kst",
+      "klausur": 2,
+      "status": "geplant"
+    },
+    {
+      "slot": "b3",
+      "zeit": "19:00",
+      "format": "reel",
+      "themaId": "bilanz-aufb-bil-melzer-6-02",
+      "themaTitel": "Kapitalerhöhung bei der AG: Folgen für die Aktien im Betrieb",
+      "fach": "bilanz",
+      "klausur": 3,
+      "status": "geplant"
+    }
+  ],
+  "stories": [
+    {
+      "slot": "s4",
+      "zeit": "07:07",
+      "art": "frage",
+      "themaId": "bilanz-quiz-k3-35",
+      "status": "geplant"
+    },
+    {
+      "slot": "s5",
+      "zeit": "07:09",
+      "art": "antwort",
+      "themaId": "bilanz-quiz-k3-35",
+      "status": "geplant"
+    },
+    {
+      "slot": "s1",
+      "zeit": "08:30",
+      "art": "teaser",
+      "beitragSlot": "b1",
+      "status": "geplant"
+    },
+    {
+      "slot": "s6",
+      "zeit": "12:14",
+      "art": "norm",
+      "themaId": "ao-modul-ao-350",
+      "status": "geplant"
+    },
+    {
+      "slot": "s2",
+      "zeit": "13:30",
+      "art": "teaser",
+      "beitragSlot": "b2",
+      "status": "geplant"
+    },
+    {
+      "slot": "s7",
+      "zeit": "14:40",
+      "art": "tipp",
+      "status": "geplant"
+    },
+    {
+      "slot": "s8",
+      "zeit": "17:04",
+      "art": "tipp",
+      "themaId": "kst-aufb-kst-t5-9",
+      "status": "geplant"
+    },
+    {
+      "slot": "s3",
+      "zeit": "19:00",
+      "art": "teaser",
+      "beitragSlot": "b3",
+      "status": "geplant"
+    },
+    {
+      "slot": "s9",
+      "zeit": "19:12",
+      "art": "merksatz",
+      "themaId": "bilanz-glossar-2",
+      "status": "geplant"
+    }
+  ]
+}

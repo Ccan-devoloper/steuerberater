@@ -1,0 +1,36 @@
+{
+  "slot": "s4",
+  "art": "frage",
+  "fach": "bilanz",
+  "klausur": 3,
+  "fachLabel": "Bilanzsteuerrecht",
+  "themaId": "bilanz-quiz-k3-35",
+  "beitragSlot": null,
+  "quellen": null,
+  "frage": [
+    "§ 8b-Korrektur:",
+    "latente Steuern?"
+  ],
+  "optionen": [
+    "Ja, aktive",
+    "Ja, passive",
+    "Nein, keine"
+  ],
+  "pairId": "bilanz-quiz-k3-35",
+  "sichtbareTexte": [
+    "Bilanzsteuerrecht",
+    "Prüfungsfrage",
+    "§ 8b-Korrektur:",
+    "latente Steuern?",
+    "Ja, aktive",
+    "Ja, passive",
+    "Nein, keine",
+    "Auflösung in der nächsten Story"
+  ],
+  "renderer": "open-peeps-v4",
+  "bildStatus": "open-peeps-render",
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "liveVorrangAktiv": true,
+  "regelGeprueft": true
+}

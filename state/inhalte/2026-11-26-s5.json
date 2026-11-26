@@ -1,0 +1,40 @@
+{
+  "slot": "s5",
+  "art": "antwort",
+  "fach": "bilanz",
+  "klausur": 3,
+  "fachLabel": "Bilanzsteuerrecht",
+  "themaId": "bilanz-quiz-k3-35",
+  "beitragSlot": null,
+  "quellen": null,
+  "titel": [
+    "C: keine latenten",
+    "Steuern"
+  ],
+  "optionen": [
+    "Ja, aktive",
+    "Ja, passive",
+    "Nein, keine"
+  ],
+  "richtig": 2,
+  "text": "Latente Steuern nur für Differenzen, die sich später abbauen. Außerbilanzielle § 8b-Korrekturen tun das nie.",
+  "norm": "§ 274 Abs. 1 S. 1 HGB",
+  "pairId": "bilanz-quiz-k3-35",
+  "sichtbareTexte": [
+    "Bilanzsteuerrecht",
+    "Auflösung",
+    "C: keine latenten",
+    "Steuern",
+    "Ja, aktive",
+    "Ja, passive",
+    "Nein, keine",
+    "Latente Steuern nur für Differenzen, die sich später abbauen. Außerbilanzielle § 8b-Korrekturen tun das nie.",
+    "§ 274 Abs. 1 S. 1 HGB"
+  ],
+  "renderer": "open-peeps-v4",
+  "bildStatus": "open-peeps-render",
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "liveVorrangAktiv": true,
+  "regelGeprueft": true
+}

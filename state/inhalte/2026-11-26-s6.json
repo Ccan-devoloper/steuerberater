@@ -1,0 +1,44 @@
+{
+  "slot": "s6",
+  "art": "norm",
+  "fach": "ao",
+  "klausur": 1,
+  "fachLabel": "Abgabenordnung",
+  "themaId": "ao-modul-ao-350",
+  "beitragSlot": null,
+  "quellen": null,
+  "titel": [
+    "Frist und Korrektur",
+    "trennen"
+  ],
+  "norm": "§ 171 Abs. 8 AO",
+  "punkte": [
+    [
+      "Ändern darf das Amt nach der Korrekturnorm.",
+      "ok",
+      "§ 165 Abs. 2 S. 1 AO"
+    ],
+    [
+      "Wie lange, regelt nur die Ablaufhemmung.",
+      "warn",
+      "§ 171 Abs. 8 S. 1, 2 AO"
+    ]
+  ],
+  "sichtbareTexte": [
+    "Abgabenordnung",
+    "Norm des Tages",
+    "Frist und Korrektur",
+    "trennen",
+    "§ 171 Abs. 8 AO",
+    "Ändern darf das Amt nach der Korrekturnorm.",
+    "§ 165 Abs. 2 S. 1 AO",
+    "Wie lange, regelt nur die Ablaufhemmung.",
+    "§ 171 Abs. 8 S. 1, 2 AO"
+  ],
+  "renderer": "open-peeps-v4",
+  "bildStatus": "open-peeps-render",
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "liveVorrangAktiv": true,
+  "regelGeprueft": true
+}
