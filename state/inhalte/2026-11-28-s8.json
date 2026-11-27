@@ -1,0 +1,51 @@
+{
+  "slot": "s8",
+  "art": "tipp",
+  "fach": "ao",
+  "klausur": 1,
+  "fachLabel": "Abgabenordnung",
+  "themaId": "ao-modul-ao-383",
+  "beitragSlot": null,
+  "quellen": null,
+  "titel": [
+    "§ 370 AO:",
+    "die Reihenfolge"
+  ],
+  "normImTitel": true,
+  "punkte": [
+    [
+      "Tathandlung: falsche Angaben oder pflichtwidriges Schweigen.",
+      "ok",
+      "§ 370 Abs. 1 Nr. 1, 2 AO"
+    ],
+    [
+      "Taterfolg: Steuer verkürzt oder Vorteil erlangt.",
+      "ok",
+      "§ 370 Abs. 4 AO"
+    ],
+    [
+      "Dann Vorsatz, Rechtswidrigkeit, Schuld.",
+      "ok",
+      null
+    ]
+  ],
+  "icon": "tabler:gavel",
+  "iconFarbe": "GELB",
+  "sichtbareTexte": [
+    "Abgabenordnung",
+    "Klausurtipp",
+    "§ 370 AO:",
+    "die Reihenfolge",
+    "Tathandlung: falsche Angaben oder pflichtwidriges Schweigen.",
+    "§ 370 Abs. 1 Nr. 1, 2 AO",
+    "Taterfolg: Steuer verkürzt oder Vorteil erlangt.",
+    "§ 370 Abs. 4 AO",
+    "Dann Vorsatz, Rechtswidrigkeit, Schuld."
+  ],
+  "renderer": "open-peeps-v4",
+  "bildStatus": "open-peeps-render",
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "liveVorrangAktiv": true,
+  "regelGeprueft": true
+}

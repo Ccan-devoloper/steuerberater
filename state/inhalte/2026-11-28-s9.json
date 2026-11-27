@@ -1,0 +1,56 @@
+{
+  "slot": "s9",
+  "art": "merksatz",
+  "fach": "kst",
+  "klausur": 2,
+  "fachLabel": "Körperschaftsteuer",
+  "themaId": "kst-aufb-kst-t5-37",
+  "beitragSlot": null,
+  "quellen": null,
+  "titel": [
+    "Zinsschranke:",
+    "Zinsen verloren?"
+  ],
+  "zeilen": [
+    [
+      [
+        "Gesperrte Zinsen",
+        null
+      ]
+    ],
+    [
+      [
+        "wandern in den",
+        null
+      ]
+    ],
+    [
+      [
+        "Zinsvortrag",
+        "a"
+      ],
+      [
+        ".",
+        null
+      ]
+    ]
+  ],
+  "norm": "§ 4h Abs. 1 S. 5, 6 EStG",
+  "groesse": 76,
+  "sichtbareTexte": [
+    "Körperschaftsteuer",
+    "Merksatz",
+    "Zinsschranke:",
+    "Zinsen verloren?",
+    "Gesperrte Zinsen",
+    "wandern in den",
+    "Zinsvortrag.",
+    "§ 4h Abs. 1 S. 5, 6 EStG"
+  ],
+  "renderer": "open-peeps-v4",
+  "bildStatus": "open-peeps-render",
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "liveVorrangAktiv": true,
+  "regelGeprueft": true
+}

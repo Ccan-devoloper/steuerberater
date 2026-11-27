@@ -1,0 +1,37 @@
+{
+  "slot": "s4",
+  "art": "frage",
+  "fach": "istr",
+  "klausur": 2,
+  "fachLabel": "Internationales Steuerrecht",
+  "themaId": null,
+  "beitragSlot": null,
+  "quellen": null,
+  "frage": [
+    "Deutsche Diplomatin,",
+    "kein Wohnsitz hier:",
+    "steuerpflichtig?"
+  ],
+  "optionen": [
+    "Nein, gar nicht",
+    "Ja, erweitert unbeschränkt",
+    "Nur beschränkt"
+  ],
+  "sichtbareTexte": [
+    "Internationales Steuerrecht",
+    "Prüfungsfrage",
+    "Deutsche Diplomatin,",
+    "kein Wohnsitz hier:",
+    "steuerpflichtig?",
+    "Nein, gar nicht",
+    "Ja, erweitert unbeschränkt",
+    "Nur beschränkt",
+    "Auflösung in der nächsten Story"
+  ],
+  "renderer": "open-peeps-v4",
+  "bildStatus": "open-peeps-render",
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "liveVorrangAktiv": true,
+  "regelGeprueft": true
+}

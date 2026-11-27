@@ -1,0 +1,83 @@
+{
+  "format": "rechenweg",
+  "fach": "ust",
+  "klausur": 1,
+  "fachLabel": "Umsatzsteuer",
+  "themaId": "ust-modul-ust-225",
+  "caption": "Firmenwagen für Mitarbeiter: der Rechenweg zur Umsatzsteuer für Klausur 1.\n\n▸ Ist die private Nutzung individuell arbeitsvertraglich vereinbart und wird sie tatsächlich genutzt, ist die Überlassung entgeltlich: Gegenleistung ist ein Teil der Arbeitsleistung (BFH vom 30.06.2022, V R 25/21, BStBl II 2026, 254), also ein tauschähnlicher Umsatz (§ 3 Abs. 12 S. 2 UStG). Die Finanzverwaltung hat den UStAE mit BMF-Schreiben vom 03.03.2026 an dieses Urteil angepasst; mündliche Abreden oder betriebliche Übung genügen regelmäßig ebenfalls (Abschn. 15.23 Abs. 9 S. 2, 3 UStAE).\n▸ Ort: langfristige Vermietung eines Beförderungsmittels an einen Nichtunternehmer, also am Wohnsitz des Arbeitnehmers (§ 3a Abs. 3 Nr. 2 S. 3 UStG).\n▸ Bemessungsgrundlage: Aus Vereinfachungsgründen dürfen die lohnsteuerlichen Werte angesetzt werden (§ 8 Abs. 2 S. 2, 3 EStG). Sie gelten als Bruttowerte, aus denen die Umsatzsteuer herauszurechnen ist; ein Abschlag von 20 % für nicht vorsteuerbelastete Kosten ist hier nicht zulässig (Abschn. 15.23 Abs. 11 S. 1, 2, Nr. 1 S. 5 UStAE).\n\nRechnung: 1 % von 50.000 € × 12 = 6.000 €; 0,03 % × 50.000 € × 20 km × 12 = 3.600 €; Bruttowert 9.600 €; darin 19/119 = 1.532,77 € Umsatzsteuer, Bemessungsgrundlage 8.067,23 €.\n\nZum Schluss: §§ 3 Abs. 12, 3a Abs. 3 UStG und Abschn. 15.23 UStAE zum Markieren. Speichern für Klausur 1 📌",
+  "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#umsatzsteuer"
+  ],
+  "quellen": [
+    "§ 3 Abs. 12 S. 2 UStG",
+    "§ 3a Abs. 3 Nr. 2 S. 3 UStG",
+    "§ 8 Abs. 2 S. 2, 3 EStG",
+    "Abschn. 15.23 Abs. 11 Nr. 1 UStAE",
+    "BFH vom 30.06.2022, V R 25/21, BStBl II 2026, 254",
+    "BMF vom 03.03.2026, III C 3 - S 7117-e/00003/005/058",
+    "Abschn. 15.23 Abs. 9 S. 2, 3 UStAE"
+  ],
+  "slug": "2026-11-28-b2",
+  "kurztitel": "Pkw-Überlassung: Unternehmerentnahme oder entgeltliche Arbeitnehmerüberlassung",
+  "regelGeprueft": true,
+  "manuellGeprueft": false,
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "textProviderKostenUsd": 0,
+  "faktencheckProviderKostenUsd": 0,
+  "bildStatus": "open-peeps-render",
+  "renderer": "open-peeps-v4",
+  "liveVorrangAktiv": true,
+  "coverBadge": "Rechenweg",
+  "folien": [
+    {
+      "art": "titel",
+      "titel": "Rechenweg",
+      "text": "Rechenweg · Firmenwagen · für Personal · § 3 Abs. 12 S. 2 UStG · mit Zahlen · + Markier-Guide § 3a + UStAE · Listenpreis · 50.000 € · Umsatzsteuer?",
+      "bild": "op-cover"
+    },
+    {
+      "art": "text",
+      "titel": "Umsatzsteuer",
+      "text": "Der Fall · Wiebke führt eine GmbH. Ihr Mitarbeiter Kenan darf den Firmenwagen laut Arbeitsvertrag privat nutzen und tut es. · Listenpreis 50.000 €, 20 km zur Arbeit, ganzes Jahr. · Wie viel Umsatzsteuer schuldet die GmbH? · Ich bin Wiebke."
+    },
+    {
+      "art": "text",
+      "titel": "Umsatzsteuer",
+      "text": "1 · Entgeltlich? · Vertraglich vereinbart und genutzt: Gegenleistung ist ein Teil der Arbeitsleistung. · BFH vom 30.06.2022, V R 25/21 (BStBl II) · Also ein tauschähnlicher Umsatz. · § 3 Abs. 12 S. 2 UStG · Mündliche Abrede oder betriebliche Übung genügt regelmäßig auch. · Abschn. 15.23 Abs. 9 S. 3 UStAE · Arbeit gegen Auto."
+    },
+    {
+      "art": "text",
+      "titel": "Umsatzsteuer",
+      "text": "2 · Wo ist der Ort? · Langfristige Vermietung eines Beförderungsmittels an eine Privatperson. · Ort: Wohnsitz des Empfängers, hier Inland. · § 3a Abs. 3 Nr. 2 S. 3 UStG · Kenan wohnt hier."
+    },
+    {
+      "art": "text",
+      "titel": "Umsatzsteuer",
+      "text": "3 · Bemessungsgrundlage · Vereinfachung: lohnsteuerliche Werte als Bruttowerte, Umsatzsteuer herausrechnen. · Abschn. 15.23 Abs. 11 Nr. 1 UStAE · Kein Abschlag von 20 % für Kosten ohne Vorsteuer. · Abschn. 15.23 Abs. 11 Nr. 1 UStAE · Kein Rabatt!"
+    },
+    {
+      "art": "text",
+      "titel": "Umsatzsteuer",
+      "text": "Der Rechenweg · § 8 Abs. 2 S. 2, 3 EStG · Abschn. 15.23 Abs. 11 UStAE · Privat: 1 % × 12 · 6.000 € · Arbeitsweg: 0,03 % je km · 3.600 € · Bruttowert · 9.600 € · Umsatzsteuer 19/119 · 1.532,77 € · Bemessungsgrundlage: 8.067,23 €"
+    },
+    {
+      "art": "text",
+      "titel": "Umsatzsteuer",
+      "text": "Die GmbH schuldet 1.532,77 € · Lohnsteuerwerte brutto, Steuer herausrechnen · Vertrag = Entgelt, · Ort beim Wohnsitz, · Werte brutto, · kein Abschlag. · Speichern für Klausur 1 · Hättest du 20 % abgezogen? · Weiterwischen: § 3a + UStAE markiert"
+    },
+    {
+      "art": "text",
+      "titel": "Umsatzsteuer",
+      "text": "§§ 3, 3a UStG (Auszug) · Auto gegen Arbeit · Ort · BFH vom 30.06.2022, V R 25/21 (BStBl II 2026, 254) · Teil der Arbeitsleistung ist das Entgelt"
+    },
+    {
+      "art": "text",
+      "titel": "Umsatzsteuer",
+      "text": "Abschn. 15.23 UStAE (Auszug) · entgeltlich · 1 % + 0,03 % · brutto! · kein Abschlag · Ausnahmsweise unentgeltlich? · § 3 Abs. 9a Nr. 1 UStG, Ort nach § 3a Abs. 1 UStG"
+    }
+  ]
+}

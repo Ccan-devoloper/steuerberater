@@ -1,0 +1,44 @@
+{
+  "slot": "s6",
+  "art": "norm",
+  "fach": "bilanz",
+  "klausur": 3,
+  "fachLabel": "Bilanzsteuerrecht",
+  "themaId": "bilanz-glossar-3",
+  "beitragSlot": null,
+  "quellen": null,
+  "titel": [
+    "Rückstellung:",
+    "welcher Betrag?"
+  ],
+  "norm": "§ 253 Abs. 1 S. 2 HGB",
+  "punkte": [
+    [
+      "Handelsbilanz: Erfüllungsbetrag, mit künftigen Preissteigerungen.",
+      "ok",
+      "§ 253 Abs. 1 S. 2 HGB"
+    ],
+    [
+      "Steuerbilanz: Preise am Stichtag, keine künftigen Steigerungen.",
+      "warn",
+      "§ 6 Abs. 1 Nr. 3a Buchst. f EStG"
+    ]
+  ],
+  "sichtbareTexte": [
+    "Bilanzsteuerrecht",
+    "Norm des Tages",
+    "Rückstellung:",
+    "welcher Betrag?",
+    "§ 253 Abs. 1 S. 2 HGB",
+    "Handelsbilanz: Erfüllungsbetrag, mit künftigen Preissteigerungen.",
+    "§ 253 Abs. 1 S. 2 HGB",
+    "Steuerbilanz: Preise am Stichtag, keine künftigen Steigerungen.",
+    "§ 6 Abs. 1 Nr. 3a Buchst. f EStG"
+  ],
+  "renderer": "open-peeps-v4",
+  "bildStatus": "open-peeps-render",
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "liveVorrangAktiv": true,
+  "regelGeprueft": true
+}

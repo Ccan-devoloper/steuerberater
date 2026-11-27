@@ -1,0 +1,48 @@
+{
+  "slot": "s7",
+  "art": "tipp",
+  "fach": null,
+  "klausur": 0,
+  "fachLabel": "Klausurtechnik",
+  "themaId": null,
+  "beitragSlot": null,
+  "quellen": null,
+  "titel": [
+    "Die letzten",
+    "20 Minuten"
+  ],
+  "punkte": [
+    [
+      "Offene Teile kurz anlösen: Ergebnis und Norm.",
+      "ok",
+      null
+    ],
+    [
+      "Keine lange Herleitung mehr.",
+      "ok",
+      null
+    ],
+    [
+      "Blätter nummerieren und ordnen.",
+      "ok",
+      null
+    ]
+  ],
+  "icon": "tabler:hourglass",
+  "iconFarbe": "GELB",
+  "sichtbareTexte": [
+    "Klausurtechnik",
+    "Klausurtipp",
+    "Die letzten",
+    "20 Minuten",
+    "Offene Teile kurz anlösen: Ergebnis und Norm.",
+    "Keine lange Herleitung mehr.",
+    "Blätter nummerieren und ordnen."
+  ],
+  "renderer": "open-peeps-v4",
+  "bildStatus": "open-peeps-render",
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "liveVorrangAktiv": true,
+  "regelGeprueft": true
+}

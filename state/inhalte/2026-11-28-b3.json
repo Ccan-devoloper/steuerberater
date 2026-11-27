@@ -1,0 +1,64 @@
+{
+  "format": "reel",
+  "fach": "kst",
+  "klausur": 2,
+  "fachLabel": "Körperschaftsteuer",
+  "themaId": "kst-modul-kst-11",
+  "caption": "Mit oder ohne Organschaft: Was passiert mit dem Verlust der Tochter? 🏢\n\n▸ Ohne Organschaft ist jede Kapitalgesellschaft eigenes Steuersubjekt. Der Verlust der Tochter bleibt bei ihr und wird nur mit ihren eigenen Gewinnen verrechnet (§ 8 Abs. 1 KStG i. V. m. § 10d EStG). Die Mutter versteuert 500.000 €.\n▸ Mit Organschaft wird das Einkommen der Organgesellschaft dem Organträger zugerechnet, auch ein negatives (§ 14 Abs. 1 S. 1 KStG). Die Mutter versteuert 500.000 € – 200.000 € = 300.000 €.\n▸ Der Preis: Der Organträger übernimmt die Verluste auch zivilrechtlich (§ 302 AktG; bei der GmbH als Organgesellschaft § 17 Abs. 1 S. 2 Nr. 2 KStG), der Gewinnabführungsvertrag muss mindestens fünf Jahre laufen und durchgeführt werden (§ 14 Abs. 1 S. 1 Nr. 3 KStG).\n▸ Verluste der Tochter aus der Zeit vor der Organschaft kann sie während der Organschaft nicht abziehen (§ 15 S. 1 Nr. 1 KStG).\n\nSpeichern für Klausur 2 📌",
+  "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#körperschaftsteuer"
+  ],
+  "quellen": [
+    "§ 14 Abs. 1 S. 1 Nr. 3 KStG",
+    "§ 15 S. 1 Nr. 1 KStG",
+    "§ 17 Abs. 1 S. 2 Nr. 2 KStG",
+    "§ 8 Abs. 1 KStG",
+    "§ 10d EStG",
+    "§ 302 AktG"
+  ],
+  "slug": "2026-11-28-b3",
+  "kurztitel": "Ertragsteuerliche Organschaft",
+  "regelGeprueft": true,
+  "manuellGeprueft": false,
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "textProviderKostenUsd": 0,
+  "faktencheckProviderKostenUsd": 0,
+  "bildStatus": "open-peeps-render",
+  "renderer": "open-peeps-v4",
+  "liveVorrangAktiv": true,
+  "bild": "op-cover",
+  "reelTyp": "gegensatz",
+  "hookStil": "split",
+  "coverBadge": "Reel",
+  "szenen": [
+    {
+      "art": "hook",
+      "titel": "Tochter macht Verlust:"
+    },
+    {
+      "art": "schritt",
+      "titel": "Ohne Organschaft"
+    },
+    {
+      "art": "schritt",
+      "titel": "Mit Organschaft"
+    },
+    {
+      "art": "schritt",
+      "titel": "Der Preis"
+    }
+  ],
+  "sprecher": [
+    "Mutter plus fünfhunderttausend, Tochter minus zweihunderttausend. Ohne Organschaft versteuert die Mutter alles. Mit Organschaft nur dreihunderttausend.",
+    "Ohne Organschaft bleibt der Verlust bei der Tochter, als Vortrag für ihre späteren Gewinne.",
+    "Mit Organschaft wird das Einkommen der Tochter der Mutter zugerechnet, auch wenn es negativ ist.",
+    "Dafür trägt die Mutter den Verlust auch zivilrechtlich, und der Vertrag läuft mindestens fünf Jahre.",
+    "Merke: Organschaft verrechnet sofort, verpflichtet aber fünf Jahre."
+  ],
+  "dauerS": 34.474,
+  "tempo": 1
+}
