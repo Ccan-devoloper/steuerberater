@@ -1,0 +1,79 @@
+{
+  "format": "minifall",
+  "fach": "kst",
+  "klausur": 2,
+  "fachLabel": "Körperschaftsteuer",
+  "themaId": "kst-aufb-kst-t6-5",
+  "caption": "Mini-Fall Organschaft: 40 % direkt plus 20 % über eine Tochter. Reicht das für die finanzielle Eingliederung?\n\n▸ Erforderlich ist die Mehrheit der Stimmrechte an der Organgesellschaft, ununterbrochen vom Beginn ihres Wirtschaftsjahres an (§ 14 Abs. 1 S. 1 Nr. 1 S. 1 KStG). Die Kapitalquote allein entscheidet nicht.\n▸ Mittelbare Beteiligungen zählen, wenn die Beteiligung an jeder vermittelnden Gesellschaft die Stimmenmehrheit gewährt (§ 14 Abs. 1 S. 1 Nr. 1 S. 2 KStG). Dann wird die mittelbare Quote voll addiert, sonst gar nicht.\n▸ Fall: 40 % + 20 % über die 100%ige Tochter = 60 %: eingegliedert. Variante mit nur 50 % an der Tochter: keine Mehrheit dort, es bleiben 40 %, keine Organschaft.\n▸ Die Beteiligung muss während der gesamten Organschaft einer inländischen Betriebsstätte des Organträgers zuzuordnen sein (§ 14 Abs. 1 S. 1 Nr. 2 S. 4 KStG); deren Einkünfte müssen nach innerstaatlichem Recht und nach einem anzuwendenden DBA der deutschen Besteuerung unterliegen (§ 14 Abs. 1 S. 1 Nr. 2 S. 7 KStG).\n\nZum Schluss: § 14 Abs. 1 S. 1 Nr. 1, 2 KStG zum Markieren. Speichern für Klausur 2 📌",
+  "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#körperschaftsteuer"
+  ],
+  "quellen": [
+    "§ 14 Abs. 1 S. 1 Nr. 1 S. 1, 2 KStG",
+    "§ 14 Abs. 1 S. 1 Nr. 2 S. 4, 7 KStG",
+    "§ 12 AO"
+  ],
+  "slug": "2026-11-27-b1",
+  "kurztitel": "Organschaft: Stimmrechte und inländische Betriebsstätte",
+  "regelGeprueft": true,
+  "manuellGeprueft": false,
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "textProviderKostenUsd": 0,
+  "faktencheckProviderKostenUsd": 0,
+  "bildStatus": "open-peeps-render",
+  "renderer": "open-peeps-v4",
+  "liveVorrangAktiv": true,
+  "coverBadge": "Mini-Fall",
+  "folien": [
+    {
+      "art": "titel",
+      "titel": "Mini-Fall",
+      "text": "Mini-Fall · 40 % plus 20 %: · Organschaft? · § 14 Abs. 1 S. 1 Nr. 1 KStG · Der Fall · + Markier-Guide § 14 KStG · direkt + mittelbar · 60 % · Stimmen?",
+      "bild": "op-cover"
+    },
+    {
+      "art": "text",
+      "titel": "Körperschaftsteuer",
+      "text": "Der Sachverhalt · Die Rhein AG hält 40 % der Stimmen an der Kessel GmbH. · Ihre 100%ige Tochter, die Pfeil GmbH, hält weitere 20 %. · Seit Jahren so. Ist Kessel finanziell eingegliedert? · Ich bin Priya."
+    },
+    {
+      "art": "text",
+      "titel": "Körperschaftsteuer",
+      "text": "Lösung · Mittelbare Stimmen zählen, wenn jede vermittelnde Beteiligung die Mehrheit gibt. · § 14 Abs. 1 S. 1 Nr. 1 S. 2 KStG · Rhein beherrscht Pfeil voll: 40 % + 20 % = 60 %. · Mehrheit seit Beginn des Wirtschaftsjahres: eingegliedert. · § 14 Abs. 1 S. 1 Nr. 1 S. 1 KStG · Passt!"
+    },
+    {
+      "art": "text",
+      "titel": "Körperschaftsteuer",
+      "text": "Jetzt du · Variante: Die Rhein AG hält nur 50 % der Stimmen an der Pfeil GmbH. · Reicht es noch für die Organschaft? · Knapp?"
+    },
+    {
+      "art": "text",
+      "titel": "Körperschaftsteuer",
+      "text": "Lösung der Variante · 50 % sind keine Mehrheit: Die 20 % über Pfeil zählen gar nicht. · § 14 Abs. 1 S. 1 Nr. 1 S. 2 KStG · Auch nicht anteilig: ganz oder gar nicht. · Es bleiben 40 %: keine Organschaft. · Schade."
+    },
+    {
+      "art": "text",
+      "titel": "Körperschaftsteuer",
+      "text": "Was zählt? · Zählt · Mehrheit der Stimmrechte · § 14 Abs. 1 S. 1 Nr. 1 KStG · Ab Beginn des Wirtschaftsjahres · Zählt nicht · Kapital ohne Stimmrecht · Mehrheit erst zum Bilanzstichtag · Stimmen, nicht Kapital."
+    },
+    {
+      "art": "text",
+      "titel": "Körperschaftsteuer",
+      "text": "Und die Betriebsstätte? · Die Beteiligung gehört die ganze Zeit zu einer inländischen Betriebsstätte der Rhein AG. · § 14 Abs. 1 S. 1 Nr. 2 S. 4 KStG · Deren Einkünfte müssen auch nach DBA in Deutschland besteuert werden. · § 14 Abs. 1 S. 1 Nr. 2 S. 7 KStG · Reiner Inlandsfall: kurz feststellen. · Bei Auslandsbezug genau!"
+    },
+    {
+      "art": "text",
+      "titel": "Körperschaftsteuer",
+      "text": "Grundfall: 60 % der Stimmen, eingegliedert · Variante: nur 40 %, keine Organschaft · Stimmen zählen, · mittelbar mit Mehrheit, · ab Jahresbeginn, · Betriebsstätte im Inland. · Speichern für Klausur 2 · Hättest du 50 % mitgezählt? · Weiterwischen: § 14 KStG markiert"
+    },
+    {
+      "art": "text",
+      "titel": "Körperschaftsteuer",
+      "text": "§ 14 KStG Organgesellschaft (Auszug) · Stimmen! · mittelbar · jede Stufe · Inland · Daneben: § 14 Abs. 1 S. 1 Nr. 2 S. 7 KStG · auch nach DBA in Deutschland steuerpflichtig"
+    }
+  ]
+}

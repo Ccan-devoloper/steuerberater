@@ -1,0 +1,64 @@
+{
+  "slot": "s9",
+  "art": "merksatz",
+  "fach": "ust",
+  "klausur": 1,
+  "fachLabel": "Umsatzsteuer",
+  "themaId": "ust-modul-ust-211",
+  "beitragSlot": null,
+  "quellen": null,
+  "titel": [
+    "Entnahme:",
+    "immer Umsatzsteuer?"
+  ],
+  "zeilen": [
+    [
+      [
+        "Ohne ",
+        null
+      ],
+      [
+        "Vorsteuer",
+        "a"
+      ]
+    ],
+    [
+      [
+        "beim Kauf",
+        null
+      ]
+    ],
+    [
+      [
+        "keine ",
+        null
+      ],
+      [
+        "Wertabgabe",
+        "b"
+      ],
+      [
+        ".",
+        null
+      ]
+    ]
+  ],
+  "norm": "§ 3 Abs. 1b S. 2 UStG",
+  "groesse": 76,
+  "sichtbareTexte": [
+    "Umsatzsteuer",
+    "Merksatz",
+    "Entnahme:",
+    "immer Umsatzsteuer?",
+    "Ohne Vorsteuer",
+    "beim Kauf",
+    "keine Wertabgabe.",
+    "§ 3 Abs. 1b S. 2 UStG"
+  ],
+  "renderer": "open-peeps-v4",
+  "bildStatus": "open-peeps-render",
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "liveVorrangAktiv": true,
+  "regelGeprueft": true
+}

@@ -1,0 +1,86 @@
+{
+  "format": "kurzvortrag",
+  "fach": "bilanz",
+  "klausur": 3,
+  "fachLabel": "Bilanzsteuerrecht",
+  "themaId": "bilanz-aufb-bil-melzer-7-06",
+  "caption": "Kurzvortrag für die mündliche Prüfung: Lifo, Durchschnitt oder Festwert – was erlaubt die Steuerbilanz? 🎤\n\nAufbau für rund zehn Minuten:\n\n▸ Einstieg: Grundsatz der Einzelbewertung (§ 252 Abs. 1 Nr. 3 HGB); bei Massenvorräten erlaubt das Gesetz Vereinfachungen.\n▸ Durchschnitt: gleichartige Vorräte zu Gruppen zusammenfassen, gewogener Durchschnittswert (§ 240 Abs. 4 HGB).\n▸ Festwert: Sachanlagen sowie Roh-, Hilfs- und Betriebsstoffe, regelmäßig ersetzt, Gesamtwert nachrangig, Bestand nur gering schwankend; in der Regel alle drei Jahre körperliche Bestandsaufnahme (§ 240 Abs. 3 HGB). Steuerlich über die Maßgeblichkeit (§ 5 Abs. 1 S. 1 EStG).\n▸ Lifo: Als Verbrauchsfolge lässt die Steuerbilanz nur Lifo zu, für Bilanzierer nach § 5 EStG und gleichartige Vorräte, soweit mit den GoB vereinbar; Abweichung später nur mit Zustimmung des Finanzamts (§ 6 Abs. 1 Nr. 2a S. 1, 3 EStG). Lifo muss nicht der tatsächlichen Abgangsfolge entsprechen, ist aber bei Vorräten mit geringer Haltbarkeit nicht zulässig; das Wahlrecht ist unabhängig von der Handelsbilanz (BMF vom 12.05.2015, Rn. 5, 9, 10).\n▸ Schluss: Niedrigerer Teilwert nur bei voraussichtlich dauernder Wertminderung (§ 6 Abs. 1 Nr. 2 S. 2 EStG).\n\nBeispiel: Anfang 100 kg zu 4 €, Zugang 200 kg zu 5 €, Endbestand 150 kg. Lifo 650 €, Durchschnitt 700 €.\n\nZum Schluss: § 6 Abs. 1 Nr. 2a EStG und § 240 Abs. 3, 4 HGB zum Markieren. Speichern für die Mündliche 📌",
+  "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#bilanzsteuerrecht"
+  ],
+  "quellen": [
+    "§ 252 Abs. 1 Nr. 3 HGB",
+    "§ 240 Abs. 3, 4 HGB",
+    "§ 5 Abs. 1 S. 1 EStG",
+    "§ 6 Abs. 1 Nr. 2 S. 2, Nr. 2a S. 1, 3 EStG",
+    "BMF vom 12.05.2015, Rn. 5, 9, 10"
+  ],
+  "slug": "2026-11-27-b2",
+  "kurztitel": "Lifo, Durchschnitt oder Festwert: Was erlaubt die Steuerbilanz?",
+  "regelGeprueft": true,
+  "manuellGeprueft": false,
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "textProviderKostenUsd": 0,
+  "faktencheckProviderKostenUsd": 0,
+  "bildStatus": "open-peeps-render",
+  "renderer": "open-peeps-v4",
+  "liveVorrangAktiv": true,
+  "coverBadge": "Kurzvortrag",
+  "folien": [
+    {
+      "art": "titel",
+      "titel": "Kurzvortrag",
+      "text": "Kurzvortrag · Lifo, Festwert · oder Schnitt? · § 6 Abs. 1 Nr. 2a EStG · 10 Minuten · + Markier-Guide § 6 EStG, § 240 HGB",
+      "bild": "op-cover"
+    },
+    {
+      "art": "text",
+      "titel": "Bilanzsteuerrecht",
+      "text": "Dein Aufbau · Einstieg · 1 Min. · Grundsatz Einzelbewertung · Durchschnitt · 2 Min. · § 240 Abs. 4 HGB · Festwert · 2 Min. · § 240 Abs. 3 HGB · Lifo · 4 Min. · § 6 Abs. 1 Nr. 2a EStG · Schluss · 1 Min. · Teilwert als Grenze · Am Ende: § 6 EStG, § 240 HGB markiert"
+    },
+    {
+      "art": "text",
+      "titel": "Bilanzsteuerrecht",
+      "text": "Einstieg · Grundsatz: Jeder Vermögensgegenstand wird einzeln bewertet. · § 252 Abs. 1 Nr. 3 HGB · Bei Massenvorräten kaum machbar: Das Gesetz lässt Vereinfachungen zu. · Leitfrage: Welche gilt auch in der Steuerbilanz? · Ich bin Malte."
+    },
+    {
+      "art": "text",
+      "titel": "Bilanzsteuerrecht",
+      "text": "Hauptteil 1: Schnitt und Festwert · Gleichartige Vorräte: gewogener Durchschnitt. · § 240 Abs. 4 HGB · Festwert: regelmäßig ersetzt, Gesamtwert nachrangig, Bestand kaum schwankend. · § 240 Abs. 3 S. 1 HGB · In der Regel alle drei Jahre körperlich aufnehmen. · § 240 Abs. 3 S. 2 HGB · Zwei Minuten."
+    },
+    {
+      "art": "text",
+      "titel": "Bilanzsteuerrecht",
+      "text": "Hauptteil 2: Lifo · Steuerlich ist nur Lifo als Verbrauchsfolge erlaubt, Fifo nicht. · § 6 Abs. 1 Nr. 2a S. 1 EStG · Voraussetzung: Bilanzierung nach § 5 EStG, gleichartige Vorräte. · Zurück nur mit Zustimmung des Finanzamts. · § 6 Abs. 1 Nr. 2a S. 3 EStG · Kernstück!"
+    },
+    {
+      "art": "text",
+      "titel": "Bilanzsteuerrecht",
+      "text": "Beispiel: 150 kg am Stichtag · § 6 Abs. 1 Nr. 2a EStG · § 240 Abs. 4 HGB · Anfang 100 kg × 4 € · 400 € · Zugang 200 kg × 5 € · 1.000 € · Lifo für 150 kg · 650 € · Durchschnitt · 700 € · Lifo: 100 kg alt + 50 kg neu"
+    },
+    {
+      "art": "text",
+      "titel": "Bilanzsteuerrecht",
+      "text": "Typische Nachfragen · „Muss Lifo zur echten Abgangsfolge passen?“ Nein. · BMF vom 12.05.2015, Rn. 5 · „Und bei verderblicher Ware?“ Dann nicht zulässig. · BMF vom 12.05.2015, Rn. 9 · „Teilwert gesunken?“ Abschreiben nur bei dauernder Minderung. · § 6 Abs. 1 Nr. 2 S. 2 EStG · Bereit!"
+    },
+    {
+      "art": "text",
+      "titel": "Bilanzsteuerrecht",
+      "text": "Schlusssatz: steuerlich Lifo, nicht Fifo · Durchschnitt und Festwert über die Maßgeblichkeit · Einzeln ist die Regel, · Schnitt und Festwert, · steuerlich nur Lifo. · Speichern für die Mündliche · Wo hakt dein Vortrag? · Weiterwischen: § 6 EStG, § 240 HGB markiert"
+    },
+    {
+      "art": "text",
+      "titel": "Bilanzsteuerrecht",
+      "text": "§ 6 Abs. 1 Nr. 2a EStG · nur Bilanzierer · gleichartig · Lifo · Bindung · Weiterwischen: § 240 Abs. 3, 4 HGB · Festwert und Durchschnitt"
+    },
+    {
+      "art": "text",
+      "titel": "Bilanzsteuerrecht",
+      "text": "§ 240 HGB Inventar (Auszug) · Voraussetzung · Festwert · Inventur · Durchschnitt · Lifo 650 € oder Durchschnitt 700 € · beides auch in der Steuerbilanz"
+    }
+  ]
+}

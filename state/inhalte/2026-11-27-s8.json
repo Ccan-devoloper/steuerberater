@@ -1,0 +1,43 @@
+{
+  "slot": "s8",
+  "art": "tipp",
+  "fach": "bilanz",
+  "klausur": 3,
+  "fachLabel": "Bilanzsteuerrecht",
+  "themaId": "bilanz-glossar-21",
+  "beitragSlot": null,
+  "quellen": null,
+  "titel": [
+    "Nach der Prüfung:",
+    "Bilanz anpassen"
+  ],
+  "punkte": [
+    [
+      "Steuerbilanz: Kapital zum 1.1. erfolgsneutral angleichen.",
+      "ok",
+      "§ 4 Abs. 1 S. 1 EStG"
+    ],
+    [
+      "Handelsbilanz: Korrektur im laufenden Jahr, mit Wirkung auf den Gewinn.",
+      "warn",
+      null
+    ]
+  ],
+  "icon": "tabler:refresh",
+  "iconFarbe": "GELB",
+  "sichtbareTexte": [
+    "Bilanzsteuerrecht",
+    "Klausurtipp",
+    "Nach der Prüfung:",
+    "Bilanz anpassen",
+    "Steuerbilanz: Kapital zum 1.1. erfolgsneutral angleichen.",
+    "§ 4 Abs. 1 S. 1 EStG",
+    "Handelsbilanz: Korrektur im laufenden Jahr, mit Wirkung auf den Gewinn."
+  ],
+  "renderer": "open-peeps-v4",
+  "bildStatus": "open-peeps-render",
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "liveVorrangAktiv": true,
+  "regelGeprueft": true
+}

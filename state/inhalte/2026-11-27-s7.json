@@ -1,0 +1,48 @@
+{
+  "slot": "s7",
+  "art": "tipp",
+  "fach": null,
+  "klausur": 0,
+  "fachLabel": "Klausurtechnik",
+  "themaId": null,
+  "beitragSlot": null,
+  "quellen": null,
+  "titel": [
+    "Probeklausur:",
+    "echte Bedingungen"
+  ],
+  "punkte": [
+    [
+      "Sechs Stunden am Stück, Handy weg.",
+      "ok",
+      null
+    ],
+    [
+      "Nur die erlaubten Hilfsmittel.",
+      "ok",
+      null
+    ],
+    [
+      "Direkt danach Fehler notieren.",
+      "ok",
+      null
+    ]
+  ],
+  "icon": "tabler:hourglass",
+  "iconFarbe": "GELB",
+  "sichtbareTexte": [
+    "Klausurtechnik",
+    "Klausurtipp",
+    "Probeklausur:",
+    "echte Bedingungen",
+    "Sechs Stunden am Stück, Handy weg.",
+    "Nur die erlaubten Hilfsmittel.",
+    "Direkt danach Fehler notieren."
+  ],
+  "renderer": "open-peeps-v4",
+  "bildStatus": "open-peeps-render",
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "liveVorrangAktiv": true,
+  "regelGeprueft": true
+}

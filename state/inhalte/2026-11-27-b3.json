@@ -1,0 +1,62 @@
+{
+  "format": "reel",
+  "fach": "ao",
+  "klausur": 1,
+  "fachLabel": "Abgabenordnung",
+  "themaId": "ao-modul-ao-367",
+  "caption": "Ohne Mahnung keine Vollstreckung? Ein Klassiker im Prüfungsstoff Erhebungsverfahren. ⚖️\n\n▸ Die Vollstreckung darf beginnen, wenn die Leistung fällig ist, ein Leistungsgebot ergangen ist und seit der Aufforderung mindestens eine Woche verstrichen ist; das Leistungsgebot kann mit dem Bescheid verbunden werden (§ 254 Abs. 1 S. 1, 2 AO).\n▸ Eine Abschlusszahlung zur Einkommensteuer ist innerhalb eines Monats nach Bekanntgabe des Bescheids zu entrichten (§ 36 Abs. 4 S. 1 EStG).\n▸ Beispiel: Bekanntgabe am 02.03.2027, fällig am 02.04.2027, Vollstreckung frühestens ab 03.04.2027.\n▸ Die Mahnung mit Wochenfrist ist nur eine Sollvorschrift (§ 259 S. 1 AO). Vollstreckungsmaßnahmen sind nicht deshalb unzulässig, weil sie unterblieben ist (Abschn. 19 Abs. 3 VollstrA).\n▸ Erst danach prüfst du die konkrete Maßnahme, etwa die Pfändung.\n\nSpeichern für Klausur 1 📌",
+  "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#abgabenordnung"
+  ],
+  "quellen": [
+    "§ 254 Abs. 1 S. 1, 2 AO",
+    "§ 259 S. 1 AO",
+    "§ 36 Abs. 4 S. 1 EStG",
+    "Abschn. 19 Abs. 3 VollstrA"
+  ],
+  "slug": "2026-11-27-b3",
+  "kurztitel": "Vollstreckung: allgemeine Voraussetzungen und konkrete Vollstreckungsmaßnahme",
+  "regelGeprueft": true,
+  "manuellGeprueft": false,
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "textProviderKostenUsd": 0,
+  "faktencheckProviderKostenUsd": 0,
+  "bildStatus": "open-peeps-render",
+  "renderer": "open-peeps-v4",
+  "liveVorrangAktiv": true,
+  "bild": "op-cover",
+  "reelTyp": "rechnung",
+  "hookStil": "kippen",
+  "coverBadge": "Reel",
+  "szenen": [
+    {
+      "art": "hook",
+      "titel": "Ohne Mahnung keine Pfändung?"
+    },
+    {
+      "art": "schritt",
+      "titel": "Die Daten"
+    },
+    {
+      "art": "schritt",
+      "titel": "Die Voraussetzungen"
+    },
+    {
+      "art": "schritt",
+      "titel": "Das Ergebnis"
+    }
+  ],
+  "sprecher": [
+    "Ohne Mahnung keine Vollstreckung? Falsch. Die Mahnung ist nur eine Sollvorschrift.",
+    "Simons Bescheid mit Leistungsgebot gilt am zweiten März als bekannt gegeben. Die Nachzahlung ist einen Monat später fällig, am zweiten April.",
+    "Vollstreckt werden darf, wenn die Steuer fällig ist und seit dem Leistungsgebot mindestens eine Woche vergangen ist.",
+    "Also ab dem dritten April. Eine Mahnung soll vorher kommen. Fehlt sie, bleibt die Pfändung trotzdem zulässig.",
+    "Merke: fällig, Leistungsgebot, eine Woche. Die Mahnung ist kein Muss."
+  ],
+  "dauerS": 37.894,
+  "tempo": 1
+}

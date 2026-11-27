@@ -1,0 +1,37 @@
+{
+  "slot": "s4",
+  "art": "frage",
+  "fach": "ao",
+  "klausur": 1,
+  "fachLabel": "Abgabenordnung",
+  "themaId": null,
+  "beitragSlot": null,
+  "quellen": null,
+  "frage": [
+    "Freitag, 5. März 2027:",
+    "Bescheid zur Post.",
+    "Bekanntgabe?"
+  ],
+  "optionen": [
+    "Montag, 8. März",
+    "Dienstag, 9. März",
+    "Mittwoch, 10. März"
+  ],
+  "sichtbareTexte": [
+    "Abgabenordnung",
+    "Prüfungsfrage",
+    "Freitag, 5. März 2027:",
+    "Bescheid zur Post.",
+    "Bekanntgabe?",
+    "Montag, 8. März",
+    "Dienstag, 9. März",
+    "Mittwoch, 10. März",
+    "Auflösung in der nächsten Story"
+  ],
+  "renderer": "open-peeps-v4",
+  "bildStatus": "open-peeps-render",
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "liveVorrangAktiv": true,
+  "regelGeprueft": true
+}

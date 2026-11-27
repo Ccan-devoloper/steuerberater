@@ -1,0 +1,39 @@
+{
+  "slot": "s5",
+  "art": "antwort",
+  "fach": "ao",
+  "klausur": 1,
+  "fachLabel": "Abgabenordnung",
+  "themaId": null,
+  "beitragSlot": null,
+  "quellen": null,
+  "titel": [
+    "B: Dienstag,",
+    "9. März"
+  ],
+  "optionen": [
+    "Montag, 8. März",
+    "Dienstag, 9. März",
+    "Mittwoch, 10. März"
+  ],
+  "richtig": 1,
+  "text": "Seit 2025 gilt der vierte Tag nach Aufgabe zur Post.",
+  "norm": "§ 122 Abs. 2 Nr. 1 AO",
+  "sichtbareTexte": [
+    "Abgabenordnung",
+    "Auflösung",
+    "B: Dienstag,",
+    "9. März",
+    "Montag, 8. März",
+    "Dienstag, 9. März",
+    "Mittwoch, 10. März",
+    "Seit 2025 gilt der vierte Tag nach Aufgabe zur Post.",
+    "§ 122 Abs. 2 Nr. 1 AO"
+  ],
+  "renderer": "open-peeps-v4",
+  "bildStatus": "open-peeps-render",
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "liveVorrangAktiv": true,
+  "regelGeprueft": true
+}

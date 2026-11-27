@@ -1,0 +1,44 @@
+{
+  "slot": "s6",
+  "art": "norm",
+  "fach": "kst",
+  "klausur": 2,
+  "fachLabel": "Körperschaftsteuer",
+  "themaId": "kst-modul-kst-10",
+  "beitragSlot": null,
+  "quellen": null,
+  "titel": [
+    "Anteilskauf:",
+    "Verlust weg?"
+  ],
+  "norm": "§ 8c Abs. 1 S. 1 KStG",
+  "punkte": [
+    [
+      "Über 50 % in fünf Jahren an einen Erwerber: Verlust geht unter.",
+      "nein",
+      "§ 8c Abs. 1 S. 1 KStG"
+    ],
+    [
+      "Auswege: stille Reserven oder Antrag nach § 8d.",
+      "ok",
+      "§ 8c Abs. 1 S. 5, § 8d Abs. 1 KStG"
+    ]
+  ],
+  "sichtbareTexte": [
+    "Körperschaftsteuer",
+    "Norm des Tages",
+    "Anteilskauf:",
+    "Verlust weg?",
+    "§ 8c Abs. 1 S. 1 KStG",
+    "Über 50 % in fünf Jahren an einen Erwerber: Verlust geht unter.",
+    "§ 8c Abs. 1 S. 1 KStG",
+    "Auswege: stille Reserven oder Antrag nach § 8d.",
+    "§ 8c Abs. 1 S. 5, § 8d Abs. 1 KStG"
+  ],
+  "renderer": "open-peeps-v4",
+  "bildStatus": "open-peeps-render",
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "liveVorrangAktiv": true,
+  "regelGeprueft": true
+}
