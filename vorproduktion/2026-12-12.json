@@ -1,0 +1,709 @@
+{
+  "datum": "2026-12-12",
+  "status": "vorproduziert",
+  "freigabeBetreiber": true,
+  "liveVerknuepft": false,
+  "vorproduktionStatus": "live-freigegeben",
+  "layoutQuelle": "open-peeps-variante-c",
+  "semantikQuelle": "examenscampus",
+  "liveVorrangAktiv": true,
+  "normalbetriebGesperrt": true,
+  "bildStatus": "open-peeps-render",
+  "kostenPolicy": {
+    "textUndFaktencheckUsd": 0,
+    "bildgenerierungUsd": 0,
+    "providerKostenUsd": 0,
+    "coverbilder": false,
+    "bildgenerierungErlaubt": false,
+    "reelStimme": "elevenlabs-abo"
+  },
+  "plan": {
+    "beitraege": [
+      {
+        "slot": "b1",
+        "zeit": "08:30",
+        "format": "klausurtechnik",
+        "themaId": "klausurtechnik-k2-2026-50",
+        "themaTitel": "Tag 2: die Ertragsteuer-Klausur zeitlich planen",
+        "fach": "est",
+        "klausur": 2
+      },
+      {
+        "slot": "b2",
+        "zeit": "13:30",
+        "format": "rechenweg",
+        "themaId": "persg-aufb-persg-melzer-1-3",
+        "themaTitel": "Wann wird ein vermietetes Grundstück Sonderbetriebsvermögen I?",
+        "fach": "persg",
+        "klausur": 3
+      },
+      {
+        "slot": "b3",
+        "zeit": "19:00",
+        "format": "reel",
+        "themaId": "erbst-aufb-erbst-t1-4",
+        "themaTitel": "Freigebige Zuwendung: Wann ist eine Schenkung steuerpflichtig?",
+        "fach": "erbst",
+        "klausur": 1
+      }
+    ],
+    "stories": [
+      {
+        "slot": "s4",
+        "zeit": "07:07",
+        "art": "frage",
+        "themaId": "ust-quiz-ust-11"
+      },
+      {
+        "slot": "s5",
+        "zeit": "07:09",
+        "art": "antwort",
+        "themaId": "ust-quiz-ust-11"
+      },
+      {
+        "slot": "s1",
+        "zeit": "08:30",
+        "art": "teaser",
+        "beitragSlot": "b1"
+      },
+      {
+        "slot": "s6",
+        "zeit": "12:14",
+        "art": "norm",
+        "themaId": "gewst-aufb-gewst-ks-05"
+      },
+      {
+        "slot": "s2",
+        "zeit": "13:30",
+        "art": "teaser",
+        "beitragSlot": "b2"
+      },
+      {
+        "slot": "s7",
+        "zeit": "14:40",
+        "art": "tipp"
+      },
+      {
+        "slot": "s8",
+        "zeit": "17:04",
+        "art": "tipp",
+        "themaId": "persg-karte-k3-26"
+      },
+      {
+        "slot": "s3",
+        "zeit": "19:00",
+        "art": "teaser",
+        "beitragSlot": "b3"
+      },
+      {
+        "slot": "s9",
+        "zeit": "19:12",
+        "art": "merksatz",
+        "themaId": "ao-aufb-ao-jacobs-6-9"
+      }
+    ]
+  },
+  "inhalte": {
+    "b1": {
+      "format": "klausurtechnik",
+      "fach": "est",
+      "klausur": 2,
+      "fachLabel": "Ertragsteuern",
+      "themaId": "klausurtechnik-k2-2026-50",
+      "caption": "Klausurtechnik für Tag 2: die Ertragsteuer-Klausur zeitlich planen.\n\n1. Sichten: alle Teile überfliegen, Punkte notieren, Verknüpfungen zwischen den Teilen markieren.\n2. Zeitplan: Die Bearbeitungszeit beträgt höchstens sechs Stunden (§ 18 Abs. 1 S. 3 DVStB). Beispiel: 360 Minuten minus 30 Minuten für Sichten und Reserve; ein Teil mit 40 % der Punkte bekommt rund 132 Minuten.\n3. Bearbeiten: sichere Teile zuerst, je Teilfrage Ergebnis, Norm und kurze Begründung; bei Unklarheit eine Annahme offenlegen und weiterrechnen.\n4. Schluss: offene Teile wenigstens mit Ergebnis und Norm füllen. Abgegeben wird auch eine unvollendete Arbeit (§ 20 Abs. 2 S. 1 DVStB).\n\nWarum das zählt: Aus den Aufsichtsarbeiten wird eine Gesamtnote gebildet; liegt sie über 4,5, ist die mündliche Prüfung ausgeschlossen (§ 25 Abs. 1, 2 DVStB).\n\nZum Schluss: DVStB zum Markieren. Speichern für Klausur 2 📌",
+      "hashtags": [
+        "#steuerberaterexamen",
+        "#steuerberaterprüfung",
+        "#examensvorbereitung",
+        "#ertragsteuern"
+      ],
+      "quellen": [
+        "§ 18 Abs. 1 S. 2, 3 DVStB",
+        "§ 20 Abs. 2 S. 1 DVStB",
+        "§ 25 Abs. 1, 2 DVStB"
+      ],
+      "slug": "2026-12-12-b1",
+      "kurztitel": "Tag 2: die Ertragsteuer-Klausur zeitlich planen",
+      "regelGeprueft": true,
+      "manuellGeprueft": false,
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "open-peeps-render",
+      "renderer": "open-peeps-v4",
+      "liveVorrangAktiv": true,
+      "coverBadge": "Klausurtechnik",
+      "folien": [
+        {
+          "art": "titel",
+          "titel": "Klausurtechnik",
+          "text": "Klausurtechnik · Tag 2: · Zeit planen · § 18 Abs. 1 S. 3 DVStB · Strategie · + Markier-Guide DVStB",
+          "bild": "op-cover"
+        },
+        {
+          "art": "text",
+          "titel": "Ertragsteuern",
+          "text": "Der Plan für Tag 2 · Sichten · Teile und Punkte erfassen · Zeitplan · Minuten nach Punkten verteilen · Bearbeiten · Sicheres zuerst, Annahmen statt Stillstand · Schluss · Lücken mit Ergebnis und Norm füllen · Am Ende: DVStB markiert"
+        },
+        {
+          "art": "text",
+          "titel": "Ertragsteuern",
+          "text": "1 · Sichten statt losschreiben · Alle Teile überfliegen, bevor du schreibst. · Punkte je Teil notieren, soweit angegeben. · Verknüpfungen markieren: Ergebnisse eines Teils braucht oft ein anderer. · Erst lesen, dann los."
+        },
+        {
+          "art": "text",
+          "titel": "Ertragsteuern",
+          "text": "2 · Zeit nach Punkten · § 18 Abs. 1 S. 3 DVStB · Bei sechs Stunden · 360 Min. · − Sichten und Reserve · 30 Min. · Teil mit 40 % der Punkte · 132 Min. · Uhrzeit notieren!"
+        },
+        {
+          "art": "text",
+          "titel": "Ertragsteuern",
+          "text": "3 · Sichere Punkte zuerst · Mit dem Teil beginnen, der dir am besten liegt. · Je Teilfrage: Ergebnis, Norm, kurze Begründung. · Etwas hängt? Annahme offenlegen, weiterrechnen, Folgepunkte sichern. · Nicht festbeißen."
+        },
+        {
+          "art": "text",
+          "titel": "Ertragsteuern",
+          "text": "4 · Die letzten Minuten · Offene Teile: wenigstens Ergebnis und Norm hinschreiben. · Abgabe ist Pflicht, auch unvollendet. · § 20 Abs. 2 S. 1 DVStB · Nichts Neues anfangen, das du nicht beenden kannst. · Noch 15 Minuten!"
+        },
+        {
+          "art": "text",
+          "titel": "Ertragsteuern",
+          "text": "Warum jeder Teil zählt · Aus den drei Arbeiten wird eine Gesamtnote gebildet. · § 25 Abs. 1 DVStB · Liegt sie über 4,5, ist die mündliche Prüfung ausgeschlossen. · § 25 Abs. 2 DVStB · Jeder Punkt in einem leeren Teil fehlt am Ende. · Kein Teil bleibt leer."
+        },
+        {
+          "art": "text",
+          "titel": "Ertragsteuern",
+          "text": "Sichten, Zeit nach Punkten, Reserve am Ende · Kein Teil bleibt leer · Sichten, dann planen, · Sicheres zuerst, · Annahmen statt Stillstand, · nichts leer lassen. · Speichern für Klausur 2 · Wo verlierst du die meiste Zeit? · Weiterwischen: DVStB markiert"
+        },
+        {
+          "art": "text",
+          "titel": "Ertragsteuern",
+          "text": "§§ 18, 20, 25 DVStB (Auszug) · Zeitrahmen · trotzdem abgeben · Grenze 4,5 · Randnotiz: § 18 Abs. 1 S. 2 DVStB · Hilfsmittel und Zeit legt die Behörde fest"
+        }
+      ]
+    },
+    "b2": {
+      "format": "rechenweg",
+      "fach": "persg",
+      "klausur": 3,
+      "fachLabel": "Personengesellschaften",
+      "themaId": "persg-aufb-persg-melzer-1-3",
+      "caption": "Vermietetes Grundstück an die eigene KG: Sonderbetriebsvermögen I, Einlage und AfA. Der Rechenweg für Klausur 3.\n\n1. Ein Wirtschaftsgut, das einem Mitunternehmer gehört und dem Betrieb der Gesellschaft unmittelbar dient, ist Sonderbetriebsvermögen I (R 4.2 Abs. 2 S. 2 EStR). Die Miete ist Sondervergütung (§ 15 Abs. 1 S. 1 Nr. 2 EStG).\n2. Der Wechsel aus dem Privatvermögen ist eine Einlage (§ 4 Abs. 1 S. 8 EStG), bewertet mit dem Teilwert; bei Anschaffung innerhalb der letzten drei Jahre höchstens mit den um die AfA gekürzten Anschaffungskosten (§ 6 Abs. 1 Nr. 5 S. 1 Buchst. a, S. 2 EStG).\n3. War das Gebäude vorher vermietet, mindert sich der Einlagewert für die weitere AfA um die bisher abgezogene AfA, höchstens bis zu den fortgeführten Anschaffungskosten (§ 7 Abs. 1 S. 5 EStG).\n4. Betriebsgebäude, nicht zu Wohnzwecken, Bauantrag nach dem 31.03.1985: 3 % (§ 7 Abs. 4 S. 1 Nr. 1 EStG).\n\nBeispiel: 560.000 € − 100.000 € = 460.000 € × 3 % = 13.800 €. Variante mit Kauf 2024: Einlage 480.000 €, keine weitere Kürzung, AfA 14.400 €.\n\nZum Schluss: §§ 6, 7 EStG und R 4.2 EStR zum Markieren. Speichern für Klausur 3 📌",
+      "hashtags": [
+        "#steuerberaterexamen",
+        "#steuerberaterprüfung",
+        "#examensvorbereitung",
+        "#personengesellschaften"
+      ],
+      "quellen": [
+        "R 4.2 Abs. 2 S. 2 EStR",
+        "§ 4 Abs. 1 S. 8 EStG",
+        "§ 6 Abs. 1 Nr. 5 S. 1, 2 EStG",
+        "§ 7 Abs. 1 S. 5 EStG",
+        "§ 7 Abs. 4 S. 1 Nr. 1 EStG",
+        "§ 15 Abs. 1 S. 1 Nr. 2 EStG"
+      ],
+      "slug": "2026-12-12-b2",
+      "kurztitel": "Wann wird ein vermietetes Grundstück Sonderbetriebsvermögen I?",
+      "regelGeprueft": true,
+      "manuellGeprueft": false,
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "open-peeps-render",
+      "renderer": "open-peeps-v4",
+      "liveVorrangAktiv": true,
+      "coverBadge": "Rechenweg",
+      "folien": [
+        {
+          "art": "titel",
+          "titel": "Rechenweg",
+          "text": "Rechenweg · Büro an · die eigene KG · § 7 Abs. 1 S. 5 EStG · mit Zahlen · + Markier-Guide §§ 6, 7 + R 4.2 · AfA nach Einlage · 13.800 € · nicht 16.800 €",
+          "bild": "op-cover"
+        },
+        {
+          "art": "text",
+          "titel": "Personengesellschaften",
+          "text": "Der Rechenweg · Sonderbetriebsvermögen I? · R 4.2 Abs. 2 S. 2 EStR · dient der KG unmittelbar · Einlage bewerten · § 6 Abs. 1 Nr. 5 EStG · Teilwert, Dreijahresgrenze · AfA-Basis kürzen · § 7 Abs. 1 S. 5 EStG · um bisherige AfA · AfA-Satz · § 7 Abs. 4 S. 1 Nr. 1 EStG · 3 % für Betriebsgebäude · Am Ende: §§ 6, 7 EStG + R 4.2 markiert"
+        },
+        {
+          "art": "text",
+          "titel": "Personengesellschaften",
+          "text": "Der Fall · Ben, Kommanditist der Feldlerche KG, kaufte 2016 privat ein Bürogebäude (ohne Boden) für 500.000 €. · Bis 2025 fremdvermietet, zehn Jahre je 10.000 € AfA. · Ab 2026 mietet die KG. Teilwert Gebäude: 560.000 €. AfA 2026? · Ich bin Ben."
+        },
+        {
+          "art": "text",
+          "titel": "Personengesellschaften",
+          "text": "1 · Sonderbetriebsvermögen I · Es gehört einem Mitunternehmer und dient der KG unmittelbar. · R 4.2 Abs. 2 S. 2 EStR · Die Miete wird Sondervergütung, Bens Kosten Sonderbetriebsausgaben. · § 15 Abs. 1 S. 1 Nr. 2 EStG · Vom Privatvermögen ins SBV: eine Einlage. · § 4 Abs. 1 S. 8 EStG · Jetzt betrieblich."
+        },
+        {
+          "art": "text",
+          "titel": "Personengesellschaften",
+          "text": "2 · Einlagewert · § 6 Abs. 1 Nr. 5 S. 1 EStG · Kauf binnen drei Jahren? · nein · Einlage zum Teilwert · 560.000 € · Teilwert zählt."
+        },
+        {
+          "art": "text",
+          "titel": "Personengesellschaften",
+          "text": "3–4 · AfA-Basis, AfA 2026 · § 7 Abs. 1 S. 5 EStG · § 7 Abs. 4 S. 1 Nr. 1 EStG · Einlagewert · 560.000 € · − AfA 2016 bis 2025 · 100.000 € · AfA-Basis · 460.000 € · × 3 % = AfA 2026 · 13.800 € · Nicht 560.000 €?"
+        },
+        {
+          "art": "text",
+          "titel": "Personengesellschaften",
+          "text": "Jetzt du · Variante: Ben erwarb das Gebäude erst Anfang 2024 für 500.000 €, bisher 2 × 10.000 € AfA. · Teilwert am 01.01.2026: 560.000 €. · Einlagewert und AfA 2026? · Drei Jahre?"
+        },
+        {
+          "art": "text",
+          "titel": "Personengesellschaften",
+          "text": "Lösung · § 6 Abs. 1 Nr. 5 S. 1, 2 EStG · § 7 Abs. 1 S. 5 EStG · Einlage: 500.000 € − 20.000 € · 480.000 € · Kürzung unter 480.000 €? · nein · AfA 3 % von 480.000 € · 14.400 € · Die Untergrenze greift."
+        },
+        {
+          "art": "text",
+          "titel": "Personengesellschaften",
+          "text": "Einlagewert − bisherige AfA = AfA-Basis · nie unter die fortgeführten Anschaffungskosten · SBV I erkennen, · Einlage bewerten, · AfA-Basis kürzen, · 3 % ansetzen. · Speichern für Klausur 3 · Hättest du die Basis gekürzt? · Weiterwischen: §§ 6, 7 + R 4.2 markiert"
+        },
+        {
+          "art": "text",
+          "titel": "Personengesellschaften",
+          "text": "§§ 6, 7 EStG (Auszug) · Ben: 560.000 € · Variante 2024 · AfA abziehen · Untergrenze · R 4.2 Abs. 2 EStR (Auszug) · Büro an die KG · SBV I · Ben: 560.000 € − 100.000 € · AfA 3 % von 460.000 € = 13.800 €"
+        }
+      ]
+    },
+    "b3": {
+      "format": "reel",
+      "fach": "erbst",
+      "klausur": 1,
+      "fachLabel": "Erbschaftsteuer",
+      "themaId": "erbst-aufb-erbst-t1-4",
+      "caption": "Schenkung nur, wenn beide sich einig sind? Zivilrecht und Steuerrecht im Gegensatz 🎁\n\n▸ Zivilrecht: Schenkung setzt voraus, dass beide Teile über die Unentgeltlichkeit einig sind (§ 516 Abs. 1 BGB).\n▸ Steuerrecht: Als Schenkung gilt jede freigebige Zuwendung unter Lebenden, soweit der Bedachte auf Kosten des Zuwendenden bereichert wird (§ 7 Abs. 1 Nr. 1 ErbStG). Eine Einigung über die Unentgeltlichkeit ist nicht nötig; subjektiv genügt der Wille des Zuwendenden zur Unentgeltlichkeit (R E 7.1 Abs. 1 ErbStR).\n▸ Auch die Befreiung von einer Schuld bereichert den Empfänger, selbst wenn er davon nichts weiß.\n\nSpeichern für Klausur 1 📌",
+      "hashtags": [
+        "#steuerberaterexamen",
+        "#steuerberaterprüfung",
+        "#examensvorbereitung",
+        "#erbschaftsteuer"
+      ],
+      "quellen": [
+        "§ 516 Abs. 1 BGB",
+        "§ 7 Abs. 1 Nr. 1 ErbStG",
+        "R E 7.1 Abs. 1 ErbStR"
+      ],
+      "slug": "2026-12-12-b3",
+      "kurztitel": "Freigebige Zuwendung: Wann ist eine Schenkung steuerpflichtig?",
+      "regelGeprueft": true,
+      "manuellGeprueft": false,
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "open-peeps-render",
+      "renderer": "open-peeps-v4",
+      "liveVorrangAktiv": true,
+      "bild": "op-cover",
+      "reelTyp": "gegensatz",
+      "hookStil": "kippen",
+      "coverBadge": "Reel",
+      "szenen": [
+        {
+          "art": "hook",
+          "titel": "Schenkung nur, wenn beide wollen?"
+        },
+        {
+          "art": "schritt",
+          "titel": "Zivilrecht"
+        },
+        {
+          "art": "schritt",
+          "titel": "Steuerrecht"
+        },
+        {
+          "art": "schritt",
+          "titel": "Der Fall"
+        }
+      ],
+      "sprecher": [
+        "Schenkung nur, wenn beide wollen? Falsch! Der Wille des Gebers reicht, jedenfalls steuerlich.",
+        "Im Zivilrecht braucht die Schenkung Einigkeit: Beide wissen, dass die Zuwendung unentgeltlich ist.",
+        "Das Steuerrecht ist weiter. Der Empfänger ist auf Kosten des Gebers bereichert, und der Geber will unentgeltlich leisten. Mehr braucht es nicht.",
+        "Opa Ewald tilgt heimlich Linas Studienkredit. Lina ahnt nichts. Trotzdem eine steuerbare Schenkung.",
+        "Merke: Zivilrecht braucht beide, Steuerrecht nur den Geber."
+      ],
+      "dauerS": 36.594,
+      "tempo": 1.0
+    },
+    "s4": {
+      "slot": "s4",
+      "art": "frage",
+      "fach": "ust",
+      "klausur": 1,
+      "fachLabel": "Umsatzsteuer",
+      "themaId": "ust-quiz-ust-11",
+      "beitragSlot": null,
+      "quellen": null,
+      "frage": [
+        "Vorsteuerabzug:",
+        "Was brauchst du?"
+      ],
+      "optionen": [
+        "Leistung fürs Unternehmen und ordnungsgemäße Rechnung",
+        "Nur die bezahlte Rechnung",
+        "Erlaubnis vom Finanzamt"
+      ],
+      "pairId": "ust-quiz-ust-11",
+      "sichtbareTexte": [
+        "Umsatzsteuer",
+        "Prüfungsfrage",
+        "Vorsteuerabzug:",
+        "Was brauchst du?",
+        "Leistung fürs Unternehmen und ordnungsgemäße Rechnung",
+        "Nur die bezahlte Rechnung",
+        "Erlaubnis vom Finanzamt",
+        "Auflösung in der nächsten Story"
+      ],
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
+      "liveVorrangAktiv": true,
+      "regelGeprueft": true
+    },
+    "s5": {
+      "slot": "s5",
+      "art": "antwort",
+      "fach": "ust",
+      "klausur": 1,
+      "fachLabel": "Umsatzsteuer",
+      "themaId": "ust-quiz-ust-11",
+      "beitragSlot": null,
+      "quellen": null,
+      "titel": [
+        "A: Leistung und Rechnung"
+      ],
+      "optionen": [
+        "Leistung fürs Unternehmen und ordnungsgemäße Rechnung",
+        "Nur die bezahlte Rechnung",
+        "Erlaubnis vom Finanzamt"
+      ],
+      "richtig": 0,
+      "text": "Dazu: kein Ausschluss wegen steuerfreier Umsätze.",
+      "norm": "§ 15 Abs. 1 S. 1 Nr. 1, Abs. 2 UStG",
+      "pairId": "ust-quiz-ust-11",
+      "sichtbareTexte": [
+        "Umsatzsteuer",
+        "Auflösung",
+        "A: Leistung und Rechnung",
+        "Leistung fürs Unternehmen und ordnungsgemäße Rechnung",
+        "Nur die bezahlte Rechnung",
+        "Erlaubnis vom Finanzamt",
+        "Dazu: kein Ausschluss wegen steuerfreier Umsätze.",
+        "§ 15 Abs. 1 S. 1 Nr. 1, Abs. 2 UStG"
+      ],
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
+      "liveVorrangAktiv": true,
+      "regelGeprueft": true
+    },
+    "s1": {
+      "slot": "s1",
+      "art": "teaser",
+      "fach": "est",
+      "klausur": 2,
+      "fachLabel": "Ertragsteuern",
+      "themaId": null,
+      "beitragSlot": "b1",
+      "quellen": null,
+      "titel": [
+        "Tag 2: Zeit planen"
+      ],
+      "unter": "Klausurtechnik + Markier-Guide · im Profil",
+      "sichtbareTexte": [
+        "Ertragsteuern",
+        "Neu im Feed",
+        "Tag 2: Zeit planen",
+        "Klausurtechnik + Markier-Guide · im Profil"
+      ],
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
+      "liveVorrangAktiv": true,
+      "regelGeprueft": true
+    },
+    "s6": {
+      "slot": "s6",
+      "art": "norm",
+      "fach": "gewst",
+      "klausur": 2,
+      "fachLabel": "Gewerbesteuer",
+      "themaId": "gewst-aufb-gewst-ks-05",
+      "beitragSlot": null,
+      "quellen": null,
+      "titel": [
+        "Nur eigener",
+        "Grundbesitz?"
+      ],
+      "norm": "§ 9 Nr. 1 S. 2 GewStG",
+      "punkte": [
+        [
+          "Nur eigenen Grundbesitz verwalten: Ertrag daraus wird gekürzt.",
+          "ok",
+          "§ 9 Nr. 1 S. 2 GewStG"
+        ],
+        [
+          "Nicht, wenn er dem Betrieb eines Gesellschafters dient.",
+          "nein",
+          "§ 9 Nr. 1 S. 5 Nr. 1 GewStG"
+        ]
+      ],
+      "sichtbareTexte": [
+        "Gewerbesteuer",
+        "Norm des Tages",
+        "Nur eigener",
+        "Grundbesitz?",
+        "§ 9 Nr. 1 S. 2 GewStG",
+        "Nur eigenen Grundbesitz verwalten: Ertrag daraus wird gekürzt.",
+        "§ 9 Nr. 1 S. 2 GewStG",
+        "Nicht, wenn er dem Betrieb eines Gesellschafters dient.",
+        "§ 9 Nr. 1 S. 5 Nr. 1 GewStG"
+      ],
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
+      "liveVorrangAktiv": true,
+      "regelGeprueft": true
+    },
+    "s2": {
+      "slot": "s2",
+      "art": "teaser",
+      "fach": "persg",
+      "klausur": 3,
+      "fachLabel": "Personengesellschaften",
+      "themaId": null,
+      "beitragSlot": "b2",
+      "quellen": null,
+      "titel": [
+        "Büro an die eigene KG"
+      ],
+      "unter": "Rechenweg + Markier-Guide · im Profil",
+      "sichtbareTexte": [
+        "Personengesellschaften",
+        "Neu im Feed",
+        "Büro an die eigene KG",
+        "Rechenweg + Markier-Guide · im Profil"
+      ],
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
+      "liveVorrangAktiv": true,
+      "regelGeprueft": true
+    },
+    "s7": {
+      "slot": "s7",
+      "art": "tipp",
+      "fach": null,
+      "klausur": 0,
+      "fachLabel": "Klausurtechnik",
+      "themaId": null,
+      "beitragSlot": null,
+      "quellen": null,
+      "titel": [
+        "Normen",
+        "genau zitieren"
+      ],
+      "punkte": [
+        [
+          "Paragraf, Absatz, Satz, Nummer.",
+          "ok",
+          null
+        ],
+        [
+          "Zitat direkt an die Aussage.",
+          "ok",
+          null
+        ],
+        [
+          "Richtlinie nur, wo sie entscheidet.",
+          "ok",
+          null
+        ]
+      ],
+      "icon": "tabler:book",
+      "iconFarbe": "GELB",
+      "sichtbareTexte": [
+        "Klausurtechnik",
+        "Klausurtipp",
+        "Normen",
+        "genau zitieren",
+        "Paragraf, Absatz, Satz, Nummer.",
+        "Zitat direkt an die Aussage.",
+        "Richtlinie nur, wo sie entscheidet."
+      ],
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
+      "liveVorrangAktiv": true,
+      "regelGeprueft": true
+    },
+    "s8": {
+      "slot": "s8",
+      "art": "tipp",
+      "fach": "persg",
+      "klausur": 3,
+      "fachLabel": "Personengesellschaften",
+      "themaId": "persg-karte-k3-26",
+      "beitragSlot": null,
+      "quellen": null,
+      "titel": [
+        "Anteil verkauft:",
+        "der Gewinn"
+      ],
+      "punkte": [
+        [
+          "Preis − Kosten − Kapitalkonto.",
+          "ok",
+          "§ 16 Abs. 2 S. 1 EStG"
+        ],
+        [
+          "Kapital aus allen drei Bilanzen.",
+          "warn",
+          null
+        ]
+      ],
+      "icon": "tabler:calculator",
+      "iconFarbe": "GELB",
+      "sichtbareTexte": [
+        "Personengesellschaften",
+        "Klausurtipp",
+        "Anteil verkauft:",
+        "der Gewinn",
+        "Preis − Kosten − Kapitalkonto.",
+        "§ 16 Abs. 2 S. 1 EStG",
+        "Kapital aus allen drei Bilanzen."
+      ],
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
+      "liveVorrangAktiv": true,
+      "regelGeprueft": true
+    },
+    "s3": {
+      "slot": "s3",
+      "art": "teaser",
+      "fach": "erbst",
+      "klausur": 1,
+      "fachLabel": "Erbschaftsteuer",
+      "themaId": null,
+      "beitragSlot": "b3",
+      "quellen": null,
+      "titel": [
+        "Schenkung nur, wenn beide wollen?"
+      ],
+      "unter": "Neues Reel · im Profil",
+      "sichtbareTexte": [
+        "Erbschaftsteuer",
+        "Neu im Feed",
+        "Schenkung nur, wenn beide wollen?",
+        "Neues Reel · im Profil"
+      ],
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
+      "liveVorrangAktiv": true,
+      "regelGeprueft": true
+    },
+    "s9": {
+      "slot": "s9",
+      "art": "merksatz",
+      "fach": "ao",
+      "klausur": 1,
+      "fachLabel": "Abgabenordnung",
+      "themaId": "ao-aufb-ao-jacobs-6-9",
+      "beitragSlot": null,
+      "quellen": null,
+      "titel": [
+        "Antrag oder",
+        "Einspruch?"
+      ],
+      "zeilen": [
+        [
+          [
+            "Antrag",
+            "a"
+          ],
+          [
+            ": hemmt, soweit",
+            null
+          ]
+        ],
+        [
+          [
+            "er reicht. ",
+            null
+          ],
+          [
+            "Einspruch",
+            "b"
+          ],
+          [
+            ":",
+            null
+          ]
+        ],
+        [
+          [
+            "hemmt ",
+            null
+          ],
+          [
+            "alles",
+            "c"
+          ],
+          [
+            ".",
+            null
+          ]
+        ]
+      ],
+      "norm": "§ 171 Abs. 3, 3a AO",
+      "sichtbareTexte": [
+        "Abgabenordnung",
+        "Merksatz",
+        "Antrag oder",
+        "Einspruch?",
+        "Antrag: hemmt, soweit",
+        "er reicht. Einspruch:",
+        "hemmt alles.",
+        "§ 171 Abs. 3, 3a AO"
+      ],
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
+      "liveVorrangAktiv": true,
+      "regelGeprueft": true
+    }
+  },
+  "renderVorschau": {
+    "status": "fertig",
+    "erzeugtAm": "2026-11-28T08:58:14Z",
+    "pfad": "vorproduktion/2026-12-12/fertig",
+    "providerKostenUsd": 0,
+    "coverbilder": false,
+    "coverIcons": false,
+    "renderer": "open-peeps-v4",
+    "layoutQuelle": "open-peeps-variante-c",
+    "reelStimme": "elevenlabs-laura",
+    "sfx": "freesound-cc0",
+    "freigabeBetreiber": true,
+    "liveVorrangAktiv": true,
+    "normalbetriebGesperrt": true,
+    "wartetLive": []
+  }
+}
